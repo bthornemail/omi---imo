@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-canvas-port.archive-test-networkstatespec-hs)
+    (title "omi-canvas port: archive/test/NetworkStateSpec.hs")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/archive/test/NetworkStateSpec.hs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.archive-test-networkstatespec-hs)
+    (locator omi---imo.omi-canvas-port)
+    (binding hs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs artifact)
+    (us hs))
+  (source-artifact
+    (relative-path "archive/test/NetworkStateSpec.hs")
+    (extension ".hs")
+    (family artifact)
+    (bytes 1715)
+    (sha256 "4670345c04d5065242a2edd2977d93723a46964fb31c4710021f47b174c704dc"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

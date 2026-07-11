@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-port-port.docs-port-contract-md)
+    (title "omi-port port: docs/PORT_CONTRACT.md")
+    (kind omi-port.source-candidate)
+    (source "/home/main/omi/omi-port/docs/PORT_CONTRACT.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-port-port.docs-port-contract-md)
+    (locator omi---imo.omi-port-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-port)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/PORT_CONTRACT.md")
+    (extension ".md")
+    (family document)
+    (bytes 1141)
+    (sha256 "bc63db4a94dd427f9f0254e59dd38b26360ab93ae47abc26225041955bb2e422"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 42)
+    (title "OMI-Port Contract")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

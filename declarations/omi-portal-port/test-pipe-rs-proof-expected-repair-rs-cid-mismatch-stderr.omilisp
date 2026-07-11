@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.test-pipe-rs-proof-expected-repair-rs-cid-mismatch-stderr)
+    (title "omi-portal port: test/pipe-rs-proof/expected/repair-rs-cid-mismatch.stderr")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/test/pipe-rs-proof/expected/repair-rs-cid-mismatch.stderr")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.test-pipe-rs-proof-expected-repair-rs-cid-mismatch-stderr)
+    (locator omi---imo.omi-portal-port)
+    (binding stderr.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us stderr))
+  (source-artifact
+    (relative-path "test/pipe-rs-proof/expected/repair-rs-cid-mismatch.stderr")
+    (extension ".stderr")
+    (family artifact)
+    (bytes 206)
+    (sha256 "24bb616ec5e83bf2e4d2da37dfb09dda734711e20109c172554cfef3ec40a86b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.dev-portal-src-components-deterministicclockmenu-tsx)
+    (title "omi-portal port: dev-portal/src/components/DeterministicClockMenu.tsx")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/dev-portal/src/components/DeterministicClockMenu.tsx")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.dev-portal-src-components-deterministicclockmenu-tsx)
+    (locator omi---imo.omi-portal-port)
+    (binding tsx.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us tsx))
+  (source-artifact
+    (relative-path "dev-portal/src/components/DeterministicClockMenu.tsx")
+    (extension ".tsx")
+    (family artifact)
+    (bytes 8505)
+    (sha256 "1a9a07bca27fef3195027875c073030b8826677ed4a7dffefb481527bf469ed5"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

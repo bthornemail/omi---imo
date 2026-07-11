@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.dev-docs-archive-viewer-geometry-decoder-js)
+    (title "omi-tetragrammatron port: dev-docs/archive/viewer/geometry-decoder.js")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/dev-docs/archive/viewer/geometry-decoder.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.dev-docs-archive-viewer-geometry-decoder-js)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "dev-docs/archive/viewer/geometry-decoder.js")
+    (extension ".js")
+    (family code)
+    (bytes 7482)
+    (sha256 "831518d452d4e61c820cb1d661ff5e922825aae43bf13321c58f8e265d44dcbe"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 243)
+    (function-count 11)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

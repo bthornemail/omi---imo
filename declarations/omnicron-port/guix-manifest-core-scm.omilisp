@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.guix-manifest-core-scm)
+    (title "omnicron port: guix/manifest-core.scm")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/guix/manifest-core.scm")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.guix-manifest-core-scm)
+    (locator omi---imo.omnicron-port)
+    (binding scm.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs declaration)
+    (us scm))
+  (source-artifact
+    (relative-path "guix/manifest-core.scm")
+    (extension ".scm")
+    (family declaration)
+    (bytes 851)
+    (sha256 "ef6ff79b8b27c961ce14ba22f1595a7236f7757f87296e4c4712392ba5829e7c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 35)
+    (balanced-parens true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

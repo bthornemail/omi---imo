@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.archive-07-geometry-sexagesimal-system-md)
+    (title "omi-canon port: _archive/07-geometry/SEXAGESIMAL_SYSTEM.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/_archive/07-geometry/SEXAGESIMAL_SYSTEM.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.archive-07-geometry-sexagesimal-system-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "_archive/07-geometry/SEXAGESIMAL_SYSTEM.md")
+    (extension ".md")
+    (family document)
+    (bytes 2823)
+    (sha256 "ce20865a3e46ab2397d895d9a43c2d8940e62d04c89196f8b34d407c8bfb35fd"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 85)
+    (title "The Sexagesimal System: Base-60")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

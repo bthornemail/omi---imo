@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.test-pipe-mcrsgsp-expected-frag-basic-receipt)
+    (title "omi-portal port: test/pipe-mcrsgsp/expected/frag-basic.receipt")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/test/pipe-mcrsgsp/expected/frag-basic.receipt")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.test-pipe-mcrsgsp-expected-frag-basic-receipt)
+    (locator omi---imo.omi-portal-port)
+    (binding receipt.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us receipt))
+  (source-artifact
+    (relative-path "test/pipe-mcrsgsp/expected/frag-basic.receipt")
+    (extension ".receipt")
+    (family artifact)
+    (bytes 272)
+    (sha256 "98705ff0845daa3bbb1e04233e6806fd64db5402d9aed5aa6dddf9a05e7fdb76"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

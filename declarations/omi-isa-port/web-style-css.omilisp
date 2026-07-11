@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-isa-port.web-style-css)
+    (title "omi-isa port: web/style.css")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/web/style.css")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.web-style-css)
+    (locator omi---imo.omi-isa-port)
+    (binding css.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs artifact)
+    (us css))
+  (source-artifact
+    (relative-path "web/style.css")
+    (extension ".css")
+    (family artifact)
+    (bytes 9609)
+    (sha256 "b96b4921d76f70083f4987e77a1071d213859873d565abe246ebf3a00e43859c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

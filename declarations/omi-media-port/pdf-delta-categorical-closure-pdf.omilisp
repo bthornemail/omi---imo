@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.pdf-delta-categorical-closure-pdf)
+    (title "omi-media port: pdf/Delta_Categorical_Closure.pdf")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/pdf/Delta_Categorical_Closure.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.pdf-delta-categorical-closure-pdf)
+    (locator omi---imo.omi-media-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "pdf/Delta_Categorical_Closure.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 16788376)
+    (sha256 "8d920d71cd454bb5c027d0d9a19f9c72cf42c4ba770322e18ed29e24de5aa6bf"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

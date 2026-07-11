@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-sources-bootstrap-datalog-pl)
+    (title "omnicron port: logic/sources/bootstrap_datalog.pl")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/sources/bootstrap_datalog.pl")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-sources-bootstrap-datalog-pl)
+    (locator omi---imo.omnicron-port)
+    (binding pl.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs declaration)
+    (us pl))
+  (source-artifact
+    (relative-path "logic/sources/bootstrap_datalog.pl")
+    (extension ".pl")
+    (family declaration)
+    (bytes 13725)
+    (sha256 "ac40f064679521fe5590321cebfe59799d441a6332b5bd85edd2846e6f1f4767"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 445)
+    (balanced-parens true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

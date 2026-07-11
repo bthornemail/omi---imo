@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid mcrsgsp-port.src-node-js)
+    (title "MCRSGSP port: src/node.js")
+    (kind mcrsgsp.source-candidate)
+    (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/src/node.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr mcrsgsp-port.src-node-js)
+    (locator omi---imo.mcrsgsp-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs mcrsgsp)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "src/node.js")
+    (extension ".js")
+    (family code)
+    (bytes 3204)
+    (sha256 "2c632b9f7ae3295a7631ba625b44c3668a7226e9896414a663d06c17cfbb9024"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 99)
+    (function-count 0)
+    (export-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.constitutional-grid-algorithms-a2-control-plane-md)
+    (title "omi-canon port: constitutional-grid/algorithms/A2-control-plane.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/constitutional-grid/algorithms/A2-control-plane.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.constitutional-grid-algorithms-a2-control-plane-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "constitutional-grid/algorithms/A2-control-plane.md")
+    (extension ".md")
+    (family document)
+    (bytes 2733)
+    (sha256 "df2ac1e75acdd955440b5faf3ff9ba58f9f9840f3ecc90ef0f916149e638b475"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 52)
+    (title "A2 \u2014 Control-Plane Algorithm")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

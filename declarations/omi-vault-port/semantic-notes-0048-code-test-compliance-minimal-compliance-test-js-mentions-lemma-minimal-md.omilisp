@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-vault-port.semantic-notes-0048-code-test-compliance-minimal-compliance-test-js-mentions-lemma-minimal-md)
+    (title "omi-vault port: Semantic Notes/0048-code-test-compliance-minimal-compliance-test-js-mentions-lemma-minimal.md")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/Semantic Notes/0048-code-test-compliance-minimal-compliance-test-js-mentions-lemma-minimal.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.semantic-notes-0048-code-test-compliance-minimal-compliance-test-js-mentions-lemma-minimal-md)
+    (locator omi---imo.omi-vault-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "Semantic Notes/0048-code-test-compliance-minimal-compliance-test-js-mentions-lemma-minimal.md")
+    (extension ".md")
+    (family document)
+    (bytes 484)
+    (sha256 "c61a701f1d588c4f1d1ad729ce5926ad07319cb02cfd5eea9b59f0919d1bd9ae"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 21)
+    (title "code:test/compliance/minimal-compliance.test.js mentions lemma:minimal")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.png-omi-truth-row-routing-process-png)
+    (title "omi-media port: png/OMI_Truth_Row_Routing_Process.png")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/png/OMI_Truth_Row_Routing_Process.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.png-omi-truth-row-routing-process-png)
+    (locator omi---imo.omi-media-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "png/OMI_Truth_Row_Routing_Process.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 4320281)
+    (sha256 "9dbe42243e98da47536979c7994e6679c4dd2de0ad9dd52f9704f6edc6723c50"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

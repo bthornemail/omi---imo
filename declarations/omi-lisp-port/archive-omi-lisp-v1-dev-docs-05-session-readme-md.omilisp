@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-lisp-port.archive-omi-lisp-v1-dev-docs-05-session-readme-md)
+    (title "omi-lisp port: _archive/omi-lisp-v1/dev-docs/05-session/README.md")
+    (kind omi-lisp.source-candidate)
+    (source "/home/main/omi/omi-lisp/_archive/omi-lisp-v1/dev-docs/05-session/README.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-lisp-port.archive-omi-lisp-v1-dev-docs-05-session-readme-md)
+    (locator omi---imo.omi-lisp-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-lisp)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "_archive/omi-lisp-v1/dev-docs/05-session/README.md")
+    (extension ".md")
+    (family document)
+    (bytes 246)
+    (sha256 "9815c598a75e8ae64779ae49130ea3508cede476aef1d5465ffb3b0c8d8ad5dc"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 16)
+    (title "05-session/")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

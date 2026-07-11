@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-isa-port.media-omi-a-vision-for-verified-computing-pdf)
+    (title "omi-isa port: media/OMI- A Vision for Verified Computing.pdf")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/media/OMI- A Vision for Verified Computing.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.media-omi-a-vision-for-verified-computing-pdf)
+    (locator omi---imo.omi-isa-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "media/OMI- A Vision for Verified Computing.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 34841)
+    (sha256 "95e3d66dd740207986c9d18928e4978c005c0c76f4abdfa3fc7d5649adc039a8"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

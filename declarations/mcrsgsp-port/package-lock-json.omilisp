@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid mcrsgsp-port.package-lock-json)
+    (title "MCRSGSP port: package-lock.json")
+    (kind mcrsgsp.source-candidate)
+    (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/package-lock.json")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr mcrsgsp-port.package-lock-json)
+    (locator omi---imo.mcrsgsp-port)
+    (binding json.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs mcrsgsp)
+    (rs declaration)
+    (us json))
+  (source-artifact
+    (relative-path "package-lock.json")
+    (extension ".json")
+    (family declaration)
+    (bytes 1109)
+    (sha256 "62b2661e4e9c27c5759cd80e6b43ebc56b2f4712cecba63f8822a6a5c6702aec"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 38)
+    (json-valid true)
+    (json-kind "object")
+    (json-key-count 5)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

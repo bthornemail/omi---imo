@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-vault-port.semantic-notes-0198-markdown-obsidian-plugins-omi-vault-agents-md-project-overview-appears-in-obsidi-md)
+    (title "omi-vault port: Semantic Notes/0198-markdown-obsidian-plugins-omi-vault-agents-md-project-overview-appears-in-obsidi.md")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/Semantic Notes/0198-markdown-obsidian-plugins-omi-vault-agents-md-project-overview-appears-in-obsidi.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.semantic-notes-0198-markdown-obsidian-plugins-omi-vault-agents-md-project-overview-appears-in-obsidi-md)
+    (locator omi---imo.omi-vault-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "Semantic Notes/0198-markdown-obsidian-plugins-omi-vault-agents-md-project-overview-appears-in-obsidi.md")
+    (extension ".md")
+    (family document)
+    (bytes 606)
+    (sha256 "404a219283ba01fff62fefe6fd12afdc8fc2863b7c7874510925a692e243dc37"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 21)
+    (title "markdown:.obsidian/plugins/omi-vault/AGENTS.md#project-overview appears-in .obsidian/plugins/omi-vault/AGENTS.md")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

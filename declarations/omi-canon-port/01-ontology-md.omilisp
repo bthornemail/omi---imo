@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.01-ontology-md)
+    (title "omi-canon port: 01-ONTOLOGY.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/01-ONTOLOGY.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.01-ontology-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "01-ONTOLOGY.md")
+    (extension ".md")
+    (family document)
+    (bytes 8295)
+    (sha256 "73567280e3322f4e49f3c4a6bc3727cf56276861eb72a04c69f6aa403d0f9710"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 256)
+    (title "State 01 \u2014 Ontology: The Naming")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

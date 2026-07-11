@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid o---o-port.6-implementation-6-4-rule-resolver-and-materializer-md)
+    (title "o---o port: 6_IMPLEMENTATION/6.4_RULE_RESOLVER_AND_MATERIALIZER.md")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/6_IMPLEMENTATION/6.4_RULE_RESOLVER_AND_MATERIALIZER.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.6-implementation-6-4-rule-resolver-and-materializer-md)
+    (locator omi---imo.o---o-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "6_IMPLEMENTATION/6.4_RULE_RESOLVER_AND_MATERIALIZER.md")
+    (extension ".md")
+    (family document)
+    (bytes 4886)
+    (sha256 "fc1e7156cdd2771f2c938eb6abe5dd2c4b904589a26672b2750d4c102c5e908a"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 122)
+    (title "Rule Resolver and Materializer")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

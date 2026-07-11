@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.archive-05-projections-public-native-omi-matrix-lookup-rules-address-derivation-omi)
+    (title "omi-canon port: _archive/05-projections/public/native/omi-matrix-lookup/RULES.address-derivation.omi")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/_archive/05-projections/public/native/omi-matrix-lookup/RULES.address-derivation.omi")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.archive-05-projections-public-native-omi-matrix-lookup-rules-address-derivation-omi)
+    (locator omi---imo.omi-canon-port)
+    (binding omi.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs declaration)
+    (us omi))
+  (source-artifact
+    (relative-path "_archive/05-projections/public/native/omi-matrix-lookup/RULES.address-derivation.omi")
+    (extension ".omi")
+    (family declaration)
+    (bytes 2505)
+    (sha256 "57b721e1dde00b2c1828947f9a6e7fdfd60f16dbac5e02cae2aea8142e4014e9"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 41)
+    (balanced-parens true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

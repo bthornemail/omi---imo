@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid o---o-port.7-canon-7-3-lower-omicron-upper-bidi-md)
+    (title "o---o port: 7_CANON/7.3_LOWER_OMICRON_UPPER_BIDI.md")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/7_CANON/7.3_LOWER_OMICRON_UPPER_BIDI.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.7-canon-7-3-lower-omicron-upper-bidi-md)
+    (locator omi---imo.o---o-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "7_CANON/7.3_LOWER_OMICRON_UPPER_BIDI.md")
+    (extension ".md")
+    (family document)
+    (bytes 2594)
+    (sha256 "d84298632444190bb535d3e74f1a447c30089f3fa9a5e8cdc99c2c72aef966cf"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 121)
+    (title "Lower Omicron / Upper Bidi")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

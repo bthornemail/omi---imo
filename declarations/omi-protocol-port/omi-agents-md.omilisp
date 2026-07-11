@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-protocol-port.omi-agents-md)
+    (title "omi-protocol port: OMI-AGENTS.md")
+    (kind omi-protocol.source-candidate)
+    (source "/home/main/omi/omi-protocol/OMI-AGENTS.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-protocol-port.omi-agents-md)
+    (locator omi---imo.omi-protocol-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-protocol)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "OMI-AGENTS.md")
+    (extension ".md")
+    (family document)
+    (bytes 16381)
+    (sha256 "56cd995c39565dbf6658f5045fe66f91d42ef2bae4d86c6851b2ef19d44263a1"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 750)
+    (title "OMI-AGENTS.md")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

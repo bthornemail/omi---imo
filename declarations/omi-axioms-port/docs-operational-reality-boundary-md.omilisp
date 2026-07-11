@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-axioms-port.docs-operational-reality-boundary-md)
+    (title "omi-axioms port: docs/OPERATIONAL-REALITY-BOUNDARY.md")
+    (kind omi-axioms.source-candidate)
+    (source "/home/main/omi/omi-axioms/docs/OPERATIONAL-REALITY-BOUNDARY.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-axioms-port.docs-operational-reality-boundary-md)
+    (locator omi---imo.omi-axioms-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-axioms)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/OPERATIONAL-REALITY-BOUNDARY.md")
+    (extension ".md")
+    (family document)
+    (bytes 3073)
+    (sha256 "2bd4c098991161ae619beb324d106cbe2c92daa0ec170de03c373fa4060a8fab"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 101)
+    (title "Operational Reality Boundary")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

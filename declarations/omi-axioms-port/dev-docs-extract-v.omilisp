@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-axioms-port.dev-docs-extract-v)
+    (title "omi-axioms port: dev-docs/extract.v")
+    (kind omi-axioms.source-candidate)
+    (source "/home/main/omi/omi-axioms/dev-docs/extract.v")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-axioms-port.dev-docs-extract-v)
+    (locator omi---imo.omi-axioms-port)
+    (binding v.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-axioms)
+    (rs artifact)
+    (us v))
+  (source-artifact
+    (relative-path "dev-docs/extract.v")
+    (extension ".v")
+    (family artifact)
+    (bytes 510)
+    (sha256 "8ec5407eca145b90deb25ca8d03170a81185cf9d907ef374b38b2af8f2412a94"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

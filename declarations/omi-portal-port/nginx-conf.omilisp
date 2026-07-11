@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.nginx-conf)
+    (title "omi-portal port: nginx.conf")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/nginx.conf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.nginx-conf)
+    (locator omi---imo.omi-portal-port)
+    (binding conf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us conf))
+  (source-artifact
+    (relative-path "nginx.conf")
+    (extension ".conf")
+    (family artifact)
+    (bytes 3416)
+    (sha256 "72ce93ad636f1f3d7789a937b37134cb4e21834a144d780564ca0548be6e9164"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

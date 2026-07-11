@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-isa-port.media-the-universe-in-16-bits-the-universe-in-16-bits-m4a)
+    (title "omi-isa port: media/The universe in 16 bits/The_universe_in_16_bits.m4a")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/media/The universe in 16 bits/The_universe_in_16_bits.m4a")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.media-the-universe-in-16-bits-the-universe-in-16-bits-m4a)
+    (locator omi---imo.omi-isa-port)
+    (binding m4a.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs artifact)
+    (us m4a))
+  (source-artifact
+    (relative-path "media/The universe in 16 bits/The_universe_in_16_bits.m4a")
+    (extension ".m4a")
+    (family artifact)
+    (bytes 41464485)
+    (sha256 "1021391bb5a06827e6d4a3eb296655b5267f1959f56de2b697473111182a9c20"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

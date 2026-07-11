@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omnicron-port.viewer-omnicron-viewer-c)
+    (title "omnicron port: viewer/omnicron_viewer.c")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/viewer/omnicron_viewer.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.viewer-omnicron-viewer-c)
+    (locator omi---imo.omnicron-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "viewer/omnicron_viewer.c")
+    (extension ".c")
+    (family code)
+    (bytes 14074)
+    (sha256 "7f62d799486de92be757f9b78561e9ce42dc656131c79d009e5ed7fe2ad6bfab"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 464)
+    (function-count 12)
+    (define-count 1)
+    (include-count 8)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

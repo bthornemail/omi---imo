@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canvas-port.dev-docs-00-project-overview-md)
+    (title "omi-canvas port: dev-docs/00-PROJECT-OVERVIEW.md")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/dev-docs/00-PROJECT-OVERVIEW.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.dev-docs-00-project-overview-md)
+    (locator omi---imo.omi-canvas-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/00-PROJECT-OVERVIEW.md")
+    (extension ".md")
+    (family document)
+    (bytes 4010)
+    (sha256 "e33f19bbef60b8a1570a43b4ba741ba4ce220b09ef80ae030e0e4b29fb7aeaf6"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 65)
+    (title "omi-canvas \u2014 Project Overview")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

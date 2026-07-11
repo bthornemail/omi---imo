@@ -1,0 +1,67 @@
+(omi-module omnicron.atomic-kernel
+  (source "/home/main/omi/omnicron/riscv-baremetal/atomic_kernel.c")
+  (authority
+    (declaration executable-candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending))
+  (width 16)
+  (define-const WIDTH 16)
+  (define-const MASK 0xFFFF)
+  (define-const U32-MASK 0xFFFFFFFF)
+  (define-const DEFAULT-C 0x001D)
+  (define-function rotl16 (x k)
+    (band
+      (bor
+        (shl x (mod k WIDTH))
+        (shr x (sub WIDTH (mod k WIDTH))))
+      MASK))
+  (define-function rotr16 (x k)
+    (band
+      (bor
+        (shr x (mod k WIDTH))
+        (shl x (sub WIDTH (mod k WIDTH))))
+      MASK))
+  (define-function delta16 (x C)
+    (band
+      (bxor
+        (rotl16 x 1)
+        (rotl16 x 3)
+        (rotr16 x 2)
+        C)
+      MASK))
+  (define-function mixed-encode-slot3 (v)
+    (band v U32-MASK))
+  (define-function mixed-decode-slot3 (v)
+    (band v U32-MASK))
+  (define-function project-value (v basis)
+    (band v U32-MASK))
+  (define-function interpret-value (repr basis)
+    (band repr U32-MASK))
+  (define-function fingerprint (state)
+    (band
+      (bxor state (shl state 7) (shr state 3))
+      U32-MASK))
+  (define-function witness-accumulator (state instruction phase fingerprint-value)
+    (band
+      (bxor
+        state
+        instruction
+        (shl phase 7)
+        (shl fingerprint-value 3)
+        (shr phase 5)
+        0xDEADBEEF)
+      U32-MASK))
+  (test delta-seed
+    (expect (delta16 0x0000 DEFAULT-C) 0x001D))
+  (test delta-sample
+    (expect (delta16 0x12AB DEFAULT-C) 0x74B9))
+  (test mixed-roundtrip
+    (expect (mixed-decode-slot3 (mixed-encode-slot3 0x12345678)) 0x12345678))
+  (test projection-roundtrip
+    (expect (interpret-value (project-value 0x1234BEEF 0) 0) 0x1234BEEF))
+  (test fingerprint-sample
+    (expect (fingerprint 0x001D) 0x0E9E)
+    (expect (fingerprint 0x12345678) 0x0A59E0B7))
+  (test witness-sample
+    (expect (witness-accumulator 0x001D 0x002A 7 0x0E9E) 0xDEADC9A8)))

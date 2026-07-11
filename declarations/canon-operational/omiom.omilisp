@@ -1,0 +1,117 @@
+(omi-module canon.omiom
+  (source "/home/main/omi/omi-isa/lib/omi_omion.c")
+  (source "/home/main/omi/omi-canon/dev-docs/OMI Canon Runtime Atlas.md")
+  (authority
+    (declaration executable-candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending))
+  (define-const U64-MASK 0xFFFFFFFFFFFFFFFF)
+  (define-const OMIOM-MAX-PREFIXES 64)
+  (define-const OMIOM-CASCADE-LAYERS 4)
+  (define-function prefix-entry (address prefix-len next-hop valid layer)
+    (vector (u64 address) (u8 prefix-len) (u8 next-hop) (u8 valid) (u8 layer)))
+  (define-function entry-address (entry)
+    (at entry 0))
+  (define-function entry-prefix-len (entry)
+    (at entry 1))
+  (define-function entry-next-hop (entry)
+    (at entry 2))
+  (define-function entry-valid (entry)
+    (at entry 3))
+  (define-function entry-layer (entry)
+    (at entry 4))
+  (define-function prefix-update-hop (entry next-hop)
+    (prefix-entry (entry-address entry) (entry-prefix-len entry) next-hop (entry-valid entry) 0))
+  (define-function prefix-remove (entry)
+    (prefix-entry (entry-address entry) (entry-prefix-len entry) (entry-next-hop entry) 0 (entry-layer entry)))
+  (define-function prefix-mask (prefix-len)
+    (if (ge prefix-len 64)
+      U64-MASK
+      (u64 (shl U64-MASK (sub 64 prefix-len)))))
+  (define-function prefix-match (addr entry)
+    (and
+      (ne (entry-valid entry) 0)
+      (ne (entry-prefix-len entry) 0)
+      (eq
+        (band addr (prefix-mask (entry-prefix-len entry)))
+        (band (entry-address entry) (prefix-mask (entry-prefix-len entry))))))
+  (define-function resolve2-index (addr e1 e2)
+    (if (and (prefix-match addr e1) (prefix-match addr e2))
+      (if (gt (entry-prefix-len e2) (entry-prefix-len e1)) 2 1)
+      (if (prefix-match addr e1)
+        1
+        (if (prefix-match addr e2) 2 0))))
+  (define-function resolve2-hop (addr e1 e2)
+    (if (eq (resolve2-index addr e1 e2) 1)
+      (entry-next-hop e1)
+      (if (eq (resolve2-index addr e1 e2) 2) (entry-next-hop e2) 0)))
+  (define-function resolve2-code (addr e1 e2)
+    (if (eq (resolve2-index addr e1 e2) 0) -2 0))
+  (define-function prefix-count2 (e1 e2)
+    (add (if (ne (entry-valid e1) 0) 1 0) (if (ne (entry-valid e2) 0) 1 0)))
+  (define-function candidate-hop-valid (candidate)
+    (and (ne candidate 0) (ne candidate 0xFF)))
+  (define-function entry-matches-candidate (entry candidate)
+    (and
+      (ne (entry-valid entry) 0)
+      (or
+        (eq (entry-next-hop entry) candidate)
+        (eq (band (entry-address entry) 0xFF) candidate))))
+  (define-function cascade-candidate-hop (candidate e1 e2)
+    (if (not (candidate-hop-valid candidate))
+      0
+      (if (entry-matches-candidate e1 candidate)
+        (entry-next-hop e1)
+        (if (entry-matches-candidate e2 candidate) (entry-next-hop e2) candidate))))
+  (define-function cascade2-hop (addr route declaration witness phase e1 e2)
+    (if (ne (resolve2-hop addr e1 e2) 0)
+      (resolve2-hop addr e1 e2)
+      (if (ne (cascade-candidate-hop route e1 e2) 0)
+        (cascade-candidate-hop route e1 e2)
+        (if (ne (cascade-candidate-hop declaration e1 e2) 0)
+          (cascade-candidate-hop declaration e1 e2)
+          (if (ne (cascade-candidate-hop witness e1 e2) 0)
+            (cascade-candidate-hop witness e1 e2)
+            (cascade-candidate-hop phase e1 e2))))))
+  (define-function cascade2-code (addr route declaration witness phase e1 e2)
+    (if (eq (cascade2-hop addr route declaration witness phase e1 e2) 0) -2 1))
+  (test prefix-entries
+    (expect (entry-next-hop (prefix-entry 0x1234000000000000 16 7 1 0)) 7)
+    (expect (entry-next-hop (prefix-update-hop (prefix-entry 0x1234000000000000 16 7 1 0) 9)) 9)
+    (expect (prefix-count2 (prefix-entry 0x1234000000000000 16 7 1 0) (prefix-remove (prefix-entry 0x1234567800000000 32 8 1 0))) 1))
+  (test longest-prefix
+    (expect
+      (resolve2-hop
+        0x123456789ABCDEF0
+        (prefix-entry 0x1234000000000000 16 7 1 0)
+        (prefix-entry 0x1234567800000000 32 8 1 0))
+      8)
+    (expect
+      (resolve2-code
+        0x999956789ABCDEF0
+        (prefix-entry 0x1234000000000000 16 7 1 0)
+        (prefix-entry 0x1234567800000000 32 8 1 0))
+      -2))
+  (test cascade
+    (expect
+      (cascade2-hop
+        0x999956789ABCDEF0
+        7 0 0 0
+        (prefix-entry 0x1234000000000000 16 7 1 0)
+        (prefix-entry 0x1234567800000000 32 8 1 0))
+      7)
+    (expect
+      (cascade2-hop
+        0x999956789ABCDEF0
+        12 0 0 0
+        (prefix-entry 0x1234000000000000 16 7 1 0)
+        (prefix-entry 0x1234567800000000 32 8 1 0))
+      12)
+    (expect
+      (cascade2-code
+        0x999956789ABCDEF0
+        0 0 0 0
+        (prefix-entry 0x1234000000000000 16 7 1 0)
+        (prefix-entry 0x1234567800000000 32 8 1 0))
+      -2)))

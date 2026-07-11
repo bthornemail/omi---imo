@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.session-ses-0caf-md)
+    (title "omi-docs port: session-ses_0caf.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/session-ses_0caf.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.session-ses-0caf-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "session-ses_0caf.md")
+    (extension ".md")
+    (family document)
+    (bytes 443949)
+    (sha256 "4070a9baea9c9f6e56915a6c8dc2d9ca7116a00b1343f0559ad4c178f543fdb2"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 11539)
+    (title "SES session file analysis")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

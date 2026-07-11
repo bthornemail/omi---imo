@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-tools-export-polyform-bitboards-sh)
+    (title "omnicron port: logic/tools/export_polyform_bitboards.sh")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/tools/export_polyform_bitboards.sh")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-tools-export-polyform-bitboards-sh)
+    (locator omi---imo.omnicron-port)
+    (binding sh.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us sh))
+  (source-artifact
+    (relative-path "logic/tools/export_polyform_bitboards.sh")
+    (extension ".sh")
+    (family code)
+    (bytes 2631)
+    (sha256 "3e1de4f70ccef6d15b660b940882d4ee21e57cd8939093fda0499f6cdba85063"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 102)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

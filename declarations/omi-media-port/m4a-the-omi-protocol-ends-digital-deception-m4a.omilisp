@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.m4a-the-omi-protocol-ends-digital-deception-m4a)
+    (title "omi-media port: m4a/The_OMI_protocol_ends_digital_deception.m4a")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/m4a/The_OMI_protocol_ends_digital_deception.m4a")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.m4a-the-omi-protocol-ends-digital-deception-m4a)
+    (locator omi---imo.omi-media-port)
+    (binding m4a.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs artifact)
+    (us m4a))
+  (source-artifact
+    (relative-path "m4a/The_OMI_protocol_ends_digital_deception.m4a")
+    (extension ".m4a")
+    (family artifact)
+    (bytes 36630089)
+    (sha256 "bc6362bcda93a232a1d309e2e4fca038167ccc440300b3a4e9ed8c4ca1d341f4"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

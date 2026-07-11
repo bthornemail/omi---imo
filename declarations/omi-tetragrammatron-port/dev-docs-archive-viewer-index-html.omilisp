@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.dev-docs-archive-viewer-index-html)
+    (title "omi-tetragrammatron port: dev-docs/archive/viewer/index.html")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/dev-docs/archive/viewer/index.html")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.dev-docs-archive-viewer-index-html)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding html.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs artifact)
+    (us html))
+  (source-artifact
+    (relative-path "dev-docs/archive/viewer/index.html")
+    (extension ".html")
+    (family artifact)
+    (bytes 85171)
+    (sha256 "4f97d3ab630264291fbcda367f53be2c4c8bef15994d2d14cc6fd123954d6a99"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 2233)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

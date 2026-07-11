@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.session-ses-0cec-md)
+    (title "omi-docs port: session-ses_0cec.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/session-ses_0cec.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.session-ses-0cec-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "session-ses_0cec.md")
+    (extension ".md")
+    (family document)
+    (bytes 515111)
+    (sha256 "387e9552615532dc4baf2dcd006fac4ebe747bf0b997c4198ea4f828f568de0c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 14713)
+    (title "CPU compiler and emulator project")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

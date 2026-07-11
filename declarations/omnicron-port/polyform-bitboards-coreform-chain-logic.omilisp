@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.polyform-bitboards-coreform-chain-logic)
+    (title "omnicron port: polyform/bitboards/coreform_chain.logic")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/polyform/bitboards/coreform_chain.logic")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.polyform-bitboards-coreform-chain-logic)
+    (locator omi---imo.omnicron-port)
+    (binding logic.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs declaration)
+    (us logic))
+  (source-artifact
+    (relative-path "polyform/bitboards/coreform_chain.logic")
+    (extension ".logic")
+    (family declaration)
+    (bytes 3257)
+    (sha256 "08e2f56f7c9402dcf5d31519bf8b29eeb8235e67989f4f965d4ee5205edb78fb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 85)
+    (balanced-parens true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

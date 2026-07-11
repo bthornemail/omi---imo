@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.m4a-ending-rented-reality-with-omi-architecture-m4a)
+    (title "omi-media port: m4a/Ending_Rented_Reality_with_OMI_Architecture.m4a")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/m4a/Ending_Rented_Reality_with_OMI_Architecture.m4a")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.m4a-ending-rented-reality-with-omi-architecture-m4a)
+    (locator omi---imo.omi-media-port)
+    (binding m4a.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs artifact)
+    (us m4a))
+  (source-artifact
+    (relative-path "m4a/Ending_Rented_Reality_with_OMI_Architecture.m4a")
+    (extension ".m4a")
+    (family artifact)
+    (bytes 38955054)
+    (sha256 "9192d5a97d2c42843cd7edaf37e351eb09e54a359013c9dcf25c0f5c8f5d0a37"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

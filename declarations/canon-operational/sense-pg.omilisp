@@ -1,0 +1,106 @@
+(omi-module canon.sense-pg
+  (source "/home/main/omi/omi-isa/lib/omi_sense.c")
+  (source "/home/main/omi/omi-isa/lib/omi_pg.c")
+  (source "/home/main/omi/omi-canon/dev-docs/OMI Canon Runtime Atlas.md")
+  (authority
+    (declaration executable-candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending))
+  (define-const SENSE-MARKER 0x0C)
+  (define-const SENSE-CANONICAL-PREHEADER (bytes 0xFF 0x0C 0x1C 0x1D 0x1E 0x1F 0x20 0xFF))
+  (define-const PG-POINTS 31)
+  (define-const PG-SEED-PRIME 0x9E3779B9)
+  (define-const PG-DELTA-C 0x55AA)
+  (define-function rotl16 (x n)
+    (u16
+      (bor
+        (shl x (mod n 16))
+        (shr x (sub 16 (mod n 16))))))
+  (define-function rotr16 (x n)
+    (u16
+      (bor
+        (shr x (mod n 16))
+        (shl x (sub 16 (mod n 16))))))
+  (define-function rotl32 (x n)
+    (u32
+      (bor
+        (shl x (mod n 32))
+        (shr x (sub 32 (mod n 32))))))
+  (define-function sense-delta16 (x C)
+    (u16
+      (bxor
+        (rotl16 x 1)
+        (rotl16 x 3)
+        (rotr16 x 2)
+        C)))
+  (define-function pg-delta16 (x C)
+    (sense-delta16 x C))
+  (define-function sample16 (raw channel-id)
+    (u16
+      (bxor
+        (band raw 0xFFFF)
+        (rotl16 (band (shr raw 16) 0xFFFF) 5)
+        channel-id)))
+  (define-function pair16 (a b)
+    (u32 (bor (shl a 16) b)))
+  (define-function omi-witness (sample C)
+    (pair16 sample (sense-delta16 sample C)))
+  (define-function imo-witness (sample C)
+    (pair16 (sense-delta16 sample C) sample))
+  (define-function set-orientation (word pos value)
+    (bor
+      (band word (bxor 0xFFFFFFFF (shl 0x3 (mul pos 2))))
+      (shl (band value 0x3) (mul pos 2))))
+  (define-function get-orientation (word pos)
+    (band (shr word (mul pos 2)) 0x3))
+  (define-function popcount5 (x)
+    (add
+      (band x 1)
+      (band (shr x 1) 1)
+      (band (shr x 2) 1)
+      (band (shr x 3) 1)
+      (band (shr x 4) 1)))
+  (define-function pg-point-seed (point)
+    (if (or (eq point 0) (gt point PG-POINTS))
+      0
+      (u32 (mul point PG-SEED-PRIME))))
+  (define-function pg-point-word-index (point)
+    (band (shr point 3) 3))
+  (define-function pg-point-encode-word (point)
+    (if (or (eq point 0) (gt point PG-POINTS))
+      0
+      (u32
+        (bxor
+          (rotl32 (pg-point-seed point) (popcount5 point))
+          (shl 1 (band point 31))))))
+  (define-function pg-F (x)
+    (u16 (bxor (pg-delta16 x PG-DELTA-C) x)))
+  (define-function pg-subblock-safe (x)
+    (if (or (eq (pg-F x) 0) (eq (pg-F (pg-F x)) x)) 0 1))
+  (define-function pg-transition-allowed (car cdr)
+    (if (and
+          (eq (pg-delta16 (band (shr car 16) 0xFFFF) PG-DELTA-C) (band (shr cdr 16) 0xFFFF))
+          (eq (pg-delta16 (band (shr cdr 16) 0xFFFF) PG-DELTA-C) (band (shr car 16) 0xFFFF)))
+      -1
+      (if (and
+            (eq (pg-delta16 (band car 0xFFFF) PG-DELTA-C) (band cdr 0xFFFF))
+            (eq (pg-delta16 (band cdr 0xFFFF) PG-DELTA-C) (band car 0xFFFF)))
+        -2
+        0)))
+  (test sense-transduction
+    (expect (sense-delta16 0x12AB 0x55AA) 0x210E)
+    (expect (sample16 0x12345678 0x001D) 0x10E7)
+    (expect (omi-witness 0x10E7 0x55AA) 0x10E73765)
+    (expect (imo-witness 0x10E7 0x55AA) 0x376510E7)
+    (expect (get-orientation (set-orientation 0 3 2) 3) 2))
+  (test pg-point-encoding
+    (expect (pg-point-seed 1) 0x9E3779B9)
+    (expect (pg-point-word-index 31) 3)
+    (expect (pg-point-encode-word 1) 0x3C6EF371)
+    (expect (pg-point-encode-word 31) 0x96F7ACE5))
+  (test pg-safety
+    (expect (pg-subblock-safe 0x1234) 1)
+    (expect (pg-subblock-safe 0x0275) 0)
+    (expect (pg-transition-allowed 0x12345678 0x9ABCDEF0) 0)
+    (expect (pg-transition-allowed 0x00000275 0x00000275) -2)))

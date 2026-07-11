@@ -1,0 +1,3006 @@
+{
+  "count": 329,
+  "extension_counts": {
+    ".c": 11,
+    ".cabal": 1,
+    ".cache": 1,
+    ".canvas": 1,
+    ".conf": 1,
+    ".csnp": 14,
+    ".cspt": 7,
+    ".ctx": 10,
+    ".err": 16,
+    ".h": 8,
+    ".halt": 4,
+    ".hash": 9,
+    ".hi": 6,
+    ".hs": 118,
+    ".instr": 6,
+    ".instrstream": 9,
+    ".json": 5,
+    ".lock": 1,
+    ".md": 24,
+    ".mjs": 6,
+    ".msg": 5,
+    ".ndjson": 11,
+    ".o": 9,
+    ".route": 1,
+    ".sh": 16,
+    ".svg": 7,
+    ".workset": 9,
+    "[no-ext]": 13
+  },
+  "family_counts": {
+    "artifact": 228,
+    "carrier": 7,
+    "code": 41,
+    "declaration": 16,
+    "document": 24,
+    "untyped": 13
+  },
+  "items": [
+    {
+      "bytes": 24,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "gitignore.omilisp",
+      "relative_path": ".gitignore",
+      "sha256": "c7cbf339bcb182e4f1198f91250b4526556940d001563dfc076eeb5cfae5a057",
+      "sid": "omi-canvas-port.gitignore"
+    },
+    {
+      "bytes": 3480,
+      "extension": ".md",
+      "family": "document",
+      "output": "agents-md.omilisp",
+      "relative_path": "AGENTS.md",
+      "sha256": "092055b9ac401e32d8747b7d082262da08a1dcd141b7f992a658771b06da64f1",
+      "sid": "omi-canvas-port.agents-md"
+    },
+    {
+      "bytes": 5420,
+      "extension": ".md",
+      "family": "document",
+      "output": "readme-md.omilisp",
+      "relative_path": "README.md",
+      "sha256": "ad16d705d024996344ed060f3e1bed90353c4ecc8af9d62c836c4fc2250767f7",
+      "sid": "omi-canvas-port.readme-md"
+    },
+    {
+      "bytes": 3936,
+      "extension": ".md",
+      "family": "document",
+      "output": "skills-md.omilisp",
+      "relative_path": "SKILLS.md",
+      "sha256": "28a0fd12e9d26ec30c9001d83fd876bb1370b9fcae14d5002374fd1c70c5dc1b",
+      "sid": "omi-canvas-port.skills-md"
+    },
+    {
+      "bytes": 1292,
+      "extension": ".hi",
+      "family": "artifact",
+      "output": "app-main-hi.omilisp",
+      "relative_path": "app/Main.hi",
+      "sha256": "43d77f24a4ba711e5bb4070ba203b54f61fc769ecc542ccbb693ed66a96ae399",
+      "sid": "omi-canvas-port.app-main-hi"
+    },
+    {
+      "bytes": 731,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "app-main-hs.omilisp",
+      "relative_path": "app/Main.hs",
+      "sha256": "9e770d7d941fffdd3042f6a4edce8e904abf6d85ce402eaf7a4ca89ab6e201d6",
+      "sid": "omi-canvas-port.app-main-hs"
+    },
+    {
+      "bytes": 8480,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "app-main-o.omilisp",
+      "relative_path": "app/Main.o",
+      "sha256": "2813977895c0741a425df0d3ed659d23a2270afe61b815ac8502c37ba9324d30",
+      "sid": "omi-canvas-port.app-main-o"
+    },
+    {
+      "bytes": 33,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "archive-gitignore.omilisp",
+      "relative_path": "archive/.gitignore",
+      "sha256": "6c6ce5dfe00c4e23ffe282f89fe834410d9a234edd69a6c9415f9240a4193fb2",
+      "sid": "omi-canvas-port.archive-gitignore"
+    },
+    {
+      "bytes": 17660,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-enhanced-cli-with-tree-command-integration-md.omilisp",
+      "relative_path": "archive/Enhanced CLI with Tree Command Integration.md",
+      "sha256": "4e7cfcc5c00ed41b1725ab7e627102ca625b41e7be8cef4dd740f7444723655b",
+      "sid": "omi-canvas-port.archive-enhanced-cli-with-tree-command-integration-md"
+    },
+    {
+      "bytes": 11793,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-user-guide-md.omilisp",
+      "relative_path": "archive/User_Guide.md",
+      "sha256": "46564e7f8d2dd9cc861ef9888fca0aba072bcfb832f11aebd88302ef7d2f69bb",
+      "sid": "omi-canvas-port.archive-user-guide-md"
+    },
+    {
+      "bytes": 47521,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-app-main-hs.omilisp",
+      "relative_path": "archive/app/Main.hs",
+      "sha256": "8095b728be44ce131c0ef0b31ec560e1fe0491c3d6fd67664883e1f727de6956",
+      "sid": "omi-canvas-port.archive-app-main-hs"
+    },
+    {
+      "bytes": 6644,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-app2-main-hs.omilisp",
+      "relative_path": "archive/app2/Main.hs",
+      "sha256": "408541c2de5827e84cc7593c42fa0d027fd92b71a365413e897483d7deeb0f96",
+      "sid": "omi-canvas-port.archive-app2-main-hs"
+    },
+    {
+      "bytes": 69091,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-app3-main-hs.omilisp",
+      "relative_path": "archive/app3/Main.hs",
+      "sha256": "b8e97d25cb815ddb9ee030cc106b0caa373504cba71176a858429d1ded4f6347",
+      "sid": "omi-canvas-port.archive-app3-main-hs"
+    },
+    {
+      "bytes": 780,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "archive-polyform-c-project-makefile.omilisp",
+      "relative_path": "archive/polyform_c_project/Makefile",
+      "sha256": "efdbc7ff2e51ff47083e579e46776be8b113feb29299ef4d66120883cbea93e7",
+      "sid": "omi-canvas-port.archive-polyform-c-project-makefile"
+    },
+    {
+      "bytes": 4552,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-polyform-c-project-readme-md.omilisp",
+      "relative_path": "archive/polyform_c_project/README.md",
+      "sha256": "f3e6947a9cc4392dc56edfb12b739e72f8366e3a6e124c7ad24ea7d959b08706",
+      "sid": "omi-canvas-port.archive-polyform-c-project-readme-md"
+    },
+    {
+      "bytes": 4552,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-polyform-c-project-bundle-readme-md.omilisp",
+      "relative_path": "archive/polyform_c_project/bundle/README.md",
+      "sha256": "f3e6947a9cc4392dc56edfb12b739e72f8366e3a6e124c7ad24ea7d959b08706",
+      "sid": "omi-canvas-port.archive-polyform-c-project-bundle-readme-md"
+    },
+    {
+      "bytes": 4450,
+      "extension": ".c",
+      "family": "code",
+      "output": "archive-polyform-c-project-bundle-main-c.omilisp",
+      "relative_path": "archive/polyform_c_project/bundle/main.c",
+      "sha256": "c67e652e32e25f63bea3386cd3dce02c03a4ec73858898f76de2972597d158b9",
+      "sid": "omi-canvas-port.archive-polyform-c-project-bundle-main-c"
+    },
+    {
+      "bytes": 5411,
+      "extension": ".c",
+      "family": "code",
+      "output": "archive-polyform-c-project-bundle-polyform-c.omilisp",
+      "relative_path": "archive/polyform_c_project/bundle/polyform.c",
+      "sha256": "18af456e375b561835925d601a0bab2fc3e8e6e77ac7dd25f53bcba3309ef947",
+      "sid": "omi-canvas-port.archive-polyform-c-project-bundle-polyform-c"
+    },
+    {
+      "bytes": 1714,
+      "extension": ".h",
+      "family": "code",
+      "output": "archive-polyform-c-project-bundle-polyform-h.omilisp",
+      "relative_path": "archive/polyform_c_project/bundle/polyform.h",
+      "sha256": "c335800b0f3cbdba9903a849baec222c4ef5d7f18088d31085881b8ce6a18221",
+      "sid": "omi-canvas-port.archive-polyform-c-project-bundle-polyform-h"
+    },
+    {
+      "bytes": 8777,
+      "extension": ".c",
+      "family": "code",
+      "output": "archive-polyform-c-project-bundle-svg-c.omilisp",
+      "relative_path": "archive/polyform_c_project/bundle/svg.c",
+      "sha256": "f11f9dd8f134a12b9fb0bc50c7ba9ab21f845ca69e9e3eeff5e5e32243620432",
+      "sid": "omi-canvas-port.archive-polyform-c-project-bundle-svg-c"
+    },
+    {
+      "bytes": 764,
+      "extension": ".h",
+      "family": "code",
+      "output": "archive-polyform-c-project-bundle-svg-h.omilisp",
+      "relative_path": "archive/polyform_c_project/bundle/svg.h",
+      "sha256": "c8d131869fd27a792049e9e9e6a8864f1eb979ffa57236a98d36b402bc7c9392",
+      "sid": "omi-canvas-port.archive-polyform-c-project-bundle-svg-h"
+    },
+    {
+      "bytes": 61,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-polyform-c-project-examples-demo-sh.omilisp",
+      "relative_path": "archive/polyform_c_project/examples/demo.sh",
+      "sha256": "d6f1dd35be8c0f398cb815efecf3ea2f39706f895b8593459320001d2f261407",
+      "sid": "omi-canvas-port.archive-polyform-c-project-examples-demo-sh"
+    },
+    {
+      "bytes": 1714,
+      "extension": ".h",
+      "family": "code",
+      "output": "archive-polyform-c-project-include-polyform-h.omilisp",
+      "relative_path": "archive/polyform_c_project/include/polyform.h",
+      "sha256": "c335800b0f3cbdba9903a849baec222c4ef5d7f18088d31085881b8ce6a18221",
+      "sid": "omi-canvas-port.archive-polyform-c-project-include-polyform-h"
+    },
+    {
+      "bytes": 764,
+      "extension": ".h",
+      "family": "code",
+      "output": "archive-polyform-c-project-include-svg-h.omilisp",
+      "relative_path": "archive/polyform_c_project/include/svg.h",
+      "sha256": "c8d131869fd27a792049e9e9e6a8864f1eb979ffa57236a98d36b402bc7c9392",
+      "sid": "omi-canvas-port.archive-polyform-c-project-include-svg-h"
+    },
+    {
+      "bytes": 4094,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "archive-polyform-c-project-out-aztec-like-svg.omilisp",
+      "relative_path": "archive/polyform_c_project/out/aztec_like.svg",
+      "sha256": "ffba922e89464f36c9668668bb51c7fd70c6958c94fff3c13561dedef7986bdf",
+      "sid": "omi-canvas-port.archive-polyform-c-project-out-aztec-like-svg"
+    },
+    {
+      "bytes": 2434,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "archive-polyform-c-project-out-beetag-svg.omilisp",
+      "relative_path": "archive/polyform_c_project/out/beetag.svg",
+      "sha256": "602b2eb8df4256c076ede38ddedd4ad2631acddcaa3e3d2abea96869be1c1e01",
+      "sid": "omi-canvas-port.archive-polyform-c-project-out-beetag-svg"
+    },
+    {
+      "bytes": 2426,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "archive-polyform-c-project-out-binary-guess-number-trick-smil-svg.omilisp",
+      "relative_path": "archive/polyform_c_project/out/binary_guess_number_trick_SMIL.svg",
+      "sha256": "aafd09f632fbf6ed6cd845f3d1606fb443e20e387d90b81b324f6ea3a9198d72",
+      "sid": "omi-canvas-port.archive-polyform-c-project-out-binary-guess-number-trick-smil-svg"
+    },
+    {
+      "bytes": 16150,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "archive-polyform-c-project-out-genaille-division-rods-svg.omilisp",
+      "relative_path": "archive/polyform_c_project/out/genaille_division_rods.svg",
+      "sha256": "c0de1588d7522a814f17ce0b02b8e5c98c7586c82bc33fed8050d51c10192f74",
+      "sid": "omi-canvas-port.archive-polyform-c-project-out-genaille-division-rods-svg"
+    },
+    {
+      "bytes": 15399,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "archive-polyform-c-project-out-maxicode-like-svg.omilisp",
+      "relative_path": "archive/polyform_c_project/out/maxicode_like.svg",
+      "sha256": "e827c9e92f4bd09d1cfa6a17597e8210c7453162ba935dccaeeb58c184494e59",
+      "sid": "omi-canvas-port.archive-polyform-c-project-out-maxicode-like-svg"
+    },
+    {
+      "bytes": 908,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "archive-polyform-c-project-out-polyform-svg.omilisp",
+      "relative_path": "archive/polyform_c_project/out/polyform.svg",
+      "sha256": "db552881098ea2ff964013f9f9620828b2d0bfb6e25c58534ebaae9ef7b2dea3",
+      "sid": "omi-canvas-port.archive-polyform-c-project-out-polyform-svg"
+    },
+    {
+      "bytes": 1777,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "archive-polyform-c-project-out-smith-chart-svg.omilisp",
+      "relative_path": "archive/polyform_c_project/out/smith_chart.svg",
+      "sha256": "7019f7a967d3dbc2517db6b4cd25491233538bdb7568c5393d5d37a45c1cd560",
+      "sid": "omi-canvas-port.archive-polyform-c-project-out-smith-chart-svg"
+    },
+    {
+      "bytes": 29912,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "archive-polyform-c-project-polyform-cli.omilisp",
+      "relative_path": "archive/polyform_c_project/polyform-cli",
+      "sha256": "2025e18426d906f308a324b9d8271d37c39acd03d099a49c118219a177a0fefe",
+      "sid": "omi-canvas-port.archive-polyform-c-project-polyform-cli"
+    },
+    {
+      "bytes": 4450,
+      "extension": ".c",
+      "family": "code",
+      "output": "archive-polyform-c-project-src-main-c.omilisp",
+      "relative_path": "archive/polyform_c_project/src/main.c",
+      "sha256": "c67e652e32e25f63bea3386cd3dce02c03a4ec73858898f76de2972597d158b9",
+      "sid": "omi-canvas-port.archive-polyform-c-project-src-main-c"
+    },
+    {
+      "bytes": 7344,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "archive-polyform-c-project-src-main-o.omilisp",
+      "relative_path": "archive/polyform_c_project/src/main.o",
+      "sha256": "aa4456803d1dd14c0260c461fa56dae2140fe5f9b6791832c82614bef460c2a7",
+      "sid": "omi-canvas-port.archive-polyform-c-project-src-main-o"
+    },
+    {
+      "bytes": 5411,
+      "extension": ".c",
+      "family": "code",
+      "output": "archive-polyform-c-project-src-polyform-c.omilisp",
+      "relative_path": "archive/polyform_c_project/src/polyform.c",
+      "sha256": "18af456e375b561835925d601a0bab2fc3e8e6e77ac7dd25f53bcba3309ef947",
+      "sid": "omi-canvas-port.archive-polyform-c-project-src-polyform-c"
+    },
+    {
+      "bytes": 5376,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "archive-polyform-c-project-src-polyform-o.omilisp",
+      "relative_path": "archive/polyform_c_project/src/polyform.o",
+      "sha256": "b97b907db31cfa8b5a88fd1302643685986dbf2e59f28773e6e1df5f9992fe07",
+      "sid": "omi-canvas-port.archive-polyform-c-project-src-polyform-o"
+    },
+    {
+      "bytes": 8777,
+      "extension": ".c",
+      "family": "code",
+      "output": "archive-polyform-c-project-src-svg-c.omilisp",
+      "relative_path": "archive/polyform_c_project/src/svg.c",
+      "sha256": "f11f9dd8f134a12b9fb0bc50c7ba9ab21f845ca69e9e3eeff5e5e32243620432",
+      "sid": "omi-canvas-port.archive-polyform-c-project-src-svg-c"
+    },
+    {
+      "bytes": 15144,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "archive-polyform-c-project-src-svg-o.omilisp",
+      "relative_path": "archive/polyform_c_project/src/svg.o",
+      "sha256": "13db825dcf914935adb8f20f682e6ed9138eb070f02ebd3c37e9f67aa690cf7f",
+      "sid": "omi-canvas-port.archive-polyform-c-project-src-svg-o"
+    },
+    {
+      "bytes": 11814,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-polytope-omicanvaspolytoperegistry-hs.omilisp",
+      "relative_path": "archive/polytope/OmiCanvasPolytopeRegistry.hs",
+      "sha256": "53e3e1ada40d12a82ca7abf636e3536a39c9b598d19053c4aaa253526d5d27cf",
+      "sid": "omi-canvas-port.archive-polytope-omicanvaspolytoperegistry-hs"
+    },
+    {
+      "bytes": 882,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-polytope-omi-polytope-toolbox-readme-md.omilisp",
+      "relative_path": "archive/polytope/omi-polytope-toolbox-README.md",
+      "sha256": "8c55a909c94d1c0ede8f7efb41cbcc18bb8b245272ed65a3f3e237a55706cc61",
+      "sid": "omi-canvas-port.archive-polytope-omi-polytope-toolbox-readme-md"
+    },
+    {
+      "bytes": 67537,
+      "extension": ".canvas",
+      "family": "artifact",
+      "output": "archive-polytope-omi-polytope-toolbox-canvas.omilisp",
+      "relative_path": "archive/polytope/omi-polytope-toolbox.canvas",
+      "sha256": "c106378a2b0df3703ac6269670b67b2adace92c65b654d4d7c1a4e9bf63639a6",
+      "sid": "omi-canvas-port.archive-polytope-omi-polytope-toolbox-canvas"
+    },
+    {
+      "bytes": 69565,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "archive-polytope-omi-polytope-toolbox-normalized-json.omilisp",
+      "relative_path": "archive/polytope/omi-polytope-toolbox.normalized.json",
+      "sha256": "12f12da8a30c4a13cc3706407d7e9b352a7347b16cbc521ea0d1413b28977f43",
+      "sid": "omi-canvas-port.archive-polytope-omi-polytope-toolbox-normalized-json"
+    },
+    {
+      "bytes": 54805,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "archive-polytope-omi-regular-polytope-registry-json.omilisp",
+      "relative_path": "archive/polytope/omi_regular_polytope_registry.json",
+      "sha256": "fea237c2b575d9f2f242e758382ae275a3ae19fd2c29b0caa27e7ff990bdab47",
+      "sid": "omi-canvas-port.archive-polytope-omi-regular-polytope-registry-json"
+    },
+    {
+      "bytes": 99,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-scripts-ci-build-sh.omilisp",
+      "relative_path": "archive/scripts/ci/build.sh",
+      "sha256": "e4ac1811f02f4dd182a034d87cb5917441b5ee4f74acf4b11f25528762bf6e1e",
+      "sid": "omi-canvas-port.archive-scripts-ci-build-sh"
+    },
+    {
+      "bytes": 201,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-scripts-ci-fuzz-network-fast-sh.omilisp",
+      "relative_path": "archive/scripts/ci/fuzz_network_fast.sh",
+      "sha256": "7a9afcd64bf423956a718d15d518cb036bcd5f8cb5897ba1e18850b0ccf1ef4d",
+      "sid": "omi-canvas-port.archive-scripts-ci-fuzz-network-fast-sh"
+    },
+    {
+      "bytes": 203,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-scripts-ci-fuzz-network-nightly-sh.omilisp",
+      "relative_path": "archive/scripts/ci/fuzz_network_nightly.sh",
+      "sha256": "7e9da9bb7c043dbb204980a35e0fbe1dbdfcc378e66a8a32f4e6c1c1639ed23d",
+      "sid": "omi-canvas-port.archive-scripts-ci-fuzz-network-nightly-sh"
+    },
+    {
+      "bytes": 210,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-scripts-ci-fuzz-storage-fast-sh.omilisp",
+      "relative_path": "archive/scripts/ci/fuzz_storage_fast.sh",
+      "sha256": "89d7e986512bab2b49fed9fe156c899eb09d23f5fee8303d6d412929b94592ce",
+      "sid": "omi-canvas-port.archive-scripts-ci-fuzz-storage-fast-sh"
+    },
+    {
+      "bytes": 213,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-scripts-ci-fuzz-storage-nightly-sh.omilisp",
+      "relative_path": "archive/scripts/ci/fuzz_storage_nightly.sh",
+      "sha256": "3604d8bd3d69cbffe1e9cb691220a54b20ac867edb24bd68877ba9421dde1c92",
+      "sid": "omi-canvas-port.archive-scripts-ci-fuzz-storage-nightly-sh"
+    },
+    {
+      "bytes": 97,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-scripts-ci-test-sh.omilisp",
+      "relative_path": "archive/scripts/ci/test.sh",
+      "sha256": "f29965508654f43b7eed9ab0082df8d6914fc8c4dd8f893daae2110fb8c48bee",
+      "sid": "omi-canvas-port.archive-scripts-ci-test-sh"
+    },
+    {
+      "bytes": 1294,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-scripts-thin-slice-demo-sh.omilisp",
+      "relative_path": "archive/scripts/thin-slice-demo.sh",
+      "sha256": "f9747abdf800609b6f0198ad57ac90ecc7647f0a78525874bc9c5400d8d19176",
+      "sid": "omi-canvas-port.archive-scripts-thin-slice-demo-sh"
+    },
+    {
+      "bytes": 12227,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-algorithmicclock-hs.omilisp",
+      "relative_path": "archive/src/AlgorithmicClock.hs",
+      "sha256": "3574cb80df0ad7755bfb55eaeeb4b23de065673a3ba5f23a5a8c19b12505e778",
+      "sid": "omi-canvas-port.archive-src-algorithmicclock-hs"
+    },
+    {
+      "bytes": 16616,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-desktop-canvasedsl-hs.omilisp",
+      "relative_path": "archive/src/Desktop/CanvasEDSL.hs",
+      "sha256": "546bbe0dfc872947f5917d1cbe1b436f00e9f433940aaafb6439c5c2b39309c2",
+      "sid": "omi-canvas-port.archive-src-desktop-canvasedsl-hs"
+    },
+    {
+      "bytes": 22070,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-desktop-mdextract-hs.omilisp",
+      "relative_path": "archive/src/Desktop/MdExtract.hs",
+      "sha256": "db2267e57a4ed7bfa62b3ea3547c427633c4fd6e4cd113f49026999467c36111",
+      "sid": "omi-canvas-port.archive-src-desktop-mdextract-hs"
+    },
+    {
+      "bytes": 10335,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-desktop-mdmanifest-hs.omilisp",
+      "relative_path": "archive/src/Desktop/MdManifest.hs",
+      "sha256": "5962d2d44539fea3ad6701e93268d81b6a93733d2718935dcb7f10d127facd08",
+      "sid": "omi-canvas-port.archive-src-desktop-mdmanifest-hs"
+    },
+    {
+      "bytes": 8149,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-desktop-mdverifyevidence-hs.omilisp",
+      "relative_path": "archive/src/Desktop/MdVerifyEvidence.hs",
+      "sha256": "e3f2cea43104ec63c8f5c2307bde5b6115871218586060834fb64fa6666431d2",
+      "sid": "omi-canvas-port.archive-src-desktop-mdverifyevidence-hs"
+    },
+    {
+      "bytes": 9711,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-desktop-treecanvas-hs.omilisp",
+      "relative_path": "archive/src/Desktop/TreeCanvas.hs",
+      "sha256": "d552d81d4882f00444fbb6fc5ee9c56a4774321f132cf9880c5555ea04023104",
+      "sid": "omi-canvas-port.archive-src-desktop-treecanvas-hs"
+    },
+    {
+      "bytes": 3075,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-generatefoldergraph-hs.omilisp",
+      "relative_path": "archive/src/GenerateFolderGraph.hs",
+      "sha256": "c9fe44086e6d7aab9c614d563cd93fb6ece5fa91ce9c12dfa8d51d76b9f16fb4",
+      "sid": "omi-canvas-port.archive-src-generatefoldergraph-hs"
+    },
+    {
+      "bytes": 1917,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-generategraph-hs.omilisp",
+      "relative_path": "archive/src/GenerateGraph.hs",
+      "sha256": "1f29b137a48b2f726bf3ac2dc621359a3913b935db49066c4a746e7abdfceff3",
+      "sid": "omi-canvas-port.archive-src-generategraph-hs"
+    },
+    {
+      "bytes": 875,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-mnemonicmanifold-brackets-hs.omilisp",
+      "relative_path": "archive/src/MnemonicManifold/Brackets.hs",
+      "sha256": "3180d573ab69c04cdbca662eb842c069dc5c87be5ff58d9ebc01b98b55ebff38",
+      "sid": "omi-canvas-port.archive-src-mnemonicmanifold-brackets-hs"
+    },
+    {
+      "bytes": 6996,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-mnemonicmanifold-canon-hs.omilisp",
+      "relative_path": "archive/src/MnemonicManifold/Canon.hs",
+      "sha256": "91156d0a9fbdb8347816bd967acda0d69fa2b146a251d32555bff8dbcb39d97f",
+      "sid": "omi-canvas-port.archive-src-mnemonicmanifold-canon-hs"
+    },
+    {
+      "bytes": 10776,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-mnemonicmanifold-emit-hs.omilisp",
+      "relative_path": "archive/src/MnemonicManifold/Emit.hs",
+      "sha256": "c19b9e49e13b381ffc229cebcfd37fefabb4bbca42280908bd33a9e69707fc1a",
+      "sid": "omi-canvas-port.archive-src-mnemonicmanifold-emit-hs"
+    },
+    {
+      "bytes": 724,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-mnemonicmanifold-ids-hs.omilisp",
+      "relative_path": "archive/src/MnemonicManifold/Ids.hs",
+      "sha256": "f5bfd766492ab7534d5b9219d2a5979638d675d32f4f2511b5d19b709938fa11",
+      "sid": "omi-canvas-port.archive-src-mnemonicmanifold-ids-hs"
+    },
+    {
+      "bytes": 1355,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-mnemonicmanifold-jsontext-hs.omilisp",
+      "relative_path": "archive/src/MnemonicManifold/JsonText.hs",
+      "sha256": "a630237e9037beb9b37951e94336ec56e8e4344e516ed0df6f865ee76472d53b",
+      "sid": "omi-canvas-port.archive-src-mnemonicmanifold-jsontext-hs"
+    },
+    {
+      "bytes": 4990,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-mnemonicmanifold-sha256-hs.omilisp",
+      "relative_path": "archive/src/MnemonicManifold/SHA256.hs",
+      "sha256": "f118eecda73cf760ff2096509a3c5580953aa39b306af698dd47f5fdf117c84d",
+      "sid": "omi-canvas-port.archive-src-mnemonicmanifold-sha256-hs"
+    },
+    {
+      "bytes": 3090,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-mnemonicmanifold-spec-hs.omilisp",
+      "relative_path": "archive/src/MnemonicManifold/Spec.hs",
+      "sha256": "29582a01ec9b42c7e14132e369e2d0787d2f84b2d93cc72ca205a3558d6711f0",
+      "sid": "omi-canvas-port.archive-src-mnemonicmanifold-spec-hs"
+    },
+    {
+      "bytes": 3223,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-runtime-config-hs.omilisp",
+      "relative_path": "archive/src/Runtime/Config.hs",
+      "sha256": "a7ba539198989ce8c98972dfb27bc747151dd26766b2a2f1c9d080070aca9469",
+      "sid": "omi-canvas-port.archive-src-runtime-config-hs"
+    },
+    {
+      "bytes": 2489,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-runtime-control-hs.omilisp",
+      "relative_path": "archive/src/Runtime/Control.hs",
+      "sha256": "150ecb43ad04f327ffc01e3803a6dca438f661cdb58a906785da3c4dfb0c9114",
+      "sid": "omi-canvas-port.archive-src-runtime-control-hs"
+    },
+    {
+      "bytes": 894,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-runtime-log-hs.omilisp",
+      "relative_path": "archive/src/Runtime/Log.hs",
+      "sha256": "0b4dd87c5e18c71710a13639c4fc063aa0738f3773c4e900735249d0f555b4ac",
+      "sid": "omi-canvas-port.archive-src-runtime-log-hs"
+    },
+    {
+      "bytes": 1352,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-runtime-net-framing-hs.omilisp",
+      "relative_path": "archive/src/Runtime/Net/Framing.hs",
+      "sha256": "8ea3b5ed2757622b08e6ef299fe9ca566ac5fef6a5d2c5a4e1142a132f7ec1e9",
+      "sid": "omi-canvas-port.archive-src-runtime-net-framing-hs"
+    },
+    {
+      "bytes": 4287,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-runtime-net-gossip-types-hs.omilisp",
+      "relative_path": "archive/src/Runtime/Net/Gossip/Types.hs",
+      "sha256": "5e7f31bb04b8787af44b65786fa15ed42c5fd78cbb38f3bd5247e99048ba079b",
+      "sid": "omi-canvas-port.archive-src-runtime-net-gossip-types-hs"
+    },
+    {
+      "bytes": 10554,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-runtime-net-gossip-hs.omilisp",
+      "relative_path": "archive/src/Runtime/Net/Gossip.hs",
+      "sha256": "a1b27dec95b4bbf8dd9f23a768d3aa9ad4ba8fe861f59c3831d8863841cbb7fd",
+      "sid": "omi-canvas-port.archive-src-runtime-net-gossip-hs"
+    },
+    {
+      "bytes": 3235,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-runtime-node-hs.omilisp",
+      "relative_path": "archive/src/Runtime/Node.hs",
+      "sha256": "0c4a9cffa108427d496a59d1ca03e6bfa13ef0782b83842316f951cd8b73dc44",
+      "sid": "omi-canvas-port.archive-src-runtime-node-hs"
+    },
+    {
+      "bytes": 1996,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-runtime-server-hs.omilisp",
+      "relative_path": "archive/src/Runtime/Server.hs",
+      "sha256": "812949b6009164d28665249ebec5bb77eaebd8a59f8065f21bc8ac9138de9309",
+      "sid": "omi-canvas-port.archive-src-runtime-server-hs"
+    },
+    {
+      "bytes": 14404,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-runtime-store-hs.omilisp",
+      "relative_path": "archive/src/Runtime/Store.hs",
+      "sha256": "527d1ad9573ff6e90b8f49b6a997f23d058ff69c1a1b953aeed59d12db2eb70c",
+      "sid": "omi-canvas-port.archive-src-runtime-store-hs"
+    },
+    {
+      "bytes": 10190,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-decode-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Decode.hs",
+      "sha256": "66dc978e2bd83b53d08cd8f56a0955344f56eafe28af93ab4f4942c8ec7d2e72",
+      "sid": "omi-canvas-port.archive-src-snapshot-decode-hs"
+    },
+    {
+      "bytes": 9205,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-encode-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Encode.hs",
+      "sha256": "6d340a43318d3d960ac03164b5237caa49450b9925566d725d3b3a988385f2f1",
+      "sid": "omi-canvas-port.archive-src-snapshot-encode-hs"
+    },
+    {
+      "bytes": 1466,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-errors-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Errors.hs",
+      "sha256": "eced84f32f5dcc362f6ebd6dc6c7bacc7c918530db2f5ae4fc092a1c7fd1bbbb",
+      "sid": "omi-canvas-port.archive-src-snapshot-errors-hs"
+    },
+    {
+      "bytes": 591,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-limits-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Limits.hs",
+      "sha256": "07ab663fe6bf0ca6292553d20672f7b5c2831aacf71b9a9409d2db56af06759d",
+      "sid": "omi-canvas-port.archive-src-snapshot-limits-hs"
+    },
+    {
+      "bytes": 2269,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-reconcile-core-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Reconcile/Core.hs",
+      "sha256": "ff8b0750e896a9a06a33d9718088d70313fa29061cd49312718c2a17201ed75d",
+      "sid": "omi-canvas-port.archive-src-snapshot-reconcile-core-hs"
+    },
+    {
+      "bytes": 570,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-reconcile-types-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Reconcile/Types.hs",
+      "sha256": "347680121932ee6004bc16d382a5a4ae1ee9c0e7248c4f6fc41d07604a5b1e6d",
+      "sid": "omi-canvas-port.archive-src-snapshot-reconcile-types-hs"
+    },
+    {
+      "bytes": 2386,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-routing-core-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Routing/Core.hs",
+      "sha256": "4ab0682d28c4316f82f717927dad3db61bdb4585d8640ea5152f3259fc8bf43a",
+      "sid": "omi-canvas-port.archive-src-snapshot-routing-core-hs"
+    },
+    {
+      "bytes": 1136,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-routing-decode-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Routing/Decode.hs",
+      "sha256": "370a61aaf850b930fb84a79c72047e593cc769ae389dd3d84fd4f0d7e158073c",
+      "sid": "omi-canvas-port.archive-src-snapshot-routing-decode-hs"
+    },
+    {
+      "bytes": 753,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-routing-encode-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Routing/Encode.hs",
+      "sha256": "74a21c40ff0c9da546a61b87ef3bd78c1af0a56b8d9caa2f3f5008ac63f0ef36",
+      "sid": "omi-canvas-port.archive-src-snapshot-routing-encode-hs"
+    },
+    {
+      "bytes": 1382,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-routing-types-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Routing/Types.hs",
+      "sha256": "ddf9e5cdaf6ae2ce5ac488726832e6fc85000f08457f1cb6a09b7b25e6afe693",
+      "sid": "omi-canvas-port.archive-src-snapshot-routing-types-hs"
+    },
+    {
+      "bytes": 4525,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-core-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Core.hs",
+      "sha256": "7a03d804e231c8b6a0c06427d2e2f0b8fb5eb54517b68ac7e8c6af7d6bf416cd",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-core-hs"
+    },
+    {
+      "bytes": 1179,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-decode-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Decode.hs",
+      "sha256": "3015bf7c690be930d34eeef69135fc40453e597a4aa0484db01f3c64d65a0993",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-decode-hs"
+    },
+    {
+      "bytes": 1076,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-encode-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Encode.hs",
+      "sha256": "a767c020ebc1f312df1f81a19f874ad3bf7d45779d464e2db6556ed2dd6f31dc",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-encode-hs"
+    },
+    {
+      "bytes": 543,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-network-authority-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Network/Authority.hs",
+      "sha256": "5d5c0363b8300a93274af17a5f689c755e579f36c43981ded7324ff9a330ad9a",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-network-authority-hs"
+    },
+    {
+      "bytes": 809,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-network-decode-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Network/Decode.hs",
+      "sha256": "1fe18884c1dc55c93cfcb73d5d751c61a9cca9c0005d3b98ea7972e8974ebafe",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-network-decode-hs"
+    },
+    {
+      "bytes": 2674,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-network-digest-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Network/Digest.hs",
+      "sha256": "3c44e6639563b375a706289fa3e74b0251729bb561eb5c1a0fe1f47bb55e4e4a",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-network-digest-hs"
+    },
+    {
+      "bytes": 679,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-network-encode-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Network/Encode.hs",
+      "sha256": "f72a2ce795c46c79ce63cd462e2f41b3a4457371209528e6cb3bf6fafc1ae309",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-network-encode-hs"
+    },
+    {
+      "bytes": 739,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-network-epoch-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Network/Epoch.hs",
+      "sha256": "af408c9b8f511e0a5f8a02e6bb33b60009177b5df71654e4246b0b6f5a9807ad",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-network-epoch-hs"
+    },
+    {
+      "bytes": 3031,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-network-sim-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Network/Sim.hs",
+      "sha256": "dcdf1c0c3f684204c45bed5e9a87ca605082952925200e4919215cfcd6a4d4be",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-network-sim-hs"
+    },
+    {
+      "bytes": 1363,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-network-state-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Network/State.hs",
+      "sha256": "658ae540f21ed07c26a7e31db00a7e3d2522594cfc17ef6037ae9e24ce21da6b",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-network-state-hs"
+    },
+    {
+      "bytes": 826,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-network-types-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Network/Types.hs",
+      "sha256": "f99edb2c918dceb7a2f63a52cf320ffe405d563160f3efae7e616a07e0b409bd",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-network-types-hs"
+    },
+    {
+      "bytes": 2120,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-types-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Types.hs",
+      "sha256": "bb0fd0a3b654975f4d2403e7bf658570eeeda94949b5f02acd3080e1f53dc827",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-types-hs"
+    },
+    {
+      "bytes": 687,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-union-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Union.hs",
+      "sha256": "98df505944e0c85fc382fb3c0d8be651dcd83e4cfc0975cd3d6ec362e9b945dc",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-union-hs"
+    },
+    {
+      "bytes": 3973,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-scheduler-validate-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Scheduler/Validate.hs",
+      "sha256": "560be332a30d6b66e9db1fa71c6a391bf017668ccecc171c096d3ebf4e7794e1",
+      "sid": "omi-canvas-port.archive-src-snapshot-scheduler-validate-hs"
+    },
+    {
+      "bytes": 1444,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-types-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Types.hs",
+      "sha256": "6564be47d13d4b78c3ca21a01dc7c3c2219e12fc240b1568beb84bcf76e1021f",
+      "sid": "omi-canvas-port.archive-src-snapshot-types-hs"
+    },
+    {
+      "bytes": 19325,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-universe-core-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Universe/Core.hs",
+      "sha256": "94945c54d1cca6b6bd74dc42316f52cb22aeb1561a1bb9fbcb379a038f340558",
+      "sid": "omi-canvas-port.archive-src-snapshot-universe-core-hs"
+    },
+    {
+      "bytes": 1281,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-snapshot-universe-types-hs.omilisp",
+      "relative_path": "archive/src/Snapshot/Universe/Types.hs",
+      "sha256": "158902ac772fb276d18424e6563ea0757aff46a0506bc61207a30602a953fac9",
+      "sid": "omi-canvas-port.archive-src-snapshot-universe-types-hs"
+    },
+    {
+      "bytes": 2983,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-stream-hs.omilisp",
+      "relative_path": "archive/src/Stream.hs",
+      "sha256": "8c32a7c2eccde5a29a558048c8e2be660f1b8bab390fdee85db4e781b32dbfad",
+      "sid": "omi-canvas-port.archive-src-stream-hs"
+    },
+    {
+      "bytes": 1619,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-ulp-canonical-hs.omilisp",
+      "relative_path": "archive/src/ULP/Canonical.hs",
+      "sha256": "fc52f1972b8d997f17ac5d288f2c1978dd814a6585f8c1e530904a6c70dafcec",
+      "sid": "omi-canvas-port.archive-src-ulp-canonical-hs"
+    },
+    {
+      "bytes": 2550,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-ulp-merge-hs.omilisp",
+      "relative_path": "archive/src/ULP/Merge.hs",
+      "sha256": "1938dfd8cdff732f73038875c60faea1405713acf9f3bcf51f341f4714c4e7d9",
+      "sid": "omi-canvas-port.archive-src-ulp-merge-hs"
+    },
+    {
+      "bytes": 2829,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-ulp-merkle-hs.omilisp",
+      "relative_path": "archive/src/ULP/Merkle.hs",
+      "sha256": "72b5968e63821d83cb7d095e24fb53b13e48e9c3c014b9d20e2f3d489f7ffc28",
+      "sid": "omi-canvas-port.archive-src-ulp-merkle-hs"
+    },
+    {
+      "bytes": 1008,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-ulp-ndjson-hs.omilisp",
+      "relative_path": "archive/src/ULP/NDJSON.hs",
+      "sha256": "65c647a7e8448fa6f0c6ac7089fff3006ff7e95da4c6810298896efa9dcda3e5",
+      "sid": "omi-canvas-port.archive-src-ulp-ndjson-hs"
+    },
+    {
+      "bytes": 2389,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-ulp-runtime-hs.omilisp",
+      "relative_path": "archive/src/ULP/Runtime.hs",
+      "sha256": "26324a3cc90c5b179efbdf82635c6fe931780687cd399c1b8ca89722b12be06d",
+      "sid": "omi-canvas-port.archive-src-ulp-runtime-hs"
+    },
+    {
+      "bytes": 1060,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-ulp-storage-hs.omilisp",
+      "relative_path": "archive/src/ULP/Storage.hs",
+      "sha256": "0b330f7fd2084d20702fd5fe2050599a842a4a2fa20163d7354db79444702a1f",
+      "sid": "omi-canvas-port.archive-src-ulp-storage-hs"
+    },
+    {
+      "bytes": 8048,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-ulp-types-hs.omilisp",
+      "relative_path": "archive/src/ULP/Types.hs",
+      "sha256": "d7dcc77599561f69e5dfda0e785c176656a557cb0ae31c2ae0f4600f82c81da7",
+      "sid": "omi-canvas-port.archive-src-ulp-types-hs"
+    },
+    {
+      "bytes": 1247,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-ulp-validate-hs.omilisp",
+      "relative_path": "archive/src/ULP/Validate.hs",
+      "sha256": "9880c74be67e22de4227981359bb4c395c2c1cb929c050dd30d17efcf266f856",
+      "sid": "omi-canvas-port.archive-src-ulp-validate-hs"
+    },
+    {
+      "bytes": 2328,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-src-oracle-hs.omilisp",
+      "relative_path": "archive/src/oracle.hs",
+      "sha256": "4a3dc26bb557ae2184964bbe0ea09584d0c777a6f2cc1382be783731fe504023",
+      "sid": "omi-canvas-port.archive-src-oracle-hs"
+    },
+    {
+      "bytes": 2446,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-convergencesimspec-hs.omilisp",
+      "relative_path": "archive/test/ConvergenceSimSpec.hs",
+      "sha256": "a00ccd339463454253c1852d230d51fb57f20f6af71da35c234e4e9b3ceb6a22",
+      "sid": "omi-canvas-port.archive-test-convergencesimspec-hs"
+    },
+    {
+      "bytes": 5096,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-convergencespec-hs.omilisp",
+      "relative_path": "archive/test/ConvergenceSpec.hs",
+      "sha256": "0e6b880c9fc5db01881f600642380ab26760917f4a2bdd140683d2cc2e18772f",
+      "sid": "omi-canvas-port.archive-test-convergencespec-hs"
+    },
+    {
+      "bytes": 7724,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-goldenspec-hs.omilisp",
+      "relative_path": "archive/test/GoldenSpec.hs",
+      "sha256": "728cd5474a02b40c369d291f4c67e4f085deefb26f01505c8416773f03a4b9ff",
+      "sid": "omi-canvas-port.archive-test-goldenspec-hs"
+    },
+    {
+      "bytes": 1450,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-haltgoldenspec-hs.omilisp",
+      "relative_path": "archive/test/HaltGoldenSpec.hs",
+      "sha256": "0c6a0be3acefd1d39f9914932303f0786751d0b30e6cb5a813951629171ef069",
+      "sid": "omi-canvas-port.archive-test-haltgoldenspec-hs"
+    },
+    {
+      "bytes": 3449,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-instructiongoldenspec-hs.omilisp",
+      "relative_path": "archive/test/InstructionGoldenSpec.hs",
+      "sha256": "85058fee27fbdc2e8364c56381a3660983851e3a6297d19916e20b2356779d46",
+      "sid": "omi-canvas-port.archive-test-instructiongoldenspec-hs"
+    },
+    {
+      "bytes": 2663,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-instructionstreamgoldenspec-hs.omilisp",
+      "relative_path": "archive/test/InstructionStreamGoldenSpec.hs",
+      "sha256": "205dd2c8dd949397e6d165586fe076ffe99fe29bc60fc00b7e9cbd5d681dc8a2",
+      "sid": "omi-canvas-port.archive-test-instructionstreamgoldenspec-hs"
+    },
+    {
+      "bytes": 1153,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-networkauthorityspec-hs.omilisp",
+      "relative_path": "archive/test/NetworkAuthoritySpec.hs",
+      "sha256": "ebeffe5cb4cce75a0fa099bdd46099db4902cfafae53a61f386030aa4e9ceb58",
+      "sid": "omi-canvas-port.archive-test-networkauthorityspec-hs"
+    },
+    {
+      "bytes": 2220,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-networkbadspec-hs.omilisp",
+      "relative_path": "archive/test/NetworkBadSpec.hs",
+      "sha256": "27f839ae27e31dc0209e016bfb75c2b8c6058951d7e57d2f4321a2eea24d09ad",
+      "sid": "omi-canvas-port.archive-test-networkbadspec-hs"
+    },
+    {
+      "bytes": 1482,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-networkdigestgoldenspec-hs.omilisp",
+      "relative_path": "archive/test/NetworkDigestGoldenSpec.hs",
+      "sha256": "a456e6ab8713c72cb3fbba62d77a58b1f1b8f9be16f4b9083983f1ca4cce391c",
+      "sid": "omi-canvas-port.archive-test-networkdigestgoldenspec-hs"
+    },
+    {
+      "bytes": 1005,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-networkepochspec-hs.omilisp",
+      "relative_path": "archive/test/NetworkEpochSpec.hs",
+      "sha256": "d12749d958dcf842f3f59be566da8f6c0cd2385425a4332514fa9b8b37798c53",
+      "sid": "omi-canvas-port.archive-test-networkepochspec-hs"
+    },
+    {
+      "bytes": 10576,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-networkfuzzspec-hs.omilisp",
+      "relative_path": "archive/test/NetworkFuzzSpec.hs",
+      "sha256": "c2ab142dce49faf319bd0059faa53f799cdaa0bddbae73e5ab4e31555877788c",
+      "sid": "omi-canvas-port.archive-test-networkfuzzspec-hs"
+    },
+    {
+      "bytes": 1715,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-networkstatespec-hs.omilisp",
+      "relative_path": "archive/test/NetworkStateSpec.hs",
+      "sha256": "4670345c04d5065242a2edd2977d93723a46964fb31c4710021f47b174c704dc",
+      "sid": "omi-canvas-port.archive-test-networkstatespec-hs"
+    },
+    {
+      "bytes": 3999,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-normalizationspec-hs.omilisp",
+      "relative_path": "archive/test/NormalizationSpec.hs",
+      "sha256": "4e25860f4399074440d8e3991b5f1ce03348e0541bc1b4d4aa50b0fad3d80f38",
+      "sid": "omi-canvas-port.archive-test-normalizationspec-hs"
+    },
+    {
+      "bytes": 16555,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-propertyspec-hs.omilisp",
+      "relative_path": "archive/test/PropertySpec.hs",
+      "sha256": "8fd285bf94ce93e1e56f21a2d703bc99d3c8e4ca964e7a522a117028e081be56",
+      "sid": "omi-canvas-port.archive-test-propertyspec-hs"
+    },
+    {
+      "bytes": 1396,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-reconcileerrorgoldenspec-hs.omilisp",
+      "relative_path": "archive/test/ReconcileErrorGoldenSpec.hs",
+      "sha256": "bc573ddcf73c17ecf74b3e178e49c1acf71979888f35ad38dbeb0a5a93e5f536",
+      "sid": "omi-canvas-port.archive-test-reconcileerrorgoldenspec-hs"
+    },
+    {
+      "bytes": 4631,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-reconcilespec-hs.omilisp",
+      "relative_path": "archive/test/ReconcileSpec.hs",
+      "sha256": "fac6bc9bcd355f37a80e6e5c9d8afc8725a8fa8ec905953b291c132a34f500eb",
+      "sid": "omi-canvas-port.archive-test-reconcilespec-hs"
+    },
+    {
+      "bytes": 1591,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-replayspec-hs.omilisp",
+      "relative_path": "archive/test/ReplaySpec.hs",
+      "sha256": "e87a6bff16bd55cf4ae4b5bab577b65cd03b26e64c015f31128947a9937b0931",
+      "sid": "omi-canvas-port.archive-test-replayspec-hs"
+    },
+    {
+      "bytes": 1098,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-routingbadspec-hs.omilisp",
+      "relative_path": "archive/test/RoutingBadSpec.hs",
+      "sha256": "61ae1a38188ea87540175bfd998cf37205e8687492cd605e33b48a440a3735bf",
+      "sid": "omi-canvas-port.archive-test-routingbadspec-hs"
+    },
+    {
+      "bytes": 1394,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-routingerrorgoldenspec-hs.omilisp",
+      "relative_path": "archive/test/RoutingErrorGoldenSpec.hs",
+      "sha256": "e01e1b1d7e06a317ad37de4fc3aff41faf6c95a837c4a007c3a3ec99616a34ba",
+      "sid": "omi-canvas-port.archive-test-routingerrorgoldenspec-hs"
+    },
+    {
+      "bytes": 1037,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-routinggoldenspec-hs.omilisp",
+      "relative_path": "archive/test/RoutingGoldenSpec.hs",
+      "sha256": "e004b13fb2210155230e4e69cf8ee3cdb0ef0609cd85634ddfb9254276a36247",
+      "sid": "omi-canvas-port.archive-test-routinggoldenspec-hs"
+    },
+    {
+      "bytes": 1362,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-schedulererrorgoldenspec-hs.omilisp",
+      "relative_path": "archive/test/SchedulerErrorGoldenSpec.hs",
+      "sha256": "5088c4e4fb10de1f50ef94220f107d4299c34731352adc5337ed9ec78b4a5758",
+      "sid": "omi-canvas-port.archive-test-schedulererrorgoldenspec-hs"
+    },
+    {
+      "bytes": 2249,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-schedulergoldenspec-hs.omilisp",
+      "relative_path": "archive/test/SchedulerGoldenSpec.hs",
+      "sha256": "802efdbe2435aaf8e7b752705d15abd247396213b29d07ead7b94b0ee1e29f30",
+      "sid": "omi-canvas-port.archive-test-schedulergoldenspec-hs"
+    },
+    {
+      "bytes": 1719,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-schedulerspec-hs.omilisp",
+      "relative_path": "archive/test/SchedulerSpec.hs",
+      "sha256": "7408027f0be3e076e22cb5fcda054018e0497a896b3b25061469e4b2cff04a8b",
+      "sid": "omi-canvas-port.archive-test-schedulerspec-hs"
+    },
+    {
+      "bytes": 8372,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-seamproducerspec-hs.omilisp",
+      "relative_path": "archive/test/SeamProducerSpec.hs",
+      "sha256": "d25b7fff5a85f060ee60907ae8b8bd56117fb6b031443a53d43f83ab98cbf50c",
+      "sid": "omi-canvas-port.archive-test-seamproducerspec-hs"
+    },
+    {
+      "bytes": 9371,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-storagefuzzspec-hs.omilisp",
+      "relative_path": "archive/test/StorageFuzzSpec.hs",
+      "sha256": "c39183e6e96bba61bd126fd251c4ebcbe1c8adf48ce43c1429c4c047064712b6",
+      "sid": "omi-canvas-port.archive-test-storagefuzzspec-hs"
+    },
+    {
+      "bytes": 6743,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-testmdextract-hs.omilisp",
+      "relative_path": "archive/test/TestMdExtract.hs",
+      "sha256": "68d6b5b3864656ecf3d9bc3f62b98346062a27163790837c21bd965931e33d54",
+      "sid": "omi-canvas-port.archive-test-testmdextract-hs"
+    },
+    {
+      "bytes": 2652,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-testmnemonicmanifold-hs.omilisp",
+      "relative_path": "archive/test/TestMnemonicManifold.hs",
+      "sha256": "1eff6ea4cabdff7469a299d16d01c1ded225703406d79c14eb2c2b3a5eb5c7a4",
+      "sid": "omi-canvas-port.archive-test-testmnemonicmanifold-hs"
+    },
+    {
+      "bytes": 2133,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-unionlawspec-hs.omilisp",
+      "relative_path": "archive/test/UnionLawSpec.hs",
+      "sha256": "f1ee7486f208f3a61c23e2aba2c777f81b363f546471a06b9e9d275c1e9615d7",
+      "sid": "omi-canvas-port.archive-test-unionlawspec-hs"
+    },
+    {
+      "bytes": 4974,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "archive-test-universespec-hs.omilisp",
+      "relative_path": "archive/test/UniverseSpec.hs",
+      "sha256": "8143c9c45fa534225a0f4ee6235ce0f5e9389b351eaa68ee39aa625a9c3f7d9c",
+      "sid": "omi-canvas-port.archive-test-universespec-hs"
+    },
+    {
+      "bytes": 105,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-bad-bad-hash-csnp.omilisp",
+      "relative_path": "archive/test/bad/bad-hash.csnp",
+      "sha256": "3e0bfeeadda170c89fc34b40e274117682de7ff7036d5433c609e97c744f5ce0",
+      "sid": "omi-canvas-port.archive-test-bad-bad-hash-csnp"
+    },
+    {
+      "bytes": 114,
+      "extension": ".cspt",
+      "family": "artifact",
+      "output": "archive-test-bad-bad-hash-cspt.omilisp",
+      "relative_path": "archive/test/bad/bad-hash.cspt",
+      "sha256": "7aa2477b387f41ff8f58a7bbd596ce14c9d35c3f4924eae60e84bfcae7669a6e",
+      "sid": "omi-canvas-port.archive-test-bad-bad-hash-cspt"
+    },
+    {
+      "bytes": 105,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-bad-bad-magic-csnp.omilisp",
+      "relative_path": "archive/test/bad/bad-magic.csnp",
+      "sha256": "0f94a05398ce00127446f5a33da69fe47813ac09eaa857da842decbc6f1b9967",
+      "sid": "omi-canvas-port.archive-test-bad-bad-magic-csnp"
+    },
+    {
+      "bytes": 114,
+      "extension": ".cspt",
+      "family": "artifact",
+      "output": "archive-test-bad-bad-magic-cspt.omilisp",
+      "relative_path": "archive/test/bad/bad-magic.cspt",
+      "sha256": "78a14acf9171a7c0bfa649ce9d48a42963ea49f868d6c2b0ab6d2109fa6be525",
+      "sid": "omi-canvas-port.archive-test-bad-bad-magic-cspt"
+    },
+    {
+      "bytes": 146,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-bad-dup-id-csnp.omilisp",
+      "relative_path": "archive/test/bad/dup-id.csnp",
+      "sha256": "f2e31976747346b5e886433ff8e188604b68af217d2f2b06cb2000fa82de3484",
+      "sid": "omi-canvas-port.archive-test-bad-dup-id-csnp"
+    },
+    {
+      "bytes": 114,
+      "extension": ".cspt",
+      "family": "artifact",
+      "output": "archive-test-bad-entity-out-of-range-cspt.omilisp",
+      "relative_path": "archive/test/bad/entity-out-of-range.cspt",
+      "sha256": "80c2be6724900a0eb2c30638dc5038d0ff7315bf1b6380432c467e5cef6fde77",
+      "sid": "omi-canvas-port.archive-test-bad-entity-out-of-range-cspt"
+    },
+    {
+      "bytes": 114,
+      "extension": ".cspt",
+      "family": "artifact",
+      "output": "archive-test-bad-entity-range-cspt.omilisp",
+      "relative_path": "archive/test/bad/entity-range.cspt",
+      "sha256": "41329262139b6c354b26e959668460537c244c65082a86bba87862d80bc0c030",
+      "sid": "omi-canvas-port.archive-test-bad-entity-range-cspt"
+    },
+    {
+      "bytes": 102,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-bad-invalid-utf8-csnp.omilisp",
+      "relative_path": "archive/test/bad/invalid-utf8.csnp",
+      "sha256": "1441014b686c7660bd6f51a33832b8e1e973ca67035b8a7d38d7c36db58282e5",
+      "sid": "omi-canvas-port.archive-test-bad-invalid-utf8-csnp"
+    },
+    {
+      "bytes": 102,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-bad-nan-csnp.omilisp",
+      "relative_path": "archive/test/bad/nan.csnp",
+      "sha256": "5b933b838beeff494ecfbf93346c36d68d741e0997810d6080f9657d0a2602a8",
+      "sid": "omi-canvas-port.archive-test-bad-nan-csnp"
+    },
+    {
+      "bytes": 114,
+      "extension": ".cspt",
+      "family": "artifact",
+      "output": "archive-test-bad-tick-range-cspt.omilisp",
+      "relative_path": "archive/test/bad/tick-range.cspt",
+      "sha256": "8811f26fa9d6e1191a813e0e8288080f4305ccd3720a464432a9aa49ab73bca2",
+      "sid": "omi-canvas-port.archive-test-bad-tick-range-cspt"
+    },
+    {
+      "bytes": 146,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-bad-unsorted-csnp.omilisp",
+      "relative_path": "archive/test/bad/unsorted.csnp",
+      "sha256": "23d8a4930560a0dd2626e3813eedb4a59e607a2d31cf5c8a78a14529b634f4f0",
+      "sid": "omi-canvas-port.archive-test-bad-unsorted-csnp"
+    },
+    {
+      "bytes": 155,
+      "extension": ".cspt",
+      "family": "artifact",
+      "output": "archive-test-bad-unsorted-cspt.omilisp",
+      "relative_path": "archive/test/bad/unsorted.cspt",
+      "sha256": "531005eadb51c726f9d8604644fab61fcb3007473c2ae3d7e936625b9cfee932",
+      "sid": "omi-canvas-port.archive-test-bad-unsorted-cspt"
+    },
+    {
+      "bytes": 8,
+      "extension": ".instr",
+      "family": "artifact",
+      "output": "archive-test-bad-instr-flags-nonzero-instr.omilisp",
+      "relative_path": "archive/test/bad-instr/flags-nonzero.instr",
+      "sha256": "578ce22e73619f9dfc119e4e56196a02155da6d446d7f185567d49884f58724f",
+      "sid": "omi-canvas-port.archive-test-bad-instr-flags-nonzero-instr"
+    },
+    {
+      "bytes": 8,
+      "extension": ".instr",
+      "family": "artifact",
+      "output": "archive-test-bad-instr-len-mismatch-instr.omilisp",
+      "relative_path": "archive/test/bad-instr/len-mismatch.instr",
+      "sha256": "64ed86b909d6d0502b64b28db0ea1272ffb358e20e9b1d88b63ccb07fa900cf5",
+      "sid": "omi-canvas-port.archive-test-bad-instr-len-mismatch-instr"
+    },
+    {
+      "bytes": 16,
+      "extension": ".instrstream",
+      "family": "artifact",
+      "output": "archive-test-bad-instr-stream-len-mismatch-instrstream.omilisp",
+      "relative_path": "archive/test/bad-instr/stream-len-mismatch.instrstream",
+      "sha256": "f0358e61f6165eb115d17da7ac5ff1ba451d472271db8502239ed26110724a36",
+      "sid": "omi-canvas-port.archive-test-bad-instr-stream-len-mismatch-instrstream"
+    },
+    {
+      "bytes": 4,
+      "extension": ".instrstream",
+      "family": "artifact",
+      "output": "archive-test-bad-instr-stream-too-many-instrstream.omilisp",
+      "relative_path": "archive/test/bad-instr/stream-too-many.instrstream",
+      "sha256": "b742ec26ac612cea77de3219d5e42ab3a45737fbbaa012d227098febf8d0e4fb",
+      "sid": "omi-canvas-port.archive-test-bad-instr-stream-too-many-instrstream"
+    },
+    {
+      "bytes": 16,
+      "extension": ".instrstream",
+      "family": "artifact",
+      "output": "archive-test-bad-instrstream-stream-len-mismatch-instrstream.omilisp",
+      "relative_path": "archive/test/bad-instrstream/stream-len-mismatch.instrstream",
+      "sha256": "f0358e61f6165eb115d17da7ac5ff1ba451d472271db8502239ed26110724a36",
+      "sid": "omi-canvas-port.archive-test-bad-instrstream-stream-len-mismatch-instrstream"
+    },
+    {
+      "bytes": 4,
+      "extension": ".instrstream",
+      "family": "artifact",
+      "output": "archive-test-bad-instrstream-stream-overflow-instrstream.omilisp",
+      "relative_path": "archive/test/bad-instrstream/stream-overflow.instrstream",
+      "sha256": "b742ec26ac612cea77de3219d5e42ab3a45737fbbaa012d227098febf8d0e4fb",
+      "sid": "omi-canvas-port.archive-test-bad-instrstream-stream-overflow-instrstream"
+    },
+    {
+      "bytes": 15,
+      "extension": ".instrstream",
+      "family": "artifact",
+      "output": "archive-test-bad-instrstream-stream-truncated-instrstream.omilisp",
+      "relative_path": "archive/test/bad-instrstream/stream-truncated.instrstream",
+      "sha256": "d72c02db42c031f79a78bbf010ac69ba5d93230e92c03c214c9fff8daef22754",
+      "sid": "omi-canvas-port.archive-test-bad-instrstream-stream-truncated-instrstream"
+    },
+    {
+      "bytes": 143,
+      "extension": ".msg",
+      "family": "artifact",
+      "output": "archive-test-bad-network-digest-truncated-msg.omilisp",
+      "relative_path": "archive/test/bad-network/digest-truncated.msg",
+      "sha256": "570895f7305732219626e61dc0e39af2219a3f3b4a45d285062c08a194773327",
+      "sid": "omi-canvas-port.archive-test-bad-network-digest-truncated-msg"
+    },
+    {
+      "bytes": 1,
+      "extension": ".msg",
+      "family": "artifact",
+      "output": "archive-test-bad-network-truncated-header-msg.omilisp",
+      "relative_path": "archive/test/bad-network/truncated-header.msg",
+      "sha256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+      "sid": "omi-canvas-port.archive-test-bad-network-truncated-header-msg"
+    },
+    {
+      "bytes": 2,
+      "extension": ".msg",
+      "family": "artifact",
+      "output": "archive-test-bad-network-unknown-type-msg.omilisp",
+      "relative_path": "archive/test/bad-network/unknown-type.msg",
+      "sha256": "1d83f1598f253e6a5491637c6dcda3cd4a661887c7b9ea588dccdc61bc05f512",
+      "sid": "omi-canvas-port.archive-test-bad-network-unknown-type-msg"
+    },
+    {
+      "bytes": 143,
+      "extension": ".ctx",
+      "family": "artifact",
+      "output": "archive-test-bad-routing-bad-params-ctx.omilisp",
+      "relative_path": "archive/test/bad-routing/bad-params.ctx",
+      "sha256": "29d977324203eafa6d735de3d72a9b48fe80706ee58d2d08b0053656f013ee8c",
+      "sid": "omi-canvas-port.archive-test-bad-routing-bad-params-ctx"
+    },
+    {
+      "bytes": 27,
+      "extension": ".ctx",
+      "family": "artifact",
+      "output": "archive-test-bad-routing-bad-salt-length-ctx.omilisp",
+      "relative_path": "archive/test/bad-routing/bad-salt-length.ctx",
+      "sha256": "957e3601685dd58768f4c7420dad695836b7eb25c416716117496f9319377aa9",
+      "sid": "omi-canvas-port.archive-test-bad-routing-bad-salt-length-ctx"
+    },
+    {
+      "bytes": 143,
+      "extension": ".ctx",
+      "family": "artifact",
+      "output": "archive-test-bad-routing-bad-version-ctx.omilisp",
+      "relative_path": "archive/test/bad-routing/bad-version.ctx",
+      "sha256": "6926b4ead03369bf63888adbcebafe252e2a9c7add6262f912e09170796541bb",
+      "sid": "omi-canvas-port.archive-test-bad-routing-bad-version-ctx"
+    },
+    {
+      "bytes": 143,
+      "extension": ".ctx",
+      "family": "artifact",
+      "output": "archive-test-bad-routing-duplicate-peer-ctx.omilisp",
+      "relative_path": "archive/test/bad-routing/duplicate-peer.ctx",
+      "sha256": "606f4131444c51662b47eb8ce6b8412a373d1add161f52eb585ee95f64df3be9",
+      "sid": "omi-canvas-port.archive-test-bad-routing-duplicate-peer-ctx"
+    },
+    {
+      "bytes": 144,
+      "extension": ".ctx",
+      "family": "artifact",
+      "output": "archive-test-bad-routing-trailing-garbage-ctx.omilisp",
+      "relative_path": "archive/test/bad-routing/trailing-garbage.ctx",
+      "sha256": "5870f17abd00e92be29c2a8d36d921e17141faef89bfb0cd5c4285ac0cac4d40",
+      "sid": "omi-canvas-port.archive-test-bad-routing-trailing-garbage-ctx"
+    },
+    {
+      "bytes": 133,
+      "extension": ".ctx",
+      "family": "artifact",
+      "output": "archive-test-bad-routing-truncated-ctx.omilisp",
+      "relative_path": "archive/test/bad-routing/truncated.ctx",
+      "sha256": "ca9a4fa0f918bb970d5e02385ef53bb3d13d776a99c1481739950647ed5a2a8a",
+      "sid": "omi-canvas-port.archive-test-bad-routing-truncated-ctx"
+    },
+    {
+      "bytes": 143,
+      "extension": ".ctx",
+      "family": "artifact",
+      "output": "archive-test-bad-routing-unsorted-peers-ctx.omilisp",
+      "relative_path": "archive/test/bad-routing/unsorted-peers.ctx",
+      "sha256": "003a2f000e9c7e2ff0755a400b44acce889de89e761032c8f468dcae2d693434",
+      "sid": "omi-canvas-port.archive-test-bad-routing-unsorted-peers-ctx"
+    },
+    {
+      "bytes": 452,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-test-cli-smoke-sh.omilisp",
+      "relative_path": "archive/test/cli-smoke.sh",
+      "sha256": "42f2411390f6348e9999201f0d153a8e64dbe7fb0694277725871232bb52aeab",
+      "sid": "omi-canvas-port.archive-test-cli-smoke-sh"
+    },
+    {
+      "bytes": 107,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-convergence-after-csnp.omilisp",
+      "relative_path": "archive/test/convergence/after.csnp",
+      "sha256": "49e6503df0a6717de815d18efe0aaf14aa4c52ee25a679ef255d069f7bb2002e",
+      "sid": "omi-canvas-port.archive-test-convergence-after-csnp"
+    },
+    {
+      "bytes": 60,
+      "extension": ".instrstream",
+      "family": "artifact",
+      "output": "archive-test-convergence-batch-instrstream.omilisp",
+      "relative_path": "archive/test/convergence/batch.instrstream",
+      "sha256": "2d4e143bc9c28622cfd6f1ae01c230271ddb53559c63f1c5b80ec3c84ecd4d41",
+      "sid": "omi-canvas-port.archive-test-convergence-batch-instrstream"
+    },
+    {
+      "bytes": 64,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-convergence-before-csnp.omilisp",
+      "relative_path": "archive/test/convergence/before.csnp",
+      "sha256": "f656bafcf19788f7db5a8c6c7fadce49deb98c54669c4a023f8c5c04309cff8b",
+      "sid": "omi-canvas-port.archive-test-convergence-before-csnp"
+    },
+    {
+      "bytes": 133,
+      "extension": ".workset",
+      "family": "artifact",
+      "output": "archive-test-convergence-collision-a-workset.omilisp",
+      "relative_path": "archive/test/convergence/collision-a.workset",
+      "sha256": "c4071baa045e8b1e6b8c60803c6f0373d9024623538c69c97b4ae6ae3b5a32af",
+      "sid": "omi-canvas-port.archive-test-convergence-collision-a-workset"
+    },
+    {
+      "bytes": 117,
+      "extension": ".workset",
+      "family": "artifact",
+      "output": "archive-test-convergence-collision-b-workset.omilisp",
+      "relative_path": "archive/test/convergence/collision-b.workset",
+      "sha256": "f2c1d4ae08fe483224a3df9d4e881384965d1d47fa6645a002cc81c4540dadf8",
+      "sid": "omi-canvas-port.archive-test-convergence-collision-b-workset"
+    },
+    {
+      "bytes": 133,
+      "extension": ".workset",
+      "family": "artifact",
+      "output": "archive-test-convergence-dupe-ok-a-workset.omilisp",
+      "relative_path": "archive/test/convergence/dupe-ok-a.workset",
+      "sha256": "c4071baa045e8b1e6b8c60803c6f0373d9024623538c69c97b4ae6ae3b5a32af",
+      "sid": "omi-canvas-port.archive-test-convergence-dupe-ok-a-workset"
+    },
+    {
+      "bytes": 133,
+      "extension": ".workset",
+      "family": "artifact",
+      "output": "archive-test-convergence-dupe-ok-b-workset.omilisp",
+      "relative_path": "archive/test/convergence/dupe-ok-b.workset",
+      "sha256": "c4071baa045e8b1e6b8c60803c6f0373d9024623538c69c97b4ae6ae3b5a32af",
+      "sid": "omi-canvas-port.archive-test-convergence-dupe-ok-b-workset"
+    },
+    {
+      "bytes": 133,
+      "extension": ".workset",
+      "family": "artifact",
+      "output": "archive-test-convergence-multishard-a-workset.omilisp",
+      "relative_path": "archive/test/convergence/multishard-a.workset",
+      "sha256": "c4071baa045e8b1e6b8c60803c6f0373d9024623538c69c97b4ae6ae3b5a32af",
+      "sid": "omi-canvas-port.archive-test-convergence-multishard-a-workset"
+    },
+    {
+      "bytes": 117,
+      "extension": ".workset",
+      "family": "artifact",
+      "output": "archive-test-convergence-multishard-b-workset.omilisp",
+      "relative_path": "archive/test/convergence/multishard-b.workset",
+      "sha256": "86059fb6a26c2031063f45c115d0a3604a57f0157759e953eb050dd3e69e8add",
+      "sid": "omi-canvas-port.archive-test-convergence-multishard-b-workset"
+    },
+    {
+      "bytes": 133,
+      "extension": ".workset",
+      "family": "artifact",
+      "output": "archive-test-convergence-peer-a-workset.omilisp",
+      "relative_path": "archive/test/convergence/peer-a.workset",
+      "sha256": "c4071baa045e8b1e6b8c60803c6f0373d9024623538c69c97b4ae6ae3b5a32af",
+      "sid": "omi-canvas-port.archive-test-convergence-peer-a-workset"
+    },
+    {
+      "bytes": 117,
+      "extension": ".workset",
+      "family": "artifact",
+      "output": "archive-test-convergence-peer-b-workset.omilisp",
+      "relative_path": "archive/test/convergence/peer-b.workset",
+      "sha256": "1b085b43748383fc80555cc46bd9af4c3d62eccc363207f003534c50747b1cdd",
+      "sid": "omi-canvas-port.archive-test-convergence-peer-b-workset"
+    },
+    {
+      "bytes": 64,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-golden-empty-csnp.omilisp",
+      "relative_path": "archive/test/golden/empty.csnp",
+      "sha256": "f656bafcf19788f7db5a8c6c7fadce49deb98c54669c4a023f8c5c04309cff8b",
+      "sid": "omi-canvas-port.archive-test-golden-empty-csnp"
+    },
+    {
+      "bytes": 65,
+      "extension": ".hash",
+      "family": "artifact",
+      "output": "archive-test-golden-empty-hash.omilisp",
+      "relative_path": "archive/test/golden/empty.hash",
+      "sha256": "44a280ec1c56fe243c17e9fd62f617407214f81b46eabe9fe5d75ff455f0e205",
+      "sid": "omi-canvas-port.archive-test-golden-empty-hash"
+    },
+    {
+      "bytes": 105,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-golden-one-entity-csnp.omilisp",
+      "relative_path": "archive/test/golden/one-entity.csnp",
+      "sha256": "b6dc33f7bb2897e90c496d07c88a3c8528474c46cb5b35ee9f3c3a5650bd217b",
+      "sid": "omi-canvas-port.archive-test-golden-one-entity-csnp"
+    },
+    {
+      "bytes": 114,
+      "extension": ".cspt",
+      "family": "artifact",
+      "output": "archive-test-golden-one-entity-cspt.omilisp",
+      "relative_path": "archive/test/golden/one-entity.cspt",
+      "sha256": "d5e256e088b1c07ea466dd49ff544f94c3446916e4fb01c196543b9963d95ea3",
+      "sid": "omi-canvas-port.archive-test-golden-one-entity-cspt"
+    },
+    {
+      "bytes": 65,
+      "extension": ".hash",
+      "family": "artifact",
+      "output": "archive-test-golden-one-entity-cspt-hash.omilisp",
+      "relative_path": "archive/test/golden/one-entity.cspt.hash",
+      "sha256": "f051a4d22be1ee5539044f3b40ef2ff457c34a5716ae011b75d190cc74c7ae8c",
+      "sid": "omi-canvas-port.archive-test-golden-one-entity-cspt-hash"
+    },
+    {
+      "bytes": 65,
+      "extension": ".hash",
+      "family": "artifact",
+      "output": "archive-test-golden-one-entity-hash.omilisp",
+      "relative_path": "archive/test/golden/one-entity.hash",
+      "sha256": "5dbc86c91ffb7765e0d9819e945719ff592f9915c3a6a1c494a6b3e028c83689",
+      "sid": "omi-canvas-port.archive-test-golden-one-entity-hash"
+    },
+    {
+      "bytes": 2,
+      "extension": ".halt",
+      "family": "artifact",
+      "output": "archive-test-golden-halt-malformed-halt.omilisp",
+      "relative_path": "archive/test/golden-halt/malformed.halt",
+      "sha256": "bf60e4349cace6bce0d552e8d783428db66d0d649bd9e430a3627e2ee14ac839",
+      "sid": "omi-canvas-port.archive-test-golden-halt-malformed-halt"
+    },
+    {
+      "bytes": 2,
+      "extension": ".halt",
+      "family": "artifact",
+      "output": "archive-test-golden-halt-overflow-halt.omilisp",
+      "relative_path": "archive/test/golden-halt/overflow.halt",
+      "sha256": "e545d395bb3fd971f91bf9a2b6722831df704efae6c1aa9da0989ed0970b77bb",
+      "sid": "omi-canvas-port.archive-test-golden-halt-overflow-halt"
+    },
+    {
+      "bytes": 2,
+      "extension": ".halt",
+      "family": "artifact",
+      "output": "archive-test-golden-halt-unauthorized-halt.omilisp",
+      "relative_path": "archive/test/golden-halt/unauthorized.halt",
+      "sha256": "99be5efb88ca2013bd8e4eb035fd42d5245468fe9afa70d8ba9c1c419a48c4e8",
+      "sid": "omi-canvas-port.archive-test-golden-halt-unauthorized-halt"
+    },
+    {
+      "bytes": 2,
+      "extension": ".halt",
+      "family": "artifact",
+      "output": "archive-test-golden-halt-unknown-opcode-halt.omilisp",
+      "relative_path": "archive/test/golden-halt/unknown-opcode.halt",
+      "sha256": "47dc540c94ceb704a23875c11273e16bb0b8a87aed84de911f2133568115f254",
+      "sid": "omi-canvas-port.archive-test-golden-halt-unknown-opcode-halt"
+    },
+    {
+      "bytes": 65,
+      "extension": ".hash",
+      "family": "artifact",
+      "output": "archive-test-golden-instr-advance-tick-hash.omilisp",
+      "relative_path": "archive/test/golden-instr/advance-tick.hash",
+      "sha256": "51cc098a4e2e8a0da9bcbcf2a74171506a144ab6549fe73a456618aade5330d0",
+      "sid": "omi-canvas-port.archive-test-golden-instr-advance-tick-hash"
+    },
+    {
+      "bytes": 16,
+      "extension": ".instr",
+      "family": "artifact",
+      "output": "archive-test-golden-instr-advance-tick-instr.omilisp",
+      "relative_path": "archive/test/golden-instr/advance-tick.instr",
+      "sha256": "b125abce5b487b5145d76932851aa1c97bef683ac54317c358e3bf2b97b83c14",
+      "sid": "omi-canvas-port.archive-test-golden-instr-advance-tick-instr"
+    },
+    {
+      "bytes": 65,
+      "extension": ".hash",
+      "family": "artifact",
+      "output": "archive-test-golden-instr-create-entity-hash.omilisp",
+      "relative_path": "archive/test/golden-instr/create-entity.hash",
+      "sha256": "e7773a35ccb9cfb74924f8a53db7a62f3de5c369345f4d76fec79216558ba819",
+      "sid": "omi-canvas-port.archive-test-golden-instr-create-entity-hash"
+    },
+    {
+      "bytes": 32,
+      "extension": ".instr",
+      "family": "artifact",
+      "output": "archive-test-golden-instr-create-entity-instr.omilisp",
+      "relative_path": "archive/test/golden-instr/create-entity.instr",
+      "sha256": "def4c56a471f6a53f6e6c1cd8a42f1cf34227c427d893787923bfcad95d7c427",
+      "sid": "omi-canvas-port.archive-test-golden-instr-create-entity-instr"
+    },
+    {
+      "bytes": 65,
+      "extension": ".hash",
+      "family": "artifact",
+      "output": "archive-test-golden-instr-nop-hash.omilisp",
+      "relative_path": "archive/test/golden-instr/nop.hash",
+      "sha256": "c34558032b5cd207baad3b4c86fa358a54d7817f8a2eaf66d0bed5d41589a759",
+      "sid": "omi-canvas-port.archive-test-golden-instr-nop-hash"
+    },
+    {
+      "bytes": 8,
+      "extension": ".instr",
+      "family": "artifact",
+      "output": "archive-test-golden-instr-nop-instr.omilisp",
+      "relative_path": "archive/test/golden-instr/nop.instr",
+      "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8",
+      "sid": "omi-canvas-port.archive-test-golden-instr-nop-instr"
+    },
+    {
+      "bytes": 65,
+      "extension": ".hash",
+      "family": "artifact",
+      "output": "archive-test-golden-instr-set-component-hash.omilisp",
+      "relative_path": "archive/test/golden-instr/set-component.hash",
+      "sha256": "c285336299294c41995d0cdac362586973bd169d9b9b8d76f1af22e7079beedb",
+      "sid": "omi-canvas-port.archive-test-golden-instr-set-component-hash"
+    },
+    {
+      "bytes": 33,
+      "extension": ".instr",
+      "family": "artifact",
+      "output": "archive-test-golden-instr-set-component-instr.omilisp",
+      "relative_path": "archive/test/golden-instr/set-component.instr",
+      "sha256": "9e7686eb0be382adbc320733486649a518b6403f06227af858f705dcd2aa166a",
+      "sid": "omi-canvas-port.archive-test-golden-instr-set-component-instr"
+    },
+    {
+      "bytes": 65,
+      "extension": ".hash",
+      "family": "artifact",
+      "output": "archive-test-golden-instrstream-basic-hash.omilisp",
+      "relative_path": "archive/test/golden-instrstream/basic.hash",
+      "sha256": "91a95739f849ac2ae7853786675a0c2efdefb3cf2e69a0ebf9ede373880f3fa8",
+      "sid": "omi-canvas-port.archive-test-golden-instrstream-basic-hash"
+    },
+    {
+      "bytes": 72,
+      "extension": ".instrstream",
+      "family": "artifact",
+      "output": "archive-test-golden-instrstream-basic-instrstream.omilisp",
+      "relative_path": "archive/test/golden-instrstream/basic.instrstream",
+      "sha256": "72d6d0aca5e241e0544ba26fc33e6043fc5f90a8b2995d4c119140f4f8d64e83",
+      "sid": "omi-canvas-port.archive-test-golden-instrstream-basic-instrstream"
+    },
+    {
+      "bytes": 148,
+      "extension": ".msg",
+      "family": "artifact",
+      "output": "archive-test-golden-network-digest-basic-msg.omilisp",
+      "relative_path": "archive/test/golden-network/digest-basic.msg",
+      "sha256": "8cc82dbfd9813c86af8a89534f8a4a33798c587db87d953cf80a20983e412c6e",
+      "sid": "omi-canvas-port.archive-test-golden-network-digest-basic-msg"
+    },
+    {
+      "bytes": 148,
+      "extension": ".msg",
+      "family": "artifact",
+      "output": "archive-test-golden-network-digest-reject-noncanonical-msg.omilisp",
+      "relative_path": "archive/test/golden-network/digest-reject-noncanonical.msg",
+      "sha256": "52c3805db6f1eb7b5781742ae84a80fa1ba8ebd37d6b7640c92e0ac1f55ddcc1",
+      "sid": "omi-canvas-port.archive-test-golden-network-digest-reject-noncanonical-msg"
+    },
+    {
+      "bytes": 143,
+      "extension": ".ctx",
+      "family": "artifact",
+      "output": "archive-test-golden-network-routing-epoch0-ctx.omilisp",
+      "relative_path": "archive/test/golden-network/routing-epoch0.ctx",
+      "sha256": "19377fcef6bed2f60b082c04bfc132df39429c75557ae978e093c5d70aa996d0",
+      "sid": "omi-canvas-port.archive-test-golden-network-routing-epoch0-ctx"
+    },
+    {
+      "bytes": 143,
+      "extension": ".ctx",
+      "family": "artifact",
+      "output": "archive-test-golden-network-routing-epoch1-ctx.omilisp",
+      "relative_path": "archive/test/golden-network/routing-epoch1.ctx",
+      "sha256": "77e80970b2e2e7bf30c98ff575fb4e01bb07337275e4764bb2f70773c3c0dcfd",
+      "sid": "omi-canvas-port.archive-test-golden-network-routing-epoch1-ctx"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-reconcile-incompatible-region-err.omilisp",
+      "relative_path": "archive/test/golden-reconcile/incompatible-region.err",
+      "sha256": "c0ba8a33ac67f44abff5984dfbb6f56c46b880ac2b86e1f23e7fa9c402c53ae7",
+      "sid": "omi-canvas-port.archive-test-golden-reconcile-incompatible-region-err"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-reconcile-internal-err.omilisp",
+      "relative_path": "archive/test/golden-reconcile/internal.err",
+      "sha256": "2921a11f25dadaa24aa79a548e4e81508c2e5e56af2d833d65e2bcce448ce2f5",
+      "sid": "omi-canvas-port.archive-test-golden-reconcile-internal-err"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-reconcile-non-covering-err.omilisp",
+      "relative_path": "archive/test/golden-reconcile/non-covering.err",
+      "sha256": "99be5efb88ca2013bd8e4eb035fd42d5245468fe9afa70d8ba9c1c419a48c4e8",
+      "sid": "omi-canvas-port.archive-test-golden-reconcile-non-covering-err"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-reconcile-out-of-range-err.omilisp",
+      "relative_path": "archive/test/golden-reconcile/out-of-range.err",
+      "sha256": "9b4fb24edd6d1d8830e272398263cdbf026b97392cc35387b991dc0248a628f9",
+      "sid": "omi-canvas-port.archive-test-golden-reconcile-out-of-range-err"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-reconcile-overlap-mismatch-err.omilisp",
+      "relative_path": "archive/test/golden-reconcile/overlap-mismatch.err",
+      "sha256": "47dc540c94ceb704a23875c11273e16bb0b8a87aed84de911f2133568115f254",
+      "sid": "omi-canvas-port.archive-test-golden-reconcile-overlap-mismatch-err"
+    },
+    {
+      "bytes": 143,
+      "extension": ".ctx",
+      "family": "artifact",
+      "output": "archive-test-golden-routing-basic-ctx.omilisp",
+      "relative_path": "archive/test/golden-routing/basic.ctx",
+      "sha256": "77e80970b2e2e7bf30c98ff575fb4e01bb07337275e4764bb2f70773c3c0dcfd",
+      "sid": "omi-canvas-port.archive-test-golden-routing-basic-ctx"
+    },
+    {
+      "bytes": 64,
+      "extension": ".route",
+      "family": "artifact",
+      "output": "archive-test-golden-routing-basic-route.omilisp",
+      "relative_path": "archive/test/golden-routing/basic.route",
+      "sha256": "bfa4d80224733e7073b6976428044909f1764dc75fc65ccfed0777b3c0b09a24",
+      "sid": "omi-canvas-port.archive-test-golden-routing-basic-route"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-routing-errors-bad-version-err.omilisp",
+      "relative_path": "archive/test/golden-routing-errors/bad-version.err",
+      "sha256": "47dc540c94ceb704a23875c11273e16bb0b8a87aed84de911f2133568115f254",
+      "sid": "omi-canvas-port.archive-test-golden-routing-errors-bad-version-err"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-routing-errors-invalid-params-err.omilisp",
+      "relative_path": "archive/test/golden-routing-errors/invalid-params.err",
+      "sha256": "99be5efb88ca2013bd8e4eb035fd42d5245468fe9afa70d8ba9c1c419a48c4e8",
+      "sid": "omi-canvas-port.archive-test-golden-routing-errors-invalid-params-err"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-routing-errors-invalid-peerid-err.omilisp",
+      "relative_path": "archive/test/golden-routing-errors/invalid-peerid.err",
+      "sha256": "c0ba8a33ac67f44abff5984dfbb6f56c46b880ac2b86e1f23e7fa9c402c53ae7",
+      "sid": "omi-canvas-port.archive-test-golden-routing-errors-invalid-peerid-err"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-routing-errors-invalid-peerset-err.omilisp",
+      "relative_path": "archive/test/golden-routing-errors/invalid-peerset.err",
+      "sha256": "9b4fb24edd6d1d8830e272398263cdbf026b97392cc35387b991dc0248a628f9",
+      "sid": "omi-canvas-port.archive-test-golden-routing-errors-invalid-peerset-err"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-routing-errors-malformed-err.omilisp",
+      "relative_path": "archive/test/golden-routing-errors/malformed.err",
+      "sha256": "2921a11f25dadaa24aa79a548e4e81508c2e5e56af2d833d65e2bcce448ce2f5",
+      "sid": "omi-canvas-port.archive-test-golden-routing-errors-malformed-err"
+    },
+    {
+      "bytes": 107,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-golden-schedule-basic-after-csnp.omilisp",
+      "relative_path": "archive/test/golden-schedule/basic.after.csnp",
+      "sha256": "49e6503df0a6717de815d18efe0aaf14aa4c52ee25a679ef255d069f7bb2002e",
+      "sid": "omi-canvas-port.archive-test-golden-schedule-basic-after-csnp"
+    },
+    {
+      "bytes": 60,
+      "extension": ".instrstream",
+      "family": "artifact",
+      "output": "archive-test-golden-schedule-basic-batch-instrstream.omilisp",
+      "relative_path": "archive/test/golden-schedule/basic.batch.instrstream",
+      "sha256": "2d4e143bc9c28622cfd6f1ae01c230271ddb53559c63f1c5b80ec3c84ecd4d41",
+      "sid": "omi-canvas-port.archive-test-golden-schedule-basic-batch-instrstream"
+    },
+    {
+      "bytes": 64,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-golden-schedule-basic-before-csnp.omilisp",
+      "relative_path": "archive/test/golden-schedule/basic.before.csnp",
+      "sha256": "f656bafcf19788f7db5a8c6c7fadce49deb98c54669c4a023f8c5c04309cff8b",
+      "sid": "omi-canvas-port.archive-test-golden-schedule-basic-before-csnp"
+    },
+    {
+      "bytes": 246,
+      "extension": ".workset",
+      "family": "artifact",
+      "output": "archive-test-golden-schedule-basic-workset.omilisp",
+      "relative_path": "archive/test/golden-schedule/basic.workset",
+      "sha256": "8593793ddb2356f35ab8b2ff0c10f5d47bb46f0359e0b2c79dba1d785528c0c1",
+      "sid": "omi-canvas-port.archive-test-golden-schedule-basic-workset"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-scheduler-errors-duplicate-workid-err.omilisp",
+      "relative_path": "archive/test/golden-scheduler-errors/duplicate-workid.err",
+      "sha256": "c0ba8a33ac67f44abff5984dfbb6f56c46b880ac2b86e1f23e7fa9c402c53ae7",
+      "sid": "omi-canvas-port.archive-test-golden-scheduler-errors-duplicate-workid-err"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-scheduler-errors-internal-err.omilisp",
+      "relative_path": "archive/test/golden-scheduler-errors/internal.err",
+      "sha256": "ceb827ad3d3884fd4d50ae6099d6d50c09a21e72ebd309708e8b69d93df19e55",
+      "sid": "omi-canvas-port.archive-test-golden-scheduler-errors-internal-err"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-scheduler-errors-invalid-cell-err.omilisp",
+      "relative_path": "archive/test/golden-scheduler-errors/invalid-cell.err",
+      "sha256": "99be5efb88ca2013bd8e4eb035fd42d5245468fe9afa70d8ba9c1c419a48c4e8",
+      "sid": "omi-canvas-port.archive-test-golden-scheduler-errors-invalid-cell-err"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-scheduler-errors-limit-err.omilisp",
+      "relative_path": "archive/test/golden-scheduler-errors/limit.err",
+      "sha256": "47dc540c94ceb704a23875c11273e16bb0b8a87aed84de911f2133568115f254",
+      "sid": "omi-canvas-port.archive-test-golden-scheduler-errors-limit-err"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-scheduler-errors-malformed-err.omilisp",
+      "relative_path": "archive/test/golden-scheduler-errors/malformed.err",
+      "sha256": "2921a11f25dadaa24aa79a548e4e81508c2e5e56af2d833d65e2bcce448ce2f5",
+      "sid": "omi-canvas-port.archive-test-golden-scheduler-errors-malformed-err"
+    },
+    {
+      "bytes": 2,
+      "extension": ".err",
+      "family": "artifact",
+      "output": "archive-test-golden-scheduler-errors-out-of-range-err.omilisp",
+      "relative_path": "archive/test/golden-scheduler-errors/out-of-range.err",
+      "sha256": "9b4fb24edd6d1d8830e272398263cdbf026b97392cc35387b991dc0248a628f9",
+      "sid": "omi-canvas-port.archive-test-golden-scheduler-errors-out-of-range-err"
+    },
+    {
+      "bytes": 1008,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "archive-test-hs-to-js-validate-mjs.omilisp",
+      "relative_path": "archive/test/hs-to-js-validate.mjs",
+      "sha256": "729c132149f5b8d44a3e3a93167d5c6bd4d523e90cbbe3203410790dd0af0651",
+      "sid": "omi-canvas-port.archive-test-hs-to-js-validate-mjs"
+    },
+    {
+      "bytes": 234,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-test-interop-suite-sh.omilisp",
+      "relative_path": "archive/test/interop-suite.sh",
+      "sha256": "5a4cc4149e72fc85173a68806bea7309d428dae6882ab78a8991cc6e76688c9d",
+      "sid": "omi-canvas-port.archive-test-interop-suite-sh"
+    },
+    {
+      "bytes": 107,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-replay-basic-after-csnp.omilisp",
+      "relative_path": "archive/test/replay/basic.after.csnp",
+      "sha256": "49e6503df0a6717de815d18efe0aaf14aa4c52ee25a679ef255d069f7bb2002e",
+      "sid": "omi-canvas-port.archive-test-replay-basic-after-csnp"
+    },
+    {
+      "bytes": 64,
+      "extension": ".csnp",
+      "family": "artifact",
+      "output": "archive-test-replay-basic-before-csnp.omilisp",
+      "relative_path": "archive/test/replay/basic.before.csnp",
+      "sha256": "f656bafcf19788f7db5a8c6c7fadce49deb98c54669c4a023f8c5c04309cff8b",
+      "sid": "omi-canvas-port.archive-test-replay-basic-before-csnp"
+    },
+    {
+      "bytes": 72,
+      "extension": ".instrstream",
+      "family": "artifact",
+      "output": "archive-test-replay-basic-stream-instrstream.omilisp",
+      "relative_path": "archive/test/replay/basic.stream.instrstream",
+      "sha256": "72d6d0aca5e241e0544ba26fc33e6043fc5f90a8b2995d4c119140f4f8d64e83",
+      "sid": "omi-canvas-port.archive-test-replay-basic-stream-instrstream"
+    },
+    {
+      "bytes": 802,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-test-replay-compare-sh.omilisp",
+      "relative_path": "archive/test/replay-compare.sh",
+      "sha256": "548d8195575fd484a778c872f23d7ca8dfb80f2a54efd49f34b3c0374363b187",
+      "sid": "omi-canvas-port.archive-test-replay-compare-sh"
+    },
+    {
+      "bytes": 366,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-test-replay-hs-sh.omilisp",
+      "relative_path": "archive/test/replay-hs.sh",
+      "sha256": "4a13410ea3215afc72f0037f956bab4919aac0b026253a1d8fdd9e4d3fa33ec9",
+      "sid": "omi-canvas-port.archive-test-replay-hs-sh"
+    },
+    {
+      "bytes": 1549,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "archive-test-replay-js-mjs.omilisp",
+      "relative_path": "archive/test/replay-js.mjs",
+      "sha256": "e9bbcd66309f3ad991648b3f97a48350c2c68e34b9a67234c04b51c9d1583ca8",
+      "sid": "omi-canvas-port.archive-test-replay-js-mjs"
+    },
+    {
+      "bytes": 2114,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-test-replay-suite-sh.omilisp",
+      "relative_path": "archive/test/replay-suite.sh",
+      "sha256": "a4b3ae8870f9a247a5d0986ee0d58dbbc652a837df48788830906aa715a0b90d",
+      "sid": "omi-canvas-port.archive-test-replay-suite-sh"
+    },
+    {
+      "bytes": 387,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-test-reverse-vector-check-sh.omilisp",
+      "relative_path": "archive/test/reverse-vector-check.sh",
+      "sha256": "7ce63720998c0d90f55e364bff3752ac9342d6a3c8bb1f908a15a7b8d0464350",
+      "sid": "omi-canvas-port.archive-test-reverse-vector-check-sh"
+    },
+    {
+      "bytes": 929,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "archive-test-seam-automaton-events-ndjson.omilisp",
+      "relative_path": "archive/test/seam/automaton/events.ndjson",
+      "sha256": "a077015157c0821bb2dc583966e979f9c3f5420cdb4fea3bf5dbd27a3945a412",
+      "sid": "omi-canvas-port.archive-test-seam-automaton-events-ndjson"
+    },
+    {
+      "bytes": 65,
+      "extension": ".hash",
+      "family": "artifact",
+      "output": "archive-test-seam-automaton-expected-hash.omilisp",
+      "relative_path": "archive/test/seam/automaton/expected.hash",
+      "sha256": "0cf53296b6bfaf5840d4c00e7cdfbb2ce1596197a98ad652e553598090d5cc3a",
+      "sid": "omi-canvas-port.archive-test-seam-automaton-expected-hash"
+    },
+    {
+      "bytes": 3900,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-test-sig-suite-sh.omilisp",
+      "relative_path": "archive/test/sig-suite.sh",
+      "sha256": "2b6011a6d138f4f27e62ad7191b9cbaf2fefb9650fb8fdb49e1f842b9c0bdd1b",
+      "sid": "omi-canvas-port.archive-test-sig-suite-sh"
+    },
+    {
+      "bytes": 395,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "archive-test-sign-message-mjs.omilisp",
+      "relative_path": "archive/test/sign-message.mjs",
+      "sha256": "3fdfa5aa750cbd87b454aa89638d0bb70b0e9caafafe5e2011112f0731ecea0c",
+      "sid": "omi-canvas-port.archive-test-sign-message-mjs"
+    },
+    {
+      "bytes": 721,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "archive-test-signature-js-golden-mjs.omilisp",
+      "relative_path": "archive/test/signature-js-golden.mjs",
+      "sha256": "ef20bdcd5b2b4945180cf2ad12782b4bc81319c8c59056eedbe2bace2cc3438b",
+      "sid": "omi-canvas-port.archive-test-signature-js-golden-mjs"
+    },
+    {
+      "bytes": 825,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-test-vector-check-sh.omilisp",
+      "relative_path": "archive/test/vector-check.sh",
+      "sha256": "339c35fbb838ea1bb980c21ecc018d56fcea2b4b4f59363ee05bf902e3980e5d",
+      "sid": "omi-canvas-port.archive-test-vector-check-sh"
+    },
+    {
+      "bytes": 1047,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "archive-test-vector-validate-mjs.omilisp",
+      "relative_path": "archive/test/vector-validate.mjs",
+      "sha256": "871b7cd79ccc396947329b5e500d418f98ad4a84290e89716daa99bdd7546921",
+      "sid": "omi-canvas-port.archive-test-vector-validate-mjs"
+    },
+    {
+      "bytes": 279,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "archive-test-vectors-canon-mini-ndjson.omilisp",
+      "relative_path": "archive/test/vectors/canon-mini.ndjson",
+      "sha256": "f8259d1c412878727b1cf7e3877d5fbb2ced607382636feb43738f52fb6977ce",
+      "sid": "omi-canvas-port.archive-test-vectors-canon-mini-ndjson"
+    },
+    {
+      "bytes": 2106,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "archive-test-vectors-commit1-json.omilisp",
+      "relative_path": "archive/test/vectors/commit1.json",
+      "sha256": "00a3abe095b355233bb066c63cf1a22c110195d755bbfee2e500d050d1911aba",
+      "sid": "omi-canvas-port.archive-test-vectors-commit1-json"
+    },
+    {
+      "bytes": 421,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "archive-test-vectors-md-canvas-pointers-golden-ndjson.omilisp",
+      "relative_path": "archive/test/vectors/md-canvas-pointers.golden.ndjson",
+      "sha256": "dd1e9ac9e178950d0c043dbec6f03ec3d97ecdffbf8981d00fd346eb1e6ee307",
+      "sid": "omi-canvas-port.archive-test-vectors-md-canvas-pointers-golden-ndjson"
+    },
+    {
+      "bytes": 50,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-test-vectors-md-canvas-sample-md.omilisp",
+      "relative_path": "archive/test/vectors/md-canvas-sample.md",
+      "sha256": "b5848f3ea422ab15d652bd4bff51f1cd23ea008268e6ac62281d9131f7eb2d18",
+      "sid": "omi-canvas-port.archive-test-vectors-md-canvas-sample-md"
+    },
+    {
+      "bytes": 1575,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "archive-test-vectors-md-extract-golden-ndjson.omilisp",
+      "relative_path": "archive/test/vectors/md-extract.golden.ndjson",
+      "sha256": "1a80de27399fea7525125f006deb463244e68fb23b29def49732e40b389a7f61",
+      "sid": "omi-canvas-port.archive-test-vectors-md-extract-golden-ndjson"
+    },
+    {
+      "bytes": 1167,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "archive-test-vectors-md-manifest-golden-json.omilisp",
+      "relative_path": "archive/test/vectors/md-manifest.golden.json",
+      "sha256": "5a526d2dc414e731d532fab2d7ccf3385e6ef379ebf0b7dc642fa9ddc09f87ba",
+      "sid": "omi-canvas-port.archive-test-vectors-md-manifest-golden-json"
+    },
+    {
+      "bytes": 1405,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "archive-test-vectors-md-prose-extract-golden-ndjson.omilisp",
+      "relative_path": "archive/test/vectors/md-prose-extract.golden.ndjson",
+      "sha256": "a97baa549d9f284f2938990bbf8a8439744b07bd2cf67061d1a88c138c456f66",
+      "sid": "omi-canvas-port.archive-test-vectors-md-prose-extract-golden-ndjson"
+    },
+    {
+      "bytes": 125,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-test-vectors-md-prose-sample-md.omilisp",
+      "relative_path": "archive/test/vectors/md-prose-sample.md",
+      "sha256": "80dd2805157dca94efed9552abe545dd5afb516d941d2bdc0e4deb846a85f8a8",
+      "sid": "omi-canvas-port.archive-test-vectors-md-prose-sample-md"
+    },
+    {
+      "bytes": 357,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-test-vectors-md-sample-md.omilisp",
+      "relative_path": "archive/test/vectors/md-sample.md",
+      "sha256": "d184255f0d7a9e527dee8320d891d4aeca95db3e7d1ff782a047f5aba7f8a630",
+      "sid": "omi-canvas-port.archive-test-vectors-md-sample-md"
+    },
+    {
+      "bytes": 15846,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "archive-test-vectors-mnemonic-manifold-buildroot-golden-ndjson.omilisp",
+      "relative_path": "archive/test/vectors/mnemonic-manifold.buildroot.golden.ndjson",
+      "sha256": "ecbba39d95be3c158ff73e17e50a9ed64d80dffdfa5420ddcd4a8f7a41d1dcea",
+      "sid": "omi-canvas-port.archive-test-vectors-mnemonic-manifold-buildroot-golden-ndjson"
+    },
+    {
+      "bytes": 15292,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "archive-test-vectors-mnemonic-manifold-golden-ndjson.omilisp",
+      "relative_path": "archive/test/vectors/mnemonic-manifold.golden.ndjson",
+      "sha256": "4f521bbd42f76bd9e899117fbcd0c47b9ee6e0e5c0fba8262f11488420a82e4e",
+      "sid": "omi-canvas-port.archive-test-vectors-mnemonic-manifold-golden-ndjson"
+    },
+    {
+      "bytes": 3413,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "archive-test-vectors-replay-golden-ndjson.omilisp",
+      "relative_path": "archive/test/vectors/replay-golden.ndjson",
+      "sha256": "4209ec66d5c94430a428281bb5df73df5d5d05a6c6a715cc1ea08b17d5de28bd",
+      "sid": "omi-canvas-port.archive-test-vectors-replay-golden-ndjson"
+    },
+    {
+      "bytes": 1729,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "archive-test-vectors-signed-js-ndjson.omilisp",
+      "relative_path": "archive/test/vectors/signed-js.ndjson",
+      "sha256": "fec8e01b915ad7944323057cd9adb15f3c768bd21ecf7cb67e8077b395a5b838",
+      "sid": "omi-canvas-port.archive-test-vectors-signed-js-ndjson"
+    },
+    {
+      "bytes": 16758,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "archive-test-vectors-spo-mini-golden-ndjson.omilisp",
+      "relative_path": "archive/test/vectors/spo-mini.golden.ndjson",
+      "sha256": "b5b2a6f4a08b422256dec5a025def82dcbb253611429a57e0c344a7c83c0461f",
+      "sid": "omi-canvas-port.archive-test-vectors-spo-mini-golden-ndjson"
+    },
+    {
+      "bytes": 418,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "archive-test-vectors-spo-mini-ndjson.omilisp",
+      "relative_path": "archive/test/vectors/spo-mini.ndjson",
+      "sha256": "a52e0808ffb1a1f7ce21bf2ba496b4c3bf4bfefaa49a5f538051d1d51b0a1caa",
+      "sid": "omi-canvas-port.archive-test-vectors-spo-mini-ndjson"
+    },
+    {
+      "bytes": 428,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "archive-test-verify-signature-mjs.omilisp",
+      "relative_path": "archive/test/verify-signature.mjs",
+      "sha256": "b7aceb29f58622970eec12cff0a6ff8fe08d5590f44c3189a8bcc3af92b65c8e",
+      "sid": "omi-canvas-port.archive-test-verify-signature-mjs"
+    },
+    {
+      "bytes": 1317,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "c-polyform-carriers-makefile.omilisp",
+      "relative_path": "c/polyform-carriers/Makefile",
+      "sha256": "157e5162721beea258837150c1afb182213384167f94e32f02bf8678c7aaff82",
+      "sid": "omi-canvas-port.c-polyform-carriers-makefile"
+    },
+    {
+      "bytes": 2886,
+      "extension": ".md",
+      "family": "document",
+      "output": "c-polyform-carriers-readme-md.omilisp",
+      "relative_path": "c/polyform-carriers/README.md",
+      "sha256": "5fd5c84af9412312ddf74b76900b5955b2f9f80309615f54ea96762788fe66f0",
+      "sid": "omi-canvas-port.c-polyform-carriers-readme-md"
+    },
+    {
+      "bytes": 1856,
+      "extension": ".h",
+      "family": "code",
+      "output": "c-polyform-carriers-include-carrier40-h.omilisp",
+      "relative_path": "c/polyform-carriers/include/carrier40.h",
+      "sha256": "784cc4f9cdd21dcf695528bfbf3c8e21aef80a229c0101e032f8e831eac36350",
+      "sid": "omi-canvas-port.c-polyform-carriers-include-carrier40-h"
+    },
+    {
+      "bytes": 1714,
+      "extension": ".h",
+      "family": "code",
+      "output": "c-polyform-carriers-include-polyform-h.omilisp",
+      "relative_path": "c/polyform-carriers/include/polyform.h",
+      "sha256": "c335800b0f3cbdba9903a849baec222c4ef5d7f18088d31085881b8ce6a18221",
+      "sid": "omi-canvas-port.c-polyform-carriers-include-polyform-h"
+    },
+    {
+      "bytes": 1049,
+      "extension": ".h",
+      "family": "code",
+      "output": "c-polyform-carriers-include-polytope-codepoint-bridge-h.omilisp",
+      "relative_path": "c/polyform-carriers/include/polytope_codepoint_bridge.h",
+      "sha256": "323d341d3e273d919adf959a99afcd4faf4a7f4d1b74bfde62d41f2eb00a37da",
+      "sid": "omi-canvas-port.c-polyform-carriers-include-polytope-codepoint-bridge-h"
+    },
+    {
+      "bytes": 764,
+      "extension": ".h",
+      "family": "code",
+      "output": "c-polyform-carriers-include-svg-h.omilisp",
+      "relative_path": "c/polyform-carriers/include/svg.h",
+      "sha256": "c8d131869fd27a792049e9e9e6a8864f1eb979ffa57236a98d36b402bc7c9392",
+      "sid": "omi-canvas-port.c-polyform-carriers-include-svg-h"
+    },
+    {
+      "bytes": 30336,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "c-polyform-carriers-polyform-cli.omilisp",
+      "relative_path": "c/polyform-carriers/polyform-cli",
+      "sha256": "3a9e163b618909a55e8fca9b01ec4ed1ef91eb3bb2d6e4159395eae85a689f55",
+      "sid": "omi-canvas-port.c-polyform-carriers-polyform-cli"
+    },
+    {
+      "bytes": 2242,
+      "extension": ".c",
+      "family": "code",
+      "output": "c-polyform-carriers-src-carrier40-c.omilisp",
+      "relative_path": "c/polyform-carriers/src/carrier40.c",
+      "sha256": "4ea1c5c1dd454b27343205d2cede061a7e0d062a0d36eb27e6857c4bdcc32933",
+      "sid": "omi-canvas-port.c-polyform-carriers-src-carrier40-c"
+    },
+    {
+      "bytes": 4450,
+      "extension": ".c",
+      "family": "code",
+      "output": "c-polyform-carriers-src-main-c.omilisp",
+      "relative_path": "c/polyform-carriers/src/main.c",
+      "sha256": "c67e652e32e25f63bea3386cd3dce02c03a4ec73858898f76de2972597d158b9",
+      "sid": "omi-canvas-port.c-polyform-carriers-src-main-c"
+    },
+    {
+      "bytes": 5270,
+      "extension": ".c",
+      "family": "code",
+      "output": "c-polyform-carriers-src-polyform-c.omilisp",
+      "relative_path": "c/polyform-carriers/src/polyform.c",
+      "sha256": "99bfe77c46835e20b2b52827601ab19ac4889f2fe3797240125f426409d383b2",
+      "sid": "omi-canvas-port.c-polyform-carriers-src-polyform-c"
+    },
+    {
+      "bytes": 790,
+      "extension": ".c",
+      "family": "code",
+      "output": "c-polyform-carriers-src-polytope-codepoint-bridge-c.omilisp",
+      "relative_path": "c/polyform-carriers/src/polytope_codepoint_bridge.c",
+      "sha256": "518b5822d72a589945d66d76526dabae62d463a5a88372c6f6fd2e7717799e18",
+      "sid": "omi-canvas-port.c-polyform-carriers-src-polytope-codepoint-bridge-c"
+    },
+    {
+      "bytes": 8777,
+      "extension": ".c",
+      "family": "code",
+      "output": "c-polyform-carriers-src-svg-c.omilisp",
+      "relative_path": "c/polyform-carriers/src/svg.c",
+      "sha256": "f11f9dd8f134a12b9fb0bc50c7ba9ab21f845ca69e9e3eeff5e5e32243620432",
+      "sid": "omi-canvas-port.c-polyform-carriers-src-svg-c"
+    },
+    {
+      "bytes": 4010,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-00-project-overview-md.omilisp",
+      "relative_path": "dev-docs/00-PROJECT-OVERVIEW.md",
+      "sha256": "e33f19bbef60b8a1570a43b4ba741ba4ce220b09ef80ae030e0e4b29fb7aeaf6",
+      "sid": "omi-canvas-port.dev-docs-00-project-overview-md"
+    },
+    {
+      "bytes": 4331,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-01-snapshot-protocol-md.omilisp",
+      "relative_path": "dev-docs/01-SNAPSHOT-PROTOCOL.md",
+      "sha256": "f9a84cda50db02c9cf6890e3e5af209371e465d60e903c050256c606e82660b3",
+      "sid": "omi-canvas-port.dev-docs-01-snapshot-protocol-md"
+    },
+    {
+      "bytes": 2195,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-02-ulp-ledger-md.omilisp",
+      "relative_path": "dev-docs/02-ULP-LEDGER.md",
+      "sha256": "d8762e92af8e60b1761d1172bf62ff11fcba91015cfdea6b60a8d882d1e61c1c",
+      "sid": "omi-canvas-port.dev-docs-02-ulp-ledger-md"
+    },
+    {
+      "bytes": 2229,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-03-mnemonic-manifold-md.omilisp",
+      "relative_path": "dev-docs/03-MNEMONIC-MANIFOLD.md",
+      "sha256": "c0a38dde25a032d490dd0c6f079038d73f41b1c4c21c3de7782851df701ad477",
+      "sid": "omi-canvas-port.dev-docs-03-mnemonic-manifold-md"
+    },
+    {
+      "bytes": 2351,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-04-runtime-network-md.omilisp",
+      "relative_path": "dev-docs/04-RUNTIME-NETWORK.md",
+      "sha256": "55d49157d3fd75f3503a5660810d6395f6b15ef255592710f79ff806c5dc6a71",
+      "sid": "omi-canvas-port.dev-docs-04-runtime-network-md"
+    },
+    {
+      "bytes": 2420,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-05-canvas-desktop-md.omilisp",
+      "relative_path": "dev-docs/05-CANVAS-DESKTOP.md",
+      "sha256": "2d27ff17a396a647a7b8304f0ef493cc1e45afc1724ae26f19c095901398f60c",
+      "sid": "omi-canvas-port.dev-docs-05-canvas-desktop-md"
+    },
+    {
+      "bytes": 2082,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-06-app-entrypoints-md.omilisp",
+      "relative_path": "dev-docs/06-APP-ENTRYPOINTS.md",
+      "sha256": "8cb9f1a2646c4769240f4c6f3664cf42bc1f53bde2133ddbb50b4a62b6f19bf8",
+      "sid": "omi-canvas-port.dev-docs-06-app-entrypoints-md"
+    },
+    {
+      "bytes": 855,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-07-algorithmic-clock-and-oracle-md.omilisp",
+      "relative_path": "dev-docs/07-ALGORITHMIC-CLOCK-AND-ORACLE.md",
+      "sha256": "b7626256247f7c1510ddecc112492127be7fc4900768a5f6f6dc0d19d1c81ae8",
+      "sid": "omi-canvas-port.dev-docs-07-algorithmic-clock-and-oracle-md"
+    },
+    {
+      "bytes": 5848,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-08-test-suite-md.omilisp",
+      "relative_path": "dev-docs/08-TEST-SUITE.md",
+      "sha256": "832b5bb3a5fbe05094351963bbcf53e94a7e8246551881f0c006b992dffdc245",
+      "sid": "omi-canvas-port.dev-docs-08-test-suite-md"
+    },
+    {
+      "bytes": 9668,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-09-file-index-md.omilisp",
+      "relative_path": "dev-docs/09-FILE-INDEX.md",
+      "sha256": "8ed80558ecf99beb330cce776e9639d8becac0ea7aa013a57593a2481181683a",
+      "sid": "omi-canvas-port.dev-docs-09-file-index-md"
+    },
+    {
+      "bytes": 4241,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-10-dependency-map-md.omilisp",
+      "relative_path": "dev-docs/10-DEPENDENCY-MAP.md",
+      "sha256": "8ffde4dc43d1b1bd7e7fe0414dc3d46415f51211bdea29172feee6deba045b24",
+      "sid": "omi-canvas-port.dev-docs-10-dependency-map-md"
+    },
+    {
+      "bytes": 1931,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-readme-md.omilisp",
+      "relative_path": "dev-docs/README.md",
+      "sha256": "040108b78a67a3f0a0028aa5e6e7a4f44f11b51f1bc4ea410a1133f880fec287",
+      "sid": "omi-canvas-port.dev-docs-readme-md"
+    },
+    {
+      "bytes": 15477,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "dist-newstyle-cache-compiler.omilisp",
+      "relative_path": "dist-newstyle/cache/compiler",
+      "sha256": "be4a70d38ba036d230d8b5ea5d6df446689f2f2aeaa02095402829cc8076ca7d",
+      "sid": "omi-canvas-port.dist-newstyle-cache-compiler"
+    },
+    {
+      "bytes": 5031,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "dist-newstyle-cache-config.omilisp",
+      "relative_path": "dist-newstyle/cache/config",
+      "sha256": "09edf53fec6879d9ef49cdc508e8d21b154764e488a28f1c6477649660c0a0db",
+      "sid": "omi-canvas-port.dist-newstyle-cache-config"
+    },
+    {
+      "bytes": 50311,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "dist-newstyle-cache-elaborated-plan.omilisp",
+      "relative_path": "dist-newstyle/cache/elaborated-plan",
+      "sha256": "d16b90bca95b921ec343be420b3bdf83607083256b9cd7da81a9342c0d19e0fb",
+      "sid": "omi-canvas-port.dist-newstyle-cache-elaborated-plan"
+    },
+    {
+      "bytes": 80917,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "dist-newstyle-cache-improved-plan.omilisp",
+      "relative_path": "dist-newstyle/cache/improved-plan",
+      "sha256": "428059bab347d46ae45fdb93b43b7bfbb48484123ace328aa08a7bfa4174c511",
+      "sid": "omi-canvas-port.dist-newstyle-cache-improved-plan"
+    },
+    {
+      "bytes": 2524,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "dist-newstyle-cache-plan-json.omilisp",
+      "relative_path": "dist-newstyle/cache/plan.json",
+      "sha256": "a786af5cd8754bcdd55f512f4b118a98380cecce3722cd77f4287798d2a8db15",
+      "sid": "omi-canvas-port.dist-newstyle-cache-plan-json"
+    },
+    {
+      "bytes": 33679,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "dist-newstyle-cache-solver-plan.omilisp",
+      "relative_path": "dist-newstyle/cache/solver-plan",
+      "sha256": "501fd2ed51b760ed6cde2e951764f9aa3055537d3305c5d02a8d959630380c23",
+      "sid": "omi-canvas-port.dist-newstyle-cache-solver-plan"
+    },
+    {
+      "bytes": 111,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "dist-newstyle-cache-source-hashes.omilisp",
+      "relative_path": "dist-newstyle/cache/source-hashes",
+      "sha256": "c4dcfaef0c2d3b5b179ed70b1d0b3ecaa28db01298a507a5e58befaecb738a16",
+      "sid": "omi-canvas-port.dist-newstyle-cache-source-hashes"
+    },
+    {
+      "bytes": 219,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "dist-newstyle-cache-up-to-date.omilisp",
+      "relative_path": "dist-newstyle/cache/up-to-date",
+      "sha256": "0dae34ba9cfc2d396ac528bd14433a13f11e28eaccd097fa2f063653ebf45e0b",
+      "sid": "omi-canvas-port.dist-newstyle-cache-up-to-date"
+    },
+    {
+      "bytes": 1442,
+      "extension": ".conf",
+      "family": "artifact",
+      "output": "dist-newstyle-packagedb-ghc-9-4-7-omi-canvas-0-1-0-0-inplace-conf.omilisp",
+      "relative_path": "dist-newstyle/packagedb/ghc-9.4.7/omi-canvas-0.1.0.0-inplace.conf",
+      "sha256": "e6f3a69f45361e311242508368fb878297d8114e2974210e13439a040d05518a",
+      "sid": "omi-canvas-port.dist-newstyle-packagedb-ghc-9-4-7-omi-canvas-0-1-0-0-inplace-conf"
+    },
+    {
+      "bytes": 3003,
+      "extension": ".cache",
+      "family": "artifact",
+      "output": "dist-newstyle-packagedb-ghc-9-4-7-package-cache.omilisp",
+      "relative_path": "dist-newstyle/packagedb/ghc-9.4.7/package.cache",
+      "sha256": "8f8549e82e4af6f66e6ce216c694412daf0a29edf8032c44e90c3d71eb4af6ba",
+      "sid": "omi-canvas-port.dist-newstyle-packagedb-ghc-9-4-7-package-cache"
+    },
+    {
+      "bytes": 0,
+      "extension": ".lock",
+      "family": "artifact",
+      "output": "dist-newstyle-packagedb-ghc-9-4-7-package-cache-lock.omilisp",
+      "relative_path": "dist-newstyle/packagedb/ghc-9.4.7/package.cache.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-canvas-port.dist-newstyle-packagedb-ghc-9-4-7-package-cache-lock"
+    },
+    {
+      "bytes": 940,
+      "extension": ".cabal",
+      "family": "artifact",
+      "output": "omi-canvas-cabal.omilisp",
+      "relative_path": "omi-canvas.cabal",
+      "sha256": "22978b4b9105c43adc1ee9df4274198d88b1c3ea6bbd697e20e005b5636fdae4",
+      "sid": "omi-canvas-port.omi-canvas-cabal"
+    },
+    {
+      "bytes": 4824,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-canvas-json-hs.omilisp",
+      "relative_path": "src/OMI/Canvas/JSON.hs",
+      "sha256": "921ec0bd02d303ad446cbe07d267ad390e0b91e3c1ac02ff8a290d40068c7563",
+      "sid": "omi-canvas-port.src-omi-canvas-json-hs"
+    },
+    {
+      "bytes": 2288,
+      "extension": ".hi",
+      "family": "artifact",
+      "output": "src-omi-canvas-hi.omilisp",
+      "relative_path": "src/OMI/Canvas.hi",
+      "sha256": "862f04eefff69654b1e374aab30f9bb58010c942df871e880d7bdd6393c84f0d",
+      "sid": "omi-canvas-port.src-omi-canvas-hi"
+    },
+    {
+      "bytes": 3976,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-canvas-hs.omilisp",
+      "relative_path": "src/OMI/Canvas.hs",
+      "sha256": "85970791fafb83b89b06001318239818f7a5179d78507a73f8945db5706b62a8",
+      "sid": "omi-canvas-port.src-omi-canvas-hs"
+    },
+    {
+      "bytes": 10768,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "src-omi-canvas-o.omilisp",
+      "relative_path": "src/OMI/Canvas.o",
+      "sha256": "66f4ae134622aa7290d047ce5563b2dd01035d744844060e8ced94bf313988e3",
+      "sid": "omi-canvas-port.src-omi-canvas-o"
+    },
+    {
+      "bytes": 7907,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-carrier-hs.omilisp",
+      "relative_path": "src/OMI/Carrier.hs",
+      "sha256": "479919573d96f76a264f506be82ff40f3a3ab89b37f896223b2db5299ec57f25",
+      "sid": "omi-canvas-port.src-omi-carrier-hs"
+    },
+    {
+      "bytes": 1517,
+      "extension": ".hi",
+      "family": "artifact",
+      "output": "src-omi-core-hi.omilisp",
+      "relative_path": "src/OMI/Core.hi",
+      "sha256": "8b964742e1204134ab6c848e509b0dc6565d43f44bb403f1aa96be340957e16b",
+      "sid": "omi-canvas-port.src-omi-core-hi"
+    },
+    {
+      "bytes": 503,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-core-hs.omilisp",
+      "relative_path": "src/OMI/Core.hs",
+      "sha256": "afa41acfaeb4f2cc3c006346058d12517abcade9a145911cdb2c09c483d0a038",
+      "sid": "omi-canvas-port.src-omi-core-hs"
+    },
+    {
+      "bytes": 6912,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "src-omi-core-o.omilisp",
+      "relative_path": "src/OMI/Core.o",
+      "sha256": "e0a4b74ce593e7d3f7e6532ff5acbc6a866a04b50c4ec5f2d477cefbe0b01c2b",
+      "sid": "omi-canvas-port.src-omi-core-o"
+    },
+    {
+      "bytes": 1647,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-decisiontable-hs.omilisp",
+      "relative_path": "src/OMI/DecisionTable.hs",
+      "sha256": "cb762cfc8e0d8720463f4f7241ad7790b6ba4e698ca2c1586d2a629ef7eb5ec9",
+      "sid": "omi-canvas-port.src-omi-decisiontable-hs"
+    },
+    {
+      "bytes": 1419,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-gauge-hs.omilisp",
+      "relative_path": "src/OMI/Gauge.hs",
+      "sha256": "6c55a3a3e8408b55174b63e8d84a11b794977425031b91ab670f155860c40f77",
+      "sid": "omi-canvas-port.src-omi-gauge-hs"
+    },
+    {
+      "bytes": 1143,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-gossip-types-hs.omilisp",
+      "relative_path": "src/OMI/Gossip/Types.hs",
+      "sha256": "d84bf2eaa1392ad893408a24a4fd2549a3f110cb4d55d5e890fdfb064d5c5e07",
+      "sid": "omi-canvas-port.src-omi-gossip-types-hs"
+    },
+    {
+      "bytes": 873,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-karnaugh-hs.omilisp",
+      "relative_path": "src/OMI/Karnaugh.hs",
+      "sha256": "1610fcc7090fa49e87bd2a04e55bba12709886faf04e2196a68d91267454c7e3",
+      "sid": "omi-canvas-port.src-omi-karnaugh-hs"
+    },
+    {
+      "bytes": 2510,
+      "extension": ".hi",
+      "family": "artifact",
+      "output": "src-omi-kernel-hi.omilisp",
+      "relative_path": "src/OMI/Kernel.hi",
+      "sha256": "4c38d2e6181693fdbb491c27aac74e3d0365ef35600de473de89fb08604f8a2c",
+      "sid": "omi-canvas-port.src-omi-kernel-hi"
+    },
+    {
+      "bytes": 492,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-kernel-hs.omilisp",
+      "relative_path": "src/OMI/Kernel.hs",
+      "sha256": "84c1f071430963cdf09c63de9106fdf7be631190d7a14d65e12d92f437e589d8",
+      "sid": "omi-canvas-port.src-omi-kernel-hs"
+    },
+    {
+      "bytes": 15176,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "src-omi-kernel-o.omilisp",
+      "relative_path": "src/OMI/Kernel.o",
+      "sha256": "6dfd7236982fb99e6898ab68fe5bebe693dba17247cb731442130eb9fcf4cca8",
+      "sid": "omi-canvas-port.src-omi-kernel-o"
+    },
+    {
+      "bytes": 11261,
+      "extension": ".hi",
+      "family": "artifact",
+      "output": "src-omi-lisp-hi.omilisp",
+      "relative_path": "src/OMI/Lisp.hi",
+      "sha256": "ad1e511a7d3bd59d18fc9bd7d341c64ae0bc9785fdb7ee116b9ee1c13c860a17",
+      "sid": "omi-canvas-port.src-omi-lisp-hi"
+    },
+    {
+      "bytes": 14139,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-lisp-hs.omilisp",
+      "relative_path": "src/OMI/Lisp.hs",
+      "sha256": "119518a14f8ec09cb5fe39d3fd7deb3793da5e2ed544dcc5a1f07eff742055bb",
+      "sid": "omi-canvas-port.src-omi-lisp-hs"
+    },
+    {
+      "bytes": 125488,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "src-omi-lisp-o.omilisp",
+      "relative_path": "src/OMI/Lisp.o",
+      "sha256": "3ecc9cc37a844ef084f3c4ac8a1bc9896e07b1cde6480be6202b6fd064eb6d98",
+      "sid": "omi-canvas-port.src-omi-lisp-o"
+    },
+    {
+      "bytes": 8540,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-markdown-hs.omilisp",
+      "relative_path": "src/OMI/Markdown.hs",
+      "sha256": "26556a07a5cdb5977c065bad2be461460b294f2f5c92484e9e4997327c429e60",
+      "sid": "omi-canvas-port.src-omi-markdown-hs"
+    },
+    {
+      "bytes": 4433,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-memory-hs.omilisp",
+      "relative_path": "src/OMI/Memory.hs",
+      "sha256": "20d476eb061600024a699c5cfabd860f3b216139d1bee2ead655e93a5c8ad7be",
+      "sid": "omi-canvas-port.src-omi-memory-hs"
+    },
+    {
+      "bytes": 515,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-net-frame-hs.omilisp",
+      "relative_path": "src/OMI/Net/Frame.hs",
+      "sha256": "18a39c01e327757a110505fb82f87c96a80578349c1edbf752e679cebf24f6c4",
+      "sid": "omi-canvas-port.src-omi-net-frame-hs"
+    },
+    {
+      "bytes": 4260,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-pipeline-hs.omilisp",
+      "relative_path": "src/OMI/Pipeline.hs",
+      "sha256": "bbf2dfc3d87798d3f4aace4815563b6ac6d755ccff4e0f3ee0bd27350055c470",
+      "sid": "omi-canvas-port.src-omi-pipeline-hs"
+    },
+    {
+      "bytes": 1386,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-reconcile-hs.omilisp",
+      "relative_path": "src/OMI/Reconcile.hs",
+      "sha256": "28b58d76d284d3d8f0a005b2f93eb4708ecad74d1fb31a649450e6ad81d765c9",
+      "sid": "omi-canvas-port.src-omi-reconcile-hs"
+    },
+    {
+      "bytes": 3640,
+      "extension": ".hi",
+      "family": "artifact",
+      "output": "src-omi-relation-hi.omilisp",
+      "relative_path": "src/OMI/Relation.hi",
+      "sha256": "41daf7240182e5b90c259c0992c0a88cd4ef03efef81ae5e677bd54d357aa6aa",
+      "sid": "omi-canvas-port.src-omi-relation-hi"
+    },
+    {
+      "bytes": 4266,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-relation-hs.omilisp",
+      "relative_path": "src/OMI/Relation.hs",
+      "sha256": "a6cd68e39e76edc10f3b9c3637253b8984a50b612cf72dd9e0ac171932e81617",
+      "sid": "omi-canvas-port.src-omi-relation-hs"
+    },
+    {
+      "bytes": 24728,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "src-omi-relation-o.omilisp",
+      "relative_path": "src/OMI/Relation.o",
+      "sha256": "53da5042c1d1b4c6285c08af4c4cef1f1f18c61b6e3ce7b549c1558f316c797e",
+      "sid": "omi-canvas-port.src-omi-relation-o"
+    },
+    {
+      "bytes": 824,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-runtime-hs.omilisp",
+      "relative_path": "src/OMI/Runtime.hs",
+      "sha256": "5ea4c0261cac268e009ec5443f81c9e775d37a8a27991ac84fc914ad605deeef",
+      "sid": "omi-canvas-port.src-omi-runtime-hs"
+    },
+    {
+      "bytes": 1068,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-scope-hs.omilisp",
+      "relative_path": "src/OMI/Scope.hs",
+      "sha256": "a897f5e22098b8ffade0d9f4fff867519ceba5d2b2d224b473e7917a3d672e28",
+      "sid": "omi-canvas-port.src-omi-scope-hs"
+    },
+    {
+      "bytes": 1030,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-stream-hs.omilisp",
+      "relative_path": "src/OMI/Stream.hs",
+      "sha256": "59d522c426b534564e0cdc23c245a5a9ff7c62b63fb8ff5aa97249a22d1ed9d3",
+      "sid": "omi-canvas-port.src-omi-stream-hs"
+    },
+    {
+      "bytes": 2940,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-truthgate-hs.omilisp",
+      "relative_path": "src/OMI/TruthGate.hs",
+      "sha256": "4edb9c15cb040b63c86ad0eca5f133a58023b1a4f6fee28a6753bd7da3f4417d",
+      "sid": "omi-canvas-port.src-omi-truthgate-hs"
+    },
+    {
+      "bytes": 1369,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-vcs-hs.omilisp",
+      "relative_path": "src/OMI/VCS.hs",
+      "sha256": "46f8cec0fd8de6aaf110ed9643dc9ca5265475a10c9288a2f511bbf22406e330",
+      "sid": "omi-canvas-port.src-omi-vcs-hs"
+    },
+    {
+      "bytes": 3603,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "src-omi-wittgenstein-hs.omilisp",
+      "relative_path": "src/OMI/Wittgenstein.hs",
+      "sha256": "71c519f312e22e8003e781daf84116d42609c280ad55ed8d6b14f9947a9f90de",
+      "sid": "omi-canvas-port.src-omi-wittgenstein-hs"
+    },
+    {
+      "bytes": 15078,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "test-spec-hs.omilisp",
+      "relative_path": "test/Spec.hs",
+      "sha256": "ea6d29b12ad3cfb81158e6129c51f1293696cd97dbe2db290d4f073fbdfa6bbc",
+      "sid": "omi-canvas-port.test-spec-hs"
+    }
+  ],
+  "output_root": "/home/main/omi/omi---imo/declarations/omi-canvas-port",
+  "source_root": "/home/main/omi/omi-canvas"
+}

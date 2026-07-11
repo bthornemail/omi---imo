@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.25-hopf-fibrations-07-computational-geometry-md)
+    (title "omi-docs port: 25-Hopf-Fibrations/07-Computational-Geometry.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/25-Hopf-Fibrations/07-Computational-Geometry.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.25-hopf-fibrations-07-computational-geometry-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "25-Hopf-Fibrations/07-Computational-Geometry.md")
+    (extension ".md")
+    (family document)
+    (bytes 6278)
+    (sha256 "b6e1c2c4232db0e199e09d4e1b45a465cb5baaabf82d7255198e011d8af3b69c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 182)
+    (title "Epicycloid: small circle rolling on large circle")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

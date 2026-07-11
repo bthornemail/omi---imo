@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omnicron-port.polyform-bitboards-control-graph-overlay-aegean-bitboard)
+    (title "omnicron port: polyform/bitboards/control_graph_overlay_aegean.bitboard")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/polyform/bitboards/control_graph_overlay_aegean.bitboard")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.polyform-bitboards-control-graph-overlay-aegean-bitboard)
+    (locator omi---imo.omnicron-port)
+    (binding bitboard.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs declaration)
+    (us bitboard))
+  (source-artifact
+    (relative-path "polyform/bitboards/control_graph_overlay_aegean.bitboard")
+    (extension ".bitboard")
+    (family declaration)
+    (bytes 589)
+    (sha256 "1032183ee9b51e7acff79139491ddb3fac28c4bb6086833c0767c91604be0e7b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 29)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

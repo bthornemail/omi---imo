@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid o---o-port.public-rules-receipt-projection-export-sh)
+    (title "o---o port: public/rules/receipt-projection-export.sh")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/public/rules/receipt-projection-export.sh")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.public-rules-receipt-projection-export-sh)
+    (locator omi---imo.o---o-port)
+    (binding sh.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs code)
+    (us sh))
+  (source-artifact
+    (relative-path "public/rules/receipt-projection-export.sh")
+    (extension ".sh")
+    (family code)
+    (bytes 111)
+    (sha256 "e652c1855b40ed660781dd9b317ce54608e9dfddf81b905f3b6a94b5e51997a4"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 3)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

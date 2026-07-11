@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-tools-deterministic-replay-sh)
+    (title "omnicron port: logic/tools/deterministic_replay.sh")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/tools/deterministic_replay.sh")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-tools-deterministic-replay-sh)
+    (locator omi---imo.omnicron-port)
+    (binding sh.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us sh))
+  (source-artifact
+    (relative-path "logic/tools/deterministic_replay.sh")
+    (extension ".sh")
+    (family code)
+    (bytes 1772)
+    (sha256 "f0c565ad2b0b518dd005cb03f548695733594bf99d8ae19ac15b960018498e6e"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 56)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

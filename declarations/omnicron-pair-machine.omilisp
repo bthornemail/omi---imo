@@ -1,0 +1,133 @@
+(omi
+  (identity
+    (sid omnicron-pair-machine)
+    (title "Omnicron Pair Machine Port")
+    (kind runtime.pair-machine-declaration)
+    (source "/home/main/omi/omnicron/pair-machine.c")
+    (source "/home/main/omi/omnicron/riscv-baremetal/atomic_kernel.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/docs/architecture/isa-spec.md"))
+  (address
+    (addr omnicron.pair-machine.v0)
+    (locator omi---imo.kernel)
+    (binding omnicron-port.binding.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs pair-machine)
+    (us kernel-law))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (projection-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (seed "(NULL . NULL)")
+    (pair-declarations candidate-relations)
+    (lowering-target typed-construction-candidate))
+  (pair-word
+    (width 16)
+    (car
+      (bits "15..8")
+      (extract "(p >> 8) & 0xFF"))
+    (cdr
+      (bits "7..0")
+      (extract "p & 0xFF"))
+    (construct "((car & 0xFF) << 8) | (cdr & 0xFF)"))
+  (value-tags
+    (tag int
+      (mask 0xC000)
+      (value 0x0000)
+      (payload-bits 14))
+    (tag symbol
+      (mask 0xC000)
+      (value 0x4000)
+      (payload-bits 14))
+    (tag ref
+      (mask 0xC000)
+      (value 0x8000)
+      (payload-bits 14))
+    (tag special
+      (mask 0xC000)
+      (value 0xC000)
+      (payload-bits 14))
+    (special nil 0xC000)
+    (special true 0xC001))
+  (symbols
+    (symbol quote 0)
+    (symbol if 1)
+    (symbol define 2)
+    (symbol car 3)
+    (symbol cdr 4)
+    (symbol cons 5)
+    (symbol x 6)
+    (symbol y 7)
+    (symbol w 8)
+    (symbol h 9)
+    (symbol c 10)
+    (symbol t 11)
+    (symbol id 12)
+    (symbol poly 13)
+    (symbol vars 14)
+    (symbol terms 15)
+    (symbol term 16)
+    (symbol coef 17)
+    (symbol mons 18)
+    (symbol add 19)
+    (symbol mul 20)
+    (symbol inc 21)
+    (symbol square 22))
+  (cell-memory
+    (cells 4096)
+    (cell
+      (car value)
+      (cdr value))
+    (nil-not-address-zero true)
+    (ref-payload cell-index))
+  (laws
+    (law pair-cons8
+      (input car cdr)
+      (output pair-word)
+      (formula "((car & 0xFF) << 8) | (cdr & 0xFF)"))
+    (law pair-car8
+      (input pair-word)
+      (output car)
+      (formula "(pair >> 8) & 0xFF"))
+    (law pair-cdr8
+      (input pair-word)
+      (output cdr)
+      (formula "pair & 0xFF"))
+    (law kernel-delta16
+      (input p C)
+      (width 16)
+      (mask 0xFFFF)
+      (formula "ROTL16(p, 1) XOR ROTL16(p, 3) XOR ROTR16(p, 2) XOR C"))
+    (law atomic-delta16
+      (source "/home/main/omi/omnicron/riscv-baremetal/atomic_kernel.c")
+      (width 16)
+      (mask 0xFFFF)
+      (formula "rotl(x, 1) ^ rotl(x, 3) ^ rotr(x, 2) ^ C"))
+    (law eval-primitive-car
+      (input "(car pair)")
+      (output "cell-car(pair)"))
+    (law eval-primitive-cdr
+      (input "(cdr pair)")
+      (output "cell-cdr(pair)"))
+    (law eval-primitive-cons
+      (input "(cons a d)")
+      (output "alloc-cell(a, d)")))
+  (lowering
+    (from omicron-c-runtime)
+    (to omi-lisp-declaration-candidate)
+    (runtime-state copied false)
+    (accepted-state-created false)
+    (receipt-created false)
+    (handoff typed-construction-candidate))
+  (verification
+    (test "tests/omnicron_port_test.c")
+    (make-target omnicron-port-test)
+    (checks pair-word-roundtrip value-tag-contract delta16-contract declaration-boundary)))

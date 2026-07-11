@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-canon-port.archive-00-origin-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0005-png)
+    (title "omi-canon port: _archive/00-origin/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0005.png")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/_archive/00-origin/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0005.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.archive-00-origin-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0005-png)
+    (locator omi---imo.omi-canon-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "_archive/00-origin/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0005.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 3265375)
+    (sha256 "3c2b36d9366c3a08ea23491925a1eff54d94b32d22855bfd682cf53042ed9cbf"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

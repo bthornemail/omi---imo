@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.25-hopf-fibrations-06-computation-is-topology-md)
+    (title "omi-docs port: 25-Hopf-Fibrations/06-Computation-Is-Topology.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/25-Hopf-Fibrations/06-Computation-Is-Topology.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.25-hopf-fibrations-06-computation-is-topology-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "25-Hopf-Fibrations/06-Computation-Is-Topology.md")
+    (extension ".md")
+    (family document)
+    (bytes 5411)
+    (sha256 "d48b4da906838e0fded8603da28b2e22185d3e23ee9f3926f0b821e9bc2ec6ca"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 170)
+    (title "S\u2077: Projective boundary - where local computation meets infinity")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

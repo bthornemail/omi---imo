@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-verify-verify-omi-lisp-surface-sh)
+    (title "omnicron port: logic/verify/verify_omi_lisp_surface.sh")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/verify/verify_omi_lisp_surface.sh")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-verify-verify-omi-lisp-surface-sh)
+    (locator omi---imo.omnicron-port)
+    (binding sh.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us sh))
+  (source-artifact
+    (relative-path "logic/verify/verify_omi_lisp_surface.sh")
+    (extension ".sh")
+    (family code)
+    (bytes 3482)
+    (sha256 "61ac3eff1bd0b87a7e3c6bc2006f150a5e4e0755640a7871dfee1e078416fd89"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 99)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

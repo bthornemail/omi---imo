@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omnicron-port.polyform-org-scripts-verify-bridge-invariants-mjs)
+    (title "omnicron port: polyform/org/scripts/verify_bridge_invariants.mjs")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/polyform/org/scripts/verify_bridge_invariants.mjs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.polyform-org-scripts-verify-bridge-invariants-mjs)
+    (locator omi---imo.omnicron-port)
+    (binding mjs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us mjs))
+  (source-artifact
+    (relative-path "polyform/org/scripts/verify_bridge_invariants.mjs")
+    (extension ".mjs")
+    (family code)
+    (bytes 9566)
+    (sha256 "4ffb962b2ac13d8f74c19d123d3722ec10bd28883d9ddf0cb37e0a9b6fe01d82"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 239)
+    (function-count 9)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

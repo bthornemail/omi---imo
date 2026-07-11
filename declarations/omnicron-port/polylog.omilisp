@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omnicron-port.polylog)
+    (title "omnicron port: polylog")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/polylog")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.polylog)
+    (locator omi---imo.omnicron-port)
+    (binding no-ext.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs untyped)
+    (us no-ext))
+  (source-artifact
+    (relative-path "polylog")
+    (extension "[no-ext]")
+    (family untyped)
+    (bytes 44208)
+    (sha256 "1695ec2658c79a689f558a76e8605a049cbda76aafd838ddb4c2327d8ba9f4d9"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 887)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

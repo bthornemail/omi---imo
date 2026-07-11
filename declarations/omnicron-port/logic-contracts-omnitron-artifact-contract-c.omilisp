@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-contracts-omnitron-artifact-contract-c)
+    (title "omnicron port: logic/contracts/omnitron_artifact_contract.c")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/contracts/omnitron_artifact_contract.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-contracts-omnitron-artifact-contract-c)
+    (locator omi---imo.omnicron-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "logic/contracts/omnitron_artifact_contract.c")
+    (extension ".c")
+    (family code)
+    (bytes 5828)
+    (sha256 "2e92ae70cf9095a6cf625a11ab471130d59546bec7dc84057bff258589fe9c89"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 215)
+    (function-count 9)
+    (define-count 0)
+    (include-count 4)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

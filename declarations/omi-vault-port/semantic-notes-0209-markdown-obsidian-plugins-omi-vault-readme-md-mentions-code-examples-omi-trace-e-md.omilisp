@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-vault-port.semantic-notes-0209-markdown-obsidian-plugins-omi-vault-readme-md-mentions-code-examples-omi-trace-e-md)
+    (title "omi-vault port: Semantic Notes/0209-markdown-obsidian-plugins-omi-vault-readme-md-mentions-code-examples-omi-trace-e.md")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/Semantic Notes/0209-markdown-obsidian-plugins-omi-vault-readme-md-mentions-code-examples-omi-trace-e.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.semantic-notes-0209-markdown-obsidian-plugins-omi-vault-readme-md-mentions-code-examples-omi-trace-e-md)
+    (locator omi---imo.omi-vault-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "Semantic Notes/0209-markdown-obsidian-plugins-omi-vault-readme-md-mentions-code-examples-omi-trace-e.md")
+    (extension ".md")
+    (family document)
+    (bytes 546)
+    (sha256 "09b51e35e61f7905d95289cbce2d963d2c40c26f4e1778a6755d8049bb54e7a3"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 21)
+    (title "markdown:.obsidian/plugins/omi-vault/README.md mentions-code examples/omi-trace/events.janet")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

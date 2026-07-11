@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-portal-port.src-omi-wasm-delta-loader-js)
+    (title "omi-portal port: src/omi/wasm-delta-loader.js")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/src/omi/wasm-delta-loader.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.src-omi-wasm-delta-loader-js)
+    (locator omi---imo.omi-portal-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "src/omi/wasm-delta-loader.js")
+    (extension ".js")
+    (family code)
+    (bytes 2701)
+    (sha256 "4034f8eac2ce5013fb95159516fcb945b226b039a04e2a34a3d036032a219055"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 93)
+    (function-count 13)
+    (export-count 10)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

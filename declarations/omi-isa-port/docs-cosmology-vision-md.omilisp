@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-isa-port.docs-cosmology-vision-md)
+    (title "omi-isa port: docs/cosmology/vision.md")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/docs/cosmology/vision.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.docs-cosmology-vision-md)
+    (locator omi---imo.omi-isa-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/cosmology/vision.md")
+    (extension ".md")
+    (family document)
+    (bytes 3727)
+    (sha256 "58285a10db900fc6c0b77c5fe77b4d5276e4ca0c33f0a6d463433b7f9b9aed64"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 85)
+    (title "Computational Cosmology")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

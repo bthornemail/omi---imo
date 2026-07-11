@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-canvas-port.archive-test-reverse-vector-check-sh)
+    (title "omi-canvas port: archive/test/reverse-vector-check.sh")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/archive/test/reverse-vector-check.sh")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.archive-test-reverse-vector-check-sh)
+    (locator omi---imo.omi-canvas-port)
+    (binding sh.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs code)
+    (us sh))
+  (source-artifact
+    (relative-path "archive/test/reverse-vector-check.sh")
+    (extension ".sh")
+    (family code)
+    (bytes 387)
+    (sha256 "7ce63720998c0d90f55e364bff3752ac9342d6a3c8bb1f908a15a7b8d0464350"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 19)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

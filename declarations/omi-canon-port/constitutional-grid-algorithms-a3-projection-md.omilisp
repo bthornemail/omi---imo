@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.constitutional-grid-algorithms-a3-projection-md)
+    (title "omi-canon port: constitutional-grid/algorithms/A3-projection.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/constitutional-grid/algorithms/A3-projection.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.constitutional-grid-algorithms-a3-projection-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "constitutional-grid/algorithms/A3-projection.md")
+    (extension ".md")
+    (family document)
+    (bytes 2901)
+    (sha256 "83544188b54bd55a09c73a28fdeffd41f3ac2710dc465d3770648fbdee94f39f"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 54)
+    (title "A3 \u2014 Projection Algorithm")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

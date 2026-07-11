@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-orthogonal-tesseract-gif-gif)
+    (title "omi-lisp port: _archive/omi-lisp-v1/dev-docs/00-shared/tmp/Orthogonal_Tesseract_Gif.gif")
+    (kind omi-lisp.source-candidate)
+    (source "/home/main/omi/omi-lisp/_archive/omi-lisp-v1/dev-docs/00-shared/tmp/Orthogonal_Tesseract_Gif.gif")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-orthogonal-tesseract-gif-gif)
+    (locator omi---imo.omi-lisp-port)
+    (binding gif.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-lisp)
+    (rs carrier)
+    (us gif))
+  (source-artifact
+    (relative-path "_archive/omi-lisp-v1/dev-docs/00-shared/tmp/Orthogonal_Tesseract_Gif.gif")
+    (extension ".gif")
+    (family carrier)
+    (bytes 964753)
+    (sha256 "15ccc7a22c7a38e64abc64bfbdf4fc1f7b83909b070338f070e4f3b58142b057"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

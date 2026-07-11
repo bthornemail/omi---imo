@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-portal-port.src-omi-delta-orbital-lexer-js)
+    (title "omi-portal port: src/omi/delta-orbital-lexer.js")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/src/omi/delta-orbital-lexer.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.src-omi-delta-orbital-lexer-js)
+    (locator omi---imo.omi-portal-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "src/omi/delta-orbital-lexer.js")
+    (extension ".js")
+    (family code)
+    (bytes 12877)
+    (sha256 "4924d46a6b94ac8a4a7d2f3cbb4ecdc0c40b8367c4d2a218a79f7f074fc1135c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 429)
+    (function-count 31)
+    (export-count 43)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

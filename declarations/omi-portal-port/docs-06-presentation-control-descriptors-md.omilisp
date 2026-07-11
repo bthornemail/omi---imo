@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.docs-06-presentation-control-descriptors-md)
+    (title "omi-portal port: docs/06-presentation/control-descriptors.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/docs/06-presentation/control-descriptors.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.docs-06-presentation-control-descriptors-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/06-presentation/control-descriptors.md")
+    (extension ".md")
+    (family document)
+    (bytes 2807)
+    (sha256 "f0f964c0723ab5d3c9732f0423905c9dcb88304eea8d9ad133f17338d0679183"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 83)
+    (title "OMI Control Descriptors")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

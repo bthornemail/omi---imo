@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-protocol-port.omi-skills-md)
+    (title "omi-protocol port: OMI-SKILLS.md")
+    (kind omi-protocol.source-candidate)
+    (source "/home/main/omi/omi-protocol/OMI-SKILLS.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-protocol-port.omi-skills-md)
+    (locator omi---imo.omi-protocol-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-protocol)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "OMI-SKILLS.md")
+    (extension ".md")
+    (family document)
+    (bytes 14820)
+    (sha256 "b3826ca773a9f36bf9a14ae0262900c92bad6682ec198006d818572762aab980"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 775)
+    (title "OMI-SKILLS.md")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

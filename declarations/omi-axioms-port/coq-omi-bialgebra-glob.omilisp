@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-axioms-port.coq-omi-bialgebra-glob)
+    (title "omi-axioms port: coq/OMI_bialgebra.glob")
+    (kind omi-axioms.source-candidate)
+    (source "/home/main/omi/omi-axioms/coq/OMI_bialgebra.glob")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-axioms-port.coq-omi-bialgebra-glob)
+    (locator omi---imo.omi-axioms-port)
+    (binding glob.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-axioms)
+    (rs artifact)
+    (us glob))
+  (source-artifact
+    (relative-path "coq/OMI_bialgebra.glob")
+    (extension ".glob")
+    (family artifact)
+    (bytes 13610)
+    (sha256 "431d95acd273abdbf9b65bcc09bbb873af26fa1e389123e74b864c7b0284ce6b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

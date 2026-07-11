@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omnicron-port.riscv-baremetal-minimal-c)
+    (title "omnicron port: riscv-baremetal/minimal.c")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/riscv-baremetal/minimal.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.riscv-baremetal-minimal-c)
+    (locator omi---imo.omnicron-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "riscv-baremetal/minimal.c")
+    (extension ".c")
+    (family code)
+    (bytes 865)
+    (sha256 "14e908b0397f20b08d0ad1938d1382da64119b7639231d936d36931526827438"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 33)
+    (function-count 3)
+    (define-count 0)
+    (include-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-portal-port.test-qemu-clock-test-js)
+    (title "omi-portal port: test/qemu-clock.test.js")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/test/qemu-clock.test.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.test-qemu-clock-test-js)
+    (locator omi---imo.omi-portal-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "test/qemu-clock.test.js")
+    (extension ".js")
+    (family code)
+    (bytes 1733)
+    (sha256 "44f3c8562ef3d64ca74a226c6479d85448c1cd9a0c18c4da2f1f22aa4b3173d9"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 41)
+    (function-count 0)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

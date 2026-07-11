@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-axioms-port.coq-proofregistry15-v)
+    (title "omi-axioms port: coq/ProofRegistry15.v")
+    (kind omi-axioms.source-candidate)
+    (source "/home/main/omi/omi-axioms/coq/ProofRegistry15.v")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-axioms-port.coq-proofregistry15-v)
+    (locator omi---imo.omi-axioms-port)
+    (binding v.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-axioms)
+    (rs artifact)
+    (us v))
+  (source-artifact
+    (relative-path "coq/ProofRegistry15.v")
+    (extension ".v")
+    (family artifact)
+    (bytes 6447)
+    (sha256 "d185c5efc31615379b833587081a6cada0ecb9e0bf130091948885496010440c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

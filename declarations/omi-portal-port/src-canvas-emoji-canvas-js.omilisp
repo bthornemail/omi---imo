@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-portal-port.src-canvas-emoji-canvas-js)
+    (title "omi-portal port: src/canvas/emoji-canvas.js")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/src/canvas/emoji-canvas.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.src-canvas-emoji-canvas-js)
+    (locator omi---imo.omi-portal-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "src/canvas/emoji-canvas.js")
+    (extension ".js")
+    (family code)
+    (bytes 3040)
+    (sha256 "a22b50b85da07963b425dbafd16f297d641b0973d0eacc5a88a5098157084410"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 92)
+    (function-count 0)
+    (export-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

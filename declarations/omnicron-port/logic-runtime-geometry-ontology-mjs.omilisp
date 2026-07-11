@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-runtime-geometry-ontology-mjs)
+    (title "omnicron port: logic/runtime/geometry_ontology.mjs")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/runtime/geometry_ontology.mjs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-runtime-geometry-ontology-mjs)
+    (locator omi---imo.omnicron-port)
+    (binding mjs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us mjs))
+  (source-artifact
+    (relative-path "logic/runtime/geometry_ontology.mjs")
+    (extension ".mjs")
+    (family code)
+    (bytes 8200)
+    (sha256 "cc6bb76e7461d65d4e774aa4663f3c32070b9a30fe389ecf6143928974e8d7fc"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 232)
+    (function-count 6)
+    (export-count 6)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

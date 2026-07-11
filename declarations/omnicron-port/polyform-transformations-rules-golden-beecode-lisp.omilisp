@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.polyform-transformations-rules-golden-beecode-lisp)
+    (title "omnicron port: polyform/transformations/rules_golden_beecode.lisp")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/polyform/transformations/rules_golden_beecode.lisp")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.polyform-transformations-rules-golden-beecode-lisp)
+    (locator omi---imo.omnicron-port)
+    (binding lisp.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs declaration)
+    (us lisp))
+  (source-artifact
+    (relative-path "polyform/transformations/rules_golden_beecode.lisp")
+    (extension ".lisp")
+    (family declaration)
+    (bytes 506)
+    (sha256 "5d25ba8fcb3e3d609826863afc70ab7d2cfe274c2aa86ecdc3910a3b6e0dbede"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 11)
+    (balanced-parens true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.docs-constants-as-projection-witnesses-md)
+    (title "omi-tetragrammatron port: docs/Constants as Projection Witnesses.md")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/docs/Constants as Projection Witnesses.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.docs-constants-as-projection-witnesses-md)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/Constants as Projection Witnesses.md")
+    (extension ".md")
+    (family document)
+    (bytes 2063)
+    (sha256 "7b126308194dc21023a4ff798f4ccf919dac2a327deaecd9d6c580a65a4ca6e8"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 93)
+    (title "Constants as Projection Witnesses")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

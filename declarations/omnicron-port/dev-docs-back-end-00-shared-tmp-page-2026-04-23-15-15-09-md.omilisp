@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-15-09-md)
+    (title "omnicron port: dev-docs/back-end/00-shared/tmp/page-2026-04-23-15-15-09.md")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/dev-docs/back-end/00-shared/tmp/page-2026-04-23-15-15-09.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-15-09-md)
+    (locator omi---imo.omnicron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/back-end/00-shared/tmp/page-2026-04-23-15-15-09.md")
+    (extension ".md")
+    (family document)
+    (bytes 185225)
+    (sha256 "47e3fe82f65b0a2192bc778d1a3d3701bef134e402d67c26c21836ccd54b0a12"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1204)
+    (title "Generating function transformation - Wikipedia")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

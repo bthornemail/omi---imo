@@ -1,0 +1,283 @@
+{
+  "count": 29,
+  "extension_counts": {
+    ".aux": 1,
+    ".cache": 3,
+    ".glob": 1,
+    ".html": 4,
+    ".md": 16,
+    ".v": 1,
+    ".vo": 1,
+    ".vok": 1,
+    ".vos": 1
+  },
+  "family_counts": {
+    "artifact": 13,
+    "document": 16
+  },
+  "items": [
+    {
+      "bytes": 307,
+      "extension": ".cache",
+      "family": "artifact",
+      "output": "lia-cache.omilisp",
+      "relative_path": ".lia.cache",
+      "sha256": "0af8e1ae33724c910bf5f2380b9a5db2bdef28e93795b49f1b1fbfd2ff72cf66",
+      "sid": "omi-protocol-port.lia-cache"
+    },
+    {
+      "bytes": 1125,
+      "extension": ".cache",
+      "family": "artifact",
+      "output": "nia-cache.omilisp",
+      "relative_path": ".nia.cache",
+      "sha256": "e8792927be4510f7e5344d3600784ff16b828b183fb61a8e0a14be1411d91b9b",
+      "sid": "omi-protocol-port.nia-cache"
+    },
+    {
+      "bytes": 323,
+      "extension": ".cache",
+      "family": "artifact",
+      "output": "nra-cache.omilisp",
+      "relative_path": ".nra.cache",
+      "sha256": "1d9595a876784beb11ac48aa2afc2d9fbf71b130dbac2a3cb80c03d464eed762",
+      "sid": "omi-protocol-port.nra-cache"
+    },
+    {
+      "bytes": 32318,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "omi-pi-proof-aux.omilisp",
+      "relative_path": ".omi_pi_proof.aux",
+      "sha256": "e67e3a510822732da8969ca19537d6bd32caaadc6a9e06082d9d693d9e59943e",
+      "sid": "omi-protocol-port.omi-pi-proof-aux"
+    },
+    {
+      "bytes": 19650,
+      "extension": ".md",
+      "family": "document",
+      "output": "adapters-md.omilisp",
+      "relative_path": "ADAPTERS.md",
+      "sha256": "eb0cca891a218f229ce2343f7bf56fe16dbd8b3152f78f611c8004ee2caa084e",
+      "sid": "omi-protocol-port.adapters-md"
+    },
+    {
+      "bytes": 17313,
+      "extension": ".md",
+      "family": "document",
+      "output": "agents-md.omilisp",
+      "relative_path": "AGENTS.md",
+      "sha256": "58a31377f22021390700a01a5270d07dc38b8affb67c2b8881d6b95dd55f5539",
+      "sid": "omi-protocol-port.agents-md"
+    },
+    {
+      "bytes": 139255,
+      "extension": ".md",
+      "family": "document",
+      "output": "deepseek-chat-about-coq-proofs-md.omilisp",
+      "relative_path": "DeepSeek Chat about Coq Proofs.md",
+      "sha256": "f01a3d51b9155e7d2a88e2607ea0a7e74e15aec77e1033e8b6a3b41040157a00",
+      "sid": "omi-protocol-port.deepseek-chat-about-coq-proofs-md"
+    },
+    {
+      "bytes": 16381,
+      "extension": ".md",
+      "family": "document",
+      "output": "omi-agents-md.omilisp",
+      "relative_path": "OMI-AGENTS.md",
+      "sha256": "56cd995c39565dbf6658f5045fe66f91d42ef2bae4d86c6851b2ef19d44263a1",
+      "sid": "omi-protocol-port.omi-agents-md"
+    },
+    {
+      "bytes": 45726,
+      "extension": ".md",
+      "family": "document",
+      "output": "omi-lisp-complete-specification-md.omilisp",
+      "relative_path": "OMI-Lisp_Complete_Specification.md",
+      "sha256": "841fecf69ef3be40791c71fd49184940287fd56f5820c8c586f75308eaa69678",
+      "sid": "omi-protocol-port.omi-lisp-complete-specification-md"
+    },
+    {
+      "bytes": 13995,
+      "extension": ".md",
+      "family": "document",
+      "output": "omi-protocol-md.omilisp",
+      "relative_path": "OMI-PROTOCOL.md",
+      "sha256": "8d89dc17cb38cbb990d0497806c80be6d152c51665a46f2c3a82b14c7c8b038a",
+      "sid": "omi-protocol-port.omi-protocol-md"
+    },
+    {
+      "bytes": 6444,
+      "extension": ".md",
+      "family": "document",
+      "output": "omi-quick-reference-md.omilisp",
+      "relative_path": "OMI-QUICK-REFERENCE.md",
+      "sha256": "24d26113443dcab78bc83f7dce81e6ae3118fd0a7b000adaffd7d5bd0fbd8015",
+      "sid": "omi-protocol-port.omi-quick-reference-md"
+    },
+    {
+      "bytes": 14820,
+      "extension": ".md",
+      "family": "document",
+      "output": "omi-skills-md.omilisp",
+      "relative_path": "OMI-SKILLS.md",
+      "sha256": "b3826ca773a9f36bf9a14ae0262900c92bad6682ec198006d818572762aab980",
+      "sid": "omi-protocol-port.omi-skills-md"
+    },
+    {
+      "bytes": 14408,
+      "extension": ".md",
+      "family": "document",
+      "output": "omi-canonical-doctrine-place-value-identity-md.omilisp",
+      "relative_path": "OMI_Canonical_Doctrine_Place_Value_Identity.md",
+      "sha256": "b8b47fe33f499c1253adadc3b8f8ad7764bdeab72b6e25f0b061f703098c4017",
+      "sid": "omi-protocol-port.omi-canonical-doctrine-place-value-identity-md"
+    },
+    {
+      "bytes": 17214,
+      "extension": ".md",
+      "family": "document",
+      "output": "omi-complete-system-unified-synthesis-md.omilisp",
+      "relative_path": "OMI_Complete_System_Unified_Synthesis.md",
+      "sha256": "9811a8284555068907c0fa56db80583e45ac21a978864858e4a599c72540748c",
+      "sid": "omi-protocol-port.omi-complete-system-unified-synthesis-md"
+    },
+    {
+      "bytes": 28539,
+      "extension": ".md",
+      "family": "document",
+      "output": "omi-system-integration-layer-md.omilisp",
+      "relative_path": "OMI_System_Integration_Layer.md",
+      "sha256": "c2c4a97c9d652c034888ffd32f69ee57210367fddf661c6396d77d8b9ad8ae5a",
+      "sid": "omi-protocol-port.omi-system-integration-layer-md"
+    },
+    {
+      "bytes": 13309,
+      "extension": ".md",
+      "family": "document",
+      "output": "readme-for-llms-md.omilisp",
+      "relative_path": "README-FOR-LLMS.md",
+      "sha256": "6f7c52b1250080ace6bd12ba8c6c22b671fd8cc67a1dcb595d83dced41156675",
+      "sid": "omi-protocol-port.readme-for-llms-md"
+    },
+    {
+      "bytes": 13460,
+      "extension": ".md",
+      "family": "document",
+      "output": "readme-md.omilisp",
+      "relative_path": "README.md",
+      "sha256": "2f7ad24020ab03e326144c6e475dd6885e08c549b1c76012ea08eded947a0e7c",
+      "sid": "omi-protocol-port.readme-md"
+    },
+    {
+      "bytes": 41710,
+      "extension": ".md",
+      "family": "document",
+      "output": "repo-md.omilisp",
+      "relative_path": "REPO.md",
+      "sha256": "9dc35f14c95457795b49c36e5bd994af7addc5ca54c690e09547fdc0815e4a82",
+      "sid": "omi-protocol-port.repo-md"
+    },
+    {
+      "bytes": 18207,
+      "extension": ".md",
+      "family": "document",
+      "output": "skills-md.omilisp",
+      "relative_path": "SKILLS.md",
+      "sha256": "9fdb03f2fd8bdad7a8ce13bdfff442a36ad388b050699686c0ac7f02a7a32021",
+      "sid": "omi-protocol-port.skills-md"
+    },
+    {
+      "bytes": 12545,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "governance-html.omilisp",
+      "relative_path": "governance.html",
+      "sha256": "6873014672e6ace88c2386efd84553892505a8e4b8fbae248da65903704cb2d4",
+      "sid": "omi-protocol-port.governance-html"
+    },
+    {
+      "bytes": 28435,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "index-html.omilisp",
+      "relative_path": "index.html",
+      "sha256": "28a4cc1df87f37a249710bf49a0d26a9ca1ba720947ff23e33580ec854dabae8",
+      "sid": "omi-protocol-port.index-html"
+    },
+    {
+      "bytes": 393628,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "omi-pi-proof-glob.omilisp",
+      "relative_path": "omi_pi_proof.glob",
+      "sha256": "816cf638b9c07b61353d85881a00fce367e60e71e8a4709a6fbc5c1887a881c4",
+      "sid": "omi-protocol-port.omi-pi-proof-glob"
+    },
+    {
+      "bytes": 102224,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "omi-pi-proof-v.omilisp",
+      "relative_path": "omi_pi_proof.v",
+      "sha256": "e6ee8d1791b5249eef321718790afcef2ce784f2664a99fed4b76f14d7f27d01",
+      "sid": "omi-protocol-port.omi-pi-proof-v"
+    },
+    {
+      "bytes": 323527,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "omi-pi-proof-vo.omilisp",
+      "relative_path": "omi_pi_proof.vo",
+      "sha256": "75b21143d6e0c14a9b6fd317ea386173520cee8dc4f6bc0d20512f9545489f93",
+      "sid": "omi-protocol-port.omi-pi-proof-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "omi-pi-proof-vok.omilisp",
+      "relative_path": "omi_pi_proof.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-protocol-port.omi-pi-proof-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "omi-pi-proof-vos.omilisp",
+      "relative_path": "omi_pi_proof.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-protocol-port.omi-pi-proof-vos"
+    },
+    {
+      "bytes": 22171,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "resolver-html.omilisp",
+      "relative_path": "resolver.html",
+      "sha256": "583fe8daf93e613fa9468edbe9e333c3b4b2c8882097dc2cad3a41c78efee78f",
+      "sid": "omi-protocol-port.resolver-html"
+    },
+    {
+      "bytes": 317093,
+      "extension": ".md",
+      "family": "document",
+      "output": "session-ses-0db3-md.omilisp",
+      "relative_path": "session-ses_0db3.md",
+      "sha256": "e047fedcc400637144f698613f0b96f95f52432aab74472851b0f47c109ab94b",
+      "sid": "omi-protocol-port.session-ses-0db3-md"
+    },
+    {
+      "bytes": 24426,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "world-html.omilisp",
+      "relative_path": "world.html",
+      "sha256": "5e02944345c4309091ea6e32d700e348c435578f9dd031922f004bf707a2868f",
+      "sid": "omi-protocol-port.world-html"
+    }
+  ],
+  "output_root": "/home/main/omi/omi---imo/declarations/omi-protocol-port",
+  "source_root": "/home/main/omi/omi-protocol"
+}

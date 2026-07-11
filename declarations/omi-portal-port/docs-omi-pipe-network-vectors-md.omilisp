@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.docs-omi-pipe-network-vectors-md)
+    (title "omi-portal port: docs/omi-pipe-network-vectors.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/docs/omi-pipe-network-vectors.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.docs-omi-pipe-network-vectors-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/omi-pipe-network-vectors.md")
+    (extension ".md")
+    (family document)
+    (bytes 3381)
+    (sha256 "8e1914aef7c265a16e88a9d3b2d1ee3fe877b7e7232356665680ea21aded62fb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 100)
+    (title "OmiPipe Network Transport Vectors")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

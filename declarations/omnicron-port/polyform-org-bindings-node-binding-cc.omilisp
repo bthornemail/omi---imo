@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omnicron-port.polyform-org-bindings-node-binding-cc)
+    (title "omnicron port: polyform/org/bindings/node/binding.cc")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/polyform/org/bindings/node/binding.cc")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.polyform-org-bindings-node-binding-cc)
+    (locator omi---imo.omnicron-port)
+    (binding cc.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us cc))
+  (source-artifact
+    (relative-path "polyform/org/bindings/node/binding.cc")
+    (extension ".cc")
+    (family code)
+    (bytes 857)
+    (sha256 "82630c6d9ac81c4994e1161d80318e054a2f0f7c5e879c408a37d95778690adf"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 28)
+    (function-count 1)
+    (define-count 0)
+    (include-count 3)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

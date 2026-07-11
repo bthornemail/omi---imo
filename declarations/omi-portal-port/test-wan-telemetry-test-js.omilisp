@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-portal-port.test-wan-telemetry-test-js)
+    (title "omi-portal port: test/wan-telemetry.test.js")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/test/wan-telemetry.test.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.test-wan-telemetry-test-js)
+    (locator omi---imo.omi-portal-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "test/wan-telemetry.test.js")
+    (extension ".js")
+    (family code)
+    (bytes 6747)
+    (sha256 "a1fbfe286876e69f3eb3d6627b9496dccf302ac324bda1d4165c996e3913b1fb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 227)
+    (function-count 3)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

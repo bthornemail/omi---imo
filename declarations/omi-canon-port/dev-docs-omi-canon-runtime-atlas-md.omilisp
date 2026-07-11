@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.dev-docs-omi-canon-runtime-atlas-md)
+    (title "omi-canon port: dev-docs/OMI Canon Runtime Atlas.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/dev-docs/OMI Canon Runtime Atlas.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.dev-docs-omi-canon-runtime-atlas-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/OMI Canon Runtime Atlas.md")
+    (extension ".md")
+    (family document)
+    (bytes 15959)
+    (sha256 "f7f4cbeeaf3c305025d4b5f70dfec5984298da4c7212d0c3e394f1b6a3b83e4d"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 831)
+    (title "OMI Canon Runtime Atlas")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

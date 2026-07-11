@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.docs-omi-pipe-rs-proof-md)
+    (title "omi-portal port: docs/omi-pipe-rs-proof.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/docs/omi-pipe-rs-proof.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.docs-omi-pipe-rs-proof-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/omi-pipe-rs-proof.md")
+    (extension ".md")
+    (family document)
+    (bytes 4216)
+    (sha256 "61788b36a60c3a95fa5a172ee2d24ca797a9c36524c368f0afa5695b2d82d3e8"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 163)
+    (title "OMI Pipe \u2014 RS Proof Layer")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

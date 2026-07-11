@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omnicron-port.riscv-baremetal-test-entry-s)
+    (title "omnicron port: riscv-baremetal/test_entry.S")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/riscv-baremetal/test_entry.S")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.riscv-baremetal-test-entry-s)
+    (locator omi---imo.omnicron-port)
+    (binding s.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us s))
+  (source-artifact
+    (relative-path "riscv-baremetal/test_entry.S")
+    (extension ".S")
+    (family code)
+    (bytes 377)
+    (sha256 "12829dbc9c0e8a01bd327aa293b4a0ae3642dfb3c55198c694d4628b2315d6e1"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 17)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

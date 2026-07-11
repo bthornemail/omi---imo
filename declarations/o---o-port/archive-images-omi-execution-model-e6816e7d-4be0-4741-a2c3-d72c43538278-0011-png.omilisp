@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0011-png)
+    (title "o---o port: _archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0011.png")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0011.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0011-png)
+    (locator omi---imo.o---o-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0011.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 2135911)
+    (sha256 "3216f807f6a6fce189d6203c28d45853adac76ded79ee7c3b35b687d3a7d04a2"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

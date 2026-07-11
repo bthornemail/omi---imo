@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid o---o-port.archive-publications-the-hidden-five-pdf)
+    (title "o---o port: _archive/publications/The Hidden Five.pdf")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/_archive/publications/The Hidden Five.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.archive-publications-the-hidden-five-pdf)
+    (locator omi---imo.o---o-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "_archive/publications/The Hidden Five.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 34836)
+    (sha256 "a3eb31ca7afb0f39c38c3ac55cc5e5fe1269562e328c8a2eaaf9cd9a5649b9f4"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

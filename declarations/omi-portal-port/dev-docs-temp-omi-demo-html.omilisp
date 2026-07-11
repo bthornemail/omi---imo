@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-portal-port.dev-docs-temp-omi-demo-html)
+    (title "omi-portal port: dev-docs/_temp/omi-demo.html")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/dev-docs/_temp/omi-demo.html")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.dev-docs-temp-omi-demo-html)
+    (locator omi---imo.omi-portal-port)
+    (binding html.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us html))
+  (source-artifact
+    (relative-path "dev-docs/_temp/omi-demo.html")
+    (extension ".html")
+    (family artifact)
+    (bytes 74293)
+    (sha256 "def612649e30f4e37b6032ff9432bd0ff7e725b760b9bb4917ddf260ea7a9d5a"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1974)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

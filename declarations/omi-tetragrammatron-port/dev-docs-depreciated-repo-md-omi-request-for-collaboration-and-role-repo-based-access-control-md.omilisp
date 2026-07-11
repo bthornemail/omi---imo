@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.dev-docs-depreciated-repo-md-omi-request-for-collaboration-and-role-repo-based-access-control-md)
+    (title "omi-tetragrammatron port: dev-docs/depreciated/REPO.md - OMI Request for Collaboration and Role-Repo Based Access Control.md")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/dev-docs/depreciated/REPO.md - OMI Request for Collaboration and Role-Repo Based Access Control.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.dev-docs-depreciated-repo-md-omi-request-for-collaboration-and-role-repo-based-access-control-md)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/depreciated/REPO.md - OMI Request for Collaboration and Role-Repo Based Access Control.md")
+    (extension ".md")
+    (family document)
+    (bytes 30054)
+    (sha256 "48e13cc95c1acd33a07aca747d6ed01d4e48d4e58128eb8924b197b3bb086a78"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1555)
+    (title "REPO.md")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.scripts-qemu-fabric-scm)
+    (title "omi-portal port: scripts/qemu-fabric.scm")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/scripts/qemu-fabric.scm")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.scripts-qemu-fabric-scm)
+    (locator omi---imo.omi-portal-port)
+    (binding scm.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs declaration)
+    (us scm))
+  (source-artifact
+    (relative-path "scripts/qemu-fabric.scm")
+    (extension ".scm")
+    (family declaration)
+    (bytes 1136)
+    (sha256 "7daf246cb65b6b58e3b13f02af7146506bd86bc76bc16fb9c8c7c6554a2c4ba0"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 37)
+    (balanced-parens true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

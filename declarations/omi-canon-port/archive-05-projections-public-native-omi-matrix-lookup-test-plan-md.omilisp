@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.archive-05-projections-public-native-omi-matrix-lookup-test-plan-md)
+    (title "omi-canon port: _archive/05-projections/public/native/omi-matrix-lookup/TEST_PLAN.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/_archive/05-projections/public/native/omi-matrix-lookup/TEST_PLAN.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.archive-05-projections-public-native-omi-matrix-lookup-test-plan-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "_archive/05-projections/public/native/omi-matrix-lookup/TEST_PLAN.md")
+    (extension ".md")
+    (family document)
+    (bytes 3625)
+    (sha256 "ecf49be75e9bc8ed4097a677856b9539c98402ce783130db7215802ca0145fa7"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 159)
+    (title "OMI Matrix Lookup Test Plan")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

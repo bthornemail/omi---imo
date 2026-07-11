@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-canvas-port.archive-polyform-c-project-src-main-c)
+    (title "omi-canvas port: archive/polyform_c_project/src/main.c")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/archive/polyform_c_project/src/main.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.archive-polyform-c-project-src-main-c)
+    (locator omi---imo.omi-canvas-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "archive/polyform_c_project/src/main.c")
+    (extension ".c")
+    (family code)
+    (bytes 4450)
+    (sha256 "c67e652e32e25f63bea3386cd3dce02c03a4ec73858898f76de2972597d158b9"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 134)
+    (function-count 3)
+    (define-count 0)
+    (include-count 6)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

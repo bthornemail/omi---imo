@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid o---o-port.archive-images-cons-factorial-unification-svg)
+    (title "o---o port: _archive/images/cons_factorial_unification.svg")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/_archive/images/cons_factorial_unification.svg")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.archive-images-cons-factorial-unification-svg)
+    (locator omi---imo.o---o-port)
+    (binding svg.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs carrier)
+    (us svg))
+  (source-artifact
+    (relative-path "_archive/images/cons_factorial_unification.svg")
+    (extension ".svg")
+    (family carrier)
+    (bytes 50289)
+    (sha256 "96ddc8d02bd1b17ab27760da386d88e97d2f507f38fc7a5a5e1c98c2a5633aec"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 163)
+    (svg-root true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.docs-06-presentation-omi-file-format-md)
+    (title "omi-portal port: docs/06-presentation/omi-file-format.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/docs/06-presentation/omi-file-format.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.docs-06-presentation-omi-file-format-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/06-presentation/omi-file-format.md")
+    (extension ".md")
+    (family document)
+    (bytes 1901)
+    (sha256 "6d74fca1abadda6bae725a5e1798f7ef9f7a4f89a7a54bc8d3e25f28d4c94e0f"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 69)
+    (title "OMI File Format")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-canon-port.archive-00-origin-temp-enumerating-polycubes-txt)
+    (title "omi-canon port: _archive/00-origin/temp/Enumerating polycubes.txt")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/_archive/00-origin/temp/Enumerating polycubes.txt")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.archive-00-origin-temp-enumerating-polycubes-txt)
+    (locator omi---imo.omi-canon-port)
+    (binding txt.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us txt))
+  (source-artifact
+    (relative-path "_archive/00-origin/temp/Enumerating polycubes.txt")
+    (extension ".txt")
+    (family document)
+    (bytes 3981)
+    (sha256 "ba40b92f788744c71eaf5f9300523b25df6992171e21617702ae92bf7ad53a4b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

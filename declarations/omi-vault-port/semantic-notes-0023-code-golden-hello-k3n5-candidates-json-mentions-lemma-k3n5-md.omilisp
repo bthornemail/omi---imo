@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-vault-port.semantic-notes-0023-code-golden-hello-k3n5-candidates-json-mentions-lemma-k3n5-md)
+    (title "omi-vault port: Semantic Notes/0023-code-golden-hello-k3n5-candidates-json-mentions-lemma-k3n5.md")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/Semantic Notes/0023-code-golden-hello-k3n5-candidates-json-mentions-lemma-k3n5.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.semantic-notes-0023-code-golden-hello-k3n5-candidates-json-mentions-lemma-k3n5-md)
+    (locator omi---imo.omi-vault-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "Semantic Notes/0023-code-golden-hello-k3n5-candidates-json-mentions-lemma-k3n5.md")
+    (extension ".md")
+    (family document)
+    (bytes 448)
+    (sha256 "c5d45be3a5788e9a3d22f0004fa623b19367532129e8993096939677de855ecb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 21)
+    (title "code:golden/hello.k3n5.candidates.json mentions lemma:k3n5")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

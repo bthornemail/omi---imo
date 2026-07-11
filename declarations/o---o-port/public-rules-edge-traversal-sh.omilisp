@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid o---o-port.public-rules-edge-traversal-sh)
+    (title "o---o port: public/rules/edge-traversal.sh")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/public/rules/edge-traversal.sh")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.public-rules-edge-traversal-sh)
+    (locator omi---imo.o---o-port)
+    (binding sh.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs code)
+    (us sh))
+  (source-artifact
+    (relative-path "public/rules/edge-traversal.sh")
+    (extension ".sh")
+    (family code)
+    (bytes 100)
+    (sha256 "ba5df9ff7261a3dbede5044d9e2e04e6d3b6bb3cc93d0748b995af9ac2a3e87b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 3)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

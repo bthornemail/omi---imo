@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.release-notes-md)
+    (title "omi-portal port: RELEASE_NOTES.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/RELEASE_NOTES.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.release-notes-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "RELEASE_NOTES.md")
+    (extension ".md")
+    (family document)
+    (bytes 5904)
+    (sha256 "22485fde13e8212c048c9cf62a0b94a8604b78f4c051c752ba18432a884ce5ac"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 121)
+    (title "OMI Portal v0.2.0 \u2014 Symmetrical Substrate Synchronization")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

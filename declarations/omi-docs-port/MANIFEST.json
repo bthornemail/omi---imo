@@ -1,0 +1,805 @@
+{
+  "count": 87,
+  "extension_counts": {
+    ".c": 8,
+    ".canvas": 3,
+    ".h": 5,
+    ".md": 68,
+    ".tex": 1,
+    ".txt": 1,
+    "[no-ext]": 1
+  },
+  "family_counts": {
+    "artifact": 4,
+    "code": 13,
+    "document": 69,
+    "untyped": 1
+  },
+  "items": [
+    {
+      "bytes": 2301217,
+      "extension": ".md",
+      "family": "document",
+      "output": "2026-06-11-branch-branch-omi-agreement-overview-md.omilisp",
+      "relative_path": "2026-06-11-Branch_\u00b7_Branch_\u00b7_OMI_Agreement_Overview.md",
+      "sha256": "da5dc63a735ca9d13b41035c9149b342518b0defc3b0b4ac2288cd29b61082a6",
+      "sid": "omi-docs-port.2026-06-11-branch-branch-omi-agreement-overview-md"
+    },
+    {
+      "bytes": 3265621,
+      "extension": ".md",
+      "family": "document",
+      "output": "2026-06-14-branch-branch-branch-branch-omi-agreement-overview-md.omilisp",
+      "relative_path": "2026-06-14-Branch_\u00b7_Branch_\u00b7_Branch_\u00b7_Branch_\u00b7_OMI_Agreement_Overview.md",
+      "sha256": "6c1158565f57c66ac93d62135e6afa2cd8eac5166d7d3b0e4f4cae321bbc4ab4",
+      "sid": "omi-docs-port.2026-06-14-branch-branch-branch-branch-omi-agreement-overview-md"
+    },
+    {
+      "bytes": 92836,
+      "extension": ".md",
+      "family": "document",
+      "output": "2026-07-05-cost-comparison-welfare-vs-taxes-vs-corruption-md.omilisp",
+      "relative_path": "2026-07-05-Cost_Comparison_Welfare_vs_Taxes_vs_Corruption.md",
+      "sha256": "7dc2eb29a65b87d857e3043060b652d73a76e064a65c03a91a76e8b758935c12",
+      "sid": "omi-docs-port.2026-07-05-cost-comparison-welfare-vs-taxes-vs-corruption-md"
+    },
+    {
+      "bytes": 1440592,
+      "extension": ".md",
+      "family": "document",
+      "output": "2026-07-07-esp32-s3-lora-walkie-talkie-md.omilisp",
+      "relative_path": "2026-07-07-ESP32-S3_LoRa_Walkie-Talkie.md",
+      "sha256": "9aef300e4773264edfe4b733dc950e1913077f3da5d668f0b37633fded74f52b",
+      "sid": "omi-docs-port.2026-07-07-esp32-s3-lora-walkie-talkie-md"
+    },
+    {
+      "bytes": 4975,
+      "extension": ".md",
+      "family": "document",
+      "output": "2026-07-07-pleth-gauge-difference-of-powers-md.omilisp",
+      "relative_path": "2026-07-07-Pleth_Gauge_Difference_of_Powers.md",
+      "sha256": "e588a9e81e87c9a1f99c8f9f6cc4df81dfa6e3b6c77396a544388c2b4ec64b2d",
+      "sid": "omi-docs-port.2026-07-07-pleth-gauge-difference-of-powers-md"
+    },
+    {
+      "bytes": 6569,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-00-readme-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/00-README.md",
+      "sha256": "83c7f809c04fe71bbb49128aa6e9483817d52cf79e85844986d20f092639a40a",
+      "sid": "omi-docs-port.25-hopf-fibrations-00-readme-md"
+    },
+    {
+      "bytes": 8248,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-02-pinch-branch-points-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/02-pinch-branch-points.md",
+      "sha256": "4838c04eacde440661db6c4abaa15fa9c527427062ccc2966dd4c01c8cae00ce",
+      "sid": "omi-docs-port.25-hopf-fibrations-02-pinch-branch-points-md"
+    },
+    {
+      "bytes": 9048,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-03-hopf-fibrations-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/03-hopf-fibrations.md",
+      "sha256": "b3f9e7d2c1e10a901fab376694231e9a3b313a7b8c781291def46a0fa0abfb31",
+      "sid": "omi-docs-port.25-hopf-fibrations-03-hopf-fibrations-md"
+    },
+    {
+      "bytes": 27504,
+      "extension": ".txt",
+      "family": "document",
+      "output": "25-hopf-fibrations-04-metatrons-cube-txt.omilisp",
+      "relative_path": "25-Hopf-Fibrations/04-Metatrons-Cube.txt",
+      "sha256": "41f199c20a8b1bca9a32221717d38150185c4607c851ed7416d1cd76ac82648c",
+      "sid": "omi-docs-port.25-hopf-fibrations-04-metatrons-cube-txt"
+    },
+    {
+      "bytes": 4125,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-05-s-3-spheres-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/05-S-3-Spheres.md",
+      "sha256": "722866827dc04e9e4d13bc51845d8170b5c7752824466d5d984b74ca662b5e6c",
+      "sid": "omi-docs-port.25-hopf-fibrations-05-s-3-spheres-md"
+    },
+    {
+      "bytes": 5411,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-06-computation-is-topology-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/06-Computation-Is-Topology.md",
+      "sha256": "d48b4da906838e0fded8603da28b2e22185d3e23ee9f3926f0b821e9bc2ec6ca",
+      "sid": "omi-docs-port.25-hopf-fibrations-06-computation-is-topology-md"
+    },
+    {
+      "bytes": 6278,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-07-computational-geometry-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/07-Computational-Geometry.md",
+      "sha256": "b6e1c2c4232db0e199e09d4e1b45a465cb5baaabf82d7255198e011d8af3b69c",
+      "sid": "omi-docs-port.25-hopf-fibrations-07-computational-geometry-md"
+    },
+    {
+      "bytes": 8583,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-08-merkaba-lightcone-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/08-Merkaba-Lightcone.md",
+      "sha256": "a6c7793ac9132aa7bc9517d7c038903071a366e31c91879d7b4c97f1db24b03a",
+      "sid": "omi-docs-port.25-hopf-fibrations-08-merkaba-lightcone-md"
+    },
+    {
+      "bytes": 8895,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-09-merkaba-metatron-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/09-Merkaba-Metatron.md",
+      "sha256": "cc15fc7badbd1819d71e186889574125cfae0dcd00d1d5aae4ae353615dfdc19",
+      "sid": "omi-docs-port.25-hopf-fibrations-09-merkaba-metatron-md"
+    },
+    {
+      "bytes": 8488,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-09-merkaba-self-dual-lightcone-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/09-Merkaba-Self-Dual-Lightcone.md",
+      "sha256": "95f25e511e77f92e0fa265282defbc72bf298e1935d99bbf471718deae40d8e9",
+      "sid": "omi-docs-port.25-hopf-fibrations-09-merkaba-self-dual-lightcone-md"
+    },
+    {
+      "bytes": 9352,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-10-falsifiable-scheme-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/10-Falsifiable-Scheme.md",
+      "sha256": "d4ec0a99446504209a4e536316c45c61f1c82326f4c1ad2c724cc1ef3ce09b43",
+      "sid": "omi-docs-port.25-hopf-fibrations-10-falsifiable-scheme-md"
+    },
+    {
+      "bytes": 8429,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-11-mind-body-computation-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/11-Mind-Body-Computation.md",
+      "sha256": "76ec917151107824821f0e867bf9ded3c5c8d8dd25deea1928caa90e77f843e1",
+      "sid": "omi-docs-port.25-hopf-fibrations-11-mind-body-computation-md"
+    },
+    {
+      "bytes": 8138,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-12-geometry-of-mind-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/12-Geometry-of-Mind.md",
+      "sha256": "9e8428a11f71fa789617f9d894e6720a7e833213a119e01f8cb21710d14ce411",
+      "sid": "omi-docs-port.25-hopf-fibrations-12-geometry-of-mind-md"
+    },
+    {
+      "bytes": 10013,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-13-hopf-consciousness-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/13-Hopf-Consciousness.md",
+      "sha256": "1f1197046e59e2c6f61493ef259696c70ae0165ab0e93814a62fdda10731fcaa",
+      "sid": "omi-docs-port.25-hopf-fibrations-13-hopf-consciousness-md"
+    },
+    {
+      "bytes": 26629,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-14-geometric-theory-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/14-Geometric-Theory.md",
+      "sha256": "5cc0a3dfb4979c863463795b2f3f875da3bfa70fa3229d8da4a7cc67db90782a",
+      "sid": "omi-docs-port.25-hopf-fibrations-14-geometric-theory-md"
+    },
+    {
+      "bytes": 0,
+      "extension": ".md",
+      "family": "document",
+      "output": "25-hopf-fibrations-15-metaverse-portal-md.omilisp",
+      "relative_path": "25-Hopf-Fibrations/15-Metaverse-Portal.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-docs-port.25-hopf-fibrations-15-metaverse-portal-md"
+    },
+    {
+      "bytes": 12732,
+      "extension": ".md",
+      "family": "document",
+      "output": "canon-as-sphere-packing-lattice-md.omilisp",
+      "relative_path": "Canon as Sphere-Packing Lattice.md",
+      "sha256": "95fac534f462b17e750602453ca2b6b37d7f1f87f06f37b5738f2be2f1cf5b7c",
+      "sid": "omi-docs-port.canon-as-sphere-packing-lattice-md"
+    },
+    {
+      "bytes": 4912,
+      "extension": ".tex",
+      "family": "artifact",
+      "output": "delta-orbit-theory-as-a-quotient-category-of-finite-dynamical-incidence-systems-tex.omilisp",
+      "relative_path": "Delta Orbit Theory as a Quotient Category of Finite Dynamical Incidence Systems.tex",
+      "sha256": "31176f852b46f15f90ac48ff63c78b2dbcb0c239ccd53dbccda73bc2a3364d19",
+      "sid": "omi-docs-port.delta-orbit-theory-as-a-quotient-category-of-finite-dynamical-incidence-systems-tex"
+    },
+    {
+      "bytes": 6078,
+      "extension": ".md",
+      "family": "document",
+      "output": "gnomic-omicron-blackboard-evaluation-md.omilisp",
+      "relative_path": "Gnomic Omicron Blackboard Evaluation.md",
+      "sha256": "1929fcf5ff536260ad10c6521990c94cdcb617946eb2aa22118044a53c5e28e8",
+      "sid": "omi-docs-port.gnomic-omicron-blackboard-evaluation-md"
+    },
+    {
+      "bytes": 8702,
+      "extension": ".md",
+      "family": "document",
+      "output": "le-algebra-3d-computational-manifolds-md.omilisp",
+      "relative_path": "Le Algebra/3D_COMPUTATIONAL_MANIFOLDS.md",
+      "sha256": "ded11a544eb7f90dee261cfaabf649e213b10819e1548d5596724df4c8e6bf18",
+      "sid": "omi-docs-port.le-algebra-3d-computational-manifolds-md"
+    },
+    {
+      "bytes": 32941,
+      "extension": ".md",
+      "family": "document",
+      "output": "le-algebra-api-reference-md.omilisp",
+      "relative_path": "Le Algebra/API-REFERENCE.md",
+      "sha256": "78892f6f888d1bb7635abb4dc514cf7cb3b4ded54524644771795e0d41e70fcb",
+      "sid": "omi-docs-port.le-algebra-api-reference-md"
+    },
+    {
+      "bytes": 6950,
+      "extension": ".md",
+      "family": "document",
+      "output": "le-algebra-e8-benchmarks-md.omilisp",
+      "relative_path": "Le Algebra/E8_BENCHMARKS.md",
+      "sha256": "8cfe719b1e8ab68db061e0739d6312b94d64f1cf6665ad09e5fe9f764a119d99",
+      "sid": "omi-docs-port.le-algebra-e8-benchmarks-md"
+    },
+    {
+      "bytes": 8271,
+      "extension": ".md",
+      "family": "document",
+      "output": "le-algebra-e8-demo-log-md.omilisp",
+      "relative_path": "Le Algebra/E8_DEMO_LOG.md",
+      "sha256": "96c15e87b60390549d551729243961987cef6748413e4254dd94682b7353cace",
+      "sid": "omi-docs-port.le-algebra-e8-demo-log-md"
+    },
+    {
+      "bytes": 7912,
+      "extension": ".md",
+      "family": "document",
+      "output": "le-algebra-e8-lattice-md.omilisp",
+      "relative_path": "Le Algebra/E8_LATTICE.md",
+      "sha256": "08619fadef68a61fb2217eadc1cb927411dcface4ea44e2b2e0c9a41db3a2769",
+      "sid": "omi-docs-port.le-algebra-e8-lattice-md"
+    },
+    {
+      "bytes": 5853,
+      "extension": ".md",
+      "family": "document",
+      "output": "le-algebra-e8-theta-series-md.omilisp",
+      "relative_path": "Le Algebra/E8_THETA_SERIES.md",
+      "sha256": "ca1aa403d0ad34e643fda663ddc475822712ad3c0e7e76c73aca910482a1d483",
+      "sid": "omi-docs-port.le-algebra-e8-theta-series-md"
+    },
+    {
+      "bytes": 9082,
+      "extension": ".md",
+      "family": "document",
+      "output": "le-algebra-expanded-e8-manifold-simulations-and-weyl-group-applications-md.omilisp",
+      "relative_path": "Le Algebra/Expanded E8 Manifold Simulations and Weyl Group Applications.md",
+      "sha256": "67d5000b0d3cc93e5dffe447c0f8cbeed8fce28772c268bfbbc3721dc2d14e0f",
+      "sid": "omi-docs-port.le-algebra-expanded-e8-manifold-simulations-and-weyl-group-applications-md"
+    },
+    {
+      "bytes": 14789,
+      "extension": ".md",
+      "family": "document",
+      "output": "le-algebra-geometric-consensus-foundation-md.omilisp",
+      "relative_path": "Le Algebra/GEOMETRIC-CONSENSUS-FOUNDATION.md",
+      "sha256": "d4ebd572913e35d322c1f545d6a990b5db027bf4c617e5417fa995b7c3465104",
+      "sid": "omi-docs-port.le-algebra-geometric-consensus-foundation-md"
+    },
+    {
+      "bytes": 14980,
+      "extension": ".md",
+      "family": "document",
+      "output": "le-algebra-geometric-consensus-implementation-md.omilisp",
+      "relative_path": "Le Algebra/GEOMETRIC-CONSENSUS-IMPLEMENTATION.md",
+      "sha256": "dec2d34113d26dfd4e41f225b352bf2e7f6f47318696b4735cfed0f1c969969e",
+      "sid": "omi-docs-port.le-algebra-geometric-consensus-implementation-md"
+    },
+    {
+      "bytes": 9048,
+      "extension": ".md",
+      "family": "document",
+      "output": "le-algebra-hopf-fibrations-md.omilisp",
+      "relative_path": "Le Algebra/hopf-fibrations.md",
+      "sha256": "b3f9e7d2c1e10a901fab376694231e9a3b313a7b8c781291def46a0fa0abfb31",
+      "sid": "omi-docs-port.le-algebra-hopf-fibrations-md"
+    },
+    {
+      "bytes": 8248,
+      "extension": ".md",
+      "family": "document",
+      "output": "le-algebra-pinch-branch-points-md.omilisp",
+      "relative_path": "Le Algebra/pinch-branch-points.md",
+      "sha256": "4838c04eacde440661db6c4abaa15fa9c527427062ccc2966dd4c01c8cae00ce",
+      "sid": "omi-docs-port.le-algebra-pinch-branch-points-md"
+    },
+    {
+      "bytes": 4808,
+      "extension": ".md",
+      "family": "document",
+      "output": "omi-rule-set-type-engine-md.omilisp",
+      "relative_path": "OMI Rule-Set Type Engine.md",
+      "sha256": "415078692e36a915debfdc43034055cb23259bceba40e7ce57a5040239633c82",
+      "sid": "omi-docs-port.omi-rule-set-type-engine-md"
+    },
+    {
+      "bytes": 128,
+      "extension": ".md",
+      "family": "document",
+      "output": "omi-relational-access-envelope-md.omilisp",
+      "relative_path": "OMI-RELATIONAL-ACCESS-ENVELOPE.md",
+      "sha256": "77b70bef6d0c6a8669a131b32ce71d5b91993a59312b9b57b217da0262ff0ddf",
+      "sid": "omi-docs-port.omi-relational-access-envelope-md"
+    },
+    {
+      "bytes": 108,
+      "extension": ".md",
+      "family": "document",
+      "output": "omi-symbolic-grammar-md.omilisp",
+      "relative_path": "OMI-SYMBOLIC-GRAMMAR.md",
+      "sha256": "b72423e4ca7dac1bad3fc7f4747b60341406e1d1d7c06f8217b946c9261f6988",
+      "sid": "omi-docs-port.omi-symbolic-grammar-md"
+    },
+    {
+      "bytes": 78359,
+      "extension": ".md",
+      "family": "document",
+      "output": "tetragrammatron-the-five-governor-axis-of-omi-dimensional-interpretation-conversation-md.omilisp",
+      "relative_path": "Tetragrammatron - The Five Governor Axis of OMI Dimensional Interpretation.conversation.md",
+      "sha256": "4e0bcdbde1e958df580c8b4e87ee9f4bf02c20df9db3106a5ab5006bd74f92ef",
+      "sid": "omi-docs-port.tetragrammatron-the-five-governor-axis-of-omi-dimensional-interpretation-conversation-md"
+    },
+    {
+      "bytes": 5998,
+      "extension": ".md",
+      "family": "document",
+      "output": "the-three-axes-of-canonical-progression-md.omilisp",
+      "relative_path": "The Three Axes of Canonical Progression.md",
+      "sha256": "b09d78217fb6919dc6e99aa7bffaf9ac740424eb0194197d6b6a3637c8401786",
+      "sid": "omi-docs-port.the-three-axes-of-canonical-progression-md"
+    },
+    {
+      "bytes": 93642,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-2025-12-17-logos-and-computation-comparison-md.omilisp",
+      "relative_path": "assemblers/2025-12-17-Logos_and_computation_comparison.md",
+      "sha256": "b55c8d170610996e7dd3915efb898966fd05fc0e5245e7ab917da1a350988a71",
+      "sid": "omi-docs-port.assemblers-2025-12-17-logos-and-computation-comparison-md"
+    },
+    {
+      "bytes": 358767,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-2025-12-17-n-sphere-vs-n-ball-md.omilisp",
+      "relative_path": "assemblers/2025-12-17-N-sphere_vs_N-ball.md",
+      "sha256": "d9aa9a637974d3c2a0fd2b0fe3791fab1391cc1195a3a565215fabe0d4db7c9c",
+      "sid": "omi-docs-port.assemblers-2025-12-17-n-sphere-vs-n-ball-md"
+    },
+    {
+      "bytes": 317294,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-2025-12-17-white-paper-review-md.omilisp",
+      "relative_path": "assemblers/2025-12-17-White_paper_review.md",
+      "sha256": "89d3ded9d413679d3421127b79afeeea6be3f7fe0d28a60e0405c315f8eec5fa",
+      "sid": "omi-docs-port.assemblers-2025-12-17-white-paper-review-md"
+    },
+    {
+      "bytes": 12591,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-26-q-star-md.omilisp",
+      "relative_path": "assemblers/26-Q-Star.md",
+      "sha256": "32350aa26fed9d0216ceb6de0a708fa735ae32f8258e9a8905241bed3765e332",
+      "sid": "omi-docs-port.assemblers-26-q-star-md"
+    },
+    {
+      "bytes": 52616,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-assembly-algebra-language-aal-final-reproducible-formalization-v3-2-md.omilisp",
+      "relative_path": "assemblers/Assembly\u2013Algebra Language (AAL) - Final Reproducible Formalization v3.2.md",
+      "sha256": "5ac0cfbd7cb3fb2567fe83d07b4989d5619c8870c7d1f1f20f8e2eb403371bdc",
+      "sid": "omi-docs-port.assemblers-assembly-algebra-language-aal-final-reproducible-formalization-v3-2-md"
+    },
+    {
+      "bytes": 17018,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-closure-for-dimensional-ascent-md.omilisp",
+      "relative_path": "assemblers/Closure for Dimensional Ascent..md",
+      "sha256": "e47df40356aca581e9294ad8be75af4437c5c10a2e9fe230ab8b3f78e60e0efd",
+      "sid": "omi-docs-port.assemblers-closure-for-dimensional-ascent-md"
+    },
+    {
+      "bytes": 16399,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-composition-algebras-and-federated-shared-space-v2-md.omilisp",
+      "relative_path": "assemblers/Composition Algebras and Federated Shared Space v2.md",
+      "sha256": "2bd0c92c7a2809c314f37fc8fa0c37917af0db6f33071c2a4e9a960dfe7f4b5c",
+      "sid": "omi-docs-port.assemblers-composition-algebras-and-federated-shared-space-v2-md"
+    },
+    {
+      "bytes": 13027,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-crystallography-as-computational-substrate-md.omilisp",
+      "relative_path": "assemblers/Crystallography as Computational Substrate.md",
+      "sha256": "cf9be2aa7b13f30e431155c91af08bb518ab7634aa0908dc7a57123dd6f83e4c",
+      "sid": "omi-docs-port.assemblers-crystallography-as-computational-substrate-md"
+    },
+    {
+      "bytes": 17185,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-dimensional-numerical-correspondence-md.omilisp",
+      "relative_path": "assemblers/Dimensional-Numerical Correspondence.md",
+      "sha256": "2e850bcc7f8df0d72682bbc367ac651a864a5678d1412d2db0ccfede4044acb8",
+      "sid": "omi-docs-port.assemblers-dimensional-numerical-correspondence-md"
+    },
+    {
+      "bytes": 29473,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-fano-plane-f-max-md.omilisp",
+      "relative_path": "assemblers/Fano-Plane-F-Max.md",
+      "sha256": "2815a3957fd2891519f684f3b967a98b54f26f576b6a01472583ece174f812f1",
+      "sid": "omi-docs-port.assemblers-fano-plane-f-max-md"
+    },
+    {
+      "bytes": 29954,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-mathematical-foundations-2-md.omilisp",
+      "relative_path": "assemblers/Mathematical_Foundations (2).md",
+      "sha256": "f20e867436a3cb70f8dc219d156701e12c49e371dbaa5f62cb151293d41d7ef2",
+      "sid": "omi-docs-port.assemblers-mathematical-foundations-2-md"
+    },
+    {
+      "bytes": 7479,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-miquel-8-3-6-4-the-cube-face-circle-configuration-md.omilisp",
+      "relative_path": "assemblers/Miquel(8_3 6_4) - the cube face-circle configuration.md",
+      "sha256": "ca85b97de800846df2ac1449109128c0f55dcb552f9a91ed54d7ed89835cef6b",
+      "sid": "omi-docs-port.assemblers-miquel-8-3-6-4-the-cube-face-circle-configuration-md"
+    },
+    {
+      "bytes": 14925,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-m-bius-kantor-only-kernel-md.omilisp",
+      "relative_path": "assemblers/M\u00f6bius\u2013Kantor-only kernel.md",
+      "sha256": "4859a1a97bc74ff6c9fa346a82a3e8e5958afaf4273fe27c780260f3f5f3d9c7",
+      "sid": "omi-docs-port.assemblers-m-bius-kantor-only-kernel-md"
+    },
+    {
+      "bytes": 30699,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-natural-language-geometric-interface-md.omilisp",
+      "relative_path": "assemblers/Natural Language Geometric Interface.md",
+      "sha256": "5459212905a5d967ac556bdcbdc19430273f6299d26bc9626cc40ca2fe68e2fb",
+      "sid": "omi-docs-port.assemblers-natural-language-geometric-interface-md"
+    },
+    {
+      "bytes": 16723,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-the-8-tuple-correspondence-md.omilisp",
+      "relative_path": "assemblers/The 8-Tuple Correspondence.md",
+      "sha256": "b3c5624d21b9cf0d6038ef22fada55dcaf0160a14809a8a2be959da087ecb7fe",
+      "sid": "omi-docs-port.assemblers-the-8-tuple-correspondence-md"
+    },
+    {
+      "bytes": 11916,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-the-8-tuple-as-a-universal-computational-invariant-md.omilisp",
+      "relative_path": "assemblers/The 8\u2011Tuple as a Universal Computational Invariant.md",
+      "sha256": "85fa8803a9f6269ec8bc2e1bbf7e62650fabd1e67be0e31915cadda5b421a3ec",
+      "sid": "omi-docs-port.assemblers-the-8-tuple-as-a-universal-computational-invariant-md"
+    },
+    {
+      "bytes": 21289,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-the-infinite-fraction-md.omilisp",
+      "relative_path": "assemblers/The Infinite Fraction.md",
+      "sha256": "3fa3e507fe71e59682e146e75bd8ad503847ad3683c989203c07b954b9f17614",
+      "sid": "omi-docs-port.assemblers-the-infinite-fraction-md"
+    },
+    {
+      "bytes": 21989,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-the-node-to-assembly-mapping-md.omilisp",
+      "relative_path": "assemblers/The Node-to-Assembly Mapping.md",
+      "sha256": "1a49b55f7f0bc308c3bb30c7d90f1dae63bee41da9a05b4dd5596a6e0ed12648",
+      "sid": "omi-docs-port.assemblers-the-node-to-assembly-mapping-md"
+    },
+    {
+      "bytes": 20193,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-the-polynomial-predicate-program-trinity-md.omilisp",
+      "relative_path": "assemblers/The Polynomial-Predicate-Program Trinity.md",
+      "sha256": "fdfaa01f791aef3d20e6afe3392f1759f4f0998f590468ab1955917e2ee513ab",
+      "sid": "omi-docs-port.assemblers-the-polynomial-predicate-program-trinity-md"
+    },
+    {
+      "bytes": 20135,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-the-universal-computational-invariant-an-upgraded-synthesis-md.omilisp",
+      "relative_path": "assemblers/The Universal Computational Invariant - An Upgraded Synthesis.md",
+      "sha256": "91095e4edcd55d636e4ee8a930131a4ce335565b253a602d090e4a1c8013c140",
+      "sid": "omi-docs-port.assemblers-the-universal-computational-invariant-an-upgraded-synthesis-md"
+    },
+    {
+      "bytes": 20949,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-three-roles-md.omilisp",
+      "relative_path": "assemblers/Three Roles.md",
+      "sha256": "daa058de5851c1be6a2ed7a4dcade88facfc18ce17d584b4b660cc718a212141",
+      "sid": "omi-docs-port.assemblers-three-roles-md"
+    },
+    {
+      "bytes": 6341,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-trit-core-polynomial-decomposition-system-md.omilisp",
+      "relative_path": "assemblers/Trit-Core Polynomial Decomposition System.md",
+      "sha256": "716dd07d92b29328f4f67ba77acd7717b495ed5eef342389f1ba1de6d95cc679",
+      "sid": "omi-docs-port.assemblers-trit-core-polynomial-decomposition-system-md"
+    },
+    {
+      "bytes": 23154,
+      "extension": ".md",
+      "family": "document",
+      "output": "assemblers-universal-binary-waveform-transformer-md.omilisp",
+      "relative_path": "assemblers/Universal Binary Waveform Transformer.md",
+      "sha256": "cdd6821b3a4eaa0bc1761f5500e340843e0f2fb09540c1d5eee25e450cd57f06",
+      "sid": "omi-docs-port.assemblers-universal-binary-waveform-transformer-md"
+    },
+    {
+      "bytes": 256415,
+      "extension": ".md",
+      "family": "document",
+      "output": "omi-canvas-chat-hstory-md.omilisp",
+      "relative_path": "omi-canvas_chat_hstory.md",
+      "sha256": "b87ed9c3a3754c2d3266d85eef9e94eb3a02f330caadb0a183d85e5be53b5992",
+      "sid": "omi-docs-port.omi-canvas-chat-hstory-md"
+    },
+    {
+      "bytes": 647093,
+      "extension": ".md",
+      "family": "document",
+      "output": "session-ses-0c53-md.omilisp",
+      "relative_path": "session-ses_0c53.md",
+      "sha256": "e6e51f79269a791d7fd5cfd2c1a2ffe210abacf01b5942cd0edb72bf149a2dc3",
+      "sid": "omi-docs-port.session-ses-0c53-md"
+    },
+    {
+      "bytes": 443949,
+      "extension": ".md",
+      "family": "document",
+      "output": "session-ses-0caf-md.omilisp",
+      "relative_path": "session-ses_0caf.md",
+      "sha256": "4070a9baea9c9f6e56915a6c8dc2d9ca7116a00b1343f0559ad4c178f543fdb2",
+      "sid": "omi-docs-port.session-ses-0caf-md"
+    },
+    {
+      "bytes": 239391,
+      "extension": ".md",
+      "family": "document",
+      "output": "session-ses-0cc9-md.omilisp",
+      "relative_path": "session-ses_0cc9.md",
+      "sha256": "e53630541cdb3a29df2b7454e307eea5d917058a8a9981fb2a0b832c9c1fce17",
+      "sid": "omi-docs-port.session-ses-0cc9-md"
+    },
+    {
+      "bytes": 515111,
+      "extension": ".md",
+      "family": "document",
+      "output": "session-ses-0cec-md.omilisp",
+      "relative_path": "session-ses_0cec.md",
+      "sha256": "387e9552615532dc4baf2dcd006fac4ebe747bf0b997c4198ea4f828f568de0c",
+      "sid": "omi-docs-port.session-ses-0cec-md"
+    },
+    {
+      "bytes": 3687,
+      "extension": ".md",
+      "family": "document",
+      "output": "ttc-history-architecture-md.omilisp",
+      "relative_path": "ttc-history/ARCHITECTURE.md",
+      "sha256": "5ec50038893f0338f7fd5a1d3881b3675392c9d6d8913ee1f2c8895769d8f27c",
+      "sid": "omi-docs-port.ttc-history-architecture-md"
+    },
+    {
+      "bytes": 1110,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "ttc-history-makefile.omilisp",
+      "relative_path": "ttc-history/Makefile",
+      "sha256": "6282dc6e8f979b5344fff0bb56f1125c23684321c220f235542886721af80300",
+      "sid": "omi-docs-port.ttc-history-makefile"
+    },
+    {
+      "bytes": 2105,
+      "extension": ".md",
+      "family": "document",
+      "output": "ttc-history-readme-md.omilisp",
+      "relative_path": "ttc-history/README.md",
+      "sha256": "8a4bde7525084903def2c3dda7ea07a4301e5176297cd171fea8ca8d2c8d9b37",
+      "sid": "omi-docs-port.ttc-history-readme-md"
+    },
+    {
+      "bytes": 3216,
+      "extension": ".c",
+      "family": "code",
+      "output": "ttc-history-main-c.omilisp",
+      "relative_path": "ttc-history/main.c",
+      "sha256": "3427b71af3d8f0bbda83ff7c723b9fd93d6988adaf352fec8fc1153dd9e671a6",
+      "sid": "omi-docs-port.ttc-history-main-c"
+    },
+    {
+      "bytes": 4444,
+      "extension": ".c",
+      "family": "code",
+      "output": "ttc-history-main-polyform-c.omilisp",
+      "relative_path": "ttc-history/main_polyform.c",
+      "sha256": "7a866a2a719787ebf4dd8d8d0c89779d3a75e98e512e224a6f1ab58ef04f546d",
+      "sid": "omi-docs-port.ttc-history-main-polyform-c"
+    },
+    {
+      "bytes": 9439,
+      "extension": ".c",
+      "family": "code",
+      "output": "ttc-history-pf-c.omilisp",
+      "relative_path": "ttc-history/pf.c",
+      "sha256": "e8f0e8b20447555504ce81c2ae4fa2f2964991389d5395365ec8a004570815c5",
+      "sid": "omi-docs-port.ttc-history-pf-c"
+    },
+    {
+      "bytes": 2689,
+      "extension": ".h",
+      "family": "code",
+      "output": "ttc-history-pf-h.omilisp",
+      "relative_path": "ttc-history/pf.h",
+      "sha256": "493e24f09947e19cacd1c54d3c5660a91c99061d1774e61d1ca888c012ca99d6",
+      "sid": "omi-docs-port.ttc-history-pf-h"
+    },
+    {
+      "bytes": 5405,
+      "extension": ".c",
+      "family": "code",
+      "output": "ttc-history-polyform-c.omilisp",
+      "relative_path": "ttc-history/polyform.c",
+      "sha256": "25dd16c6401f046dc7edae72772fd6d9dd2a1ac637809e2b3301dd74769a5cb7",
+      "sid": "omi-docs-port.ttc-history-polyform-c"
+    },
+    {
+      "bytes": 8777,
+      "extension": ".c",
+      "family": "code",
+      "output": "ttc-history-svg-c.omilisp",
+      "relative_path": "ttc-history/svg.c",
+      "sha256": "f11f9dd8f134a12b9fb0bc50c7ba9ab21f845ca69e9e3eeff5e5e32243620432",
+      "sid": "omi-docs-port.ttc-history-svg-c"
+    },
+    {
+      "bytes": 758,
+      "extension": ".h",
+      "family": "code",
+      "output": "ttc-history-svg-h.omilisp",
+      "relative_path": "ttc-history/svg.h",
+      "sha256": "e967616e33ac82616dcbd44bde6ad2895129a6ee87fb7fafd6634af824f28513",
+      "sid": "omi-docs-port.ttc-history-svg-h"
+    },
+    {
+      "bytes": 10159,
+      "extension": ".c",
+      "family": "code",
+      "output": "ttc-history-ttc-core-c.omilisp",
+      "relative_path": "ttc-history/ttc_core.c",
+      "sha256": "de6afdf95ba21f8e70428fea112a9d627612e30a6c7978c7fe157ec8cd70aac3",
+      "sid": "omi-docs-port.ttc-history-ttc-core-c"
+    },
+    {
+      "bytes": 2035,
+      "extension": ".h",
+      "family": "code",
+      "output": "ttc-history-ttc-core-h.omilisp",
+      "relative_path": "ttc-history/ttc_core.h",
+      "sha256": "e4cc92d18101da50cb9aa91d01b87f787ffa4b65c055f940bcbc25601f633e60",
+      "sid": "omi-docs-port.ttc-history-ttc-core-h"
+    },
+    {
+      "bytes": 1240,
+      "extension": ".c",
+      "family": "code",
+      "output": "ttc-history-ttc-linux-c.omilisp",
+      "relative_path": "ttc-history/ttc_linux.c",
+      "sha256": "630fa4a573ba0a0814b799089cbf5b59049ce5b43c95316121750ac5d88e253d",
+      "sid": "omi-docs-port.ttc-history-ttc-linux-c"
+    },
+    {
+      "bytes": 490,
+      "extension": ".h",
+      "family": "code",
+      "output": "ttc-history-ttc-linux-h.omilisp",
+      "relative_path": "ttc-history/ttc_linux.h",
+      "sha256": "b8005d556182d76a4662835fc18d5336df2878ee810280d25ddfc408c1a81216",
+      "sid": "omi-docs-port.ttc-history-ttc-linux-h"
+    },
+    {
+      "bytes": 2978,
+      "extension": ".c",
+      "family": "code",
+      "output": "ttc-history-ttc-posix-c.omilisp",
+      "relative_path": "ttc-history/ttc_posix.c",
+      "sha256": "5674c2550f36eac71667024ea5caff8935cabfc6a947fad471d54f38801e5c21",
+      "sid": "omi-docs-port.ttc-history-ttc-posix-c"
+    },
+    {
+      "bytes": 425,
+      "extension": ".h",
+      "family": "code",
+      "output": "ttc-history-ttc-posix-h.omilisp",
+      "relative_path": "ttc-history/ttc_posix.h",
+      "sha256": "57acad18e583f1ab6a64ca475cd7c9e7e49fe2fac4fac90f7d057d7991e99d6e",
+      "sid": "omi-docs-port.ttc-history-ttc-posix-h"
+    },
+    {
+      "bytes": 32849,
+      "extension": ".canvas",
+      "family": "artifact",
+      "output": "wittgenstein-omi-dataview-axes-canvas.omilisp",
+      "relative_path": "wittgenstein_omi_dataview_axes.canvas",
+      "sha256": "8066432dcda15412b60f9fcb85d600cb82db180711086c6febe564743f9585e2",
+      "sid": "omi-docs-port.wittgenstein-omi-dataview-axes-canvas"
+    },
+    {
+      "bytes": 31972,
+      "extension": ".canvas",
+      "family": "artifact",
+      "output": "wittgenstein-omi-truth-surface-v2-canvas.omilisp",
+      "relative_path": "wittgenstein_omi_truth_surface_v2.canvas",
+      "sha256": "eee1c4eeffac9d9cb42e125b6214c5099c33f26779f3446620809ce42dd316b3",
+      "sid": "omi-docs-port.wittgenstein-omi-truth-surface-v2-canvas"
+    },
+    {
+      "bytes": 18392,
+      "extension": ".canvas",
+      "family": "artifact",
+      "output": "wittgenstein-omi-truth-table-canvas.omilisp",
+      "relative_path": "wittgenstein_omi_truth_table.canvas",
+      "sha256": "7dfb308f3684a1dbccec56eb8462aab0bf79e133710f7f3a3d60e104a08e1d61",
+      "sid": "omi-docs-port.wittgenstein-omi-truth-table-canvas"
+    }
+  ],
+  "output_root": "/home/main/omi/omi---imo/declarations/omi-docs-port",
+  "source_root": "/home/main/omi/omi-docs"
+}

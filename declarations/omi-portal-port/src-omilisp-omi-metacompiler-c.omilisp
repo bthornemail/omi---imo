@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-portal-port.src-omilisp-omi-metacompiler-c)
+    (title "omi-portal port: src/omilisp/omi_metacompiler.c")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/src/omilisp/omi_metacompiler.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.src-omilisp-omi-metacompiler-c)
+    (locator omi---imo.omi-portal-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "src/omilisp/omi_metacompiler.c")
+    (extension ".c")
+    (family code)
+    (bytes 27756)
+    (sha256 "5468b8f71ff5a4e31a8b39e82a721c08ba72f2ed0ba855dd60b28cbc414892f5"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1049)
+    (function-count 44)
+    (define-count 6)
+    (include-count 7)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

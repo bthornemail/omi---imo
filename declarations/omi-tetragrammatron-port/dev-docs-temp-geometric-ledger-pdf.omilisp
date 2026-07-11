@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.dev-docs-temp-geometric-ledger-pdf)
+    (title "omi-tetragrammatron port: dev-docs/temp/Geometric_Ledger.pdf")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/dev-docs/temp/Geometric_Ledger.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.dev-docs-temp-geometric-ledger-pdf)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "dev-docs/temp/Geometric_Ledger.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 17281706)
+    (sha256 "0cfa43b3bb000b76db5dda29a4159d6b8fcd0df8e68cedc81bd616430de7a07e"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

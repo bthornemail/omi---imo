@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.docs-07-application-prolog-wordnet-aframe-md)
+    (title "omi-portal port: docs/07-application/prolog-wordnet-aframe.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/docs/07-application/prolog-wordnet-aframe.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.docs-07-application-prolog-wordnet-aframe-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/07-application/prolog-wordnet-aframe.md")
+    (extension ".md")
+    (family document)
+    (bytes 2579)
+    (sha256 "1b0fc4cdb1ac970f08ca3586597e5721f94394992a82666c2da919ece4c7e330"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 72)
+    (title "Prolog WordNet A-Frame Broker")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

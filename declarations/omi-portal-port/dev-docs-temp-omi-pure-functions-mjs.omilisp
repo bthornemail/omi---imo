@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-portal-port.dev-docs-temp-omi-pure-functions-mjs)
+    (title "omi-portal port: dev-docs/_temp/omi-pure-functions.mjs")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/dev-docs/_temp/omi-pure-functions.mjs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.dev-docs-temp-omi-pure-functions-mjs)
+    (locator omi---imo.omi-portal-port)
+    (binding mjs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us mjs))
+  (source-artifact
+    (relative-path "dev-docs/_temp/omi-pure-functions.mjs")
+    (extension ".mjs")
+    (family code)
+    (bytes 18395)
+    (sha256 "a8520d44559da9731d14b43d5aa5aae5bd378fa7ce68c368244de6dc80db461c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 676)
+    (function-count 71)
+    (export-count 81)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

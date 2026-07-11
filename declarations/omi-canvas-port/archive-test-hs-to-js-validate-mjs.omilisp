@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-canvas-port.archive-test-hs-to-js-validate-mjs)
+    (title "omi-canvas port: archive/test/hs-to-js-validate.mjs")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/archive/test/hs-to-js-validate.mjs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.archive-test-hs-to-js-validate-mjs)
+    (locator omi---imo.omi-canvas-port)
+    (binding mjs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs code)
+    (us mjs))
+  (source-artifact
+    (relative-path "archive/test/hs-to-js-validate.mjs")
+    (extension ".mjs")
+    (family code)
+    (bytes 1008)
+    (sha256 "729c132149f5b8d44a3e3a93167d5c6bd4d523e90cbbe3203410790dd0af0651"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 37)
+    (function-count 0)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

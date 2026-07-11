@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-portal-port.github-workflows-ci-yml)
+    (title "omi-portal port: .github/workflows/ci.yml")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/.github/workflows/ci.yml")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.github-workflows-ci-yml)
+    (locator omi---imo.omi-portal-port)
+    (binding yml.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us yml))
+  (source-artifact
+    (relative-path ".github/workflows/ci.yml")
+    (extension ".yml")
+    (family artifact)
+    (bytes 3960)
+    (sha256 "19bb2d703b11fd4764e2b3815a4b7fa22662828d5a02ced3b3117ee8776a77ce"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 134)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

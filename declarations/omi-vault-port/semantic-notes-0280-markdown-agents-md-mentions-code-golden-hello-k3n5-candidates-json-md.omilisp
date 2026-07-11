@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-vault-port.semantic-notes-0280-markdown-agents-md-mentions-code-golden-hello-k3n5-candidates-json-md)
+    (title "omi-vault port: Semantic Notes/0280-markdown-agents-md-mentions-code-golden-hello-k3n5-candidates-json.md")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/Semantic Notes/0280-markdown-agents-md-mentions-code-golden-hello-k3n5-candidates-json.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.semantic-notes-0280-markdown-agents-md-mentions-code-golden-hello-k3n5-candidates-json-md)
+    (locator omi---imo.omi-vault-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "Semantic Notes/0280-markdown-agents-md-mentions-code-golden-hello-k3n5-candidates-json.md")
+    (extension ".md")
+    (family document)
+    (bytes 468)
+    (sha256 "64f63398dac69b274de6a22a97135171f2f05e0847f3f6ff47a95d0dcd1c052f"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 21)
+    (title "markdown:AGENTS.md mentions-code golden/hello.k3n5.candidates.json")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

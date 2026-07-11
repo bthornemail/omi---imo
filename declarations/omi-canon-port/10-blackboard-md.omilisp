@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.10-blackboard-md)
+    (title "omi-canon port: 10-BLACKBOARD.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/10-BLACKBOARD.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.10-blackboard-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "10-BLACKBOARD.md")
+    (extension ".md")
+    (family document)
+    (bytes 11253)
+    (sha256 "6d36e033f630b48a27a0c67d3fcf0f499a61131963fa349b77fd04c340eae54b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 339)
+    (title "State 10 \u2014 Blackboard: The Construction Surface")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

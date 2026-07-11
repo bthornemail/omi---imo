@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canvas-port.archive-enhanced-cli-with-tree-command-integration-md)
+    (title "omi-canvas port: archive/Enhanced CLI with Tree Command Integration.md")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/archive/Enhanced CLI with Tree Command Integration.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.archive-enhanced-cli-with-tree-command-integration-md)
+    (locator omi---imo.omi-canvas-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "archive/Enhanced CLI with Tree Command Integration.md")
+    (extension ".md")
+    (family document)
+    (bytes 17660)
+    (sha256 "4e7cfcc5c00ed41b1725ab7e627102ca625b41e7be8cef4dd740f7444723655b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 528)
+    (title "Enhanced CLI with Tree Command Integration")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

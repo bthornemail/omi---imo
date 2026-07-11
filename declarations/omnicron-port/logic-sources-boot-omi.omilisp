@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-sources-boot-omi)
+    (title "omnicron port: logic/sources/boot.omi")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/sources/boot.omi")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-sources-boot-omi)
+    (locator omi---imo.omnicron-port)
+    (binding omi.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs declaration)
+    (us omi))
+  (source-artifact
+    (relative-path "logic/sources/boot.omi")
+    (extension ".omi")
+    (family declaration)
+    (bytes 1151)
+    (sha256 "6a54214b2800fbc8b8463bee3227026c53ac30a7bed672517bde41955fafbd7b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 64)
+    (balanced-parens true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

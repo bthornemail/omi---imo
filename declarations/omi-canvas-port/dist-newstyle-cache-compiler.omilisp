@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-canvas-port.dist-newstyle-cache-compiler)
+    (title "omi-canvas port: dist-newstyle/cache/compiler")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/dist-newstyle/cache/compiler")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.dist-newstyle-cache-compiler)
+    (locator omi---imo.omi-canvas-port)
+    (binding no-ext.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs untyped)
+    (us no-ext))
+  (source-artifact
+    (relative-path "dist-newstyle/cache/compiler")
+    (extension "[no-ext]")
+    (family untyped)
+    (bytes 15477)
+    (sha256 "be4a70d38ba036d230d8b5ea5d6df446689f2f2aeaa02095402829cc8076ca7d"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 94)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

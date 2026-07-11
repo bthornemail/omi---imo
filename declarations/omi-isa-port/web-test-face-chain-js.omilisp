@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-isa-port.web-test-face-chain-js)
+    (title "omi-isa port: web/test-face-chain.js")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/web/test-face-chain.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.web-test-face-chain-js)
+    (locator omi---imo.omi-isa-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "web/test-face-chain.js")
+    (extension ".js")
+    (family code)
+    (bytes 6710)
+    (sha256 "66ec61bc5459d17adb41c201ff52fa46d8480693606cabfed6c35c45147bb01f"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 173)
+    (function-count 1)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

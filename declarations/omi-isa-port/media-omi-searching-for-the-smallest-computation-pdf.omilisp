@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-isa-port.media-omi-searching-for-the-smallest-computation-pdf)
+    (title "omi-isa port: media/OMI- Searching for the Smallest Computation.pdf")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/media/OMI- Searching for the Smallest Computation.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.media-omi-searching-for-the-smallest-computation-pdf)
+    (locator omi---imo.omi-isa-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "media/OMI- Searching for the Smallest Computation.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 39971)
+    (sha256 "92272dfa4c5e56245c8bd588e460efda0cca1af788e54998e3c965918c13df15"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

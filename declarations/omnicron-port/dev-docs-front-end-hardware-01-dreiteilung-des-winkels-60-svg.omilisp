@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.dev-docs-front-end-hardware-01-dreiteilung-des-winkels-60-svg)
+    (title "omnicron port: dev-docs/front-end/hardware/01-_Dreiteilung_des_Winkels_60\u00b0.svg")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/dev-docs/front-end/hardware/01-_Dreiteilung_des_Winkels_60\u00b0.svg")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.dev-docs-front-end-hardware-01-dreiteilung-des-winkels-60-svg)
+    (locator omi---imo.omnicron-port)
+    (binding svg.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs carrier)
+    (us svg))
+  (source-artifact
+    (relative-path "dev-docs/front-end/hardware/01-_Dreiteilung_des_Winkels_60\u00b0.svg")
+    (extension ".svg")
+    (family carrier)
+    (bytes 324709)
+    (sha256 "5a8a2023ad14c58354c875721a49e7a3421b1cd8a98a7c7f3539080139b6d4b9"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 3278)
+    (svg-root true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

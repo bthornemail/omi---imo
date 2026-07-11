@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.docs-agreement-is-all-you-need-md)
+    (title "omi-portal port: docs/agreement-is-all-you-need.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/docs/agreement-is-all-you-need.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.docs-agreement-is-all-you-need-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/agreement-is-all-you-need.md")
+    (extension ".md")
+    (family document)
+    (bytes 23455)
+    (sha256 "ae1d5d24e16538b587152cf7319a148e0eea58e858818277e2f923209b138c24"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1130)
+    (title "Agreement Is All You Need")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

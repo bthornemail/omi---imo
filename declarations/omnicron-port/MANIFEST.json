@@ -1,0 +1,4008 @@
+{
+  "count": 439,
+  "extension_counts": {
+    ".PNG": 1,
+    ".S": 5,
+    ".bin": 2,
+    ".bitboard": 19,
+    ".c": 24,
+    ".cc": 1,
+    ".dot": 1,
+    ".flat": 1,
+    ".flat2": 1,
+    ".gif": 4,
+    ".gyp": 1,
+    ".h": 10,
+    ".html": 1,
+    ".js": 2,
+    ".json": 23,
+    ".ld": 1,
+    ".lisp": 14,
+    ".log": 2,
+    ".logic": 6,
+    ".lx": 1,
+    ".md": 115,
+    ".mjs": 73,
+    ".ndjson": 34,
+    ".omi": 1,
+    ".org": 5,
+    ".pdf": 27,
+    ".pgm": 1,
+    ".pl": 3,
+    ".png": 10,
+    ".py": 2,
+    ".rs": 2,
+    ".scm": 7,
+    ".sh": 11,
+    ".sha256": 1,
+    ".svg": 10,
+    ".toml": 1,
+    ".tst": 2,
+    ".txt": 5,
+    ".yml": 1,
+    "[no-ext]": 8
+  },
+  "family_counts": {
+    "artifact": 11,
+    "carrier": 57,
+    "code": 130,
+    "declaration": 113,
+    "document": 120,
+    "untyped": 8
+  },
+  "items": [
+    {
+      "bytes": 1580,
+      "extension": ".yml",
+      "family": "artifact",
+      "output": "github-workflows-rebuild-all-yml.omilisp",
+      "relative_path": ".github/workflows/rebuild-all.yml",
+      "sha256": "8c5c9abf04f931d995f181786d5956a1efd8a87d0d92e13edccb7b6291dd58c9",
+      "sid": "omnicron-port.github-workflows-rebuild-all-yml"
+    },
+    {
+      "bytes": 14,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "gitignore.omilisp",
+      "relative_path": ".gitignore",
+      "sha256": "4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97",
+      "sid": "omnicron-port.gitignore"
+    },
+    {
+      "bytes": 4426,
+      "extension": ".md",
+      "family": "document",
+      "output": "agents-md.omilisp",
+      "relative_path": "AGENTS.md",
+      "sha256": "c4cef3de05fc60f009c9a8986c07ea96db9d357e084892a049da691e85a2bf61",
+      "sid": "omnicron-port.agents-md"
+    },
+    {
+      "bytes": 9794,
+      "extension": ".org",
+      "family": "declaration",
+      "output": "agents-md-org.omilisp",
+      "relative_path": "AGENTS.md.org",
+      "sha256": "c0c0849501d97b483654f4efec67b615068f858f9e32f38feef310e37c8826d2",
+      "sid": "omnicron-port.agents-md-org"
+    },
+    {
+      "bytes": 20228,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "makefile.omilisp",
+      "relative_path": "Makefile",
+      "sha256": "fcf06f2a0505995a757d4240b69b857510d9c7cf5912e722ba393947079d3eb2",
+      "sid": "omnicron-port.makefile"
+    },
+    {
+      "bytes": 4561,
+      "extension": ".md",
+      "family": "document",
+      "output": "readme-md.omilisp",
+      "relative_path": "README.md",
+      "sha256": "b29f17369db00e17fe089bd4290d6a2055ea5264415e8398b5ac8159fb3eb740",
+      "sid": "omnicron-port.readme-md"
+    },
+    {
+      "bytes": 5443,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "authority-classification-manifest-json.omilisp",
+      "relative_path": "authority/classification_manifest.json",
+      "sha256": "d6c1a929919d0d0df4ed317f619fd12df7b787488cd1dbaef4c8b13490c8bc80",
+      "sid": "omnicron-port.authority-classification-manifest-json"
+    },
+    {
+      "bytes": 1126,
+      "extension": ".logic",
+      "family": "declaration",
+      "output": "authority-locks-manifest-logic.omilisp",
+      "relative_path": "authority/locks_manifest.logic",
+      "sha256": "2a3ff36031c97b68535188fde509bd0774da8436acea669728323940802f7083",
+      "sid": "omnicron-port.authority-locks-manifest-logic"
+    },
+    {
+      "bytes": 2169,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "authority-report-devdocs-refs-mjs.omilisp",
+      "relative_path": "authority/report_devdocs_refs.mjs",
+      "sha256": "5d5a7190a208488583d417e77ebf0dea5d8b542578c5335178b1e4870359b56b",
+      "sid": "omnicron-port.authority-report-devdocs-refs-mjs"
+    },
+    {
+      "bytes": 2984,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "authority-verify-classification-manifest-mjs.omilisp",
+      "relative_path": "authority/verify_classification_manifest.mjs",
+      "sha256": "aca06eca377df77e38bd593b8d9a694594fbe1e197141072d4cad709ed7d110c",
+      "sid": "omnicron-port.authority-verify-classification-manifest-mjs"
+    },
+    {
+      "bytes": 1735,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-doc-writing-playbook-md.omilisp",
+      "relative_path": "dev-docs/DOC_WRITING_PLAYBOOK.md",
+      "sha256": "c11754cb8dd550c1e4954c479e8d73d49ddec42c561c4e9149a0f86c317b3478",
+      "sid": "omnicron-port.dev-docs-doc-writing-playbook-md"
+    },
+    {
+      "bytes": 1273,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-readme-md.omilisp",
+      "relative_path": "dev-docs/README.md",
+      "sha256": "76ce5eecd0d54829d61bfa3e6b7577d833736b20523f8235b2f43d622a97fd14",
+      "sid": "omnicron-port.dev-docs-readme-md"
+    },
+    {
+      "bytes": 438,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-00-shared-doc-template-md.omilisp",
+      "relative_path": "dev-docs/back-end/00-shared/DOC_TEMPLATE.md",
+      "sha256": "e4f51aa9b883ebeaed9d52cb2267ca91cf2c14d3a5aa29c2a6402159200f891b",
+      "sid": "omnicron-port.dev-docs-back-end-00-shared-doc-template-md"
+    },
+    {
+      "bytes": 259,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-00-shared-readme-md.omilisp",
+      "relative_path": "dev-docs/back-end/00-shared/README.md",
+      "sha256": "a5039507debc7b91bfe21f0441024a3dbc0bf4abfbca192a2b660e25ba8c3bfb",
+      "sid": "omnicron-port.dev-docs-back-end-00-shared-readme-md"
+    },
+    {
+      "bytes": 98775,
+      "extension": ".txt",
+      "family": "document",
+      "output": "dev-docs-back-end-00-shared-tmp-hypercubeorder-binary-svg-txt.omilisp",
+      "relative_path": "dev-docs/back-end/00-shared/tmp/Hypercubeorder_binary.svg.txt",
+      "sha256": "8815ad8ff30afe4faad3c47ee442d4f17f8ede287dd02b85a84de3cca22d9722",
+      "sid": "omnicron-port.dev-docs-back-end-00-shared-tmp-hypercubeorder-binary-svg-txt"
+    },
+    {
+      "bytes": 964753,
+      "extension": ".gif",
+      "family": "carrier",
+      "output": "dev-docs-back-end-00-shared-tmp-orthogonal-tesseract-gif-gif.omilisp",
+      "relative_path": "dev-docs/back-end/00-shared/tmp/Orthogonal_Tesseract_Gif.gif",
+      "sha256": "15ccc7a22c7a38e64abc64bfbdf4fc1f7b83909b070338f070e4f3b58142b057",
+      "sid": "omnicron-port.dev-docs-back-end-00-shared-tmp-orthogonal-tesseract-gif-gif"
+    },
+    {
+      "bytes": 1437426,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-back-end-00-shared-tmp-tesseract-wikipedia-pdf.omilisp",
+      "relative_path": "dev-docs/back-end/00-shared/tmp/Tesseract - Wikipedia.pdf",
+      "sha256": "5f7ea51cc60a2d03e5d889df6f2a9fe51952e40a805f49b0237c10ef67187c71",
+      "sid": "omnicron-port.dev-docs-back-end-00-shared-tmp-tesseract-wikipedia-pdf"
+    },
+    {
+      "bytes": 110712,
+      "extension": ".txt",
+      "family": "document",
+      "output": "dev-docs-back-end-00-shared-tmp-tesseract-tetrahedron-shadow-matrices-svg-txt.omilisp",
+      "relative_path": "dev-docs/back-end/00-shared/tmp/Tesseract_tetrahedron_shadow_matrices.svg.txt",
+      "sha256": "2b9cae9817af1d4370111d987f46abe46111ff208715c5a47fef7df8fab39c2d",
+      "sid": "omnicron-port.dev-docs-back-end-00-shared-tmp-tesseract-tetrahedron-shadow-matrices-svg-txt"
+    },
+    {
+      "bytes": 176760,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-13-19-md.omilisp",
+      "relative_path": "dev-docs/back-end/00-shared/tmp/page-2026-04-23-15-13-19.md",
+      "sha256": "b2d8e146d85f7d2d3c55eb47fdbf81165d77123d459ef38841120982f7bbf45d",
+      "sid": "omnicron-port.dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-13-19-md"
+    },
+    {
+      "bytes": 120681,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-14-29-md.omilisp",
+      "relative_path": "dev-docs/back-end/00-shared/tmp/page-2026-04-23-15-14-29.md",
+      "sha256": "71d24db89f2843dc859137da62097a9e8d0bcf9813f2dcc33ff5624ef9dcdb6f",
+      "sid": "omnicron-port.dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-14-29-md"
+    },
+    {
+      "bytes": 164344,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-14-54-md.omilisp",
+      "relative_path": "dev-docs/back-end/00-shared/tmp/page-2026-04-23-15-14-54.md",
+      "sha256": "6085b51abc96055136276793bac5cba0b999cb1047a3f0c9a108583c76f45a31",
+      "sid": "omnicron-port.dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-14-54-md"
+    },
+    {
+      "bytes": 185225,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-15-09-md.omilisp",
+      "relative_path": "dev-docs/back-end/00-shared/tmp/page-2026-04-23-15-15-09.md",
+      "sha256": "47e3fe82f65b0a2192bc778d1a3d3701bef134e402d67c26c21836ccd54b0a12",
+      "sid": "omnicron-port.dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-15-09-md"
+    },
+    {
+      "bytes": 41617,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-16-03-md.omilisp",
+      "relative_path": "dev-docs/back-end/00-shared/tmp/page-2026-04-23-15-16-03.md",
+      "sha256": "3c4dee5952d387ba66606a619a6527f10c9f2574f8ec5ba120999afdd55929b5",
+      "sid": "omnicron-port.dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-16-03-md"
+    },
+    {
+      "bytes": 61511,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-16-30-md.omilisp",
+      "relative_path": "dev-docs/back-end/00-shared/tmp/page-2026-04-23-15-16-30.md",
+      "sha256": "82867a5a617508e88fc18a75cbb1fe48f9f03e0830e8803fd2f93606e66855e5",
+      "sid": "omnicron-port.dev-docs-back-end-00-shared-tmp-page-2026-04-23-15-16-30-md"
+    },
+    {
+      "bytes": 1200,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-01-physical-readme-md.omilisp",
+      "relative_path": "dev-docs/back-end/01-physical/README.md",
+      "sha256": "19a34a2dbad3e1716fa0c3892c0266521adae23b9fd4923081c3d8971be6574e",
+      "sid": "omnicron-port.dev-docs-back-end-01-physical-readme-md"
+    },
+    {
+      "bytes": 13527,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-01-physical-graphics-opengl-devices-md.omilisp",
+      "relative_path": "dev-docs/back-end/01-physical/graphics-opengl-devices.md",
+      "sha256": "bb61c1d53d95b79621e283c9ff90553571b138babe0b675f5926e6fd6a05a2bc",
+      "sid": "omnicron-port.dev-docs-back-end-01-physical-graphics-opengl-devices-md"
+    },
+    {
+      "bytes": 25505,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-01-physical-hw-features-security-md.omilisp",
+      "relative_path": "dev-docs/back-end/01-physical/hw-features-security.md",
+      "sha256": "b995fa767c0eaa0148e6e34ab4bff52513e86061893fa0cffd2bcbb9c427dfd8",
+      "sid": "omnicron-port.dev-docs-back-end-01-physical-hw-features-security-md"
+    },
+    {
+      "bytes": 2698,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-01-physical-qemu-execution-guide-md.omilisp",
+      "relative_path": "dev-docs/back-end/01-physical/qemu-execution-guide.md",
+      "sha256": "f5bdb20c2a4c6e8ca3defc55f075e6d781e7248a67931e6be353b7945a42923a",
+      "sid": "omnicron-port.dev-docs-back-end-01-physical-qemu-execution-guide-md"
+    },
+    {
+      "bytes": 18605,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-01-physical-risc-v-isa-md.omilisp",
+      "relative_path": "dev-docs/back-end/01-physical/risc-v-isa.md",
+      "sha256": "ff401cd225ad9d74129f133b270c034d964987255ba773bdfc4dbdd690611307",
+      "sid": "omnicron-port.dev-docs-back-end-01-physical-risc-v-isa-md"
+    },
+    {
+      "bytes": 19523,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-01-physical-rv128-scaling-md.omilisp",
+      "relative_path": "dev-docs/back-end/01-physical/rv128-scaling.md",
+      "sha256": "2a22cb69f18f55aecd85b60619febcce888f4d21b5cb99470656e153fd544809",
+      "sid": "omnicron-port.dev-docs-back-end-01-physical-rv128-scaling-md"
+    },
+    {
+      "bytes": 18681,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-01-physical-storage-block-devices-md.omilisp",
+      "relative_path": "dev-docs/back-end/01-physical/storage-block-devices.md",
+      "sha256": "1a024d9537b9e31637181de5055f242e49fa174b1ae490c96b171fa76a9e927a",
+      "sid": "omnicron-port.dev-docs-back-end-01-physical-storage-block-devices-md"
+    },
+    {
+      "bytes": 15057,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-01-physical-vnc-display-md.omilisp",
+      "relative_path": "dev-docs/back-end/01-physical/vnc-display.md",
+      "sha256": "414b52f6a6dba374fad3fec90fc98e6853a0fabb0a1e41cf4752524fc2bf2914",
+      "sid": "omnicron-port.dev-docs-back-end-01-physical-vnc-display-md"
+    },
+    {
+      "bytes": 4865,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-01-physical-xorshift-lfsr-md.omilisp",
+      "relative_path": "dev-docs/back-end/01-physical/xorshift-lfsr.md",
+      "sha256": "6fd1c770907e50cacbe39f2ad38e0578988f7b73067db28b6c2c156e042dfece",
+      "sid": "omnicron-port.dev-docs-back-end-01-physical-xorshift-lfsr-md"
+    },
+    {
+      "bytes": 359,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-02-datalink-readme-md.omilisp",
+      "relative_path": "dev-docs/back-end/02-datalink/README.md",
+      "sha256": "a34f172fa883da5fbf27a80bc9bf646ee0dcf1abf2546248dff8b7adfeda07ef",
+      "sid": "omnicron-port.dev-docs-back-end-02-datalink-readme-md"
+    },
+    {
+      "bytes": 256,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-03-network-readme-md.omilisp",
+      "relative_path": "dev-docs/back-end/03-network/README.md",
+      "sha256": "af3488e88f5aca22a76f443c0082ffe0404b72190093ba3b454fcbd090e19ecb",
+      "sid": "omnicron-port.dev-docs-back-end-03-network-readme-md"
+    },
+    {
+      "bytes": 235,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-04-transport-readme-md.omilisp",
+      "relative_path": "dev-docs/back-end/04-transport/README.md",
+      "sha256": "68999bbcd8860fc2c29143b98319358860d30c0e02ea40a0104ff09027a17a28",
+      "sid": "omnicron-port.dev-docs-back-end-04-transport-readme-md"
+    },
+    {
+      "bytes": 246,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-05-session-readme-md.omilisp",
+      "relative_path": "dev-docs/back-end/05-session/README.md",
+      "sha256": "9815c598a75e8ae64779ae49130ea3508cede476aef1d5465ffb3b0c8d8ad5dc",
+      "sid": "omnicron-port.dev-docs-back-end-05-session-readme-md"
+    },
+    {
+      "bytes": 1207,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-readme-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/README.md",
+      "sha256": "a0de497e75c5d1ec3222045e0e07f775cf36ae8da5bb8f2dffb37f4a037a8371",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-readme-md"
+    },
+    {
+      "bytes": 8216,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-geometry-first-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/geometry-first.md",
+      "sha256": "306fd1816849628443fb65f3884895dfed7f994f37380348523db6cf5cb8d306",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-geometry-first-md"
+    },
+    {
+      "bytes": 18846,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-how-it-connects-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/how-it-connects.md",
+      "sha256": "a55bf3fde731ed89b59dd02bfdd84220a0427b75ae4e53266239f7a0075071b8",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-how-it-connects-md"
+    },
+    {
+      "bytes": 5569,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-jit-tracing-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/jit-tracing.md",
+      "sha256": "b3d9b2a577d96e42ee37e7d447dc0f20956f8566eca378abec81bc4b61ef1891",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-jit-tracing-md"
+    },
+    {
+      "bytes": 1029,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-my-understanding-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/my-understanding.md",
+      "sha256": "2d0213b0a6cfab7c6beb6506fe3a53bffad48be9d3c1fa999c4d664d8b463159",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-my-understanding-md"
+    },
+    {
+      "bytes": 5829,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-octuple-precision-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/octuple-precision.md",
+      "sha256": "41f372f9dbaa9baa96e8f02f32a57882c23ea5613eee20ac48c43c99c8b7990c",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-octuple-precision-md"
+    },
+    {
+      "bytes": 1655,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-omi-lisp-definition-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/omi-lisp-definition.md",
+      "sha256": "1f8584863353c66b730f8288e6b52f34c5b9d020d03f9e1415bae097ef6cd28e",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-omi-lisp-definition-md"
+    },
+    {
+      "bytes": 863,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-osi-address-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/osi-address.md",
+      "sha256": "ebd20809419a3d548443e031772280ad14cf86c10e875367c6ebd8936b667d0f",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-osi-address-md"
+    },
+    {
+      "bytes": 8215,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-osi-model-why-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/osi-model-why.md",
+      "sha256": "2303eaea0d599887b2c81888fb7dab2884af58882b6a28f4071c5dcf35c67f38",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-osi-model-why-md"
+    },
+    {
+      "bytes": 1016,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-pre-header-ladder-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/pre-header-ladder.md",
+      "sha256": "798450f1d1642edd23e1d3ee01b8b663313db97b6d75cc6ed890a5d0a8a928de",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-pre-header-ladder-md"
+    },
+    {
+      "bytes": 13329,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-qemu-internals-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/qemu-internals.md",
+      "sha256": "8aa2ee945d7687a754b7cfb05b32a786ca5dd355ec3b0bdf4d0c6cc39f60b5a6",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-qemu-internals-md"
+    },
+    {
+      "bytes": 1688,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-rolling-pascal-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/rolling-pascal.md",
+      "sha256": "eb6eb8182fe8d807db6bc19bf1fe3ef367916e4ccc59d6d68907bd24b7cdee3d",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-rolling-pascal-md"
+    },
+    {
+      "bytes": 718,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-what-we-do-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/what-we-do.md",
+      "sha256": "93889a3ae4478b27d5a3a6e6883c124bac684758b36e60843a67d7452f1aebb9",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-what-we-do-md"
+    },
+    {
+      "bytes": 1118,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-whole-code-base-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/whole-code-base.md",
+      "sha256": "e7ba87ba4fffb14bd506643b0100cc3b6b1e053bdf9c95c73d23f6d754e70452",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-whole-code-base-md"
+    },
+    {
+      "bytes": 1340,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-06-presentation-whole-concept-md.omilisp",
+      "relative_path": "dev-docs/back-end/06-presentation/whole-concept.md",
+      "sha256": "fe8fcb9e8db9cb03beea471e402d1d2175b5790ca9d4fba6b767376c1f2a709f",
+      "sid": "omnicron-port.dev-docs-back-end-06-presentation-whole-concept-md"
+    },
+    {
+      "bytes": 193,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-07-application-readme-md.omilisp",
+      "relative_path": "dev-docs/back-end/07-application/README.md",
+      "sha256": "53e92dc2de5da7eb06677fd350adfb7aff41c1e9673934fa2328f2718ffda3a7",
+      "sid": "omnicron-port.dev-docs-back-end-07-application-readme-md"
+    },
+    {
+      "bytes": 1672,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-99-build-readme-md.omilisp",
+      "relative_path": "dev-docs/back-end/99-build/README.md",
+      "sha256": "afc9f34ddb7f66dfb5b9a8818ebe97d37a6c36f156bd41aa854646495491af45",
+      "sid": "omnicron-port.dev-docs-back-end-99-build-readme-md"
+    },
+    {
+      "bytes": 2878,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-99-build-atom-electron-qemu-md.omilisp",
+      "relative_path": "dev-docs/back-end/99-build/atom-electron-qemu.md",
+      "sha256": "9ad01853171c6b82e081cd0f0c20c4db5f221f90c4a7be574466cba0d5ea5b24",
+      "sid": "omnicron-port.dev-docs-back-end-99-build-atom-electron-qemu-md"
+    },
+    {
+      "bytes": 6969,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-99-build-bootable-runtime-md.omilisp",
+      "relative_path": "dev-docs/back-end/99-build/bootable-runtime.md",
+      "sha256": "f64da137e2e43aa2bd24bb15856fe3f16e15e718abf9aeff127e9b2cd59a3572",
+      "sid": "omnicron-port.dev-docs-back-end-99-build-bootable-runtime-md"
+    },
+    {
+      "bytes": 3937,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-99-build-decentralized-remote-workflow-md.omilisp",
+      "relative_path": "dev-docs/back-end/99-build/decentralized-remote-workflow.md",
+      "sha256": "af082afac0907de3fced4ef36ec8a3465a27a6db8d3c77e0367e464de039c25f",
+      "sid": "omnicron-port.dev-docs-back-end-99-build-decentralized-remote-workflow-md"
+    },
+    {
+      "bytes": 2350,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-99-build-declarative-build-md.omilisp",
+      "relative_path": "dev-docs/back-end/99-build/declarative-build.md",
+      "sha256": "e6a07c12d260edbb0ef92057e4ba5257d851aaeab8940fdc22716385d88a00e5",
+      "sid": "omnicron-port.dev-docs-back-end-99-build-declarative-build-md"
+    },
+    {
+      "bytes": 11775,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-99-build-gdb-usage-md.omilisp",
+      "relative_path": "dev-docs/back-end/99-build/gdb-usage.md",
+      "sha256": "ee3eea9b913bb024dfd1ef803b60e28ede6d47d5ab955717e9a9ac3e4d612b4f",
+      "sid": "omnicron-port.dev-docs-back-end-99-build-gdb-usage-md"
+    },
+    {
+      "bytes": 2705,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-99-build-guix-declarative-dev-environment-md.omilisp",
+      "relative_path": "dev-docs/back-end/99-build/guix-declarative-dev-environment.md",
+      "sha256": "a2b7655937c49d1aad2744912cd21a3c866d8a5c703a8d30f31e5c3929601fd8",
+      "sid": "omnicron-port.dev-docs-back-end-99-build-guix-declarative-dev-environment-md"
+    },
+    {
+      "bytes": 39,
+      "extension": ".txt",
+      "family": "document",
+      "output": "dev-docs-back-end-99-build-mixedbase-stream-sample-txt.omilisp",
+      "relative_path": "dev-docs/back-end/99-build/mixedbase_stream_sample.txt",
+      "sha256": "bfa3a80d702d3a792203a8aa4937595771bfa76a9de65fc19d8bc68ee4501ac9",
+      "sid": "omnicron-port.dev-docs-back-end-99-build-mixedbase-stream-sample-txt"
+    },
+    {
+      "bytes": 4899,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-99-build-qemu-remote-build-md.omilisp",
+      "relative_path": "dev-docs/back-end/99-build/qemu-remote-build.md",
+      "sha256": "7b68b5dec119c5e75577f2f1ae64b72dfe2ee8448cf9cd2920855521707d46ef",
+      "sid": "omnicron-port.dev-docs-back-end-99-build-qemu-remote-build-md"
+    },
+    {
+      "bytes": 19412,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-99-build-qmp-storage-daemon-md.omilisp",
+      "relative_path": "dev-docs/back-end/99-build/qmp-storage-daemon.md",
+      "sha256": "ff1a86aa88050f2b99f292ad68a7b83059e1f2d12d990b6d3ffd61f1c45310b1",
+      "sid": "omnicron-port.dev-docs-back-end-99-build-qmp-storage-daemon-md"
+    },
+    {
+      "bytes": 1179,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-index-md.omilisp",
+      "relative_path": "dev-docs/back-end/INDEX.md",
+      "sha256": "3ec813b305eb268d95d891bce57e792c7ab720ed8bb44adaa079d7cee5f70995",
+      "sid": "omnicron-port.dev-docs-back-end-index-md"
+    },
+    {
+      "bytes": 1252,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-back-end-readme-md.omilisp",
+      "relative_path": "dev-docs/back-end/README.md",
+      "sha256": "c9768bc1a4772cbe9e3bf6b64f8a1813c61d5a89a97b98c86991429ab8ffbede",
+      "sid": "omnicron-port.dev-docs-back-end-readme-md"
+    },
+    {
+      "bytes": 6530,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-index-md.omilisp",
+      "relative_path": "dev-docs/front-end/INDEX.md",
+      "sha256": "d7e5c4bb4c11aa5f2eba9206160b9cf2e780e434aaf804e267fc4e35f68758ff",
+      "sid": "omnicron-port.dev-docs-front-end-index-md"
+    },
+    {
+      "bytes": 728,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-readme-md.omilisp",
+      "relative_path": "dev-docs/front-end/README.md",
+      "sha256": "0d3b95047647c790e6c6bec593a0f383cf34d120c6c1d527a76bd93a05aad5f4",
+      "sid": "omnicron-port.dev-docs-front-end-readme-md"
+    },
+    {
+      "bytes": 906233,
+      "extension": ".gif",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-01-angle-trisection-animation-gif.omilisp",
+      "relative_path": "dev-docs/front-end/archive/01-Angle_trisection-Animation.gif",
+      "sha256": "1021a7d6bb8535413068058078056cb4fb8b3570889ccfba26f8bb91c35b7650",
+      "sid": "omnicron-port.dev-docs-front-end-archive-01-angle-trisection-animation-gif"
+    },
+    {
+      "bytes": 1147200,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-aztec-us5591956a-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Aztec.US5591956A.pdf",
+      "sha256": "f6e3535eb9d0fcb4e3faf9f7c6571365132f786b407d6436fe3a1cea01a26b59",
+      "sid": "omnicron-port.dev-docs-front-end-archive-aztec-us5591956a-pdf"
+    },
+    {
+      "bytes": 3101726,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-beetag-pone-0136487-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/BeeTag.pone.0136487.pdf",
+      "sha256": "619f512f5aed9982fc6bcf447d2adf63b04cfc21301308d317d4fd7c626ff5df",
+      "sid": "omnicron-port.dev-docs-front-end-archive-beetag-pone-0136487-pdf"
+    },
+    {
+      "bytes": 757,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-distances-between-double-cube-corners-svg.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Distances_between_double_cube_corners.svg",
+      "sha256": "ecc448686dc01fe2b62bad5976b9303154ce938525ab91156ed442a99396a4aa",
+      "sid": "omnicron-port.dev-docs-front-end-archive-distances-between-double-cube-corners-svg"
+    },
+    {
+      "bytes": 102763,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-archive-engineering-notation-machine-epsilon-of-deterministic-machine-precision-md.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Engineering Notation - Machine Epsilon of Deterministic Machine Precision.md",
+      "sha256": "920dae8d7872c846c879a79b9f981fca5a19584f609eae5a44f0427b36b1a798",
+      "sid": "omnicron-port.dev-docs-front-end-archive-engineering-notation-machine-epsilon-of-deterministic-machine-precision-md"
+    },
+    {
+      "bytes": 716747,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-engineering-notation-machine-epsilon-of-deterministic-machine-precision-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Engineering Notation - Machine Epsilon of Deterministic Machine Precision.pdf",
+      "sha256": "bf3556861457223453cdc495b821de8abcae5c12070e226c23c15a6c66513fc4",
+      "sid": "omnicron-port.dev-docs-front-end-archive-engineering-notation-machine-epsilon-of-deterministic-machine-precision-pdf"
+    },
+    {
+      "bytes": 36020,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-four-bit-adder-with-carry-lookahead-svg.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Four_bit_adder_with_carry_lookahead.svg",
+      "sha256": "27b8c8343f923e215204544cd2896b8bc4cc88df736217c1da03fb42dbffea89",
+      "sid": "omnicron-port.dev-docs-front-end-archive-four-bit-adder-with-carry-lookahead-svg"
+    },
+    {
+      "bytes": 4167777,
+      "extension": ".gif",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-hexastix-geometric-arrangment-gif.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Hexastix_Geometric_Arrangment.gif",
+      "sha256": "7d22faf6c411079c67d20cd63f3beb226fe57d0b7cbc9acbb32078a5b8063dd3",
+      "sid": "omnicron-port.dev-docs-front-end-archive-hexastix-geometric-arrangment-gif"
+    },
+    {
+      "bytes": 7259,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-karnaugh-map-torus-svg.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Karnaugh_map_torus.svg",
+      "sha256": "35eb5dcfd35e9a9dfa4ce44d0fa00b3ae8feb802712294f9dc86f8c89066074c",
+      "sid": "omnicron-port.dev-docs-front-end-archive-karnaugh-map-torus-svg"
+    },
+    {
+      "bytes": 840205,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-logic-gate-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Logic gate.pdf",
+      "sha256": "99fd35f80734f45e408a8aff4ac98927b26089855f1c6afc2d943dd09f48b701",
+      "sid": "omnicron-port.dev-docs-front-end-archive-logic-gate-pdf"
+    },
+    {
+      "bytes": 4293713,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-maxicode-us4998010-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/MaxiCode.US4998010.pdf",
+      "sha256": "07259f18c016e1f3b2d011db9260de09488281284aba85e9c17b22818a7e76b9",
+      "sid": "omnicron-port.dev-docs-front-end-archive-maxicode-us4998010-pdf"
+    },
+    {
+      "bytes": 82111,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-archive-metalogic-programming-autoepistemic-logic-md.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Metalogic programming ~ Autoepistemic logic.md",
+      "sha256": "470cdf19c29bf7752b71aaa61df227f4117a4a9fe2d5328df3d147fe6aa71f9e",
+      "sid": "omnicron-port.dev-docs-front-end-archive-metalogic-programming-autoepistemic-logic-md"
+    },
+    {
+      "bytes": 113154,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-normalized-write-up-a-canonical-computational-substrate-using-geometry-mapping-theory-analog-computation-networks-and-resource-hierarchies-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Normalized Write-Up - A Canonical Computational Substrate -- Using Geometry, Mapping Theory, Analog Computation, Networks, and Resource Hierarchies.pdf",
+      "sha256": "8c0eb93b2b9610252c8fbed9376176590b2d6e2c124cbe9ca425811c3676076d",
+      "sid": "omnicron-port.dev-docs-front-end-archive-normalized-write-up-a-canonical-computational-substrate-using-geometry-mapping-theory-analog-computation-networks-and-resource-hierarchies-pdf"
+    },
+    {
+      "bytes": 1256120,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-octacube-and-hypercube-unfoldings-polyforms-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Octacube and Hypercube Unfoldings - Polyforms.pdf",
+      "sha256": "10d2b9012c0ac7703e146d91dce608a0c4f4aef96609c075b57a7836a170b623",
+      "sid": "omnicron-port.dev-docs-front-end-archive-octacube-and-hypercube-unfoldings-polyforms-pdf"
+    },
+    {
+      "bytes": 420291,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-point-inversion-or-central-inversion-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Point inversion or Central inversion.pdf",
+      "sha256": "5bf5ed607f592fbb7dc6c3ec99bb082259de67e97626c9f6235a658fda2cf503",
+      "sid": "omnicron-port.dev-docs-front-end-archive-point-inversion-or-central-inversion-pdf"
+    },
+    {
+      "bytes": 160018,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-polyforms-as-pure-functional-continuation-bricks-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Polyforms as Pure Functional Continuation Bricks.pdf",
+      "sha256": "40229327c1158a60ed4ffe2dec20927ab3e76cd8bdaa25b0761bbdcd5811e9fc",
+      "sid": "omnicron-port.dev-docs-front-end-archive-polyforms-as-pure-functional-continuation-bricks-pdf"
+    },
+    {
+      "bytes": 55059,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-qpbo-svg.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Qpbo.svg",
+      "sha256": "5a5ca03cfad653f035c1a21bbc2f66a486fc85863114da00ca203f2348de2335",
+      "sid": "omnicron-port.dev-docs-front-end-archive-qpbo-svg"
+    },
+    {
+      "bytes": 5981551,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-regular-skew-apeirohedron-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Regular skew apeirohedron.pdf",
+      "sha256": "a01451abed8d6c6c7337dce31ac5e6efd8b9cd229df462c465cb474942fd4c32",
+      "sid": "omnicron-port.dev-docs-front-end-archive-regular-skew-apeirohedron-pdf"
+    },
+    {
+      "bytes": 17317,
+      "extension": ".PNG",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-slope-of-log-log-plot-png.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Slope_of_log-log_plot.PNG",
+      "sha256": "762ebb32aa7680fb20594ca6250d624cc6d7278979aa2418d98bba8a1acba302",
+      "sid": "omnicron-port.dev-docs-front-end-archive-slope-of-log-log-plot-png"
+    },
+    {
+      "bytes": 3894100,
+      "extension": ".gif",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-tetrastix-gif.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Tetrastix.gif",
+      "sha256": "eb13fb93b4ce9663a0a4c12aad6181e63a9b4e34b6b0055859dd7b53e2598144",
+      "sid": "omnicron-port.dev-docs-front-end-archive-tetrastix-gif"
+    },
+    {
+      "bytes": 229629,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-the-aztec-slide-rule-a-complete-polyform-library-specification-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/The Aztec Slide Rule - A Complete Polyform Library Specification.pdf",
+      "sha256": "748d8d8c21a1f747240e7b22068cab82047894cdc62c5e3e0d7e596b12f06afe",
+      "sid": "omnicron-port.dev-docs-front-end-archive-the-aztec-slide-rule-a-complete-polyform-library-specification-pdf"
+    },
+    {
+      "bytes": 170301,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-the-complete-polyform-build-test-environment-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/The Complete Polyform Build & Test Environment.pdf",
+      "sha256": "2bc6852310b6904abdfcf64ada6279042803b33e502866aa26de94037192f15a",
+      "sid": "omnicron-port.dev-docs-front-end-archive-the-complete-polyform-build-test-environment-pdf"
+    },
+    {
+      "bytes": 1333384,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-uss-16k-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/USS-16K.pdf",
+      "sha256": "c117ccebcb3ac62d3392e841d8d0383fdfd6c6ed913443ce3f4332c8a86bc372",
+      "sid": "omnicron-port.dev-docs-front-end-archive-uss-16k-pdf"
+    },
+    {
+      "bytes": 1226606,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-untitled-5-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Untitled 5.pdf",
+      "sha256": "54e3047b32b2050fd94a1bf87caa617c1dc0e5e9f3eb71c68652cc4258e9efcc",
+      "sid": "omnicron-port.dev-docs-front-end-archive-untitled-5-pdf"
+    },
+    {
+      "bytes": 535156,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-untitled-6-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Untitled 6.pdf",
+      "sha256": "3c5be5d2b81c2f6f622e07c907c4805d3d10360c95ad45b0697f2fd72d9f798b",
+      "sid": "omnicron-port.dev-docs-front-end-archive-untitled-6-pdf"
+    },
+    {
+      "bytes": 1452659,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-archive-untitled-7-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/archive/Untitled 7.pdf",
+      "sha256": "10e915c9adb6611c9af65adf9e8e3fb9209d28b2e2bb7add388811c18ddcf864",
+      "sid": "omnicron-port.dev-docs-front-end-archive-untitled-7-pdf"
+    },
+    {
+      "bytes": 1147200,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-barcodes-aztec-us5591956a-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/barcodes/Aztec.US5591956A.pdf",
+      "sha256": "f6e3535eb9d0fcb4e3faf9f7c6571365132f786b407d6436fe3a1cea01a26b59",
+      "sid": "omnicron-port.dev-docs-front-end-barcodes-aztec-us5591956a-pdf"
+    },
+    {
+      "bytes": 85184,
+      "extension": ".txt",
+      "family": "document",
+      "output": "dev-docs-front-end-barcodes-barcode-trinity-txt.omilisp",
+      "relative_path": "dev-docs/front-end/barcodes/Barcode Trinity.txt",
+      "sha256": "4de4f665756ec6587004f2bf257634e1fb2309b8c23247112faf1a8fbf0c2b55",
+      "sid": "omnicron-port.dev-docs-front-end-barcodes-barcode-trinity-txt"
+    },
+    {
+      "bytes": 3101726,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-barcodes-beetag-pone-0136487-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/barcodes/BeeTag.pone.0136487.pdf",
+      "sha256": "619f512f5aed9982fc6bcf447d2adf63b04cfc21301308d317d4fd7c626ff5df",
+      "sid": "omnicron-port.dev-docs-front-end-barcodes-beetag-pone-0136487-pdf"
+    },
+    {
+      "bytes": 4293713,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-barcodes-maxicode-us4998010-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/barcodes/MaxiCode.US4998010.pdf",
+      "sha256": "07259f18c016e1f3b2d011db9260de09488281284aba85e9c17b22818a7e76b9",
+      "sid": "omnicron-port.dev-docs-front-end-barcodes-maxicode-us4998010-pdf"
+    },
+    {
+      "bytes": 34061,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-barcodes-the-aztec-slide-rule-a-complete-polyform-library-specification-md.omilisp",
+      "relative_path": "dev-docs/front-end/barcodes/The Aztec Slide Rule - A Complete Polyform Library Specification.md",
+      "sha256": "ce5473e4e9217be37d757dc6903c7849c0c3813a25a30f0db725b2fea064905c",
+      "sid": "omnicron-port.dev-docs-front-end-barcodes-the-aztec-slide-rule-a-complete-polyform-library-specification-md"
+    },
+    {
+      "bytes": 1333384,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-barcodes-uss-16k-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/barcodes/USS-16K.pdf",
+      "sha256": "c117ccebcb3ac62d3392e841d8d0383fdfd6c6ed913443ce3f4332c8a86bc372",
+      "sid": "omnicron-port.dev-docs-front-end-barcodes-uss-16k-pdf"
+    },
+    {
+      "bytes": 324709,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "dev-docs-front-end-hardware-01-dreiteilung-des-winkels-60-svg.omilisp",
+      "relative_path": "dev-docs/front-end/hardware/01-_Dreiteilung_des_Winkels_60\u00b0.svg",
+      "sha256": "5a8a2023ad14c58354c875721a49e7a3421b1cd8a98a7c7f3539080139b6d4b9",
+      "sid": "omnicron-port.dev-docs-front-end-hardware-01-dreiteilung-des-winkels-60-svg"
+    },
+    {
+      "bytes": 97181,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "dev-docs-front-end-hardware-genaille-division-rods-svg.omilisp",
+      "relative_path": "dev-docs/front-end/hardware/Genaille_division_rods.svg",
+      "sha256": "30463fd4d0dd66f416e993d083a709cc22af8c9bd27eedb0c391681437f13381",
+      "sid": "omnicron-port.dev-docs-front-end-hardware-genaille-division-rods-svg"
+    },
+    {
+      "bytes": 288887,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-hardware-growth-pattern-or-cycling-of-omicron-as-gnomon-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/hardware/Growth Pattern, or cycling of Omicron as Gnomon.pdf",
+      "sha256": "6d61a7b333f9e1e3ac6f9c072c33fc501d4702518bb485193309038713ca28e1",
+      "sid": "omnicron-port.dev-docs-front-end-hardware-growth-pattern-or-cycling-of-omicron-as-gnomon-pdf"
+    },
+    {
+      "bytes": 555890,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "dev-docs-front-end-hardware-smith-chart-gen-1-svg.omilisp",
+      "relative_path": "dev-docs/front-end/hardware/Smith_chart_gen (1).svg",
+      "sha256": "3cb1f492beb5f4664a3c24995e9f2a68658c3058a7be69e175bbc3566d099156",
+      "sid": "omnicron-port.dev-docs-front-end-hardware-smith-chart-gen-1-svg"
+    },
+    {
+      "bytes": 1021610,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-hardware-riscv-spec-20191213-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/hardware/riscv-spec-20191213.pdf",
+      "sha256": "f392624cc815cd3f259413cbd9ae2f38678ee930878855a0f4673019410d7554",
+      "sid": "omnicron-port.dev-docs-front-end-hardware-riscv-spec-20191213-pdf"
+    },
+    {
+      "bytes": 16849,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-logic-geometric-encoding-for-the-4-channel-control-surface-md.omilisp",
+      "relative_path": "dev-docs/front-end/logic/Geometric encoding for the 4-channel control surface.md",
+      "sha256": "718ca51b6e96d64bc44a222f004298c2f3b963693652997e619c22fbe34f3e0c",
+      "sid": "omnicron-port.dev-docs-front-end-logic-geometric-encoding-for-the-4-channel-control-surface-md"
+    },
+    {
+      "bytes": 117562,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-logic-logic-gate-md.omilisp",
+      "relative_path": "dev-docs/front-end/logic/Logic gate.md",
+      "sha256": "94f6349d7d38106c44f43026d73f8f1826447f1febdd11fb8fb83a035b260bbe",
+      "sid": "omnicron-port.dev-docs-front-end-logic-logic-gate-md"
+    },
+    {
+      "bytes": 77045,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-logic-page-2026-04-19-23-23-28-md.omilisp",
+      "relative_path": "dev-docs/front-end/logic/page-2026-04-19-23-23-28.md",
+      "sha256": "dc7db6aa3a5217662b1244ea3c56be4cda8badc3c6be24d1ff3f81fb3ee7addb",
+      "sid": "omnicron-port.dev-docs-front-end-logic-page-2026-04-19-23-23-28-md"
+    },
+    {
+      "bytes": 63522,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-logic-page-2026-04-19-23-25-54-md.omilisp",
+      "relative_path": "dev-docs/front-end/logic/page-2026-04-19-23-25-54.md",
+      "sha256": "0a149038310024c83829ae84e3aa6d6de2d3f33e14df1328ea41b4b6ac941e11",
+      "sid": "omnicron-port.dev-docs-front-end-logic-page-2026-04-19-23-25-54-md"
+    },
+    {
+      "bytes": 1091439,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-math-classification-of-clifford-algebras-wikipedia-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/math/Classification of Clifford algebras - Wikipedia.pdf",
+      "sha256": "fc1e2c83572a6a67a56875290b88a149771bd096d097b1149234b9a767b5d547",
+      "sid": "omnicron-port.dev-docs-front-end-math-classification-of-clifford-algebras-wikipedia-pdf"
+    },
+    {
+      "bytes": 7966,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "dev-docs-front-end-math-hdtv-aspect-ratio-derivation-svg.omilisp",
+      "relative_path": "dev-docs/front-end/math/HDTV_aspect_ratio_derivation.svg",
+      "sha256": "f75c76d549e4454d4c4cb09ba35b5c244d8ffd00066c29f7638977aaddcd7789",
+      "sid": "omnicron-port.dev-docs-front-end-math-hdtv-aspect-ratio-derivation-svg"
+    },
+    {
+      "bytes": 64185,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-math-point-inversion-or-central-inversion-md.omilisp",
+      "relative_path": "dev-docs/front-end/math/Point inversion or Central inversion.md",
+      "sha256": "11d6fcc57aa673ba33963150e9af099c79787476591743aebb421a3f0fd374d6",
+      "sid": "omnicron-port.dev-docs-front-end-math-point-inversion-or-central-inversion-md"
+    },
+    {
+      "bytes": 342204,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-math-regular-skew-apeirohedron-md.omilisp",
+      "relative_path": "dev-docs/front-end/math/Regular skew apeirohedron.md",
+      "sha256": "0934f9402f0320ce1db9296c2be1e013e06eec3495b8f6912287ca8398d21ab9",
+      "sid": "omnicron-port.dev-docs-front-end-math-regular-skew-apeirohedron-md"
+    },
+    {
+      "bytes": 860163,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-math-truth-table-wikipedia-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/math/Truth table - Wikipedia.pdf",
+      "sha256": "5d696a604c1024b0b82ad15f3ad85d3a7961c3422d96bd81f70af1100203ab2e",
+      "sid": "omnicron-port.dev-docs-front-end-math-truth-table-wikipedia-pdf"
+    },
+    {
+      "bytes": 378104,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-math-decimal64-floating-point-format-wikipedia-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/math/decimal64 floating-point format - Wikipedia.pdf",
+      "sha256": "bc275078997d6d75750d3f82007cb2c46afba0b228fc03e47bef0b8d44a2a9a3",
+      "sid": "omnicron-port.dev-docs-front-end-math-decimal64-floating-point-format-wikipedia-pdf"
+    },
+    {
+      "bytes": 36020,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "dev-docs-front-end-polyforms-four-bit-adder-with-carry-lookahead-svg.omilisp",
+      "relative_path": "dev-docs/front-end/polyforms/Four_bit_adder_with_carry_lookahead.svg",
+      "sha256": "27b8c8343f923e215204544cd2896b8bc4cc88df736217c1da03fb42dbffea89",
+      "sid": "omnicron-port.dev-docs-front-end-polyforms-four-bit-adder-with-carry-lookahead-svg"
+    },
+    {
+      "bytes": 7259,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "dev-docs-front-end-polyforms-karnaugh-map-torus-svg.omilisp",
+      "relative_path": "dev-docs/front-end/polyforms/Karnaugh_map_torus.svg",
+      "sha256": "35eb5dcfd35e9a9dfa4ce44d0fa00b3ae8feb802712294f9dc86f8c89066074c",
+      "sid": "omnicron-port.dev-docs-front-end-polyforms-karnaugh-map-torus-svg"
+    },
+    {
+      "bytes": 83140,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-polyforms-octacube-and-hypercube-unfoldings-polyforms-md.omilisp",
+      "relative_path": "dev-docs/front-end/polyforms/Octacube and Hypercube Unfoldings - Polyforms.md",
+      "sha256": "72313032876e3ddc12153042a17d6eee704605cb3bf0868256d554d3090af7ab",
+      "sid": "omnicron-port.dev-docs-front-end-polyforms-octacube-and-hypercube-unfoldings-polyforms-md"
+    },
+    {
+      "bytes": 1256120,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-front-end-polyforms-octacube-and-hypercube-unfoldings-polyforms-pdf.omilisp",
+      "relative_path": "dev-docs/front-end/polyforms/Octacube and Hypercube Unfoldings - Polyforms.pdf",
+      "sha256": "10d2b9012c0ac7703e146d91dce608a0c4f4aef96609c075b57a7836a170b623",
+      "sid": "omnicron-port.dev-docs-front-end-polyforms-octacube-and-hypercube-unfoldings-polyforms-pdf"
+    },
+    {
+      "bytes": 7374,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-polyforms-omicron-gnomon-computational-instrument-md.omilisp",
+      "relative_path": "dev-docs/front-end/polyforms/Omicron-Gnomon Computational Instrument.md",
+      "sha256": "3cc0e4a4b84ecb3ab3bf68c45d8c5140cb422f4db8c34baccb71c0d8f03efd38",
+      "sid": "omnicron-port.dev-docs-front-end-polyforms-omicron-gnomon-computational-instrument-md"
+    },
+    {
+      "bytes": 75027,
+      "extension": ".txt",
+      "family": "document",
+      "output": "dev-docs-front-end-polyforms-polyform-planning-txt.omilisp",
+      "relative_path": "dev-docs/front-end/polyforms/Polyform planning.txt",
+      "sha256": "554e2a8cf3aaec69690593edfb1eaba63e34802b5c02fa12577286fb9ab79032",
+      "sid": "omnicron-port.dev-docs-front-end-polyforms-polyform-planning-txt"
+    },
+    {
+      "bytes": 15061,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-polyforms-polyforms-as-pure-functional-continuation-bricks-md.omilisp",
+      "relative_path": "dev-docs/front-end/polyforms/Polyforms as Pure Functional Continuation Bricks.md",
+      "sha256": "748f8384f59fb037d705dceba4668b4bc0b30dfd29d97ac299df271d0f9ef8ca",
+      "sid": "omnicron-port.dev-docs-front-end-polyforms-polyforms-as-pure-functional-continuation-bricks-md"
+    },
+    {
+      "bytes": 50635,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-polyforms-the-complete-polyform-build-test-environment-md.omilisp",
+      "relative_path": "dev-docs/front-end/polyforms/The Complete Polyform Build & Test Environment.md",
+      "sha256": "1edddb06b4cf4c6658f637f661646e19ff54ed6daebd3babf072185cbcfaf096",
+      "sid": "omnicron-port.dev-docs-front-end-polyforms-the-complete-polyform-build-test-environment-md"
+    },
+    {
+      "bytes": 2566,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-logic-artifact-contract-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/logic/ARTIFACT_CONTRACT.md",
+      "sha256": "f1d002a5337f3b72142c26fc580da353ab77ec09ef1d15df96f1a841842295a8",
+      "sid": "omnicron-port.dev-docs-front-end-reference-logic-artifact-contract-md"
+    },
+    {
+      "bytes": 12763,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-logic-ontology-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/logic/ONTOLOGY.md",
+      "sha256": "ea3958727016847258dd0ea84136a8a3975662bf00403a070bc108848e7689da",
+      "sid": "omnicron-port.dev-docs-front-end-reference-logic-ontology-md"
+    },
+    {
+      "bytes": 1092,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-polyform-bridge-change-policy-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/polyform/BRIDGE_CHANGE_POLICY.md",
+      "sha256": "bb1c127f616b6824ed75919e29b91ccf9bba3ec9b0499feb89ac99c10dda7323",
+      "sid": "omnicron-port.dev-docs-front-end-reference-polyform-bridge-change-policy-md"
+    },
+    {
+      "bytes": 3402,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-polyform-bridge-contract-v0-1-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/polyform/BRIDGE_CONTRACT_v0_1.md",
+      "sha256": "1d8db641e81b886f38c0f7573299993f4a8a4f04f78369c8800a96e7eb87b8dd",
+      "sid": "omnicron-port.dev-docs-front-end-reference-polyform-bridge-contract-v0-1-md"
+    },
+    {
+      "bytes": 26072,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-polyform-cl-org-mode-a-parser-of-org-mode-outlines-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/polyform/CL-ORG-MODE - A Parser of org-mode outlines.md",
+      "sha256": "00b637b0b8a4697fc7067aed1d7bb3e6208dd4e9d44a9dc23d249fc061f632c2",
+      "sid": "omnicron-port.dev-docs-front-end-reference-polyform-cl-org-mode-a-parser-of-org-mode-outlines-md"
+    },
+    {
+      "bytes": 9176,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-polyform-org-bridge-schema-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/polyform/ORG_BRIDGE_SCHEMA.md",
+      "sha256": "b336d188f8d705b9ee6312181d748b3aa6e0305686572c49b89e6ad5cdff8fdb",
+      "sid": "omnicron-port.dev-docs-front-end-reference-polyform-org-bridge-schema-md"
+    },
+    {
+      "bytes": 2035,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-polyform-readme-bitboards-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/polyform/README.bitboards.md",
+      "sha256": "99418ee9b04df423b7de3294a2c361a28fce332e1ce1344f57b0e3dd26cb7eaf",
+      "sid": "omnicron-port.dev-docs-front-end-reference-polyform-readme-bitboards-md"
+    },
+    {
+      "bytes": 12478,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-polyform-readme-org-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/polyform/README.org.md",
+      "sha256": "38213fd0c94a23251614aac9ce265385898011210644e66b4f7cac6f99463ccd",
+      "sid": "omnicron-port.dev-docs-front-end-reference-polyform-readme-org-md"
+    },
+    {
+      "bytes": 475,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-polyform-readme-patterns-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/polyform/README.patterns.md",
+      "sha256": "8129d1d9ed1e3e7f30f0b4bfce44d0949232b4bad38ebf587b68e99dc3593ec4",
+      "sid": "omnicron-port.dev-docs-front-end-reference-polyform-readme-patterns-md"
+    },
+    {
+      "bytes": 1240,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-polyform-readme-polyform-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/polyform/README.polyform.md",
+      "sha256": "39ce6af9333ae2d4fd109c9dbee084841d0b2e79e264e155fb8733973e7b9da6",
+      "sid": "omnicron-port.dev-docs-front-end-reference-polyform-readme-polyform-md"
+    },
+    {
+      "bytes": 1395,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-riscv-atomic-kernel-spec-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/riscv/ATOMIC_KERNEL_SPEC.md",
+      "sha256": "01f3f08a79f1fbf6e02913d6fa209fed4d5e24cce276a084102e27fcb165bd6e",
+      "sid": "omnicron-port.dev-docs-front-end-reference-riscv-atomic-kernel-spec-md"
+    },
+    {
+      "bytes": 2141,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-riscv-readme-riscv-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/riscv/README.riscv.md",
+      "sha256": "8d980d375c790007cb11f65b73a5e0295d81f43b5f71d68c52c34085f90e8d87",
+      "sid": "omnicron-port.dev-docs-front-end-reference-riscv-readme-riscv-md"
+    },
+    {
+      "bytes": 9163,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-root-ascii-constitutional-machine-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/root/ASCII_CONSTITUTIONAL_MACHINE.md",
+      "sha256": "1a3a218e9da92f90c8bb4dd1aabf6bc1b8311b8e6b82a6bbd03601574da50820",
+      "sid": "omnicron-port.dev-docs-front-end-reference-root-ascii-constitutional-machine-md"
+    },
+    {
+      "bytes": 3429,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-root-constitution-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/root/CONSTITUTION.md",
+      "sha256": "2aa752aaee9d9c0c030e639bfa33a450dc9602f4ea1814c65929b17bc80e6191",
+      "sid": "omnicron-port.dev-docs-front-end-reference-root-constitution-md"
+    },
+    {
+      "bytes": 3981,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-root-readme-repo-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/root/README.repo.md",
+      "sha256": "879c140bc762602a02ad7262c82e32c0ae0274c5f1cd42d379166bed4d675509",
+      "sid": "omnicron-port.dev-docs-front-end-reference-root-readme-repo-md"
+    },
+    {
+      "bytes": 8008,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-front-end-reference-root-the-universal-logic-page-md.omilisp",
+      "relative_path": "dev-docs/front-end/reference/root/The Universal Logic Page.md",
+      "sha256": "ad664c6149cbfb2dfd62eded33e772d19a03179313be148e2d3f41789cb48f0c",
+      "sid": "omnicron-port.dev-docs-front-end-reference-root-the-universal-logic-page-md"
+    },
+    {
+      "bytes": 2076,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "dev-docs-front-end-verify-doc-layout-mjs.omilisp",
+      "relative_path": "dev-docs/front-end/verify_doc_layout.mjs",
+      "sha256": "61e241ebd4001dede8bf0c901f4a59c4f2ab5b1c6ba42d08a9f769a6bb68c662",
+      "sid": "omnicron-port.dev-docs-front-end-verify-doc-layout-mjs"
+    },
+    {
+      "bytes": 2133,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "dev-docs-verify-doc-layout-mjs.omilisp",
+      "relative_path": "dev-docs/verify_doc_layout.mjs",
+      "sha256": "ea62568468d59b22a87ebe9c017ce347850a9b10f625f12c61ff591205252d60",
+      "sid": "omnicron-port.dev-docs-verify-doc-layout-mjs"
+    },
+    {
+      "bytes": 1040,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-index-md.omilisp",
+      "relative_path": "docs/INDEX.md",
+      "sha256": "c31686a10c57acc3959691c72f352a36475dc15a9563dacf8cc28f92bc8fef22",
+      "sid": "omnicron-port.docs-index-md"
+    },
+    {
+      "bytes": 609,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-readme-md.omilisp",
+      "relative_path": "docs/README.md",
+      "sha256": "9763d54cd511c119285c5efea1ee421196070b91cf4a05e29afb98c8e4c29921",
+      "sid": "omnicron-port.docs-readme-md"
+    },
+    {
+      "bytes": 2566,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-logic-artifact-contract-md.omilisp",
+      "relative_path": "docs/reference/logic/ARTIFACT_CONTRACT.md",
+      "sha256": "f1d002a5337f3b72142c26fc580da353ab77ec09ef1d15df96f1a841842295a8",
+      "sid": "omnicron-port.docs-reference-logic-artifact-contract-md"
+    },
+    {
+      "bytes": 1584,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-logic-byte-to-dot-runtime-md.omilisp",
+      "relative_path": "docs/reference/logic/BYTE_TO_DOT_RUNTIME.md",
+      "sha256": "f9a997416b72774254ed1025d26d96605861d4e2685422c968d13fcda071da40",
+      "sid": "omnicron-port.docs-reference-logic-byte-to-dot-runtime-md"
+    },
+    {
+      "bytes": 1057,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-logic-endian-compatibility-matrix-md.omilisp",
+      "relative_path": "docs/reference/logic/ENDIAN_COMPATIBILITY_MATRIX.md",
+      "sha256": "d73d0d976c279fc4c7e22f43371122ea2b274c78406495e27590792f944c5f2e",
+      "sid": "omnicron-port.docs-reference-logic-endian-compatibility-matrix-md"
+    },
+    {
+      "bytes": 2385,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-logic-federated-logic-delivery-md.omilisp",
+      "relative_path": "docs/reference/logic/FEDERATED_LOGIC_DELIVERY.md",
+      "sha256": "255037a21d89aa35cfe3fe5863ad46ed09f1df156a96ac5675a84d37186279b4",
+      "sid": "omnicron-port.docs-reference-logic-federated-logic-delivery-md"
+    },
+    {
+      "bytes": 1174,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-logic-ged-ascii-substrate-md.omilisp",
+      "relative_path": "docs/reference/logic/GED_ASCII_SUBSTRATE.md",
+      "sha256": "5fce0ac59fdfaccc630366083de6157c90e4c98ba67ce9869b37fc5f6ee3af2f",
+      "sid": "omnicron-port.docs-reference-logic-ged-ascii-substrate-md"
+    },
+    {
+      "bytes": 4989,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-logic-mixedbase-render-poc-md.omilisp",
+      "relative_path": "docs/reference/logic/MIXEDBASE_RENDER_POC.md",
+      "sha256": "262e07b94e66a6e441188eb36f23c6c3a1e705e81f50e1d0ac50cc789addde4e",
+      "sid": "omnicron-port.docs-reference-logic-mixedbase-render-poc-md"
+    },
+    {
+      "bytes": 6482,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-logic-omicron-gnomon-no-loss-whitepaper-md.omilisp",
+      "relative_path": "docs/reference/logic/OMICRON_GNOMON_NO_LOSS_WHITEPAPER.md",
+      "sha256": "6fe64ef2ff76829083883da9f8d6fe46d1a365acba1995640692f01620e65275",
+      "sid": "omnicron-port.docs-reference-logic-omicron-gnomon-no-loss-whitepaper-md"
+    },
+    {
+      "bytes": 7597,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-logic-omi-lisp-boot-to-presentation-md.omilisp",
+      "relative_path": "docs/reference/logic/OMI_LISP_BOOT_TO_PRESENTATION.md",
+      "sha256": "46888384e051c1dd36c2463fb2cb94efdac884c7139fe85d375e12e53ff2d5ba",
+      "sid": "omnicron-port.docs-reference-logic-omi-lisp-boot-to-presentation-md"
+    },
+    {
+      "bytes": 12755,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-logic-ontology-md.omilisp",
+      "relative_path": "docs/reference/logic/ONTOLOGY.md",
+      "sha256": "b9fa37c66db3a6aa0a42edf5660cabf84071775a8e3e23ac7665a6c4641cdf5e",
+      "sid": "omnicron-port.docs-reference-logic-ontology-md"
+    },
+    {
+      "bytes": 1994,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-logic-thorne-calculus-draft-md.omilisp",
+      "relative_path": "docs/reference/logic/THORNE_CALCULUS_DRAFT.md",
+      "sha256": "ac8a03b3afa99bcd175d0b8b34a2bc6dfd0ea61e734025630a0194bd6ed01e00",
+      "sid": "omnicron-port.docs-reference-logic-thorne-calculus-draft-md"
+    },
+    {
+      "bytes": 1092,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-polyform-bridge-change-policy-md.omilisp",
+      "relative_path": "docs/reference/polyform/BRIDGE_CHANGE_POLICY.md",
+      "sha256": "bb1c127f616b6824ed75919e29b91ccf9bba3ec9b0499feb89ac99c10dda7323",
+      "sid": "omnicron-port.docs-reference-polyform-bridge-change-policy-md"
+    },
+    {
+      "bytes": 3402,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-polyform-bridge-contract-v0-1-md.omilisp",
+      "relative_path": "docs/reference/polyform/BRIDGE_CONTRACT_v0_1.md",
+      "sha256": "1d8db641e81b886f38c0f7573299993f4a8a4f04f78369c8800a96e7eb87b8dd",
+      "sid": "omnicron-port.docs-reference-polyform-bridge-contract-v0-1-md"
+    },
+    {
+      "bytes": 26072,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-polyform-cl-org-mode-a-parser-of-org-mode-outlines-md.omilisp",
+      "relative_path": "docs/reference/polyform/CL-ORG-MODE - A Parser of org-mode outlines.md",
+      "sha256": "00b637b0b8a4697fc7067aed1d7bb3e6208dd4e9d44a9dc23d249fc061f632c2",
+      "sid": "omnicron-port.docs-reference-polyform-cl-org-mode-a-parser-of-org-mode-outlines-md"
+    },
+    {
+      "bytes": 2702,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-polyform-logic-cad-rendering-env-md.omilisp",
+      "relative_path": "docs/reference/polyform/LOGIC_CAD_RENDERING_ENV.md",
+      "sha256": "d8d04bcb5fd06f35249599115caa3c39f4c446fc6bb2c6215c65b48e2be91a50",
+      "sid": "omnicron-port.docs-reference-polyform-logic-cad-rendering-env-md"
+    },
+    {
+      "bytes": 9176,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-polyform-org-bridge-schema-md.omilisp",
+      "relative_path": "docs/reference/polyform/ORG_BRIDGE_SCHEMA.md",
+      "sha256": "b336d188f8d705b9ee6312181d748b3aa6e0305686572c49b89e6ad5cdff8fdb",
+      "sid": "omnicron-port.docs-reference-polyform-org-bridge-schema-md"
+    },
+    {
+      "bytes": 2035,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-polyform-readme-bitboards-md.omilisp",
+      "relative_path": "docs/reference/polyform/README.bitboards.md",
+      "sha256": "99418ee9b04df423b7de3294a2c361a28fce332e1ce1344f57b0e3dd26cb7eaf",
+      "sid": "omnicron-port.docs-reference-polyform-readme-bitboards-md"
+    },
+    {
+      "bytes": 12478,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-polyform-readme-org-md.omilisp",
+      "relative_path": "docs/reference/polyform/README.org.md",
+      "sha256": "38213fd0c94a23251614aac9ce265385898011210644e66b4f7cac6f99463ccd",
+      "sid": "omnicron-port.docs-reference-polyform-readme-org-md"
+    },
+    {
+      "bytes": 475,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-polyform-readme-patterns-md.omilisp",
+      "relative_path": "docs/reference/polyform/README.patterns.md",
+      "sha256": "8129d1d9ed1e3e7f30f0b4bfce44d0949232b4bad38ebf587b68e99dc3593ec4",
+      "sid": "omnicron-port.docs-reference-polyform-readme-patterns-md"
+    },
+    {
+      "bytes": 1240,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-polyform-readme-polyform-md.omilisp",
+      "relative_path": "docs/reference/polyform/README.polyform.md",
+      "sha256": "39ce6af9333ae2d4fd109c9dbee084841d0b2e79e264e155fb8733973e7b9da6",
+      "sid": "omnicron-port.docs-reference-polyform-readme-polyform-md"
+    },
+    {
+      "bytes": 1395,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-riscv-atomic-kernel-spec-md.omilisp",
+      "relative_path": "docs/reference/riscv/ATOMIC_KERNEL_SPEC.md",
+      "sha256": "01f3f08a79f1fbf6e02913d6fa209fed4d5e24cce276a084102e27fcb165bd6e",
+      "sid": "omnicron-port.docs-reference-riscv-atomic-kernel-spec-md"
+    },
+    {
+      "bytes": 2141,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-riscv-readme-riscv-md.omilisp",
+      "relative_path": "docs/reference/riscv/README.riscv.md",
+      "sha256": "8d980d375c790007cb11f65b73a5e0295d81f43b5f71d68c52c34085f90e8d87",
+      "sid": "omnicron-port.docs-reference-riscv-readme-riscv-md"
+    },
+    {
+      "bytes": 9163,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-root-ascii-constitutional-machine-md.omilisp",
+      "relative_path": "docs/reference/root/ASCII_CONSTITUTIONAL_MACHINE.md",
+      "sha256": "1a3a218e9da92f90c8bb4dd1aabf6bc1b8311b8e6b82a6bbd03601574da50820",
+      "sid": "omnicron-port.docs-reference-root-ascii-constitutional-machine-md"
+    },
+    {
+      "bytes": 3429,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-root-constitution-md.omilisp",
+      "relative_path": "docs/reference/root/CONSTITUTION.md",
+      "sha256": "2aa752aaee9d9c0c030e639bfa33a450dc9602f4ea1814c65929b17bc80e6191",
+      "sid": "omnicron-port.docs-reference-root-constitution-md"
+    },
+    {
+      "bytes": 1203,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-root-merge-strategy-omi-lisp-md.omilisp",
+      "relative_path": "docs/reference/root/MERGE_STRATEGY_OMI_LISP.md",
+      "sha256": "38e08334d00d8955ef29b4a98fe98758a2527466c9b44739bac629b17f6813c2",
+      "sid": "omnicron-port.docs-reference-root-merge-strategy-omi-lisp-md"
+    },
+    {
+      "bytes": 6180,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-root-readme-repo-md.omilisp",
+      "relative_path": "docs/reference/root/README.repo.md",
+      "sha256": "5b44dc5f7d95a7a4356455a68bda668b0e4da2297a71af0dbf450ac94f1f02b8",
+      "sid": "omnicron-port.docs-reference-root-readme-repo-md"
+    },
+    {
+      "bytes": 8008,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-reference-root-the-universal-logic-page-md.omilisp",
+      "relative_path": "docs/reference/root/The Universal Logic Page.md",
+      "sha256": "ad664c6149cbfb2dfd62eded33e772d19a03179313be148e2d3f41789cb48f0c",
+      "sid": "omnicron-port.docs-reference-root-the-universal-logic-page-md"
+    },
+    {
+      "bytes": 200,
+      "extension": ".scm",
+      "family": "declaration",
+      "output": "guix-channels-scm.omilisp",
+      "relative_path": "guix/channels.scm",
+      "sha256": "a7074ada850fdfb5c3fccc4629f365536ccefa3e69463701c2b2de7d44782fe2",
+      "sid": "omnicron-port.guix-channels-scm"
+    },
+    {
+      "bytes": 851,
+      "extension": ".scm",
+      "family": "declaration",
+      "output": "guix-manifest-core-scm.omilisp",
+      "relative_path": "guix/manifest-core.scm",
+      "sha256": "ef6ff79b8b27c961ce14ba22f1595a7236f7757f87296e4c4712392ba5829e7c",
+      "sid": "omnicron-port.guix-manifest-core-scm"
+    },
+    {
+      "bytes": 606,
+      "extension": ".scm",
+      "family": "declaration",
+      "output": "guix-manifest-editors-scm.omilisp",
+      "relative_path": "guix/manifest-editors.scm",
+      "sha256": "29ca4ab80afad5e30c40c6f774e7f6e1a4f1cf6c4fcc22e5349b201bc3023078",
+      "sid": "omnicron-port.guix-manifest-editors-scm"
+    },
+    {
+      "bytes": 1374,
+      "extension": ".scm",
+      "family": "declaration",
+      "output": "guix-manifest-rendering-scm.omilisp",
+      "relative_path": "guix/manifest-rendering.scm",
+      "sha256": "2385038fcfad4015a56d3bf2c954121bf8f1aff1691deb19626959a57e1e6cac",
+      "sid": "omnicron-port.guix-manifest-rendering-scm"
+    },
+    {
+      "bytes": 1574,
+      "extension": ".org",
+      "family": "declaration",
+      "output": "index-org.omilisp",
+      "relative_path": "index.org",
+      "sha256": "30218e6759c4375f3acdbb572410edd2725f535ce13dbf6739db2e113dc54969",
+      "sid": "omnicron-port.index-org"
+    },
+    {
+      "bytes": 1481,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "logic-contracts-canonicality-attestation-schema-json.omilisp",
+      "relative_path": "logic/contracts/canonicality_attestation.schema.json",
+      "sha256": "c4602e6a12c211e3ede1b86e6dc54a9a7a58be0f0db266ba43f0ab18139632fa",
+      "sid": "omnicron-port.logic-contracts-canonicality-attestation-schema-json"
+    },
+    {
+      "bytes": 962,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "logic-contracts-endian-compatibility-schema-json.omilisp",
+      "relative_path": "logic/contracts/endian_compatibility.schema.json",
+      "sha256": "89a37a2e883f3a5bd8446272f36e7ad3056a40ab70a4ecf8e44a999efd11b96b",
+      "sid": "omnicron-port.logic-contracts-endian-compatibility-schema-json"
+    },
+    {
+      "bytes": 4176,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "logic-contracts-logic-packet-v0-schema-json.omilisp",
+      "relative_path": "logic/contracts/logic_packet_v0.schema.json",
+      "sha256": "d3d77ca49532d09380e725817eead9c9165e47ca8cbe0c6eb1c4e1a227585a4b",
+      "sid": "omnicron-port.logic-contracts-logic-packet-v0-schema-json"
+    },
+    {
+      "bytes": 853,
+      "extension": ".h",
+      "family": "code",
+      "output": "logic-contracts-omnicron-hopf-terms-h.omilisp",
+      "relative_path": "logic/contracts/omnicron_hopf_terms.h",
+      "sha256": "88224d2c8a0556437accfc5bb9a97bb7eabd4b60134afb4a12fa6dae7e9838b5",
+      "sid": "omnicron-port.logic-contracts-omnicron-hopf-terms-h"
+    },
+    {
+      "bytes": 5828,
+      "extension": ".c",
+      "family": "code",
+      "output": "logic-contracts-omnitron-artifact-contract-c.omilisp",
+      "relative_path": "logic/contracts/omnitron_artifact_contract.c",
+      "sha256": "2e92ae70cf9095a6cf625a11ab471130d59546bec7dc84057bff258589fe9c89",
+      "sid": "omnicron-port.logic-contracts-omnitron-artifact-contract-c"
+    },
+    {
+      "bytes": 3569,
+      "extension": ".h",
+      "family": "code",
+      "output": "logic-contracts-omnitron-artifact-contract-h.omilisp",
+      "relative_path": "logic/contracts/omnitron_artifact_contract.h",
+      "sha256": "d15d9d9c97a57eef568bd64b65a0101e02a6598a37c26e225869ef6c760093d2",
+      "sid": "omnicron-port.logic-contracts-omnitron-artifact-contract-h"
+    },
+    {
+      "bytes": 6327,
+      "extension": ".h",
+      "family": "code",
+      "output": "logic-contracts-omnitron-ddc-lexicon-h.omilisp",
+      "relative_path": "logic/contracts/omnitron_ddc_lexicon.h",
+      "sha256": "f5a79d6e9a1b06a3be4ac9fe1281daa6db8c35cc13ac8ec7c4a9c7590f56af17",
+      "sid": "omnicron-port.logic-contracts-omnitron-ddc-lexicon-h"
+    },
+    {
+      "bytes": 9548,
+      "extension": ".h",
+      "family": "code",
+      "output": "logic-contracts-omnitron-pipeline-h.omilisp",
+      "relative_path": "logic/contracts/omnitron_pipeline.h",
+      "sha256": "8844bc052a6994b807a90f4f962ce7482cef55c6906d16a8eadc260ce970fc80",
+      "sid": "omnicron-port.logic-contracts-omnitron-pipeline-h"
+    },
+    {
+      "bytes": 2839,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "logic-contracts-preheader-congruence-schema-json.omilisp",
+      "relative_path": "logic/contracts/preheader_congruence.schema.json",
+      "sha256": "f5d876113fda196e15fb4eb80bb63c5a47208483348a0be7077af80973b6d320",
+      "sid": "omnicron-port.logic-contracts-preheader-congruence-schema-json"
+    },
+    {
+      "bytes": 1814,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-canonicality-attestation-ndjson.omilisp",
+      "relative_path": "logic/generated/canonicality_attestation.ndjson",
+      "sha256": "f8a934cfb2334bc229fa9bfa6a82a3594e3cc1abf3c81e7d24090928a91323b4",
+      "sid": "omnicron-port.logic-generated-canonicality-attestation-ndjson"
+    },
+    {
+      "bytes": 0,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-devdocs-reference-warnings-ndjson.omilisp",
+      "relative_path": "logic/generated/devdocs_reference_warnings.ndjson",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omnicron-port.logic-generated-devdocs-reference-warnings-ndjson"
+    },
+    {
+      "bytes": 1,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-lock-receipts-ndjson.omilisp",
+      "relative_path": "logic/generated/lock_receipts.ndjson",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "sid": "omnicron-port.logic-generated-lock-receipts-ndjson"
+    },
+    {
+      "bytes": 846,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-lock-state-ndjson.omilisp",
+      "relative_path": "logic/generated/lock_state.ndjson",
+      "sha256": "95feda7b3fe818aa079b087d3f832f99fab040f264ed0795d302a08d28fd13de",
+      "sid": "omnicron-port.logic-generated-lock-state-ndjson"
+    },
+    {
+      "bytes": 500,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-logic-packet-v0-replay-receipt-ndjson.omilisp",
+      "relative_path": "logic/generated/logic_packet_v0_replay_receipt.ndjson",
+      "sha256": "3fad32b2ce560b0dfd0328125646970ada0f597408b608b5de00d3fe6d62b75d",
+      "sid": "omnicron-port.logic-generated-logic-packet-v0-replay-receipt-ndjson"
+    },
+    {
+      "bytes": 1415,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "logic-generated-logic-packet-v0-sample-json.omilisp",
+      "relative_path": "logic/generated/logic_packet_v0_sample.json",
+      "sha256": "d3ee566dc8324e4b5c25aec8f6b2d746724952084cfce12fd44a5855a0b8c3d3",
+      "sid": "omnicron-port.logic-generated-logic-packet-v0-sample-json"
+    },
+    {
+      "bytes": 1128,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-multi-emulator-smoke-ndjson.omilisp",
+      "relative_path": "logic/generated/multi_emulator_smoke.ndjson",
+      "sha256": "abe294313b9fe83912ef09e31f7a7d8a22a76855fab443531a2db2a86566dff4",
+      "sid": "omnicron-port.logic-generated-multi-emulator-smoke-ndjson"
+    },
+    {
+      "bytes": 139,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-omi-lisp-surface-check-ndjson.omilisp",
+      "relative_path": "logic/generated/omi_lisp_surface_check.ndjson",
+      "sha256": "7b46541fe4fc455b2d27502c1adaeaec96e4763eac12c7989783605649beb5b3",
+      "sid": "omnicron-port.logic-generated-omi-lisp-surface-check-ndjson"
+    },
+    {
+      "bytes": 3318,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-omi-tests-ndjson.omilisp",
+      "relative_path": "logic/generated/omi_tests.ndjson",
+      "sha256": "778dc4bc06c5c66536ae45e07e63a027af4a86812e17902b07299ddfa1288cbc",
+      "sid": "omnicron-port.logic-generated-omi-tests-ndjson"
+    },
+    {
+      "bytes": 78130,
+      "extension": ".logic",
+      "family": "declaration",
+      "output": "logic-generated-omnicron-rule-source-extracted-candidates-logic.omilisp",
+      "relative_path": "logic/generated/omnicron-rule-source.extracted.candidates.logic",
+      "sha256": "ddb6e79a914991109be557179c0ce172657fb082e649d859352cd494c2b6e948",
+      "sid": "omnicron-port.logic-generated-omnicron-rule-source-extracted-candidates-logic"
+    },
+    {
+      "bytes": 74291,
+      "extension": ".logic",
+      "family": "declaration",
+      "output": "logic-generated-omnicron-rule-source-extracted-logic.omilisp",
+      "relative_path": "logic/generated/omnicron-rule-source.extracted.logic",
+      "sha256": "415242ec9f5869c9ffceedec9d6fd2576b7b6dee92db303fb34dbbedb56ac77d",
+      "sid": "omnicron-port.logic-generated-omnicron-rule-source-extracted-logic"
+    },
+    {
+      "bytes": 16963,
+      "extension": ".log",
+      "family": "artifact",
+      "output": "logic-generated-omnicron-rule-source-run-log.omilisp",
+      "relative_path": "logic/generated/omnicron-rule-source.run.log",
+      "sha256": "e991bc6e11c520c631da1d195e2d183c1a46ab913aee0eaef68b8fc35e5b4a7d",
+      "sid": "omnicron-port.logic-generated-omnicron-rule-source-run-log"
+    },
+    {
+      "bytes": 7498554,
+      "extension": ".log",
+      "family": "artifact",
+      "output": "logic-generated-omnicron-rule-source-run-validation-log.omilisp",
+      "relative_path": "logic/generated/omnicron-rule-source.run.validation.log",
+      "sha256": "50e580a7e3930761660898838c441ee44892147696ca5cc54a3b36927f233b0f",
+      "sid": "omnicron-port.logic-generated-omnicron-rule-source-run-validation-log"
+    },
+    {
+      "bytes": 8877,
+      "extension": ".dot",
+      "family": "artifact",
+      "output": "logic-generated-ontology-graph-dot.omilisp",
+      "relative_path": "logic/generated/ontology_graph.dot",
+      "sha256": "6f20a01c1887e3a845f0ca713141fc4c9a25617067ede7fbfa43a17e77414d2d",
+      "sid": "omnicron-port.logic-generated-ontology-graph-dot"
+    },
+    {
+      "bytes": 20918,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-ontology-graph-ndjson.omilisp",
+      "relative_path": "logic/generated/ontology_graph.ndjson",
+      "sha256": "46c5ce411d503f643c9924fa21c51869577aeebc11f7fd776f3524c296640ff1",
+      "sid": "omnicron-port.logic-generated-ontology-graph-ndjson"
+    },
+    {
+      "bytes": 12754,
+      "extension": ".pgm",
+      "family": "carrier",
+      "output": "logic-generated-ontology-graph-pgm.omilisp",
+      "relative_path": "logic/generated/ontology_graph.pgm",
+      "sha256": "04111748953ece65fba28e698c4fbe033ebe19a4289937da204f713d48233751",
+      "sid": "omnicron-port.logic-generated-ontology-graph-pgm"
+    },
+    {
+      "bytes": 878,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-ontology-legend-ndjson.omilisp",
+      "relative_path": "logic/generated/ontology_legend.ndjson",
+      "sha256": "2b52d733c821f4d242394907dd1b31cee0544194372e790e4e2f8a965bd36f59",
+      "sid": "omnicron-port.logic-generated-ontology-legend-ndjson"
+    },
+    {
+      "bytes": 241,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-remote-node-check-ndjson.omilisp",
+      "relative_path": "logic/generated/remote_node_check.ndjson",
+      "sha256": "a87c95773131b16e035fdc1a95dc71246aed9ca8dd18ec7dd69a500083feaba7",
+      "sid": "omnicron-port.logic-generated-remote-node-check-ndjson"
+    },
+    {
+      "bytes": 3904,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-surface-equivalence-receipts-ndjson.omilisp",
+      "relative_path": "logic/generated/surface_equivalence_receipts.ndjson",
+      "sha256": "92ea3e7e66669734a0f30b8fb094e7176c505ac0da1ac52efbe20ff04e16833c",
+      "sid": "omnicron-port.logic-generated-surface-equivalence-receipts-ndjson"
+    },
+    {
+      "bytes": 146,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-surface-equivalence-summary-ndjson.omilisp",
+      "relative_path": "logic/generated/surface_equivalence_summary.ndjson",
+      "sha256": "b1faf5392b4bd9d0f35fae813b7e9294eae825d82ebeac9bab31c20476fae09c",
+      "sid": "omnicron-port.logic-generated-surface-equivalence-summary-ndjson"
+    },
+    {
+      "bytes": 1170,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-surface-projection-profile-ndjson.omilisp",
+      "relative_path": "logic/generated/surface_projection_profile.ndjson",
+      "sha256": "91a1b1e97b80a2821643ec6d566d9793038c5025a37fcd783e839af2c5ed749e",
+      "sid": "omnicron-port.logic-generated-surface-projection-profile-ndjson"
+    },
+    {
+      "bytes": 1070,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-generated-wordnet-synset-graph-ndjson.omilisp",
+      "relative_path": "logic/generated/wordnet_synset_graph.ndjson",
+      "sha256": "d1792e6b9db42b70c9cc6d0e8859e65e303b28ce1c749399b3067ddbf05d3f0f",
+      "sid": "omnicron-port.logic-generated-wordnet-synset-graph-ndjson"
+    },
+    {
+      "bytes": 1369,
+      "extension": ".sha256",
+      "family": "artifact",
+      "output": "logic-locks-deterministic-replay-sha256.omilisp",
+      "relative_path": "logic/locks/deterministic_replay.sha256",
+      "sha256": "36dd738381e9f03a11619bba0150778be75b415bf58c4e915927651b57565eb9",
+      "sid": "omnicron-port.logic-locks-deterministic-replay-sha256"
+    },
+    {
+      "bytes": 6970,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-aegean-plane-mjs.omilisp",
+      "relative_path": "logic/runtime/aegean_plane.mjs",
+      "sha256": "2047d7b22ccaa4209df2465d3b91e66e37bae8a5dda4e26b5f28c4e87b28e145",
+      "sid": "omnicron-port.logic-runtime-aegean-plane-mjs"
+    },
+    {
+      "bytes": 4037,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-audio-synthesis-mjs.omilisp",
+      "relative_path": "logic/runtime/audio_synthesis.mjs",
+      "sha256": "10d606a86c40d2ec24505fef0c8b83b70db8e9553a4086255ef62e8ecfeb98e4",
+      "sid": "omnicron-port.logic-runtime-audio-synthesis-mjs"
+    },
+    {
+      "bytes": 7830,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-boot-omi-mjs.omilisp",
+      "relative_path": "logic/runtime/boot_omi.mjs",
+      "sha256": "f525fac0afe6a9cf849c4413b7d5951789fb5414690ca5a01b6db07b7220782d",
+      "sid": "omnicron-port.logic-runtime-boot-omi-mjs"
+    },
+    {
+      "bytes": 4656,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-braille-plane-mjs.omilisp",
+      "relative_path": "logic/runtime/braille_plane.mjs",
+      "sha256": "245f348b81157c1f4c02b97ae1dc8362a0e6dcb0b3f299ac044f2b50d8abb9a5",
+      "sid": "omnicron-port.logic-runtime-braille-plane-mjs"
+    },
+    {
+      "bytes": 4822,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-cons-diagram-mjs.omilisp",
+      "relative_path": "logic/runtime/cons_diagram.mjs",
+      "sha256": "73bc3d7ee1e9bc906225902b1f7640e33b9de9f361a3f49eec9f5fcba15764bc",
+      "sid": "omnicron-port.logic-runtime-cons-diagram-mjs"
+    },
+    {
+      "bytes": 7638,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-datalog-engine-mjs.omilisp",
+      "relative_path": "logic/runtime/datalog_engine.mjs",
+      "sha256": "1b6b21f4b156f54d2cb98f219097941e2e5251b732f00f653af88f30a7d6b016",
+      "sid": "omnicron-port.logic-runtime-datalog-engine-mjs"
+    },
+    {
+      "bytes": 2052,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-dot-rewrite-mjs.omilisp",
+      "relative_path": "logic/runtime/dot_rewrite.mjs",
+      "sha256": "6bececb66c1495032946b9153fd636b25b6f83e0cec9cac6e2a7637ebc94dafc",
+      "sid": "omnicron-port.logic-runtime-dot-rewrite-mjs"
+    },
+    {
+      "bytes": 2505,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-ged-ascii-substrate-mjs.omilisp",
+      "relative_path": "logic/runtime/ged_ascii_substrate.mjs",
+      "sha256": "ea72e6ac63d0936dec669ac04c95edd874a70f900ee1a4ca6d52514ec45c7a56",
+      "sid": "omnicron-port.logic-runtime-ged-ascii-substrate-mjs"
+    },
+    {
+      "bytes": 4366,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-geometry-3d-mjs.omilisp",
+      "relative_path": "logic/runtime/geometry_3d.mjs",
+      "sha256": "01f9dfaf012b7a8e27cd14859941d36371876a612d9731c83d73f4fbae58016f",
+      "sid": "omnicron-port.logic-runtime-geometry-3d-mjs"
+    },
+    {
+      "bytes": 8200,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-geometry-ontology-mjs.omilisp",
+      "relative_path": "logic/runtime/geometry_ontology.mjs",
+      "sha256": "cc6bb76e7461d65d4e774aa4663f3c32070b9a30fe389ecf6143928974e8d7fc",
+      "sid": "omnicron-port.logic-runtime-geometry-ontology-mjs"
+    },
+    {
+      "bytes": 7948,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-geometry-toolbox-mjs.omilisp",
+      "relative_path": "logic/runtime/geometry_toolbox.mjs",
+      "sha256": "e7642ae98ed8318b04e2c387363f2584dca50ca511967d24a88e9c33a866c146",
+      "sid": "omnicron-port.logic-runtime-geometry-toolbox-mjs"
+    },
+    {
+      "bytes": 4133,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-header8-runtime-mjs.omilisp",
+      "relative_path": "logic/runtime/header8_runtime.mjs",
+      "sha256": "b89a4a1fc70965d9ea226b29114b7218b972c9f630f93f405cb193366c366784",
+      "sid": "omnicron-port.logic-runtime-header8-runtime-mjs"
+    },
+    {
+      "bytes": 8933,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-header-ladder-runtime-mjs.omilisp",
+      "relative_path": "logic/runtime/header_ladder_runtime.mjs",
+      "sha256": "6dcd5b36e567bdd423c6615af2d12b356b5c12a3486035f7c5a65324479903b7",
+      "sid": "omnicron-port.logic-runtime-header-ladder-runtime-mjs"
+    },
+    {
+      "bytes": 5095,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-logic-packet-replay-mjs.omilisp",
+      "relative_path": "logic/runtime/logic_packet_replay.mjs",
+      "sha256": "94f134cae614c9c3dd734e3ffdc354bc2de952f16706a3eec48270e5dfac4779",
+      "sid": "omnicron-port.logic-runtime-logic-packet-replay-mjs"
+    },
+    {
+      "bytes": 5246,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-network-protocol-mjs.omilisp",
+      "relative_path": "logic/runtime/network_protocol.mjs",
+      "sha256": "d7995e87b287fa1daab1655eb168e67e9fdc119a6059f16ebc567b53160804b7",
+      "sid": "omnicron-port.logic-runtime-network-protocol-mjs"
+    },
+    {
+      "bytes": 4771,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-polyform-toolbox-mjs.omilisp",
+      "relative_path": "logic/runtime/polyform_toolbox.mjs",
+      "sha256": "cb5ffc1696c8124638a9412f864d497b3b87557d1236621f696715974695d747",
+      "sid": "omnicron-port.logic-runtime-polyform-toolbox-mjs"
+    },
+    {
+      "bytes": 5037,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-runtime-visual-renderer-mjs.omilisp",
+      "relative_path": "logic/runtime/visual_renderer.mjs",
+      "sha256": "ffa7b0712f96cbe0715248cefa99ed503b3b466aafb59dcb14ebd92a86e26ea1",
+      "sid": "omnicron-port.logic-runtime-visual-renderer-mjs"
+    },
+    {
+      "bytes": 1151,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "logic-sources-boot-omi.omilisp",
+      "relative_path": "logic/sources/boot.omi",
+      "sha256": "6a54214b2800fbc8b8463bee3227026c53ac30a7bed672517bde41955fafbd7b",
+      "sid": "omnicron-port.logic-sources-boot-omi"
+    },
+    {
+      "bytes": 13725,
+      "extension": ".pl",
+      "family": "declaration",
+      "output": "logic-sources-bootstrap-datalog-pl.omilisp",
+      "relative_path": "logic/sources/bootstrap_datalog.pl",
+      "sha256": "ac40f064679521fe5590321cebfe59799d441a6332b5bd85edd2846e6f1f4767",
+      "sid": "omnicron-port.logic-sources-bootstrap-datalog-pl"
+    },
+    {
+      "bytes": 3664,
+      "extension": ".logic",
+      "family": "declaration",
+      "output": "logic-sources-bootstrap-ingest-logic.omilisp",
+      "relative_path": "logic/sources/bootstrap_ingest.logic",
+      "sha256": "d51ac6b038c14190a379710f85846fa12bb97be3ec465b130ae2cab67c16b04a",
+      "sid": "omnicron-port.logic-sources-bootstrap-ingest-logic"
+    },
+    {
+      "bytes": 21082,
+      "extension": ".pl",
+      "family": "declaration",
+      "output": "logic-sources-constitutional-stack-pl.omilisp",
+      "relative_path": "logic/sources/constitutional_stack.pl",
+      "sha256": "720813af412d36eb7b4a5b1c5e3bae3f91f6057b746d5217de7a9a522f0e03e1",
+      "sid": "omnicron-port.logic-sources-constitutional-stack-pl"
+    },
+    {
+      "bytes": 1299,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-sources-endian-compatibility-vectors-ndjson.omilisp",
+      "relative_path": "logic/sources/endian_compatibility_vectors.ndjson",
+      "sha256": "2d581ffbebc522153c9cf995617bf75c010069f7cd3c348b4b1596eb14770c24",
+      "sid": "omnicron-port.logic-sources-endian-compatibility-vectors-ndjson"
+    },
+    {
+      "bytes": 588,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-sources-ged-ascii-substrate-vectors-ndjson.omilisp",
+      "relative_path": "logic/sources/ged_ascii_substrate_vectors.ndjson",
+      "sha256": "90d849718faae2fc1682de3f971857b79e312d5419a1479b4d0f7787f68303c8",
+      "sid": "omnicron-port.logic-sources-ged-ascii-substrate-vectors-ndjson"
+    },
+    {
+      "bytes": 435096,
+      "extension": ".org",
+      "family": "declaration",
+      "output": "logic-sources-omnicron-rule-source-org.omilisp",
+      "relative_path": "logic/sources/omnicron-rule-source.org",
+      "sha256": "8344990c9b215526e303bbb2000e4ed49a1502fd5d1682a022eabba2d93fe1f6",
+      "sid": "omnicron-port.logic-sources-omnicron-rule-source-org"
+    },
+    {
+      "bytes": 30119,
+      "extension": ".lx",
+      "family": "declaration",
+      "output": "logic-sources-omnitron-declarations-lx.omilisp",
+      "relative_path": "logic/sources/omnitron_declarations.lx",
+      "sha256": "57fdc2c92222a2a1b2186444956447f681e99e5b5f51aa1e951ef30869739ef5",
+      "sid": "omnicron-port.logic-sources-omnitron-declarations-lx"
+    },
+    {
+      "bytes": 67875,
+      "extension": ".c",
+      "family": "code",
+      "output": "logic-sources-polylog-c.omilisp",
+      "relative_path": "logic/sources/polylog.c",
+      "sha256": "ae0c8b058a3a83b8c52a2a4a9b08842dfd4f1102ef6ce41c3284e170058c55af",
+      "sid": "omnicron-port.logic-sources-polylog-c"
+    },
+    {
+      "bytes": 1142,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-sources-preheader-congruence-vectors-ndjson.omilisp",
+      "relative_path": "logic/sources/preheader_congruence_vectors.ndjson",
+      "sha256": "93cd705fc0442d22c63f297627698223a569cf913f85af7d9765afe1ad358a61",
+      "sid": "omnicron-port.logic-sources-preheader-congruence-vectors-ndjson"
+    },
+    {
+      "bytes": 1017,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "logic-sources-surface-equivalence-ndjson.omilisp",
+      "relative_path": "logic/sources/surface_equivalence.ndjson",
+      "sha256": "94c84b79ee57d014a6488c762689a9c557741d76bcd68f9cca9db2ef5a5df837",
+      "sid": "omnicron-port.logic-sources-surface-equivalence-ndjson"
+    },
+    {
+      "bytes": 637,
+      "extension": ".pl",
+      "family": "declaration",
+      "output": "logic-sources-wordnet-synset-test-pl.omilisp",
+      "relative_path": "logic/sources/wordnet_synset_test.pl",
+      "sha256": "61dfc21bc867b062df15a542e7418d5f5102f30719edc5f07364925dfdc3c4bb",
+      "sid": "omnicron-port.logic-sources-wordnet-synset-test-pl"
+    },
+    {
+      "bytes": 1772,
+      "extension": ".sh",
+      "family": "code",
+      "output": "logic-tools-deterministic-replay-sh.omilisp",
+      "relative_path": "logic/tools/deterministic_replay.sh",
+      "sha256": "f0c565ad2b0b518dd005cb03f548695733594bf99d8ae19ac15b960018498e6e",
+      "sid": "omnicron-port.logic-tools-deterministic-replay-sh"
+    },
+    {
+      "bytes": 37651,
+      "extension": ".sh",
+      "family": "code",
+      "output": "logic-tools-export-control-graph-bitboards-sh.omilisp",
+      "relative_path": "logic/tools/export_control_graph_bitboards.sh",
+      "sha256": "d02c3c179e0619253d632353da9ef43895c11a1672e7deb07623ec86fb578b7b",
+      "sid": "omnicron-port.logic-tools-export-control-graph-bitboards-sh"
+    },
+    {
+      "bytes": 2631,
+      "extension": ".sh",
+      "family": "code",
+      "output": "logic-tools-export-polyform-bitboards-sh.omilisp",
+      "relative_path": "logic/tools/export_polyform_bitboards.sh",
+      "sha256": "3e1de4f70ccef6d15b660b940882d4ee21e57cd8939093fda0499f6cdba85063",
+      "sid": "omnicron-port.logic-tools-export-polyform-bitboards-sh"
+    },
+    {
+      "bytes": 11668,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-tools-generate-ontology-graph-mjs.omilisp",
+      "relative_path": "logic/tools/generate_ontology_graph.mjs",
+      "sha256": "c568045d87ac1ae63b178a4b662f6b08286bed69b317e4edd9cf17d8937917f4",
+      "sid": "omnicron-port.logic-tools-generate-ontology-graph-mjs"
+    },
+    {
+      "bytes": 7651,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-tools-lockctl-mjs.omilisp",
+      "relative_path": "logic/tools/lockctl.mjs",
+      "sha256": "a651287d31e0e21ff4bfe4731c93f7483946e5f2b2f617e9e4a9cdad7ad1d969",
+      "sid": "omnicron-port.logic-tools-lockctl-mjs"
+    },
+    {
+      "bytes": 2187,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-tools-make-logic-packet-mjs.omilisp",
+      "relative_path": "logic/tools/make_logic_packet.mjs",
+      "sha256": "0f96f7e261608a71fe4db76b4e7e0990c9e30ada8b29ae76d1a3afb433026057",
+      "sid": "omnicron-port.logic-tools-make-logic-packet-mjs"
+    },
+    {
+      "bytes": 3958,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-tools-make-multi-width-packet-mjs.omilisp",
+      "relative_path": "logic/tools/make_multi_width_packet.mjs",
+      "sha256": "24f1ff2c8b7e4f4187d4cdd1f511ac23212f9d35645df165ee74b604b25d60ee",
+      "sid": "omnicron-port.logic-tools-make-multi-width-packet-mjs"
+    },
+    {
+      "bytes": 4981,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-tools-omi-to-riscv-mjs.omilisp",
+      "relative_path": "logic/tools/omi_to_riscv.mjs",
+      "sha256": "9069cf2706abed3bffd880b52497a4478659ad8c208fd6eeb0389afeb069c786",
+      "sid": "omnicron-port.logic-tools-omi-to-riscv-mjs"
+    },
+    {
+      "bytes": 1986,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-tools-ontology-graph-to-pgm-mjs.omilisp",
+      "relative_path": "logic/tools/ontology_graph_to_pgm.mjs",
+      "sha256": "c534cd9c78a4b1ccec41486596f87aa8b50d54e9744faf7ce5dafaf63cce0d4f",
+      "sid": "omnicron-port.logic-tools-ontology-graph-to-pgm-mjs"
+    },
+    {
+      "bytes": 4268,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-tools-rebuild-all-attestation-mjs.omilisp",
+      "relative_path": "logic/tools/rebuild_all_attestation.mjs",
+      "sha256": "aa17228ab93f11fc63d33a08af8a04ee82b11a23ba9ca78184954f4a948c0efa",
+      "sid": "omnicron-port.logic-tools-rebuild-all-attestation-mjs"
+    },
+    {
+      "bytes": 2124,
+      "extension": ".sh",
+      "family": "code",
+      "output": "logic-tools-remote-node-check-sh.omilisp",
+      "relative_path": "logic/tools/remote_node_check.sh",
+      "sha256": "2f56e751ad733a0f8f8645613cca1220574b1bdabf95c14b0dbcf33c1c780066",
+      "sid": "omnicron-port.logic-tools-remote-node-check-sh"
+    },
+    {
+      "bytes": 5361,
+      "extension": ".sh",
+      "family": "code",
+      "output": "logic-tools-run-rule-source-sh.omilisp",
+      "relative_path": "logic/tools/run_rule_source.sh",
+      "sha256": "7e9d805b171b760867457b474add7b266e8086c632c4286b52d3d507daef10cf",
+      "sid": "omnicron-port.logic-tools-run-rule-source-sh"
+    },
+    {
+      "bytes": 2624,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-tools-surface-equivalence-to-projection-profile-mjs.omilisp",
+      "relative_path": "logic/tools/surface_equivalence_to_projection_profile.mjs",
+      "sha256": "a645ce03de1d91ed4f858d59608a47322e142607af75f80b8efba2d64c7e5334",
+      "sid": "omnicron-port.logic-tools-surface-equivalence-to-projection-profile-mjs"
+    },
+    {
+      "bytes": 2663,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-tools-wordnet-prolog-to-synset-graph-mjs.omilisp",
+      "relative_path": "logic/tools/wordnet_prolog_to_synset_graph.mjs",
+      "sha256": "c84b3aa033af6b1b7b5d0520e2bf41a6b4d097bf6b8ca8a3e91dfe195887730a",
+      "sid": "omnicron-port.logic-tools-wordnet-prolog-to-synset-graph-mjs"
+    },
+    {
+      "bytes": 1369,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-aegean-plane-mjs.omilisp",
+      "relative_path": "logic/verify/verify_aegean_plane.mjs",
+      "sha256": "2bcb22b9da69a5e5bc25dbe5d06d480b2d62307beef3d20bd7de08cafa274845",
+      "sid": "omnicron-port.logic-verify-verify-aegean-plane-mjs"
+    },
+    {
+      "bytes": 2848,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-android-emulator-mjs.omilisp",
+      "relative_path": "logic/verify/verify_android_emulator.mjs",
+      "sha256": "78884ccb764e16e34741608cc1447fe4f10825d45128d0daae981344e745f723",
+      "sid": "omnicron-port.logic-verify-verify-android-emulator-mjs"
+    },
+    {
+      "bytes": 2366,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-android-sdk-mjs.omilisp",
+      "relative_path": "logic/verify/verify_android_sdk.mjs",
+      "sha256": "f133bd864d2e76e819bf40ea9a8e22c647fbe85de2a358529dc5f555c92e6192",
+      "sid": "omnicron-port.logic-verify-verify-android-sdk-mjs"
+    },
+    {
+      "bytes": 2471,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-ascii-substrate-lexer-mjs.omilisp",
+      "relative_path": "logic/verify/verify_ascii_substrate_lexer.mjs",
+      "sha256": "800ca9f8c72b95c8e9018209fa0e9914ab596e1b65091a5d9adf6747c78bac53",
+      "sid": "omnicron-port.logic-verify-verify-ascii-substrate-lexer-mjs"
+    },
+    {
+      "bytes": 1455,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-braille-plane-mjs.omilisp",
+      "relative_path": "logic/verify/verify_braille_plane.mjs",
+      "sha256": "95e163132fb9ab80376a53f5f70466ef3e271d2ed667cffa15ff3d7ba1f38720",
+      "sid": "omnicron-port.logic-verify-verify-braille-plane-mjs"
+    },
+    {
+      "bytes": 1121,
+      "extension": ".sh",
+      "family": "code",
+      "output": "logic-verify-verify-bridge-fact-equivalence-sh.omilisp",
+      "relative_path": "logic/verify/verify_bridge_fact_equivalence.sh",
+      "sha256": "1a778cec32109423c9d3005a6f54d366d2130a8d87eb0f177fc74f85eea1a490",
+      "sid": "omnicron-port.logic-verify-verify-bridge-fact-equivalence-sh"
+    },
+    {
+      "bytes": 3059,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-cons-diagram-mjs.omilisp",
+      "relative_path": "logic/verify/verify_cons_diagram.mjs",
+      "sha256": "96dcbe9f0bc84fa7bd8b273272193df6838f06c550e423c41b7edf3ac9e30693",
+      "sid": "omnicron-port.logic-verify-verify-cons-diagram-mjs"
+    },
+    {
+      "bytes": 3369,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-datalog-derived-mjs.omilisp",
+      "relative_path": "logic/verify/verify_datalog_derived.mjs",
+      "sha256": "37c061fb4cc3dc0a39eeee6234fa8ee67a8553c983982197f68fe83e3c2b9b1e",
+      "sid": "omnicron-port.logic-verify-verify-datalog-derived-mjs"
+    },
+    {
+      "bytes": 2549,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-datalog-engine-mjs.omilisp",
+      "relative_path": "logic/verify/verify_datalog_engine.mjs",
+      "sha256": "52aa81057c31980ad9494e9b7611d26c26647a163c5a761f8ec98f11b125fbda",
+      "sid": "omnicron-port.logic-verify-verify-datalog-engine-mjs"
+    },
+    {
+      "bytes": 3844,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-endian-compatibility-mjs.omilisp",
+      "relative_path": "logic/verify/verify_endian_compatibility.mjs",
+      "sha256": "e6e46836a43f50eb0c2323a877b437906e69dd96dc66e1032edcbbc16ad976ab",
+      "sid": "omnicron-port.logic-verify-verify-endian-compatibility-mjs"
+    },
+    {
+      "bytes": 2928,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-ged-ascii-substrate-mjs.omilisp",
+      "relative_path": "logic/verify/verify_ged_ascii_substrate.mjs",
+      "sha256": "c025e1f746f5af2470249bb76fc65b592381e2fbda6b8772efa16a570bbe43c8",
+      "sid": "omnicron-port.logic-verify-verify-ged-ascii-substrate-mjs"
+    },
+    {
+      "bytes": 486,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-geometry-3d-mjs.omilisp",
+      "relative_path": "logic/verify/verify_geometry_3d.mjs",
+      "sha256": "31346072a85d62752e6e11a860b19e32a1df508fe4a9e4445bd01f39ec5dcc54",
+      "sid": "omnicron-port.logic-verify-verify-geometry-3d-mjs"
+    },
+    {
+      "bytes": 2835,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-geometry-toolbox-mjs.omilisp",
+      "relative_path": "logic/verify/verify_geometry_toolbox.mjs",
+      "sha256": "470bbfa9115b7f1626b2b4416fc38356703bedd1797debaeb1322fa738f18d5d",
+      "sid": "omnicron-port.logic-verify-verify-geometry-toolbox-mjs"
+    },
+    {
+      "bytes": 2271,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-gles-capability-mjs.omilisp",
+      "relative_path": "logic/verify/verify_gles_capability.mjs",
+      "sha256": "760a7e67cedf815eac6fd46e9ed7e3a8515ad56417c5dd5d447c7402e0c53371",
+      "sid": "omnicron-port.logic-verify-verify-gles-capability-mjs"
+    },
+    {
+      "bytes": 3142,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-header-ladder-runtime-mjs.omilisp",
+      "relative_path": "logic/verify/verify_header_ladder_runtime.mjs",
+      "sha256": "ba21d0b0d2a3cc777113e2507567441c0762283147ebdc23019ba9fe840ecb84",
+      "sid": "omnicron-port.logic-verify-verify-header-ladder-runtime-mjs"
+    },
+    {
+      "bytes": 5018,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-locks-mjs.omilisp",
+      "relative_path": "logic/verify/verify_locks.mjs",
+      "sha256": "18b255170ad77846092ad140e07a7c583894e30fd0553b4f51e7083f0b129432",
+      "sid": "omnicron-port.logic-verify-verify-locks-mjs"
+    },
+    {
+      "bytes": 2656,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-logic-packet-replay-mjs.omilisp",
+      "relative_path": "logic/verify/verify_logic_packet_replay.mjs",
+      "sha256": "43f6b6f7381474900d34a7cdca53df2ad3ef91e2404cb6caebb5473ded0c9baf",
+      "sid": "omnicron-port.logic-verify-verify-logic-packet-replay-mjs"
+    },
+    {
+      "bytes": 2680,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-multi-emulator-mjs.omilisp",
+      "relative_path": "logic/verify/verify_multi_emulator.mjs",
+      "sha256": "ba30ce5d866ff325bfe973afa019308be4a3b7388e396190444f6c59a21b614b",
+      "sid": "omnicron-port.logic-verify-verify-multi-emulator-mjs"
+    },
+    {
+      "bytes": 6386,
+      "extension": ".sh",
+      "family": "code",
+      "output": "logic-verify-verify-multi-emulator-smoke-sh.omilisp",
+      "relative_path": "logic/verify/verify_multi_emulator_smoke.sh",
+      "sha256": "1f0dd5ad9d6009b8f5830de52653c2e52c935e440e35621d515ab7ddf92e1511",
+      "sid": "omnicron-port.logic-verify-verify-multi-emulator-smoke-sh"
+    },
+    {
+      "bytes": 1752,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-multi-platform-mjs.omilisp",
+      "relative_path": "logic/verify/verify_multi_platform.mjs",
+      "sha256": "99e5b1beacce3d2d97db9197ff5d0026dfd65d9c19a16a0f16ea6d09047cc3e4",
+      "sid": "omnicron-port.logic-verify-verify-multi-platform-mjs"
+    },
+    {
+      "bytes": 7152,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-omi-declarative-mjs.omilisp",
+      "relative_path": "logic/verify/verify_omi_declarative.mjs",
+      "sha256": "443d684cfc466b1a028e3cdb7b095ab2de2d224c50d03f2dbe75d587f223908e",
+      "sid": "omnicron-port.logic-verify-verify-omi-declarative-mjs"
+    },
+    {
+      "bytes": 2256,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-omi-lisp-qemu-mjs.omilisp",
+      "relative_path": "logic/verify/verify_omi_lisp_qemu.mjs",
+      "sha256": "c2b535a8a3ae683b2994e2aa6ab2f023a60de47e84ee8473f13220f631a1b0aa",
+      "sid": "omnicron-port.logic-verify-verify-omi-lisp-qemu-mjs"
+    },
+    {
+      "bytes": 3482,
+      "extension": ".sh",
+      "family": "code",
+      "output": "logic-verify-verify-omi-lisp-surface-sh.omilisp",
+      "relative_path": "logic/verify/verify_omi_lisp_surface.sh",
+      "sha256": "61ac3eff1bd0b87a7e3c6bc2006f150a5e4e0755640a7871dfee1e078416fd89",
+      "sid": "omnicron-port.logic-verify-verify-omi-lisp-surface-sh"
+    },
+    {
+      "bytes": 2466,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-ontology-graph-mjs.omilisp",
+      "relative_path": "logic/verify/verify_ontology_graph.mjs",
+      "sha256": "02fccdad4313e324d45218dce6cc382f2ecbe77e24fee5aea0d8a6daae4c237f",
+      "sid": "omnicron-port.logic-verify-verify-ontology-graph-mjs"
+    },
+    {
+      "bytes": 633,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-polyform-subsystem-mjs.omilisp",
+      "relative_path": "logic/verify/verify_polyform_subsystem.mjs",
+      "sha256": "28e53a920c012413c7d12c5be6078f4ef077b7b6be33510bf7eabe8bdc156d76",
+      "sid": "omnicron-port.logic-verify-verify-polyform-subsystem-mjs"
+    },
+    {
+      "bytes": 3560,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-preheader-congruence-mjs.omilisp",
+      "relative_path": "logic/verify/verify_preheader_congruence.mjs",
+      "sha256": "f154eb1fb0a5137c32f6a4ecce52cc151da03192c9b71d88488aa2f80767cc08",
+      "sid": "omnicron-port.logic-verify-verify-preheader-congruence-mjs"
+    },
+    {
+      "bytes": 8495,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-render-contract-mjs.omilisp",
+      "relative_path": "logic/verify/verify_render_contract.mjs",
+      "sha256": "fd363dfce2d56609c6564df52550383a4fba167cf903c52299f2cc29915ab953",
+      "sid": "omnicron-port.logic-verify-verify-render-contract-mjs"
+    },
+    {
+      "bytes": 3834,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-render-packet-mjs.omilisp",
+      "relative_path": "logic/verify/verify_render_packet.mjs",
+      "sha256": "559099f1eba34f90e9e01b3ee8a0c955228dfd8f06889820ff739cba98314a39",
+      "sid": "omnicron-port.logic-verify-verify-render-packet-mjs"
+    },
+    {
+      "bytes": 1460,
+      "extension": ".sh",
+      "family": "code",
+      "output": "logic-verify-verify-rendering-env-sh.omilisp",
+      "relative_path": "logic/verify/verify_rendering_env.sh",
+      "sha256": "06659687ad345e56fdc6a553f22e58f270bcc66a55f8d69a523ed02954de69c8",
+      "sid": "omnicron-port.logic-verify-verify-rendering-env-sh"
+    },
+    {
+      "bytes": 2387,
+      "extension": ".sh",
+      "family": "code",
+      "output": "logic-verify-verify-riscv-artifacts-sh.omilisp",
+      "relative_path": "logic/verify/verify_riscv_artifacts.sh",
+      "sha256": "f411018587ec879a90c5252504f54e677a8d1cec818ffde0e7e0175ca65513c8",
+      "sid": "omnicron-port.logic-verify-verify-riscv-artifacts-sh"
+    },
+    {
+      "bytes": 11065,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-surface-equivalence-mjs.omilisp",
+      "relative_path": "logic/verify/verify_surface_equivalence.mjs",
+      "sha256": "7a3a610ff371caebcfee8b5ed958b8e4b55675dabc478bfc496821bbc017ed51",
+      "sid": "omnicron-port.logic-verify-verify-surface-equivalence-mjs"
+    },
+    {
+      "bytes": 409,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "logic-verify-verify-visual-renderer-mjs.omilisp",
+      "relative_path": "logic/verify/verify_visual_renderer.mjs",
+      "sha256": "f41441d9f1270c66f3c5a2a4453c1cbbc8ece1544e94356e59694c182602b250",
+      "sid": "omnicron-port.logic-verify-verify-visual-renderer-mjs"
+    },
+    {
+      "bytes": 38504,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "logic-interp.omilisp",
+      "relative_path": "logic-interp",
+      "sha256": "5aadd0fdfb484180d3b5a069ad699a789c81444d9d0906e92006a57a513f42f6",
+      "sid": "omnicron-port.logic-interp"
+    },
+    {
+      "bytes": 47542,
+      "extension": ".c",
+      "family": "code",
+      "output": "logic-interp-c.omilisp",
+      "relative_path": "logic-interp.c",
+      "sha256": "94f44fe4f694618f31cdfa9bada89faf15ea7b9fd676f934f9c8930765257eb3",
+      "sid": "omnicron-port.logic-interp-c"
+    },
+    {
+      "bytes": 21848,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "omnicron-viewer.omilisp",
+      "relative_path": "omnicron_viewer",
+      "sha256": "507af991801fba76978ae68e4628715815b30aa0848bebc823a557211ac4ca49",
+      "sid": "omnicron-port.omnicron-viewer"
+    },
+    {
+      "bytes": 757,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "package-lock-json.omilisp",
+      "relative_path": "package-lock.json",
+      "sha256": "3e09d6a031f146ce7c000b99b723e9074aa5ad4f755d0831ade5cf8e0ef3ab1d",
+      "sid": "omnicron-port.package-lock-json"
+    },
+    {
+      "bytes": 48,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "package-json.omilisp",
+      "relative_path": "package.json",
+      "sha256": "58b2d8f00d80bfea5beb880750b521b7ed1382c5a7cb8a452b5b7528be333cfd",
+      "sid": "omnicron-port.package-json"
+    },
+    {
+      "bytes": 29480,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "pair-machine.omilisp",
+      "relative_path": "pair-machine",
+      "sha256": "9959e94e9387b860754a87884fd458b58a414ca62b4e60b3d56865afa0bacf45",
+      "sid": "omnicron-port.pair-machine"
+    },
+    {
+      "bytes": 30679,
+      "extension": ".c",
+      "family": "code",
+      "output": "pair-machine-c.omilisp",
+      "relative_path": "pair-machine.c",
+      "sha256": "376318f1d8761678ac8f213103f5984004ef6f8bab34d53073dbdb8815a962c8",
+      "sid": "omnicron-port.pair-machine-c"
+    },
+    {
+      "bytes": 847,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-attributes-rules-aztec-json.omilisp",
+      "relative_path": "polyform/attributes/rules_aztec.json",
+      "sha256": "c7d52bfd548c3fe970e87133c93c8f79a694bd3d08a27b7272a3178f47f9ed5d",
+      "sid": "omnicron-port.polyform-attributes-rules-aztec-json"
+    },
+    {
+      "bytes": 848,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-attributes-rules-beecode-json.omilisp",
+      "relative_path": "polyform/attributes/rules_beecode.json",
+      "sha256": "8cd03c7c32c3512a0600b70ec4c3a281441e7206c9c869c8f18d8d17942585ad",
+      "sid": "omnicron-port.polyform-attributes-rules-beecode-json"
+    },
+    {
+      "bytes": 857,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-attributes-rules-code16k-barcode-json.omilisp",
+      "relative_path": "polyform/attributes/rules_code16k_barcode.json",
+      "sha256": "0784b3af258102b6e9809dd39571fb780aca2fc71f1be6be9a48c2a570771660",
+      "sid": "omnicron-port.polyform-attributes-rules-code16k-barcode-json"
+    },
+    {
+      "bytes": 860,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-attributes-rules-code16k-polyform-json.omilisp",
+      "relative_path": "polyform/attributes/rules_code16k_polyform.json",
+      "sha256": "bf90250c4e0dfbe3c3174fa76af33df31fdcf0cf9953e854a1e1bf09c373fd3c",
+      "sid": "omnicron-port.polyform-attributes-rules-code16k-polyform-json"
+    },
+    {
+      "bytes": 856,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-attributes-rules-code16k-polygon-json.omilisp",
+      "relative_path": "polyform/attributes/rules_code16k_polygon.json",
+      "sha256": "9f0aa0cc3d6cd1215539d3a099a09939607f0f10900104c95d82c7cc7a8d7ae8",
+      "sid": "omnicron-port.polyform-attributes-rules-code16k-polygon-json"
+    },
+    {
+      "bytes": 855,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-attributes-rules-golden-aztec-json.omilisp",
+      "relative_path": "polyform/attributes/rules_golden_aztec.json",
+      "sha256": "f4b702b2c36eeea085a995c661d4bca543f5f3a35164ce0f7ea0f361d8277aa8",
+      "sid": "omnicron-port.polyform-attributes-rules-golden-aztec-json"
+    },
+    {
+      "bytes": 856,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-attributes-rules-golden-beecode-json.omilisp",
+      "relative_path": "polyform/attributes/rules_golden_beecode.json",
+      "sha256": "121dafb5b2eafad7aa8105f7ad75489264232690e53ce8c8c73bdcb7cf3e5fdb",
+      "sid": "omnicron-port.polyform-attributes-rules-golden-beecode-json"
+    },
+    {
+      "bytes": 859,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-attributes-rules-golden-code16k-json.omilisp",
+      "relative_path": "polyform/attributes/rules_golden_code16k.json",
+      "sha256": "0939d40546a8c0d6dac09c548cca7b3bac64242207227151fd32302356e51984",
+      "sid": "omnicron-port.polyform-attributes-rules-golden-code16k-json"
+    },
+    {
+      "bytes": 851,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-attributes-rules-golden-maxi-json.omilisp",
+      "relative_path": "polyform/attributes/rules_golden_maxi.json",
+      "sha256": "f907bf62398fad6f904142b721cb34219602894a191e168220886c85670d872b",
+      "sid": "omnicron-port.polyform-attributes-rules-golden-maxi-json"
+    },
+    {
+      "bytes": 843,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-attributes-rules-maxi-json.omilisp",
+      "relative_path": "polyform/attributes/rules_maxi.json",
+      "sha256": "8532f775660cdcb2e55ddb6b7104c9829cecc133dfbeb7a44a141e0b06aa45d7",
+      "sid": "omnicron-port.polyform-attributes-rules-maxi-json"
+    },
+    {
+      "bytes": 4210,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-bitboards-bitboard-to-canonical-ndjson-mjs.omilisp",
+      "relative_path": "polyform/bitboards/bitboard_to_canonical_ndjson.mjs",
+      "sha256": "18e6838c3d6ee629cf3d4e00dc7319571d6a6144a75d1cf02168c3407df9d04f",
+      "sid": "omnicron-port.polyform-bitboards-bitboard-to-canonical-ndjson-mjs"
+    },
+    {
+      "bytes": 582,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-bitboards-control-graph-golden-bitboard.omilisp",
+      "relative_path": "polyform/bitboards/control_graph_golden.bitboard",
+      "sha256": "e44bb2b960111b43758b2d344f69dc258aa2946119a40131eac5004c805e2bb8",
+      "sid": "omnicron-port.polyform-bitboards-control-graph-golden-bitboard"
+    },
+    {
+      "bytes": 566,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-bitboards-control-graph-negative-bitboard.omilisp",
+      "relative_path": "polyform/bitboards/control_graph_negative.bitboard",
+      "sha256": "37c7eb14622c2532a7f646bb6eb6d0bfa443b017e1a3df60704e9ca3c400a80c",
+      "sid": "omnicron-port.polyform-bitboards-control-graph-negative-bitboard"
+    },
+    {
+      "bytes": 589,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-bitboards-control-graph-overlay-aegean-bitboard.omilisp",
+      "relative_path": "polyform/bitboards/control_graph_overlay_aegean.bitboard",
+      "sha256": "1032183ee9b51e7acff79139491ddb3fac28c4bb6086833c0767c91604be0e7b",
+      "sid": "omnicron-port.polyform-bitboards-control-graph-overlay-aegean-bitboard"
+    },
+    {
+      "bytes": 3257,
+      "extension": ".logic",
+      "family": "declaration",
+      "output": "polyform-bitboards-coreform-chain-logic.omilisp",
+      "relative_path": "polyform/bitboards/coreform_chain.logic",
+      "sha256": "08e2f56f7c9402dcf5d31519bf8b29eeb8235e67989f4f965d4ee5205edb78fb",
+      "sid": "omnicron-port.polyform-bitboards-coreform-chain-logic"
+    },
+    {
+      "bytes": 10287,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-bitboards-coreform-logic-to-canonical-ndjson-mjs.omilisp",
+      "relative_path": "polyform/bitboards/coreform_logic_to_canonical_ndjson.mjs",
+      "sha256": "f2d942984024b68a60a5a14374a5860439f6094f082cc11b91ef52e7738a38ab",
+      "sid": "omnicron-port.polyform-bitboards-coreform-logic-to-canonical-ndjson-mjs"
+    },
+    {
+      "bytes": 578,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-bitboards-rules-golden-bitboard.omilisp",
+      "relative_path": "polyform/bitboards/rules_golden.bitboard",
+      "sha256": "22d205fbe1faf4d7f6afd814e21c5f771a246beb59fce5ffcb4db72b7c38ddf2",
+      "sid": "omnicron-port.polyform-bitboards-rules-golden-bitboard"
+    },
+    {
+      "bytes": 589,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-bitboards-rules-negative-bitboard.omilisp",
+      "relative_path": "polyform/bitboards/rules_negative.bitboard",
+      "sha256": "819ea40e19b93085709fc3b6e7c6a6045a3059308f0ae66f7a4655b8e393dfc8",
+      "sid": "omnicron-port.polyform-bitboards-rules-negative-bitboard"
+    },
+    {
+      "bytes": 74291,
+      "extension": ".logic",
+      "family": "declaration",
+      "output": "polyform-bitboards-rules-selected-logic.omilisp",
+      "relative_path": "polyform/bitboards/rules_selected.logic",
+      "sha256": "415242ec9f5869c9ffceedec9d6fd2576b7b6dee92db303fb34dbbedb56ac77d",
+      "sid": "omnicron-port.polyform-bitboards-rules-selected-logic"
+    },
+    {
+      "bytes": 3419,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-bitboards-verify-bitboard-authority-mjs.omilisp",
+      "relative_path": "polyform/bitboards/verify_bitboard_authority.mjs",
+      "sha256": "4feb1cd100c0a3abb7f1d4a3c182b0c814936a7e51e423632b53ca3b00f6692f",
+      "sid": "omnicron-port.polyform-bitboards-verify-bitboard-authority-mjs"
+    },
+    {
+      "bytes": 5423,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-bitboards-verify-coreform-chain-mjs.omilisp",
+      "relative_path": "polyform/bitboards/verify_coreform_chain.mjs",
+      "sha256": "e2eee651983e859dc0fe3ad592202db9cdf2c7591b0eb98f3e999f3786e65c5c",
+      "sid": "omnicron-port.polyform-bitboards-verify-coreform-chain-mjs"
+    },
+    {
+      "bytes": 40658,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-geometries-rules-aztec-ndjson.omilisp",
+      "relative_path": "polyform/geometries/rules_aztec.ndjson",
+      "sha256": "395706bcc8d496ca22fec5df458d88d63ad66f14442607b22088b1450c76a485",
+      "sid": "omnicron-port.polyform-geometries-rules-aztec-ndjson"
+    },
+    {
+      "bytes": 217,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-geometries-rules-beecode-ndjson.omilisp",
+      "relative_path": "polyform/geometries/rules_beecode.ndjson",
+      "sha256": "5f2a389c1d886a8d938fe00aaf3362cffbd0208998c2fcc4d86b537655ed887f",
+      "sid": "omnicron-port.polyform-geometries-rules-beecode-ndjson"
+    },
+    {
+      "bytes": 3158,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-geometries-rules-code16k-barcode-ndjson.omilisp",
+      "relative_path": "polyform/geometries/rules_code16k_barcode.ndjson",
+      "sha256": "9f2104023d3a6bfe10c13c81831ae3dbd596e3ccd777caccfd4f8b405580ccb9",
+      "sid": "omnicron-port.polyform-geometries-rules-code16k-barcode-ndjson"
+    },
+    {
+      "bytes": 43474,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-geometries-rules-code16k-polyform-ndjson.omilisp",
+      "relative_path": "polyform/geometries/rules_code16k_polyform.ndjson",
+      "sha256": "e54e1f6e40b4b19dc40dc77a1ab44e6c5e87376338add2a29ccd2077a7f72c20",
+      "sid": "omnicron-port.polyform-geometries-rules-code16k-polyform-ndjson"
+    },
+    {
+      "bytes": 225,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-geometries-rules-code16k-polygon-ndjson.omilisp",
+      "relative_path": "polyform/geometries/rules_code16k_polygon.ndjson",
+      "sha256": "77732ad3e8bff4d19049f1e583ff13be70fedbec9cf3e805c9add94ef3802cf0",
+      "sid": "omnicron-port.polyform-geometries-rules-code16k-polygon-ndjson"
+    },
+    {
+      "bytes": 42112,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-geometries-rules-golden-aztec-ndjson.omilisp",
+      "relative_path": "polyform/geometries/rules_golden_aztec.ndjson",
+      "sha256": "c6423a4faec69406bf505045276fa57404acc950e32d53279bcba41ad66ef318",
+      "sid": "omnicron-port.polyform-geometries-rules-golden-aztec-ndjson"
+    },
+    {
+      "bytes": 224,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-geometries-rules-golden-beecode-ndjson.omilisp",
+      "relative_path": "polyform/geometries/rules_golden_beecode.ndjson",
+      "sha256": "0676cce793f6ba298629a03ae11dd267ed73e7245d352da17e7e8f489f845bce",
+      "sid": "omnicron-port.polyform-geometries-rules-golden-beecode-ndjson"
+    },
+    {
+      "bytes": 42620,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-geometries-rules-golden-code16k-ndjson.omilisp",
+      "relative_path": "polyform/geometries/rules_golden_code16k.ndjson",
+      "sha256": "e0850f0d59adbd8dc0349ddf2569f8b3d32c8cf7f8a19e8d09f77924bf34c25b",
+      "sid": "omnicron-port.polyform-geometries-rules-golden-code16k-ndjson"
+    },
+    {
+      "bytes": 3487,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-geometries-rules-golden-maxi-ndjson.omilisp",
+      "relative_path": "polyform/geometries/rules_golden_maxi.ndjson",
+      "sha256": "aa48f02a5f308a96b8677598a724177180af84c5b62ff54a5c226b05c907e41e",
+      "sid": "omnicron-port.polyform-geometries-rules-golden-maxi-ndjson"
+    },
+    {
+      "bytes": 2982,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-geometries-rules-maxi-ndjson.omilisp",
+      "relative_path": "polyform/geometries/rules_maxi.ndjson",
+      "sha256": "b375ec6ec0eb58bfd9a7178ebd51d2cb8090908a62ce5a54b8164302596410dc",
+      "sid": "omnicron-port.polyform-geometries-rules-maxi-ndjson"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-objects-rules-aztec-bitboard.omilisp",
+      "relative_path": "polyform/objects/rules_aztec.bitboard",
+      "sha256": "6f8dc3380487073c0695090913b9f81fa2c2f6fa3aebdaa641241e6711857be5",
+      "sid": "omnicron-port.polyform-objects-rules-aztec-bitboard"
+    },
+    {
+      "bytes": 70,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "polyform-objects-rules-aztec-png.omilisp",
+      "relative_path": "polyform/objects/rules_aztec.png",
+      "sha256": "4866e8d2a86df2db29fcd72c567cfa5d5befa578b67c845de52c8ccfdd774f46",
+      "sid": "omnicron-port.polyform-objects-rules-aztec-png"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-objects-rules-beecode-bitboard.omilisp",
+      "relative_path": "polyform/objects/rules_beecode.bitboard",
+      "sha256": "6f8dc3380487073c0695090913b9f81fa2c2f6fa3aebdaa641241e6711857be5",
+      "sid": "omnicron-port.polyform-objects-rules-beecode-bitboard"
+    },
+    {
+      "bytes": 70,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "polyform-objects-rules-beecode-png.omilisp",
+      "relative_path": "polyform/objects/rules_beecode.png",
+      "sha256": "4866e8d2a86df2db29fcd72c567cfa5d5befa578b67c845de52c8ccfdd774f46",
+      "sid": "omnicron-port.polyform-objects-rules-beecode-png"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-objects-rules-code16k-barcode-bitboard.omilisp",
+      "relative_path": "polyform/objects/rules_code16k_barcode.bitboard",
+      "sha256": "6f8dc3380487073c0695090913b9f81fa2c2f6fa3aebdaa641241e6711857be5",
+      "sid": "omnicron-port.polyform-objects-rules-code16k-barcode-bitboard"
+    },
+    {
+      "bytes": 70,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "polyform-objects-rules-code16k-barcode-png.omilisp",
+      "relative_path": "polyform/objects/rules_code16k_barcode.png",
+      "sha256": "4866e8d2a86df2db29fcd72c567cfa5d5befa578b67c845de52c8ccfdd774f46",
+      "sid": "omnicron-port.polyform-objects-rules-code16k-barcode-png"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-objects-rules-code16k-polyform-bitboard.omilisp",
+      "relative_path": "polyform/objects/rules_code16k_polyform.bitboard",
+      "sha256": "6f8dc3380487073c0695090913b9f81fa2c2f6fa3aebdaa641241e6711857be5",
+      "sid": "omnicron-port.polyform-objects-rules-code16k-polyform-bitboard"
+    },
+    {
+      "bytes": 70,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "polyform-objects-rules-code16k-polyform-png.omilisp",
+      "relative_path": "polyform/objects/rules_code16k_polyform.png",
+      "sha256": "4866e8d2a86df2db29fcd72c567cfa5d5befa578b67c845de52c8ccfdd774f46",
+      "sid": "omnicron-port.polyform-objects-rules-code16k-polyform-png"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-objects-rules-code16k-polygon-bitboard.omilisp",
+      "relative_path": "polyform/objects/rules_code16k_polygon.bitboard",
+      "sha256": "6f8dc3380487073c0695090913b9f81fa2c2f6fa3aebdaa641241e6711857be5",
+      "sid": "omnicron-port.polyform-objects-rules-code16k-polygon-bitboard"
+    },
+    {
+      "bytes": 70,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "polyform-objects-rules-code16k-polygon-png.omilisp",
+      "relative_path": "polyform/objects/rules_code16k_polygon.png",
+      "sha256": "4866e8d2a86df2db29fcd72c567cfa5d5befa578b67c845de52c8ccfdd774f46",
+      "sid": "omnicron-port.polyform-objects-rules-code16k-polygon-png"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-objects-rules-golden-aztec-bitboard.omilisp",
+      "relative_path": "polyform/objects/rules_golden_aztec.bitboard",
+      "sha256": "e5ee2aaa6373dfb8793a81ee2b9f21c6d132852e43658b186f7bd33c5269c87d",
+      "sid": "omnicron-port.polyform-objects-rules-golden-aztec-bitboard"
+    },
+    {
+      "bytes": 75,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "polyform-objects-rules-golden-aztec-png.omilisp",
+      "relative_path": "polyform/objects/rules_golden_aztec.png",
+      "sha256": "7f497987e45c3264ef4f981391d8b3b77a72c4e3df59d7d6a324dc924a7a807c",
+      "sid": "omnicron-port.polyform-objects-rules-golden-aztec-png"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-objects-rules-golden-beecode-bitboard.omilisp",
+      "relative_path": "polyform/objects/rules_golden_beecode.bitboard",
+      "sha256": "e5ee2aaa6373dfb8793a81ee2b9f21c6d132852e43658b186f7bd33c5269c87d",
+      "sid": "omnicron-port.polyform-objects-rules-golden-beecode-bitboard"
+    },
+    {
+      "bytes": 75,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "polyform-objects-rules-golden-beecode-png.omilisp",
+      "relative_path": "polyform/objects/rules_golden_beecode.png",
+      "sha256": "7f497987e45c3264ef4f981391d8b3b77a72c4e3df59d7d6a324dc924a7a807c",
+      "sid": "omnicron-port.polyform-objects-rules-golden-beecode-png"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-objects-rules-golden-code16k-bitboard.omilisp",
+      "relative_path": "polyform/objects/rules_golden_code16k.bitboard",
+      "sha256": "e5ee2aaa6373dfb8793a81ee2b9f21c6d132852e43658b186f7bd33c5269c87d",
+      "sid": "omnicron-port.polyform-objects-rules-golden-code16k-bitboard"
+    },
+    {
+      "bytes": 75,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "polyform-objects-rules-golden-code16k-png.omilisp",
+      "relative_path": "polyform/objects/rules_golden_code16k.png",
+      "sha256": "7f497987e45c3264ef4f981391d8b3b77a72c4e3df59d7d6a324dc924a7a807c",
+      "sid": "omnicron-port.polyform-objects-rules-golden-code16k-png"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-objects-rules-golden-maxi-bitboard.omilisp",
+      "relative_path": "polyform/objects/rules_golden_maxi.bitboard",
+      "sha256": "e5ee2aaa6373dfb8793a81ee2b9f21c6d132852e43658b186f7bd33c5269c87d",
+      "sid": "omnicron-port.polyform-objects-rules-golden-maxi-bitboard"
+    },
+    {
+      "bytes": 75,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "polyform-objects-rules-golden-maxi-png.omilisp",
+      "relative_path": "polyform/objects/rules_golden_maxi.png",
+      "sha256": "7f497987e45c3264ef4f981391d8b3b77a72c4e3df59d7d6a324dc924a7a807c",
+      "sid": "omnicron-port.polyform-objects-rules-golden-maxi-png"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-objects-rules-maxi-bitboard.omilisp",
+      "relative_path": "polyform/objects/rules_maxi.bitboard",
+      "sha256": "6f8dc3380487073c0695090913b9f81fa2c2f6fa3aebdaa641241e6711857be5",
+      "sid": "omnicron-port.polyform-objects-rules-maxi-bitboard"
+    },
+    {
+      "bytes": 70,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "polyform-objects-rules-maxi-png.omilisp",
+      "relative_path": "polyform/objects/rules_maxi.png",
+      "sha256": "4866e8d2a86df2db29fcd72c567cfa5d5befa578b67c845de52c8ccfdd774f46",
+      "sid": "omnicron-port.polyform-objects-rules-maxi-png"
+    },
+    {
+      "bytes": 76,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "polyform-org-gitignore.omilisp",
+      "relative_path": "polyform/org/.gitignore",
+      "sha256": "d18000eacb831b492658af2325b8775c5457938e5bbc46bcc39b1f6522118bdb",
+      "sid": "omnicron-port.polyform-org-gitignore"
+    },
+    {
+      "bytes": 524,
+      "extension": ".toml",
+      "family": "artifact",
+      "output": "polyform-org-cargo-toml.omilisp",
+      "relative_path": "polyform/org/Cargo.toml",
+      "sha256": "7776b1288f2a65267c089f00de5ac6bb696bb1a7e5d8923d2df4ef40a7579a8b",
+      "sid": "omnicron-port.polyform-org-cargo-toml"
+    },
+    {
+      "bytes": 1076,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "polyform-org-license.omilisp",
+      "relative_path": "polyform/org/LICENSE",
+      "sha256": "e086f5e5a02e781622b170fa899692306bbcbae92504a7671ec969366d8b7738",
+      "sid": "omnicron-port.polyform-org-license"
+    },
+    {
+      "bytes": 332,
+      "extension": ".gyp",
+      "family": "artifact",
+      "output": "polyform-org-binding-gyp.omilisp",
+      "relative_path": "polyform/org/binding.gyp",
+      "sha256": "9361b6c2ce7b125f5ce38c7e9f51babed9875c34652b36c4ffefefca1ca3ec15",
+      "sid": "omnicron-port.polyform-org-binding-gyp"
+    },
+    {
+      "bytes": 857,
+      "extension": ".cc",
+      "family": "code",
+      "output": "polyform-org-bindings-node-binding-cc.omilisp",
+      "relative_path": "polyform/org/bindings/node/binding.cc",
+      "sha256": "82630c6d9ac81c4994e1161d80318e054a2f0f7c5e879c408a37d95778690adf",
+      "sid": "omnicron-port.polyform-org-bindings-node-binding-cc"
+    },
+    {
+      "bytes": 457,
+      "extension": ".js",
+      "family": "code",
+      "output": "polyform-org-bindings-node-index-js.omilisp",
+      "relative_path": "polyform/org/bindings/node/index.js",
+      "sha256": "b9197c43d92ea6449bf193b911c1211f03e1812c909c2aeb18f54548fa882332",
+      "sid": "omnicron-port.polyform-org-bindings-node-index-js"
+    },
+    {
+      "bytes": 652,
+      "extension": ".rs",
+      "family": "code",
+      "output": "polyform-org-bindings-rust-build-rs.omilisp",
+      "relative_path": "polyform/org/bindings/rust/build.rs",
+      "sha256": "fd420b75712f7437d7fadb6c488a417a3bc268bcf8c7c43185d7db1fab94c614",
+      "sid": "omnicron-port.polyform-org-bindings-rust-build-rs"
+    },
+    {
+      "bytes": 1928,
+      "extension": ".rs",
+      "family": "code",
+      "output": "polyform-org-bindings-rust-lib-rs.omilisp",
+      "relative_path": "polyform/org/bindings/rust/lib.rs",
+      "sha256": "bef78a67f3ad3d7990bbac882b8525326115f6997a4b932ffdba6231a8477820",
+      "sid": "omnicron-port.polyform-org-bindings-rust-lib-rs"
+    },
+    {
+      "bytes": 62915,
+      "extension": ".tst",
+      "family": "artifact",
+      "output": "polyform-org-corpus-basic-tst.omilisp",
+      "relative_path": "polyform/org/corpus/basic.tst",
+      "sha256": "168d758c9989e7096bb8f1947c2defa1419aac4906e63f198cf3176baa831dca",
+      "sid": "omnicron-port.polyform-org-corpus-basic-tst"
+    },
+    {
+      "bytes": 1961,
+      "extension": ".tst",
+      "family": "artifact",
+      "output": "polyform-org-corpus-omnicron-profile-tst.omilisp",
+      "relative_path": "polyform/org/corpus/omnicron_profile.tst",
+      "sha256": "ed49e27a462fa8b4140ee6ae702a4d23b304258cf989c658eb2710e8c71c894c",
+      "sid": "omnicron-port.polyform-org-corpus-omnicron-profile-tst"
+    },
+    {
+      "bytes": 1514,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-org-golden-omnicron-profile-canonical-ndjson.omilisp",
+      "relative_path": "polyform/org/golden/omnicron_profile.canonical.ndjson",
+      "sha256": "793d8ffc6cf3dda3f3dfe13452fdbf952095105210229708087b6baa7a064aed",
+      "sid": "omnicron-port.polyform-org-golden-omnicron-profile-canonical-ndjson"
+    },
+    {
+      "bytes": 1414,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-org-golden-omnicron-profile-resolved-ndjson.omilisp",
+      "relative_path": "polyform/org/golden/omnicron_profile.resolved.ndjson",
+      "sha256": "8be457f808b1b81a1a121877b7822b4efb65c31ddf417fafa7d1a17a2eda47cb",
+      "sid": "omnicron-port.polyform-org-golden-omnicron-profile-resolved-ndjson"
+    },
+    {
+      "bytes": 931,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-org-golden-omnicron-profile-structural-ndjson.omilisp",
+      "relative_path": "polyform/org/golden/omnicron_profile.structural.ndjson",
+      "sha256": "9338f2be0699c2c77a961560f50b7fb17dc0b2a3461313009430d1cdf4352bf8",
+      "sid": "omnicron-port.polyform-org-golden-omnicron-profile-structural-ndjson"
+    },
+    {
+      "bytes": 10386,
+      "extension": ".js",
+      "family": "code",
+      "output": "polyform-org-grammar-js.omilisp",
+      "relative_path": "polyform/org/grammar.js",
+      "sha256": "944dce2455d4355b0219a9e29390f8b204bb8216aaa3158e2fa7600b02ac7e41",
+      "sid": "omnicron-port.polyform-org-grammar-js"
+    },
+    {
+      "bytes": 1091,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-org-package-json.omilisp",
+      "relative_path": "polyform/org/package.json",
+      "sha256": "8fdb76353dfe64088041beee399924f87e55e846c6ce10e5ba5fd4e4b2b3f493",
+      "sid": "omnicron-port.polyform-org-package-json"
+    },
+    {
+      "bytes": 3981,
+      "extension": ".scm",
+      "family": "declaration",
+      "output": "polyform-org-queries-highlights-scm.omilisp",
+      "relative_path": "polyform/org/queries/highlights.scm",
+      "sha256": "9ab317168eb64899e6c160da7fca03f1c27e515e4c61a9c7a7e1f6773a6bcbcd",
+      "sid": "omnicron-port.polyform-org-queries-highlights-scm"
+    },
+    {
+      "bytes": 1225,
+      "extension": ".scm",
+      "family": "declaration",
+      "output": "polyform-org-queries-markup-scm.omilisp",
+      "relative_path": "polyform/org/queries/markup.scm",
+      "sha256": "00197edc6e2869d81594fe8dd4d7877e8b891a7d018c6eebb698113db384a3c8",
+      "sid": "omnicron-port.polyform-org-queries-markup-scm"
+    },
+    {
+      "bytes": 1244,
+      "extension": ".scm",
+      "family": "declaration",
+      "output": "polyform-org-queries-omnicron-scm.omilisp",
+      "relative_path": "polyform/org/queries/omnicron.scm",
+      "sha256": "0dcb6b56bf686f0b632363d63c64943bcd55ee78369a9329a0916e93e18a5ac3",
+      "sid": "omnicron-port.polyform-org-queries-omnicron-scm"
+    },
+    {
+      "bytes": 6802,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-org-schema-org-bridge-schema-json.omilisp",
+      "relative_path": "polyform/org/schema/org_bridge.schema.json",
+      "sha256": "4e3209af97ea04dd935c7f3481b03fecb404636d5f953aaba82e99825e9edcd8",
+      "sid": "omnicron-port.polyform-org-schema-org-bridge-schema-json"
+    },
+    {
+      "bytes": 2238,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-org-schema-render-packet-schema-json.omilisp",
+      "relative_path": "polyform/org/schema/render_packet.schema.json",
+      "sha256": "4d7c00f3cbfa4a3e800c22cfddcb8ba9114a10f4c1a02bc6fcef645fa82d403a",
+      "sid": "omnicron-port.polyform-org-schema-render-packet-schema-json"
+    },
+    {
+      "bytes": 1699,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-org-scripts-canonical-identity-mjs.omilisp",
+      "relative_path": "polyform/org/scripts/canonical_identity.mjs",
+      "sha256": "17f2490d6b9b65224502ab79574b1a9edad1beb6571042ef14defb0bbb80f0da",
+      "sid": "omnicron-port.polyform-org-scripts-canonical-identity-mjs"
+    },
+    {
+      "bytes": 3275,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-org-scripts-mixedbase-header8-stream-to-render-packet-ndjson-mjs.omilisp",
+      "relative_path": "polyform/org/scripts/mixedbase_header8_stream_to_render_packet_ndjson.mjs",
+      "sha256": "989859b6647f6098242d4f571c3ebfd0c4b466ec099f5e5cbb425f3241bcee2d",
+      "sid": "omnicron-port.polyform-org-scripts-mixedbase-header8-stream-to-render-packet-ndjson-mjs"
+    },
+    {
+      "bytes": 6191,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-org-scripts-mixedbase-stream-to-render-packet-ndjson-mjs.omilisp",
+      "relative_path": "polyform/org/scripts/mixedbase_stream_to_render_packet_ndjson.mjs",
+      "sha256": "9343c2594a4cbbfe8a5ce41deac163b654a47f0ba4a01199306bb7c51e031b24",
+      "sid": "omnicron-port.polyform-org-scripts-mixedbase-stream-to-render-packet-ndjson-mjs"
+    },
+    {
+      "bytes": 3453,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-org-scripts-org-canonical-to-render-packet-ndjson-mjs.omilisp",
+      "relative_path": "polyform/org/scripts/org_canonical_to_render_packet_ndjson.mjs",
+      "sha256": "bef98f4ea636719fc062cbde013d66db592d1b46fa3e5746444b2d88e300a42c",
+      "sid": "omnicron-port.polyform-org-scripts-org-canonical-to-render-packet-ndjson-mjs"
+    },
+    {
+      "bytes": 1708,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-org-scripts-org-canonical-to-replay-input-mjs.omilisp",
+      "relative_path": "polyform/org/scripts/org_canonical_to_replay_input.mjs",
+      "sha256": "b388dc5faa6957030d22b0d187535e359fdf2dc738bf93f542c28e73b09b14b4",
+      "sid": "omnicron-port.polyform-org-scripts-org-canonical-to-replay-input-mjs"
+    },
+    {
+      "bytes": 8744,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-org-scripts-org-query-to-structural-ndjson-mjs.omilisp",
+      "relative_path": "polyform/org/scripts/org_query_to_structural_ndjson.mjs",
+      "sha256": "4b49ba2325d1104dc63179dadc84d537fddd9dcad8b693a4cfbe1a20426b0476",
+      "sid": "omnicron-port.polyform-org-scripts-org-query-to-structural-ndjson-mjs"
+    },
+    {
+      "bytes": 2586,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-org-scripts-org-render-packet-to-svg-mjs.omilisp",
+      "relative_path": "polyform/org/scripts/org_render_packet_to_svg.mjs",
+      "sha256": "26b146ec18154de8a464407dff9922e0896d8664c3e28c181935c51d351dd06f",
+      "sid": "omnicron-port.polyform-org-scripts-org-render-packet-to-svg-mjs"
+    },
+    {
+      "bytes": 4079,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-org-scripts-org-resolved-to-canonical-ndjson-mjs.omilisp",
+      "relative_path": "polyform/org/scripts/org_resolved_to_canonical_ndjson.mjs",
+      "sha256": "321db3f279325f552d63debb11704cf38790b580b77102ee48f733b173045d29",
+      "sid": "omnicron-port.polyform-org-scripts-org-resolved-to-canonical-ndjson-mjs"
+    },
+    {
+      "bytes": 6719,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-org-scripts-org-structural-to-resolved-ndjson-mjs.omilisp",
+      "relative_path": "polyform/org/scripts/org_structural_to_resolved_ndjson.mjs",
+      "sha256": "e68ef561c3ba90ae61d66c89b9cb2cc70fa647d1f8cada6a39c8762f1ce53792",
+      "sid": "omnicron-port.polyform-org-scripts-org-structural-to-resolved-ndjson-mjs"
+    },
+    {
+      "bytes": 1027,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-org-scripts-verify-bridge-golden-mjs.omilisp",
+      "relative_path": "polyform/org/scripts/verify_bridge_golden.mjs",
+      "sha256": "57661e3dde8a628a58a01f5e98f872e61e2d2635e8d17b9190bf0df945c3870a",
+      "sid": "omnicron-port.polyform-org-scripts-verify-bridge-golden-mjs"
+    },
+    {
+      "bytes": 9566,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-org-scripts-verify-bridge-invariants-mjs.omilisp",
+      "relative_path": "polyform/org/scripts/verify_bridge_invariants.mjs",
+      "sha256": "4ffb962b2ac13d8f74c19d123d3722ec10bd28883d9ddf0cb37e0a9b6fe01d82",
+      "sid": "omnicron-port.polyform-org-scripts-verify-bridge-invariants-mjs"
+    },
+    {
+      "bytes": 121724,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-org-src-grammar-json.omilisp",
+      "relative_path": "polyform/org/src/grammar.json",
+      "sha256": "38a39e7e00ddd8dbba17ab01119b9a0bf11fb702347a4ed161da567a35de94e5",
+      "sid": "omnicron-port.polyform-org-src-grammar-json"
+    },
+    {
+      "bytes": 19731,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "polyform-org-src-node-types-json.omilisp",
+      "relative_path": "polyform/org/src/node-types.json",
+      "sha256": "c18b1f7b7b7dbc383e726b324cddc3472294521313dd660bd504cb59ba0029bb",
+      "sid": "omnicron-port.polyform-org-src-node-types-json"
+    },
+    {
+      "bytes": 2558805,
+      "extension": ".c",
+      "family": "code",
+      "output": "polyform-org-src-parser-c.omilisp",
+      "relative_path": "polyform/org/src/parser.c",
+      "sha256": "a9728afb28c432ccebc8c2298e41fea5f4f02d256e7447bdab61eaae1da83eee",
+      "sid": "omnicron-port.polyform-org-src-parser-c"
+    },
+    {
+      "bytes": 11099,
+      "extension": ".c",
+      "family": "code",
+      "output": "polyform-org-src-scanner-c.omilisp",
+      "relative_path": "polyform/org/src/scanner.c",
+      "sha256": "7d510dd3076f0dea4862dece13d99e3940a99439bcd908fc521190411f136397",
+      "sid": "omnicron-port.polyform-org-src-scanner-c"
+    },
+    {
+      "bytes": 5340,
+      "extension": ".h",
+      "family": "code",
+      "output": "polyform-org-src-tree-sitter-parser-h.omilisp",
+      "relative_path": "polyform/org/src/tree_sitter/parser.h",
+      "sha256": "c569eeb34b7ed816b3a0a43c4cb8c06b36a6ef1164bc82ebed5047284cd73036",
+      "sid": "omnicron-port.polyform-org-src-tree-sitter-parser-h"
+    },
+    {
+      "bytes": 10966,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "polyform-org-viewer-webgl2-viewer-html.omilisp",
+      "relative_path": "polyform/org/viewer/webgl2_viewer.html",
+      "sha256": "f469548bd7310b90a16f0a67ad0c3561703724f5fcac8e10a4223f9bf3969c8a",
+      "sid": "omnicron-port.polyform-org-viewer-webgl2-viewer-html"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-patterns-rules-aztec-bitboard.omilisp",
+      "relative_path": "polyform/patterns/rules.aztec.bitboard",
+      "sha256": "6f8dc3380487073c0695090913b9f81fa2c2f6fa3aebdaa641241e6711857be5",
+      "sid": "omnicron-port.polyform-patterns-rules-aztec-bitboard"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-patterns-rules-beecode-bitboard.omilisp",
+      "relative_path": "polyform/patterns/rules.beecode.bitboard",
+      "sha256": "6f8dc3380487073c0695090913b9f81fa2c2f6fa3aebdaa641241e6711857be5",
+      "sid": "omnicron-port.polyform-patterns-rules-beecode-bitboard"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-patterns-rules-code16k-bitboard.omilisp",
+      "relative_path": "polyform/patterns/rules.code16k.bitboard",
+      "sha256": "6f8dc3380487073c0695090913b9f81fa2c2f6fa3aebdaa641241e6711857be5",
+      "sid": "omnicron-port.polyform-patterns-rules-code16k-bitboard"
+    },
+    {
+      "bytes": 2171,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "polyform-patterns-rules-manifest-ndjson.omilisp",
+      "relative_path": "polyform/patterns/rules.manifest.ndjson",
+      "sha256": "41d0b4720bdf5eea41dabec95f5be917397db72915bb53868a1ce78cbafaf944",
+      "sid": "omnicron-port.polyform-patterns-rules-manifest-ndjson"
+    },
+    {
+      "bytes": 428,
+      "extension": ".bitboard",
+      "family": "declaration",
+      "output": "polyform-patterns-rules-maxi-bitboard.omilisp",
+      "relative_path": "polyform/patterns/rules.maxi.bitboard",
+      "sha256": "6f8dc3380487073c0695090913b9f81fa2c2f6fa3aebdaa641241e6711857be5",
+      "sid": "omnicron-port.polyform-patterns-rules-maxi-bitboard"
+    },
+    {
+      "bytes": 16207,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "polyform-scripts-polyform-toolbox-mjs.omilisp",
+      "relative_path": "polyform/scripts/polyform_toolbox.mjs",
+      "sha256": "618e9f3384e24dc4a944d76181d2655793763e859cad5a7bda58739f51d8bb53",
+      "sid": "omnicron-port.polyform-scripts-polyform-toolbox-mjs"
+    },
+    {
+      "bytes": 495,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "polyform-transformations-rules-aztec-lisp.omilisp",
+      "relative_path": "polyform/transformations/rules_aztec.lisp",
+      "sha256": "b778328603250be583b8eab96a7cb8cf7a4c8cfefb8abba705232053c9375006",
+      "sid": "omnicron-port.polyform-transformations-rules-aztec-lisp"
+    },
+    {
+      "bytes": 498,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "polyform-transformations-rules-beecode-lisp.omilisp",
+      "relative_path": "polyform/transformations/rules_beecode.lisp",
+      "sha256": "c94aad1cfac0f0fc6e10d3add712186fba704d93080339cfa5591217887c3056",
+      "sid": "omnicron-port.polyform-transformations-rules-beecode-lisp"
+    },
+    {
+      "bytes": 506,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "polyform-transformations-rules-code16k-barcode-lisp.omilisp",
+      "relative_path": "polyform/transformations/rules_code16k_barcode.lisp",
+      "sha256": "ab6178ea28e5a84f1d9d244a6822db1e1d28d94b3a581ac4fa2c16433d4dcbfb",
+      "sid": "omnicron-port.polyform-transformations-rules-code16k-barcode-lisp"
+    },
+    {
+      "bytes": 508,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "polyform-transformations-rules-code16k-polyform-lisp.omilisp",
+      "relative_path": "polyform/transformations/rules_code16k_polyform.lisp",
+      "sha256": "22ef8e14c31be1bc41716cb8eeda45b10f31f84a0314ef0a5d5002079fb1a45a",
+      "sid": "omnicron-port.polyform-transformations-rules-code16k-polyform-lisp"
+    },
+    {
+      "bytes": 506,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "polyform-transformations-rules-code16k-polygon-lisp.omilisp",
+      "relative_path": "polyform/transformations/rules_code16k_polygon.lisp",
+      "sha256": "4bd9d9cc6e0a0b38a2551c9f57fb0ab74e7e7354412627f23df1382915bfa39c",
+      "sid": "omnicron-port.polyform-transformations-rules-code16k-polygon-lisp"
+    },
+    {
+      "bytes": 503,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "polyform-transformations-rules-golden-aztec-lisp.omilisp",
+      "relative_path": "polyform/transformations/rules_golden_aztec.lisp",
+      "sha256": "febeef96020c909858e05b9dc1258c93f0b95620f7d1d583c73662c24699eea4",
+      "sid": "omnicron-port.polyform-transformations-rules-golden-aztec-lisp"
+    },
+    {
+      "bytes": 506,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "polyform-transformations-rules-golden-beecode-lisp.omilisp",
+      "relative_path": "polyform/transformations/rules_golden_beecode.lisp",
+      "sha256": "5d25ba8fcb3e3d609826863afc70ab7d2cfe274c2aa86ecdc3910a3b6e0dbede",
+      "sid": "omnicron-port.polyform-transformations-rules-golden-beecode-lisp"
+    },
+    {
+      "bytes": 507,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "polyform-transformations-rules-golden-code16k-lisp.omilisp",
+      "relative_path": "polyform/transformations/rules_golden_code16k.lisp",
+      "sha256": "97a356e4aaf741bef79afb46a48653a08176d89e7350ddf6ca32d0faca689a02",
+      "sid": "omnicron-port.polyform-transformations-rules-golden-code16k-lisp"
+    },
+    {
+      "bytes": 500,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "polyform-transformations-rules-golden-maxi-lisp.omilisp",
+      "relative_path": "polyform/transformations/rules_golden_maxi.lisp",
+      "sha256": "4b26ba7addb4c8ec61001746d0640bcb5134720b3b265d0ee886088c51eeccca",
+      "sid": "omnicron-port.polyform-transformations-rules-golden-maxi-lisp"
+    },
+    {
+      "bytes": 492,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "polyform-transformations-rules-maxi-lisp.omilisp",
+      "relative_path": "polyform/transformations/rules_maxi.lisp",
+      "sha256": "49c5c449d66ff2f5c58c68e3cb74a7b6a7c5f9ee73522c268ec3431402c5fc37",
+      "sid": "omnicron-port.polyform-transformations-rules-maxi-lisp"
+    },
+    {
+      "bytes": 5703,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "polyform-transformations-tetrahedral-hypergraph-expansion-lisp.omilisp",
+      "relative_path": "polyform/transformations/tetrahedral_hypergraph_expansion.lisp",
+      "sha256": "e50d767e348fa1793c84ff2bfac37d7bc812b81a39f5ae5f03401aab34e3702b",
+      "sid": "omnicron-port.polyform-transformations-tetrahedral-hypergraph-expansion-lisp"
+    },
+    {
+      "bytes": 44208,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "polylog.omilisp",
+      "relative_path": "polylog",
+      "sha256": "1695ec2658c79a689f558a76e8605a049cbda76aafd838ddb4c2327d8ba9f4d9",
+      "sid": "omnicron-port.polylog"
+    },
+    {
+      "bytes": 21583,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-atomic-kernel-c.omilisp",
+      "relative_path": "riscv-baremetal/atomic_kernel.c",
+      "sha256": "e4ae867d6b7523f4d1f6341d733de6502c84053d4390b783554fba3ae7801276",
+      "sid": "omnicron-port.riscv-baremetal-atomic-kernel-c"
+    },
+    {
+      "bytes": 10099,
+      "extension": ".h",
+      "family": "code",
+      "output": "riscv-baremetal-composition-h.omilisp",
+      "relative_path": "riscv-baremetal/composition.h",
+      "sha256": "54f13b5fd811cd553548be85cf6399e78034d77f1bff77fdbafcd0dbc74d4739",
+      "sid": "omnicron-port.riscv-baremetal-composition-h"
+    },
+    {
+      "bytes": 3603,
+      "extension": ".py",
+      "family": "code",
+      "output": "riscv-baremetal-feed-channels-py.omilisp",
+      "relative_path": "riscv-baremetal/feed_channels.py",
+      "sha256": "aef1e68f7cff3453ebd519f90fdc901c7bcd98b4dbd5ef750f0bbc50ea28ef35",
+      "sid": "omnicron-port.riscv-baremetal-feed-channels-py"
+    },
+    {
+      "bytes": 2515,
+      "extension": ".S",
+      "family": "code",
+      "output": "riscv-baremetal-heartbeat-loop-s.omilisp",
+      "relative_path": "riscv-baremetal/heartbeat_loop.S",
+      "sha256": "fd6cde87a086e7aaa1b46fe82acfce550151cc0e6a9135275cfd5f86704d9446",
+      "sid": "omnicron-port.riscv-baremetal-heartbeat-loop-s"
+    },
+    {
+      "bytes": 410,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-hello-c.omilisp",
+      "relative_path": "riscv-baremetal/hello.c",
+      "sha256": "e097f4151e83be694b9ca1fd677f3167cc761485d0f3ba555e1efaca60cfc5de",
+      "sid": "omnicron-port.riscv-baremetal-hello-c"
+    },
+    {
+      "bytes": 3667,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-interpolator-c.omilisp",
+      "relative_path": "riscv-baremetal/interpolator.c",
+      "sha256": "f4b27a4252f4687463efb546d44a4e5f36856b5ecbcd6b9d12c5f1fdd7bde062",
+      "sid": "omnicron-port.riscv-baremetal-interpolator-c"
+    },
+    {
+      "bytes": 970,
+      "extension": ".ld",
+      "family": "artifact",
+      "output": "riscv-baremetal-linker-ld.omilisp",
+      "relative_path": "riscv-baremetal/linker.ld",
+      "sha256": "701121f92e4a0790a8bc37b76a3d8bd382eaa83a411eeae123b77b1a00f5cdd9",
+      "sid": "omnicron-port.riscv-baremetal-linker-ld"
+    },
+    {
+      "bytes": 913,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-main-c.omilisp",
+      "relative_path": "riscv-baremetal/main.c",
+      "sha256": "3f00a52b1cb0db4d4b882ff0acebd71008a4d8d0d7cb4fe8cec27ac5179fd420",
+      "sid": "omnicron-port.riscv-baremetal-main-c"
+    },
+    {
+      "bytes": 1157,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-mem-test-c.omilisp",
+      "relative_path": "riscv-baremetal/mem_test.c",
+      "sha256": "b0a27cf1b7d1a2a8ff03e9852598957d81b3fae9530f1629c9f0fddeeb71d498",
+      "sid": "omnicron-port.riscv-baremetal-mem-test-c"
+    },
+    {
+      "bytes": 865,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-minimal-c.omilisp",
+      "relative_path": "riscv-baremetal/minimal.c",
+      "sha256": "14e908b0397f20b08d0ad1938d1382da64119b7639231d936d36931526827438",
+      "sid": "omnicron-port.riscv-baremetal-minimal-c"
+    },
+    {
+      "bytes": 9232,
+      "extension": ".bin",
+      "family": "carrier",
+      "output": "riscv-baremetal-my-kernel-bin.omilisp",
+      "relative_path": "riscv-baremetal/my_kernel.bin",
+      "sha256": "cfdf713c016ba1a242c9b520b3187dda71913f345ae35eab7b51089333db2a91",
+      "sid": "omnicron-port.riscv-baremetal-my-kernel-bin"
+    },
+    {
+      "bytes": 1490,
+      "extension": ".flat2",
+      "family": "carrier",
+      "output": "riscv-baremetal-my-kernel-flat2.omilisp",
+      "relative_path": "riscv-baremetal/my_kernel.flat2",
+      "sha256": "f21013774ee273d15d5bd0e9ca4a660b40f92f9cf6340b61367cc3fdbc7ca5d4",
+      "sid": "omnicron-port.riscv-baremetal-my-kernel-flat2"
+    },
+    {
+      "bytes": 4201,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-omicron-c.omilisp",
+      "relative_path": "riscv-baremetal/omicron.c",
+      "sha256": "2334dbc56702226c8bb54edeb074f54c4d9cae5be48a2d3e04a2bd2e5cad285d",
+      "sid": "omnicron-port.riscv-baremetal-omicron-c"
+    },
+    {
+      "bytes": 2792,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-omicron-driver-c.omilisp",
+      "relative_path": "riscv-baremetal/omicron_driver.c",
+      "sha256": "239d8ad2b364ed44e6deff52c8a17b0a98ebef3b6b01400d77a0e78d36ffc011",
+      "sid": "omnicron-port.riscv-baremetal-omicron-driver-c"
+    },
+    {
+      "bytes": 6253,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-omicron-heartbeat-c.omilisp",
+      "relative_path": "riscv-baremetal/omicron_heartbeat.c",
+      "sha256": "4a3f0aa3e9a02d5c8821b3b8bb6b997379733ca7b58c2751c71d98d4befc41aa",
+      "sid": "omnicron-port.riscv-baremetal-omicron-heartbeat-c"
+    },
+    {
+      "bytes": 1142,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-omicron-sbi-c.omilisp",
+      "relative_path": "riscv-baremetal/omicron_sbi.c",
+      "sha256": "e38b43239d0b673272dcfb1480e6d8dfdedef6955ab751477d725a6719209f09",
+      "sid": "omnicron-port.riscv-baremetal-omicron-sbi-c"
+    },
+    {
+      "bytes": 772,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-pattern-c.omilisp",
+      "relative_path": "riscv-baremetal/pattern.c",
+      "sha256": "138628b6e71e4aea6311c9da0ce6728ce210692cbc8c2fd9c774b44d2db70b11",
+      "sid": "omnicron-port.riscv-baremetal-pattern-c"
+    },
+    {
+      "bytes": 382,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-print-test-c.omilisp",
+      "relative_path": "riscv-baremetal/print_test.c",
+      "sha256": "55d10f3a10ea66367758ab48983425d75a17b0ae48c055443522ce9a31acd833",
+      "sid": "omnicron-port.riscv-baremetal-print-test-c"
+    },
+    {
+      "bytes": 2280,
+      "extension": ".sh",
+      "family": "code",
+      "output": "riscv-baremetal-run-omicron-sh.omilisp",
+      "relative_path": "riscv-baremetal/run_omicron.sh",
+      "sha256": "7c18837ef8973199d0aa35a46dbcd7461d018ec188c586e7728ad18a40518db2",
+      "sid": "omnicron-port.riscv-baremetal-run-omicron-sh"
+    },
+    {
+      "bytes": 10087,
+      "extension": ".h",
+      "family": "code",
+      "output": "riscv-baremetal-sexagesimal-h.omilisp",
+      "relative_path": "riscv-baremetal/sexagesimal.h",
+      "sha256": "1ff0e102747a1351faea9de08e5082aa88f0427849ceec469e0d38c4b9573620",
+      "sid": "omnicron-port.riscv-baremetal-sexagesimal-h"
+    },
+    {
+      "bytes": 1034,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-simple-c.omilisp",
+      "relative_path": "riscv-baremetal/simple.c",
+      "sha256": "8dcd3b1d527429ad165487455cacc426068c1175ed4dad9327022313de0bb944",
+      "sid": "omnicron-port.riscv-baremetal-simple-c"
+    },
+    {
+      "bytes": 313,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-simple-loop-c.omilisp",
+      "relative_path": "riscv-baremetal/simple_loop.c",
+      "sha256": "90b364910ee9bab3b53b420c883e7f24d1717ff18a4825889ac63faa61d551e9",
+      "sid": "omnicron-port.riscv-baremetal-simple-loop-c"
+    },
+    {
+      "bytes": 1390,
+      "extension": ".S",
+      "family": "code",
+      "output": "riscv-baremetal-startup-s.omilisp",
+      "relative_path": "riscv-baremetal/startup.S",
+      "sha256": "2a2797a3982109791ede98b9989c878afa2f9ac3ec5eae9ac0c54bf6ed0b885b",
+      "sid": "omnicron-port.riscv-baremetal-startup-s"
+    },
+    {
+      "bytes": 1973,
+      "extension": ".S",
+      "family": "code",
+      "output": "riscv-baremetal-startup-rotating-s.omilisp",
+      "relative_path": "riscv-baremetal/startup_rotating.S",
+      "sha256": "103c6c4a700816a5ac94a82d0d4f63d8b6beb4909eac553a1f9288dd84944d61",
+      "sid": "omnicron-port.riscv-baremetal-startup-rotating-s"
+    },
+    {
+      "bytes": 1321,
+      "extension": ".S",
+      "family": "code",
+      "output": "riscv-baremetal-startup-simple-s.omilisp",
+      "relative_path": "riscv-baremetal/startup_simple.S",
+      "sha256": "03f2df1bf2bff32ec1dff08ad485d4dd6d514aa9aa2123cd6c172c6795b5f41e",
+      "sid": "omnicron-port.riscv-baremetal-startup-simple-s"
+    },
+    {
+      "bytes": 4880,
+      "extension": ".bin",
+      "family": "carrier",
+      "output": "riscv-baremetal-test-bin.omilisp",
+      "relative_path": "riscv-baremetal/test.bin",
+      "sha256": "81412af716243ac9bcc4a51216371e545ac00a7b67746b49c98379df49c25db5",
+      "sid": "omnicron-port.riscv-baremetal-test-bin"
+    },
+    {
+      "bytes": 2,
+      "extension": ".flat",
+      "family": "carrier",
+      "output": "riscv-baremetal-test-flat.omilisp",
+      "relative_path": "riscv-baremetal/test.flat",
+      "sha256": "a179dbdd51c56d0988551f92535797bcf47ca0e7ef0400f364db54291cfa89aa",
+      "sid": "omnicron-port.riscv-baremetal-test-flat"
+    },
+    {
+      "bytes": 377,
+      "extension": ".S",
+      "family": "code",
+      "output": "riscv-baremetal-test-entry-s.omilisp",
+      "relative_path": "riscv-baremetal/test_entry.S",
+      "sha256": "12829dbc9c0e8a01bd327aa293b4a0ae3642dfb3c55198c694d4628b2315d6e1",
+      "sid": "omnicron-port.riscv-baremetal-test-entry-s"
+    },
+    {
+      "bytes": 940,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-test-ids-c.omilisp",
+      "relative_path": "riscv-baremetal/test_ids.c",
+      "sha256": "ccca661e689a69c98e4466ab3f13520b4a942d4292ed7be944e784a2a7e56fc8",
+      "sid": "omnicron-port.riscv-baremetal-test-ids-c"
+    },
+    {
+      "bytes": 867,
+      "extension": ".c",
+      "family": "code",
+      "output": "riscv-baremetal-test-z-c.omilisp",
+      "relative_path": "riscv-baremetal/test_z.c",
+      "sha256": "9bc378de313f5d3dfa49086e36aa830add0cc988433e749e9ae8e0b2b1c22744",
+      "sid": "omnicron-port.riscv-baremetal-test-z-c"
+    },
+    {
+      "bytes": 13274,
+      "extension": ".h",
+      "family": "code",
+      "output": "riscv-baremetal-ttc-tal-h.omilisp",
+      "relative_path": "riscv-baremetal/ttc_tal.h",
+      "sha256": "6e05bd9272cf47e9bf8de5f8fcd4a23deaf2fec1c228df112f4c6a8c77824d01",
+      "sid": "omnicron-port.riscv-baremetal-ttc-tal-h"
+    },
+    {
+      "bytes": 1998,
+      "extension": ".py",
+      "family": "code",
+      "output": "riscv-baremetal-view-mirror-py.omilisp",
+      "relative_path": "riscv-baremetal/view_mirror.py",
+      "sha256": "a3e0d3346d54c19f806b045d6384aa1dbf205f587cd11073772d2926cec4fa55",
+      "sid": "omnicron-port.riscv-baremetal-view-mirror-py"
+    },
+    {
+      "bytes": 7405,
+      "extension": ".h",
+      "family": "code",
+      "output": "riscv-baremetal-virtio-h.omilisp",
+      "relative_path": "riscv-baremetal/virtio.h",
+      "sha256": "e2543cd4f640dd2e0864358ce1704bafbdcca29282722a7d67515bbb425557b7",
+      "sid": "omnicron-port.riscv-baremetal-virtio-h"
+    },
+    {
+      "bytes": 4677,
+      "extension": ".h",
+      "family": "code",
+      "output": "riscv-baremetal-virtio-read-h.omilisp",
+      "relative_path": "riscv-baremetal/virtio_read.h",
+      "sha256": "b5cc4e6c6cc78ac256aebf3583bf69c00676719f7965757c3135122ebb80620e",
+      "sid": "omnicron-port.riscv-baremetal-virtio-read-h"
+    },
+    {
+      "bytes": 213259,
+      "extension": ".md",
+      "family": "document",
+      "output": "session-ses-2356-md.omilisp",
+      "relative_path": "session-ses_2356.md",
+      "sha256": "64d1550f7a3e88a33c75460bff57b48ca8cc106c12f68f373b546e3f5b1782cb",
+      "sid": "omnicron-port.session-ses-2356-md"
+    },
+    {
+      "bytes": 2393,
+      "extension": ".md",
+      "family": "document",
+      "output": "third-party-omi-lisp-agent-guardrails-md.omilisp",
+      "relative_path": "third_party/omi-lisp/AGENT_GUARDRAILS.md",
+      "sha256": "ed3df1053f4f81c4c72646652cbe6d507736df5aaeefe59e9d039a081bc9e372",
+      "sid": "omnicron-port.third-party-omi-lisp-agent-guardrails-md"
+    },
+    {
+      "bytes": 16525,
+      "extension": ".org",
+      "family": "declaration",
+      "output": "third-party-omi-lisp-control-plane-org.omilisp",
+      "relative_path": "third_party/omi-lisp/CONTROL_PLANE.org",
+      "sha256": "f5dbf35db0b7c9b1e2ce8702da28b3562b0be5226735a4628880ea6d24a2faab",
+      "sid": "omnicron-port.third-party-omi-lisp-control-plane-org"
+    },
+    {
+      "bytes": 567,
+      "extension": ".md",
+      "family": "document",
+      "output": "third-party-omi-lisp-readme-md.omilisp",
+      "relative_path": "third_party/omi-lisp/README.md",
+      "sha256": "08764722a217a09ac820c51ffa11d845ea1b35ff1d33ff3c45b32b97e4b9e881",
+      "sid": "omnicron-port.third-party-omi-lisp-readme-md"
+    },
+    {
+      "bytes": 713,
+      "extension": ".md",
+      "family": "document",
+      "output": "third-party-omi-lisp-snapshot-md.omilisp",
+      "relative_path": "third_party/omi-lisp/SNAPSHOT.md",
+      "sha256": "aa43bf83ab14ad1a8b843687af3bd33b97acf79568ad2b0ffc8fed3ffaca3496",
+      "sid": "omnicron-port.third-party-omi-lisp-snapshot-md"
+    },
+    {
+      "bytes": 6055,
+      "extension": ".org",
+      "family": "declaration",
+      "output": "third-party-omi-lisp-the-complete-ladder-org.omilisp",
+      "relative_path": "third_party/omi-lisp/THE_COMPLETE_LADDER.org",
+      "sha256": "4f13d089b452e43f6a642b6ddcac146c2170d20e04c2b1abfe53bcf9a52cfd92",
+      "sid": "omnicron-port.third-party-omi-lisp-the-complete-ladder-org"
+    },
+    {
+      "bytes": 555,
+      "extension": ".ndjson",
+      "family": "declaration",
+      "output": "third-party-omi-lisp-fixtures-sample-streams-ndjson.omilisp",
+      "relative_path": "third_party/omi-lisp/fixtures/sample_streams.ndjson",
+      "sha256": "e8cbfdeb44feab96114220fb0c84ca7888cf8bc884e95cca7474bc105d14e482",
+      "sid": "omnicron-port.third-party-omi-lisp-fixtures-sample-streams-ndjson"
+    },
+    {
+      "bytes": 9713,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "third-party-omi-lisp-omi-header8-reader-lisp.omilisp",
+      "relative_path": "third_party/omi-lisp/omi_header8_reader.lisp",
+      "sha256": "d9d889ab2f88a8ddde88f48cb88140f509cb5aec7a4cdefb6e20d564b396678b",
+      "sid": "omnicron-port.third-party-omi-lisp-omi-header8-reader-lisp"
+    },
+    {
+      "bytes": 6804,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "third-party-omi-lisp-omi-loader-lisp.omilisp",
+      "relative_path": "third_party/omi-lisp/omi_loader.lisp",
+      "sha256": "d09b6c0fc44c7239384ae6a35628010ae2eb827a96d6aadd95c578529ca5fde2",
+      "sid": "omnicron-port.third-party-omi-lisp-omi-loader-lisp"
+    },
+    {
+      "bytes": 12841,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "third-party-omi-lisp-omi-rewrite-core-lisp.omilisp",
+      "relative_path": "third_party/omi-lisp/omi_rewrite_core.lisp",
+      "sha256": "d72f61b59cf14ecc9a23ce91f096aec62321dfd7894c0aebd033b9bb151b50bb",
+      "sid": "omnicron-port.third-party-omi-lisp-omi-rewrite-core-lisp"
+    },
+    {
+      "bytes": 20247,
+      "extension": ".c",
+      "family": "code",
+      "output": "third-party-omi-lisp-omi-riscv-vm-c.omilisp",
+      "relative_path": "third_party/omi-lisp/omi_riscv_vm.c",
+      "sha256": "2ccc6afd2894c0d66c2dda0b3bddc6e87b61b8b1ad5f02e61b591534538d4261",
+      "sid": "omnicron-port.third-party-omi-lisp-omi-riscv-vm-c"
+    },
+    {
+      "bytes": 14074,
+      "extension": ".c",
+      "family": "code",
+      "output": "viewer-omnicron-viewer-c.omilisp",
+      "relative_path": "viewer/omnicron_viewer.c",
+      "sha256": "7f62d799486de92be757f9b78561e9ce42dc656131c79d009e5ed7fe2ad6bfab",
+      "sid": "omnicron-port.viewer-omnicron-viewer-c"
+    }
+  ],
+  "output_root": "/home/main/omi/omi---imo/declarations/omnicron-port",
+  "source_root": "/home/main/omi/omnicron"
+}

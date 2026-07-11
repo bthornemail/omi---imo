@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-axioms-port.docs-miquel-kernel-md)
+    (title "omi-axioms port: docs/MIQUEL-KERNEL.md")
+    (kind omi-axioms.source-candidate)
+    (source "/home/main/omi/omi-axioms/docs/MIQUEL-KERNEL.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-axioms-port.docs-miquel-kernel-md)
+    (locator omi---imo.omi-axioms-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-axioms)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/MIQUEL-KERNEL.md")
+    (extension ".md")
+    (family document)
+    (bytes 2532)
+    (sha256 "9146bef81405ac39e243f08234a78308e2c32c278195d3e97c0507520ba08147"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 86)
+    (title "Miquel Closure Kernel")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

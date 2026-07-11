@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-protocol-port.deepseek-chat-about-coq-proofs-md)
+    (title "omi-protocol port: DeepSeek Chat about Coq Proofs.md")
+    (kind omi-protocol.source-candidate)
+    (source "/home/main/omi/omi-protocol/DeepSeek Chat about Coq Proofs.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-protocol-port.deepseek-chat-about-coq-proofs-md)
+    (locator omi---imo.omi-protocol-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-protocol)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "DeepSeek Chat about Coq Proofs.md")
+    (extension ".md")
+    (family document)
+    (bytes 139255)
+    (sha256 "f01a3d51b9155e7d2a88e2607ea0a7e74e15aec77e1033e8b6a3b41040157a00"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 3485)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

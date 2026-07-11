@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-canvas-port.c-polyform-carriers-include-polytope-codepoint-bridge-h)
+    (title "omi-canvas port: c/polyform-carriers/include/polytope_codepoint_bridge.h")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/c/polyform-carriers/include/polytope_codepoint_bridge.h")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.c-polyform-carriers-include-polytope-codepoint-bridge-h)
+    (locator omi---imo.omi-canvas-port)
+    (binding h.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs code)
+    (us h))
+  (source-artifact
+    (relative-path "c/polyform-carriers/include/polytope_codepoint_bridge.h")
+    (extension ".h")
+    (family code)
+    (bytes 1049)
+    (sha256 "323d341d3e273d919adf959a99afcd4faf4a7f4d1b74bfde62d41f2eb00a37da"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 33)
+    (function-count 0)
+    (define-count 1)
+    (include-count 2)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

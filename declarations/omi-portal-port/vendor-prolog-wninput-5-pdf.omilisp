@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.vendor-prolog-wninput-5-pdf)
+    (title "omi-portal port: vendor/prolog/wninput.5.pdf")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/vendor/prolog/wninput.5.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.vendor-prolog-wninput-5-pdf)
+    (locator omi---imo.omi-portal-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "vendor/prolog/wninput.5.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 18469)
+    (sha256 "6130738a1c8e4cd0d10fa0d6f4f22b27c3b336c9a123195b917cd4540b1897ab"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

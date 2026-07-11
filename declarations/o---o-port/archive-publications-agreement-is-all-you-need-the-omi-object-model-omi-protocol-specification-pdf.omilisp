@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid o---o-port.archive-publications-agreement-is-all-you-need-the-omi-object-model-omi-protocol-specification-pdf)
+    (title "o---o port: _archive/publications/Agreement Is All You Need_ The Omi Object Model (OMI) Protocol Specification.pdf")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/_archive/publications/Agreement Is All You Need_ The Omi Object Model (OMI) Protocol Specification.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.archive-publications-agreement-is-all-you-need-the-omi-object-model-omi-protocol-specification-pdf)
+    (locator omi---imo.o---o-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "_archive/publications/Agreement Is All You Need_ The Omi Object Model (OMI) Protocol Specification.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 135747)
+    (sha256 "07cdc1ab82594c5b0f4e5d241156b62976f1c85c15965be0ee002d7e7043a594"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

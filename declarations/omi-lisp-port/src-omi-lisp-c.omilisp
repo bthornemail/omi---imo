@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-lisp-port.src-omi-lisp-c)
+    (title "omi-lisp port: src/omi_lisp.c")
+    (kind omi-lisp.source-candidate)
+    (source "/home/main/omi/omi-lisp/src/omi_lisp.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-lisp-port.src-omi-lisp-c)
+    (locator omi---imo.omi-lisp-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-lisp)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "src/omi_lisp.c")
+    (extension ".c")
+    (family code)
+    (bytes 3391)
+    (sha256 "964d0e4fede63cf06624020e8a26871e614703f9e50fe3d8e47cb1cbef9d7b71"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 146)
+    (function-count 7)
+    (define-count 0)
+    (include-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

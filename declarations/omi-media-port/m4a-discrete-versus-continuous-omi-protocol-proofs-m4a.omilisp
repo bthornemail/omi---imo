@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.m4a-discrete-versus-continuous-omi-protocol-proofs-m4a)
+    (title "omi-media port: m4a/Discrete_versus_continuous_OMI_protocol_proofs.m4a")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/m4a/Discrete_versus_continuous_OMI_protocol_proofs.m4a")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.m4a-discrete-versus-continuous-omi-protocol-proofs-m4a)
+    (locator omi---imo.omi-media-port)
+    (binding m4a.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs artifact)
+    (us m4a))
+  (source-artifact
+    (relative-path "m4a/Discrete_versus_continuous_OMI_protocol_proofs.m4a")
+    (extension ".m4a")
+    (family artifact)
+    (bytes 46851794)
+    (sha256 "fe9da1a6529c08a49b097a06dc972754ce8c806220c47bfa8c8443c007fe566b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

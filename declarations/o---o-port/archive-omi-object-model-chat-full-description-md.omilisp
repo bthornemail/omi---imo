@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid o---o-port.archive-omi-object-model-chat-full-description-md)
+    (title "o---o port: _archive/Omi Object Model Chat Full Description.md")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/_archive/Omi Object Model Chat Full Description.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.archive-omi-object-model-chat-full-description-md)
+    (locator omi---imo.o---o-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "_archive/Omi Object Model Chat Full Description.md")
+    (extension ".md")
+    (family document)
+    (bytes 820038)
+    (sha256 "580d18d2a416f8ac2b44f93295a0de6ad93afe2f18964fa3cec69e56562c5f76"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 7874)
+    (title "omi-high-id-242 {")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

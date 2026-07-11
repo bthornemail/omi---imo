@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid o---o-port.7-canon-7-5-rule-to-fact-derivation-md)
+    (title "o---o port: 7_CANON/7.5_RULE_TO_FACT_DERIVATION.md")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/7_CANON/7.5_RULE_TO_FACT_DERIVATION.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.7-canon-7-5-rule-to-fact-derivation-md)
+    (locator omi---imo.o---o-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "7_CANON/7.5_RULE_TO_FACT_DERIVATION.md")
+    (extension ".md")
+    (family document)
+    (bytes 7156)
+    (sha256 "9aa878cb4676d5c99081c787ad95cad94eb34c17315f9322f0af0d8098c1e75d"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 257)
+    (title "Rule-to-Fact Derivation Protocol")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

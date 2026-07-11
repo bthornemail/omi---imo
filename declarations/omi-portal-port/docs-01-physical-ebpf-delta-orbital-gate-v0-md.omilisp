@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.docs-01-physical-ebpf-delta-orbital-gate-v0-md)
+    (title "omi-portal port: docs/01-physical/EBPF_DELTA_ORBITAL_GATE_v0.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/docs/01-physical/EBPF_DELTA_ORBITAL_GATE_v0.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.docs-01-physical-ebpf-delta-orbital-gate-v0-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/01-physical/EBPF_DELTA_ORBITAL_GATE_v0.md")
+    (extension ".md")
+    (family document)
+    (bytes 2580)
+    (sha256 "27966c2a982df3748aa974971e4fcc5174518c872792b94ad9199994154273ef"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 72)
+    (title "eBPF/XDP \u0394_C-Orbital Gate v0")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

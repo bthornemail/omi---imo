@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-vault-port.obsidian-plugins-omi-vault-main-js)
+    (title "omi-vault port: .obsidian/plugins/omi-vault/main.js")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-vault/main.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.obsidian-plugins-omi-vault-main-js)
+    (locator omi---imo.omi-vault-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path ".obsidian/plugins/omi-vault/main.js")
+    (extension ".js")
+    (family code)
+    (bytes 15593)
+    (sha256 "9ba0335bcdcf61dbfb19c64fa2f359c332880733ddadd0a4157f1cd869f51dbb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 13)
+    (function-count 18)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-lisp-port.archive-omi-lisp-v1-omi-rewrite-core-lisp)
+    (title "omi-lisp port: _archive/omi-lisp-v1/omi_rewrite_core.lisp")
+    (kind omi-lisp.source-candidate)
+    (source "/home/main/omi/omi-lisp/_archive/omi-lisp-v1/omi_rewrite_core.lisp")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-lisp-port.archive-omi-lisp-v1-omi-rewrite-core-lisp)
+    (locator omi---imo.omi-lisp-port)
+    (binding lisp.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-lisp)
+    (rs declaration)
+    (us lisp))
+  (source-artifact
+    (relative-path "_archive/omi-lisp-v1/omi_rewrite_core.lisp")
+    (extension ".lisp")
+    (family declaration)
+    (bytes 12841)
+    (sha256 "d72f61b59cf14ecc9a23ce91f096aec62321dfd7894c0aebd033b9bb151b50bb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 478)
+    (balanced-parens true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

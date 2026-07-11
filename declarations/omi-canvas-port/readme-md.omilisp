@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canvas-port.readme-md)
+    (title "omi-canvas port: README.md")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/README.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.readme-md)
+    (locator omi---imo.omi-canvas-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "README.md")
+    (extension ".md")
+    (family document)
+    (bytes 5420)
+    (sha256 "ad16d705d024996344ed060f3e1bed90353c4ecc8af9d62c836c4fc2250767f7"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 132)
+    (title "OMI Canvas Type Engine v0")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid o---o-port.8-cosmology-8-2-atomic-delta-and-cosmic-orbit-md)
+    (title "o---o port: 8_COSMOLOGY/8.2_ATOMIC_DELTA_AND_COSMIC_ORBIT.md")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/8_COSMOLOGY/8.2_ATOMIC_DELTA_AND_COSMIC_ORBIT.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.8-cosmology-8-2-atomic-delta-and-cosmic-orbit-md)
+    (locator omi---imo.o---o-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "8_COSMOLOGY/8.2_ATOMIC_DELTA_AND_COSMIC_ORBIT.md")
+    (extension ".md")
+    (family document)
+    (bytes 2060)
+    (sha256 "9213b24a9161079d66096867dd87daa64c49a6cd979ee1497607be525c21f410"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 84)
+    (title "Atomic Delta and Cosmic Orbit")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

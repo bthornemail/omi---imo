@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.omi-rule-set-type-engine-md)
+    (title "omi-docs port: OMI Rule-Set Type Engine.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/OMI Rule-Set Type Engine.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.omi-rule-set-type-engine-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "OMI Rule-Set Type Engine.md")
+    (extension ".md")
+    (family document)
+    (bytes 4808)
+    (sha256 "415078692e36a915debfdc43034055cb23259bceba40e7ce57a5040239633c82"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 328)
+    (title "OMI Rule-Set Type Engine")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

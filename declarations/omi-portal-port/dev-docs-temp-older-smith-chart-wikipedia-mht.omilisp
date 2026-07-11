@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.dev-docs-temp-older-smith-chart-wikipedia-mht)
+    (title "omi-portal port: dev-docs/_temp/older/Smith chart - Wikipedia.mht")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/dev-docs/_temp/older/Smith chart - Wikipedia.mht")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.dev-docs-temp-older-smith-chart-wikipedia-mht)
+    (locator omi---imo.omi-portal-port)
+    (binding mht.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us mht))
+  (source-artifact
+    (relative-path "dev-docs/_temp/older/Smith chart - Wikipedia.mht")
+    (extension ".mht")
+    (family artifact)
+    (bytes 14877763)
+    (sha256 "3f979d432199ac31cf9e2f8b6fd2c4de1a09b744d5377edf609ccd7c75d132a7"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

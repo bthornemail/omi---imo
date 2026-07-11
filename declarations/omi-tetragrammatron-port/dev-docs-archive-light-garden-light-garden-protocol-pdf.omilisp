@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.dev-docs-archive-light-garden-light-garden-protocol-pdf)
+    (title "omi-tetragrammatron port: dev-docs/archive/light-garden/Light_Garden_Protocol.pdf")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/dev-docs/archive/light-garden/Light_Garden_Protocol.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.dev-docs-archive-light-garden-light-garden-protocol-pdf)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "dev-docs/archive/light-garden/Light_Garden_Protocol.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 14455629)
+    (sha256 "e9ba13b9509b1a47e53ba8fc7bad3907e10a0eac2d3f31255c8e1ba72a5df7f9"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

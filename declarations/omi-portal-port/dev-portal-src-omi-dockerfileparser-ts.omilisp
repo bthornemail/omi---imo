@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.dev-portal-src-omi-dockerfileparser-ts)
+    (title "omi-portal port: dev-portal/src/omi/dockerfileParser.ts")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/dev-portal/src/omi/dockerfileParser.ts")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.dev-portal-src-omi-dockerfileparser-ts)
+    (locator omi---imo.omi-portal-port)
+    (binding ts.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us ts))
+  (source-artifact
+    (relative-path "dev-portal/src/omi/dockerfileParser.ts")
+    (extension ".ts")
+    (family artifact)
+    (bytes 2554)
+    (sha256 "40e2c96c33b0744f0da54bf47d9004c87035e23f519ad1bde792560b41a3c493"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

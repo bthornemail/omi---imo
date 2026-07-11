@@ -1,0 +1,1160 @@
+{
+  "count": 125,
+  "extension_counts": {
+    ".MD": 1,
+    ".c": 38,
+    ".cpp": 3,
+    ".css": 1,
+    ".h": 23,
+    ".html": 2,
+    ".ini": 1,
+    ".js": 12,
+    ".json": 2,
+    ".m4a": 3,
+    ".md": 18,
+    ".mp4": 2,
+    ".omi": 3,
+    ".pdf": 5,
+    ".py": 1,
+    ".txt": 5,
+    ".yml": 1,
+    "[no-ext]": 4
+  },
+  "family_counts": {
+    "artifact": 14,
+    "carrier": 5,
+    "code": 74,
+    "declaration": 5,
+    "document": 23,
+    "untyped": 4
+  },
+  "items": [
+    {
+      "bytes": 664,
+      "extension": ".yml",
+      "family": "artifact",
+      "output": "github-workflows-ci-yml.omilisp",
+      "relative_path": ".github/workflows/ci.yml",
+      "sha256": "808e3af585fefb322f087dd87d20ed951844400ef38011c6344c26f3a28a6e90",
+      "sid": "omi-isa-port.github-workflows-ci-yml"
+    },
+    {
+      "bytes": 6,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "gitignore.omilisp",
+      "relative_path": ".gitignore",
+      "sha256": "325292b9002f2b73ea9fe286a2aa470ffc1c5c8e8c246827641806041539baaf",
+      "sid": "omi-isa-port.gitignore"
+    },
+    {
+      "bytes": 63,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "opencode-gitignore.omilisp",
+      "relative_path": ".opencode/.gitignore",
+      "sha256": "663a068e76d264d0bc6740f5450b6c4193c7b41ecf5e0dc222485b8a17404d95",
+      "sid": "omi-isa-port.opencode-gitignore"
+    },
+    {
+      "bytes": 13853,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "opencode-package-lock-json.omilisp",
+      "relative_path": ".opencode/package-lock.json",
+      "sha256": "adeba610412c2b0d4cf1595e173fc7d3b01466b7c2c680564558b4526eb219fb",
+      "sid": "omi-isa-port.opencode-package-lock-json"
+    },
+    {
+      "bytes": 64,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "opencode-package-json.omilisp",
+      "relative_path": ".opencode/package.json",
+      "sha256": "92732f2dbada5bda435179ba888e752095e6a8f07ea8eb4dd66ff4d51c2288e1",
+      "sid": "omi-isa-port.opencode-package-json"
+    },
+    {
+      "bytes": 4228,
+      "extension": ".md",
+      "family": "document",
+      "output": "opencode-plans-512bit-envelope-implementation-md.omilisp",
+      "relative_path": ".opencode/plans/512bit-envelope-implementation.md",
+      "sha256": "0c19c7496d1c50c0cd36d1a04838b3e8edcbf404e3a844e2ed94e448ea60e135",
+      "sid": "omi-isa-port.opencode-plans-512bit-envelope-implementation-md"
+    },
+    {
+      "bytes": 15111,
+      "extension": ".md",
+      "family": "document",
+      "output": "opencode-plans-spectrum-modem-isa-phases-md.omilisp",
+      "relative_path": ".opencode/plans/spectrum-modem-isa-phases.md",
+      "sha256": "a48440d80ddac2bbc3ee2c7938adf8d1c18e8c4f4517523daa84f4b5d5a14bae",
+      "sid": "omi-isa-port.opencode-plans-spectrum-modem-isa-phases-md"
+    },
+    {
+      "bytes": 8421,
+      "extension": ".md",
+      "family": "document",
+      "output": "01-cosmology-md.omilisp",
+      "relative_path": "01_COSMOLOGY.md",
+      "sha256": "31c3a3375e13437c6a0f283fd011065deb0d5327af2aadbd416ed0ce31a12f28",
+      "sid": "omi-isa-port.01-cosmology-md"
+    },
+    {
+      "bytes": 7471,
+      "extension": ".md",
+      "family": "document",
+      "output": "02-foundations-md.omilisp",
+      "relative_path": "02_FOUNDATIONS.md",
+      "sha256": "66c4d8f8157ec33e56b11038870ee6e94063dcd8d12e86a41c44d9f8e7586f29",
+      "sid": "omi-isa-port.02-foundations-md"
+    },
+    {
+      "bytes": 7012,
+      "extension": ".md",
+      "family": "document",
+      "output": "03-mathematics-md.omilisp",
+      "relative_path": "03_MATHEMATICS.md",
+      "sha256": "d89752e65bc4284513fcb3b7aa4b8fcaf5166555d2e577a05f4d53571cf15889",
+      "sid": "omi-isa-port.03-mathematics-md"
+    },
+    {
+      "bytes": 7753,
+      "extension": ".md",
+      "family": "document",
+      "output": "04-architecture-md.omilisp",
+      "relative_path": "04_ARCHITECTURE.md",
+      "sha256": "e2c4f06fa397661f7dc974b595b5d3f26182ae49ce0a2658384407866d51528a",
+      "sid": "omi-isa-port.04-architecture-md"
+    },
+    {
+      "bytes": 7301,
+      "extension": ".md",
+      "family": "document",
+      "output": "05-implementation-md.omilisp",
+      "relative_path": "05_IMPLEMENTATION.md",
+      "sha256": "8da15206e51557b1551679fa164d948560d35abd91c198f8b5677dc89d0a0217",
+      "sid": "omi-isa-port.05-implementation-md"
+    },
+    {
+      "bytes": 9521,
+      "extension": ".MD",
+      "family": "artifact",
+      "output": "06-summary-md.omilisp",
+      "relative_path": "06-SUMMARY.MD",
+      "sha256": "2d585f6bdd8f53dcd96db17af554c0da7d2c4991c6d055da2b8bcd746e1e8c47",
+      "sid": "omi-isa-port.06-summary-md"
+    },
+    {
+      "bytes": 325,
+      "extension": ".md",
+      "family": "document",
+      "output": "contributing-md.omilisp",
+      "relative_path": "CONTRIBUTING.md",
+      "sha256": "7b58e8971564c79789c5cd5b5c2e89e03909f2f3689c8f6f9d112774dda2f95c",
+      "sid": "omi-isa-port.contributing-md"
+    },
+    {
+      "bytes": 1068,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "license.omilisp",
+      "relative_path": "LICENSE",
+      "sha256": "d860ebdba14a3aefc1fdd20eecc1bae583ef0dd418626214e256e5b222c9fe52",
+      "sid": "omi-isa-port.license"
+    },
+    {
+      "bytes": 8184,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "makefile.omilisp",
+      "relative_path": "Makefile",
+      "sha256": "1214f098b61ed3662bd2959439bb68115f428b2209a7d11a6310d5d24913d308",
+      "sid": "omi-isa-port.makefile"
+    },
+    {
+      "bytes": 12059,
+      "extension": ".md",
+      "family": "document",
+      "output": "readme-md.omilisp",
+      "relative_path": "README.md",
+      "sha256": "4fe8d879ae9c13b1bc7ae3b55bcbcc92bea01a2178295ebbe785551cbfaf1f04",
+      "sid": "omi-isa-port.readme-md"
+    },
+    {
+      "bytes": 567,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-architecture-envelope-spec-md.omilisp",
+      "relative_path": "docs/architecture/envelope-spec.md",
+      "sha256": "c65a69bb7ae3aaa89ed30159f4101a276adf4140bf3f81e628419612c8a5b1af",
+      "sid": "omi-isa-port.docs-architecture-envelope-spec-md"
+    },
+    {
+      "bytes": 243,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-architecture-isa-spec-md.omilisp",
+      "relative_path": "docs/architecture/isa-spec.md",
+      "sha256": "f548fd4dc67c58913b8fa5c29043971bc2cabd0c7f1387ebd28aef447e8a1323",
+      "sid": "omi-isa-port.docs-architecture-isa-spec-md"
+    },
+    {
+      "bytes": 487,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-architecture-mesh-protocol-md.omilisp",
+      "relative_path": "docs/architecture/mesh-protocol.md",
+      "sha256": "b9428911471cf648b2c41aec28fbea9bc70f92ec924abb141dbaf9854db7bf00",
+      "sid": "omi-isa-port.docs-architecture-mesh-protocol-md"
+    },
+    {
+      "bytes": 308,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-architecture-overview-md.omilisp",
+      "relative_path": "docs/architecture/overview.md",
+      "sha256": "1a311a050d6ca95ba50b01da634cc6f3e2aac0384c91ae6b2b52c668027c413f",
+      "sid": "omi-isa-port.docs-architecture-overview-md"
+    },
+    {
+      "bytes": 3727,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-cosmology-vision-md.omilisp",
+      "relative_path": "docs/cosmology/vision.md",
+      "sha256": "58285a10db900fc6c0b77c5fe77b4d5276e4ca0c33f0a6d463433b7f9b9aed64",
+      "sid": "omi-isa-port.docs-cosmology-vision-md"
+    },
+    {
+      "bytes": 239,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-foundations-readme-md.omilisp",
+      "relative_path": "docs/foundations/README.md",
+      "sha256": "efa16616839fb57756bb36a992fb95e0a9cc8162aa6db3491283456f424f5cca",
+      "sid": "omi-isa-port.docs-foundations-readme-md"
+    },
+    {
+      "bytes": 256,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-implementation-readme-md.omilisp",
+      "relative_path": "docs/implementation/README.md",
+      "sha256": "e7f028d8395fb74160ebdc9696f25be15cb7dff96ba634654c2142a4e9d9666c",
+      "sid": "omi-isa-port.docs-implementation-readme-md"
+    },
+    {
+      "bytes": 6634,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-mathematics-proof-lineage-md.omilisp",
+      "relative_path": "docs/mathematics/proof-lineage.md",
+      "sha256": "e978935f33abcea3fec8a68f021ead138c4008305f5a9b56b2d387a51734ef70",
+      "sid": "omi-isa-port.docs-mathematics-proof-lineage-md"
+    },
+    {
+      "bytes": 105,
+      "extension": ".txt",
+      "family": "document",
+      "output": "firmware-cmakelists-txt.omilisp",
+      "relative_path": "firmware/CMakeLists.txt",
+      "sha256": "e3edd05fabef4637cf0a66623c5c5d2076eeed9f0b506ecdacabbe8a2d3d9338",
+      "sid": "omi-isa-port.firmware-cmakelists-txt"
+    },
+    {
+      "bytes": 1737,
+      "extension": ".md",
+      "family": "document",
+      "output": "firmware-readme-md.omilisp",
+      "relative_path": "firmware/README.md",
+      "sha256": "a626f0b4075679cad2b79b8020db982ea5c5e508b8ae28fb53b4dc77f5c18f0c",
+      "sid": "omi-isa-port.firmware-readme-md"
+    },
+    {
+      "bytes": 498,
+      "extension": ".txt",
+      "family": "document",
+      "output": "firmware-main-cmakelists-txt.omilisp",
+      "relative_path": "firmware/main/CMakeLists.txt",
+      "sha256": "86527614b80ad066a546a2d487d462e3b82bbb0c154ed66c288cc47b71a88c83",
+      "sid": "omi-isa-port.firmware-main-cmakelists-txt"
+    },
+    {
+      "bytes": 3846,
+      "extension": ".cpp",
+      "family": "artifact",
+      "output": "firmware-main-main-cpp.omilisp",
+      "relative_path": "firmware/main/main.cpp",
+      "sha256": "8bdcee69c50a0087ad636a412a16077fe8f7115e1f74c29b610ff00eff202a33",
+      "sid": "omi-isa-port.firmware-main-main-cpp"
+    },
+    {
+      "bytes": 3085,
+      "extension": ".cpp",
+      "family": "artifact",
+      "output": "firmware-main-omi-esp-transport-cpp.omilisp",
+      "relative_path": "firmware/main/omi_esp_transport.cpp",
+      "sha256": "3e8c97e7283d1ce0eccb34f0d876d4ffa68ef25cb9b6a022845ec730563ce15d",
+      "sid": "omi-isa-port.firmware-main-omi-esp-transport-cpp"
+    },
+    {
+      "bytes": 507,
+      "extension": ".h",
+      "family": "code",
+      "output": "firmware-main-omi-esp-transport-h.omilisp",
+      "relative_path": "firmware/main/omi_esp_transport.h",
+      "sha256": "4bc7ebbbb490e7b9119dcdf9cb2826a13bb37eb238f1cfb61f52e8629cba0e7c",
+      "sid": "omi-isa-port.firmware-main-omi-esp-transport-h"
+    },
+    {
+      "bytes": 12227,
+      "extension": ".cpp",
+      "family": "artifact",
+      "output": "firmware-main-omi-sx1262-cpp.omilisp",
+      "relative_path": "firmware/main/omi_sx1262.cpp",
+      "sha256": "b5c978dc3eb7f84b29a0134c73581f8a7ea2bb3f5e1f7a13b889b69a9e34b806",
+      "sid": "omi-isa-port.firmware-main-omi-sx1262-cpp"
+    },
+    {
+      "bytes": 3363,
+      "extension": ".h",
+      "family": "code",
+      "output": "firmware-main-omi-sx1262-h.omilisp",
+      "relative_path": "firmware/main/omi_sx1262.h",
+      "sha256": "ea12eebcd116396eb3b36df93792c3951e832035d4e26519a4e0d6c54a861ff5",
+      "sid": "omi-isa-port.firmware-main-omi-sx1262-h"
+    },
+    {
+      "bytes": 388,
+      "extension": ".ini",
+      "family": "artifact",
+      "output": "firmware-platformio-ini.omilisp",
+      "relative_path": "firmware/platformio.ini",
+      "sha256": "122f1ed492528327048af632009e8fbc7889f034e5f303126d428169be8acbd6",
+      "sid": "omi-isa-port.firmware-platformio-ini"
+    },
+    {
+      "bytes": 180,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-asm-c.omilisp",
+      "relative_path": "lib/asm.c",
+      "sha256": "728bc5a614375021b5577a9e66478ab882a1b8cf3f985105edac0368223871ff",
+      "sid": "omi-isa-port.lib-asm-c"
+    },
+    {
+      "bytes": 808,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-ast-c.omilisp",
+      "relative_path": "lib/ast.c",
+      "sha256": "69d3e1b34d02ef6f896cfa197bdcab845fdeade11b2777b2597f1583ad459ced",
+      "sid": "omi-isa-port.lib-ast-c"
+    },
+    {
+      "bytes": 305,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-ast-h.omilisp",
+      "relative_path": "lib/ast.h",
+      "sha256": "d105e488a1dd409f13441d8bc60b055a7d58796e1f1b11858ee8a1332d39eecd",
+      "sid": "omi-isa-port.lib-ast-h"
+    },
+    {
+      "bytes": 749,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-boot-c.omilisp",
+      "relative_path": "lib/boot.c",
+      "sha256": "9a64438f70dfe71dd22bb64c6d862dc55b867a131e9c5c3bb5989d00abd730b8",
+      "sid": "omi-isa-port.lib-boot-c"
+    },
+    {
+      "bytes": 2418,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-compiler-c.omilisp",
+      "relative_path": "lib/compiler.c",
+      "sha256": "543cfc516945ea5d1cbb2776338d43a22ce9c60f8f8a00ef7922f4a6041ca351",
+      "sid": "omi-isa-port.lib-compiler-c"
+    },
+    {
+      "bytes": 4001,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-cpu-c.omilisp",
+      "relative_path": "lib/cpu.c",
+      "sha256": "c750dfe126d406c063715ee6807ae8e1b6bf8f11f57eb812a46334df1cbfd76e",
+      "sid": "omi-isa-port.lib-cpu-c"
+    },
+    {
+      "bytes": 1136,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-cpu-h.omilisp",
+      "relative_path": "lib/cpu.h",
+      "sha256": "02db3d62bfebb7df8a0214771397fb53b330727bb8f665304bfbafb031e4ecdb",
+      "sid": "omi-isa-port.lib-cpu-h"
+    },
+    {
+      "bytes": 2418,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-gauge-exec-c.omilisp",
+      "relative_path": "lib/gauge_exec.c",
+      "sha256": "f28a98d19e7b7d23141da7d5c706d3cdc4312ad9aaf1fee59bd8906fb7c98dfe",
+      "sid": "omi-isa-port.lib-gauge-exec-c"
+    },
+    {
+      "bytes": 540,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-gauge-exec-h.omilisp",
+      "relative_path": "lib/gauge_exec.h",
+      "sha256": "b642b924f35dcd235ad928f8866e8354c90fcd6ef76822081251feed4dc1e468",
+      "sid": "omi-isa-port.lib-gauge-exec-h"
+    },
+    {
+      "bytes": 593,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-isa-h.omilisp",
+      "relative_path": "lib/isa.h",
+      "sha256": "83d07e081ec8a918dcf1cf3eea6c1881729a18fcb288e2375723b86239998739",
+      "sid": "omi-isa-port.lib-isa-h"
+    },
+    {
+      "bytes": 948,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-lexer-c.omilisp",
+      "relative_path": "lib/lexer.c",
+      "sha256": "c63453c3eb87810dbb7254f433c6423bd7c8f44f48fe8467d577b7556190a391",
+      "sid": "omi-isa-port.lib-lexer-c"
+    },
+    {
+      "bytes": 285,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-lexer-h.omilisp",
+      "relative_path": "lib/lexer.h",
+      "sha256": "e024a7eeeb23991fae772cfec5a1ba6c47aa9dc44403dc76b92ab3b70adbbc7d",
+      "sid": "omi-isa-port.lib-lexer-h"
+    },
+    {
+      "bytes": 683,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-loader-c.omilisp",
+      "relative_path": "lib/loader.c",
+      "sha256": "a2b4fc9887b8a01f8b36a10875089aa7d5b952da1db1686c20d84528ca83cec3",
+      "sid": "omi-isa-port.lib-loader-c"
+    },
+    {
+      "bytes": 416,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-loader-h.omilisp",
+      "relative_path": "lib/loader.h",
+      "sha256": "0d1c9ebadbd6d698472da441f0a841b221d858881853f84960a44f9372a9eb02",
+      "sid": "omi-isa-port.lib-loader-h"
+    },
+    {
+      "bytes": 9821,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-omi-dispatch-c.omilisp",
+      "relative_path": "lib/omi_dispatch.c",
+      "sha256": "f4c1a4d67c6fb80a193b5dbb5703292ca08029d729ba036990332527194350a8",
+      "sid": "omi-isa-port.lib-omi-dispatch-c"
+    },
+    {
+      "bytes": 697,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-omi-dispatch-h.omilisp",
+      "relative_path": "lib/omi_dispatch.h",
+      "sha256": "2468deec7c77ae2a6a0b0693b93e286a5f5742f2a0e20011453f9ab3ab639414",
+      "sid": "omi-isa-port.lib-omi-dispatch-h"
+    },
+    {
+      "bytes": 16142,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-omi-mesh-c.omilisp",
+      "relative_path": "lib/omi_mesh.c",
+      "sha256": "9af3b81bbe79a989b9c1ac1c7365fb48c99261c08b02c894c6520c475ba5ba86",
+      "sid": "omi-isa-port.lib-omi-mesh-c"
+    },
+    {
+      "bytes": 2305,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-omi-mesh-h.omilisp",
+      "relative_path": "lib/omi_mesh.h",
+      "sha256": "cf48b0e29cd8bf0a021c5a835f09edd24fe17eac2a89a48dc98ce4b3d336d4c0",
+      "sid": "omi-isa-port.lib-omi-mesh-h"
+    },
+    {
+      "bytes": 3670,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-omi-omion-c.omilisp",
+      "relative_path": "lib/omi_omion.c",
+      "sha256": "5b3c831728cbfe16249564176e4c6c7a4558198b73ddba30f6d7b3398075f0a3",
+      "sid": "omi-isa-port.lib-omi-omion-c"
+    },
+    {
+      "bytes": 846,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-omi-omion-h.omilisp",
+      "relative_path": "lib/omi_omion.h",
+      "sha256": "aed7ae149310273a1800753e0e9b5991137ebf2ab9670d050ca105e6958a2003",
+      "sid": "omi-isa-port.lib-omi-omion-h"
+    },
+    {
+      "bytes": 4701,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-omi-orbit-c.omilisp",
+      "relative_path": "lib/omi_orbit.c",
+      "sha256": "f2ce4007aec00fa3e00a9865a2f0173bd90beb143fa2dc5cb891d4581ff29bd2",
+      "sid": "omi-isa-port.lib-omi-orbit-c"
+    },
+    {
+      "bytes": 2367,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-omi-orbit-h.omilisp",
+      "relative_path": "lib/omi_orbit.h",
+      "sha256": "2aa4a0f87f461f991969384a898205b383d91916e51b381628f2df7b44843556",
+      "sid": "omi-isa-port.lib-omi-orbit-h"
+    },
+    {
+      "bytes": 6684,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-omi-pg-c.omilisp",
+      "relative_path": "lib/omi_pg.c",
+      "sha256": "6ec67f82272513ee3edda63a32adf64b41dfe06634b53ccb4f3d15f46073fc15",
+      "sid": "omi-isa-port.lib-omi-pg-c"
+    },
+    {
+      "bytes": 3425,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-omi-pg-h.omilisp",
+      "relative_path": "lib/omi_pg.h",
+      "sha256": "89ddd351e0d7bdca1e09d284cacd78ff8a8da0ea3134289fb56ea5e80574d897",
+      "sid": "omi-isa-port.lib-omi-pg-h"
+    },
+    {
+      "bytes": 3663,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-omi-probe-c.omilisp",
+      "relative_path": "lib/omi_probe.c",
+      "sha256": "611afb7a7d5edd886f099124751d1f8d6f2a604e190b3c6e41a04984bdb637de",
+      "sid": "omi-isa-port.lib-omi-probe-c"
+    },
+    {
+      "bytes": 815,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-omi-probe-h.omilisp",
+      "relative_path": "lib/omi_probe.h",
+      "sha256": "521bb58c4c9704b52fdc384bb8c871a88cbd9a0155c43db503127ec5aafa357b",
+      "sid": "omi-isa-port.lib-omi-probe-h"
+    },
+    {
+      "bytes": 3080,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-omi-receipt-c.omilisp",
+      "relative_path": "lib/omi_receipt.c",
+      "sha256": "8733039ca53731a3bfc140e6283fe1fe5fdcc9854af2ef70a6aa2ae06a399237",
+      "sid": "omi-isa-port.lib-omi-receipt-c"
+    },
+    {
+      "bytes": 634,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-omi-receipt-h.omilisp",
+      "relative_path": "lib/omi_receipt.h",
+      "sha256": "c3e96ff889cd8382871d661ef8eedb2bdb892fb6642d89c3321628d9cc918767",
+      "sid": "omi-isa-port.lib-omi-receipt-h"
+    },
+    {
+      "bytes": 4695,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-omi-sense-c.omilisp",
+      "relative_path": "lib/omi_sense.c",
+      "sha256": "a5ec304465f7c22592120008404dbe01b271319e54bff7e901e064e784915220",
+      "sid": "omi-isa-port.lib-omi-sense-c"
+    },
+    {
+      "bytes": 2818,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-omi-sense-h.omilisp",
+      "relative_path": "lib/omi_sense.h",
+      "sha256": "77cd5fdfb6f04e5a30407365f36d4d3d7d39aeb67e58234645a6b5f014186f46",
+      "sid": "omi-isa-port.lib-omi-sense-h"
+    },
+    {
+      "bytes": 587,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-omi-transport-c.omilisp",
+      "relative_path": "lib/omi_transport.c",
+      "sha256": "3ec1d30b1b208303d10b284862ddaac15e5ae1a5fbdfe21c41a9ea03d5733a63",
+      "sid": "omi-isa-port.lib-omi-transport-c"
+    },
+    {
+      "bytes": 596,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-omi-transport-h.omilisp",
+      "relative_path": "lib/omi_transport.h",
+      "sha256": "d505915748e3edc1820f631a436cb1a3778bd0f994f5339222a5b588ef7dbd38",
+      "sid": "omi-isa-port.lib-omi-transport-h"
+    },
+    {
+      "bytes": 2893,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-omi-transport-lora-c.omilisp",
+      "relative_path": "lib/omi_transport_lora.c",
+      "sha256": "aa59815a0f3f1cb0140b32a1ccf22e79a951077a206a6bd8875ece0debc7b559",
+      "sid": "omi-isa-port.lib-omi-transport-lora-c"
+    },
+    {
+      "bytes": 492,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-omi-transport-lora-h.omilisp",
+      "relative_path": "lib/omi_transport_lora.h",
+      "sha256": "e52ac1b086d9145eaf773b8c969d8ed75da94214e5e18996ca932159f408c102",
+      "sid": "omi-isa-port.lib-omi-transport-lora-h"
+    },
+    {
+      "bytes": 1671,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-omi-transport-sim-c.omilisp",
+      "relative_path": "lib/omi_transport_sim.c",
+      "sha256": "5adaab4e2f2f9bdc35138b82f79a78966104790a60c03633eebfd6cea39527d7",
+      "sid": "omi-isa-port.lib-omi-transport-sim-c"
+    },
+    {
+      "bytes": 494,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-omi-transport-sim-h.omilisp",
+      "relative_path": "lib/omi_transport_sim.h",
+      "sha256": "3e84280529d091dbdf5f44b820ef9d6b7ab22ff1bedd98879758841edf357017",
+      "sid": "omi-isa-port.lib-omi-transport-sim-h"
+    },
+    {
+      "bytes": 1864,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-omicron-c.omilisp",
+      "relative_path": "lib/omicron.c",
+      "sha256": "f0ba169041fac0418179bcc696c3353c81e0bcb13500a1f3b21e7ad085a7e425",
+      "sid": "omi-isa-port.lib-omicron-c"
+    },
+    {
+      "bytes": 1315,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-omicron-h.omilisp",
+      "relative_path": "lib/omicron.h",
+      "sha256": "6701edb213b1c4440d7d979fcef3b2271681e90a66dfc08892f9946c48f6aea5",
+      "sid": "omi-isa-port.lib-omicron-h"
+    },
+    {
+      "bytes": 7686,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-omienv-c.omilisp",
+      "relative_path": "lib/omienv.c",
+      "sha256": "5056f6366bd34796a0e388df5face198e8cf494b19f241c85025cca9e01aeff4",
+      "sid": "omi-isa-port.lib-omienv-c"
+    },
+    {
+      "bytes": 2718,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-omienv-h.omilisp",
+      "relative_path": "lib/omienv.h",
+      "sha256": "1e71aedd47b9f4ee42b294ba6e53198376ff4aa89882a4f53476aef118d1523a",
+      "sid": "omi-isa-port.lib-omienv-h"
+    },
+    {
+      "bytes": 914,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-parser-c.omilisp",
+      "relative_path": "lib/parser.c",
+      "sha256": "e8b06d8fdbfdc4b44d9dfe58f48ced099ba37b83c8adb9db7b888daaa78d1456",
+      "sid": "omi-isa-port.lib-parser-c"
+    },
+    {
+      "bytes": 1667,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-sector-c.omilisp",
+      "relative_path": "lib/sector.c",
+      "sha256": "106be73d2b460f9e0edf1643e8846b8a190bce70955de9443c1551470332440d",
+      "sid": "omi-isa-port.lib-sector-c"
+    },
+    {
+      "bytes": 590,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-sector-h.omilisp",
+      "relative_path": "lib/sector.h",
+      "sha256": "9b353ec81bd4ac397ca1366cc415df5f09f81d87a3674e76bd82e83295b04756",
+      "sid": "omi-isa-port.lib-sector-h"
+    },
+    {
+      "bytes": 5809,
+      "extension": ".c",
+      "family": "code",
+      "output": "lib-stream-c.omilisp",
+      "relative_path": "lib/stream.c",
+      "sha256": "3258a0630432672ae48b3bf39efffda4baaa5e566ef239e2eea4bda19dd04f66",
+      "sid": "omi-isa-port.lib-stream-c"
+    },
+    {
+      "bytes": 1298,
+      "extension": ".h",
+      "family": "code",
+      "output": "lib-stream-h.omilisp",
+      "relative_path": "lib/stream.h",
+      "sha256": "4138dfe5ea5025039f1e49a9a9512efb7ab71809fc78833b4408f60a6b6a09c5",
+      "sid": "omi-isa-port.lib-stream-h"
+    },
+    {
+      "bytes": 3368,
+      "extension": ".c",
+      "family": "code",
+      "output": "main-c.omilisp",
+      "relative_path": "main.c",
+      "sha256": "67bca95848894552d1acab78ad5a172bff9866753dd6c166db08c6990c548f88",
+      "sid": "omi-isa-port.main-c"
+    },
+    {
+      "bytes": 55138,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "media-16-bits-that-calculate-the-universe-16-bits-that-calculate-the-universe-pdf.omilisp",
+      "relative_path": "media/16 bits that calculate the universe/16 bits that calculate the universe.pdf",
+      "sha256": "d43f4506b782f90eebee7fe32ccc089b7f8fd52d956bc07e644fc3f37596f6fe",
+      "sid": "omi-isa-port.media-16-bits-that-calculate-the-universe-16-bits-that-calculate-the-universe-pdf"
+    },
+    {
+      "bytes": 23105,
+      "extension": ".txt",
+      "family": "document",
+      "output": "media-16-bits-that-calculate-the-universe-16-bits-that-calculate-the-universe-txt.omilisp",
+      "relative_path": "media/16 bits that calculate the universe/16 bits that calculate the universe.txt",
+      "sha256": "2e99ea86536025d51bdac72c6e5f3035cbfa098f9d3fcfdfc1e21d7db9d2a07c",
+      "sid": "omi-isa-port.media-16-bits-that-calculate-the-universe-16-bits-that-calculate-the-universe-txt"
+    },
+    {
+      "bytes": 41669226,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "media-16-bits-that-calculate-the-universe-16-bits-that-calculate-the-universe-m4a.omilisp",
+      "relative_path": "media/16 bits that calculate the universe/16_bits_that_calculate_the_universe.m4a",
+      "sha256": "d725a23617cb8c6c4b203508a4601433f3ffe34a2e10c720fc2cf4853f5e8c83",
+      "sid": "omi-isa-port.media-16-bits-that-calculate-the-universe-16-bits-that-calculate-the-universe-m4a"
+    },
+    {
+      "bytes": 42448735,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "media-16-bits-of-code-and-dna-geometry-m4a.omilisp",
+      "relative_path": "media/16_Bits_of_Code_and_DNA_Geometry.m4a",
+      "sha256": "efe900554adacff4ebdf8d5ca18a334ba3129e880bf3ddd98ca271d4c673246d",
+      "sid": "omi-isa-port.media-16-bits-of-code-and-dna-geometry-m4a"
+    },
+    {
+      "bytes": 29324,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "media-gl-16-2-orbit-model-gl-16-2-orbit-model-pdf.omilisp",
+      "relative_path": "media/GL(16,2) Orbit Model/GL(16,2) Orbit Model.pdf",
+      "sha256": "f35c656a6927f5a6450924fda2fb5171fd960892cd389684ae0de6fc798d7d3b",
+      "sid": "omi-isa-port.media-gl-16-2-orbit-model-gl-16-2-orbit-model-pdf"
+    },
+    {
+      "bytes": 7589,
+      "extension": ".txt",
+      "family": "document",
+      "output": "media-gl-16-2-orbit-model-gl-16-2-orbit-model-txt.omilisp",
+      "relative_path": "media/GL(16,2) Orbit Model/GL(16,2) Orbit Model.txt",
+      "sha256": "0798c130fa0dd462d716e06a52a23256fbcd6904736c4b0204648b01aaa84c2c",
+      "sid": "omi-isa-port.media-gl-16-2-orbit-model-gl-16-2-orbit-model-txt"
+    },
+    {
+      "bytes": 39037272,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "media-gl-16-2-orbit-model-gl-16-2-orbit-model-mp4.omilisp",
+      "relative_path": "media/GL(16,2) Orbit Model/GL(16,2)_Orbit_Model.mp4",
+      "sha256": "17a3668e90d343725fb3ee2e5bb74c6e25d6907e71daed7cd6c2763c65274896",
+      "sid": "omi-isa-port.media-gl-16-2-orbit-model-gl-16-2-orbit-model-mp4"
+    },
+    {
+      "bytes": 44662313,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "media-gnomic-omicron-model-mp4.omilisp",
+      "relative_path": "media/Gnomic_Omicron_Model.mp4",
+      "sha256": "d2fdf51088e5898aa41264e5051f4e52d43d76a8da8e0c000af1da18de79d4cc",
+      "sid": "omi-isa-port.media-gnomic-omicron-model-mp4"
+    },
+    {
+      "bytes": 34841,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "media-omi-a-vision-for-verified-computing-pdf.omilisp",
+      "relative_path": "media/OMI- A Vision for Verified Computing.pdf",
+      "sha256": "95e3d66dd740207986c9d18928e4978c005c0c76f4abdfa3fc7d5649adc039a8",
+      "sid": "omi-isa-port.media-omi-a-vision-for-verified-computing-pdf"
+    },
+    {
+      "bytes": 39971,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "media-omi-searching-for-the-smallest-computation-pdf.omilisp",
+      "relative_path": "media/OMI- Searching for the Smallest Computation.pdf",
+      "sha256": "92272dfa4c5e56245c8bd588e460efda0cca1af788e54998e3c965918c13df15",
+      "sid": "omi-isa-port.media-omi-searching-for-the-smallest-computation-pdf"
+    },
+    {
+      "bytes": 55507,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "media-the-universe-in-16-bits-the-universe-in-16-bits-pdf.omilisp",
+      "relative_path": "media/The universe in 16 bits/The universe in 16 bits.pdf",
+      "sha256": "12ae7ed11736e1858152c864e3649636773493da4177febcd85f77e8751e578c",
+      "sid": "omi-isa-port.media-the-universe-in-16-bits-the-universe-in-16-bits-pdf"
+    },
+    {
+      "bytes": 22990,
+      "extension": ".txt",
+      "family": "document",
+      "output": "media-the-universe-in-16-bits-the-universe-in-16-bits-txt.omilisp",
+      "relative_path": "media/The universe in 16 bits/The universe in 16 bits.txt",
+      "sha256": "e92d002110ba94db8783adfccec115880ee2457847aff3deb9dd2365e96d87b1",
+      "sid": "omi-isa-port.media-the-universe-in-16-bits-the-universe-in-16-bits-txt"
+    },
+    {
+      "bytes": 41464485,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "media-the-universe-in-16-bits-the-universe-in-16-bits-m4a.omilisp",
+      "relative_path": "media/The universe in 16 bits/The_universe_in_16_bits.m4a",
+      "sha256": "1021391bb5a06827e6d4a3eb296655b5267f1959f56de2b697473111182a9c20",
+      "sid": "omi-isa-port.media-the-universe-in-16-bits-the-universe-in-16-bits-m4a"
+    },
+    {
+      "bytes": 34,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "programs-init-omi.omilisp",
+      "relative_path": "programs/init.omi",
+      "sha256": "f606201c6d3f4bab9ed9fff4ff9a9de347b156dfeede1b6dc987bf77f0313ee8",
+      "sid": "omi-isa-port.programs-init-omi"
+    },
+    {
+      "bytes": 24,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "programs-kernel-omi.omilisp",
+      "relative_path": "programs/kernel.omi",
+      "sha256": "e0f2efe4b48d135312b6f6d2fe9633a278fe99b047432b48c1344c16cf5904ab",
+      "sid": "omi-isa-port.programs-kernel-omi"
+    },
+    {
+      "bytes": 12,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "programs-test-omi.omilisp",
+      "relative_path": "programs/test.omi",
+      "sha256": "6703acfe9080c04ecb404b9c240db259a984341ebf7b026b54397c52518bd3a5",
+      "sid": "omi-isa-port.programs-test-omi"
+    },
+    {
+      "bytes": 8786,
+      "extension": ".py",
+      "family": "code",
+      "output": "scripts-gen-bootstrap-py.omilisp",
+      "relative_path": "scripts/gen_bootstrap.py",
+      "sha256": "402ef84c2abece458fb27ddb0cb29bc0062a0042c7d9034d7b15f5ad2751e44a",
+      "sid": "omi-isa-port.scripts-gen-bootstrap-py"
+    },
+    {
+      "bytes": 8027,
+      "extension": ".c",
+      "family": "code",
+      "output": "test-test-dispatch-c.omilisp",
+      "relative_path": "test/test_dispatch.c",
+      "sha256": "d530d7d0859b8a6ac4edd44b8bce33823cc74f2bf090488c20ddab7d102d44cd",
+      "sid": "omi-isa-port.test-test-dispatch-c"
+    },
+    {
+      "bytes": 8662,
+      "extension": ".c",
+      "family": "code",
+      "output": "test-test-env-c.omilisp",
+      "relative_path": "test/test_env.c",
+      "sha256": "8e2812471dd510acb4ec231362dad95aec777c4e0b6765b8ad4c1f8aab9ee59c",
+      "sid": "omi-isa-port.test-test-env-c"
+    },
+    {
+      "bytes": 6694,
+      "extension": ".c",
+      "family": "code",
+      "output": "test-test-gauge-exec-c.omilisp",
+      "relative_path": "test/test_gauge_exec.c",
+      "sha256": "d722e3f411346d5ec2c705b5eeab46900ef3fbef8313c8ee3353930857d565a1",
+      "sid": "omi-isa-port.test-test-gauge-exec-c"
+    },
+    {
+      "bytes": 8568,
+      "extension": ".c",
+      "family": "code",
+      "output": "test-test-mesh-c.omilisp",
+      "relative_path": "test/test_mesh.c",
+      "sha256": "0729e8e33177fde472eba6bff722bf473ae2e4e737fd2d0ae840e799e64717bd",
+      "sid": "omi-isa-port.test-test-mesh-c"
+    },
+    {
+      "bytes": 9541,
+      "extension": ".c",
+      "family": "code",
+      "output": "test-test-omi-sense-c.omilisp",
+      "relative_path": "test/test_omi_sense.c",
+      "sha256": "c27e6088c5a9f276e8d105fe972faa0d8e3c737eadb5d119733691a3a19430e3",
+      "sid": "omi-isa-port.test-test-omi-sense-c"
+    },
+    {
+      "bytes": 3492,
+      "extension": ".c",
+      "family": "code",
+      "output": "test-test-omicron-c.omilisp",
+      "relative_path": "test/test_omicron.c",
+      "sha256": "71c3896589425ab941798d6de7034cfdd45b1b4b26511d79f8f570b523c04d3c",
+      "sid": "omi-isa-port.test-test-omicron-c"
+    },
+    {
+      "bytes": 4730,
+      "extension": ".c",
+      "family": "code",
+      "output": "test-test-omion-c.omilisp",
+      "relative_path": "test/test_omion.c",
+      "sha256": "9e51609d0452d3dba9b88c6a245b966c728e2ef24d78eaa372f44bef4e390882",
+      "sid": "omi-isa-port.test-test-omion-c"
+    },
+    {
+      "bytes": 9843,
+      "extension": ".c",
+      "family": "code",
+      "output": "test-test-orbit-c.omilisp",
+      "relative_path": "test/test_orbit.c",
+      "sha256": "7b27e1f9cb78ec57345727fedac550598b43276fa5deb1a6214712adcf5c93b4",
+      "sid": "omi-isa-port.test-test-orbit-c"
+    },
+    {
+      "bytes": 13314,
+      "extension": ".c",
+      "family": "code",
+      "output": "test-test-pg-c.omilisp",
+      "relative_path": "test/test_pg.c",
+      "sha256": "0018afcd440ab7f97f36ad6869c49b5659c8badc75fc6894f209fe0b7a438753",
+      "sid": "omi-isa-port.test-test-pg-c"
+    },
+    {
+      "bytes": 9839,
+      "extension": ".c",
+      "family": "code",
+      "output": "test-test-radio-vm-c.omilisp",
+      "relative_path": "test/test_radio_vm.c",
+      "sha256": "7562b536d636eca92f15d235b754dba4e9e81f36240c788fb56a84ffccc7840e",
+      "sid": "omi-isa-port.test-test-radio-vm-c"
+    },
+    {
+      "bytes": 4952,
+      "extension": ".c",
+      "family": "code",
+      "output": "test-test-receipt-c.omilisp",
+      "relative_path": "test/test_receipt.c",
+      "sha256": "69a3c51642b98bf50ee47454b12a8fdd681ef150dac157d46984fbd1995c1dd2",
+      "sid": "omi-isa-port.test-test-receipt-c"
+    },
+    {
+      "bytes": 1395,
+      "extension": ".c",
+      "family": "code",
+      "output": "toolchain-main-c.omilisp",
+      "relative_path": "toolchain_main.c",
+      "sha256": "a508fc34a3927efcce90c86ff63fe2a6db79b40b0a5048d0ea1ca5a83468e2db",
+      "sid": "omi-isa-port.toolchain-main-c"
+    },
+    {
+      "bytes": 13668,
+      "extension": ".js",
+      "family": "code",
+      "output": "web-app-js.omilisp",
+      "relative_path": "web/app.js",
+      "sha256": "305f4446c95b5ea15a27c6a83264ac009b1ec9919e69deedb5b78749f96e8613",
+      "sid": "omi-isa-port.web-app-js"
+    },
+    {
+      "bytes": 3612,
+      "extension": ".js",
+      "family": "code",
+      "output": "web-constant-witness-js.omilisp",
+      "relative_path": "web/constant-witness.js",
+      "sha256": "68b938fe6a76d5eb726044d6a728124f7f97c9820b7f4c2c3c4fc1c16f453851",
+      "sid": "omi-isa-port.web-constant-witness-js"
+    },
+    {
+      "bytes": 12531,
+      "extension": ".js",
+      "family": "code",
+      "output": "web-face-registry-js.omilisp",
+      "relative_path": "web/face-registry.js",
+      "sha256": "4d34ce293e5d26986b9765583019c1c26f7222d6851bdc3bb1dea69eb5e0e178",
+      "sid": "omi-isa-port.web-face-registry-js"
+    },
+    {
+      "bytes": 10678,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "web-index-html.omilisp",
+      "relative_path": "web/index.html",
+      "sha256": "0b9e9761cbb2d38933523ef3dacc4e16f983a927949d5162618e3c7b88c736bf",
+      "sid": "omi-isa-port.web-index-html"
+    },
+    {
+      "bytes": 815,
+      "extension": ".js",
+      "family": "code",
+      "output": "web-omi-audio-worklet-js.omilisp",
+      "relative_path": "web/omi_audio_worklet.js",
+      "sha256": "74bd720fff48ecddf5b69166997ef75238f4f0ec6447ef88df8572e02bf0ce8a",
+      "sid": "omi-isa-port.web-omi-audio-worklet-js"
+    },
+    {
+      "bytes": 2165,
+      "extension": ".js",
+      "family": "code",
+      "output": "web-omi-web-audio-js.omilisp",
+      "relative_path": "web/omi_web_audio.js",
+      "sha256": "569e09dd0612fc6290302934670d304097dc3f6c17d9caea9cd89bdca79bea54",
+      "sid": "omi-isa-port.web-omi-web-audio-js"
+    },
+    {
+      "bytes": 3054,
+      "extension": ".c",
+      "family": "code",
+      "output": "web-omi-web-bridge-c.omilisp",
+      "relative_path": "web/omi_web_bridge.c",
+      "sha256": "7a7dd6615c506051c9c9debc12d431c7dc3911f17f5564c51956cd6b52852922",
+      "sid": "omi-isa-port.web-omi-web-bridge-c"
+    },
+    {
+      "bytes": 3763,
+      "extension": ".js",
+      "family": "code",
+      "output": "web-omi-web-serial-js.omilisp",
+      "relative_path": "web/omi_web_serial.js",
+      "sha256": "c127ca94d6ccb7ccd13a0c3eccf3242e2ba82831e08d9a62d27850ca17417d76",
+      "sid": "omi-isa-port.web-omi-web-serial-js"
+    },
+    {
+      "bytes": 9609,
+      "extension": ".css",
+      "family": "artifact",
+      "output": "web-style-css.omilisp",
+      "relative_path": "web/style.css",
+      "sha256": "b96b4921d76f70083f4987e77a1071d213859873d565abe246ebf3a00e43859c",
+      "sid": "omi-isa-port.web-style-css"
+    },
+    {
+      "bytes": 6963,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "web-test-face-chain-html.omilisp",
+      "relative_path": "web/test-face-chain.html",
+      "sha256": "f5ec7c9686f500641ef3c7f545eea8f44ca759b2ce0c6372c48aa936cd0ec7e2",
+      "sid": "omi-isa-port.web-test-face-chain-html"
+    },
+    {
+      "bytes": 6710,
+      "extension": ".js",
+      "family": "code",
+      "output": "web-test-face-chain-js.omilisp",
+      "relative_path": "web/test-face-chain.js",
+      "sha256": "66ec61bc5459d17adb41c201ff52fa46d8480693606cabfed6c35c45147bb01f",
+      "sid": "omi-isa-port.web-test-face-chain-js"
+    },
+    {
+      "bytes": 4259,
+      "extension": ".js",
+      "family": "code",
+      "output": "web-viewer-face-panel-js.omilisp",
+      "relative_path": "web/viewer/face-panel.js",
+      "sha256": "95ca0b33fe3ec0928b5f46cb2c64faad3c4afec3f5d9f1ebf98da2ce3506ca06",
+      "sid": "omi-isa-port.web-viewer-face-panel-js"
+    },
+    {
+      "bytes": 7490,
+      "extension": ".js",
+      "family": "code",
+      "output": "web-viewer-geometry-decoder-js.omilisp",
+      "relative_path": "web/viewer/geometry-decoder.js",
+      "sha256": "7d1cabdf4810c18f1835ae54b89011e9fcf3990b3bfc51bacb7bc6708d56fc75",
+      "sid": "omi-isa-port.web-viewer-geometry-decoder-js"
+    },
+    {
+      "bytes": 2731,
+      "extension": ".js",
+      "family": "code",
+      "output": "web-viewer-ring-loader-js.omilisp",
+      "relative_path": "web/viewer/ring-loader.js",
+      "sha256": "22278c598363733ccb2a2ef3bbf955f0ea6c3c43d81ea0bdd05a76b29546fe85",
+      "sid": "omi-isa-port.web-viewer-ring-loader-js"
+    },
+    {
+      "bytes": 24516,
+      "extension": ".js",
+      "family": "code",
+      "output": "web-viewer-twin-viewer-js.omilisp",
+      "relative_path": "web/viewer/twin-viewer.js",
+      "sha256": "205e762ba81f1049f0d829207961d9049c7b08963537ad679c7c40ba8deca7a7",
+      "sid": "omi-isa-port.web-viewer-twin-viewer-js"
+    },
+    {
+      "bytes": 6047,
+      "extension": ".js",
+      "family": "code",
+      "output": "web-viewer-bridge-js.omilisp",
+      "relative_path": "web/viewer-bridge.js",
+      "sha256": "4a87a0ff85ce5f780a465dc37a7fd3400dbcd4a52faa0d5ac6ee2adc37e98cfd",
+      "sid": "omi-isa-port.web-viewer-bridge-js"
+    }
+  ],
+  "output_root": "/home/main/omi/omi---imo/declarations/omi-isa-port",
+  "source_root": "/home/main/omi/omi-isa"
+}

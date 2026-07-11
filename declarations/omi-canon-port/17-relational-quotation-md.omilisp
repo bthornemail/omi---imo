@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.17-relational-quotation-md)
+    (title "omi-canon port: 17-RELATIONAL-QUOTATION.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/17-RELATIONAL-QUOTATION.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.17-relational-quotation-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "17-RELATIONAL-QUOTATION.md")
+    (extension ".md")
+    (family document)
+    (bytes 11380)
+    (sha256 "01f4f7dc0b8e7bbd077d4bc23ec903dfb2071ab4bdcc007a9c333f3c83639af0"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 518)
+    (title "State 17 \u2014 Relational Quotation: Cardinality, Ordinality, Qualification, and Carry-Forward")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.open-portal-md)
+    (title "omi-portal port: OPEN_PORTAL.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/OPEN_PORTAL.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.open-portal-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "OPEN_PORTAL.md")
+    (extension ".md")
+    (family document)
+    (bytes 1452)
+    (sha256 "64a41dcd40f8126e9d8cf90216f72301831ed0b9f58ebbc10605bcacbd7b184d"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 79)
+    (title "Open The Portal")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

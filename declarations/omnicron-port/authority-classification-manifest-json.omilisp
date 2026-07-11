@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omnicron-port.authority-classification-manifest-json)
+    (title "omnicron port: authority/classification_manifest.json")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/authority/classification_manifest.json")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.authority-classification-manifest-json)
+    (locator omi---imo.omnicron-port)
+    (binding json.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs declaration)
+    (us json))
+  (source-artifact
+    (relative-path "authority/classification_manifest.json")
+    (extension ".json")
+    (family declaration)
+    (bytes 5443)
+    (sha256 "d6c1a929919d0d0df4ed317f619fd12df7b787488cd1dbaef4c8b13490c8bc80"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 83)
+    (json-valid true)
+    (json-kind "object")
+    (json-key-count 5)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

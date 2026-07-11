@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omnicron-port.polyform-org-cargo-toml)
+    (title "omnicron port: polyform/org/Cargo.toml")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/polyform/org/Cargo.toml")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.polyform-org-cargo-toml)
+    (locator omi---imo.omnicron-port)
+    (binding toml.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs artifact)
+    (us toml))
+  (source-artifact
+    (relative-path "polyform/org/Cargo.toml")
+    (extension ".toml")
+    (family artifact)
+    (bytes 524)
+    (sha256 "7776b1288f2a65267c089f00de5ac6bb696bb1a7e5d8923d2df4ef40a7579a8b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 26)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

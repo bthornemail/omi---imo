@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omnicron-port.polyform-org-gitignore)
+    (title "omnicron port: polyform/org/.gitignore")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/polyform/org/.gitignore")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.polyform-org-gitignore)
+    (locator omi---imo.omnicron-port)
+    (binding no-ext.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs untyped)
+    (us no-ext))
+  (source-artifact
+    (relative-path "polyform/org/.gitignore")
+    (extension "[no-ext]")
+    (family untyped)
+    (bytes 76)
+    (sha256 "d18000eacb831b492658af2325b8775c5457938e5bbc46bcc39b1f6522118bdb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 7)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

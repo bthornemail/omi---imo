@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.m4a-16-bit-geometric-internet-mirroring-human-dna-m4a)
+    (title "omi-media port: m4a/16-bit_geometric_internet_mirroring_human_DNA.m4a")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/m4a/16-bit_geometric_internet_mirroring_human_DNA.m4a")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.m4a-16-bit-geometric-internet-mirroring-human-dna-m4a)
+    (locator omi---imo.omi-media-port)
+    (binding m4a.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs artifact)
+    (us m4a))
+  (source-artifact
+    (relative-path "m4a/16-bit_geometric_internet_mirroring_human_DNA.m4a")
+    (extension ".m4a")
+    (family artifact)
+    (bytes 39677672)
+    (sha256 "d6dec98c24198d7a1c007e8d1270f1889e119bee09e211f9895e2c1b1e57fa3a"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

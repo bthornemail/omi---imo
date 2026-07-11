@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.docs-index-md)
+    (title "omnicron port: docs/INDEX.md")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/docs/INDEX.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.docs-index-md)
+    (locator omi---imo.omnicron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/INDEX.md")
+    (extension ".md")
+    (family document)
+    (bytes 1040)
+    (sha256 "c31686a10c57acc3959691c72f352a36475dc15a9563dacf8cc28f92bc8fef22"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 36)
+    (title "Docs Index")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-vault-port.semantic-lattice-base)
+    (title "omi-vault port: Semantic Lattice.base")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/Semantic Lattice.base")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.semantic-lattice-base)
+    (locator omi---imo.omi-vault-port)
+    (binding base.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs artifact)
+    (us base))
+  (source-artifact
+    (relative-path "Semantic Lattice.base")
+    (extension ".base")
+    (family artifact)
+    (bytes 365)
+    (sha256 "5c42f4ee113f94da2d1b5d0accb3c572e04e54c1e24553723d568768acc576ef"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

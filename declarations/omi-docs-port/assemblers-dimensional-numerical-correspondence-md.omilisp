@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.assemblers-dimensional-numerical-correspondence-md)
+    (title "omi-docs port: assemblers/Dimensional-Numerical Correspondence.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/assemblers/Dimensional-Numerical Correspondence.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.assemblers-dimensional-numerical-correspondence-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "assemblers/Dimensional-Numerical Correspondence.md")
+    (extension ".md")
+    (family document)
+    (bytes 17185)
+    (sha256 "2e850bcc7f8df0d72682bbc367ac651a864a5678d1412d2db0ccfede4044acb8"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 574)
+    (title "Dimensional-Numerical Correspondence")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

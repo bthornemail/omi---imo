@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.docs-omi-pipe-mcrsgsp-carrier-md)
+    (title "omi-portal port: docs/omi-pipe-mcrsgsp-carrier.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/docs/omi-pipe-mcrsgsp-carrier.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.docs-omi-pipe-mcrsgsp-carrier-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/omi-pipe-mcrsgsp-carrier.md")
+    (extension ".md")
+    (family document)
+    (bytes 4445)
+    (sha256 "4879a98632d8733ddbd547c656874af98314e6626559a75b5571fa51851cefee"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 137)
+    (title "OmiPipe MCRSGSP Carrier")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

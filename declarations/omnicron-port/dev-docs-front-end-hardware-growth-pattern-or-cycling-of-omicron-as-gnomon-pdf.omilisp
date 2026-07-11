@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omnicron-port.dev-docs-front-end-hardware-growth-pattern-or-cycling-of-omicron-as-gnomon-pdf)
+    (title "omnicron port: dev-docs/front-end/hardware/Growth Pattern, or cycling of Omicron as Gnomon.pdf")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/dev-docs/front-end/hardware/Growth Pattern, or cycling of Omicron as Gnomon.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.dev-docs-front-end-hardware-growth-pattern-or-cycling-of-omicron-as-gnomon-pdf)
+    (locator omi---imo.omnicron-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "dev-docs/front-end/hardware/Growth Pattern, or cycling of Omicron as Gnomon.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 288887)
+    (sha256 "6d61a7b333f9e1e3ac6f9c072c33fc501d4702518bb485193309038713ca28e1"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

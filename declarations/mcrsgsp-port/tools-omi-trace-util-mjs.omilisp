@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid mcrsgsp-port.tools-omi-trace-util-mjs)
+    (title "MCRSGSP port: tools/omi-trace/util.mjs")
+    (kind mcrsgsp.source-candidate)
+    (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/tools/omi-trace/util.mjs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr mcrsgsp-port.tools-omi-trace-util-mjs)
+    (locator omi---imo.mcrsgsp-port)
+    (binding mjs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs mcrsgsp)
+    (rs code)
+    (us mjs))
+  (source-artifact
+    (relative-path "tools/omi-trace/util.mjs")
+    (extension ".mjs")
+    (family code)
+    (bytes 1441)
+    (sha256 "e97e0314f514237a3c18c79f6c1fc6735503aff96f7e4f1395d583bfd3be33fc"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 57)
+    (function-count 2)
+    (export-count 2)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

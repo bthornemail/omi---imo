@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.test-pipe-network-frames-reject-out-of-scope-omi)
+    (title "omi-portal port: test/pipe-network/frames/reject-out-of-scope.omi")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/test/pipe-network/frames/reject-out-of-scope.omi")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.test-pipe-network-frames-reject-out-of-scope-omi)
+    (locator omi---imo.omi-portal-port)
+    (binding omi.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs declaration)
+    (us omi))
+  (source-artifact
+    (relative-path "test/pipe-network/frames/reject-out-of-scope.omi")
+    (extension ".omi")
+    (family declaration)
+    (bytes 65)
+    (sha256 "378644a5a235ca62d3881abfd9d7906466547ab5eee47089f03f857e7ac3e3d6"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1)
+    (balanced-parens true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

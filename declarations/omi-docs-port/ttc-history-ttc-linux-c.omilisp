@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-docs-port.ttc-history-ttc-linux-c)
+    (title "omi-docs port: ttc-history/ttc_linux.c")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/ttc-history/ttc_linux.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.ttc-history-ttc-linux-c)
+    (locator omi---imo.omi-docs-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "ttc-history/ttc_linux.c")
+    (extension ".c")
+    (family code)
+    (bytes 1240)
+    (sha256 "630fa4a573ba0a0814b799089cbf5b59049ce5b43c95316121750ac5d88e253d"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 40)
+    (function-count 3)
+    (define-count 0)
+    (include-count 2)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

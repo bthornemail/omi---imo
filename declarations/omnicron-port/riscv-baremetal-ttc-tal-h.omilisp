@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omnicron-port.riscv-baremetal-ttc-tal-h)
+    (title "omnicron port: riscv-baremetal/ttc_tal.h")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/riscv-baremetal/ttc_tal.h")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.riscv-baremetal-ttc-tal-h)
+    (locator omi---imo.omnicron-port)
+    (binding h.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us h))
+  (source-artifact
+    (relative-path "riscv-baremetal/ttc_tal.h")
+    (extension ".h")
+    (family code)
+    (bytes 13274)
+    (sha256 "6e05bd9272cf47e9bf8de5f8fcd4a23deaf2fec1c228df112f4c6a8c77824d01"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 382)
+    (function-count 1)
+    (define-count 1)
+    (include-count 2)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

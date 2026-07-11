@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.16-symbolic-grammar-md)
+    (title "omi-canon port: 16-SYMBOLIC-GRAMMAR.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/16-SYMBOLIC-GRAMMAR.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.16-symbolic-grammar-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "16-SYMBOLIC-GRAMMAR.md")
+    (extension ".md")
+    (family document)
+    (bytes 10162)
+    (sha256 "d11eb5d6419122dbc49171bbfd534c4bad3f16fcaf2834e7dfbfcdfdff9606b3"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 617)
+    (title "OMI Symbolic Grammar")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

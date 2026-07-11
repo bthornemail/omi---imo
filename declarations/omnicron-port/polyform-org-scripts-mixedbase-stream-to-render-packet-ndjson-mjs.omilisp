@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omnicron-port.polyform-org-scripts-mixedbase-stream-to-render-packet-ndjson-mjs)
+    (title "omnicron port: polyform/org/scripts/mixedbase_stream_to_render_packet_ndjson.mjs")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/polyform/org/scripts/mixedbase_stream_to_render_packet_ndjson.mjs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.polyform-org-scripts-mixedbase-stream-to-render-packet-ndjson-mjs)
+    (locator omi---imo.omnicron-port)
+    (binding mjs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us mjs))
+  (source-artifact
+    (relative-path "polyform/org/scripts/mixedbase_stream_to_render_packet_ndjson.mjs")
+    (extension ".mjs")
+    (family code)
+    (bytes 6191)
+    (sha256 "9343c2594a4cbbfe8a5ce41deac163b654a47f0ba4a01199306bb7c51e031b24"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 218)
+    (function-count 12)
+    (export-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

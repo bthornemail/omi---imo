@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-isa-port.media-16-bits-that-calculate-the-universe-16-bits-that-calculate-the-universe-m4a)
+    (title "omi-isa port: media/16 bits that calculate the universe/16_bits_that_calculate_the_universe.m4a")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/media/16 bits that calculate the universe/16_bits_that_calculate_the_universe.m4a")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.media-16-bits-that-calculate-the-universe-16-bits-that-calculate-the-universe-m4a)
+    (locator omi---imo.omi-isa-port)
+    (binding m4a.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs artifact)
+    (us m4a))
+  (source-artifact
+    (relative-path "media/16 bits that calculate the universe/16_bits_that_calculate_the_universe.m4a")
+    (extension ".m4a")
+    (family artifact)
+    (bytes 41669226)
+    (sha256 "d725a23617cb8c6c4b203508a4601433f3ffe34a2e10c720fc2cf4853f5e8c83"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

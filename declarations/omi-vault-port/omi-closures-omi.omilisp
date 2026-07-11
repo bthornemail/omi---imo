@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-vault-port.omi-closures-omi)
+    (title "omi-vault port: .omi/CLOSURES.omi")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/.omi/CLOSURES.omi")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.omi-closures-omi)
+    (locator omi---imo.omi-vault-port)
+    (binding omi.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs declaration)
+    (us omi))
+  (source-artifact
+    (relative-path ".omi/CLOSURES.omi")
+    (extension ".omi")
+    (family declaration)
+    (bytes 3765)
+    (sha256 "7514e6caae1d65ed4ce1a01e213eb087267dc9130a0cacfcffb4ddca89634804"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 138)
+    (balanced-parens true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

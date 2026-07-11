@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-canvas-port.src-omi-relation-o)
+    (title "omi-canvas port: src/OMI/Relation.o")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/src/OMI/Relation.o")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.src-omi-relation-o)
+    (locator omi---imo.omi-canvas-port)
+    (binding o.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs artifact)
+    (us o))
+  (source-artifact
+    (relative-path "src/OMI/Relation.o")
+    (extension ".o")
+    (family artifact)
+    (bytes 24728)
+    (sha256 "53da5042c1d1b4c6285c08af4c4cef1f1f18c61b6e3ce7b549c1558f316c797e"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

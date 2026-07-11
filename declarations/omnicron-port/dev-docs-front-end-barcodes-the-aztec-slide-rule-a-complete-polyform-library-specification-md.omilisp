@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.dev-docs-front-end-barcodes-the-aztec-slide-rule-a-complete-polyform-library-specification-md)
+    (title "omnicron port: dev-docs/front-end/barcodes/The Aztec Slide Rule - A Complete Polyform Library Specification.md")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/dev-docs/front-end/barcodes/The Aztec Slide Rule - A Complete Polyform Library Specification.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.dev-docs-front-end-barcodes-the-aztec-slide-rule-a-complete-polyform-library-specification-md)
+    (locator omi---imo.omnicron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/front-end/barcodes/The Aztec Slide Rule - A Complete Polyform Library Specification.md")
+    (extension ".md")
+    (family document)
+    (bytes 34061)
+    (sha256 "ce5473e4e9217be37d757dc6903c7849c0c3813a25a30f0db725b2fea064905c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 890)
+    (title "The Aztec Slide Rule: A Complete Polyform Library Specification")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-portal-port.test-txt)
+    (title "omi-portal port: test.txt")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/test.txt")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.test-txt)
+    (locator omi---imo.omi-portal-port)
+    (binding txt.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us txt))
+  (source-artifact
+    (relative-path "test.txt")
+    (extension ".txt")
+    (family document)
+    (bytes 199703)
+    (sha256 "541d28cc9e977bb3b6c06935cafa28a10c7eaa048044289b4792dd117c4255ae"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 2503)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.vendor-prolog-wndb-5)
+    (title "omi-portal port: vendor/prolog/wndb.5")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/vendor/prolog/wndb.5")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.vendor-prolog-wndb-5)
+    (locator omi---imo.omi-portal-port)
+    (binding 5.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us 5))
+  (source-artifact
+    (relative-path "vendor/prolog/wndb.5")
+    (extension ".5")
+    (family artifact)
+    (bytes 14144)
+    (sha256 "4cfa6a3c38faa95d0c5d587fd17366b2d6fea79f81b2ecb8fc6422a5678faa17"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

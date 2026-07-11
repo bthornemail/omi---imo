@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-isa-port.contributing-md)
+    (title "omi-isa port: CONTRIBUTING.md")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/CONTRIBUTING.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.contributing-md)
+    (locator omi---imo.omi-isa-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "CONTRIBUTING.md")
+    (extension ".md")
+    (family document)
+    (bytes 325)
+    (sha256 "7b58e8971564c79789c5cd5b5c2e89e03909f2f3689c8f6f9d112774dda2f95c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 13)
+    (title "Contributing")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omnicron-port.package-lock-json)
+    (title "omnicron port: package-lock.json")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/package-lock.json")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.package-lock-json)
+    (locator omi---imo.omnicron-port)
+    (binding json.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs declaration)
+    (us json))
+  (source-artifact
+    (relative-path "package-lock.json")
+    (extension ".json")
+    (family declaration)
+    (bytes 757)
+    (sha256 "3e09d6a031f146ce7c000b99b723e9074aa5ad4f755d0831ade5cf8e0ef3ab1d"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 33)
+    (json-valid true)
+    (json-kind "object")
+    (json-key-count 4)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.25-hopf-fibrations-14-geometric-theory-md)
+    (title "omi-docs port: 25-Hopf-Fibrations/14-Geometric-Theory.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/25-Hopf-Fibrations/14-Geometric-Theory.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.25-hopf-fibrations-14-geometric-theory-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "25-Hopf-Fibrations/14-Geometric-Theory.md")
+    (extension ".md")
+    (family document)
+    (bytes 26629)
+    (sha256 "5cc0a3dfb4979c863463795b2f3f875da3bfa70fa3229d8da4a7cc67db90782a"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 675)
+    (title "The Geometric Basis of Consciousness: A Topological Theory of Exponential Computation and Linear Experience")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

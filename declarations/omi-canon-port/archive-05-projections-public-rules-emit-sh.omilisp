@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-canon-port.archive-05-projections-public-rules-emit-sh)
+    (title "omi-canon port: _archive/05-projections/public/rules/_emit.sh")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/_archive/05-projections/public/rules/_emit.sh")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.archive-05-projections-public-rules-emit-sh)
+    (locator omi---imo.omi-canon-port)
+    (binding sh.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs code)
+    (us sh))
+  (source-artifact
+    (relative-path "_archive/05-projections/public/rules/_emit.sh")
+    (extension ".sh")
+    (family code)
+    (bytes 1390)
+    (sha256 "81140ff5e4292c8964ea683d115f3ad996aad4d49badab962b75b55e8533e4b1"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 49)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

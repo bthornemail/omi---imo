@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omnicron-port.polyform-org-grammar-js)
+    (title "omnicron port: polyform/org/grammar.js")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/polyform/org/grammar.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.polyform-org-grammar-js)
+    (locator omi---imo.omnicron-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "polyform/org/grammar.js")
+    (extension ".js")
+    (family code)
+    (bytes 10386)
+    (sha256 "944dce2455d4355b0219a9e29390f8b204bb8216aaa3158e2fa7600b02ac7e41"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 378)
+    (function-count 3)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

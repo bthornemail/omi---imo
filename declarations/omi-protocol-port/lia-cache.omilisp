@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-protocol-port.lia-cache)
+    (title "omi-protocol port: .lia.cache")
+    (kind omi-protocol.source-candidate)
+    (source "/home/main/omi/omi-protocol/.lia.cache")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-protocol-port.lia-cache)
+    (locator omi---imo.omi-protocol-port)
+    (binding cache.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-protocol)
+    (rs artifact)
+    (us cache))
+  (source-artifact
+    (relative-path ".lia.cache")
+    (extension ".cache")
+    (family artifact)
+    (bytes 307)
+    (sha256 "0af8e1ae33724c910bf5f2380b9a5db2bdef28e93795b49f1b1fbfd2ff72cf66"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

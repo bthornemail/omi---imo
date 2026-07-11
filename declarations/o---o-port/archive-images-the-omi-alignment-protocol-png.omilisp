@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid o---o-port.archive-images-the-omi-alignment-protocol-png)
+    (title "o---o port: _archive/images/The_OMI_Alignment_Protocol.png")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/_archive/images/The_OMI_Alignment_Protocol.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.archive-images-the-omi-alignment-protocol-png)
+    (locator omi---imo.o---o-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "_archive/images/The_OMI_Alignment_Protocol.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 4996759)
+    (sha256 "04fc1163f7e3fee564b76a7a0d8df02cb61bcbae28d9353d5910a1136d86051e"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

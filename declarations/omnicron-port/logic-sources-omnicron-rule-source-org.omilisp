@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-sources-omnicron-rule-source-org)
+    (title "omnicron port: logic/sources/omnicron-rule-source.org")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/sources/omnicron-rule-source.org")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-sources-omnicron-rule-source-org)
+    (locator omi---imo.omnicron-port)
+    (binding org.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs declaration)
+    (us org))
+  (source-artifact
+    (relative-path "logic/sources/omnicron-rule-source.org")
+    (extension ".org")
+    (family declaration)
+    (bytes 435096)
+    (sha256 "8344990c9b215526e303bbb2000e4ed49a1502fd5d1682a022eabba2d93fe1f6"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 11554)
+    (title "CONSTITUTIONAL LOGIC INTERPRETER")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

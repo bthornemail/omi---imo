@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid mcrsgsp-port.package-json-ba)
+    (title "MCRSGSP port: package.json.ba")
+    (kind mcrsgsp.source-candidate)
+    (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/package.json.ba")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr mcrsgsp-port.package-json-ba)
+    (locator omi---imo.mcrsgsp-port)
+    (binding ba.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs mcrsgsp)
+    (rs artifact)
+    (us ba))
+  (source-artifact
+    (relative-path "package.json.ba")
+    (extension ".ba")
+    (family artifact)
+    (bytes 718)
+    (sha256 "1281c8dc99c461c3801cfe9d80dddb2ee7f76b2681ca06bbabc98501300c9f39"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

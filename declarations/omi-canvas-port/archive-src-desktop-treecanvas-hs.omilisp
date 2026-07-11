@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-canvas-port.archive-src-desktop-treecanvas-hs)
+    (title "omi-canvas port: archive/src/Desktop/TreeCanvas.hs")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/archive/src/Desktop/TreeCanvas.hs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.archive-src-desktop-treecanvas-hs)
+    (locator omi---imo.omi-canvas-port)
+    (binding hs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs artifact)
+    (us hs))
+  (source-artifact
+    (relative-path "archive/src/Desktop/TreeCanvas.hs")
+    (extension ".hs")
+    (family artifact)
+    (bytes 9711)
+    (sha256 "d552d81d4882f00444fbb6fc5ee9c56a4774321f132cf9880c5555ea04023104"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

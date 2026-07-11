@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-axioms-port.research-history-06-omi-reduction-n-sphere-vs-n-ball-md)
+    (title "omi-axioms port: research-history/06-omi-reduction/n-sphere-vs-n-ball.md")
+    (kind omi-axioms.source-candidate)
+    (source "/home/main/omi/omi-axioms/research-history/06-omi-reduction/n-sphere-vs-n-ball.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-axioms-port.research-history-06-omi-reduction-n-sphere-vs-n-ball-md)
+    (locator omi---imo.omi-axioms-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-axioms)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "research-history/06-omi-reduction/n-sphere-vs-n-ball.md")
+    (extension ".md")
+    (family document)
+    (bytes 358767)
+    (sha256 "d9aa9a637974d3c2a0fd2b0fe3791fab1391cc1195a3a565215fabe0d4db7c9c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 13242)
+    (title "ChatGPT")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

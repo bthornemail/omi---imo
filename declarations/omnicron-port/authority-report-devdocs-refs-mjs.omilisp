@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omnicron-port.authority-report-devdocs-refs-mjs)
+    (title "omnicron port: authority/report_devdocs_refs.mjs")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/authority/report_devdocs_refs.mjs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.authority-report-devdocs-refs-mjs)
+    (locator omi---imo.omnicron-port)
+    (binding mjs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us mjs))
+  (source-artifact
+    (relative-path "authority/report_devdocs_refs.mjs")
+    (extension ".mjs")
+    (family code)
+    (bytes 2169)
+    (sha256 "5d5a7190a208488583d417e77ebf0dea5d8b542578c5335178b1e4870359b56b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 63)
+    (function-count 1)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

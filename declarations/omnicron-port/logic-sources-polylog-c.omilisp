@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-sources-polylog-c)
+    (title "omnicron port: logic/sources/polylog.c")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/sources/polylog.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-sources-polylog-c)
+    (locator omi---imo.omnicron-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "logic/sources/polylog.c")
+    (extension ".c")
+    (family code)
+    (bytes 67875)
+    (sha256 "ae0c8b058a3a83b8c52a2a4a9b08842dfd4f1102ef6ce41c3284e170058c55af"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 2280)
+    (function-count 69)
+    (define-count 42)
+    (include-count 9)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

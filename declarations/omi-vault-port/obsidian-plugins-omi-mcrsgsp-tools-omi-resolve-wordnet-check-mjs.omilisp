@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-vault-port.obsidian-plugins-omi-mcrsgsp-tools-omi-resolve-wordnet-check-mjs)
+    (title "omi-vault port: .obsidian/plugins/omi-mcrsgsp/tools/omi-resolve/wordnet-check.mjs")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/tools/omi-resolve/wordnet-check.mjs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.obsidian-plugins-omi-mcrsgsp-tools-omi-resolve-wordnet-check-mjs)
+    (locator omi---imo.omi-vault-port)
+    (binding mjs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs code)
+    (us mjs))
+  (source-artifact
+    (relative-path ".obsidian/plugins/omi-mcrsgsp/tools/omi-resolve/wordnet-check.mjs")
+    (extension ".mjs")
+    (family code)
+    (bytes 565)
+    (sha256 "a9db5c15c4e9adc4aa6d1f3c30ec148b911ca596b48331818b9994dd9d042660"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 15)
+    (function-count 0)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

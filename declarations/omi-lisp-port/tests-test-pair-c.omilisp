@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-lisp-port.tests-test-pair-c)
+    (title "omi-lisp port: tests/test_pair.c")
+    (kind omi-lisp.source-candidate)
+    (source "/home/main/omi/omi-lisp/tests/test_pair.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-lisp-port.tests-test-pair-c)
+    (locator omi---imo.omi-lisp-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-lisp)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "tests/test_pair.c")
+    (extension ".c")
+    (family code)
+    (bytes 2147)
+    (sha256 "a3822e5ca77e1744dcf1cd871e3ef9b8a0b57c20e2b11eba9e0090a5844cd523"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 56)
+    (function-count 1)
+    (define-count 1)
+    (include-count 2)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

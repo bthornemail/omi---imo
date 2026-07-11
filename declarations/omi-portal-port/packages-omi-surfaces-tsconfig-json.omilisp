@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-portal-port.packages-omi-surfaces-tsconfig-json)
+    (title "omi-portal port: packages/omi-surfaces/tsconfig.json")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/packages/omi-surfaces/tsconfig.json")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.packages-omi-surfaces-tsconfig-json)
+    (locator omi---imo.omi-portal-port)
+    (binding json.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs declaration)
+    (us json))
+  (source-artifact
+    (relative-path "packages/omi-surfaces/tsconfig.json")
+    (extension ".json")
+    (family declaration)
+    (bytes 541)
+    (sha256 "b98079ba1124848d9ec827f055947afe644b6557cff277207921d04c8230e627"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 20)
+    (json-valid true)
+    (json-kind "object")
+    (json-key-count 2)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))
