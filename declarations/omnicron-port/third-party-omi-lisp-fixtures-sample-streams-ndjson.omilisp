@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omnicron-port.third-party-omi-lisp-fixtures-sample-streams-ndjson)
+    (title "omnicron port: third_party/omi-lisp/fixtures/sample_streams.ndjson")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/third_party/omi-lisp/fixtures/sample_streams.ndjson")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.third-party-omi-lisp-fixtures-sample-streams-ndjson)
+    (locator omi---imo.omnicron-port)
+    (binding ndjson.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs declaration)
+    (us ndjson))
+  (source-artifact
+    (relative-path "third_party/omi-lisp/fixtures/sample_streams.ndjson")
+    (extension ".ndjson")
+    (family declaration)
+    (bytes 555)
+    (sha256 "e8cbfdeb44feab96114220fb0c84ca7888cf8bc884e95cca7474bc105d14e482"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 2)
+    (ndjson-valid true)
+    (record-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

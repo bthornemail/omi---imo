@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-isa-port.opencode-package-lock-json)
+    (title "omi-isa port: .opencode/package-lock.json")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/.opencode/package-lock.json")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.opencode-package-lock-json)
+    (locator omi---imo.omi-isa-port)
+    (binding json.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs declaration)
+    (us json))
+  (source-artifact
+    (relative-path ".opencode/package-lock.json")
+    (extension ".json")
+    (family declaration)
+    (bytes 13853)
+    (sha256 "adeba610412c2b0d4cf1595e173fc7d3b01466b7c2c680564558b4526eb219fb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 382)
+    (json-valid true)
+    (json-kind "object")
+    (json-key-count 4)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

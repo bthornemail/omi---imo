@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-canvas-port.archive-test-golden-instr-set-component-hash)
+    (title "omi-canvas port: archive/test/golden-instr/set-component.hash")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/archive/test/golden-instr/set-component.hash")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.archive-test-golden-instr-set-component-hash)
+    (locator omi---imo.omi-canvas-port)
+    (binding hash.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs artifact)
+    (us hash))
+  (source-artifact
+    (relative-path "archive/test/golden-instr/set-component.hash")
+    (extension ".hash")
+    (family artifact)
+    (bytes 65)
+    (sha256 "c285336299294c41995d0cdac362586973bd169d9b9b8d76f1af22e7079beedb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

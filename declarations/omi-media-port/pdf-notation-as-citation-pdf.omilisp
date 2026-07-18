@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.pdf-notation-as-citation-pdf)
+    (title "omi-media port: pdf/Notation_as_Citation.pdf")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/pdf/Notation_as_Citation.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.pdf-notation-as-citation-pdf)
+    (locator omi---imo.omi-media-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "pdf/Notation_as_Citation.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 17068287)
+    (sha256 "461cc3197377d11c038c6f691924784ad73708308f880a6990a7bc1f383ffd4c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

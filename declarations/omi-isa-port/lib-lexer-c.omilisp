@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-isa-port.lib-lexer-c)
+    (title "omi-isa port: lib/lexer.c")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/lib/lexer.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.lib-lexer-c)
+    (locator omi---imo.omi-isa-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "lib/lexer.c")
+    (extension ".c")
+    (family code)
+    (bytes 948)
+    (sha256 "c63453c3eb87810dbb7254f433c6423bd7c8f44f48fe8467d577b7556190a391"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 47)
+    (function-count 6)
+    (define-count 0)
+    (include-count 3)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

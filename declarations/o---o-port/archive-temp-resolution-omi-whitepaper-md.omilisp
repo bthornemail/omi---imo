@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid o---o-port.archive-temp-resolution-omi-whitepaper-md)
+    (title "o---o port: _archive/temp-resolution/Omi.Whitepaper.md")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/_archive/temp-resolution/Omi.Whitepaper.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.archive-temp-resolution-omi-whitepaper-md)
+    (locator omi---imo.o---o-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "_archive/temp-resolution/Omi.Whitepaper.md")
+    (extension ".md")
+    (family document)
+    (bytes 0)
+    (sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

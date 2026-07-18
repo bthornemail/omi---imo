@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-isa-port.lib-omi-probe-h)
+    (title "omi-isa port: lib/omi_probe.h")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/lib/omi_probe.h")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.lib-omi-probe-h)
+    (locator omi---imo.omi-isa-port)
+    (binding h.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs code)
+    (us h))
+  (source-artifact
+    (relative-path "lib/omi_probe.h")
+    (extension ".h")
+    (family code)
+    (bytes 815)
+    (sha256 "521bb58c4c9704b52fdc384bb8c871a88cbd9a0155c43db503127ec5aafa357b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 35)
+    (function-count 0)
+    (define-count 3)
+    (include-count 3)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.png-geometric-consensus-protocol-technical-overview-png)
+    (title "omi-media port: png/Geometric_Consensus_Protocol_Technical_Overview.png")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/png/Geometric_Consensus_Protocol_Technical_Overview.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.png-geometric-consensus-protocol-technical-overview-png)
+    (locator omi---imo.omi-media-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "png/Geometric_Consensus_Protocol_Technical_Overview.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 5245478)
+    (sha256 "db743ff550b6bb386386b8d84c28bb8358c67437018a1064eda61a46ca091cee"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

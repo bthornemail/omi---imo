@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.pdf-verified-spatial-computing-pdf)
+    (title "omi-media port: pdf/Verified_Spatial_Computing.pdf")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/pdf/Verified_Spatial_Computing.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.pdf-verified-spatial-computing-pdf)
+    (locator omi---imo.omi-media-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "pdf/Verified_Spatial_Computing.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 14247585)
+    (sha256 "2ee434625c4505536621df7891185eccdc48c687f071b2d1f5706e963bdb57c5"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

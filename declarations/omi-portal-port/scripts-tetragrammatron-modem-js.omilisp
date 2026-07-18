@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-portal-port.scripts-tetragrammatron-modem-js)
+    (title "omi-portal port: scripts/tetragrammatron-modem.js")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/scripts/tetragrammatron-modem.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.scripts-tetragrammatron-modem-js)
+    (locator omi---imo.omi-portal-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "scripts/tetragrammatron-modem.js")
+    (extension ".js")
+    (family code)
+    (bytes 4179)
+    (sha256 "93d54449c926a99d1e1333e134b4f8c44a0d136b2b61c080ffa95d6398c1d052"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 106)
+    (function-count 3)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

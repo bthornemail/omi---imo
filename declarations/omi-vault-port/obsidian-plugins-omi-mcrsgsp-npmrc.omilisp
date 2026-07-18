@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-vault-port.obsidian-plugins-omi-mcrsgsp-npmrc)
+    (title "omi-vault port: .obsidian/plugins/omi-mcrsgsp/.npmrc")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/.npmrc")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.obsidian-plugins-omi-mcrsgsp-npmrc)
+    (locator omi---imo.omi-vault-port)
+    (binding no-ext.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs untyped)
+    (us no-ext))
+  (source-artifact
+    (relative-path ".obsidian/plugins/omi-mcrsgsp/.npmrc")
+    (extension "[no-ext]")
+    (family untyped)
+    (bytes 21)
+    (sha256 "1e8648fe5564177375a935f6b444a6f9661fa61da625477745929f146162b4dd"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

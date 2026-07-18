@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.vendor-prolog-wngroups-7-ps)
+    (title "omi-portal port: vendor/prolog/wngroups.7.ps")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/vendor/prolog/wngroups.7.ps")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.vendor-prolog-wngroups-7-ps)
+    (locator omi---imo.omi-portal-port)
+    (binding ps.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us ps))
+  (source-artifact
+    (relative-path "vendor/prolog/wngroups.7.ps")
+    (extension ".ps")
+    (family artifact)
+    (bytes 7618)
+    (sha256 "0852bdb0f40ed6d2e567b4bb33d756c4c96c98604f7357d664bf8a158260b5cb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

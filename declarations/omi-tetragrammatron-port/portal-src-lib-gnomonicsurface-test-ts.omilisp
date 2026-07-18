@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.portal-src-lib-gnomonicsurface-test-ts)
+    (title "omi-tetragrammatron port: portal/src/lib/gnomonicSurface.test.ts")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/portal/src/lib/gnomonicSurface.test.ts")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.portal-src-lib-gnomonicsurface-test-ts)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding ts.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs artifact)
+    (us ts))
+  (source-artifact
+    (relative-path "portal/src/lib/gnomonicSurface.test.ts")
+    (extension ".ts")
+    (family artifact)
+    (bytes 1071)
+    (sha256 "a3941ac66c7968099d8f2f7d263d61fbc73fffecf58463a0b2da78de833c574f"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

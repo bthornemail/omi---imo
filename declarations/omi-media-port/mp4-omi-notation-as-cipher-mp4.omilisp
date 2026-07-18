@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.mp4-omi-notation-as-cipher-mp4)
+    (title "omi-media port: mp4/OMI__Notation_as_Cipher.mp4")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/mp4/OMI__Notation_as_Cipher.mp4")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.mp4-omi-notation-as-cipher-mp4)
+    (locator omi---imo.omi-media-port)
+    (binding mp4.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs artifact)
+    (us mp4))
+  (source-artifact
+    (relative-path "mp4/OMI__Notation_as_Cipher.mp4")
+    (extension ".mp4")
+    (family artifact)
+    (bytes 47031510)
+    (sha256 "0285e80f656f21891a9618ea85082f168adeadb8d825103a35ad75d032698488"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

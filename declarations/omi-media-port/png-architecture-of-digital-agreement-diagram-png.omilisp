@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.png-architecture-of-digital-agreement-diagram-png)
+    (title "omi-media port: png/Architecture_of_Digital_Agreement_Diagram.png")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/png/Architecture_of_Digital_Agreement_Diagram.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.png-architecture-of-digital-agreement-diagram-png)
+    (locator omi---imo.omi-media-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "png/Architecture_of_Digital_Agreement_Diagram.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 4532562)
+    (sha256 "e123596e213efd4c2b9565305a32fc22405dfb3557e7f48e1ec8ae89d26b8d30"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

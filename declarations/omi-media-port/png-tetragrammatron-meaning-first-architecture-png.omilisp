@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.png-tetragrammatron-meaning-first-architecture-png)
+    (title "omi-media port: png/Tetragrammatron_Meaning-First_Architecture.png")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/png/Tetragrammatron_Meaning-First_Architecture.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.png-tetragrammatron-meaning-first-architecture-png)
+    (locator omi---imo.omi-media-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "png/Tetragrammatron_Meaning-First_Architecture.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 5276339)
+    (sha256 "b708f7a1f3022c1662e7e8d8c1a42c3339ed98b87e4eef2d7a86f4a7ba00046e"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

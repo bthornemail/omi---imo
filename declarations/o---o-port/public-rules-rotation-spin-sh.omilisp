@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid o---o-port.public-rules-rotation-spin-sh)
+    (title "o---o port: public/rules/rotation-spin.sh")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/public/rules/rotation-spin.sh")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.public-rules-rotation-spin-sh)
+    (locator omi---imo.o---o-port)
+    (binding sh.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs code)
+    (us sh))
+  (source-artifact
+    (relative-path "public/rules/rotation-spin.sh")
+    (extension ".sh")
+    (family code)
+    (bytes 99)
+    (sha256 "d750b99bbe8f145d4bdd39fbaade52aae034ef70668c8b36954159e9df5e5e9a"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 3)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

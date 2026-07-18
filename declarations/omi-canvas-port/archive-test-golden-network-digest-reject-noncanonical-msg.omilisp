@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-canvas-port.archive-test-golden-network-digest-reject-noncanonical-msg)
+    (title "omi-canvas port: archive/test/golden-network/digest-reject-noncanonical.msg")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/archive/test/golden-network/digest-reject-noncanonical.msg")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.archive-test-golden-network-digest-reject-noncanonical-msg)
+    (locator omi---imo.omi-canvas-port)
+    (binding msg.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs artifact)
+    (us msg))
+  (source-artifact
+    (relative-path "archive/test/golden-network/digest-reject-noncanonical.msg")
+    (extension ".msg")
+    (family artifact)
+    (bytes 148)
+    (sha256 "52c3805db6f1eb7b5781742ae84a80fa1ba8ebd37d6b7640c92e0ac1f55ddcc1"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

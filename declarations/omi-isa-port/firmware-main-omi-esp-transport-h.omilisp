@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-isa-port.firmware-main-omi-esp-transport-h)
+    (title "omi-isa port: firmware/main/omi_esp_transport.h")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/firmware/main/omi_esp_transport.h")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.firmware-main-omi-esp-transport-h)
+    (locator omi---imo.omi-isa-port)
+    (binding h.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs code)
+    (us h))
+  (source-artifact
+    (relative-path "firmware/main/omi_esp_transport.h")
+    (extension ".h")
+    (family code)
+    (bytes 507)
+    (sha256 "4bc7ebbbb490e7b9119dcdf9cb2826a13bb37eb238f1cfb61f52e8629cba0e7c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 19)
+    (function-count 0)
+    (define-count 1)
+    (include-count 2)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

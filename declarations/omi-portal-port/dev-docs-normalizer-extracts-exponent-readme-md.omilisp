@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.dev-docs-normalizer-extracts-exponent-readme-md)
+    (title "omi-portal port: dev-docs/normalizer-extracts-exponent/README.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/dev-docs/normalizer-extracts-exponent/README.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.dev-docs-normalizer-extracts-exponent-readme-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/normalizer-extracts-exponent/README.md")
+    (extension ".md")
+    (family document)
+    (bytes 5070)
+    (sha256 "c3c689229a7dd979f3acd9b47c52b7cff00730eaf3c31c35cbc46b64504aa092"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 117)
+    (title "Face 9 \u2014 normalizer extracts exponent")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

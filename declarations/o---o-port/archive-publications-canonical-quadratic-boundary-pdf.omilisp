@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid o---o-port.archive-publications-canonical-quadratic-boundary-pdf)
+    (title "o---o port: _archive/publications/Canonical Quadratic Boundary.pdf")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/_archive/publications/Canonical Quadratic Boundary.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.archive-publications-canonical-quadratic-boundary-pdf)
+    (locator omi---imo.o---o-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "_archive/publications/Canonical Quadratic Boundary.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 42770)
+    (sha256 "5dc8ae3e5ffd46bdccbfa63d83d78d50156a3c74fcde7c67fd23e858db4a91ae"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

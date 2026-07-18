@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid o---o-port.7-canon-7-6-agreement-operators-md)
+    (title "o---o port: 7_CANON/7.6_AGREEMENT_OPERATORS.md")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/7_CANON/7.6_AGREEMENT_OPERATORS.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.7-canon-7-6-agreement-operators-md)
+    (locator omi---imo.o---o-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "7_CANON/7.6_AGREEMENT_OPERATORS.md")
+    (extension ".md")
+    (family document)
+    (bytes 8192)
+    (sha256 "09303d9a043f7b44371731a300764db9d1782d3d6a672ac4cd4963e40b8abf5e"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 253)
+    (title "Agreement Operators and Meta-Memory Families")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

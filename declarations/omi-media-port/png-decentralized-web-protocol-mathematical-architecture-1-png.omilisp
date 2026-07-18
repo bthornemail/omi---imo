@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.png-decentralized-web-protocol-mathematical-architecture-1-png)
+    (title "omi-media port: png/Decentralized_Web_Protocol_Mathematical_Architecture (1).png")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/png/Decentralized_Web_Protocol_Mathematical_Architecture (1).png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.png-decentralized-web-protocol-mathematical-architecture-1-png)
+    (locator omi---imo.omi-media-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "png/Decentralized_Web_Protocol_Mathematical_Architecture (1).png")
+    (extension ".png")
+    (family carrier)
+    (bytes 3674196)
+    (sha256 "657c5a8094b66177743bf9026aab1ebe2c988a6861b7cf90636a5de07bbef382"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

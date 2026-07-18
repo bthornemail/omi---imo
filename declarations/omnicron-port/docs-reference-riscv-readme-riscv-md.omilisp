@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.docs-reference-riscv-readme-riscv-md)
+    (title "omnicron port: docs/reference/riscv/README.riscv.md")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/docs/reference/riscv/README.riscv.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.docs-reference-riscv-readme-riscv-md)
+    (locator omi---imo.omnicron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/reference/riscv/README.riscv.md")
+    (extension ".md")
+    (family document)
+    (bytes 2141)
+    (sha256 "8d980d375c790007cb11f65b73a5e0295d81f43b5f71d68c52c34085f90e8d87"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 71)
+    (title "OMICRON Stream Interpolator")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

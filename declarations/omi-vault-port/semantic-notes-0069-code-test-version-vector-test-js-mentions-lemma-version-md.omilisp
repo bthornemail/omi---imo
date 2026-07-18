@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-vault-port.semantic-notes-0069-code-test-version-vector-test-js-mentions-lemma-version-md)
+    (title "omi-vault port: Semantic Notes/0069-code-test-version-vector-test-js-mentions-lemma-version.md")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/Semantic Notes/0069-code-test-version-vector-test-js-mentions-lemma-version.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.semantic-notes-0069-code-test-version-vector-test-js-mentions-lemma-version-md)
+    (locator omi---imo.omi-vault-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "Semantic Notes/0069-code-test-version-vector-test-js-mentions-lemma-version.md")
+    (extension ".md")
+    (family document)
+    (bytes 439)
+    (sha256 "0f83afdfc8d1a06f588dd7cd3e0fd3b93d02b438c021ea0c9113a5dbd74747d5"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 21)
+    (title "code:test/version-vector.test.js mentions lemma:version")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

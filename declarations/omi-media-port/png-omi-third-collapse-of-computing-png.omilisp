@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.png-omi-third-collapse-of-computing-png)
+    (title "omi-media port: png/OMI__Third_Collapse_of_Computing.png")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/png/OMI__Third_Collapse_of_Computing.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.png-omi-third-collapse-of-computing-png)
+    (locator omi---imo.omi-media-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "png/OMI__Third_Collapse_of_Computing.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 4853745)
+    (sha256 "2b0941da7df456a81783a326457aa1fe58dcb5091e33ea54a499a927cc096c6f"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

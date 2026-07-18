@@ -1,0 +1,52 @@
+#+TITLE: Canon Operational Literate OMI-Lisp Fixture
+#+OMI_AUTHORITY: projection-bridge
+
+* Envelope Smoke
+:PROPERTIES:
+:OMI_AUTHORITY: non-authoritative-org-bridge
+:OMI_PATH: canon/envelope-smoke
+:END:
+
+#+name: canon-envelope-smoke
+#+begin_src omilisp
+(omi-module canon.literate-envelope-smoke
+  (source "tests/fixtures/canon-operational-literate.org")
+  (authority
+    (declaration executable-candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending))
+  (define-const CANONICAL-PREHEADER (bytes 0xFF 0x00 0x1C 0x1D 0x1E 0x1F 0x20 0xFF))
+  (define-function meta64-preheader (gauge)
+    (if (eq-bytes gauge CANONICAL-PREHEADER) 0 -2))
+  (test preheader
+    (expect (meta64-preheader CANONICAL-PREHEADER) 0)
+    (expect (meta64-preheader (bytes 0xFF 0x00 0x1C 0x1D 0x1E 0x1F 0x21 0xFF)) -2)))
+#+end_src
+
+* Orbit Smoke
+:PROPERTIES:
+:OMI_AUTHORITY: non-authoritative-org-bridge
+:OMI_PATH: canon/orbit-smoke
+:END:
+
+#+name: canon-orbit-smoke
+#+begin_src omi
+(omi-module canon.literate-orbit-smoke
+  (source "tests/fixtures/canon-operational-literate.org")
+  (authority
+    (declaration executable-candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending))
+  (define-function gf16-mul-alpha (x)
+    (u16
+      (if (ne (band x 0x8000) 0)
+        (bxor (shl x 1) 0x002D)
+        (shl x 1))))
+  (define-function orbit-delta16 (x c)
+    (u16 (bxor (gf16-mul-alpha x) c)))
+  (test orbit
+    (expect (gf16-mul-alpha 0x8000) 0x002D)
+    (expect (orbit-delta16 0x1234 0x00FF) 0x2497)))
+#+end_src

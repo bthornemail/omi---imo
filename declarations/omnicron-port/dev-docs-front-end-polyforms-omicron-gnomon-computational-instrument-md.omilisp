@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.dev-docs-front-end-polyforms-omicron-gnomon-computational-instrument-md)
+    (title "omnicron port: dev-docs/front-end/polyforms/Omicron-Gnomon Computational Instrument.md")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/dev-docs/front-end/polyforms/Omicron-Gnomon Computational Instrument.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.dev-docs-front-end-polyforms-omicron-gnomon-computational-instrument-md)
+    (locator omi---imo.omnicron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/front-end/polyforms/Omicron-Gnomon Computational Instrument.md")
+    (extension ".md")
+    (family document)
+    (bytes 7374)
+    (sha256 "3cc0e4a4b84ecb3ab3bf68c45d8c5140cb422f4db8c34baccb71c0d8f03efd38"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 371)
+    (title "The Omicron-Gnomon Computational Instrument")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

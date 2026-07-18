@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-port-port.docs-pleth-gauge-difference-of-powers-derivation-for-omi-port-md)
+    (title "omi-port port: docs/Pleth - Gauge - Difference-of-Powers Derivation for OMI-Port.md")
+    (kind omi-port.source-candidate)
+    (source "/home/main/omi/omi-port/docs/Pleth - Gauge - Difference-of-Powers Derivation for OMI-Port.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-port-port.docs-pleth-gauge-difference-of-powers-derivation-for-omi-port-md)
+    (locator omi---imo.omi-port-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-port)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/Pleth - Gauge - Difference-of-Powers Derivation for OMI-Port.md")
+    (extension ".md")
+    (family document)
+    (bytes 4912)
+    (sha256 "36b96600da6586e4d4a8f2ea52ef9cc840494847ccc5d05d405d4314ab6d86a1"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 244)
+    (title "Pleth / Gauge / Difference-of-Powers Derivation for OMI-Port")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

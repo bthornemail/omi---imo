@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-protocol-port.omi-system-integration-layer-md)
+    (title "omi-protocol port: OMI_System_Integration_Layer.md")
+    (kind omi-protocol.source-candidate)
+    (source "/home/main/omi/omi-protocol/OMI_System_Integration_Layer.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-protocol-port.omi-system-integration-layer-md)
+    (locator omi---imo.omi-protocol-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-protocol)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "OMI_System_Integration_Layer.md")
+    (extension ".md")
+    (family document)
+    (bytes 28539)
+    (sha256 "c2c4a97c9d652c034888ffd32f69ee57210367fddf661c6396d77d8b9ad8ae5a"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1187)
+    (title "OMI System Integration Layer")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

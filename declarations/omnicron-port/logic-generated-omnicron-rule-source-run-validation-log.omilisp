@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-generated-omnicron-rule-source-run-validation-log)
+    (title "omnicron port: logic/generated/omnicron-rule-source.run.validation.log")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/generated/omnicron-rule-source.run.validation.log")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-generated-omnicron-rule-source-run-validation-log)
+    (locator omi---imo.omnicron-port)
+    (binding log.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs artifact)
+    (us log))
+  (source-artifact
+    (relative-path "logic/generated/omnicron-rule-source.run.validation.log")
+    (extension ".log")
+    (family artifact)
+    (bytes 7498554)
+    (sha256 "50e580a7e3930761660898838c441ee44892147696ca5cc54a3b36927f233b0f"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

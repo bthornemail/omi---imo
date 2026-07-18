@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-axioms-port.docs-systole-invariants-md)
+    (title "omi-axioms port: docs/SYSTOLE-INVARIANTS.md")
+    (kind omi-axioms.source-candidate)
+    (source "/home/main/omi/omi-axioms/docs/SYSTOLE-INVARIANTS.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-axioms-port.docs-systole-invariants-md)
+    (locator omi---imo.omi-axioms-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-axioms)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/SYSTOLE-INVARIANTS.md")
+    (extension ".md")
+    (family document)
+    (bytes 2391)
+    (sha256 "1551f740d8fc41a3b3b6d49ffff94f20af89746d28d2fd05bed0d069f0b5b1e8"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 81)
+    (title "Systole Invariants")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

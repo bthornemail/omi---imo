@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-portal-port.src-arg-arg-world-projection-js)
+    (title "omi-portal port: src/arg/arg-world-projection.js")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/src/arg/arg-world-projection.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.src-arg-arg-world-projection-js)
+    (locator omi---imo.omi-portal-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "src/arg/arg-world-projection.js")
+    (extension ".js")
+    (family code)
+    (bytes 2359)
+    (sha256 "55e865641c73252bc65bf1ff8aad76ad4deaf40c980ad17c6dd7efcada67aeeb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 76)
+    (function-count 3)
+    (export-count 3)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

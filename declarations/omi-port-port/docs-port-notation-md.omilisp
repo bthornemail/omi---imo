@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-port-port.docs-port-notation-md)
+    (title "omi-port port: docs/PORT_NOTATION.md")
+    (kind omi-port.source-candidate)
+    (source "/home/main/omi/omi-port/docs/PORT_NOTATION.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-port-port.docs-port-notation-md)
+    (locator omi---imo.omi-port-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-port)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/PORT_NOTATION.md")
+    (extension ".md")
+    (family document)
+    (bytes 1001)
+    (sha256 "86d13fedfee3223e4e657f957d17931c43cb2bb7d175c6afb269f68b97bf6e0b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 45)
+    (title "OMI-Port Notation")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

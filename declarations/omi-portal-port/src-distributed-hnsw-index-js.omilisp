@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-portal-port.src-distributed-hnsw-index-js)
+    (title "omi-portal port: src/distributed/hnsw-index.js")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/src/distributed/hnsw-index.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.src-distributed-hnsw-index-js)
+    (locator omi---imo.omi-portal-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "src/distributed/hnsw-index.js")
+    (extension ".js")
+    (family code)
+    (bytes 5604)
+    (sha256 "5014e7a17ba53506b0b87a2a83deaa66935712d2fd779c4187fee93d8b8bf984"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 163)
+    (function-count 4)
+    (export-count 5)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

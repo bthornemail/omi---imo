@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.omi-docs-metacompiler-canonical-omilisp)
+    (title "omi-portal port: omi-docs/metacompiler/canonical.omilisp")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/omi-docs/metacompiler/canonical.omilisp")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.omi-docs-metacompiler-canonical-omilisp)
+    (locator omi---imo.omi-portal-port)
+    (binding omilisp.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us omilisp))
+  (source-artifact
+    (relative-path "omi-docs/metacompiler/canonical.omilisp")
+    (extension ".omilisp")
+    (family artifact)
+    (bytes 219)
+    (sha256 "154876e3d8366eae90a3543d0dfc4b6072fb77970a1114bcc490cf0c6c6dd929"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

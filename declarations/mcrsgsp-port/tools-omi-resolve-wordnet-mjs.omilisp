@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid mcrsgsp-port.tools-omi-resolve-wordnet-mjs)
+    (title "MCRSGSP port: tools/omi-resolve/wordnet.mjs")
+    (kind mcrsgsp.source-candidate)
+    (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/tools/omi-resolve/wordnet.mjs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr mcrsgsp-port.tools-omi-resolve-wordnet-mjs)
+    (locator omi---imo.mcrsgsp-port)
+    (binding mjs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs mcrsgsp)
+    (rs code)
+    (us mjs))
+  (source-artifact
+    (relative-path "tools/omi-resolve/wordnet.mjs")
+    (extension ".mjs")
+    (family code)
+    (bytes 4464)
+    (sha256 "588b19c17b3bd6d3abb06282f4636cbc3b80655df1e9ab9cb0bb8a3fd3112237"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 145)
+    (function-count 4)
+    (export-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

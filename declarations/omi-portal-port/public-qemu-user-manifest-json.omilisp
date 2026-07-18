@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-portal-port.public-qemu-user-manifest-json)
+    (title "omi-portal port: public/qemu-user-manifest.json")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/public/qemu-user-manifest.json")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.public-qemu-user-manifest-json)
+    (locator omi---imo.omi-portal-port)
+    (binding json.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs declaration)
+    (us json))
+  (source-artifact
+    (relative-path "public/qemu-user-manifest.json")
+    (extension ".json")
+    (family declaration)
+    (bytes 1142)
+    (sha256 "c90bddb3b017f7f44070dcb55a34dc572bd6d8a7c77884d2396e942b6666e759"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 49)
+    (json-valid true)
+    (json-kind "object")
+    (json-key-count 7)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

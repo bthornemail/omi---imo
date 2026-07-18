@@ -1,0 +1,3227 @@
+{
+  "count": 355,
+  "extension_counts": {
+    ".canvas": 1,
+    ".docx": 25,
+    ".html": 14,
+    ".imo": 1,
+    ".jpg": 64,
+    ".json": 10,
+    ".md": 105,
+    ".omi": 5,
+    ".pdf": 39,
+    ".png": 64,
+    ".sh": 19,
+    ".svg": 3,
+    ".ts": 1,
+    ".txt": 3,
+    "[no-ext]": 1
+  },
+  "family_counts": {
+    "artifact": 106,
+    "carrier": 106,
+    "code": 19,
+    "declaration": 15,
+    "document": 108,
+    "untyped": 1
+  },
+  "items": [
+    {
+      "bytes": 16,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "gitignore.omilisp",
+      "relative_path": ".gitignore",
+      "sha256": "d8aac20011266fd6bcf8f4a804638ff96ee07c815b02ce56a3323d7b40ec601a",
+      "sid": "o---o-port.gitignore"
+    },
+    {
+      "bytes": 3608,
+      "extension": ".md",
+      "family": "document",
+      "output": "1-foundations-1-0-the-third-collapse-md.omilisp",
+      "relative_path": "1_FOUNDATIONS/1.0_THE_THIRD_COLLAPSE.md",
+      "sha256": "ed689b4998b57ef757e49064e932843fa4571f38b5a1fc5ec165d76bfe850bd6",
+      "sid": "o---o-port.1-foundations-1-0-the-third-collapse-md"
+    },
+    {
+      "bytes": 5757,
+      "extension": ".md",
+      "family": "document",
+      "output": "1-foundations-1-1-the-palindrome-md.omilisp",
+      "relative_path": "1_FOUNDATIONS/1.1_THE_PALINDROME.md",
+      "sha256": "0b54df5b18cb4ba6c1f0794989aa49a85d89ca544e1932aca66b96f5fb646403",
+      "sid": "o---o-port.1-foundations-1-1-the-palindrome-md"
+    },
+    {
+      "bytes": 3391,
+      "extension": ".md",
+      "family": "document",
+      "output": "1-foundations-1-2-the-omicron-anchors-md.omilisp",
+      "relative_path": "1_FOUNDATIONS/1.2_THE_OMICRON_ANCHORS.md",
+      "sha256": "4a0556547560b364b210ca15e0d7b77bc1729835fa21ae5e011df34899f0840e",
+      "sid": "o---o-port.1-foundations-1-2-the-omicron-anchors-md"
+    },
+    {
+      "bytes": 7252,
+      "extension": ".md",
+      "family": "document",
+      "output": "1-foundations-1-3-the-omi-ring-md.omilisp",
+      "relative_path": "1_FOUNDATIONS/1.3_THE_OMI_RING.md",
+      "sha256": "193a7abb9fc7aeab83f32f4e692e3404efc883960450a638976aca5442d8f11b",
+      "sid": "o---o-port.1-foundations-1-3-the-omi-ring-md"
+    },
+    {
+      "bytes": 7066,
+      "extension": ".md",
+      "family": "document",
+      "output": "1-foundations-1-4-the-omi-universal-constant-md.omilisp",
+      "relative_path": "1_FOUNDATIONS/1.4_THE_OMI_UNIVERSAL_CONSTANT.md",
+      "sha256": "449792f7cd66082099643ba3f3f2de17970e397d0209c85ab49a15bbd4e693cc",
+      "sid": "o---o-port.1-foundations-1-4-the-omi-universal-constant-md"
+    },
+    {
+      "bytes": 2983,
+      "extension": ".md",
+      "family": "document",
+      "output": "1-foundations-1-5-the-slash-path-md.omilisp",
+      "relative_path": "1_FOUNDATIONS/1.5_THE_SLASH_PATH.md",
+      "sha256": "62b05b97d5dbd607f89dc1d6027ed36f764b666505987e9761e15f1fda89184b",
+      "sid": "o---o-port.1-foundations-1-5-the-slash-path-md"
+    },
+    {
+      "bytes": 5361,
+      "extension": ".md",
+      "family": "document",
+      "output": "1-foundations-1-6-the-omi-declaration-language-md.omilisp",
+      "relative_path": "1_FOUNDATIONS/1.6_THE_OMI_DECLARATION_LANGUAGE.md",
+      "sha256": "e60e30adbc01008888f97aa72e786c945d21788fbb6fa8fb2d384406cb1410d3",
+      "sid": "o---o-port.1-foundations-1-6-the-omi-declaration-language-md"
+    },
+    {
+      "bytes": 8854,
+      "extension": ".md",
+      "family": "document",
+      "output": "2-math-2-1-the-quadratic-law-md.omilisp",
+      "relative_path": "2_MATH/2.1_THE_QUADRATIC_LAW.md",
+      "sha256": "91cf4a4ce4378ac266243f0ec8075b0bf083579afdc4fcd55b7429063a3eba15",
+      "sid": "o---o-port.2-math-2-1-the-quadratic-law-md"
+    },
+    {
+      "bytes": 4211,
+      "extension": ".md",
+      "family": "document",
+      "output": "2-math-2-2-the-delta-law-md.omilisp",
+      "relative_path": "2_MATH/2.2_THE_DELTA_LAW.md",
+      "sha256": "607cbb21e815499ead598174f03f18bd7c33fd75fdb077f0d0abcfeb072d3ea9",
+      "sid": "o---o-port.2-math-2-2-the-delta-law-md"
+    },
+    {
+      "bytes": 2823,
+      "extension": ".md",
+      "family": "document",
+      "output": "2-math-2-3-sexagesimal-system-md.omilisp",
+      "relative_path": "2_MATH/2.3_SEXAGESIMAL_SYSTEM.md",
+      "sha256": "ce20865a3e46ab2397d895d9a43c2d8940e62d04c89196f8b34d407c8bfb35fd",
+      "sid": "o---o-port.2-math-2-3-sexagesimal-system-md"
+    },
+    {
+      "bytes": 4192,
+      "extension": ".md",
+      "family": "document",
+      "output": "2-math-2-4-polycubes-and-groups-md.omilisp",
+      "relative_path": "2_MATH/2.4_POLYCUBES_AND_GROUPS.md",
+      "sha256": "ddef16440ad8ac44e9404d5944e00b7f8282ce5ce01f9c67cd1e9114bcb1a0e3",
+      "sid": "o---o-port.2-math-2-4-polycubes-and-groups-md"
+    },
+    {
+      "bytes": 3640,
+      "extension": ".md",
+      "family": "document",
+      "output": "2-math-2-5-projective-closure-and-the-empty-list-md.omilisp",
+      "relative_path": "2_MATH/2.5_PROJECTIVE_CLOSURE_AND_THE_EMPTY_LIST.md",
+      "sha256": "c9bc99c1c7d820c106a88a7df413195e24f670af841c6a2cd9c58cda004317b9",
+      "sid": "o---o-port.2-math-2-5-projective-closure-and-the-empty-list-md"
+    },
+    {
+      "bytes": 3867,
+      "extension": ".md",
+      "family": "document",
+      "output": "2-math-2-6-unicode-as-incidence-geometry-md.omilisp",
+      "relative_path": "2_MATH/2.6_UNICODE_AS_INCIDENCE_GEOMETRY.md",
+      "sha256": "e2295a40518ef11d9c57614b66afe8b8121def9f384e8408c25c1b725e7476b3",
+      "sid": "o---o-port.2-math-2-6-unicode-as-incidence-geometry-md"
+    },
+    {
+      "bytes": 3009,
+      "extension": ".md",
+      "family": "document",
+      "output": "2-math-2-7-omi-nomogram-md.omilisp",
+      "relative_path": "2_MATH/2.7_OMI_NOMOGRAM.md",
+      "sha256": "9b7356fe092593f893e5daa0825615483bf2923af05af003619de4ba825ef20b",
+      "sid": "o---o-port.2-math-2-7-omi-nomogram-md"
+    },
+    {
+      "bytes": 7876,
+      "extension": ".md",
+      "family": "document",
+      "output": "2-math-2-8-five-fold-four-fold-and-the-240-bridge-md.omilisp",
+      "relative_path": "2_MATH/2.8_FIVE_FOLD_FOUR_FOLD_AND_THE_240_BRIDGE.md",
+      "sha256": "8010db471d1e338332a0a784c076c08e52af1da7f49b1a7378ed141526f90e4b",
+      "sid": "o---o-port.2-math-2-8-five-fold-four-fold-and-the-240-bridge-md"
+    },
+    {
+      "bytes": 5335,
+      "extension": ".md",
+      "family": "document",
+      "output": "3-architecture-3-1-dom-hierarchy-md.omilisp",
+      "relative_path": "3_ARCHITECTURE/3.1_DOM_HIERARCHY.md",
+      "sha256": "43957e9880e85d20cc115ef693f2868b891b51d97fef797929a59ba559206a7a",
+      "sid": "o---o-port.3-architecture-3-1-dom-hierarchy-md"
+    },
+    {
+      "bytes": 3421,
+      "extension": ".md",
+      "family": "document",
+      "output": "3-architecture-3-2-wormhole-portals-md.omilisp",
+      "relative_path": "3_ARCHITECTURE/3.2_WORMHOLE_PORTALS.md",
+      "sha256": "c2d31ecf42937df12a5b4e41e7720aca20e7aafdaec36c6a62ea683d7ae2ca2a",
+      "sid": "o---o-port.3-architecture-3-2-wormhole-portals-md"
+    },
+    {
+      "bytes": 6107,
+      "extension": ".md",
+      "family": "document",
+      "output": "3-architecture-3-3-meta-circular-compiler-md.omilisp",
+      "relative_path": "3_ARCHITECTURE/3.3_META_CIRCULAR_COMPILER.md",
+      "sha256": "f4f5fcd18815d1d83c9d6243e0a23b2d2fa30eb9170c8fcc6cd859237cd73349",
+      "sid": "o---o-port.3-architecture-3-3-meta-circular-compiler-md"
+    },
+    {
+      "bytes": 4268,
+      "extension": ".md",
+      "family": "document",
+      "output": "3-architecture-3-4-control-codes-and-printable-projections-md.omilisp",
+      "relative_path": "3_ARCHITECTURE/3.4_CONTROL_CODES_AND_PRINTABLE_PROJECTIONS.md",
+      "sha256": "921f68f11011ff9c749191e2b3a57415c5446bfec05b41158afd2c5b5fd37991",
+      "sid": "o---o-port.3-architecture-3-4-control-codes-and-printable-projections-md"
+    },
+    {
+      "bytes": 4783,
+      "extension": ".md",
+      "family": "document",
+      "output": "4-network-4-1-ipv6-frame-mapping-md.omilisp",
+      "relative_path": "4_NETWORK/4.1_IPv6_FRAME_MAPPING.md",
+      "sha256": "fde20f2c7728237d11fb7ef9b99e78693d1e215efdf23f1b2bcd9cbbb546db13",
+      "sid": "o---o-port.4-network-4-1-ipv6-frame-mapping-md"
+    },
+    {
+      "bytes": 7534,
+      "extension": ".md",
+      "family": "document",
+      "output": "4-network-4-2-rules-omi-md.omilisp",
+      "relative_path": "4_NETWORK/4.2_RULES_OMI.md",
+      "sha256": "e7bee606a5b07bd967fede55c99e20083cc94fcd4cab28e6f199500e9cb2d854",
+      "sid": "o---o-port.4-network-4-2-rules-omi-md"
+    },
+    {
+      "bytes": 3562,
+      "extension": ".md",
+      "family": "document",
+      "output": "4-network-4-3-ebpf-kernel-gate-md.omilisp",
+      "relative_path": "4_NETWORK/4.3_eBPF_KERNEL_GATE.md",
+      "sha256": "9244fe60be2c347e4c6a7dce5302cbbbec298f81548cb29f841c057bf1cfda4a",
+      "sid": "o---o-port.4-network-4-3-ebpf-kernel-gate-md"
+    },
+    {
+      "bytes": 3683,
+      "extension": ".md",
+      "family": "document",
+      "output": "4-network-4-4-horn-clause-derivation-md.omilisp",
+      "relative_path": "4_NETWORK/4.4_HORN_CLAUSE_DERIVATION.md",
+      "sha256": "43fcb510e48401431955f7569d707c6806b089c801e32f9f225106463ad72648",
+      "sid": "o---o-port.4-network-4-4-horn-clause-derivation-md"
+    },
+    {
+      "bytes": 4804,
+      "extension": ".md",
+      "family": "document",
+      "output": "5-memory-5-1-ring-indexer-md.omilisp",
+      "relative_path": "5_MEMORY/5.1_RING_INDEXER.md",
+      "sha256": "65bf0d07656f218d8ec31ccd7f8b7ca23dc15e75842587fa772b1edb1a9aa227",
+      "sid": "o---o-port.5-memory-5-1-ring-indexer-md"
+    },
+    {
+      "bytes": 2420,
+      "extension": ".md",
+      "family": "document",
+      "output": "5-memory-5-2-overwrite-policy-md.omilisp",
+      "relative_path": "5_MEMORY/5.2_OVERWRITE_POLICY.md",
+      "sha256": "9f11249f97a57308ab92ffddf724cd355279412cf08b234fc345a1bb48dc5925",
+      "sid": "o---o-port.5-memory-5-2-overwrite-policy-md"
+    },
+    {
+      "bytes": 5997,
+      "extension": ".md",
+      "family": "document",
+      "output": "6-implementation-6-1-nodejs-compiler-md.omilisp",
+      "relative_path": "6_IMPLEMENTATION/6.1_NODEJS_COMPILER.md",
+      "sha256": "4ea347640111eae5dd482005b942913e5ece2731718a212d084b5b2ce7412e7f",
+      "sid": "o---o-port.6-implementation-6-1-nodejs-compiler-md"
+    },
+    {
+      "bytes": 3469,
+      "extension": ".md",
+      "family": "document",
+      "output": "6-implementation-6-2-c99-core-md.omilisp",
+      "relative_path": "6_IMPLEMENTATION/6.2_C99_CORE.md",
+      "sha256": "759b2b9a52e872cb39e37efc552b30c4b00706d435991596258ec49db12a6b85",
+      "sid": "o---o-port.6-implementation-6-2-c99-core-md"
+    },
+    {
+      "bytes": 2927,
+      "extension": ".md",
+      "family": "document",
+      "output": "6-implementation-6-3-test-suite-md.omilisp",
+      "relative_path": "6_IMPLEMENTATION/6.3_TEST_SUITE.md",
+      "sha256": "5d084185c9989227489fb2962aa1f819d598517674457ad116a3c5b56155c7bb",
+      "sid": "o---o-port.6-implementation-6-3-test-suite-md"
+    },
+    {
+      "bytes": 4886,
+      "extension": ".md",
+      "family": "document",
+      "output": "6-implementation-6-4-rule-resolver-and-materializer-md.omilisp",
+      "relative_path": "6_IMPLEMENTATION/6.4_RULE_RESOLVER_AND_MATERIALIZER.md",
+      "sha256": "fc1e7156cdd2771f2c938eb6abe5dd2c4b904589a26672b2750d4c102c5e908a",
+      "sid": "o---o-port.6-implementation-6-4-rule-resolver-and-materializer-md"
+    },
+    {
+      "bytes": 10999,
+      "extension": ".md",
+      "family": "document",
+      "output": "6-implementation-6-5-ll-ket-scope-and-0xe-manifold-md.omilisp",
+      "relative_path": "6_IMPLEMENTATION/6.5_LL_KET_SCOPE_AND_0xE_MANIFOLD.md",
+      "sha256": "353a0fca37686d311848ba198841f61a66fb34c6f03db94c5a0931ca8a647be8",
+      "sid": "o---o-port.6-implementation-6-5-ll-ket-scope-and-0xe-manifold-md"
+    },
+    {
+      "bytes": 21305,
+      "extension": ".md",
+      "family": "document",
+      "output": "7-canon-7-1-agreement-doctrine-md.omilisp",
+      "relative_path": "7_CANON/7.1_AGREEMENT_DOCTRINE.md",
+      "sha256": "e7dba7b82899c848209001016c486f39c2dc37ccf6e6d142b456a35e70c7132e",
+      "sid": "o---o-port.7-canon-7-1-agreement-doctrine-md"
+    },
+    {
+      "bytes": 2982,
+      "extension": ".md",
+      "family": "document",
+      "output": "7-canon-7-2-open-world-portal-model-md.omilisp",
+      "relative_path": "7_CANON/7.2_OPEN_WORLD_PORTAL_MODEL.md",
+      "sha256": "98bb44d1519a8f709dd49400d1d0ca818f48edcc5c3bfead5fc624edc995fb90",
+      "sid": "o---o-port.7-canon-7-2-open-world-portal-model-md"
+    },
+    {
+      "bytes": 2594,
+      "extension": ".md",
+      "family": "document",
+      "output": "7-canon-7-3-lower-omicron-upper-bidi-md.omilisp",
+      "relative_path": "7_CANON/7.3_LOWER_OMICRON_UPPER_BIDI.md",
+      "sha256": "d84298632444190bb535d3e74f1a447c30089f3fa9a5e8cdc99c2c72aef966cf",
+      "sid": "o---o-port.7-canon-7-3-lower-omicron-upper-bidi-md"
+    },
+    {
+      "bytes": 3165,
+      "extension": ".md",
+      "family": "document",
+      "output": "7-canon-7-4-conformance-canon-md.omilisp",
+      "relative_path": "7_CANON/7.4_CONFORMANCE_CANON.md",
+      "sha256": "70fbe147c6b2520bc3fd024b3600dd69b9f9b788188138aa223920b8809739e7",
+      "sid": "o---o-port.7-canon-7-4-conformance-canon-md"
+    },
+    {
+      "bytes": 7156,
+      "extension": ".md",
+      "family": "document",
+      "output": "7-canon-7-5-rule-to-fact-derivation-md.omilisp",
+      "relative_path": "7_CANON/7.5_RULE_TO_FACT_DERIVATION.md",
+      "sha256": "9aa878cb4676d5c99081c787ad95cad94eb34c17315f9322f0af0d8098c1e75d",
+      "sid": "o---o-port.7-canon-7-5-rule-to-fact-derivation-md"
+    },
+    {
+      "bytes": 8192,
+      "extension": ".md",
+      "family": "document",
+      "output": "7-canon-7-6-agreement-operators-md.omilisp",
+      "relative_path": "7_CANON/7.6_AGREEMENT_OPERATORS.md",
+      "sha256": "09303d9a043f7b44371731a300764db9d1782d3d6a672ac4cd4963e40b8abf5e",
+      "sid": "o---o-port.7-canon-7-6-agreement-operators-md"
+    },
+    {
+      "bytes": 6217,
+      "extension": ".md",
+      "family": "document",
+      "output": "8-cosmology-8-10-p2p-traversal-and-mirror-space-md.omilisp",
+      "relative_path": "8_COSMOLOGY/8.10_P2P_TRAVERSAL_AND_MIRROR_SPACE.md",
+      "sha256": "28e453afad7f94b7f21fa8e3ffb31e48a8f7b5a77cef85a8a7565f638ea21427",
+      "sid": "o---o-port.8-cosmology-8-10-p2p-traversal-and-mirror-space-md"
+    },
+    {
+      "bytes": 15315,
+      "extension": ".md",
+      "family": "document",
+      "output": "8-cosmology-8-11-snub-traversal-math-for-everyone-md.omilisp",
+      "relative_path": "8_COSMOLOGY/8.11_SNUB_TRAVERSAL_MATH_FOR_EVERYONE.md",
+      "sha256": "e0a998ed30d28354816285c755b6cca1639e901a6958255051a6a970496d2ffd",
+      "sid": "o---o-port.8-cosmology-8-11-snub-traversal-math-for-everyone-md"
+    },
+    {
+      "bytes": 4418,
+      "extension": ".md",
+      "family": "document",
+      "output": "8-cosmology-8-12-standard-truncation-vs-snub-operation-md.omilisp",
+      "relative_path": "8_COSMOLOGY/8.12_STANDARD_TRUNCATION_VS_SNUB_OPERATION.md",
+      "sha256": "d987487d7253db9f318bec7d68a02839b6fbcceb9fffe5086f6a0dbe864829af",
+      "sid": "o---o-port.8-cosmology-8-12-standard-truncation-vs-snub-operation-md"
+    },
+    {
+      "bytes": 1425,
+      "extension": ".md",
+      "family": "document",
+      "output": "8-cosmology-8-1-the-omi-ring-domain-md.omilisp",
+      "relative_path": "8_COSMOLOGY/8.1_THE_OMI_RING_DOMAIN.md",
+      "sha256": "78c2e4d75fd0382b731dec503968520a1dd48ae8feabb02414b75eae904d9895",
+      "sid": "o---o-port.8-cosmology-8-1-the-omi-ring-domain-md"
+    },
+    {
+      "bytes": 2060,
+      "extension": ".md",
+      "family": "document",
+      "output": "8-cosmology-8-2-atomic-delta-and-cosmic-orbit-md.omilisp",
+      "relative_path": "8_COSMOLOGY/8.2_ATOMIC_DELTA_AND_COSMIC_ORBIT.md",
+      "sha256": "9213b24a9161079d66096867dd87daa64c49a6cd979ee1497607be525c21f410",
+      "sid": "o---o-port.8-cosmology-8-2-atomic-delta-and-cosmic-orbit-md"
+    },
+    {
+      "bytes": 1428,
+      "extension": ".md",
+      "family": "document",
+      "output": "8-cosmology-8-3-light-sound-and-frame-reference-md.omilisp",
+      "relative_path": "8_COSMOLOGY/8.3_LIGHT_SOUND_AND_FRAME_REFERENCE.md",
+      "sha256": "ac8fa3c6374000321954156365e60b6bf8a6ad9032ebf186a33b7704bcda2def",
+      "sid": "o---o-port.8-cosmology-8-3-light-sound-and-frame-reference-md"
+    },
+    {
+      "bytes": 2726,
+      "extension": ".md",
+      "family": "document",
+      "output": "8-cosmology-8-4-omi-gravity-and-centroid-md.omilisp",
+      "relative_path": "8_COSMOLOGY/8.4_OMI_GRAVITY_AND_CENTROID.md",
+      "sha256": "43d047b40ec7efe319a08df37d5c7589374911b5eab8f83c398c32c1854f8542",
+      "sid": "o---o-port.8-cosmology-8-4-omi-gravity-and-centroid-md"
+    },
+    {
+      "bytes": 1753,
+      "extension": ".md",
+      "family": "document",
+      "output": "8-cosmology-8-5-principal-address-domain-md.omilisp",
+      "relative_path": "8_COSMOLOGY/8.5_PRINCIPAL_ADDRESS_DOMAIN.md",
+      "sha256": "563a9a3942f0b5161c6f07e60bc4fce962fa1d90fde63ce9f1f98d94c04e2f70",
+      "sid": "o---o-port.8-cosmology-8-5-principal-address-domain-md"
+    },
+    {
+      "bytes": 2830,
+      "extension": ".md",
+      "family": "document",
+      "output": "8-cosmology-8-6-snub-truncation-as-model-operation-md.omilisp",
+      "relative_path": "8_COSMOLOGY/8.6_SNUB_TRUNCATION_AS_MODEL_OPERATION.md",
+      "sha256": "259fde01c3ca8d7b01aff381825ec795d519f05ede31530da8f2b88c14e7c392",
+      "sid": "o---o-port.8-cosmology-8-6-snub-truncation-as-model-operation-md"
+    },
+    {
+      "bytes": 7532,
+      "extension": ".md",
+      "family": "document",
+      "output": "8-cosmology-8-7-geometric-bridge-platonic-snub-4d-md.omilisp",
+      "relative_path": "8_COSMOLOGY/8.7_GEOMETRIC_BRIDGE_PLATONIC_SNUB_4D.md",
+      "sha256": "38051301c42e1c4a46bf6791ec0dbc5d395704293ad8dc3324bb98abf7967ebf",
+      "sid": "o---o-port.8-cosmology-8-7-geometric-bridge-platonic-snub-4d-md"
+    },
+    {
+      "bytes": 13950,
+      "extension": ".md",
+      "family": "document",
+      "output": "8-cosmology-8-8-snub-cube-and-snub-dodecahedron-md.omilisp",
+      "relative_path": "8_COSMOLOGY/8.8_SNUB_CUBE_AND_SNUB_DODECAHEDRON.md",
+      "sha256": "7fa0c6b75565b63541c0c67842ad16cd0a63f4b820624ecc51cfc271dc3f0bd7",
+      "sid": "o---o-port.8-cosmology-8-8-snub-cube-and-snub-dodecahedron-md"
+    },
+    {
+      "bytes": 11920,
+      "extension": ".md",
+      "family": "document",
+      "output": "8-cosmology-8-9-chirality-selection-and-snub-cardinality-md.omilisp",
+      "relative_path": "8_COSMOLOGY/8.9_CHIRALITY_SELECTION_AND_SNUB_CARDINALITY.md",
+      "sha256": "8b9b0a93af5da57894d358f6febec8730b5dd57d1b1a3065839a4c76df830111",
+      "sid": "o---o-port.8-cosmology-8-9-chirality-selection-and-snub-cardinality-md"
+    },
+    {
+      "bytes": 4272,
+      "extension": ".md",
+      "family": "document",
+      "output": "agents-md.omilisp",
+      "relative_path": "AGENTS.md",
+      "sha256": "597679c0a6d122022357f51472a8f93dfddbaea5857a3c37e899fd96d1076c28",
+      "sid": "o---o-port.agents-md"
+    },
+    {
+      "bytes": 11979,
+      "extension": ".md",
+      "family": "document",
+      "output": "doctrine-md.omilisp",
+      "relative_path": "DOCTRINE.md",
+      "sha256": "57c9693606d9e589072f58e11332a3f16e5c1c17ff82767e0862127ca6fac617",
+      "sid": "o---o-port.doctrine-md"
+    },
+    {
+      "bytes": 28377,
+      "extension": ".md",
+      "family": "document",
+      "output": "glossary-md.omilisp",
+      "relative_path": "GLOSSARY.md",
+      "sha256": "2226d522c5fc5eec29eb75fb74af03db02efddf873978b309b826b9cded6654b",
+      "sid": "o---o-port.glossary-md"
+    },
+    {
+      "bytes": 9604,
+      "extension": ".md",
+      "family": "document",
+      "output": "manifesto-md.omilisp",
+      "relative_path": "MANIFESTO.md",
+      "sha256": "0744e797915b15e1b40c014487f278645c2d84b7d989d8e84bf25aeff68866d2",
+      "sid": "o---o-port.manifesto-md"
+    },
+    {
+      "bytes": 32041,
+      "extension": ".md",
+      "family": "document",
+      "output": "readme-md.omilisp",
+      "relative_path": "README.md",
+      "sha256": "1b5454bd5ce10460734daef006bfa7ca57fd2b6061efc0b4c2e92733abbd283b",
+      "sid": "o---o-port.readme-md"
+    },
+    {
+      "bytes": 16942,
+      "extension": ".md",
+      "family": "document",
+      "output": "timeline-md.omilisp",
+      "relative_path": "TIMELINE.md",
+      "sha256": "1bf50a43b1c2975eeab8aa977fd4b32fc8fac5f15f4035e57dd154f428f270a3",
+      "sid": "o---o-port.timeline-md"
+    },
+    {
+      "bytes": 2414857,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-2026-06-12-branch-branch-branch-omi-agreement-overview-md.omilisp",
+      "relative_path": "_archive/2026-06-12-Branch_\u00b7_Branch_\u00b7_Branch_\u00b7_OMI_Agreement_Overview.md",
+      "sha256": "4f20fb231a6595dd5a6badaf935cb70049df37878a75f37b4edf26132aa70764",
+      "sid": "o---o-port.archive-2026-06-12-branch-branch-branch-omi-agreement-overview-md"
+    },
+    {
+      "bytes": 2429997,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-2026-06-12-branch-branch-omi-agreement-overview-md.omilisp",
+      "relative_path": "_archive/2026-06-12-Branch_\u00b7_Branch_\u00b7_OMI_Agreement_Overview.md",
+      "sha256": "5ce015dc3b5d1ea562312956364c140331cad53fe150ad63edb4a2311a992b2f",
+      "sid": "o---o-port.archive-2026-06-12-branch-branch-omi-agreement-overview-md"
+    },
+    {
+      "bytes": 11372,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-agreement-is-all-you-need-the-omi-object-model-omi-protocol-specification-md.omilisp",
+      "relative_path": "_archive/Agreement Is All You Need_ The Omi Object Model (OMI) Protocol Specification.md",
+      "sha256": "c70c8890bd96cb866fde17196966edd97390b95180a88c7b4aa2981dda2ce9dd",
+      "sid": "o---o-port.archive-agreement-is-all-you-need-the-omi-object-model-omi-protocol-specification-md"
+    },
+    {
+      "bytes": 18776,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-declarations-md.omilisp",
+      "relative_path": "_archive/DECLARATIONS.md",
+      "sha256": "c9fcfc9dba98f7c3971c3764fd8ea708c6a59c480c494bb9853e49ed1ba8ab73",
+      "sid": "o---o-port.archive-declarations-md"
+    },
+    {
+      "bytes": 16928,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-monotone-causal-reed-solomon-gossip-storage-protocol-mcrsgsp-md.omilisp",
+      "relative_path": "_archive/Monotone Causal Reed\u2013Solomon Gossip Storage Protocol (MCRSGSP).md",
+      "sha256": "43a00ad2d5acee6f06c9065fbdeaacba01a57b230b78882638ef3e52f18cb827",
+      "sid": "o---o-port.archive-monotone-causal-reed-solomon-gossip-storage-protocol-mcrsgsp-md"
+    },
+    {
+      "bytes": 23588,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-addressing-and-the-factorial-tower-md.omilisp",
+      "relative_path": "_archive/OMI Addressing and the Factorial Tower.md",
+      "sha256": "57d3abcbcd13db273efd469bb81259e07ccd8b388f41d569ef880a8ca4d659ca",
+      "sid": "o---o-port.archive-omi-addressing-and-the-factorial-tower-md"
+    },
+    {
+      "bytes": 7817,
+      "extension": ".ts",
+      "family": "artifact",
+      "output": "archive-omi-combinatorial-rewrite-kernel-ts.omilisp",
+      "relative_path": "_archive/OMI COMBINATORIAL REWRITE KERNEL.ts",
+      "sha256": "597842d5a42a49275ca7e4b5fea5fbb20f99c6723db985d7156a5350dc9fbe40",
+      "sid": "o---o-port.archive-omi-combinatorial-rewrite-kernel-ts"
+    },
+    {
+      "bytes": 16495,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-ddd-thorne-calculus-md.omilisp",
+      "relative_path": "_archive/OMI DDD - Thorne Calculus.md",
+      "sha256": "91126f2f81fe2d78195f006028fa0145abe4a7e126cb61043268d47eb4e0c361",
+      "sid": "o---o-port.archive-omi-ddd-thorne-calculus-md"
+    },
+    {
+      "bytes": 70300,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-omi-object-model-md.omilisp",
+      "relative_path": "_archive/OMI( omi- ) Object Model.md",
+      "sha256": "62896e4c4c881561e35bcf7b3676c798cbfe7c4bc48ee9ddbd84d02dac0b8534",
+      "sid": "o---o-port.archive-omi-omi-object-model-md"
+    },
+    {
+      "bytes": 17268,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-address-derivation-protocol-md.omilisp",
+      "relative_path": "_archive/OMI_ADDRESS_DERIVATION_PROTOCOL.md",
+      "sha256": "d6cb01a9f5650bd2e0f0b7b959311e68feca51ec9d127e98a5abc87429c45df7",
+      "sid": "o---o-port.archive-omi-address-derivation-protocol-md"
+    },
+    {
+      "bytes": 13004,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-declarative-lookup-table-protocol-md.omilisp",
+      "relative_path": "_archive/OMI_DECLARATIVE_LOOKUP_TABLE_PROTOCOL.md",
+      "sha256": "1ad96cb0ee678a357785d9a513f4ec532d0b0ffcfb105faa03ad625606ddcbab",
+      "sid": "o---o-port.archive-omi-declarative-lookup-table-protocol-md"
+    },
+    {
+      "bytes": 63816,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-declarative-md.omilisp",
+      "relative_path": "_archive/Omi Declarative.md",
+      "sha256": "0f7ad99a6c394200e0253b0f7ca694f84dbfeb6fc1a89ecc029983cd913d76f4",
+      "sid": "o---o-port.archive-omi-declarative-md"
+    },
+    {
+      "bytes": 820038,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-object-model-chat-full-description-md.omilisp",
+      "relative_path": "_archive/Omi Object Model Chat Full Description.md",
+      "sha256": "580d18d2a416f8ac2b44f93295a0de6ad93afe2f18964fa3cec69e56562c5f76",
+      "sid": "o---o-port.archive-omi-object-model-chat-full-description-md"
+    },
+    {
+      "bytes": 0,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-object-model-omi-imo-palindromic-mnemonic-meta-circular-compiler-for-meta-memory-bit-blipping-md.omilisp",
+      "relative_path": "_archive/Omi Object Model omi---imo  Palindromic Mnemonic Meta-Circular Compiler for Meta-Memory Bit-Blipping.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "o---o-port.archive-omi-object-model-omi-imo-palindromic-mnemonic-meta-circular-compiler-for-meta-memory-bit-blipping-md"
+    },
+    {
+      "bytes": 16226,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-object-model-md.omilisp",
+      "relative_path": "_archive/Omi Object Model.md",
+      "sha256": "7e8a1280b17486aa50c672624f1f493ce53bdac0d0b466ebc8bf0c2056a78101",
+      "sid": "o---o-port.archive-omi-object-model-md"
+    },
+    {
+      "bytes": 83172,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-port-rendering-md.omilisp",
+      "relative_path": "_archive/Omi Port Rendering.md",
+      "sha256": "ea4a11566ab0f5a9b4900cbe7f7ca3542849d25a173eddee610bebb3aac93ff4",
+      "sid": "o---o-port.archive-omi-port-rendering-md"
+    },
+    {
+      "bytes": 84846,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-porting-md.omilisp",
+      "relative_path": "_archive/Omi Porting.md",
+      "sha256": "a5b4aac2e486a4133cf624631288ce86a70b4318982434de98faf3c4ec79109f",
+      "sid": "o---o-port.archive-omi-porting-md"
+    },
+    {
+      "bytes": 1499,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-compass-md.omilisp",
+      "relative_path": "_archive/Omi-Compass.md",
+      "sha256": "2b9bbb74826cf1c07a5ae50d39ee3a2d24de9008c757cdea43dd505d903d6958",
+      "sid": "o---o-port.archive-omi-compass-md"
+    },
+    {
+      "bytes": 0,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-whitepaper-md.omilisp",
+      "relative_path": "_archive/Omi.Whitepaper.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "o---o-port.archive-omi-whitepaper-md"
+    },
+    {
+      "bytes": 20021,
+      "extension": ".txt",
+      "family": "document",
+      "output": "archive-omilog-specification-txt.omilisp",
+      "relative_path": "_archive/Omilog Specification.txt",
+      "sha256": "e42825a9d2d9fc79eec7e9e0e9016151bf33ebc7aa58219ec8a3ce682c03ca0f",
+      "sid": "o---o-port.archive-omilog-specification-txt"
+    },
+    {
+      "bytes": 1632,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-paradox-or-paradigm-md.omilisp",
+      "relative_path": "_archive/PARADOX OR PARADIGM.md",
+      "sha256": "26decad538227b185a13f4524ed87ed08a0e45f9b2e68f5311d3c528bfc001fb",
+      "sid": "o---o-port.archive-paradox-or-paradigm-md"
+    },
+    {
+      "bytes": 25011,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-the-five-fold-and-four-md.omilisp",
+      "relative_path": "_archive/The Five Fold and Four.md",
+      "sha256": "73c74776e2e6736387db86ef610887e4df669c8df5481760a8b454890f63d704",
+      "sid": "o---o-port.archive-the-five-fold-and-four-md"
+    },
+    {
+      "bytes": 25011,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-the-five-fold-and-four-fold-rule-fact-layer-in-omi-md.omilisp",
+      "relative_path": "_archive/The Five-Fold and Four-Fold Rule-Fact Layer in OMI.md",
+      "sha256": "73c74776e2e6736387db86ef610887e4df669c8df5481760a8b454890f63d704",
+      "sid": "o---o-port.archive-the-five-fold-and-four-fold-rule-fact-layer-in-omi-md"
+    },
+    {
+      "bytes": 4743,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-the-hidden-five-md.omilisp",
+      "relative_path": "_archive/The Hidden Five.md",
+      "sha256": "e122798759b6a181114116865bae81e17afb5182929a0ac214849514f9104725",
+      "sid": "o---o-port.archive-the-hidden-five-md"
+    },
+    {
+      "bytes": 19221,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-the-omicron-object-model-md.omilisp",
+      "relative_path": "_archive/The Omicron Object Model.md",
+      "sha256": "b6dcd4c1fa35dd6a220bd0e551294e7776ef9fca61ef46b3e5fae226223abde6",
+      "sid": "o---o-port.archive-the-omicron-object-model-md"
+    },
+    {
+      "bytes": 11608,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-the-prime-factor-signature-of-5-factorial-and-73-md.omilisp",
+      "relative_path": "_archive/The Prime Factor Signature of 5 factorial and 73.md",
+      "sha256": "5fb843ce4ed9e7092925a0ac6e972855dcde9ef9ec48eceb2d775ffdeacde032",
+      "sid": "o---o-port.archive-the-prime-factor-signature-of-5-factorial-and-73-md"
+    },
+    {
+      "bytes": 5998,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-the-three-axes-of-canonical-progression-md.omilisp",
+      "relative_path": "_archive/The Three Axes of Canonical Progression.md",
+      "sha256": "b09d78217fb6919dc6e99aa7bffaf9ac740424eb0194197d6b6a3637c8401786",
+      "sid": "o---o-port.archive-the-three-axes-of-canonical-progression-md"
+    },
+    {
+      "bytes": 3678,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-tower-of-powers-md.omilisp",
+      "relative_path": "_archive/Tower of Powers.md",
+      "sha256": "6b9c46e4e6df919ccf684fa14759f37cb6aba75d2ad607c7bf9991afb719cff6",
+      "sid": "o---o-port.archive-tower-of-powers-md"
+    },
+    {
+      "bytes": 18026,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-walking-tower-of-powers-rooted-md.omilisp",
+      "relative_path": "_archive/Walking Tower of Powers Rooted.md",
+      "sha256": "bd76f2fa65fef77bc486ac546320761695f36a699ad2b376d006ccdd134f87db",
+      "sid": "o---o-port.archive-walking-tower-of-powers-rooted-md"
+    },
+    {
+      "bytes": 17990,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-whitepaper-the-240-state-md.omilisp",
+      "relative_path": "_archive/Whitepaper The 240 State.md",
+      "sha256": "aa86e6f414d433932067824f20c53306db58d0fd33ebb7fad9a40176e8d3a8ae",
+      "sid": "o---o-port.archive-whitepaper-the-240-state-md"
+    },
+    {
+      "bytes": 44844,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "archive-html-algebraic-physics-of-computation-html.omilisp",
+      "relative_path": "_archive/html/Algebraic-Physics-of-Computation.html",
+      "sha256": "76eae78aa5795ee2dedb420010d083503772b8e339f7bd5405bf0ac729235be6",
+      "sid": "o---o-port.archive-html-algebraic-physics-of-computation-html"
+    },
+    {
+      "bytes": 33140,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "archive-html-omi-block-model-webbrowser-meta-compiler-upgrade-html.omilisp",
+      "relative_path": "_archive/html/OMI-Block-Model---Webbrowser-Meta-Compiler-Upgrade.html",
+      "sha256": "f2e9d8cca6912d3d2e14e5eaaa4a828cce37a2e696a64f6559cee75bbf75c2e4",
+      "sid": "o---o-port.archive-html-omi-block-model-webbrowser-meta-compiler-upgrade-html"
+    },
+    {
+      "bytes": 22724,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "archive-html-omi-block-model-webbrowser-meta-compiler-html.omilisp",
+      "relative_path": "_archive/html/OMI-Block-Model---Webbrowser-Meta-Compiler.html",
+      "sha256": "09a43d223917b2f4c6a0407ba8b7c0b1c28123f9e301e4e15a7980a339876585",
+      "sid": "o---o-port.archive-html-omi-block-model-webbrowser-meta-compiler-html"
+    },
+    {
+      "bytes": 17085,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "archive-html-omi-block-model-precision-page-rewrite-html.omilisp",
+      "relative_path": "_archive/html/OMI-Block-Model---precision-page-rewrite.html",
+      "sha256": "56f9304f0e322c55b5f624f0f6f65470f46d265e0353f5150109b86fd0875055",
+      "sid": "o---o-port.archive-html-omi-block-model-precision-page-rewrite-html"
+    },
+    {
+      "bytes": 33141,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "archive-html-omi-flight-computer-meta-compiler-html.omilisp",
+      "relative_path": "_archive/html/OMI-flight-computer-meta-compiler.html",
+      "sha256": "7733a04fd0fc50045cfc6d0046d7be444103abe58b3cb591ff7c8ec6d7730475",
+      "sid": "o---o-port.archive-html-omi-flight-computer-meta-compiler-html"
+    },
+    {
+      "bytes": 53789,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "archive-html-combinatorial-designs-catalog-html.omilisp",
+      "relative_path": "_archive/html/combinatorial_designs_catalog.html",
+      "sha256": "d0ae54e0f4d8ce56c5cdb2536f5121c3a33e2935a585a8a60536679d3c174b9d",
+      "sid": "o---o-port.archive-html-combinatorial-designs-catalog-html"
+    },
+    {
+      "bytes": 15208,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "archive-html-deterministic-clock-slide-rule-html.omilisp",
+      "relative_path": "_archive/html/deterministic_clock_slide_rule.html",
+      "sha256": "1ac4474e2da139983ae7fd43a29cdc7b68b67a97d083caaabf5442f69c07a35d",
+      "sid": "o---o-port.archive-html-deterministic-clock-slide-rule-html"
+    },
+    {
+      "bytes": 41228,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "archive-html-deterministic-clock-slide-rule-routed-html.omilisp",
+      "relative_path": "_archive/html/deterministic_clock_slide_rule_routed.html",
+      "sha256": "d025a4df17f7b0e74b9de692868a65bd2f2eaaa813458995e25a7a0a69df542a",
+      "sid": "o---o-port.archive-html-deterministic-clock-slide-rule-routed-html"
+    },
+    {
+      "bytes": 28171,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "archive-html-omi-portable-static-portal-html.omilisp",
+      "relative_path": "_archive/html/omi-portable-static-portal.html",
+      "sha256": "3de6eb96f82b9f2ee2ad229aa65f668b648241230990a350da021d117ec06d42",
+      "sid": "o---o-port.archive-html-omi-portable-static-portal-html"
+    },
+    {
+      "bytes": 51507,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "archive-html-omi-delta-orbital-lexer-html.omilisp",
+      "relative_path": "_archive/html/omi_delta_orbital_lexer.html",
+      "sha256": "e9fe33b9ea0bd51c45464b2c50dc6b0e890a66154819342807abd4152474d7f9",
+      "sid": "o---o-port.archive-html-omi-delta-orbital-lexer-html"
+    },
+    {
+      "bytes": 5179315,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-architecture-of-decentralized-agreement-png.omilisp",
+      "relative_path": "_archive/images/Architecture_of_Decentralized_Agreement.png",
+      "sha256": "cce0f250f6ed91cef20073ce7309d637a85690486a60a1daaf8e505116066eef",
+      "sid": "o---o-port.archive-images-architecture-of-decentralized-agreement-png"
+    },
+    {
+      "bytes": 4532564,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-architecture-of-digital-agreement-diagram-png.omilisp",
+      "relative_path": "_archive/images/Architecture_of_Digital_Agreement_Diagram.png",
+      "sha256": "6bb31959ebe7824c0ab143b0de838c6ae8afb7dd77e1744f9909f8b9635c7d60",
+      "sid": "o---o-port.archive-images-architecture-of-digital-agreement-diagram-png"
+    },
+    {
+      "bytes": 4433419,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-architecture-of-structural-trust-infographic-png.omilisp",
+      "relative_path": "_archive/images/Architecture_of_Structural_Trust_Infographic.png",
+      "sha256": "9793c434b7f0f906ae00abe510d82e358c1ffed5544cf1bad8e9de300df4c311",
+      "sid": "o---o-port.archive-images-architecture-of-structural-trust-infographic-png"
+    },
+    {
+      "bytes": 4901007,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-architecture-of-verifiable-address-states-png.omilisp",
+      "relative_path": "_archive/images/Architecture_of_Verifiable_Address_States.png",
+      "sha256": "85fd3cf50089ff815b6b48010263882456983c012d8c48ff779f92bb053ec01f",
+      "sid": "o---o-port.archive-images-architecture-of-verifiable-address-states-png"
+    },
+    {
+      "bytes": 3674195,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-decentralized-web-protocol-mathematical-architecture-png.omilisp",
+      "relative_path": "_archive/images/Decentralized_Web_Protocol_Mathematical_Architecture.png",
+      "sha256": "ded7bbcedfb6c40bd95faa019ffc15b104ba1dce15f8beb8b85c5ef1a4a4bb7a",
+      "sid": "o---o-port.archive-images-decentralized-web-protocol-mathematical-architecture-png"
+    },
+    {
+      "bytes": 7259,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "archive-images-karnaugh-map-torus-svg.omilisp",
+      "relative_path": "_archive/images/Karnaugh_map_torus.svg",
+      "sha256": "35eb5dcfd35e9a9dfa4ce44d0fa00b3ae8feb802712294f9dc86f8c89066074c",
+      "sid": "o---o-port.archive-images-karnaugh-map-torus-svg"
+    },
+    {
+      "bytes": 773276,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-notebooklm-mind-map-png.omilisp",
+      "relative_path": "_archive/images/NotebookLM Mind Map.png",
+      "sha256": "dc21652385e6030ef734c8676dac82b3e91d92bb766fe8744e49bbbd2e3ba9d7",
+      "sid": "o---o-port.archive-images-notebooklm-mind-map-png"
+    },
+    {
+      "bytes": 3474787,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0000-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0000.png",
+      "sha256": "f77e1eb390f3ae9c2aedf0cd0917772e3dd6705f41aa86b623ab58c9225a2e88",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0000-png"
+    },
+    {
+      "bytes": 3025030,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0001-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0001.png",
+      "sha256": "c7e81e9d1d860ef6785aeb1f2814b940b0c81343db333383a397c0efafc855d0",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0001-png"
+    },
+    {
+      "bytes": 2833475,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0002-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0002.png",
+      "sha256": "b878458222b18b459fbc7e5ffd32ced2201971c2b1be7f3c354206e4a6490ff8",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0002-png"
+    },
+    {
+      "bytes": 2078816,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0003-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0003.png",
+      "sha256": "0ec35627476295615ec81aebea2ef3e5832a6a41f0c8d8f0986c86110e7c563b",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0003-png"
+    },
+    {
+      "bytes": 2032423,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0004-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0004.png",
+      "sha256": "5ad6f2f609df53e3b006e61b4ac6cdff9ed7815380bb3d125fa516d408bca8af",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0004-png"
+    },
+    {
+      "bytes": 1929629,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0005-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0005.png",
+      "sha256": "6b3f2243c6ccc2d44ccc37c7540fe1011c524f21c6a2ce31f8e15482e7d42ff3",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0005-png"
+    },
+    {
+      "bytes": 2120779,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0006-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0006.png",
+      "sha256": "aaa78fc16f09bb9365bb7ddeeb2cf70050a415e14d17bacc2a867b27624154d5",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0006-png"
+    },
+    {
+      "bytes": 2949038,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0007-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0007.png",
+      "sha256": "3a1cf4c0a87a40db3a53652ccab8040e47892a76ba10e10e70ac920eb56c8fcd",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0007-png"
+    },
+    {
+      "bytes": 2552079,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0008-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0008.png",
+      "sha256": "4d3101afaf342b0cb707ebce157b37d4b8e393b6914be74eef491eabe5121895",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0008-png"
+    },
+    {
+      "bytes": 2522561,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0009-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0009.png",
+      "sha256": "1bac91103f2159c477eb96a2b48c58b74c95ccdad521922827e54e47c93f0e4f",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0009-png"
+    },
+    {
+      "bytes": 2188858,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0010-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0010.png",
+      "sha256": "d12293db339d3e6717188cb9cd86df54bada3299fbcf35e8c3ae9c8bda8ff7ec",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0010-png"
+    },
+    {
+      "bytes": 2135911,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0011-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0011.png",
+      "sha256": "3216f807f6a6fce189d6203c28d45853adac76ded79ee7c3b35b687d3a7d04a2",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0011-png"
+    },
+    {
+      "bytes": 2197508,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0012-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0012.png",
+      "sha256": "b20bea97a9f72f6b69898f48fbaa2dbeef9ce8de0c0c530371ad6a1bfddb9e34",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0012-png"
+    },
+    {
+      "bytes": 2014636,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0013-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0013.png",
+      "sha256": "4989f201b5091b9f205dfc4a4abe4c823a4a2642a41ca72b4d46611f6fbe3cba",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0013-png"
+    },
+    {
+      "bytes": 2498969,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0014-png.omilisp",
+      "relative_path": "_archive/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0014.png",
+      "sha256": "93fd55105c13ef52b0c77082152267626174ad97caa1d476e49b35c1193aeae6",
+      "sid": "o---o-port.archive-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0014-png"
+    },
+    {
+      "bytes": 4394966,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-open-world-portal-model-png.omilisp",
+      "relative_path": "_archive/images/OMI_Open-World_Portal_Model.png",
+      "sha256": "c1767d0fd1460f85a4314aea8ecb60adcbce727d3fb41a46ff3f615dc797849b",
+      "sid": "o---o-port.archive-images-omi-open-world-portal-model-png"
+    },
+    {
+      "bytes": 4320278,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-truth-row-routing-process-png.omilisp",
+      "relative_path": "_archive/images/OMI_Truth_Row_Routing_Process.png",
+      "sha256": "a19887062dddc50bcefdfe8915026b60199bab8f81748581d7363804c19b64f3",
+      "sid": "o---o-port.archive-images-omi-truth-row-routing-process-png"
+    },
+    {
+      "bytes": 4777829,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-the-architecture-of-agreement-png.omilisp",
+      "relative_path": "_archive/images/OMI__The_Architecture_of_Agreement.png",
+      "sha256": "a5aa5a732c71539589dd44835b6eec17ee377118e43e0cd1e0eda796ea9d37ea",
+      "sid": "o---o-port.archive-images-omi-the-architecture-of-agreement-png"
+    },
+    {
+      "bytes": 4853748,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-omi-third-collapse-of-computing-png.omilisp",
+      "relative_path": "_archive/images/OMI__Third_Collapse_of_Computing.png",
+      "sha256": "0f505aa801c468c4bd8be74b8e3a1d048f2da835a9b983b510887aa339d8ddff",
+      "sid": "o---o-port.archive-images-omi-third-collapse-of-computing-png"
+    },
+    {
+      "bytes": 3397522,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0000-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0000.png",
+      "sha256": "938659635112fff9736f2ebb8062d931d3644f917faa3efdb792032927182206",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0000-png"
+    },
+    {
+      "bytes": 3449344,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0001-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0001.png",
+      "sha256": "45800920d504d3d905a1c831ea2aa915a357b0d3150401a402a2353660d6b9fe",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0001-png"
+    },
+    {
+      "bytes": 2695975,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0002-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0002.png",
+      "sha256": "08653499f857c6f24080a00fd36ac8067588b481c76c275f951f6fe59635c2f4",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0002-png"
+    },
+    {
+      "bytes": 3316893,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0003-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0003.png",
+      "sha256": "a8ea45999ee2848513be72e87cfabd1be48fbbcf666b01d08922cddb220016af",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0003-png"
+    },
+    {
+      "bytes": 3053271,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0004-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0004.png",
+      "sha256": "3b2c56edbdb45a2456cfd048a8980d4172deed71ebc7580c24b3cbdac85fdecb",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0004-png"
+    },
+    {
+      "bytes": 3265375,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0005-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0005.png",
+      "sha256": "3c2b36d9366c3a08ea23491925a1eff54d94b32d22855bfd682cf53042ed9cbf",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0005-png"
+    },
+    {
+      "bytes": 3238392,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0006-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0006.png",
+      "sha256": "5d4adf733af09c28f9937bbd4d80855568c9d7fb97ba818aaa5f8fe3efdd5c02",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0006-png"
+    },
+    {
+      "bytes": 2879324,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0007-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0007.png",
+      "sha256": "c9f7b9fcade95373817c596cd589a384c9bf426731c2c55b087275dc4bb79c2a",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0007-png"
+    },
+    {
+      "bytes": 2996362,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0008-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0008.png",
+      "sha256": "ed4ec222e1636cd82b5ef72843ec8dccb97948e6583e308da4f6a5a528b35985",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0008-png"
+    },
+    {
+      "bytes": 2523094,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0009-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0009.png",
+      "sha256": "efd3677cdeff899e47b0d89fbdfafc9cb5a5fc7b5fea229a850a360e90ff1a6b",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0009-png"
+    },
+    {
+      "bytes": 2459414,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0010-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0010.png",
+      "sha256": "36909fa0edeefcf61272dccec25efe53f0b5728509bd4e701d2544ae5fa0a347",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0010-png"
+    },
+    {
+      "bytes": 3235062,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0011-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0011.png",
+      "sha256": "ed3e76f940c3438273ab6daf50a9bf92a8ea47c74b8e1e6b449ffcd4557aac11",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0011-png"
+    },
+    {
+      "bytes": 3387635,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0012-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0012.png",
+      "sha256": "040879f99809cea6168f3ec58ab893882c4559674220e7bf0210a97ea4a24694",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0012-png"
+    },
+    {
+      "bytes": 3181060,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0013-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0013.png",
+      "sha256": "05033b361559a89152b04618e812202089c03a57a08bd34f0bb25ed0295fe89e",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0013-png"
+    },
+    {
+      "bytes": 3054660,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0014-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0014.png",
+      "sha256": "92f3aedf92174b242087fa2250b80f694ba6691aa8c948591c9b361042cff984",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0014-png"
+    },
+    {
+      "bytes": 2595772,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0015-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0015.png",
+      "sha256": "27b6416f2f03941c2730f9156ae34bcf5c69e531175bb3f500f0f5c35dc21ec9",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0015-png"
+    },
+    {
+      "bytes": 2977843,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0016-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0016.png",
+      "sha256": "e793d986dba2ed4b1cce5ce427b941620d85746026e6a84caa7f2f52f4aa685c",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0016-png"
+    },
+    {
+      "bytes": 4519845,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0017-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0017.png",
+      "sha256": "1c57cff974970125e01f381d0d21394f4f6a1a285512311f9e97513459b57e3c",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0017-png"
+    },
+    {
+      "bytes": 1137579,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0018-png.omilisp",
+      "relative_path": "_archive/images/The_Architectural_Substrate/3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0018.png",
+      "sha256": "56110ca17346066efef6cebb8d163ef56543ba4373f7429bd49cac7937b44357",
+      "sid": "o---o-port.archive-images-the-architectural-substrate-3a268c00-2e29-4f0d-b093-08afd9a4d4a6-0018-png"
+    },
+    {
+      "bytes": 4996759,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-alignment-protocol-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Alignment_Protocol.png",
+      "sha256": "04fc1163f7e3fee564b76a7a0d8df02cb61bcbae28d9353d5910a1136d86051e",
+      "sid": "o---o-port.archive-images-the-omi-alignment-protocol-png"
+    },
+    {
+      "bytes": 2955106,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0000-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0000.png",
+      "sha256": "78ea8c6fa51aae1091e33e7e0fd44175534e9d07ba6a811eda8bb90d330144b4",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0000-png"
+    },
+    {
+      "bytes": 2391231,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0001-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0001.png",
+      "sha256": "8af11fbe92aae783a27f0e179c57e94ad5775b9f0e633de21ef0bc4dc6d37d60",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0001-png"
+    },
+    {
+      "bytes": 2284874,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0002-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0002.png",
+      "sha256": "a73823c4ad25ad28c7e87613af3ceda33fd14b471bea7bf5d121426adea86f07",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0002-png"
+    },
+    {
+      "bytes": 1796256,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0003-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0003.png",
+      "sha256": "191c057f11a2bcdef0d69b51f5ba4b9378450a353342f3a4cdc0375a2b152052",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0003-png"
+    },
+    {
+      "bytes": 2511037,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0004-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0004.png",
+      "sha256": "5a34af6d769dcccbf61b40b1c23cd3fae345e9aec6656a9ae394fc450c536bb1",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0004-png"
+    },
+    {
+      "bytes": 1855051,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0005-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0005.png",
+      "sha256": "ea80ec3faf9349894107a61ece620c7f9d52227b622f46a3f9a7f3e0f587a8b1",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0005-png"
+    },
+    {
+      "bytes": 1872066,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0006-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0006.png",
+      "sha256": "d89052cef4ffabcbe5f690f81e1cb368b7686a1c4b92ac8911ba817ceda9292c",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0006-png"
+    },
+    {
+      "bytes": 2416027,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0007-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0007.png",
+      "sha256": "2415caae672f8b1c24b62fbaf2d467e9db6bddf0fe7632869d1c3f041ab53f1c",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0007-png"
+    },
+    {
+      "bytes": 2874902,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0008-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0008.png",
+      "sha256": "bea0939d26b2c56480e4190a20b78902d26e749008aad82def7d9b8d38771e67",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0008-png"
+    },
+    {
+      "bytes": 2503318,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0009-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0009.png",
+      "sha256": "53eb7fb73d31986dfd4badeb6775c0a4c851a78336867e3e948146209631cca8",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0009-png"
+    },
+    {
+      "bytes": 2582408,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0010-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0010.png",
+      "sha256": "dc305b2f7224f71fd3fbca89f546ae1ca2c72b89150a2867f675ec8700ac18f5",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0010-png"
+    },
+    {
+      "bytes": 2021668,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0011-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0011.png",
+      "sha256": "9db28b9e8bb47737d7e630c64ffcc134063e7d4ed4955db9674f453cb6837175",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0011-png"
+    },
+    {
+      "bytes": 2243597,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0012-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0012.png",
+      "sha256": "cfc5c6562226fc594ceb39aa3304fa7e8f4a44588b1fa386ad6f22cefe0bfcbb",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0012-png"
+    },
+    {
+      "bytes": 1952471,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0013-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0013.png",
+      "sha256": "8bc62de103c157817b5f4b7c9a4b99a6fa1b3925d88a9b74b3b18d9b909d6778",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0013-png"
+    },
+    {
+      "bytes": 1566747,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0014-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_Object_Model/54990969-4d7b-4f3a-8971-d121a77826bc-0014.png",
+      "sha256": "01e85c7f6ccce12d0e2c81ebc8b2b8e925f84e41f456e143f12f34b9eec54fad",
+      "sid": "o---o-port.archive-images-the-omi-object-model-54990969-4d7b-4f3a-8971-d121a77826bc-0014-png"
+    },
+    {
+      "bytes": 4749557,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-system-mathematical-blueprint-png.omilisp",
+      "relative_path": "_archive/images/The_OMI_System_Mathematical_Blueprint.png",
+      "sha256": "e0bbf1a4850ce84826801c39e20b24318697e751356a2bc7a1a7102687917793",
+      "sid": "o---o-port.archive-images-the-omi-system-mathematical-blueprint-png"
+    },
+    {
+      "bytes": 5305825,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-the-omi-unified-waveform-png.omilisp",
+      "relative_path": "_archive/images/The_Omi_Unified_Waveform.png",
+      "sha256": "27a31c9839f97d65cf1f90bdc777cf79756af050e6901a8f6dbc759f64d9a3d1",
+      "sid": "o---o-port.archive-images-the-omi-unified-waveform-png"
+    },
+    {
+      "bytes": 3453776,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-zero-frame-object-model-overview-png.omilisp",
+      "relative_path": "_archive/images/Zero-Frame_Object_Model_Overview.png",
+      "sha256": "f8fd8df85b135f4e3981572c538432a94077528a363b17289c1707d98f12f4cf",
+      "sid": "o---o-port.archive-images-zero-frame-object-model-overview-png"
+    },
+    {
+      "bytes": 50289,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "archive-images-cons-factorial-unification-svg.omilisp",
+      "relative_path": "_archive/images/cons_factorial_unification.svg",
+      "sha256": "96ddc8d02bd1b17ab27760da386d88e97d2f507f38fc7a5a5e1c98c2a5633aec",
+      "sid": "o---o-port.archive-images-cons-factorial-unification-svg"
+    },
+    {
+      "bytes": 296295,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "archive-images-file-000000004248722f99f609bc472bbb23-png.omilisp",
+      "relative_path": "_archive/images/file_000000004248722f99f609bc472bbb23.png",
+      "sha256": "0d3c1125eac4b89e3eff9b164119adc8ab133a63b63fa96ce9f5c89fc0a9c4b1",
+      "sid": "o---o-port.archive-images-file-000000004248722f99f609bc472bbb23-png"
+    },
+    {
+      "bytes": 171719,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "archive-images-file-00000000abcc71f58316b6efeaa816ae-svg.omilisp",
+      "relative_path": "_archive/images/file_00000000abcc71f58316b6efeaa816ae.svg",
+      "sha256": "81c6920b2eef00c6c91b7444bad9faab7fa0eed09945063ec114c3a097c0ed93",
+      "sid": "o---o-port.archive-images-file-00000000abcc71f58316b6efeaa816ae-svg"
+    },
+    {
+      "bytes": 213633,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img48-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img48.jpg",
+      "sha256": "f8ca650a88f94d06a585e3891d2188fa679a0c53e8a799ad09dbb59e14be7113",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img48-jpg"
+    },
+    {
+      "bytes": 189469,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img49-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img49.jpg",
+      "sha256": "9788056fb3c84d50e84d808d2dedca83b43018bee80a7e486ec0a23d0169e609",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img49-jpg"
+    },
+    {
+      "bytes": 153245,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img50-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img50.jpg",
+      "sha256": "71be3b212b7f99e7837e07646b34b91ec17d24a726b0db2383d86234c3b016fa",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img50-jpg"
+    },
+    {
+      "bytes": 119672,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img51-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img51.jpg",
+      "sha256": "ab5b72dbfb653f78829288cca1c4887628cf0a40e5213f5573050e236c8a9971",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img51-jpg"
+    },
+    {
+      "bytes": 132255,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img52-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img52.jpg",
+      "sha256": "05ef3b0d394b8eabe9cc3de21381ba1128e031346a9c015ec826697662b113c0",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img52-jpg"
+    },
+    {
+      "bytes": 129721,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img53-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img53.jpg",
+      "sha256": "bc5d1a3af90191b2e1417c3e9534ce2e6527266c1cc4ce73fb98273da19dd196",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img53-jpg"
+    },
+    {
+      "bytes": 115666,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img54-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img54.jpg",
+      "sha256": "655af1a8eb422ecd7015080f515616b124fdb65f9c6fc00cd9bbf34698066ad8",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img54-jpg"
+    },
+    {
+      "bytes": 173237,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img55-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img55.jpg",
+      "sha256": "fb570958e8a3c721f2c009d19b3f6909ffea0a7df9b26ec3541af4eb9b2e830e",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img55-jpg"
+    },
+    {
+      "bytes": 227892,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img56-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img56.jpg",
+      "sha256": "22ea7a98873956834f9d2adf0ddb40d47fcfbe8f230931178a2a99ef31bbc600",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img56-jpg"
+    },
+    {
+      "bytes": 154979,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img57-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img57.jpg",
+      "sha256": "88cfe8a03e222d9b989a6069b0e4f9139ca511061029210e427ef2ff356edf5f",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img57-jpg"
+    },
+    {
+      "bytes": 166633,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img58-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img58.jpg",
+      "sha256": "7e289c7e9c9d98ccc11ec59b8218a1ed53d0b1f076658973c5249ce918dc3b76",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img58-jpg"
+    },
+    {
+      "bytes": 120136,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img59-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img59.jpg",
+      "sha256": "58cc8c45a564f1012c1f46d03b9daa1688cf9626c8da24e07c90a570110d05e8",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img59-jpg"
+    },
+    {
+      "bytes": 177108,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img60-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img60.jpg",
+      "sha256": "69c604a530cc048e9899533bba64be9cd912007865c0f75d4f8047bb77f6c055",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img60-jpg"
+    },
+    {
+      "bytes": 132990,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img61-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img61.jpg",
+      "sha256": "415d18d0961feedb31ad8ec4debd382c0fc38db91dbdc661a21bffe2f0f5b9dd",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img61-jpg"
+    },
+    {
+      "bytes": 84792,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-img62-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted/img62.jpg",
+      "sha256": "2ac541d4bca01bb6a281a601819bb52330e6667f5e24e1ef9feff8b7bf8c1c81",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-img62-jpg"
+    },
+    {
+      "bytes": 236200,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img48-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img48.jpg",
+      "sha256": "54a2a84a92af63b93496d2ea20fb9657fdd23ed45b7110b9243105ce43190b98",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img48-jpg"
+    },
+    {
+      "bytes": 185813,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img49-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img49.jpg",
+      "sha256": "e851ac6e27d7ace3e8e957c5ed783c801ecf5bf31d55ccb9c1f7ba8b4b15fa1b",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img49-jpg"
+    },
+    {
+      "bytes": 159930,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img50-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img50.jpg",
+      "sha256": "679d7925e76d84dc0fc523e63a397c705aa5636ba35a6ccfac94fd83236a04ec",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img50-jpg"
+    },
+    {
+      "bytes": 141345,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img51-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img51.jpg",
+      "sha256": "2f5853a96476c0581bee7d9892d243dbe659bc75640527752db4297ac85ebab4",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img51-jpg"
+    },
+    {
+      "bytes": 174120,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img52-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img52.jpg",
+      "sha256": "a793fcd4d6713d333546935bfae337abd11559552cc9a859ee69162632598463",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img52-jpg"
+    },
+    {
+      "bytes": 166702,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img53-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img53.jpg",
+      "sha256": "03a9abbcd7731eb1945285b649b45ba377acdb500300893f6c545c082fdd046c",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img53-jpg"
+    },
+    {
+      "bytes": 145755,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img54-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img54.jpg",
+      "sha256": "cfe1ab4cb21bfae2447477ef1a31041abcd3738a2e571930d51e8391ae20bfda",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img54-jpg"
+    },
+    {
+      "bytes": 212201,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img55-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img55.jpg",
+      "sha256": "d40b8c978ab53385055601009eb66e224a28e07ee5c2fc0feb963497f674e024",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img55-jpg"
+    },
+    {
+      "bytes": 166340,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img56-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img56.jpg",
+      "sha256": "b099759a68ef54283a953dc7d3dd4a7d17a6e2edabfd624a2294c062590f82e8",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img56-jpg"
+    },
+    {
+      "bytes": 147808,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img57-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img57.jpg",
+      "sha256": "ced9bcfa4efa0fe869c8c129d4f8c87e520ec4ccf36a6f1fd5e47c39b144dc51",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img57-jpg"
+    },
+    {
+      "bytes": 145957,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img58-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img58.jpg",
+      "sha256": "1a67f0de84c8ebc61e3ce94da49a24929e4431137729ff3acd7c21cb720eb4aa",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img58-jpg"
+    },
+    {
+      "bytes": 165838,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img59-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img59.jpg",
+      "sha256": "bbe4e453ab6bcbaf5cc77d5223efdf2ba6916e4773c870d9034cc311c0b036b3",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img59-jpg"
+    },
+    {
+      "bytes": 154329,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img60-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img60.jpg",
+      "sha256": "3f57426ce7c0e25816fa0b07671acf8e86079af794111cc4cfa627cfad262a32",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img60-jpg"
+    },
+    {
+      "bytes": 180035,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img61-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img61.jpg",
+      "sha256": "610137f3df08b2a039b366907af7f4dbb1d54ce04cb105896c55ab5e92e27538",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img61-jpg"
+    },
+    {
+      "bytes": 185338,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-1-img62-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (1)/img62.jpg",
+      "sha256": "0e9d5b186ede6c60385f39109bbc65f98171227f06f117c8e0d5b6f25c0b6c44",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-1-img62-jpg"
+    },
+    {
+      "bytes": 236200,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img48-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img48.jpg",
+      "sha256": "54a2a84a92af63b93496d2ea20fb9657fdd23ed45b7110b9243105ce43190b98",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img48-jpg"
+    },
+    {
+      "bytes": 185813,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img49-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img49.jpg",
+      "sha256": "e851ac6e27d7ace3e8e957c5ed783c801ecf5bf31d55ccb9c1f7ba8b4b15fa1b",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img49-jpg"
+    },
+    {
+      "bytes": 159930,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img50-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img50.jpg",
+      "sha256": "679d7925e76d84dc0fc523e63a397c705aa5636ba35a6ccfac94fd83236a04ec",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img50-jpg"
+    },
+    {
+      "bytes": 141345,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img51-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img51.jpg",
+      "sha256": "2f5853a96476c0581bee7d9892d243dbe659bc75640527752db4297ac85ebab4",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img51-jpg"
+    },
+    {
+      "bytes": 174120,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img52-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img52.jpg",
+      "sha256": "a793fcd4d6713d333546935bfae337abd11559552cc9a859ee69162632598463",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img52-jpg"
+    },
+    {
+      "bytes": 166702,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img53-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img53.jpg",
+      "sha256": "03a9abbcd7731eb1945285b649b45ba377acdb500300893f6c545c082fdd046c",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img53-jpg"
+    },
+    {
+      "bytes": 145755,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img54-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img54.jpg",
+      "sha256": "cfe1ab4cb21bfae2447477ef1a31041abcd3738a2e571930d51e8391ae20bfda",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img54-jpg"
+    },
+    {
+      "bytes": 212201,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img55-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img55.jpg",
+      "sha256": "d40b8c978ab53385055601009eb66e224a28e07ee5c2fc0feb963497f674e024",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img55-jpg"
+    },
+    {
+      "bytes": 166340,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img56-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img56.jpg",
+      "sha256": "b099759a68ef54283a953dc7d3dd4a7d17a6e2edabfd624a2294c062590f82e8",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img56-jpg"
+    },
+    {
+      "bytes": 147808,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img57-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img57.jpg",
+      "sha256": "ced9bcfa4efa0fe869c8c129d4f8c87e520ec4ccf36a6f1fd5e47c39b144dc51",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img57-jpg"
+    },
+    {
+      "bytes": 145957,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img58-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img58.jpg",
+      "sha256": "1a67f0de84c8ebc61e3ce94da49a24929e4431137729ff3acd7c21cb720eb4aa",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img58-jpg"
+    },
+    {
+      "bytes": 165838,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img59-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img59.jpg",
+      "sha256": "bbe4e453ab6bcbaf5cc77d5223efdf2ba6916e4773c870d9034cc311c0b036b3",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img59-jpg"
+    },
+    {
+      "bytes": 154329,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img60-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img60.jpg",
+      "sha256": "3f57426ce7c0e25816fa0b07671acf8e86079af794111cc4cfa627cfad262a32",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img60-jpg"
+    },
+    {
+      "bytes": 180035,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img61-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img61.jpg",
+      "sha256": "610137f3df08b2a039b366907af7f4dbb1d54ce04cb105896c55ab5e92e27538",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img61-jpg"
+    },
+    {
+      "bytes": 185338,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-2-img62-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (2)/img62.jpg",
+      "sha256": "0e9d5b186ede6c60385f39109bbc65f98171227f06f117c8e0d5b6f25c0b6c44",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-2-img62-jpg"
+    },
+    {
+      "bytes": 213459,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img60-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img60.jpg",
+      "sha256": "5210db63117dce0a70369dd5deb5ea8e1ac2aecabaecb70b4a3ca89ddaca9096",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img60-jpg"
+    },
+    {
+      "bytes": 194803,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img61-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img61.jpg",
+      "sha256": "c07ec524da4abeedc03f6b6eee774b1885ccff7f16b2de47a267d1fb72ce0aa4",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img61-jpg"
+    },
+    {
+      "bytes": 151546,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img62-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img62.jpg",
+      "sha256": "fbf399c79863394847649cbcef6345151834e43aef9222c8d9830b62c74a6c41",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img62-jpg"
+    },
+    {
+      "bytes": 157316,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img63-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img63.jpg",
+      "sha256": "04fecf67dedf3c44120d657d36a2f7664afd3b2ceaf4de776c2b2b44e1adfdbc",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img63-jpg"
+    },
+    {
+      "bytes": 216570,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img64-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img64.jpg",
+      "sha256": "f7dddaf169bd39b2b980de4639dca5f29b039e0e41c6b5a285554ddd7a3737f5",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img64-jpg"
+    },
+    {
+      "bytes": 193741,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img65-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img65.jpg",
+      "sha256": "4f684ec1d0702b5e6117c542b69f2ed0ab087a45c8fb428fa1968ef6c88d9ca7",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img65-jpg"
+    },
+    {
+      "bytes": 166699,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img66-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img66.jpg",
+      "sha256": "298c2ae26595e55ff1f67dcf989dec719518bad39288edad45aacdd9b2679be4",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img66-jpg"
+    },
+    {
+      "bytes": 149209,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img67-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img67.jpg",
+      "sha256": "b8e59459a0d8bab8105bbd66124cedd1688ba8a3a3651fe97941211251aef8bd",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img67-jpg"
+    },
+    {
+      "bytes": 168576,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img68-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img68.jpg",
+      "sha256": "e7835bf8ec4cfebcda6300d4dc0f4dd89a7b041d40abb1a5b288bf52a0263f30",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img68-jpg"
+    },
+    {
+      "bytes": 176009,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img69-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img69.jpg",
+      "sha256": "9ede06760a931c62a02f731665f77e107de5d994c575acd7a05855394da735c6",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img69-jpg"
+    },
+    {
+      "bytes": 173967,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img70-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img70.jpg",
+      "sha256": "2f0740b57571600ac07b4e5786f3b32ab40f051706e05a3b06990ab365b74e57",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img70-jpg"
+    },
+    {
+      "bytes": 173661,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img71-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img71.jpg",
+      "sha256": "8e243acd6cd05d5d8622090f57eb96951397dba44a33cab061f5dd6f952bcd59",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img71-jpg"
+    },
+    {
+      "bytes": 213495,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img72-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img72.jpg",
+      "sha256": "3a42d09094ecb139ae4a7f217c5b39bf3d8075d338f2406328484a7626d0f8b4",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img72-jpg"
+    },
+    {
+      "bytes": 200443,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img73-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img73.jpg",
+      "sha256": "70f1a8d02cdaf4e4390962394384a15a80481960a43f65c8709b51c4c6cafd87",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img73-jpg"
+    },
+    {
+      "bytes": 174401,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img74-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img74.jpg",
+      "sha256": "3acfcbebce8216fd8ba33ad6c2761805c2866d594add879653ca70ee9ceb6849",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img74-jpg"
+    },
+    {
+      "bytes": 146305,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img75-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img75.jpg",
+      "sha256": "136e9665665c53c98c30a5df006fbdfe81020c99e1befbd413e59abb756f3eed",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img75-jpg"
+    },
+    {
+      "bytes": 182658,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img76-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img76.jpg",
+      "sha256": "00732badd77c965e0d9044510b8bd2134c2d310768458bb3ba43e387a7c3b2f9",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img76-jpg"
+    },
+    {
+      "bytes": 291905,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img77-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img77.jpg",
+      "sha256": "58de3ed9757397ae152bd3b0d6e5b0cf83165f6f4f2e14fa9eb9ae3076fba0e2",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img77-jpg"
+    },
+    {
+      "bytes": 99012,
+      "extension": ".jpg",
+      "family": "artifact",
+      "output": "archive-images-ilovepdf-images-extracted-3-img78-jpg.omilisp",
+      "relative_path": "_archive/images/ilovepdf_images-extracted (3)/img78.jpg",
+      "sha256": "4377c3b6283041de4d85d384c52041f72c6bb8ef9b34b6a2c8b3bc72e360b097",
+      "sid": "o---o-port.archive-images-ilovepdf-images-extracted-3-img78-jpg"
+    },
+    {
+      "bytes": 17169,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-agreement-is-all-you-need-the-omi-open-world-portal-model-docx.omilisp",
+      "relative_path": "_archive/publications/Agreement Is All You Need- The OMI Open-World Portal Model.docx",
+      "sha256": "37a5ce0003d9637e360a8b45ee4e867cccdc901628fa8c62053daa21d65d4855",
+      "sid": "o---o-port.archive-publications-agreement-is-all-you-need-the-omi-open-world-portal-model-docx"
+    },
+    {
+      "bytes": 135747,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-agreement-is-all-you-need-the-omi-object-model-omi-protocol-specification-pdf.omilisp",
+      "relative_path": "_archive/publications/Agreement Is All You Need_ The Omi Object Model (OMI) Protocol Specification.pdf",
+      "sha256": "07cdc1ab82594c5b0f4e5d241156b62976f1c85c15965be0ee002d7e7043a594",
+      "sid": "o---o-port.archive-publications-agreement-is-all-you-need-the-omi-object-model-omi-protocol-specification-pdf"
+    },
+    {
+      "bytes": 21786,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-algebraic-frame-validation-docx.omilisp",
+      "relative_path": "_archive/publications/Algebraic Frame Validation.docx",
+      "sha256": "c060f988b276f451a9f2ba9a0a814f168e2a46b46f33c9a4f2bd455722d6faf0",
+      "sid": "o---o-port.archive-publications-algebraic-frame-validation-docx"
+    },
+    {
+      "bytes": 107632,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-algebraic-frame-validation-pdf.omilisp",
+      "relative_path": "_archive/publications/Algebraic Frame Validation.pdf",
+      "sha256": "c07f23f41aacec9e119615002beb1df626c51ed872900731509e3e459e54b192",
+      "sid": "o---o-port.archive-publications-algebraic-frame-validation-pdf"
+    },
+    {
+      "bytes": 20274738,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-architecting-spatial-agreement-pdf.omilisp",
+      "relative_path": "_archive/publications/Architecting_Spatial_Agreement.pdf",
+      "sha256": "3a4fcf7f373eab7a4ea1ef66f8302402f983bff00f0cefbb0e83e6bdba077f1c",
+      "sid": "o---o-port.archive-publications-architecting-spatial-agreement-pdf"
+    },
+    {
+      "bytes": 110471,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-base36-and-omi-encoding-pdf.omilisp",
+      "relative_path": "_archive/publications/Base36 and OMI Encoding.pdf",
+      "sha256": "c918aa7677f53e51766d9887c55a022ee95ef2543ef8642c90ec6631286aaea5",
+      "sid": "o---o-port.archive-publications-base36-and-omi-encoding-pdf"
+    },
+    {
+      "bytes": 21532,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-base36-and-omi-symbolic-encoding-docx.omilisp",
+      "relative_path": "_archive/publications/Base36 and OMI Symbolic Encoding.docx",
+      "sha256": "49aecdfe0c223d18f5b3da6d29977e1784da5407ac13a5ab2b69da7af9f6dd93",
+      "sid": "o---o-port.archive-publications-base36-and-omi-symbolic-encoding-docx"
+    },
+    {
+      "bytes": 12638,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-canonical-quadratic-boundary-docx.omilisp",
+      "relative_path": "_archive/publications/Canonical Quadratic Boundary.docx",
+      "sha256": "fc96921652fc0bbd4de2db44b59ac2ab9febfd4fd81369df91a04110a030d4db",
+      "sid": "o---o-port.archive-publications-canonical-quadratic-boundary-docx"
+    },
+    {
+      "bytes": 42770,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-canonical-quadratic-boundary-pdf.omilisp",
+      "relative_path": "_archive/publications/Canonical Quadratic Boundary.pdf",
+      "sha256": "5dc8ae3e5ffd46bdccbfa63d83d78d50156a3c74fcde7c67fd23e858db4a91ae",
+      "sid": "o---o-port.archive-publications-canonical-quadratic-boundary-pdf"
+    },
+    {
+      "bytes": 16771,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-carrier-hierarchy-abi-v0-docx.omilisp",
+      "relative_path": "_archive/publications/Carrier Hierarchy ABI v0.docx",
+      "sha256": "8f85c3993a2f694561a8f9da7ef16689d4747b7f32e07a773d8f1a4c92c78a0a",
+      "sid": "o---o-port.archive-publications-carrier-hierarchy-abi-v0-docx"
+    },
+    {
+      "bytes": 71703,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-carrier-hierarchy-abi-v0-pdf.omilisp",
+      "relative_path": "_archive/publications/Carrier Hierarchy ABI v0.pdf",
+      "sha256": "3acb78c969dbb55bca3390fa4bed49d95f0cef9051a960faf246ef9c547e23aa",
+      "sid": "o---o-port.archive-publications-carrier-hierarchy-abi-v0-pdf"
+    },
+    {
+      "bytes": 16038,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-carrier-projection-layer-docx.omilisp",
+      "relative_path": "_archive/publications/Carrier Projection Layer.docx",
+      "sha256": "62916f582d285afa3a46d30f995e19781e06214651719475f29743409dbd7834",
+      "sid": "o---o-port.archive-publications-carrier-projection-layer-docx"
+    },
+    {
+      "bytes": 62071,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-carrier-projection-layer-pdf.omilisp",
+      "relative_path": "_archive/publications/Carrier Projection Layer.pdf",
+      "sha256": "6bde35ffc9851b8d57fd6f82194b928ee766ac8ee0c600b35aec0c5d6402d530",
+      "sid": "o---o-port.archive-publications-carrier-projection-layer-pdf"
+    },
+    {
+      "bytes": 90430,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-definitive-omi-address-schema-for-json-canvas-color-emoji-incidence-graphs-pdf.omilisp",
+      "relative_path": "_archive/publications/Definitive OMI Address Schema for JSON Canvas Color-Emoji-Incidence Graphs.pdf",
+      "sha256": "1b1b17dbf238f61889e72ed846588a441b9d5614eb89f336968823ffe21c9030",
+      "sid": "o---o-port.archive-publications-definitive-omi-address-schema-for-json-canvas-color-emoji-incidence-graphs-pdf"
+    },
+    {
+      "bytes": 16341,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-ll-as-ket-scope-selection-and-the-folded-0xe-manifold-docx.omilisp",
+      "relative_path": "_archive/publications/LL as Ket- Scope Selection and the Folded 0xE_ Manifold.docx",
+      "sha256": "6f1e5fe842a96bb6a0436781fd547d8a31a4e50ed2753b50dedf7aaddc3abd67",
+      "sid": "o---o-port.archive-publications-ll-as-ket-scope-selection-and-the-folded-0xe-manifold-docx"
+    },
+    {
+      "bytes": 74642,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-ll-as-ket-scope-selection-and-the-folded-0xe-manifold-pdf.omilisp",
+      "relative_path": "_archive/publications/LL as Ket- Scope Selection and the Folded 0xE_ Manifold.pdf",
+      "sha256": "75adbd747fcc8ef06a3285119bbc5dfaf1f089b0a0e67ab37b3b5906f456668d",
+      "sid": "o---o-port.archive-publications-ll-as-ket-scope-selection-and-the-folded-0xe-manifold-pdf"
+    },
+    {
+      "bytes": 17154,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-lower-omicron-hidden-5-and-upper-bidi-docx.omilisp",
+      "relative_path": "_archive/publications/Lower Omicron, Hidden 5!, and Upper Bidi.docx",
+      "sha256": "edc08cf7f7ba41ca38ca818e8c8f34215a8653325d5022d4c3374c4fb07ab6ca",
+      "sid": "o---o-port.archive-publications-lower-omicron-hidden-5-and-upper-bidi-docx"
+    },
+    {
+      "bytes": 78418,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-lower-omicron-hidden-5-and-upper-bidi-pdf.omilisp",
+      "relative_path": "_archive/publications/Lower Omicron, Hidden 5!, and Upper Bidi.pdf",
+      "sha256": "b326bd3b24d80de0aa8a1474572359099d245f3c5e52c005bf2e189add884d1a",
+      "sid": "o---o-port.archive-publications-lower-omicron-hidden-5-and-upper-bidi-pdf"
+    },
+    {
+      "bytes": 21895,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-omi-addressing-and-the-factorial-tower-docx.omilisp",
+      "relative_path": "_archive/publications/OMI Addressing and the Factorial Tower.docx",
+      "sha256": "6393f2cfc0d7152d59d1993efcf203604e5b936ca7decb65999cd0e8764e7bda",
+      "sid": "o---o-port.archive-publications-omi-addressing-and-the-factorial-tower-docx"
+    },
+    {
+      "bytes": 119144,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omi-addressing-and-the-factorial-tower-pdf.omilisp",
+      "relative_path": "_archive/publications/OMI Addressing and the Factorial Tower.pdf",
+      "sha256": "0fca8839642e0d17dcb35d1278fa950a27c502bedbb9cbf6a938ebc15c279efc",
+      "sid": "o---o-port.archive-publications-omi-addressing-and-the-factorial-tower-pdf"
+    },
+    {
+      "bytes": 19392,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-omi-agreement-doctrine-docx.omilisp",
+      "relative_path": "_archive/publications/OMI Agreement Doctrine.docx",
+      "sha256": "52008f2b90b81c683e1c1860fed1dd21b1c097644ddebe69c0f2e55d3c9f0447",
+      "sid": "o---o-port.archive-publications-omi-agreement-doctrine-docx"
+    },
+    {
+      "bytes": 93946,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omi-agreement-doctrine-pdf.omilisp",
+      "relative_path": "_archive/publications/OMI Agreement Doctrine.pdf",
+      "sha256": "d07b9adb36c5e486365a195776fbf777792a74cdc421497ba4d18a7caac887fe",
+      "sid": "o---o-port.archive-publications-omi-agreement-doctrine-pdf"
+    },
+    {
+      "bytes": 35339,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omi-doctrine-1-pdf.omilisp",
+      "relative_path": "_archive/publications/OMI Doctrine (1).pdf",
+      "sha256": "4253bc57745c43e46d918e6b9fbb5213919dfbe9902d5dab41c06e40b41bd8c2",
+      "sid": "o---o-port.archive-publications-omi-doctrine-1-pdf"
+    },
+    {
+      "bytes": 31420,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omi-doctrine-addendum-pdf.omilisp",
+      "relative_path": "_archive/publications/OMI Doctrine Addendum.pdf",
+      "sha256": "966aa33631a6ddd432afc0e2056e394a3bc8f218ec9474e5f5db991f5824ed61",
+      "sid": "o---o-port.archive-publications-omi-doctrine-addendum-pdf"
+    },
+    {
+      "bytes": 32696,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omi-doctrine-notation-as-cipher-cipher-as-notation-pdf.omilisp",
+      "relative_path": "_archive/publications/OMI Doctrine- Notation as Cipher, Cipher as Notation.pdf",
+      "sha256": "9017ec089f2de9e9ecf00e75671911e1fc7870467525336e68efb4e963191366",
+      "sid": "o---o-port.archive-publications-omi-doctrine-notation-as-cipher-cipher-as-notation-pdf"
+    },
+    {
+      "bytes": 42888,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omi-doctrine-pdf.omilisp",
+      "relative_path": "_archive/publications/OMI Doctrine.pdf",
+      "sha256": "9f400c336d570decc05a9adfbe8a00579aafa39889cdc2c806d34512db104901",
+      "sid": "o---o-port.archive-publications-omi-doctrine-pdf"
+    },
+    {
+      "bytes": 15359,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-omi-manifesto-docx.omilisp",
+      "relative_path": "_archive/publications/OMI Manifesto.docx",
+      "sha256": "fb52fa754ad04ecf756f42aa2385248db71e0a032c57663e0ad11458621d7750",
+      "sid": "o---o-port.archive-publications-omi-manifesto-docx"
+    },
+    {
+      "bytes": 53989,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omi-manifesto-pdf.omilisp",
+      "relative_path": "_archive/publications/OMI Manifesto.pdf",
+      "sha256": "3763d0d6da4fcca30a9b86f9f6aa1dd7368cab11568f15bc6078f5cdee3d3f82",
+      "sid": "o---o-port.archive-publications-omi-manifesto-pdf"
+    },
+    {
+      "bytes": 23742,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-omi-object-model-docx.omilisp",
+      "relative_path": "_archive/publications/OMI Object Model.docx",
+      "sha256": "8d37f92aca99804a1e0c24532cf6e2b5d0760feeae143fc7c67d925e312f96f4",
+      "sid": "o---o-port.archive-publications-omi-object-model-docx"
+    },
+    {
+      "bytes": 140078,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omi-object-model-pdf.omilisp",
+      "relative_path": "_archive/publications/OMI Object Model.pdf",
+      "sha256": "01152d489f927436a9bead0442079b83d2a53634fa6d7d6c744670dbaf6f7f3a",
+      "sid": "o---o-port.archive-publications-omi-object-model-pdf"
+    },
+    {
+      "bytes": 17168,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-omi-open-world-portal-model-docx.omilisp",
+      "relative_path": "_archive/publications/OMI Open-World Portal Model.docx",
+      "sha256": "92245f7ef1d7de0d640be0fd5dfe9937ac36902cea2e127a6dff4ed0b96bea3a",
+      "sid": "o---o-port.archive-publications-omi-open-world-portal-model-docx"
+    },
+    {
+      "bytes": 64506,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omi-open-world-portal-model-pdf.omilisp",
+      "relative_path": "_archive/publications/OMI Open-World Portal Model.pdf",
+      "sha256": "ed79b0c130ae6baea033602b30564c42f90cb370fdda74d46e2a4b0abe0e7317",
+      "sid": "o---o-port.archive-publications-omi-open-world-portal-model-pdf"
+    },
+    {
+      "bytes": 19503,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-omi-portal-docx.omilisp",
+      "relative_path": "_archive/publications/OMI Portal.docx",
+      "sha256": "d9afd047c3a006b25a880c17925561b881f355c8557896a63e2e7d196da1a7da",
+      "sid": "o---o-port.archive-publications-omi-portal-docx"
+    },
+    {
+      "bytes": 15081562,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omi-execution-model-pdf.omilisp",
+      "relative_path": "_archive/publications/OMI_Execution_Model.pdf",
+      "sha256": "6ec156247f74bd32102177b324ff1c21aa05a6b5ca7382e7b96d7a90983aa3f7",
+      "sid": "o---o-port.archive-publications-omi-execution-model-pdf"
+    },
+    {
+      "bytes": 17211038,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omi-matrix-anatomy-pdf.omilisp",
+      "relative_path": "_archive/publications/Omi-Matrix_Anatomy.pdf",
+      "sha256": "f91040e579dfcb2acb7276dd294a37c5bb049cd8e7ff3e76cbebb3a32bcf8041",
+      "sid": "o---o-port.archive-publications-omi-matrix-anatomy-pdf"
+    },
+    {
+      "bytes": 15350,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-omi-ring-conceptual-framework-docx.omilisp",
+      "relative_path": "_archive/publications/Omi-Ring Conceptual Framework.docx",
+      "sha256": "452c56f9e95d8c313c1b3a1a0487a5bd0efba19532e964d178b62074b37995c8",
+      "sid": "o---o-port.archive-publications-omi-ring-conceptual-framework-docx"
+    },
+    {
+      "bytes": 55948,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omi-ring-conceptual-framework-pdf.omilisp",
+      "relative_path": "_archive/publications/Omi-Ring Conceptual Framework.pdf",
+      "sha256": "757e1a972225edcf5978ff32dca0d3103b3d1f2379e66a5f900f3824f52c5572",
+      "sid": "o---o-port.archive-publications-omi-ring-conceptual-framework-pdf"
+    },
+    {
+      "bytes": 17496461,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omi-geometric-codex-pdf.omilisp",
+      "relative_path": "_archive/publications/Omi_Geometric_Codex.pdf",
+      "sha256": "64f417c81dadea0d5583cbe63f2fbcb86e83b3b89db0e09298c4bfb30cb8ea15",
+      "sid": "o---o-port.archive-publications-omi-geometric-codex-pdf"
+    },
+    {
+      "bytes": 20163,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-omicron-binary-quadratic-form-docx.omilisp",
+      "relative_path": "_archive/publications/Omicron Binary Quadratic Form.docx",
+      "sha256": "2b28318e3a2909c6934bc7d68c5aeaa743ac4ded4839ea4f659a071e46779ddc",
+      "sid": "o---o-port.archive-publications-omicron-binary-quadratic-form-docx"
+    },
+    {
+      "bytes": 111334,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omicron-binary-quadratic-form-pdf.omilisp",
+      "relative_path": "_archive/publications/Omicron Binary Quadratic Form.pdf",
+      "sha256": "d97364079a90248cc43f63f28aa3aafd20dc2acbd82eac9469c083f5daff6422",
+      "sid": "o---o-port.archive-publications-omicron-binary-quadratic-form-pdf"
+    },
+    {
+      "bytes": 20037,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-omicron-cidr-cons-first-principles-docx.omilisp",
+      "relative_path": "_archive/publications/Omicron Cidr Cons First Principles.docx",
+      "sha256": "474e0e5f2380ce37c5a11ad1e2d59d65645a1e864307be08c4f095ebd8d53e91",
+      "sid": "o---o-port.archive-publications-omicron-cidr-cons-first-principles-docx"
+    },
+    {
+      "bytes": 101700,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omicron-cidr-cons-first-principles-pdf.omilisp",
+      "relative_path": "_archive/publications/Omicron Cidr Cons First Principles.pdf",
+      "sha256": "691701319561d1ee7026fae4a026e0082fdab1d174e207197b8ccb1c9f0569c7",
+      "sid": "o---o-port.archive-publications-omicron-cidr-cons-first-principles-pdf"
+    },
+    {
+      "bytes": 16610087,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omicron-unified-architecture-pdf.omilisp",
+      "relative_path": "_archive/publications/Omicron_Unified_Architecture.pdf",
+      "sha256": "74bc04b4464581992b7de1326d21c34924e3e27d26a5a73f3bf05752ebb38474",
+      "sid": "o---o-port.archive-publications-omicron-unified-architecture-pdf"
+    },
+    {
+      "bytes": 19600,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-omilog-specification-docx.omilisp",
+      "relative_path": "_archive/publications/Omilog Specification.docx",
+      "sha256": "9fb1797d34dc0b1f6fda1ccda7cf7f2c06d631753589541cc8fbda95510fa3ad",
+      "sid": "o---o-port.archive-publications-omilog-specification-docx"
+    },
+    {
+      "bytes": 180268,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-omilog-specification-pdf.omilisp",
+      "relative_path": "_archive/publications/Omilog Specification.pdf",
+      "sha256": "eaa067b5549efab512d2ee8e0237b6e21da2b658784da34ea87957bcefa955d3",
+      "sid": "o---o-port.archive-publications-omilog-specification-pdf"
+    },
+    {
+      "bytes": 17654,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-open-world-decentralized-web-portal-docx.omilisp",
+      "relative_path": "_archive/publications/Open-World Decentralized Web Portal.docx",
+      "sha256": "66e53edb6f8c5d295ec0db83f65c0b799b3016b7fab577ef9cf2a9fe6bc2404d",
+      "sid": "o---o-port.archive-publications-open-world-decentralized-web-portal-docx"
+    },
+    {
+      "bytes": 65003,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-open-world-decentralized-web-portal-pdf.omilisp",
+      "relative_path": "_archive/publications/Open-World Decentralized Web Portal.pdf",
+      "sha256": "f8582dfd8f316b495159ce57ba75d6f466edb5aa6b4b606ca9e320c85238b92f",
+      "sid": "o---o-port.archive-publications-open-world-decentralized-web-portal-pdf"
+    },
+    {
+      "bytes": 16352,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-snub-cube-and-snub-dodecahedron-cardinality-of-chirality-docx.omilisp",
+      "relative_path": "_archive/publications/Snub Cube and Snub Dodecahedron- Cardinality of Chirality.docx",
+      "sha256": "391417acb87118f88fa97579f52597a95bf8ccb4684764e825801b0cabe69383",
+      "sid": "o---o-port.archive-publications-snub-cube-and-snub-dodecahedron-cardinality-of-chirality-docx"
+    },
+    {
+      "bytes": 59659,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-snub-cube-and-snub-dodecahedron-cardinality-of-chirality-pdf.omilisp",
+      "relative_path": "_archive/publications/Snub Cube and Snub Dodecahedron- Cardinality of Chirality.pdf",
+      "sha256": "cdd395699512adf703d0352e0087a6a51828639327da704b5a63d3ae97f8e17a",
+      "sid": "o---o-port.archive-publications-snub-cube-and-snub-dodecahedron-cardinality-of-chirality-pdf"
+    },
+    {
+      "bytes": 16983,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-snub-traversal-omi-geometry-for-everyone-docx.omilisp",
+      "relative_path": "_archive/publications/Snub Traversal- OMI Geometry for Everyone.docx",
+      "sha256": "80d3118d8e230cd5affffecc856809ec7e73e8bff3852606ce7fef69149e1974",
+      "sid": "o---o-port.archive-publications-snub-traversal-omi-geometry-for-everyone-docx"
+    },
+    {
+      "bytes": 77159,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-snub-traversal-omi-geometry-for-everyone-pdf.omilisp",
+      "relative_path": "_archive/publications/Snub Traversal- OMI Geometry for Everyone.pdf",
+      "sha256": "b248a61d7dd32d668db6d1f1cd947b083cd3ecbf336e34589e4f2953e404223e",
+      "sid": "o---o-port.archive-publications-snub-traversal-omi-geometry-for-everyone-pdf"
+    },
+    {
+      "bytes": 15429,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-the-binary-quadratic-meta-mask-lexer-docx.omilisp",
+      "relative_path": "_archive/publications/The Binary Quadratic Meta-Mask Lexer.docx",
+      "sha256": "3fa4bc9b366a1cc48edc714e9b5553d9258335d7a0809be067bb2f32986db268",
+      "sid": "o---o-port.archive-publications-the-binary-quadratic-meta-mask-lexer-docx"
+    },
+    {
+      "bytes": 57615,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-the-binary-quadratic-meta-mask-lexer-pdf.omilisp",
+      "relative_path": "_archive/publications/The Binary Quadratic Meta-Mask Lexer.pdf",
+      "sha256": "7006bde3690fca54c0c800aecbe29770e3b8520ea2abf5ade0dc301475acd37c",
+      "sid": "o---o-port.archive-publications-the-binary-quadratic-meta-mask-lexer-pdf"
+    },
+    {
+      "bytes": 20738,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-the-five-fold-and-four-fold-rule-fact-layer-in-omi-docx.omilisp",
+      "relative_path": "_archive/publications/The Five-Fold and Four-Fold Rule-Fact Layer in OMI.docx",
+      "sha256": "43ffb4b087f53cd62555a3d77576c619238ce4bf65ab7e1f8d94e462a712a764",
+      "sid": "o---o-port.archive-publications-the-five-fold-and-four-fold-rule-fact-layer-in-omi-docx"
+    },
+    {
+      "bytes": 109953,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-the-five-fold-and-four-fold-rule-fact-layer-in-omi-pdf.omilisp",
+      "relative_path": "_archive/publications/The Five-Fold and Four-Fold Rule-Fact Layer in OMI.pdf",
+      "sha256": "570d2cf9aa2143d1a9719ca29b78831973e3da564aff60d61c46ae23a94d1f2d",
+      "sid": "o---o-port.archive-publications-the-five-fold-and-four-fold-rule-fact-layer-in-omi-pdf"
+    },
+    {
+      "bytes": 12716,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-the-hidden-five-docx.omilisp",
+      "relative_path": "_archive/publications/The Hidden Five.docx",
+      "sha256": "9cca89bc11f1c4459f64cab9afd2afdb824f566666936ab0a0e1cfd4c6c91d7a",
+      "sid": "o---o-port.archive-publications-the-hidden-five-docx"
+    },
+    {
+      "bytes": 34836,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-the-hidden-five-pdf.omilisp",
+      "relative_path": "_archive/publications/The Hidden Five.pdf",
+      "sha256": "a3eb31ca7afb0f39c38c3ac55cc5e5fe1269562e328c8a2eaaf9cd9a5649b9f4",
+      "sid": "o---o-port.archive-publications-the-hidden-five-pdf"
+    },
+    {
+      "bytes": 13362,
+      "extension": ".docx",
+      "family": "artifact",
+      "output": "archive-publications-the-omi-collapse-docx.omilisp",
+      "relative_path": "_archive/publications/The OMI Collapse.docx",
+      "sha256": "e115fdfb028a3e10e29eb52a1d2315bc9a020437f5dc335284f7ae9af9f74821",
+      "sid": "o---o-port.archive-publications-the-omi-collapse-docx"
+    },
+    {
+      "bytes": 41652,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-the-omi-collapse-pdf.omilisp",
+      "relative_path": "_archive/publications/The OMI Collapse.pdf",
+      "sha256": "877aa7dfbedb37bd9a36340d6b2a9354b716d3c992e468aeb1b38d57447648da",
+      "sid": "o---o-port.archive-publications-the-omi-collapse-pdf"
+    },
+    {
+      "bytes": 24136182,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-the-architectural-substrate-pdf.omilisp",
+      "relative_path": "_archive/publications/The_Architectural_Substrate.pdf",
+      "sha256": "10bd3f85ec812b7527567985fe1c24f7bd0cc8c960a3bea557a15c827725f598",
+      "sid": "o---o-port.archive-publications-the-architectural-substrate-pdf"
+    },
+    {
+      "bytes": 14351212,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-the-omi-object-model-pdf.omilisp",
+      "relative_path": "_archive/publications/The_OMI_Object_Model.pdf",
+      "sha256": "a3616acdc673f9d64d8310e7d32c5da4a4ab705a1e02b48c796fdde17bb3f7c9",
+      "sid": "o---o-port.archive-publications-the-omi-object-model-pdf"
+    },
+    {
+      "bytes": 25182583,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-the-omicron-codex-pdf.omilisp",
+      "relative_path": "_archive/publications/The_Omicron_Codex.pdf",
+      "sha256": "cb72ae76e1e026ec8828f6e5755b66609bfb763f1fb08557039042018ce91d9f",
+      "sid": "o---o-port.archive-publications-the-omicron-codex-pdf"
+    },
+    {
+      "bytes": 18215433,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-the-third-collapse-pdf.omilisp",
+      "relative_path": "_archive/publications/The_Third_Collapse.pdf",
+      "sha256": "61958aa0454cae52f79ef115bd51bbe58f0a71e9393ecafe8168b4e8fae38661",
+      "sid": "o---o-port.archive-publications-the-third-collapse-pdf"
+    },
+    {
+      "bytes": 74503,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-publications-zero-dependency-browser-omi-pdf.omilisp",
+      "relative_path": "_archive/publications/Zero-Dependency Browser OMI.pdf",
+      "sha256": "e357bbf3654bf865b9ba01a96a58d122799ef755ea3ee9ba4ccc309d690fac11",
+      "sid": "o---o-port.archive-publications-zero-dependency-browser-omi-pdf"
+    },
+    {
+      "bytes": 395529,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-alternate-format-md.omilisp",
+      "relative_path": "_archive/temp/Alternate format.md",
+      "sha256": "638167aae3c3f811536ac9dbc60d9c8d73295baaea6f54b06211a93c7faef589",
+      "sid": "o---o-port.archive-temp-alternate-format-md"
+    },
+    {
+      "bytes": 3981,
+      "extension": ".txt",
+      "family": "document",
+      "output": "archive-temp-enumerating-polycubes-txt.omilisp",
+      "relative_path": "_archive/temp/Enumerating polycubes.txt",
+      "sha256": "ba40b92f788744c71eaf5f9300523b25df6992171e21617702ae92bf7ad53a4b",
+      "sid": "o---o-port.archive-temp-enumerating-polycubes-txt"
+    },
+    {
+      "bytes": 4194305,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "archive-temp-extracted-html.omilisp",
+      "relative_path": "_archive/temp/Extracted.html",
+      "sha256": "359d225e243d3fa3d2fd84efe835790877d858bd44d52728a39ab49325eb999c",
+      "sid": "o---o-port.archive-temp-extracted-html"
+    },
+    {
+      "bytes": 4194305,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-extracted-html-md.omilisp",
+      "relative_path": "_archive/temp/Extracted.html.md",
+      "sha256": "359d225e243d3fa3d2fd84efe835790877d858bd44d52728a39ab49325eb999c",
+      "sid": "o---o-port.archive-temp-extracted-html-md"
+    },
+    {
+      "bytes": 2633,
+      "extension": ".txt",
+      "family": "document",
+      "output": "archive-temp-the-formal-publication-txt.omilisp",
+      "relative_path": "_archive/temp/The formal publication.txt",
+      "sha256": "f87ad17adc15f8d90514f89772f8dd81a84b78ecab1ab1edd04b1a9f2b569ef9",
+      "sid": "o---o-port.archive-temp-the-formal-publication-txt"
+    },
+    {
+      "bytes": 217043,
+      "extension": ".canvas",
+      "family": "artifact",
+      "output": "archive-temp-untitled-canvas.omilisp",
+      "relative_path": "_archive/temp/Untitled.canvas",
+      "sha256": "bf7c18c490a1472257e3c241b3f6777fb09c2a8555c72a31fabc734d49407f41",
+      "sid": "o---o-port.archive-temp-untitled-canvas"
+    },
+    {
+      "bytes": 438754,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-font-nodejsjune-3-2026node-md.omilisp",
+      "relative_path": "_archive/temp/font nodejsJune 3, 2026Node.md",
+      "sha256": "271d2bd2d736fac7cdce29f121a59646144a05bb3ddc480f9c3aa3936a9799bd",
+      "sid": "o---o-port.archive-temp-font-nodejsjune-3-2026node-md"
+    },
+    {
+      "bytes": 365338,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-session-ses-18e3-md.omilisp",
+      "relative_path": "_archive/temp/session-ses_18e3.md",
+      "sha256": "99dcc7630dc679f70f638692cd23260630803879ced92b864b6fd03c38f793d9",
+      "sid": "o---o-port.archive-temp-session-ses-18e3-md"
+    },
+    {
+      "bytes": 11372,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-agreement-is-all-you-need-the-omi-object-model-omi-protocol-specification-md.omilisp",
+      "relative_path": "_archive/temp-resolution/Agreement Is All You Need_ The Omi Object Model (OMI) Protocol Specification.md",
+      "sha256": "c70c8890bd96cb866fde17196966edd97390b95180a88c7b4aa2981dda2ce9dd",
+      "sid": "o---o-port.archive-temp-resolution-agreement-is-all-you-need-the-omi-object-model-omi-protocol-specification-md"
+    },
+    {
+      "bytes": 23588,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-omi-addressing-and-the-factorial-tower-md.omilisp",
+      "relative_path": "_archive/temp-resolution/OMI Addressing and the Factorial Tower.md",
+      "sha256": "57d3abcbcd13db273efd469bb81259e07ccd8b388f41d569ef880a8ca4d659ca",
+      "sid": "o---o-port.archive-temp-resolution-omi-addressing-and-the-factorial-tower-md"
+    },
+    {
+      "bytes": 16495,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-omi-ddd-thorne-calculus-md.omilisp",
+      "relative_path": "_archive/temp-resolution/OMI DDD - Thorne Calculus.md",
+      "sha256": "91126f2f81fe2d78195f006028fa0145abe4a7e126cb61043268d47eb4e0c361",
+      "sid": "o---o-port.archive-temp-resolution-omi-ddd-thorne-calculus-md"
+    },
+    {
+      "bytes": 70300,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-omi-omi-object-model-md.omilisp",
+      "relative_path": "_archive/temp-resolution/OMI( omi- ) Object Model.md",
+      "sha256": "62896e4c4c881561e35bcf7b3676c798cbfe7c4bc48ee9ddbd84d02dac0b8534",
+      "sid": "o---o-port.archive-temp-resolution-omi-omi-object-model-md"
+    },
+    {
+      "bytes": 83172,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-omi-port-rendering-md.omilisp",
+      "relative_path": "_archive/temp-resolution/Omi Port Rendering.md",
+      "sha256": "ea4a11566ab0f5a9b4900cbe7f7ca3542849d25a173eddee610bebb3aac93ff4",
+      "sid": "o---o-port.archive-temp-resolution-omi-port-rendering-md"
+    },
+    {
+      "bytes": 84846,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-omi-porting-md.omilisp",
+      "relative_path": "_archive/temp-resolution/Omi Porting.md",
+      "sha256": "a5b4aac2e486a4133cf624631288ce86a70b4318982434de98faf3c4ec79109f",
+      "sid": "o---o-port.archive-temp-resolution-omi-porting-md"
+    },
+    {
+      "bytes": 1499,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-omi-compass-md.omilisp",
+      "relative_path": "_archive/temp-resolution/Omi-Compass.md",
+      "sha256": "2b9bbb74826cf1c07a5ae50d39ee3a2d24de9008c757cdea43dd505d903d6958",
+      "sid": "o---o-port.archive-temp-resolution-omi-compass-md"
+    },
+    {
+      "bytes": 0,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-omi-whitepaper-md.omilisp",
+      "relative_path": "_archive/temp-resolution/Omi.Whitepaper.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "o---o-port.archive-temp-resolution-omi-whitepaper-md"
+    },
+    {
+      "bytes": 1632,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-paradox-or-paradigm-md.omilisp",
+      "relative_path": "_archive/temp-resolution/PARADOX OR PARADIGM.md",
+      "sha256": "26decad538227b185a13f4524ed87ed08a0e45f9b2e68f5311d3c528bfc001fb",
+      "sid": "o---o-port.archive-temp-resolution-paradox-or-paradigm-md"
+    },
+    {
+      "bytes": 25011,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-the-five-fold-and-four-md.omilisp",
+      "relative_path": "_archive/temp-resolution/The Five Fold and Four.md",
+      "sha256": "73c74776e2e6736387db86ef610887e4df669c8df5481760a8b454890f63d704",
+      "sid": "o---o-port.archive-temp-resolution-the-five-fold-and-four-md"
+    },
+    {
+      "bytes": 25011,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-the-five-fold-and-four-fold-rule-fact-layer-in-omi-md.omilisp",
+      "relative_path": "_archive/temp-resolution/The Five-Fold and Four-Fold Rule-Fact Layer in OMI.md",
+      "sha256": "73c74776e2e6736387db86ef610887e4df669c8df5481760a8b454890f63d704",
+      "sid": "o---o-port.archive-temp-resolution-the-five-fold-and-four-fold-rule-fact-layer-in-omi-md"
+    },
+    {
+      "bytes": 4743,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-the-hidden-five-md.omilisp",
+      "relative_path": "_archive/temp-resolution/The Hidden Five.md",
+      "sha256": "e122798759b6a181114116865bae81e17afb5182929a0ac214849514f9104725",
+      "sid": "o---o-port.archive-temp-resolution-the-hidden-five-md"
+    },
+    {
+      "bytes": 19221,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-the-omicron-object-model-md.omilisp",
+      "relative_path": "_archive/temp-resolution/The Omicron Object Model.md",
+      "sha256": "b6dcd4c1fa35dd6a220bd0e551294e7776ef9fca61ef46b3e5fae226223abde6",
+      "sid": "o---o-port.archive-temp-resolution-the-omicron-object-model-md"
+    },
+    {
+      "bytes": 11608,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-the-prime-factor-signature-of-5-factorial-and-73-md.omilisp",
+      "relative_path": "_archive/temp-resolution/The Prime Factor Signature of 5 factorial and 73.md",
+      "sha256": "5fb843ce4ed9e7092925a0ac6e972855dcde9ef9ec48eceb2d775ffdeacde032",
+      "sid": "o---o-port.archive-temp-resolution-the-prime-factor-signature-of-5-factorial-and-73-md"
+    },
+    {
+      "bytes": 3678,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-tower-of-powers-md.omilisp",
+      "relative_path": "_archive/temp-resolution/Tower of Powers.md",
+      "sha256": "6b9c46e4e6df919ccf684fa14759f37cb6aba75d2ad607c7bf9991afb719cff6",
+      "sid": "o---o-port.archive-temp-resolution-tower-of-powers-md"
+    },
+    {
+      "bytes": 18026,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-walking-tower-of-powers-rooted-md.omilisp",
+      "relative_path": "_archive/temp-resolution/Walking Tower of Powers Rooted.md",
+      "sha256": "bd76f2fa65fef77bc486ac546320761695f36a699ad2b376d006ccdd134f87db",
+      "sid": "o---o-port.archive-temp-resolution-walking-tower-of-powers-rooted-md"
+    },
+    {
+      "bytes": 17990,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-temp-resolution-whitepaper-the-240-state-md.omilisp",
+      "relative_path": "_archive/temp-resolution/Whitepaper The 240 State.md",
+      "sha256": "aa86e6f414d433932067824f20c53306db58d0fd33ebb7fad9a40176e8d3a8ae",
+      "sid": "o---o-port.archive-temp-resolution-whitepaper-the-240-state-md"
+    },
+    {
+      "bytes": 77722,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "public-agreement-is-all-we-need-html.omilisp",
+      "relative_path": "public/agreement-is-all-we-need.html",
+      "sha256": "fe42b3fa3b5e261a92ed7682857d0112a05264bf6ee5819e0a3aa29d3230e2cc",
+      "sid": "o---o-port.public-agreement-is-all-we-need-html"
+    },
+    {
+      "bytes": 4592,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "public-index-html.omilisp",
+      "relative_path": "public/index.html",
+      "sha256": "46654981af30fd338350e6c2fa788faf5fa0ea013940c245e4a1f0d33242911f",
+      "sid": "o---o-port.public-index-html"
+    },
+    {
+      "bytes": 1178,
+      "extension": ".imo",
+      "family": "artifact",
+      "output": "public-native-omi-matrix-lookup-address-derivation-imo.omilisp",
+      "relative_path": "public/native/omi-matrix-lookup/ADDRESS_DERIVATION.imo",
+      "sha256": "5e4963d3d06eabef0cb0d4e7684a96fc2ad0c1bc7633eadd21606efce0f0e5a7",
+      "sid": "o---o-port.public-native-omi-matrix-lookup-address-derivation-imo"
+    },
+    {
+      "bytes": 2148,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "public-native-omi-matrix-lookup-closures-address-derivation-omi.omilisp",
+      "relative_path": "public/native/omi-matrix-lookup/CLOSURES.address-derivation.omi",
+      "sha256": "46c1efbde46808103d58eae2e283985816fab159a61985462aa3e6a50ff154ca",
+      "sid": "o---o-port.public-native-omi-matrix-lookup-closures-address-derivation-omi"
+    },
+    {
+      "bytes": 2971,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "public-native-omi-matrix-lookup-combinators-address-derivation-omi.omilisp",
+      "relative_path": "public/native/omi-matrix-lookup/COMBINATORS.address-derivation.omi",
+      "sha256": "d0a2d5b08570249b4e52f114d135830693f0b483e8115a18d1fc9ce361fe10e9",
+      "sid": "o---o-port.public-native-omi-matrix-lookup-combinators-address-derivation-omi"
+    },
+    {
+      "bytes": 1665,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "public-native-omi-matrix-lookup-cons-address-derivation-omi.omilisp",
+      "relative_path": "public/native/omi-matrix-lookup/CONS.address-derivation.omi",
+      "sha256": "4ad3b585c8fed92614acbeb70e2400bcba2c825d66b746b00eec74085197b9e8",
+      "sid": "o---o-port.public-native-omi-matrix-lookup-cons-address-derivation-omi"
+    },
+    {
+      "bytes": 2220,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "public-native-omi-matrix-lookup-facts-address-derivation-omi.omilisp",
+      "relative_path": "public/native/omi-matrix-lookup/FACTS.address-derivation.omi",
+      "sha256": "ab0fdca140bfcaed854baf4c9a55d7248a47477205f5dd1103697ac4a6a5dfb0",
+      "sid": "o---o-port.public-native-omi-matrix-lookup-facts-address-derivation-omi"
+    },
+    {
+      "bytes": 2228,
+      "extension": ".md",
+      "family": "document",
+      "output": "public-native-omi-matrix-lookup-readme-md.omilisp",
+      "relative_path": "public/native/omi-matrix-lookup/README.md",
+      "sha256": "ef697045eb50fcd1a9b343cdceaf94860355ddcb35f0638cdbaf747a050547ab",
+      "sid": "o---o-port.public-native-omi-matrix-lookup-readme-md"
+    },
+    {
+      "bytes": 2505,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "public-native-omi-matrix-lookup-rules-address-derivation-omi.omilisp",
+      "relative_path": "public/native/omi-matrix-lookup/RULES.address-derivation.omi",
+      "sha256": "57b721e1dde00b2c1828947f9a6e7fdfd60f16dbac5e02cae2aea8142e4014e9",
+      "sid": "o---o-port.public-native-omi-matrix-lookup-rules-address-derivation-omi"
+    },
+    {
+      "bytes": 3625,
+      "extension": ".md",
+      "family": "document",
+      "output": "public-native-omi-matrix-lookup-test-plan-md.omilisp",
+      "relative_path": "public/native/omi-matrix-lookup/TEST_PLAN.md",
+      "sha256": "ecf49be75e9bc8ed4097a677856b9539c98402ce783130db7215802ca0145fa7",
+      "sid": "o---o-port.public-native-omi-matrix-lookup-test-plan-md"
+    },
+    {
+      "bytes": 45029,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "public-omi-block-model-html.omilisp",
+      "relative_path": "public/omi-block-model.html",
+      "sha256": "8fe8c170a1e6fb026031d5e963e804dd559d3e82685e639a071e80d46cc75019",
+      "sid": "o---o-port.public-omi-block-model-html"
+    },
+    {
+      "bytes": 241,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "public-receipts-01017c001434e101-json.omilisp",
+      "relative_path": "public/receipts/01017c001434e101.json",
+      "sha256": "0a3be3e29fa67111504d2b9d00c94bb8e5ca66a8b0d187d75715cfed3b70b7cb",
+      "sid": "o---o-port.public-receipts-01017c001434e101-json"
+    },
+    {
+      "bytes": 266,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "public-receipts-07017c008182e701-json.omilisp",
+      "relative_path": "public/receipts/07017c008182e701.json",
+      "sha256": "5d55da71654ac5ac7ab73e20fe6fc5c09c9102f44ecf2a639bbb7ddf88c0a529",
+      "sid": "o---o-port.public-receipts-07017c008182e701-json"
+    },
+    {
+      "bytes": 266,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "public-receipts-0c017c00e197ec01-json.omilisp",
+      "relative_path": "public/receipts/0c017c00e197ec01.json",
+      "sha256": "3d06dfa40dc8849d7a1655b6f29ce8e9bf789bc644f77718a392573711deb12a",
+      "sid": "o---o-port.public-receipts-0c017c00e197ec01-json"
+    },
+    {
+      "bytes": 266,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "public-receipts-0d017c00fec8ed01-json.omilisp",
+      "relative_path": "public/receipts/0d017c00fec8ed01.json",
+      "sha256": "337cdabe66ef9869fdf713ed4db079f6c8cef853afb4461436e6472d0302657a",
+      "sid": "o---o-port.public-receipts-0d017c00fec8ed01-json"
+    },
+    {
+      "bytes": 266,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "public-receipts-0e017c000a01ee01-json.omilisp",
+      "relative_path": "public/receipts/0e017c000a01ee01.json",
+      "sha256": "f9e55940e4d818dc9c42237854f2a0b092dde0e1641736c05740fe585c002bb9",
+      "sid": "o---o-port.public-receipts-0e017c000a01ee01-json"
+    },
+    {
+      "bytes": 266,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "public-receipts-0f017c00273aef01-json.omilisp",
+      "relative_path": "public/receipts/0f017c00273aef01.json",
+      "sha256": "a70cfcc7bcefe1255b1f91a06346629a46ae78b6861cc49678a829456ba60902",
+      "sid": "o---o-port.public-receipts-0f017c00273aef01-json"
+    },
+    {
+      "bytes": 266,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "public-receipts-3e037c00f59dee01-json.omilisp",
+      "relative_path": "public/receipts/3e037c00f59dee01.json",
+      "sha256": "2cf6f11acb1e5b3fd0687613b1e0b4f686c1fe903c846ded2a078e33380a26df",
+      "sid": "o---o-port.public-receipts-3e037c00f59dee01-json"
+    },
+    {
+      "bytes": 104,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-59-60-61-face-band-sh.omilisp",
+      "relative_path": "public/rules/59-60-61-face-band.sh",
+      "sha256": "868fc346b7e1cc19f5c0eeda5e6323df1d907b14f38de1a501abfd8f384badbd",
+      "sid": "o---o-port.public-rules-59-60-61-face-band-sh"
+    },
+    {
+      "bytes": 1390,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-emit-sh.omilisp",
+      "relative_path": "public/rules/_emit.sh",
+      "sha256": "81140ff5e4292c8964ea683d115f3ad996aad4d49badab962b75b55e8533e4b1",
+      "sid": "o---o-port.public-rules-emit-sh"
+    },
+    {
+      "bytes": 102,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-boundary-opacity-sh.omilisp",
+      "relative_path": "public/rules/boundary-opacity.sh",
+      "sha256": "9f69df21d598da5564c385b4f47846f3333e49da658d884ff878d5b4b869cd33",
+      "sid": "o---o-port.public-rules-boundary-opacity-sh"
+    },
+    {
+      "bytes": 105,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-cssom-import-export-sh.omilisp",
+      "relative_path": "public/rules/cssom-import-export.sh",
+      "sha256": "981d70262f6195cb0db12f9fda73d565541ad391eb271b30975e48619aa04ef1",
+      "sid": "o---o-port.public-rules-cssom-import-export-sh"
+    },
+    {
+      "bytes": 103,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-dom-import-export-sh.omilisp",
+      "relative_path": "public/rules/dom-import-export.sh",
+      "sha256": "de4c03a6e08b6467167e8d5d3156da945c46d98840c9f49ac1cdbc5f1d1955bb",
+      "sid": "o---o-port.public-rules-dom-import-export-sh"
+    },
+    {
+      "bytes": 100,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-edge-traversal-sh.omilisp",
+      "relative_path": "public/rules/edge-traversal.sh",
+      "sha256": "ba5df9ff7261a3dbede5044d9e2e04e6d3b6bb3cc93d0748b995af9ac2a3e87b",
+      "sid": "o---o-port.public-rules-edge-traversal-sh"
+    },
+    {
+      "bytes": 109,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-fano-triangle-selection-sh.omilisp",
+      "relative_path": "public/rules/fano-triangle-selection.sh",
+      "sha256": "8c3205654276cbc7504b3547b588ef17da45b46c3f110773e773cf1df4877181",
+      "sid": "o---o-port.public-rules-fano-triangle-selection-sh"
+    },
+    {
+      "bytes": 105,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-jsdom-normalization-sh.omilisp",
+      "relative_path": "public/rules/jsdom-normalization.sh",
+      "sha256": "d28da86cd6a021cc9a100577dfc3a9e3eb473221893bfb33e199c968384ac699",
+      "sid": "o---o-port.public-rules-jsdom-normalization-sh"
+    },
+    {
+      "bytes": 877,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-materialize-sh.omilisp",
+      "relative_path": "public/rules/materialize.sh",
+      "sha256": "104fa0ad0a06b2e9e290e29be4a3ff56e7e3262f82690d868ca8ea17fe087a14",
+      "sid": "o---o-port.public-rules-materialize-sh"
+    },
+    {
+      "bytes": 102,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-omi-object-patch-sh.omilisp",
+      "relative_path": "public/rules/omi-object-patch.sh",
+      "sha256": "769166d54e121820c645c71e7d3d0e043342b8f404049987885b77692ca36b11",
+      "sid": "o---o-port.public-rules-omi-object-patch-sh"
+    },
+    {
+      "bytes": 101,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-page-frame-root-sh.omilisp",
+      "relative_path": "public/rules/page-frame-root.sh",
+      "sha256": "34edce9813d3bae84099336b220ad2e10292b477aaac83c5f8858575a8716ec5",
+      "sid": "o---o-port.public-rules-page-frame-root-sh"
+    },
+    {
+      "bytes": 111,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-receipt-projection-export-sh.omilisp",
+      "relative_path": "public/rules/receipt-projection-export.sh",
+      "sha256": "e652c1855b40ed660781dd9b317ce54608e9dfddf81b905f3b6a94b5e51997a4",
+      "sid": "o---o-port.public-rules-receipt-projection-export-sh"
+    },
+    {
+      "bytes": 3013,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "public-rules-registry-json.omilisp",
+      "relative_path": "public/rules/registry.json",
+      "sha256": "52b4832bf7b2384bec2c6f9ab3653cd4a2b90d111275ef62f6c1a7d39dd526a9",
+      "sid": "o---o-port.public-rules-registry-json"
+    },
+    {
+      "bytes": 99,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-rotation-spin-sh.omilisp",
+      "relative_path": "public/rules/rotation-spin.sh",
+      "sha256": "d750b99bbe8f145d4bdd39fbaade52aae034ef70668c8b36954159e9df5e5e9a",
+      "sid": "o---o-port.public-rules-rotation-spin-sh"
+    },
+    {
+      "bytes": 97,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-scale-depth-sh.omilisp",
+      "relative_path": "public/rules/scale-depth.sh",
+      "sha256": "4e0030df0e9ebb21bdb84702a85a97c6469978d73b176983e3cd8832fec472fb",
+      "sid": "o---o-port.public-rules-scale-depth-sh"
+    },
+    {
+      "bytes": 97,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-snub-bridge-sh.omilisp",
+      "relative_path": "public/rules/snub-bridge.sh",
+      "sha256": "05da1269110764c7a5aada66238dbf0144efbb5afecc4fa2701d3a7cf5575962",
+      "sid": "o---o-port.public-rules-snub-bridge-sh"
+    },
+    {
+      "bytes": 113,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-stellated-octahedron-mirror-sh.omilisp",
+      "relative_path": "public/rules/stellated-octahedron-mirror.sh",
+      "sha256": "c85f503abb2839afbcb775b97ef6d279efdfcde8b1b925281d6ac953f451c309",
+      "sid": "o---o-port.public-rules-stellated-octahedron-mirror-sh"
+    },
+    {
+      "bytes": 106,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-translation-viewport-sh.omilisp",
+      "relative_path": "public/rules/translation-viewport.sh",
+      "sha256": "ca212a36571dfe20677dfc1f3904d9265cd1b9036fb158e488b092fdb76e6337",
+      "sid": "o---o-port.public-rules-translation-viewport-sh"
+    },
+    {
+      "bytes": 102,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-rules-vertex-traversal-sh.omilisp",
+      "relative_path": "public/rules/vertex-traversal.sh",
+      "sha256": "a52774ba34fbce183ffcc53e63aba697869f846f96c9ee1a369852d507947c2c",
+      "sid": "o---o-port.public-rules-vertex-traversal-sh"
+    },
+    {
+      "bytes": 3136,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "public-schemas-omi-address-derivation-v0-schema-json.omilisp",
+      "relative_path": "public/schemas/omi-address-derivation-v0.schema.json",
+      "sha256": "276bf25e4a51717eabd7d3249ff544d3bca60d7bbae1d865df81a43c21027977",
+      "sid": "o---o-port.public-schemas-omi-address-derivation-v0-schema-json"
+    },
+    {
+      "bytes": 2776,
+      "extension": ".sh",
+      "family": "code",
+      "output": "public-start-sh.omilisp",
+      "relative_path": "public/start.sh",
+      "sha256": "b7582a78e01367f9867caea1fd5a8aa3ef8716bb4f7313e84bcc9489ad0f4f13",
+      "sid": "o---o-port.public-start-sh"
+    },
+    {
+      "bytes": 45,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "public-test-results-last-run-json.omilisp",
+      "relative_path": "public/test-results/.last-run.json",
+      "sha256": "e22df5d0991eb28c09093b1e678b3fa8cd1fab48185d38e67cf79fb6e63ad5ea",
+      "sid": "o---o-port.public-test-results-last-run-json"
+    }
+  ],
+  "output_root": "/home/main/omi/omi---imo/declarations/o---o-port",
+  "source_root": "/home/main/omi/o---o"
+}

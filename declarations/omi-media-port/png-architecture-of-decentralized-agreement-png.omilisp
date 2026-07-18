@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.png-architecture-of-decentralized-agreement-png)
+    (title "omi-media port: png/Architecture_of_Decentralized_Agreement.png")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/png/Architecture_of_Decentralized_Agreement.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.png-architecture-of-decentralized-agreement-png)
+    (locator omi---imo.omi-media-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "png/Architecture_of_Decentralized_Agreement.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 5179315)
+    (sha256 "eff88f4404d8901ce169341438c7d530f53b11e8c31a3f442159d50ae2f09ed4"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

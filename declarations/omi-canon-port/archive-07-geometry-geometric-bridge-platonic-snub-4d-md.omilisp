@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.archive-07-geometry-geometric-bridge-platonic-snub-4d-md)
+    (title "omi-canon port: _archive/07-geometry/GEOMETRIC_BRIDGE_PLATONIC_SNUB_4D.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/_archive/07-geometry/GEOMETRIC_BRIDGE_PLATONIC_SNUB_4D.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.archive-07-geometry-geometric-bridge-platonic-snub-4d-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "_archive/07-geometry/GEOMETRIC_BRIDGE_PLATONIC_SNUB_4D.md")
+    (extension ".md")
+    (family document)
+    (bytes 7532)
+    (sha256 "38051301c42e1c4a46bf6791ec0dbc5d395704293ad8dc3324bb98abf7967ebf"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 315)
+    (title "Geometric Bridge: Platonic Seed, Archimedean/Catalan Snub, and 4D Closure")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

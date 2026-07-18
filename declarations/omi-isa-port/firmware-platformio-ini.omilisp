@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-isa-port.firmware-platformio-ini)
+    (title "omi-isa port: firmware/platformio.ini")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/firmware/platformio.ini")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.firmware-platformio-ini)
+    (locator omi---imo.omi-isa-port)
+    (binding ini.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs artifact)
+    (us ini))
+  (source-artifact
+    (relative-path "firmware/platformio.ini")
+    (extension ".ini")
+    (family artifact)
+    (bytes 388)
+    (sha256 "122f1ed492528327048af632009e8fbc7889f034e5f303126d428169be8acbd6"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

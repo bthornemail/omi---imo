@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omnicron-port.riscv-baremetal-omicron-driver-c)
+    (title "omnicron port: riscv-baremetal/omicron_driver.c")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/riscv-baremetal/omicron_driver.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.riscv-baremetal-omicron-driver-c)
+    (locator omi---imo.omnicron-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "riscv-baremetal/omicron_driver.c")
+    (extension ".c")
+    (family code)
+    (bytes 2792)
+    (sha256 "239d8ad2b364ed44e6deff52c8a17b0a98ebef3b6b01400d77a0e78d36ffc011"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 109)
+    (function-count 7)
+    (define-count 0)
+    (include-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

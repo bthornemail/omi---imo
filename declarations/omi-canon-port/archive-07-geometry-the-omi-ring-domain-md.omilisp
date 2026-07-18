@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.archive-07-geometry-the-omi-ring-domain-md)
+    (title "omi-canon port: _archive/07-geometry/THE_OMI_RING_DOMAIN.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/_archive/07-geometry/THE_OMI_RING_DOMAIN.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.archive-07-geometry-the-omi-ring-domain-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "_archive/07-geometry/THE_OMI_RING_DOMAIN.md")
+    (extension ".md")
+    (family document)
+    (bytes 1425)
+    (sha256 "78c2e4d75fd0382b731dec503968520a1dd48ae8feabb02414b75eae904d9895"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 75)
+    (title "The Omi-Ring Domain")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

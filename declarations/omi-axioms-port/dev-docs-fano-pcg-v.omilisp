@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-axioms-port.dev-docs-fano-pcg-v)
+    (title "omi-axioms port: dev-docs/Fano_PCG.v")
+    (kind omi-axioms.source-candidate)
+    (source "/home/main/omi/omi-axioms/dev-docs/Fano_PCG.v")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-axioms-port.dev-docs-fano-pcg-v)
+    (locator omi---imo.omi-axioms-port)
+    (binding v.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-axioms)
+    (rs artifact)
+    (us v))
+  (source-artifact
+    (relative-path "dev-docs/Fano_PCG.v")
+    (extension ".v")
+    (family artifact)
+    (bytes 16557)
+    (sha256 "39ad3f72d469989dfeac9db4e7c5bdb7559eb6659a006d8da23873b7425c26fb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

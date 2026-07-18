@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-portal-port.scripts-omi-cron-frame-sh)
+    (title "omi-portal port: scripts/omi-cron-frame.sh")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/scripts/omi-cron-frame.sh")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.scripts-omi-cron-frame-sh)
+    (locator omi---imo.omi-portal-port)
+    (binding sh.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us sh))
+  (source-artifact
+    (relative-path "scripts/omi-cron-frame.sh")
+    (extension ".sh")
+    (family code)
+    (bytes 1232)
+    (sha256 "5b8d356015525e27aca96ed05d02caa088622456f38e644afb52347ca0cc21ad"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 30)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

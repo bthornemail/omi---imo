@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-verify-verify-multi-emulator-mjs)
+    (title "omnicron port: logic/verify/verify_multi_emulator.mjs")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/verify/verify_multi_emulator.mjs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-verify-verify-multi-emulator-mjs)
+    (locator omi---imo.omnicron-port)
+    (binding mjs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us mjs))
+  (source-artifact
+    (relative-path "logic/verify/verify_multi_emulator.mjs")
+    (extension ".mjs")
+    (family code)
+    (bytes 2680)
+    (sha256 "ba30ce5d866ff325bfe973afa019308be4a3b7388e396190444f6c59a21b614b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 102)
+    (function-count 3)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

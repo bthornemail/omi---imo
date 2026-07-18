@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.dev-portal-src-omi-bakeparser-ts)
+    (title "omi-portal port: dev-portal/src/omi/bakeParser.ts")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/dev-portal/src/omi/bakeParser.ts")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.dev-portal-src-omi-bakeparser-ts)
+    (locator omi---imo.omi-portal-port)
+    (binding ts.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us ts))
+  (source-artifact
+    (relative-path "dev-portal/src/omi/bakeParser.ts")
+    (extension ".ts")
+    (family artifact)
+    (bytes 4233)
+    (sha256 "679fbc375fdc29f69adcf296dd2a53c321e658be641df8f3b8dd12f21254e1b3"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

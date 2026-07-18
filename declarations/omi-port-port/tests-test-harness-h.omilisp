@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-port-port.tests-test-harness-h)
+    (title "omi-port port: tests/test_harness.h")
+    (kind omi-port.source-candidate)
+    (source "/home/main/omi/omi-port/tests/test_harness.h")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-port-port.tests-test-harness-h)
+    (locator omi---imo.omi-port-port)
+    (binding h.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-port)
+    (rs code)
+    (us h))
+  (source-artifact
+    (relative-path "tests/test_harness.h")
+    (extension ".h")
+    (family code)
+    (bytes 2159)
+    (sha256 "3acc5ea203c51c6779cee3ec7677d504e0749b102dca8c7581e6e0b9f593fc91"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 46)
+    (function-count 0)
+    (define-count 4)
+    (include-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

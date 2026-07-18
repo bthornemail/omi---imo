@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-vault-port.semantic-notes-0237-markdown-obsidian-plugins-omi-vault-readme-md-local-use-appears-in-obsidian-plug-md)
+    (title "omi-vault port: Semantic Notes/0237-markdown-obsidian-plugins-omi-vault-readme-md-local-use-appears-in-obsidian-plug.md")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/Semantic Notes/0237-markdown-obsidian-plugins-omi-vault-readme-md-local-use-appears-in-obsidian-plug.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.semantic-notes-0237-markdown-obsidian-plugins-omi-vault-readme-md-local-use-appears-in-obsidian-plug-md)
+    (locator omi---imo.omi-vault-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "Semantic Notes/0237-markdown-obsidian-plugins-omi-vault-readme-md-local-use-appears-in-obsidian-plug.md")
+    (extension ".md")
+    (family document)
+    (bytes 585)
+    (sha256 "7f93f3a6e20a542b6e4570ed9e976cb5fd4cacf1711e3e538159a71ea0bf938e"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 21)
+    (title "markdown:.obsidian/plugins/omi-vault/README.md#local-use appears-in .obsidian/plugins/omi-vault/README.md")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.src-omi-ququart-machine-ts)
+    (title "omi-portal port: src/omi/ququart-machine.ts")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/src/omi/ququart-machine.ts")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.src-omi-ququart-machine-ts)
+    (locator omi---imo.omi-portal-port)
+    (binding ts.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us ts))
+  (source-artifact
+    (relative-path "src/omi/ququart-machine.ts")
+    (extension ".ts")
+    (family artifact)
+    (bytes 6804)
+    (sha256 "7ef21780f3fe7e9d518a63cb6d0c044cb3bf2ad71e4cac20194a92cc50a863b5"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

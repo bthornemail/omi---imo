@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canvas-port.archive-polyform-c-project-out-smith-chart-svg)
+    (title "omi-canvas port: archive/polyform_c_project/out/smith_chart.svg")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/archive/polyform_c_project/out/smith_chart.svg")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.archive-polyform-c-project-out-smith-chart-svg)
+    (locator omi---imo.omi-canvas-port)
+    (binding svg.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs carrier)
+    (us svg))
+  (source-artifact
+    (relative-path "archive/polyform_c_project/out/smith_chart.svg")
+    (extension ".svg")
+    (family carrier)
+    (bytes 1777)
+    (sha256 "7019f7a967d3dbc2517db6b4cd25491233538bdb7568c5393d5d37a45c1cd560"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 23)
+    (svg-root true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

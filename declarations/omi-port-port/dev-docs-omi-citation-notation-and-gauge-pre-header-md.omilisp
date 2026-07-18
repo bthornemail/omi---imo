@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-port-port.dev-docs-omi-citation-notation-and-gauge-pre-header-md)
+    (title "omi-port port: dev-docs/OMI Citation Notation and Gauge Pre-Header.md")
+    (kind omi-port.source-candidate)
+    (source "/home/main/omi/omi-port/dev-docs/OMI Citation Notation and Gauge Pre-Header.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-port-port.dev-docs-omi-citation-notation-and-gauge-pre-header-md)
+    (locator omi---imo.omi-port-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-port)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/OMI Citation Notation and Gauge Pre-Header.md")
+    (extension ".md")
+    (family document)
+    (bytes 22500)
+    (sha256 "27bf967bfdba961109ce6ed9c0f5363cbba9b1c0f7c431d88e8721ae6ba8de11"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1260)
+    (title "OMI Citation Notation and Gauge Pre-Header")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

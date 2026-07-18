@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.docs-omi-whitepaper-md)
+    (title "omi-portal port: docs/omi-whitepaper.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/docs/omi-whitepaper.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.docs-omi-whitepaper-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/omi-whitepaper.md")
+    (extension ".md")
+    (family document)
+    (bytes 20884)
+    (sha256 "28a5a3f13335c2ca4c7ea557411493b2eda0212bef0886a357952644ac57f2f1"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1028)
+    (title "The Omicron Object Model")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

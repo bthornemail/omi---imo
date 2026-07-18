@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.session-ses-2356-md)
+    (title "omnicron port: session-ses_2356.md")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/session-ses_2356.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.session-ses-2356-md)
+    (locator omi---imo.omnicron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "session-ses_2356.md")
+    (extension ".md")
+    (family document)
+    (bytes 213259)
+    (sha256 "64d1550f7a3e88a33c75460bff57b48ca8cc106c12f68f373b546e3f5b1782cb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 4967)
+    (title "New session - 2026-04-26T16:23:28.828Z")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

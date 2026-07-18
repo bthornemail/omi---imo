@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid o---o-port.public-agreement-is-all-we-need-html)
+    (title "o---o port: public/agreement-is-all-we-need.html")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/public/agreement-is-all-we-need.html")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.public-agreement-is-all-we-need-html)
+    (locator omi---imo.o---o-port)
+    (binding html.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs artifact)
+    (us html))
+  (source-artifact
+    (relative-path "public/agreement-is-all-we-need.html")
+    (extension ".html")
+    (family artifact)
+    (bytes 77722)
+    (sha256 "fe42b3fa3b5e261a92ed7682857d0112a05264bf6ee5819e0a3aa29d3230e2cc"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 2036)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

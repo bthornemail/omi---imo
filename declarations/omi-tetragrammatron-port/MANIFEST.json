@@ -1,0 +1,1599 @@
+{
+  "count": 173,
+  "extension_counts": {
+    ".aux": 1,
+    ".bin": 1,
+    ".c": 10,
+    ".css": 2,
+    ".example": 1,
+    ".glob": 1,
+    ".h": 5,
+    ".html": 2,
+    ".js": 10,
+    ".json": 5,
+    ".md": 86,
+    ".o": 5,
+    ".org": 2,
+    ".pdf": 9,
+    ".png": 3,
+    ".ring": 1,
+    ".svg": 2,
+    ".ts": 8,
+    ".tsx": 2,
+    ".txt": 5,
+    ".v": 2,
+    ".vo": 1,
+    ".vok": 1,
+    ".vos": 1,
+    "[no-ext]": 7
+  },
+  "family_counts": {
+    "artifact": 28,
+    "carrier": 15,
+    "code": 25,
+    "declaration": 7,
+    "document": 91,
+    "untyped": 7
+  },
+  "items": [
+    {
+      "bytes": 420,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "gitignore.omilisp",
+      "relative_path": ".gitignore",
+      "sha256": "b86d2d014626551700cfe8b34c105ed7caed9eb8f6cbd1e7cb8a13f7a56d1405",
+      "sid": "omi-tetragrammatron-port.gitignore"
+    },
+    {
+      "bytes": 7103,
+      "extension": ".md",
+      "family": "document",
+      "output": "agents-md.omilisp",
+      "relative_path": "AGENTS.md",
+      "sha256": "57800a61fb88024a4d24ea2a05b75d7143c84d0c7eb0338328aa0056507d4596",
+      "sid": "omi-tetragrammatron-port.agents-md"
+    },
+    {
+      "bytes": 3436,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "makefile.omilisp",
+      "relative_path": "Makefile",
+      "sha256": "c994c608e6083cd00f4b48ae2d93c5439f27fe3c3cf5219fc714a3b30e97d8cf",
+      "sid": "omi-tetragrammatron-port.makefile"
+    },
+    {
+      "bytes": 9425,
+      "extension": ".md",
+      "family": "document",
+      "output": "readme-md.omilisp",
+      "relative_path": "README.md",
+      "sha256": "a59ab331290bdcafc5fe0b26952eabc5df8d658a998f900b83bd98cdd8652530",
+      "sid": "omi-tetragrammatron-port.readme-md"
+    },
+    {
+      "bytes": 17526,
+      "extension": ".md",
+      "family": "document",
+      "output": "skills-md.omilisp",
+      "relative_path": "SKILLS.md",
+      "sha256": "a1758f98b36907733163d0a4fb39496330d22db56ee699862cd6189a53b3f35e",
+      "sid": "omi-tetragrammatron-port.skills-md"
+    },
+    {
+      "bytes": 18526,
+      "extension": ".md",
+      "family": "document",
+      "output": "agent-docs-adapters-md.omilisp",
+      "relative_path": "agent-docs/ADAPTERS.md",
+      "sha256": "6bd1de35af7ed73f4f82bbffa9fd9c4b7b871e66e63e79176dfc1008da049d73",
+      "sid": "omi-tetragrammatron-port.agent-docs-adapters-md"
+    },
+    {
+      "bytes": 16321,
+      "extension": ".md",
+      "family": "document",
+      "output": "agent-docs-agents-md.omilisp",
+      "relative_path": "agent-docs/AGENTS.md",
+      "sha256": "c8fc8ebd2f3758978fc7cbd30ce468aaee2ab4f96614754e593727d2be0c1b22",
+      "sid": "omi-tetragrammatron-port.agent-docs-agents-md"
+    },
+    {
+      "bytes": 41963,
+      "extension": ".md",
+      "family": "document",
+      "output": "agent-docs-repo-md.omilisp",
+      "relative_path": "agent-docs/REPO.md",
+      "sha256": "5a78c2e6c177756cd741ef34f76f20b418656c1b23011993ab13fa28f118f3d1",
+      "sid": "omi-tetragrammatron-port.agent-docs-repo-md"
+    },
+    {
+      "bytes": 17106,
+      "extension": ".md",
+      "family": "document",
+      "output": "agent-docs-skills-md.omilisp",
+      "relative_path": "agent-docs/SKILLS.md",
+      "sha256": "ba7f3789a680f2fb3f63df4187d06918d70c8cd2834bfc779fb8316cba08192f",
+      "sid": "omi-tetragrammatron-port.agent-docs-skills-md"
+    },
+    {
+      "bytes": 38638,
+      "extension": ".c",
+      "family": "code",
+      "output": "core-imo-c.omilisp",
+      "relative_path": "core/imo.c",
+      "sha256": "6ad0e641fa2f3fb01b0cfde9d7e0b0a64df27f064d581f028472d91a466af5c1",
+      "sid": "omi-tetragrammatron-port.core-imo-c"
+    },
+    {
+      "bytes": 2698,
+      "extension": ".h",
+      "family": "code",
+      "output": "core-imo-h.omilisp",
+      "relative_path": "core/imo.h",
+      "sha256": "59581cfc8d4c3a6958941de3240ed9c70a8a694defcddf8264c32afb8be535a7",
+      "sid": "omi-tetragrammatron-port.core-imo-h"
+    },
+    {
+      "bytes": 56096,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "core-imo-o.omilisp",
+      "relative_path": "core/imo.o",
+      "sha256": "b4d3e020212c3028feaa0891fb4b6959d998679e55397998a4ffc323ba2951be",
+      "sid": "omi-tetragrammatron-port.core-imo-o"
+    },
+    {
+      "bytes": 65216,
+      "extension": ".c",
+      "family": "code",
+      "output": "core-metatron-c.omilisp",
+      "relative_path": "core/metatron.c",
+      "sha256": "562835fdc243f58d9b93edb6f68a1914dea03123b0f7d1c466e287a93c24a24c",
+      "sid": "omi-tetragrammatron-port.core-metatron-c"
+    },
+    {
+      "bytes": 4600,
+      "extension": ".h",
+      "family": "code",
+      "output": "core-metatron-h.omilisp",
+      "relative_path": "core/metatron.h",
+      "sha256": "7b3f7b09bd02383c973711a4eb5987e2a4499b1b5ff3c41eb56133bfc93ba6d4",
+      "sid": "omi-tetragrammatron-port.core-metatron-h"
+    },
+    {
+      "bytes": 62480,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "core-metatron-o.omilisp",
+      "relative_path": "core/metatron.o",
+      "sha256": "750cb315b0733cb9d26dce6ca6a9e752b6fd99ee0499bc7b8463103cfc6db572",
+      "sid": "omi-tetragrammatron-port.core-metatron-o"
+    },
+    {
+      "bytes": 40336,
+      "extension": ".ring",
+      "family": "artifact",
+      "output": "core-omi-auto-ring.omilisp",
+      "relative_path": "core/omi.auto.ring",
+      "sha256": "fe1ba137bc832205efae54651dd701741e853071ad81861706c6a4644089811b",
+      "sid": "omi-tetragrammatron-port.core-omi-auto-ring"
+    },
+    {
+      "bytes": 17309,
+      "extension": ".c",
+      "family": "code",
+      "output": "core-omi-c.omilisp",
+      "relative_path": "core/omi.c",
+      "sha256": "684a63bb87d2531f8321c3ed540ca4ec2bc3d0034e97bbcc1d82f2763a9f3800",
+      "sid": "omi-tetragrammatron-port.core-omi-c"
+    },
+    {
+      "bytes": 10774,
+      "extension": ".h",
+      "family": "code",
+      "output": "core-omi-h.omilisp",
+      "relative_path": "core/omi.h",
+      "sha256": "eac117356c73781a9f16c4dcb3c5c39c2e31b50f3ccf3d9756aabbc955f1a1b0",
+      "sid": "omi-tetragrammatron-port.core-omi-h"
+    },
+    {
+      "bytes": 13744,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "core-omi-o.omilisp",
+      "relative_path": "core/omi.o",
+      "sha256": "4091c10e181f5b8909ea6006769193f19cff0a55fd2650ed3707040049a6b6ee",
+      "sid": "omi-tetragrammatron-port.core-omi-o"
+    },
+    {
+      "bytes": 198400,
+      "extension": ".bin",
+      "family": "carrier",
+      "output": "core-omicron-bin.omilisp",
+      "relative_path": "core/omicron.bin",
+      "sha256": "178936a9a3e3b21da99ea3172b467c1adabde5b9c02ab8860ccfc3c75aabcd77",
+      "sid": "omi-tetragrammatron-port.core-omicron-bin"
+    },
+    {
+      "bytes": 162241,
+      "extension": ".c",
+      "family": "code",
+      "output": "core-omicron-c.omilisp",
+      "relative_path": "core/omicron.c",
+      "sha256": "57b723c5ba2f6a418141f9fb3d8104bec5270886e4e486312032d6aa2c43c9d9",
+      "sid": "omi-tetragrammatron-port.core-omicron-c"
+    },
+    {
+      "bytes": 3817,
+      "extension": ".h",
+      "family": "code",
+      "output": "core-omicron-h.omilisp",
+      "relative_path": "core/omicron.h",
+      "sha256": "2e003d64f4172492f2631117e2d4bf43b37e7fa4062cc7e2b4c8fa572731b379",
+      "sid": "omi-tetragrammatron-port.core-omicron-h"
+    },
+    {
+      "bytes": 146656,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "core-omicron-o.omilisp",
+      "relative_path": "core/omicron.o",
+      "sha256": "38169bbdae72ef647184a87f67f7cbb3f08a76f970dbebb6035120cde1af9be7",
+      "sid": "omi-tetragrammatron-port.core-omicron-o"
+    },
+    {
+      "bytes": 6014,
+      "extension": ".c",
+      "family": "code",
+      "output": "core-tetragrammatron-c.omilisp",
+      "relative_path": "core/tetragrammatron.c",
+      "sha256": "e27bcf03068a4d9d21b9c781f5a0d137d891afaf541d2d8b0a2212b5ad957cf8",
+      "sid": "omi-tetragrammatron-port.core-tetragrammatron-c"
+    },
+    {
+      "bytes": 2016,
+      "extension": ".h",
+      "family": "code",
+      "output": "core-tetragrammatron-h.omilisp",
+      "relative_path": "core/tetragrammatron.h",
+      "sha256": "95d44d8740ef6a2e6446a10754ff3f94b7dfb0ef0ce207e67339607e3e838572",
+      "sid": "omi-tetragrammatron-port.core-tetragrammatron-h"
+    },
+    {
+      "bytes": 8800,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "core-tetragrammatron-o.omilisp",
+      "relative_path": "core/tetragrammatron.o",
+      "sha256": "657819a95324ed8a283ac828556cb0eeab5b411cc381bd5a60d0d9abfefd19d3",
+      "sid": "omi-tetragrammatron-port.core-tetragrammatron-o"
+    },
+    {
+      "bytes": 3961,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-metatron-md.omilisp",
+      "relative_path": "dev-docs/METATRON.md",
+      "sha256": "c733f596f710435001a4254fe4a7cd17ae99da1b2c6ecc4656251974c43aaa69",
+      "sid": "omi-tetragrammatron-port.dev-docs-metatron-md"
+    },
+    {
+      "bytes": 13794,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omicron-md.omilisp",
+      "relative_path": "dev-docs/OMICRON.md",
+      "sha256": "3c169f566f1b01c58931f5669e5257654e2005099b7d0c14d84d733487949ac8",
+      "sid": "omi-tetragrammatron-port.dev-docs-omicron-md"
+    },
+    {
+      "bytes": 12768,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-addressing-md.omilisp",
+      "relative_path": "dev-docs/OMI_ADDRESSING.md",
+      "sha256": "04bdcfe10a06eb8b60df43489a01aa18d7d620a3d940e4643902b97b22a568ad",
+      "sid": "omi-tetragrammatron-port.dev-docs-omi-addressing-md"
+    },
+    {
+      "bytes": 10378,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-project-outline-md.omilisp",
+      "relative_path": "dev-docs/PROJECT_OUTLINE.md",
+      "sha256": "011111230bb8ab772abafc90ca5f8d454e12faf89eb757ac993beb73b2646cc0",
+      "sid": "omi-tetragrammatron-port.dev-docs-project-outline-md"
+    },
+    {
+      "bytes": 11431,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-project-specificaton-md.omilisp",
+      "relative_path": "dev-docs/PROJECT_SPECIFICATON.md",
+      "sha256": "f68ffee5deeb8b26be14972e305f6d9ae60231d30abe849bc0806a703b45769c",
+      "sid": "omi-tetragrammatron-port.dev-docs-project-specificaton-md"
+    },
+    {
+      "bytes": 17368,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-project-update-outline-md.omilisp",
+      "relative_path": "dev-docs/PROJECT_UPDATE_OUTLINE.md",
+      "sha256": "9a1bf4832f6f9013859e11700ff1f050589f64e710451bcd23e5dea0e96eec31",
+      "sid": "omi-tetragrammatron-port.dev-docs-project-update-outline-md"
+    },
+    {
+      "bytes": 2905,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-tetragrammatron-md.omilisp",
+      "relative_path": "dev-docs/TETRAGRAMMATRON.md",
+      "sha256": "6ab4d6a2c5f9b718282fd1d1fa8e96ce1c0d0a899faec604a227d9a6e6c7db43",
+      "sid": "omi-tetragrammatron-port.dev-docs-tetragrammatron-md"
+    },
+    {
+      "bytes": 10735,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-agreement-is-all-we-need-md.omilisp",
+      "relative_path": "dev-docs/archive/Agreement Is All We Need.md",
+      "sha256": "ad6bca1fbb0a57e019b9ed9f6ac3ec35ba030c75001c1b82677e47391b2a2347",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-agreement-is-all-we-need-md"
+    },
+    {
+      "bytes": 16760,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-c-core-md.omilisp",
+      "relative_path": "dev-docs/archive/C core.md",
+      "sha256": "3f9312d32ac10640bc694e4ef8b0d8ffe947dd919fa6a41ea429f922de3e4ff6",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-c-core-md"
+    },
+    {
+      "bytes": 7251,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-complete-omi-lisp-ladder-md.omilisp",
+      "relative_path": "dev-docs/archive/COMPLETE_OMI-LISP_LADDER.md",
+      "sha256": "f80c9cb826886abae44573db3347957c33da1e4fb2607bdae82ef6dd6b5057c1",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-complete-omi-lisp-ladder-md"
+    },
+    {
+      "bytes": 30038,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-constants-without-constants-deterministic-incidence-geometry-md.omilisp",
+      "relative_path": "dev-docs/archive/Constants Without Constants - Deterministic Incidence Geometry.md",
+      "sha256": "80adacbe02103b416fb7b4c75328a7ae9a875edfd5e9ee5dc20c70480d43d6d9",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-constants-without-constants-deterministic-incidence-geometry-md"
+    },
+    {
+      "bytes": 11371,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-derived-non-printing-omi-lisp-md.omilisp",
+      "relative_path": "dev-docs/archive/Derived Non-Printing OMI-Lisp.md",
+      "sha256": "062b30e44b76cb61f6ca79d3f5e28004dbc5d996b987b40fb0f8f84b08307106",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-derived-non-printing-omi-lisp-md"
+    },
+    {
+      "bytes": 23977,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-emergent-p2p-use-cases-attributes-for-omi-protocol-md.omilisp",
+      "relative_path": "dev-docs/archive/Emergent P2P Use Cases & Attributes for OMI Protocol.md",
+      "sha256": "8f4c0c886b1f719171380ab2a7e5403918db722cb59db8d05142e62ebd5ea1e2",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-emergent-p2p-use-cases-attributes-for-omi-protocol-md"
+    },
+    {
+      "bytes": 2164530,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-archive-jabcode-bsi-tr-03137-pdf.omilisp",
+      "relative_path": "dev-docs/archive/JabCode.BSI-TR-03137.pdf",
+      "sha256": "e42af15c78cea0030dfb402dcec1b6f442ef496a6178108b14c7b685c9e6515e",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-jabcode-bsi-tr-03137-pdf"
+    },
+    {
+      "bytes": 22500,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-citation-notation-and-gauge-pre-header-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI Citation Notation and Gauge Pre-Header.md",
+      "sha256": "27bf967bfdba961109ce6ed9c0f5363cbba9b1c0f7c431d88e8721ae6ba8de11",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-citation-notation-and-gauge-pre-header-md"
+    },
+    {
+      "bytes": 6470,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-doctrine-notation-as-cipher-cipher-as-notation-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI Doctrine -- Notation as Cipher, Cipher as Notation.md",
+      "sha256": "e2d3674b7a3f97f74c2d404b4d04ea505e8cde165dba19ede750dd3b8c7462e4",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-doctrine-notation-as-cipher-cipher-as-notation-md"
+    },
+    {
+      "bytes": 13991,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-gauge-header-and-orbit-authority-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI Gauge Header and Orbit Authority.md",
+      "sha256": "aa5536ecc5ef05d2aaf4c0de48811ea663c182917a7dbfd17fd18db98d5f4186",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-gauge-header-and-orbit-authority-md"
+    },
+    {
+      "bytes": 14558,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-gauge-pre-header-authority-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI Gauge Pre-Header Authority.md",
+      "sha256": "38d7d66117bf21f9dfe215dc1c2bf0dd73493febcd4a8c2824fb2a0a94c71972",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-gauge-pre-header-authority-md"
+    },
+    {
+      "bytes": 14634,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-jab-code-carrier-actual-spec-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI JAB Code Carrier: Actual Spec.md",
+      "sha256": "98a8ae77f07abbef6cd3af2a5ad7a335dc278fc79ee9340cd71815746d3b696f",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-jab-code-carrier-actual-spec-md"
+    },
+    {
+      "bytes": 8212,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-notation-citations-are-not-identified-by-hashes-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI Notation Citations Are Not Identified By Hashes.md",
+      "sha256": "6abc6a8acb1e5906ff48c66a5acefb901d59217cdeff794ea546737a505d7f70",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-notation-citations-are-not-identified-by-hashes-md"
+    },
+    {
+      "bytes": 15331,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-notation-as-citation-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI Notation as Citation.md",
+      "sha256": "fc91b502c4befe75fb3d543a146a9e4ca0d5f398cbc5425983e16712e4590f3a",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-notation-as-citation-md"
+    },
+    {
+      "bytes": 12533,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-pre-language-control-envelope-authority-replacing-ll-mm-nn-with-fs-gs-rs-us-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI Pre-Language Control Envelope Authority - Replacing LL-MM-NN with FS-GS-RS-US.md",
+      "sha256": "e5367ee776fb60602cb36f7111adbe587842e3fb397f0f8eed95f9182b7d8a91",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-pre-language-control-envelope-authority-replacing-ll-mm-nn-with-fs-gs-rs-us-md"
+    },
+    {
+      "bytes": 19904,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-protocol-write-up-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI Protocol Write-Up.md",
+      "sha256": "86ebf608ce2d9ecf3bd71e374a2e09ee899eef375523c092761e8ce2cf37eac5",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-protocol-write-up-md"
+    },
+    {
+      "bytes": 8107,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-standardizes-the-512-bit-relational-access-envelope-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI Standardizes the 512-Bit Relational Access Envelope.md",
+      "sha256": "c25a74c69fd70bb08e6ddab1475744f7f21b35454eb79b8204127220072661bc",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-standardizes-the-512-bit-relational-access-envelope-md"
+    },
+    {
+      "bytes": 16927,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-version-control-from-place-value-notation-betti-schlafli-interpretation-and-seed-objects-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI Version Control from Place-Value Notation, Betti-Schlafli Interpretation, and Seed Objects.md",
+      "sha256": "8d102d7711b85e0c1568f3f32adab46190ad3e29b0ff797a61933b07f7352d90",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-version-control-from-place-value-notation-betti-schlafli-interpretation-and-seed-objects-md"
+    },
+    {
+      "bytes": 22585,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-as-a-new-paradigm-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI as a New Paradigm.md",
+      "sha256": "78ec6f6eb7a66a1a6051e12f6c89849cf8c11f4572276e8110169228366896bd",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-as-a-new-paradigm-md"
+    },
+    {
+      "bytes": 20968,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-as-a-pseudo-persistent-open-world-model-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI as a Pseudo-Persistent Open World Model.md",
+      "sha256": "4c94b13a04e724f94d9cc7151940e6941dc06d71b02718caa61a63d12ee72ff9",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-as-a-pseudo-persistent-open-world-model-md"
+    },
+    {
+      "bytes": 10627,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-emmc-boot-target-example-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI eMMC Boot Target Example.md",
+      "sha256": "71dd4722d59886870421a0ceb73e2de2cb1592066a870083b5d0e2f44bc07b54",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-emmc-boot-target-example-md"
+    },
+    {
+      "bytes": 9841,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-emmc-target-as-tetrahedral-centroid-memory-model-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI eMMC Target as Tetrahedral Centroid Memory Model.md",
+      "sha256": "d7037ce75db76cab7fc0442d0532f7cd055f769392c301b8289175408d464600",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-emmc-target-as-tetrahedral-centroid-memory-model-md"
+    },
+    {
+      "bytes": 45726,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-lisp-complete-specification-md.omilisp",
+      "relative_path": "dev-docs/archive/OMI-Lisp_Complete_Specification.md",
+      "sha256": "841fecf69ef3be40791c71fd49184940287fd56f5820c8c586f75308eaa69678",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-lisp-complete-specification-md"
+    },
+    {
+      "bytes": 3883,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-ring-as-addressed-notation-witness-md.omilisp",
+      "relative_path": "dev-docs/archive/Omi-Ring as Addressed Notation Witness.md",
+      "sha256": "e6ec5ee69ae30c26fe6dd83ac922d9d0d2b218b4d56d57192520683a51e37f14",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-ring-as-addressed-notation-witness-md"
+    },
+    {
+      "bytes": 16703,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-projective-space-as-pure-incidence-hypergraph-md.omilisp",
+      "relative_path": "dev-docs/archive/Projective Space as Pure Incidence Hypergraph.md",
+      "sha256": "59d0eb20a6153b71de64d72d0c44433369caafafd457c6121ed8bb8bb0f318a3",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-projective-space-as-pure-incidence-hypergraph-md"
+    },
+    {
+      "bytes": 16162,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-reasoning-behind-the-omi-protocol-md.omilisp",
+      "relative_path": "dev-docs/archive/Reasoning Behind the OMI Protocol.md",
+      "sha256": "3c968a4eef2eba2aebfada0c7d67620893b44e79a71ac00b7229bfb063ac2e35",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-reasoning-behind-the-omi-protocol-md"
+    },
+    {
+      "bytes": 34290,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-the-doctrine-of-determinism-md.omilisp",
+      "relative_path": "dev-docs/archive/The Doctrine of Determinism.md",
+      "sha256": "cdb43249b5cc5ae6913f077bc7c244f715198b8b481f01a2064e18a7ce7ab1b3",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-the-doctrine-of-determinism-md"
+    },
+    {
+      "bytes": 19584,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-the-omi-uniform-bitboard-md.omilisp",
+      "relative_path": "dev-docs/archive/The OMI Uniform Bitboard.md",
+      "sha256": "3b99378752c153e4ae1a5f9585b39064846c7252effdcd4fd73e02dddc1d2b94",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-the-omi-uniform-bitboard-md"
+    },
+    {
+      "bytes": 5998,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-the-three-axes-of-canonical-progression-md.omilisp",
+      "relative_path": "dev-docs/archive/The Three Axes of Canonical Progression.md",
+      "sha256": "b09d78217fb6919dc6e99aa7bffaf9ac740424eb0194197d6b6a3637c8401786",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-the-three-axes-of-canonical-progression-md"
+    },
+    {
+      "bytes": 21821,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-the-uniform-bitboard-pre-language-omi-lisp-and-pseudo-persistent-open-world-substrate-md.omilisp",
+      "relative_path": "dev-docs/archive/The Uniform Bitboard, Pre-Language, OMI-Lisp, and Pseudo-Persistent Open World Substrate.md",
+      "sha256": "58885594f787c6e0ef325ce8b87906107755becb5ad015ea39182340e0201295",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-the-uniform-bitboard-pre-language-omi-lisp-and-pseudo-persistent-open-world-substrate-md"
+    },
+    {
+      "bytes": 2414857,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-chat-history-2026-06-12-branch-branch-branch-omi-agreement-overview-md.omilisp",
+      "relative_path": "dev-docs/archive/chat-history/2026-06-12-Branch_\u00b7_Branch_\u00b7_Branch_\u00b7_OMI_Agreement_Overview.md",
+      "sha256": "4f20fb231a6595dd5a6badaf935cb70049df37878a75f37b4edf26132aa70764",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-chat-history-2026-06-12-branch-branch-branch-omi-agreement-overview-md"
+    },
+    {
+      "bytes": 2429997,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-chat-history-2026-06-12-branch-branch-omi-agreement-overview-md.omilisp",
+      "relative_path": "dev-docs/archive/chat-history/2026-06-12-Branch_\u00b7_Branch_\u00b7_OMI_Agreement_Overview.md",
+      "sha256": "5ce015dc3b5d1ea562312956364c140331cad53fe150ad63edb4a2311a992b2f",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-chat-history-2026-06-12-branch-branch-omi-agreement-overview-md"
+    },
+    {
+      "bytes": 2781297,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-chat-history-2026-06-24-branch-branch-omi-agreement-overview-md.omilisp",
+      "relative_path": "dev-docs/archive/chat-history/2026-06-24-Branch_\u00b7_Branch_\u00b7_OMI_Agreement_Overview.md",
+      "sha256": "22818de559ce2870ce8a938af61447783e761f28d18e0c545858e9c1a619c8f0",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-chat-history-2026-06-24-branch-branch-omi-agreement-overview-md"
+    },
+    {
+      "bytes": 3206611,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-chat-history-2026-06-28-branch-branch-branch-omi-agreement-overview-md.omilisp",
+      "relative_path": "dev-docs/archive/chat-history/2026-06-28-Branch_\u00b7_Branch_\u00b7_Branch_\u00b7_OMI_Agreement_Overview.md",
+      "sha256": "67e165bd01500d4fba034abe2a8aa62dff473604f512a44ccabfe97dbebff256",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-chat-history-2026-06-28-branch-branch-branch-omi-agreement-overview-md"
+    },
+    {
+      "bytes": 1255273,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-chat-history-2026-06-28-project-architecture-check-md.omilisp",
+      "relative_path": "dev-docs/archive/chat-history/2026-06-28-Project_Architecture_Check.md",
+      "sha256": "a43fbc31c84bc8dc7c9677ec9915c2f28786b8a7039c22ca90d5f2b2eeb419ce",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-chat-history-2026-06-28-project-architecture-check-md"
+    },
+    {
+      "bytes": 4193,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-light-garden-light-garden-physical-transducer-profile-md.omilisp",
+      "relative_path": "dev-docs/archive/light-garden/Light Garden Physical Transducer Profile.md",
+      "sha256": "816c72ccef0ea8a9267f02da800db5e370be47cfddc52aa515e0260357034ca7",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-light-garden-light-garden-physical-transducer-profile-md"
+    },
+    {
+      "bytes": 14254,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-light-garden-light-garden-protocol-adapter-specification-md.omilisp",
+      "relative_path": "dev-docs/archive/light-garden/Light Garden Protocol Adapter Specification.md",
+      "sha256": "efbd4051cbc1fcebd25c8d6d000ed14f5110d6a6466986f5a6374b5f7e2438cc",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-light-garden-light-garden-protocol-adapter-specification-md"
+    },
+    {
+      "bytes": 14455629,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-archive-light-garden-light-garden-protocol-pdf.omilisp",
+      "relative_path": "dev-docs/archive/light-garden/Light_Garden_Protocol.pdf",
+      "sha256": "e9ba13b9509b1a47e53ba8fc7bad3907e10a0eac2d3f31255c8e1ba72a5df7f9",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-light-garden-light-garden-protocol-pdf"
+    },
+    {
+      "bytes": 40111,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-light-garden-from-chat-history-md.omilisp",
+      "relative_path": "dev-docs/archive/light-garden/from chat history.md",
+      "sha256": "25fcbfd0c729c2be950bb9c42cc97810c70fb8a9eeed96433fa038492f4c1f97",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-light-garden-from-chat-history-md"
+    },
+    {
+      "bytes": 4783,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-user-space-cons-of-cidr-addressing-4-1-ipv6-frame-mapping-md.omilisp",
+      "relative_path": "dev-docs/archive/omi user-space cons of cidr addressing /4.1_IPv6_FRAME_MAPPING.md",
+      "sha256": "fde20f2c7728237d11fb7ef9b99e78693d1e215efdf23f1b2bcd9cbbb546db13",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-4-1-ipv6-frame-mapping-md"
+    },
+    {
+      "bytes": 1428,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-user-space-cons-of-cidr-addressing-8-3-light-sound-and-frame-reference-md.omilisp",
+      "relative_path": "dev-docs/archive/omi user-space cons of cidr addressing /8.3_LIGHT_SOUND_AND_FRAME_REFERENCE.md",
+      "sha256": "ac8fa3c6374000321954156365e60b6bf8a6ad9032ebf186a33b7704bcda2def",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-8-3-light-sound-and-frame-reference-md"
+    },
+    {
+      "bytes": 9640,
+      "extension": ".txt",
+      "family": "document",
+      "output": "dev-docs-archive-omi-user-space-cons-of-cidr-addressing-carrier-projection-layer-for-ll-mm-nn-txt.omilisp",
+      "relative_path": "dev-docs/archive/omi user-space cons of cidr addressing /Carrier Projection Layer for ll-mm-nn.txt",
+      "sha256": "44c55c22426cee129f1dc79a7d4d0d1d4f9f5ad99460618b2eb07350ee8c878a",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-carrier-projection-layer-for-ll-mm-nn-txt"
+    },
+    {
+      "bytes": 6945,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-user-space-cons-of-cidr-addressing-chat-conversation-of-bulid-md.omilisp",
+      "relative_path": "dev-docs/archive/omi user-space cons of cidr addressing /Chat Conversation Of Bulid.md",
+      "sha256": "6cf438958afc970b9448335cf34f124d878314978d032c30f11ed6a3dd19157b",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-chat-conversation-of-bulid-md"
+    },
+    {
+      "bytes": 16928,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-user-space-cons-of-cidr-addressing-monotone-causal-reed-solomon-gossip-storage-protocol-mcrsgsp-md.omilisp",
+      "relative_path": "dev-docs/archive/omi user-space cons of cidr addressing /Monotone Causal Reed\u2013Solomon Gossip Storage Protocol (MCRSGSP).md",
+      "sha256": "43a00ad2d5acee6f06c9065fbdeaacba01a57b230b78882638ef3e52f18cb827",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-monotone-causal-reed-solomon-gossip-storage-protocol-mcrsgsp-md"
+    },
+    {
+      "bytes": 23588,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omi-addressing-and-the-factorial-tower-md.omilisp",
+      "relative_path": "dev-docs/archive/omi user-space cons of cidr addressing /OMI Addressing and the Factorial Tower.md",
+      "sha256": "57d3abcbcd13db273efd469bb81259e07ccd8b388f41d569ef880a8ca4d659ca",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omi-addressing-and-the-factorial-tower-md"
+    },
+    {
+      "bytes": 8753,
+      "extension": ".txt",
+      "family": "document",
+      "output": "dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omi-manifesto-txt.omilisp",
+      "relative_path": "dev-docs/archive/omi user-space cons of cidr addressing /OMI Manifesto.txt",
+      "sha256": "5dfda82f346f35b93a44a465c4915457f7ed9377baa2deb8f127a311c6b5058b",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omi-manifesto-txt"
+    },
+    {
+      "bytes": 19873,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omicron-omi-log-cidr-dialect-spec-md.omilisp",
+      "relative_path": "dev-docs/archive/omi user-space cons of cidr addressing /OMICRON_OMI-LOG_CIDR_DIALECT_SPEC.md",
+      "sha256": "c5ffa2a4fcee6ec5cad3efd3b0a7f68c09387df9d55f2028e816b9151c16f5d3",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omicron-omi-log-cidr-dialect-spec-md"
+    },
+    {
+      "bytes": 17268,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omi-address-derivation-protocol-md.omilisp",
+      "relative_path": "dev-docs/archive/omi user-space cons of cidr addressing /OMI_ADDRESS_DERIVATION_PROTOCOL.md",
+      "sha256": "d6cb01a9f5650bd2e0f0b7b959311e68feca51ec9d127e98a5abc87429c45df7",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omi-address-derivation-protocol-md"
+    },
+    {
+      "bytes": 20054,
+      "extension": ".txt",
+      "family": "document",
+      "output": "dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omi-log-specification-o-expressions-txt-txt.omilisp",
+      "relative_path": "dev-docs/archive/omi user-space cons of cidr addressing /Omi-Log Specification - O-Expressions.txt.txt",
+      "sha256": "48e210b5ddc38a5aa4ac2a17015f331cbae74c9ceadffa24453c07653d3a2573",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omi-log-specification-o-expressions-txt-txt"
+    },
+    {
+      "bytes": 10094,
+      "extension": ".txt",
+      "family": "document",
+      "output": "dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omi-ring-conceptual-framework-txt.omilisp",
+      "relative_path": "dev-docs/archive/omi user-space cons of cidr addressing /Omi-Ring Conceptual Framework.txt",
+      "sha256": "d053f0a61bed535bfe3fa0d0e2100079a93fbd1d2881d7ec41b5e9d617897e26",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omi-ring-conceptual-framework-txt"
+    },
+    {
+      "bytes": 18025,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omicron-cidr-cons-first-principles-md.omilisp",
+      "relative_path": "dev-docs/archive/omi user-space cons of cidr addressing /Omicron Cidr Cons First Principles.md",
+      "sha256": "2450fcc55653fed90f9f6d1379ea303e67399c2e1c8576dfdacafec183471424",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-omicron-cidr-cons-first-principles-md"
+    },
+    {
+      "bytes": 74503,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-archive-omi-user-space-cons-of-cidr-addressing-zero-dependency-browser-omi-pdf.omilisp",
+      "relative_path": "dev-docs/archive/omi user-space cons of cidr addressing /Zero-Dependency Browser OMI.pdf",
+      "sha256": "e357bbf3654bf865b9ba01a96a58d122799ef755ea3ee9ba4ccc309d690fac11",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-zero-dependency-browser-omi-pdf"
+    },
+    {
+      "bytes": 2494,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omicron-project-files-agents-md.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/AGENTS.md",
+      "sha256": "e15de155c54a1e3f9686e7781fb8d7115940667fbfaf70149abed5e42ca9c5a5",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-agents-md"
+    },
+    {
+      "bytes": 9794,
+      "extension": ".org",
+      "family": "declaration",
+      "output": "dev-docs-archive-omicron-project-files-agents-md-org.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/AGENTS.md.org",
+      "sha256": "c0c0849501d97b483654f4efec67b615068f858f9e32f38feef310e37c8826d2",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-agents-md-org"
+    },
+    {
+      "bytes": 14943,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "dev-docs-archive-omicron-project-files-makefile.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/Makefile",
+      "sha256": "56990e1124002f010e4cd0578035e4630e8f10f1d5c2d7d55f577bf91bdf3916",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-makefile"
+    },
+    {
+      "bytes": 3572,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omicron-project-files-readme-md.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/README.md",
+      "sha256": "806a9a0a0851e1ee9adda0a9b35e410ee3d50235252b6835dc5b70e2824d6518",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-readme-md"
+    },
+    {
+      "bytes": 88,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omicron-project-files-universal-life-protocol-md.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/Universal Life Protocol.md",
+      "sha256": "a55f0a05afebb10660000edf546dfc7682c604ddedba6f530a8db5c6f5fafffa",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-universal-life-protocol-md"
+    },
+    {
+      "bytes": 33224,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omicron-project-files-untitled-1-md.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/Untitled 1.md",
+      "sha256": "aec009cf2534fdf04a3efa4b7055a3b072dab30b7832d3d1a868a81abe84f69c",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-untitled-1-md"
+    },
+    {
+      "bytes": 24769,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omicron-project-files-untitled-3-md.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/Untitled 3.md",
+      "sha256": "9c3571deebd8976c1979ab0a7596f59cdec013461532e3420dfaf3d5ec521c80",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-untitled-3-md"
+    },
+    {
+      "bytes": 29261,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omicron-project-files-untitled-4-md.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/Untitled 4.md",
+      "sha256": "90ac011c0a9af63d8e1a7c86e96e803d6c79e1da5f12836d8e4e99ec0a4406fb",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-untitled-4-md"
+    },
+    {
+      "bytes": 24114,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omicron-project-files-untitled-5-md.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/Untitled 5.md",
+      "sha256": "0a243e148cfe395cb73f77976d7e5d66d43a67cef1fe46e29f2f88a1e3476798",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-untitled-5-md"
+    },
+    {
+      "bytes": 4719,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-archive-omicron-project-files-untitled-md.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/Untitled.md",
+      "sha256": "d88ee8043815158198139ec7c3a40b11faf0067a4df415d8b217ed75cedd6360",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-untitled-md"
+    },
+    {
+      "bytes": 2690,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "dev-docs-archive-omicron-project-files-images-1-png.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/images (1).png",
+      "sha256": "55080c05ff8ecfb239a7ef7c893db0b8dde2579d2138027873e5047c45e76d1e",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-images-1-png"
+    },
+    {
+      "bytes": 14238,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "dev-docs-archive-omicron-project-files-images-2-png.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/images (2).png",
+      "sha256": "a4f9c8e5029737a3385373d8f512c9b8e88ffb9ee70a3d54080b4caa2a73d86a",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-images-2-png"
+    },
+    {
+      "bytes": 10515,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "dev-docs-archive-omicron-project-files-images-png.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/images.png",
+      "sha256": "70d22e41cfec4b37dab2e613753a2f6459e9900fcf9929cb499ccf0abea9e840",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-images-png"
+    },
+    {
+      "bytes": 1574,
+      "extension": ".org",
+      "family": "declaration",
+      "output": "dev-docs-archive-omicron-project-files-index-org.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/index.org",
+      "sha256": "30218e6759c4375f3acdbb572410edd2725f535ce13dbf6739db2e113dc54969",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-index-org"
+    },
+    {
+      "bytes": 38504,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "dev-docs-archive-omicron-project-files-logic-interp.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/logic-interp",
+      "sha256": "5aadd0fdfb484180d3b5a069ad699a789c81444d9d0906e92006a57a513f42f6",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-logic-interp"
+    },
+    {
+      "bytes": 47542,
+      "extension": ".c",
+      "family": "code",
+      "output": "dev-docs-archive-omicron-project-files-logic-interp-c.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/logic-interp.c",
+      "sha256": "94f44fe4f694618f31cdfa9bada89faf15ea7b9fd676f934f9c8930765257eb3",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-logic-interp-c"
+    },
+    {
+      "bytes": 21848,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "dev-docs-archive-omicron-project-files-omnicron-viewer.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/omnicron_viewer",
+      "sha256": "507af991801fba76978ae68e4628715815b30aa0848bebc823a557211ac4ca49",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-omnicron-viewer"
+    },
+    {
+      "bytes": 29480,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "dev-docs-archive-omicron-project-files-pair-machine.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/pair-machine",
+      "sha256": "9959e94e9387b860754a87884fd458b58a414ca62b4e60b3d56865afa0bacf45",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-pair-machine"
+    },
+    {
+      "bytes": 30679,
+      "extension": ".c",
+      "family": "code",
+      "output": "dev-docs-archive-omicron-project-files-pair-machine-c.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/pair-machine.c",
+      "sha256": "376318f1d8761678ac8f213103f5984004ef6f8bab34d53073dbdb8815a962c8",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-pair-machine-c"
+    },
+    {
+      "bytes": 44208,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "dev-docs-archive-omicron-project-files-polylog.omilisp",
+      "relative_path": "dev-docs/archive/omicron-project-files/polylog",
+      "sha256": "1695ec2658c79a689f558a76e8605a049cbda76aafd838ddb4c2327d8ba9f4d9",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-polylog"
+    },
+    {
+      "bytes": 7482,
+      "extension": ".js",
+      "family": "code",
+      "output": "dev-docs-archive-viewer-geometry-decoder-js.omilisp",
+      "relative_path": "dev-docs/archive/viewer/geometry-decoder.js",
+      "sha256": "831518d452d4e61c820cb1d661ff5e922825aae43bf13321c58f8e265d44dcbe",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-viewer-geometry-decoder-js"
+    },
+    {
+      "bytes": 85171,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "dev-docs-archive-viewer-index-html.omilisp",
+      "relative_path": "dev-docs/archive/viewer/index.html",
+      "sha256": "4f97d3ab630264291fbcda367f53be2c4c8bef15994d2d14cc6fd123954d6a99",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-viewer-index-html"
+    },
+    {
+      "bytes": 10120,
+      "extension": ".js",
+      "family": "code",
+      "output": "dev-docs-archive-viewer-public-device-inspector-js.omilisp",
+      "relative_path": "dev-docs/archive/viewer/public/device-inspector.js",
+      "sha256": "34b6ce57e5e99d5af21cca8b730fb8d7c80cfc9e9143d608e04fd857c13ac466",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-viewer-public-device-inspector-js"
+    },
+    {
+      "bytes": 7632,
+      "extension": ".js",
+      "family": "code",
+      "output": "dev-docs-archive-viewer-public-flasher-js.omilisp",
+      "relative_path": "dev-docs/archive/viewer/public/flasher.js",
+      "sha256": "f8139c3a4108b65ed2ad0dd2b814a8156e59667b3d64cccb6e491456b77d931b",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-viewer-public-flasher-js"
+    },
+    {
+      "bytes": 2364,
+      "extension": ".js",
+      "family": "code",
+      "output": "dev-docs-archive-viewer-public-gnomonic-surface-js.omilisp",
+      "relative_path": "dev-docs/archive/viewer/public/gnomonic-surface.js",
+      "sha256": "fb15e5301bfa6e4536dc0379a64c6ce2a43cb571193aa8d3bfbd1cfad985508a",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-viewer-public-gnomonic-surface-js"
+    },
+    {
+      "bytes": 8545,
+      "extension": ".js",
+      "family": "code",
+      "output": "dev-docs-archive-viewer-public-jabcode-carrier-js.omilisp",
+      "relative_path": "dev-docs/archive/viewer/public/jabcode-carrier.js",
+      "sha256": "2fa7c227ea317ce7da880857cba183a1b474d1408b0815a47636687310c2fcad",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-viewer-public-jabcode-carrier-js"
+    },
+    {
+      "bytes": 10540,
+      "extension": ".js",
+      "family": "code",
+      "output": "dev-docs-archive-viewer-public-receipt-surface-cascade-js.omilisp",
+      "relative_path": "dev-docs/archive/viewer/public/receipt-surface-cascade.js",
+      "sha256": "14e597c7b2833c7a880535066ca90ddd8ad60e7f330018e9dbc91b7d215b81e3",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-viewer-public-receipt-surface-cascade-js"
+    },
+    {
+      "bytes": 8236,
+      "extension": ".js",
+      "family": "code",
+      "output": "dev-docs-archive-viewer-public-web-serial-js.omilisp",
+      "relative_path": "dev-docs/archive/viewer/public/web-serial.js",
+      "sha256": "1030b3f6b57901103e47fbec4370082669e2a36748c8fe6fb22abd277602b710",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-viewer-public-web-serial-js"
+    },
+    {
+      "bytes": 2731,
+      "extension": ".js",
+      "family": "code",
+      "output": "dev-docs-archive-viewer-ring-loader-js.omilisp",
+      "relative_path": "dev-docs/archive/viewer/ring-loader.js",
+      "sha256": "22278c598363733ccb2a2ef3bbf955f0ea6c3c43d81ea0bdd05a76b29546fe85",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-viewer-ring-loader-js"
+    },
+    {
+      "bytes": 24516,
+      "extension": ".js",
+      "family": "code",
+      "output": "dev-docs-archive-viewer-twin-viewer-js.omilisp",
+      "relative_path": "dev-docs/archive/viewer/twin-viewer.js",
+      "sha256": "205e762ba81f1049f0d829207961d9049c7b08963537ad679c7c40ba8deca7a7",
+      "sid": "omi-tetragrammatron-port.dev-docs-archive-viewer-twin-viewer-js"
+    },
+    {
+      "bytes": 18526,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-adapters-md.omilisp",
+      "relative_path": "dev-docs/depreciated/ADAPTERS.md",
+      "sha256": "6bd1de35af7ed73f4f82bbffa9fd9c4b7b871e66e63e79176dfc1008da049d73",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-adapters-md"
+    },
+    {
+      "bytes": 16321,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-agents-md.omilisp",
+      "relative_path": "dev-docs/depreciated/AGENTS.md",
+      "sha256": "c8fc8ebd2f3758978fc7cbd30ce468aaee2ab4f96614754e593727d2be0c1b22",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-agents-md"
+    },
+    {
+      "bytes": 25703,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-clippings-md.omilisp",
+      "relative_path": "dev-docs/depreciated/Clippings.md",
+      "sha256": "adfaf0412a1d311a95a453732b288a5bfbdea49ba4b69c59e3e3466f18020e0f",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-clippings-md"
+    },
+    {
+      "bytes": 44091,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-master-header-omi-h-hardened-implementation-md.omilisp",
+      "relative_path": "dev-docs/depreciated/Master Header - (omi.h) - Hardened Implementation.md",
+      "sha256": "c5d5ddfbc135bbc99e2994d3e8c19b2b22bfbc25e6f1954d13b7d55bfa599513",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-master-header-omi-h-hardened-implementation-md"
+    },
+    {
+      "bytes": 41434,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-metatron-scribe-md.omilisp",
+      "relative_path": "dev-docs/depreciated/Metatron Scribe.md",
+      "sha256": "a04a148746de6e986540c78b2d9117238af223919869b184f2e66716c1afeb1c",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-metatron-scribe-md"
+    },
+    {
+      "bytes": 28889,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-normative-errata-md.omilisp",
+      "relative_path": "dev-docs/depreciated/Normative Errata.md",
+      "sha256": "9cf424ee14eb36edad43995a0f82ad077192ee8ee8663c53063b0a6628562f0d",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-normative-errata-md"
+    },
+    {
+      "bytes": 26529,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-omi-glossary-md.omilisp",
+      "relative_path": "dev-docs/depreciated/OMI-GLOSSARY.md",
+      "sha256": "2155036f3b7bd69b10730b69d1347148914d98e6d35baad0e77d1e22c05a67d7",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-omi-glossary-md"
+    },
+    {
+      "bytes": 65321,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-omi-modules-md.omilisp",
+      "relative_path": "dev-docs/depreciated/OMI-MODULES.md",
+      "sha256": "41b26186f2dc0195c761a1d98285a64a6f80e8c1ff0b7db2e6ac1d6a476d8fde",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-omi-modules-md"
+    },
+    {
+      "bytes": 24886,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-repo-md-first-draft-md.omilisp",
+      "relative_path": "dev-docs/depreciated/REPO.md - First Draft.md",
+      "sha256": "2223fe276c3634efcef191b150d8e6fa7b259e1d6568fe637dbd8eade39f4458",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-repo-md-first-draft-md"
+    },
+    {
+      "bytes": 30054,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-repo-md-omi-request-for-collaboration-and-role-repo-based-access-control-md.omilisp",
+      "relative_path": "dev-docs/depreciated/REPO.md - OMI Request for Collaboration and Role-Repo Based Access Control.md",
+      "sha256": "48e13cc95c1acd33a07aca747d6ed01d4e48d4e58128eb8924b197b3bb086a78",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-repo-md-omi-request-for-collaboration-and-role-repo-based-access-control-md"
+    },
+    {
+      "bytes": 9032,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-repo-md-addendum-bootstrapping-an-omi-compatible-llm-agent-md.omilisp",
+      "relative_path": "dev-docs/depreciated/REPO.md Addendum - Bootstrapping an OMI-Compatible LLM Agent.md",
+      "sha256": "045d3cbca47e12977d07067f2357f041718e32802330ef3d996de7925ce624c8",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-repo-md-addendum-bootstrapping-an-omi-compatible-llm-agent-md"
+    },
+    {
+      "bytes": 20538,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-repo-md-addendum-emergent-p2p-and-multimedia-use-cases-for-omi-md.omilisp",
+      "relative_path": "dev-docs/depreciated/REPO.md Addendum - Emergent P2P and Multimedia Use Cases for OMI.md",
+      "sha256": "c178ec2e74288aa9ebcac2653c143da8d73519c424e08c12e18f837ae0d5e136",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-repo-md-addendum-emergent-p2p-and-multimedia-use-cases-for-omi-md"
+    },
+    {
+      "bytes": 80574,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-reference-final-implementation-complete-files-md.omilisp",
+      "relative_path": "dev-docs/depreciated/Reference-Final Implementation - Complete Files.md",
+      "sha256": "5bc79d575b9cf7c670034d5841e2f7dc95ca1a0563a43df835a05226aa76c3d7",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-reference-final-implementation-complete-files-md"
+    },
+    {
+      "bytes": 17106,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-skills-md.omilisp",
+      "relative_path": "dev-docs/depreciated/SKILLS.md",
+      "sha256": "ba7f3789a680f2fb3f63df4187d06918d70c8cd2834bfc779fb8316cba08192f",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-skills-md"
+    },
+    {
+      "bytes": 3121,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-depreciated-depreciation-log-md.omilisp",
+      "relative_path": "dev-docs/depreciated/_DEPRECIATION_LOG.md",
+      "sha256": "42a7a25fa6b3e9a04a998251e0913f29af1c1cbd10fafe48bb1cf079ebe2bfab",
+      "sid": "omi-tetragrammatron-port.dev-docs-depreciated-depreciation-log-md"
+    },
+    {
+      "bytes": 16930738,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-temp-deterministic-incidence-geometry-pdf.omilisp",
+      "relative_path": "dev-docs/temp/Deterministic_Incidence_Geometry.pdf",
+      "sha256": "9381a0027f0098b3e66b501e24337be013f7b7abcbb77179823b86b02492c1d1",
+      "sid": "omi-tetragrammatron-port.dev-docs-temp-deterministic-incidence-geometry-pdf"
+    },
+    {
+      "bytes": 17281706,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-temp-geometric-ledger-pdf.omilisp",
+      "relative_path": "dev-docs/temp/Geometric_Ledger.pdf",
+      "sha256": "0cfa43b3bb000b76db5dda29a4159d6b8fcd0df8e68cedc81bd616430de7a07e",
+      "sid": "omi-tetragrammatron-port.dev-docs-temp-geometric-ledger-pdf"
+    },
+    {
+      "bytes": 17068287,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-temp-notation-as-citation-pdf.omilisp",
+      "relative_path": "dev-docs/temp/Notation_as_Citation.pdf",
+      "sha256": "461cc3197377d11c038c6f691924784ad73708308f880a6990a7bc1f383ffd4c",
+      "sid": "omi-tetragrammatron-port.dev-docs-temp-notation-as-citation-pdf"
+    },
+    {
+      "bytes": 18768478,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-temp-omi-protocol-pdf.omilisp",
+      "relative_path": "dev-docs/temp/OMI_Protocol.pdf",
+      "sha256": "852a07d2714d95a9f0a8547ce843ede816c2f5c0bf1aad205ec00404eef37153",
+      "sid": "omi-tetragrammatron-port.dev-docs-temp-omi-protocol-pdf"
+    },
+    {
+      "bytes": 20626050,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-temp-projective-blueprint-pdf.omilisp",
+      "relative_path": "dev-docs/temp/Projective_Blueprint.pdf",
+      "sha256": "8a8640d39546efa26aba499269e17bbcfbebfef786bfcf5dcfe84cad7a0eb293",
+      "sid": "omi-tetragrammatron-port.dev-docs-temp-projective-blueprint-pdf"
+    },
+    {
+      "bytes": 13567771,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "dev-docs-temp-shadows-of-incidence-pdf.omilisp",
+      "relative_path": "dev-docs/temp/Shadows_of_Incidence.pdf",
+      "sha256": "ba9a428a1aca33a6c3b2c5044532616c65e51c96453bccc6ca530d2d17431f35",
+      "sid": "omi-tetragrammatron-port.dev-docs-temp-shadows-of-incidence-pdf"
+    },
+    {
+      "bytes": 2063,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-constants-as-projection-witnesses-md.omilisp",
+      "relative_path": "docs/Constants as Projection Witnesses.md",
+      "sha256": "7b126308194dc21023a4ff798f4ccf919dac2a327deaecd9d6c580a65a4ca6e8",
+      "sid": "omi-tetragrammatron-port.docs-constants-as-projection-witnesses-md"
+    },
+    {
+      "bytes": 26529,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-omi-glossary-md.omilisp",
+      "relative_path": "docs/Omi Glossary.md",
+      "sha256": "2155036f3b7bd69b10730b69d1347148914d98e6d35baad0e77d1e22c05a67d7",
+      "sid": "omi-tetragrammatron-port.docs-omi-glossary-md"
+    },
+    {
+      "bytes": 7544,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-omi-surface-projection-faces-md.omilisp",
+      "relative_path": "docs/Omi Surface Projection Faces.md",
+      "sha256": "4517dfd78959442bae61ceebefaa1f777d77d32aaaeb5922c92d58b94a599efd",
+      "sid": "omi-tetragrammatron-port.docs-omi-surface-projection-faces-md"
+    },
+    {
+      "bytes": 36715,
+      "extension": ".txt",
+      "family": "document",
+      "output": "omi-pi-proof-v-txt.omilisp",
+      "relative_path": "omi_pi_proof.v.txt",
+      "sha256": "f67ffe49c5d62e020d47af63e63d1f6494f0221e2da7a52c01e93e85639dd622",
+      "sid": "omi-tetragrammatron-port.omi-pi-proof-v-txt"
+    },
+    {
+      "bytes": 14,
+      "extension": ".example",
+      "family": "artifact",
+      "output": "portal-env-example.omilisp",
+      "relative_path": "portal/.env.example",
+      "sha256": "59151994f6f15af607bb6f069918bb262dd0e2f2f010520a88e29c61ae5f3047",
+      "sid": "omi-tetragrammatron-port.portal-env-example"
+    },
+    {
+      "bytes": 2427,
+      "extension": ".md",
+      "family": "document",
+      "output": "portal-readme-md.omilisp",
+      "relative_path": "portal/README.md",
+      "sha256": "185925eeb85bf7a9f17ecd111ec3d1bba3a37df4acfa40a3e8b6cdefc76b918f",
+      "sid": "omi-tetragrammatron-port.portal-readme-md"
+    },
+    {
+      "bytes": 591,
+      "extension": ".js",
+      "family": "code",
+      "output": "portal-eslint-config-js.omilisp",
+      "relative_path": "portal/eslint.config.js",
+      "sha256": "cf80a7510234dcd5ae594b30b44682b8b45ba13c0fcb5bf8928bea143802aa1c",
+      "sid": "omi-tetragrammatron-port.portal-eslint-config-js"
+    },
+    {
+      "bytes": 369,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "portal-index-html.omilisp",
+      "relative_path": "portal/index.html",
+      "sha256": "662a5fb7b4e4aab8f19401248e7b4bcf164e3272549d5197b8023b92e002d488",
+      "sid": "omi-tetragrammatron-port.portal-index-html"
+    },
+    {
+      "bytes": 135508,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "portal-package-lock-json.omilisp",
+      "relative_path": "portal/package-lock.json",
+      "sha256": "31945eb52da8a014a0781c08fdd65fd3d6bb33b0ffc14d3d65602b499cec7202",
+      "sid": "omi-tetragrammatron-port.portal-package-lock-json"
+    },
+    {
+      "bytes": 876,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "portal-package-json.omilisp",
+      "relative_path": "portal/package.json",
+      "sha256": "b844d916cf3880852cd9af6f858b1271bd6faacfce74a1b410adcd8d4db7d4b1",
+      "sid": "omi-tetragrammatron-port.portal-package-json"
+    },
+    {
+      "bytes": 9522,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "portal-public-favicon-svg.omilisp",
+      "relative_path": "portal/public/favicon.svg",
+      "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66",
+      "sid": "omi-tetragrammatron-port.portal-public-favicon-svg"
+    },
+    {
+      "bytes": 5031,
+      "extension": ".svg",
+      "family": "carrier",
+      "output": "portal-public-icons-svg.omilisp",
+      "relative_path": "portal/public/icons.svg",
+      "sha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a",
+      "sid": "omi-tetragrammatron-port.portal-public-icons-svg"
+    },
+    {
+      "bytes": 3047,
+      "extension": ".css",
+      "family": "artifact",
+      "output": "portal-src-app-css.omilisp",
+      "relative_path": "portal/src/App.css",
+      "sha256": "df98b935b219f76990a961a09e1d12a499e09ebf671dfbf4f202d912a8ea9888",
+      "sid": "omi-tetragrammatron-port.portal-src-app-css"
+    },
+    {
+      "bytes": 6285,
+      "extension": ".tsx",
+      "family": "artifact",
+      "output": "portal-src-app-tsx.omilisp",
+      "relative_path": "portal/src/App.tsx",
+      "sha256": "1fed608b430ae47b009e0896a17b2167eb6266341fe5497a8a21d2fa64f837e2",
+      "sid": "omi-tetragrammatron-port.portal-src-app-tsx"
+    },
+    {
+      "bytes": 865,
+      "extension": ".css",
+      "family": "artifact",
+      "output": "portal-src-index-css.omilisp",
+      "relative_path": "portal/src/index.css",
+      "sha256": "caa76da46cae4638fad9203ef3221a9c7a2a9556a99f0cf451d6e2e31d02b789",
+      "sid": "omi-tetragrammatron-port.portal-src-index-css"
+    },
+    {
+      "bytes": 1071,
+      "extension": ".ts",
+      "family": "artifact",
+      "output": "portal-src-lib-gnomonicsurface-test-ts.omilisp",
+      "relative_path": "portal/src/lib/gnomonicSurface.test.ts",
+      "sha256": "a3941ac66c7968099d8f2f7d263d61fbc73fffecf58463a0b2da78de833c574f",
+      "sid": "omi-tetragrammatron-port.portal-src-lib-gnomonicsurface-test-ts"
+    },
+    {
+      "bytes": 1584,
+      "extension": ".ts",
+      "family": "artifact",
+      "output": "portal-src-lib-gnomonicsurface-ts.omilisp",
+      "relative_path": "portal/src/lib/gnomonicSurface.ts",
+      "sha256": "3b81df6742572cac8c9e991119c0fa96f1af5fd2fd78b2bd7c81b55338f3d49d",
+      "sid": "omi-tetragrammatron-port.portal-src-lib-gnomonicsurface-ts"
+    },
+    {
+      "bytes": 2487,
+      "extension": ".ts",
+      "family": "artifact",
+      "output": "portal-src-lib-jabcodecarrier-test-ts.omilisp",
+      "relative_path": "portal/src/lib/jabcodeCarrier.test.ts",
+      "sha256": "9419eb08e5556a11365dd53b0880019f4c750f6aae93ed5de552c48bcc0c678b",
+      "sid": "omi-tetragrammatron-port.portal-src-lib-jabcodecarrier-test-ts"
+    },
+    {
+      "bytes": 9750,
+      "extension": ".ts",
+      "family": "artifact",
+      "output": "portal-src-lib-jabcodecarrier-ts.omilisp",
+      "relative_path": "portal/src/lib/jabcodeCarrier.ts",
+      "sha256": "2515980278dd0078b2f9292cc48c4f8f83f30ca04ba8fac9d797f9bd02ac3584",
+      "sid": "omi-tetragrammatron-port.portal-src-lib-jabcodecarrier-ts"
+    },
+    {
+      "bytes": 1687,
+      "extension": ".ts",
+      "family": "artifact",
+      "output": "portal-src-lib-receiptsurfacecascade-test-ts.omilisp",
+      "relative_path": "portal/src/lib/receiptSurfaceCascade.test.ts",
+      "sha256": "6d2446756589f9bc711293766eecec094b7f0566010a17941e197867b38105ad",
+      "sid": "omi-tetragrammatron-port.portal-src-lib-receiptsurfacecascade-test-ts"
+    },
+    {
+      "bytes": 5696,
+      "extension": ".ts",
+      "family": "artifact",
+      "output": "portal-src-lib-receiptsurfacecascade-ts.omilisp",
+      "relative_path": "portal/src/lib/receiptSurfaceCascade.ts",
+      "sha256": "1efe7985869d97094bf5c1076cc92505b979fdbb636db0ee02267e5b9fef9298",
+      "sid": "omi-tetragrammatron-port.portal-src-lib-receiptsurfacecascade-ts"
+    },
+    {
+      "bytes": 230,
+      "extension": ".tsx",
+      "family": "artifact",
+      "output": "portal-src-main-tsx.omilisp",
+      "relative_path": "portal/src/main.tsx",
+      "sha256": "6e9e5807fcbd48b75a96db5cbef36c996262196be42e6d4760dc86babbe61ad2",
+      "sid": "omi-tetragrammatron-port.portal-src-main-tsx"
+    },
+    {
+      "bytes": 189,
+      "extension": ".ts",
+      "family": "artifact",
+      "output": "portal-src-vite-env-d-ts.omilisp",
+      "relative_path": "portal/src/vite-env.d.ts",
+      "sha256": "2f0a912276f1c6e9030edbd90dbebced4fc4eabc46daf5eb10fcd6390d140fd4",
+      "sid": "omi-tetragrammatron-port.portal-src-vite-env-d-ts"
+    },
+    {
+      "bytes": 617,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "portal-tsconfig-app-json.omilisp",
+      "relative_path": "portal/tsconfig.app.json",
+      "sha256": "b1eac9ba6cd1c01d59ebca159805e052c798d9d4ab904680b79ce3e306ea0bbd",
+      "sid": "omi-tetragrammatron-port.portal-tsconfig-app-json"
+    },
+    {
+      "bytes": 119,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "portal-tsconfig-json.omilisp",
+      "relative_path": "portal/tsconfig.json",
+      "sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808",
+      "sid": "omi-tetragrammatron-port.portal-tsconfig-json"
+    },
+    {
+      "bytes": 558,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "portal-tsconfig-node-json.omilisp",
+      "relative_path": "portal/tsconfig.node.json",
+      "sha256": "d366cc0827139db39c61815f22491bbfda56c654354a42ad7795143d314e45e8",
+      "sid": "omi-tetragrammatron-port.portal-tsconfig-node-json"
+    },
+    {
+      "bytes": 211,
+      "extension": ".ts",
+      "family": "artifact",
+      "output": "portal-vite-config-ts.omilisp",
+      "relative_path": "portal/vite.config.ts",
+      "sha256": "9db0ad4353a20d866fe0e504c22e98ec636c8fdcd487419a01662befbd6249fc",
+      "sid": "omi-tetragrammatron-port.portal-vite-config-ts"
+    },
+    {
+      "bytes": 1681,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "proof-phi-proof-aux.omilisp",
+      "relative_path": "proof/.phi_proof.aux",
+      "sha256": "3c75afe98e51131bea331282017cff7d7f4615a4ab40f5ef661946e1d729252a",
+      "sid": "omi-tetragrammatron-port.proof-phi-proof-aux"
+    },
+    {
+      "bytes": 36715,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "proof-omi-pi-proof-v.omilisp",
+      "relative_path": "proof/omi_pi_proof.v",
+      "sha256": "f67ffe49c5d62e020d47af63e63d1f6494f0221e2da7a52c01e93e85639dd622",
+      "sid": "omi-tetragrammatron-port.proof-omi-pi-proof-v"
+    },
+    {
+      "bytes": 11235,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "proof-phi-proof-glob.omilisp",
+      "relative_path": "proof/phi_proof.glob",
+      "sha256": "7ec9e864fd0c8d49d8e2c861b99aa03ca9f5c6ddcaa24515816948bd2a3fe641",
+      "sid": "omi-tetragrammatron-port.proof-phi-proof-glob"
+    },
+    {
+      "bytes": 5541,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "proof-phi-proof-v.omilisp",
+      "relative_path": "proof/phi_proof.v",
+      "sha256": "ff712711fbbe5b22fd7da7c2e860762c0a832783a943244b81c2e448e0c7dbae",
+      "sid": "omi-tetragrammatron-port.proof-phi-proof-v"
+    },
+    {
+      "bytes": 49612,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "proof-phi-proof-vo.omilisp",
+      "relative_path": "proof/phi_proof.vo",
+      "sha256": "ee94c21ea93f28434d8f0af77c70ce0112d5ed7babea128b1a280a4c5210b2c0",
+      "sid": "omi-tetragrammatron-port.proof-phi-proof-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "proof-phi-proof-vok.omilisp",
+      "relative_path": "proof/phi_proof.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-tetragrammatron-port.proof-phi-proof-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "proof-phi-proof-vos.omilisp",
+      "relative_path": "proof/phi_proof.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-tetragrammatron-port.proof-phi-proof-vos"
+    },
+    {
+      "bytes": 3270,
+      "extension": ".c",
+      "family": "code",
+      "output": "scripts-test-c-scaffold-c.omilisp",
+      "relative_path": "scripts/test-c-scaffold.c",
+      "sha256": "3e3d7f909e605140050247a174d6ed16473a1c2acc3da3a1cf5e984aa273beb7",
+      "sid": "omi-tetragrammatron-port.scripts-test-c-scaffold-c"
+    },
+    {
+      "bytes": 4744,
+      "extension": ".c",
+      "family": "code",
+      "output": "scripts-test-metatron-scribe-c.omilisp",
+      "relative_path": "scripts/test-metatron-scribe.c",
+      "sha256": "7b54d2bb8b844df73836dfbfaeb93121549cadc2931f12136714dc614b8e6afb",
+      "sid": "omi-tetragrammatron-port.scripts-test-metatron-scribe-c"
+    },
+    {
+      "bytes": 15853,
+      "extension": ".c",
+      "family": "code",
+      "output": "scripts-test-omicron-boot-c.omilisp",
+      "relative_path": "scripts/test-omicron-boot.c",
+      "sha256": "9f32998bea2b737e757532ed8e01033a121b05f7d5d6d0b30dc2fa4d77b2e987",
+      "sid": "omi-tetragrammatron-port.scripts-test-omicron-boot-c"
+    }
+  ],
+  "output_root": "/home/main/omi/omi---imo/declarations/omi-tetragrammatron-port",
+  "source_root": "/home/main/omi/omi-tetragrammatron"
+}

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.agents-md)
+    (title "omi-tetragrammatron port: AGENTS.md")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/AGENTS.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.agents-md)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "AGENTS.md")
+    (extension ".md")
+    (family document)
+    (bytes 7103)
+    (sha256 "57800a61fb88024a4d24ea2a05b75d7143c84d0c7eb0338328aa0056507d4596"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 189)
+    (title "Core constraint")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

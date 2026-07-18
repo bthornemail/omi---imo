@@ -38,5 +38,5 @@ as described in RFC 2119.
 - This layer handles structural transformations of the OMI representation — MUST not change semantics
 - It implements macro expansion, such as dot-notation to cons-cells — MUST produce correct expansion
 - Transformations are deterministic and replayable — MUST produce same output for same input
-- No hidden state is introduced during transformation — MUST be stateless
+- No hidden state is introduced during transformation — MUST be meta-memory
 - Example: Dot notation expansion converts (. a b c) to (cons a (cons b (cons c nil))) — MUST be exact

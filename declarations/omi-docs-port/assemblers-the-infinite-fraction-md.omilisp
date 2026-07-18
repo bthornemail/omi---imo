@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.assemblers-the-infinite-fraction-md)
+    (title "omi-docs port: assemblers/The Infinite Fraction.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/assemblers/The Infinite Fraction.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.assemblers-the-infinite-fraction-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "assemblers/The Infinite Fraction.md")
+    (extension ".md")
+    (family document)
+    (bytes 21289)
+    (sha256 "3fa3e507fe71e59682e146e75bd8ad503847ad3683c989203c07b954b9f17614"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 823)
+    (title "The Infinite Fraction: God's Self-Division and Eternal Observation")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-portal-port.public-deterministic-clock-slide-rule-routed-html)
+    (title "omi-portal port: public/deterministic_clock_slide_rule_routed.html")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/public/deterministic_clock_slide_rule_routed.html")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.public-deterministic-clock-slide-rule-routed-html)
+    (locator omi---imo.omi-portal-port)
+    (binding html.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us html))
+  (source-artifact
+    (relative-path "public/deterministic_clock_slide_rule_routed.html")
+    (extension ".html")
+    (family artifact)
+    (bytes 49736)
+    (sha256 "ab28657ed5eda930d33a8e5e44889ba3daecc59c640a21b9e72680ecac433fb9"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 998)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

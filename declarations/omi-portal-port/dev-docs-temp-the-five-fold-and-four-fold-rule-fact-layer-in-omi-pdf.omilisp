@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.dev-docs-temp-the-five-fold-and-four-fold-rule-fact-layer-in-omi-pdf)
+    (title "omi-portal port: dev-docs/_temp/The Five-Fold and Four-Fold Rule-Fact Layer in OMI.pdf")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/dev-docs/_temp/The Five-Fold and Four-Fold Rule-Fact Layer in OMI.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.dev-docs-temp-the-five-fold-and-four-fold-rule-fact-layer-in-omi-pdf)
+    (locator omi---imo.omi-portal-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "dev-docs/_temp/The Five-Fold and Four-Fold Rule-Fact Layer in OMI.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 109953)
+    (sha256 "570d2cf9aa2143d1a9719ca29b78831973e3da564aff60d61c46ae23a94d1f2d"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

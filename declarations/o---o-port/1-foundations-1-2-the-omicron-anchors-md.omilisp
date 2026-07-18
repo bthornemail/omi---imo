@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid o---o-port.1-foundations-1-2-the-omicron-anchors-md)
+    (title "o---o port: 1_FOUNDATIONS/1.2_THE_OMICRON_ANCHORS.md")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/1_FOUNDATIONS/1.2_THE_OMICRON_ANCHORS.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.1-foundations-1-2-the-omicron-anchors-md)
+    (locator omi---imo.o---o-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "1_FOUNDATIONS/1.2_THE_OMICRON_ANCHORS.md")
+    (extension ".md")
+    (family document)
+    (bytes 3391)
+    (sha256 "4a0556547560b364b210ca15e0d7b77bc1729835fa21ae5e011df34899f0840e"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 64)
+    (title "The Omicron Anchors: 0x03BF and 0x039F")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

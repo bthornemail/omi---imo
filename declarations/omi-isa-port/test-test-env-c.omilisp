@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-isa-port.test-test-env-c)
+    (title "omi-isa port: test/test_env.c")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/test/test_env.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.test-test-env-c)
+    (locator omi---imo.omi-isa-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "test/test_env.c")
+    (extension ".c")
+    (family code)
+    (bytes 8662)
+    (sha256 "8e2812471dd510acb4ec231362dad95aec777c4e0b6765b8ad4c1f8aab9ee59c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 244)
+    (function-count 2)
+    (define-count 1)
+    (include-count 5)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

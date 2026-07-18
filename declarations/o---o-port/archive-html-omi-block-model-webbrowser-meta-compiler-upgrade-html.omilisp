@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid o---o-port.archive-html-omi-block-model-webbrowser-meta-compiler-upgrade-html)
+    (title "o---o port: _archive/html/OMI-Block-Model---Webbrowser-Meta-Compiler-Upgrade.html")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/_archive/html/OMI-Block-Model---Webbrowser-Meta-Compiler-Upgrade.html")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.archive-html-omi-block-model-webbrowser-meta-compiler-upgrade-html)
+    (locator omi---imo.o---o-port)
+    (binding html.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs artifact)
+    (us html))
+  (source-artifact
+    (relative-path "_archive/html/OMI-Block-Model---Webbrowser-Meta-Compiler-Upgrade.html")
+    (extension ".html")
+    (family artifact)
+    (bytes 33140)
+    (sha256 "f2e9d8cca6912d3d2e14e5eaaa4a828cce37a2e696a64f6559cee75bbf75c2e4"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 450)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

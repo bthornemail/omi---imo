@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid o---o-port.2-math-2-1-the-quadratic-law-md)
+    (title "o---o port: 2_MATH/2.1_THE_QUADRATIC_LAW.md")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/2_MATH/2.1_THE_QUADRATIC_LAW.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.2-math-2-1-the-quadratic-law-md)
+    (locator omi---imo.o---o-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "2_MATH/2.1_THE_QUADRATIC_LAW.md")
+    (extension ".md")
+    (family document)
+    (bytes 8854)
+    (sha256 "91cf4a4ce4378ac266243f0ec8075b0bf083579afdc4fcd55b7429063a3eba15"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 149)
+    (title "The Quadratic Law: 60x\u00b2 + 16xy + 4y\u00b2")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

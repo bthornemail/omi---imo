@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-docs-port.ttc-history-polyform-c)
+    (title "omi-docs port: ttc-history/polyform.c")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/ttc-history/polyform.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.ttc-history-polyform-c)
+    (locator omi---imo.omi-docs-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "ttc-history/polyform.c")
+    (extension ".c")
+    (family code)
+    (bytes 5405)
+    (sha256 "25dd16c6401f046dc7edae72772fd6d9dd2a1ac637809e2b3301dd74769a5cb7"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 177)
+    (function-count 9)
+    (define-count 0)
+    (include-count 2)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omnicron-port.dev-docs-front-end-math-decimal64-floating-point-format-wikipedia-pdf)
+    (title "omnicron port: dev-docs/front-end/math/decimal64 floating-point format - Wikipedia.pdf")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/dev-docs/front-end/math/decimal64 floating-point format - Wikipedia.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.dev-docs-front-end-math-decimal64-floating-point-format-wikipedia-pdf)
+    (locator omi---imo.omnicron-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "dev-docs/front-end/math/decimal64 floating-point format - Wikipedia.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 378104)
+    (sha256 "bc275078997d6d75750d3f82007cb2c46afba0b228fc03e47bef0b8d44a2a9a3"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

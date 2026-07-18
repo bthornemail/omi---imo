@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-portal-port.src-omi-lisp-kernel-js)
+    (title "omi-portal port: src/omi/lisp-kernel.js")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/src/omi/lisp-kernel.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.src-omi-lisp-kernel-js)
+    (locator omi---imo.omi-portal-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "src/omi/lisp-kernel.js")
+    (extension ".js")
+    (family code)
+    (bytes 962)
+    (sha256 "09db102b43491a359eb2a78589a981ded39203aaf6644976a364128db383a3c4"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 33)
+    (function-count 0)
+    (export-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-portal-port.src-omi-sliderule-kernel-js)
+    (title "omi-portal port: src/omi/sliderule-kernel.js")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/src/omi/sliderule-kernel.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.src-omi-sliderule-kernel-js)
+    (locator omi---imo.omi-portal-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "src/omi/sliderule-kernel.js")
+    (extension ".js")
+    (family code)
+    (bytes 7636)
+    (sha256 "0baa87aeb700e26688786a63d8a09ce261777b9a327412108f5337cf50deb200"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 228)
+    (function-count 1)
+    (export-count 5)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.2026-07-07-esp32-s3-lora-walkie-talkie-md)
+    (title "omi-docs port: 2026-07-07-ESP32-S3_LoRa_Walkie-Talkie.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/2026-07-07-ESP32-S3_LoRa_Walkie-Talkie.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.2026-07-07-esp32-s3-lora-walkie-talkie-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "2026-07-07-ESP32-S3_LoRa_Walkie-Talkie.md")
+    (extension ".md")
+    (family document)
+    (bytes 1440592)
+    (sha256 "9aef300e4773264edfe4b733dc950e1913077f3da5d668f0b37633fded74f52b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 55759)
+    (title "You")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

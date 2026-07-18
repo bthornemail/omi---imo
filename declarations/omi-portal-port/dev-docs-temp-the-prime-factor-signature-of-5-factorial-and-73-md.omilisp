@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.dev-docs-temp-the-prime-factor-signature-of-5-factorial-and-73-md)
+    (title "omi-portal port: dev-docs/_temp/The Prime Factor Signature of 5 factorial and 73.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/dev-docs/_temp/The Prime Factor Signature of 5 factorial and 73.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.dev-docs-temp-the-prime-factor-signature-of-5-factorial-and-73-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/_temp/The Prime Factor Signature of 5 factorial and 73.md")
+    (extension ".md")
+    (family document)
+    (bytes 11608)
+    (sha256 "5fb843ce4ed9e7092925a0ac6e972855dcde9ef9ec48eceb2d775ffdeacde032"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 319)
+    (title "The Prime Factor Signature of 5! and 73")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

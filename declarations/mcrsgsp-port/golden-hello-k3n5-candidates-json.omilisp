@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid mcrsgsp-port.golden-hello-k3n5-candidates-json)
+    (title "MCRSGSP port: golden/hello.k3n5.candidates.json")
+    (kind mcrsgsp.source-candidate)
+    (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/golden/hello.k3n5.candidates.json")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr mcrsgsp-port.golden-hello-k3n5-candidates-json)
+    (locator omi---imo.mcrsgsp-port)
+    (binding json.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs mcrsgsp)
+    (rs declaration)
+    (us json))
+  (source-artifact
+    (relative-path "golden/hello.k3n5.candidates.json")
+    (extension ".json")
+    (family declaration)
+    (bytes 455)
+    (sha256 "aac01af52e05167f115480af3fa2340d21b466ef592fbfe06cd902d5ec389508"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 21)
+    (json-valid true)
+    (json-kind "array")
+    (json-item-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

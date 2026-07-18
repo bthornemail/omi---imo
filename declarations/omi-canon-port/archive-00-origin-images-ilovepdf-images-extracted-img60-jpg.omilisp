@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-canon-port.archive-00-origin-images-ilovepdf-images-extracted-img60-jpg)
+    (title "omi-canon port: _archive/00-origin/images/ilovepdf_images-extracted/img60.jpg")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/_archive/00-origin/images/ilovepdf_images-extracted/img60.jpg")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.archive-00-origin-images-ilovepdf-images-extracted-img60-jpg)
+    (locator omi---imo.omi-canon-port)
+    (binding jpg.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs artifact)
+    (us jpg))
+  (source-artifact
+    (relative-path "_archive/00-origin/images/ilovepdf_images-extracted/img60.jpg")
+    (extension ".jpg")
+    (family artifact)
+    (bytes 177108)
+    (sha256 "69c604a530cc048e9899533bba64be9cd912007865c0f75d4f8047bb77f6c055"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

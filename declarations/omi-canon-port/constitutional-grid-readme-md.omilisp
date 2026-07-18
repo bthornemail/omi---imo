@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.constitutional-grid-readme-md)
+    (title "omi-canon port: constitutional-grid/README.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/constitutional-grid/README.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.constitutional-grid-readme-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "constitutional-grid/README.md")
+    (extension ".md")
+    (family document)
+    (bytes 8566)
+    (sha256 "46c2b981f05335cf52d43c47a37787c0e4ad6d252d97b3a35d0b19abd2abf52d"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 189)
+    (title "448 Proofs Matrix \u2014 Constitutional Verification Grid")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

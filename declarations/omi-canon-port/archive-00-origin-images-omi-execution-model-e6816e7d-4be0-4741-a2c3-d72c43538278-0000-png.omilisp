@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-canon-port.archive-00-origin-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0000-png)
+    (title "omi-canon port: _archive/00-origin/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0000.png")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/_archive/00-origin/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0000.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.archive-00-origin-images-omi-execution-model-e6816e7d-4be0-4741-a2c3-d72c43538278-0000-png)
+    (locator omi---imo.omi-canon-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "_archive/00-origin/images/OMI_Execution_Model/e6816e7d-4be0-4741-a2c3-d72c43538278-0000.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 3474787)
+    (sha256 "f77e1eb390f3ae9c2aedf0cd0917772e3dd6705f41aa86b623ab58c9225a2e88"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

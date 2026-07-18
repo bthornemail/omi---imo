@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.constitutional-grid-algorithms-a7-branch-reconciliation-md)
+    (title "omi-canon port: constitutional-grid/algorithms/A7-branch-reconciliation.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/constitutional-grid/algorithms/A7-branch-reconciliation.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.constitutional-grid-algorithms-a7-branch-reconciliation-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "constitutional-grid/algorithms/A7-branch-reconciliation.md")
+    (extension ".md")
+    (family document)
+    (bytes 3083)
+    (sha256 "1fc2ae2e77350a1c8eb44db2ec246c0ed23c683f1ac8d760f34e4c2d33893f9c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 57)
+    (title "A7 \u2014 Branch/Reconciliation Algorithm")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

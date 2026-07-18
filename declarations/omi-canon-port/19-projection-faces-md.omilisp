@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.19-projection-faces-md)
+    (title "omi-canon port: 19-PROJECTION-FACES.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/19-PROJECTION-FACES.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.19-projection-faces-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "19-PROJECTION-FACES.md")
+    (extension ".md")
+    (family document)
+    (bytes 10607)
+    (sha256 "a600f573b2b939af19ad6382862e8fad0502048cd03e7963b53de556237e76dc"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 353)
+    (title "State 19 \u2014 Projection Faces: The Vocabulary")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

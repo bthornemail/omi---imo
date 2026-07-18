@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-axioms-port.coq-omi-bialgebra-extracted-ml)
+    (title "omi-axioms port: coq/omi_bialgebra_extracted.ml")
+    (kind omi-axioms.source-candidate)
+    (source "/home/main/omi/omi-axioms/coq/omi_bialgebra_extracted.ml")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-axioms-port.coq-omi-bialgebra-extracted-ml)
+    (locator omi---imo.omi-axioms-port)
+    (binding ml.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-axioms)
+    (rs artifact)
+    (us ml))
+  (source-artifact
+    (relative-path "coq/omi_bialgebra_extracted.ml")
+    (extension ".ml")
+    (family artifact)
+    (bytes 3251)
+    (sha256 "0b24bc05ae5a6aad6b917be43808245e03eaec2439360283a898352bd6d5c7f9"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

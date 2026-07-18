@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.dev-docs-back-end-99-build-guix-declarative-dev-environment-md)
+    (title "omnicron port: dev-docs/back-end/99-build/guix-declarative-dev-environment.md")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/dev-docs/back-end/99-build/guix-declarative-dev-environment.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.dev-docs-back-end-99-build-guix-declarative-dev-environment-md)
+    (locator omi---imo.omnicron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/back-end/99-build/guix-declarative-dev-environment.md")
+    (extension ".md")
+    (family document)
+    (bytes 2705)
+    (sha256 "a2b7655937c49d1aad2744912cd21a3c866d8a5c703a8d30f31e5c3929601fd8"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 114)
+    (title "Guix Declarative Dev Environment (QEMU + Electron/Atom)")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-lisp-port.archive-omi-lisp-v1-simulator-html)
+    (title "omi-lisp port: _archive/omi-lisp-v1/simulator.html")
+    (kind omi-lisp.source-candidate)
+    (source "/home/main/omi/omi-lisp/_archive/omi-lisp-v1/simulator.html")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-lisp-port.archive-omi-lisp-v1-simulator-html)
+    (locator omi---imo.omi-lisp-port)
+    (binding html.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-lisp)
+    (rs artifact)
+    (us html))
+  (source-artifact
+    (relative-path "_archive/omi-lisp-v1/simulator.html")
+    (extension ".html")
+    (family artifact)
+    (bytes 16262)
+    (sha256 "af96a56d6c57b005ec1a39d88361955ea1e19a2621241f96c3ac8be469616a7c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 499)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

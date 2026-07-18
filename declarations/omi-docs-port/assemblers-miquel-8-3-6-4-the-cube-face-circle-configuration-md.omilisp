@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.assemblers-miquel-8-3-6-4-the-cube-face-circle-configuration-md)
+    (title "omi-docs port: assemblers/Miquel(8_3 6_4) - the cube face-circle configuration.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/assemblers/Miquel(8_3 6_4) - the cube face-circle configuration.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.assemblers-miquel-8-3-6-4-the-cube-face-circle-configuration-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "assemblers/Miquel(8_3 6_4) - the cube face-circle configuration.md")
+    (extension ".md")
+    (family document)
+    (bytes 7479)
+    (sha256 "ca85b97de800846df2ac1449109128c0f55dcb552f9a91ed54d7ed89835cef6b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 235)
+    (title "1) Canonical model: Miquel(8\u2083 6\u2084) = the cube \u201cface-circle\u201d configuration")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

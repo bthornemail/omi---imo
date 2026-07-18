@@ -1,0 +1,428 @@
+{
+  "count": 45,
+  "extension_counts": {
+    ".c": 4,
+    ".h": 2,
+    ".hs": 1,
+    ".md": 31,
+    ".omi": 2,
+    ".txt": 3,
+    "[no-ext]": 2
+  },
+  "family_counts": {
+    "artifact": 1,
+    "code": 6,
+    "declaration": 2,
+    "document": 34,
+    "untyped": 2
+  },
+  "items": [
+    {
+      "bytes": 47,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "gitignore.omilisp",
+      "relative_path": ".gitignore",
+      "sha256": "367240fb3e9b7b492dba1326c1399f66804115aea0b911b46a13a159b4582a97",
+      "sid": "omi-port-port.gitignore"
+    },
+    {
+      "bytes": 1390,
+      "extension": ".md",
+      "family": "document",
+      "output": "agents-md.omilisp",
+      "relative_path": "AGENTS.md",
+      "sha256": "a501b2e72d2d05c73e4701dbfa8771265d22df4143bf4f57bbe1c1325ecf529d",
+      "sid": "omi-port-port.agents-md"
+    },
+    {
+      "bytes": 2366,
+      "extension": ".md",
+      "family": "document",
+      "output": "manifest-md.omilisp",
+      "relative_path": "MANIFEST.md",
+      "sha256": "db40de47ecd3c2805abc61abb4987065e8743efa0f76e0bacc04aa05a84f06dd",
+      "sid": "omi-port-port.manifest-md"
+    },
+    {
+      "bytes": 1549,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "makefile.omilisp",
+      "relative_path": "Makefile",
+      "sha256": "2e9bab5228beacd5e2f3941cee78f9c6a3dfd0467756ecde779b4d049363c10e",
+      "sid": "omi-port-port.makefile"
+    },
+    {
+      "bytes": 942,
+      "extension": ".md",
+      "family": "document",
+      "output": "status-md.omilisp",
+      "relative_path": "STATUS.md",
+      "sha256": "7c6392b804cdf35fec00713230af73b085ba04530e0f2b93f4a3d2e1d4515a15",
+      "sid": "omi-port-port.status-md"
+    },
+    {
+      "bytes": 5144,
+      "extension": ".hs",
+      "family": "artifact",
+      "output": "canon-omi-port-hs.omilisp",
+      "relative_path": "canon/OMI/Port.hs",
+      "sha256": "020b8e3907390f46edc377251c18235b78516d5524f65dd4ba7f9c2cdd6f44ff",
+      "sid": "omi-port-port.canon-omi-port-hs"
+    },
+    {
+      "bytes": 7251,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-complete-omi-lisp-ladder-md.omilisp",
+      "relative_path": "dev-docs/COMPLETE_OMI-LISP_LADDER.md",
+      "sha256": "f80c9cb826886abae44573db3347957c33da1e4fb2607bdae82ef6dd6b5057c1",
+      "sid": "omi-port-port.dev-docs-complete-omi-lisp-ladder-md"
+    },
+    {
+      "bytes": 11371,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-derived-non-printing-omi-lisp-md.omilisp",
+      "relative_path": "dev-docs/Derived Non-Printing OMI-Lisp.md",
+      "sha256": "062b30e44b76cb61f6ca79d3f5e28004dbc5d996b987b40fb0f8f84b08307106",
+      "sid": "omi-port-port.dev-docs-derived-non-printing-omi-lisp-md"
+    },
+    {
+      "bytes": 22500,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-citation-notation-and-gauge-pre-header-md.omilisp",
+      "relative_path": "dev-docs/OMI Citation Notation and Gauge Pre-Header.md",
+      "sha256": "27bf967bfdba961109ce6ed9c0f5363cbba9b1c0f7c431d88e8721ae6ba8de11",
+      "sid": "omi-port-port.dev-docs-omi-citation-notation-and-gauge-pre-header-md"
+    },
+    {
+      "bytes": 6470,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-doctrine-notation-as-cipher-cipher-as-notation-md.omilisp",
+      "relative_path": "dev-docs/OMI Doctrine -- Notation as Cipher, Cipher as Notation.md",
+      "sha256": "e2d3674b7a3f97f74c2d404b4d04ea505e8cde165dba19ede750dd3b8c7462e4",
+      "sid": "omi-port-port.dev-docs-omi-doctrine-notation-as-cipher-cipher-as-notation-md"
+    },
+    {
+      "bytes": 13991,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-gauge-header-and-orbit-authority-md.omilisp",
+      "relative_path": "dev-docs/OMI Gauge Header and Orbit Authority.md",
+      "sha256": "aa5536ecc5ef05d2aaf4c0de48811ea663c182917a7dbfd17fd18db98d5f4186",
+      "sid": "omi-port-port.dev-docs-omi-gauge-header-and-orbit-authority-md"
+    },
+    {
+      "bytes": 14558,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-gauge-pre-header-authority-md.omilisp",
+      "relative_path": "dev-docs/OMI Gauge Pre-Header Authority.md",
+      "sha256": "38d7d66117bf21f9dfe215dc1c2bf0dd73493febcd4a8c2824fb2a0a94c71972",
+      "sid": "omi-port-port.dev-docs-omi-gauge-pre-header-authority-md"
+    },
+    {
+      "bytes": 8212,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-notation-citations-are-not-identified-by-hashes-md.omilisp",
+      "relative_path": "dev-docs/OMI Notation Citations Are Not Identified By Hashes.md",
+      "sha256": "6abc6a8acb1e5906ff48c66a5acefb901d59217cdeff794ea546737a505d7f70",
+      "sid": "omi-port-port.dev-docs-omi-notation-citations-are-not-identified-by-hashes-md"
+    },
+    {
+      "bytes": 15331,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-notation-as-citation-md.omilisp",
+      "relative_path": "dev-docs/OMI Notation as Citation.md",
+      "sha256": "fc91b502c4befe75fb3d543a146a9e4ca0d5f398cbc5425983e16712e4590f3a",
+      "sid": "omi-port-port.dev-docs-omi-notation-as-citation-md"
+    },
+    {
+      "bytes": 12533,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-pre-language-control-envelope-authority-replacing-ll-mm-nn-with-fs-gs-rs-us-md.omilisp",
+      "relative_path": "dev-docs/OMI Pre-Language Control Envelope Authority - Replacing LL-MM-NN with FS-GS-RS-US.md",
+      "sha256": "e5367ee776fb60602cb36f7111adbe587842e3fb397f0f8eed95f9182b7d8a91",
+      "sid": "omi-port-port.dev-docs-omi-pre-language-control-envelope-authority-replacing-ll-mm-nn-with-fs-gs-rs-us-md"
+    },
+    {
+      "bytes": 20968,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-as-a-pseudo-persistent-open-world-model-md.omilisp",
+      "relative_path": "dev-docs/OMI as a Pseudo-Persistent Open World Model.md",
+      "sha256": "4c94b13a04e724f94d9cc7151940e6941dc06d71b02718caa61a63d12ee72ff9",
+      "sid": "omi-port-port.dev-docs-omi-as-a-pseudo-persistent-open-world-model-md"
+    },
+    {
+      "bytes": 9841,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-emmc-target-as-tetrahedral-centroid-memory-model-md.omilisp",
+      "relative_path": "dev-docs/OMI eMMC Target as Tetrahedral Centroid Memory Model.md",
+      "sha256": "d7037ce75db76cab7fc0442d0532f7cd055f769392c301b8289175408d464600",
+      "sid": "omi-port-port.dev-docs-omi-emmc-target-as-tetrahedral-centroid-memory-model-md"
+    },
+    {
+      "bytes": 12768,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-addressing-md.omilisp",
+      "relative_path": "dev-docs/OMI_ADDRESSING.md",
+      "sha256": "04bdcfe10a06eb8b60df43489a01aa18d7d620a3d940e4643902b97b22a568ad",
+      "sid": "omi-port-port.dev-docs-omi-addressing-md"
+    },
+    {
+      "bytes": 3883,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-ring-as-addressed-notation-witness-md.omilisp",
+      "relative_path": "dev-docs/Omi-Ring as Addressed Notation Witness.md",
+      "sha256": "e6ec5ee69ae30c26fe6dd83ac922d9d0d2b218b4d56d57192520683a51e37f14",
+      "sid": "omi-port-port.dev-docs-omi-ring-as-addressed-notation-witness-md"
+    },
+    {
+      "bytes": 19584,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-the-omi-uniform-bitboard-md.omilisp",
+      "relative_path": "dev-docs/The OMI Uniform Bitboard.md",
+      "sha256": "3b99378752c153e4ae1a5f9585b39064846c7252effdcd4fd73e02dddc1d2b94",
+      "sid": "omi-port-port.dev-docs-the-omi-uniform-bitboard-md"
+    },
+    {
+      "bytes": 21821,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-the-uniform-bitboard-pre-language-omi-lisp-and-pseudo-persistent-open-world-substrate-md.omilisp",
+      "relative_path": "dev-docs/The Uniform Bitboard, Pre-Language, OMI-Lisp, and Pseudo-Persistent Open World Substrate.md",
+      "sha256": "58885594f787c6e0ef325ce8b87906107755becb5ad015ea39182340e0201295",
+      "sid": "omi-port-port.dev-docs-the-uniform-bitboard-pre-language-omi-lisp-and-pseudo-persistent-open-world-substrate-md"
+    },
+    {
+      "bytes": 3907,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-omi-imo-canonical-notation-doctrine-md.omilisp",
+      "relative_path": "docs/OMI---IMO Canonical Notation Doctrine.md",
+      "sha256": "149a608fa7fb974324e69349eedc172ca7ff93a3bb815fd99d3a4d7b3ab1d2dd",
+      "sid": "omi-port-port.docs-omi-imo-canonical-notation-doctrine-md"
+    },
+    {
+      "bytes": 14660,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-omi-port-canonical-authority-md.omilisp",
+      "relative_path": "docs/OMI-Port Canonical Authority.md",
+      "sha256": "2c2b2b7cdf2737bfad205f8bded72c116eda0e336f22d862e0fa0ee8aadf6d57",
+      "sid": "omi-port-port.docs-omi-port-canonical-authority-md"
+    },
+    {
+      "bytes": 17396,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-omi-port-from-first-principles-md.omilisp",
+      "relative_path": "docs/OMI-Port from First Principles.md",
+      "sha256": "f47bf246cb24700ac14d9af0a6a0e1242bca9a13c3728a1ca0431111f0b4c78e",
+      "sid": "omi-port-port.docs-omi-port-from-first-principles-md"
+    },
+    {
+      "bytes": 1093,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-port-abi-md.omilisp",
+      "relative_path": "docs/PORT_ABI.md",
+      "sha256": "010afc6f7fc9ee248cf17656c19abc391906bff685e605c95c48770071c20463",
+      "sid": "omi-port-port.docs-port-abi-md"
+    },
+    {
+      "bytes": 1101,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-port-authority-md.omilisp",
+      "relative_path": "docs/PORT_AUTHORITY.md",
+      "sha256": "132da911619d45c59245ff87a006d9e52d0bbe70bc36f1236027a3aae070ee56",
+      "sid": "omi-port-port.docs-port-authority-md"
+    },
+    {
+      "bytes": 1141,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-port-contract-md.omilisp",
+      "relative_path": "docs/PORT_CONTRACT.md",
+      "sha256": "bc63db4a94dd427f9f0254e59dd38b26360ab93ae47abc26225041955bb2e422",
+      "sid": "omi-port-port.docs-port-contract-md"
+    },
+    {
+      "bytes": 1001,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-port-notation-md.omilisp",
+      "relative_path": "docs/PORT_NOTATION.md",
+      "sha256": "86d13fedfee3223e4e657f957d17931c43cb2bb7d175c6afb269f68b97bf6e0b",
+      "sid": "omi-port-port.docs-port-notation-md"
+    },
+    {
+      "bytes": 950,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-port-scope-md.omilisp",
+      "relative_path": "docs/PORT_SCOPE.md",
+      "sha256": "29239cb63986c734f035a2a3632afbe612a63698ca9a43ebfeacbc17a44cc574",
+      "sid": "omi-port-port.docs-port-scope-md"
+    },
+    {
+      "bytes": 1630,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-port-test-matrix-md.omilisp",
+      "relative_path": "docs/PORT_TEST_MATRIX.md",
+      "sha256": "10d7c0da59339bcb1f76565d6b61a1ed441c19dd7af27d2c3c6b7443fa479dc3",
+      "sid": "omi-port-port.docs-port-test-matrix-md"
+    },
+    {
+      "bytes": 928,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-port-transform-md.omilisp",
+      "relative_path": "docs/PORT_TRANSFORM.md",
+      "sha256": "7f3872d16919acc6f449518f92ab76da6bb61fb1287602a0b840f6528376bd29",
+      "sid": "omi-port-port.docs-port-transform-md"
+    },
+    {
+      "bytes": 4912,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-pleth-gauge-difference-of-powers-derivation-for-omi-port-md.omilisp",
+      "relative_path": "docs/Pleth - Gauge - Difference-of-Powers Derivation for OMI-Port.md",
+      "sha256": "36b96600da6586e4d4a8f2ea52ef9cc840494847ccc5d05d405d4314ab6d86a1",
+      "sid": "omi-port-port.docs-pleth-gauge-difference-of-powers-derivation-for-omi-port-md"
+    },
+    {
+      "bytes": 5998,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-the-three-axes-of-canonical-progression-md.omilisp",
+      "relative_path": "docs/The Three Axes of Canonical Progression.md",
+      "sha256": "b09d78217fb6919dc6e99aa7bffaf9ac740424eb0194197d6b6a3637c8401786",
+      "sid": "omi-port-port.docs-the-three-axes-of-canonical-progression-md"
+    },
+    {
+      "bytes": 4723,
+      "extension": ".h",
+      "family": "code",
+      "output": "include-omi-port-h.omilisp",
+      "relative_path": "include/omi_port.h",
+      "sha256": "babb2c600d45ef98ac4a140dc11fc54b7bb3a71751698aa4b26406472bc9c05a",
+      "sid": "omi-port-port.include-omi-port-h"
+    },
+    {
+      "bytes": 772,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "lisp-port-declaration-omi.omilisp",
+      "relative_path": "lisp/port-declaration.omi",
+      "sha256": "163979e6ce47d6b0126676188181ec49ae250bee261b68ab3f4e8c06f868f73a",
+      "sid": "omi-port-port.lisp-port-declaration-omi"
+    },
+    {
+      "bytes": 5951,
+      "extension": ".c",
+      "family": "code",
+      "output": "src-omi-port-c.omilisp",
+      "relative_path": "src/omi_port.c",
+      "sha256": "60f10f3a230e9e7b2b5ba8b4ca523ae6ba86fa50cc6922c99861b2b73047c66f",
+      "sid": "omi-port-port.src-omi-port-c"
+    },
+    {
+      "bytes": 330,
+      "extension": ".txt",
+      "family": "document",
+      "output": "tests-golden-basic-scope-txt.omilisp",
+      "relative_path": "tests/golden/basic_scope.txt",
+      "sha256": "e90408331c20a3316dc74ab75bdc789ed60ea402702f49f8d0c93f3ada707cf8",
+      "sid": "omi-port-port.tests-golden-basic-scope-txt"
+    },
+    {
+      "bytes": 378,
+      "extension": ".txt",
+      "family": "document",
+      "output": "tests-golden-basic-transform-txt.omilisp",
+      "relative_path": "tests/golden/basic_transform.txt",
+      "sha256": "a75814667d9c2d4831744ada9fc1dace10346b87d2f586861a20c83a48573aaf",
+      "sid": "omi-port-port.tests-golden-basic-transform-txt"
+    },
+    {
+      "bytes": 248,
+      "extension": ".txt",
+      "family": "document",
+      "output": "tests-golden-omi-route-txt.omilisp",
+      "relative_path": "tests/golden/omi_route.txt",
+      "sha256": "b36511896d8e279d3fcfe4897592986e4252dab57e3401f5ef51c483112ddf31",
+      "sid": "omi-port-port.tests-golden-omi-route-txt"
+    },
+    {
+      "bytes": 284,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "tests-golden-port-binding-omi.omilisp",
+      "relative_path": "tests/golden/port_binding.omi",
+      "sha256": "4c5bbdac25f42db6b507a374715393d38e58928663e756b6a8c3bcb168ab1045",
+      "sid": "omi-port-port.tests-golden-port-binding-omi"
+    },
+    {
+      "bytes": 2159,
+      "extension": ".h",
+      "family": "code",
+      "output": "tests-test-harness-h.omilisp",
+      "relative_path": "tests/test_harness.h",
+      "sha256": "3acc5ea203c51c6779cee3ec7677d504e0749b102dca8c7581e6e0b9f593fc91",
+      "sid": "omi-port-port.tests-test-harness-h"
+    },
+    {
+      "bytes": 2603,
+      "extension": ".c",
+      "family": "code",
+      "output": "tests-test-notation-c.omilisp",
+      "relative_path": "tests/test_notation.c",
+      "sha256": "9d465d9c600df15765f654664c86582fd96e0dd1c7695dd4e8862bb9642b1129",
+      "sid": "omi-port-port.tests-test-notation-c"
+    },
+    {
+      "bytes": 2780,
+      "extension": ".c",
+      "family": "code",
+      "output": "tests-test-scope-c.omilisp",
+      "relative_path": "tests/test_scope.c",
+      "sha256": "8baaf38e53b4c072d30a18fbd72ff8f875b3fbcb19c216ca3bd3e25c7ed1042b",
+      "sid": "omi-port-port.tests-test-scope-c"
+    },
+    {
+      "bytes": 3444,
+      "extension": ".c",
+      "family": "code",
+      "output": "tests-test-transform-c.omilisp",
+      "relative_path": "tests/test_transform.c",
+      "sha256": "383f5c309716cd956607d66d73a9fe064bd5d86e787d8d0e8418fca64e1bc58a",
+      "sid": "omi-port-port.tests-test-transform-c"
+    },
+    {
+      "bytes": 1082,
+      "extension": ".md",
+      "family": "document",
+      "output": "text-port-text-md.omilisp",
+      "relative_path": "text/PORT_TEXT.md",
+      "sha256": "1d33e132ae049a2c734a693651a4e513dc39e1ac90c6818331172ea9dff61357",
+      "sid": "omi-port-port.text-port-text-md"
+    }
+  ],
+  "output_root": "/home/main/omi/omi---imo/declarations/omi-port-port",
+  "source_root": "/home/main/omi/omi-port"
+}

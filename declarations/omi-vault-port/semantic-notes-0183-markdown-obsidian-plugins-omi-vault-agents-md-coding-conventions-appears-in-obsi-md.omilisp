@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-vault-port.semantic-notes-0183-markdown-obsidian-plugins-omi-vault-agents-md-coding-conventions-appears-in-obsi-md)
+    (title "omi-vault port: Semantic Notes/0183-markdown-obsidian-plugins-omi-vault-agents-md-coding-conventions-appears-in-obsi.md")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/Semantic Notes/0183-markdown-obsidian-plugins-omi-vault-agents-md-coding-conventions-appears-in-obsi.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.semantic-notes-0183-markdown-obsidian-plugins-omi-vault-agents-md-coding-conventions-appears-in-obsi-md)
+    (locator omi---imo.omi-vault-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "Semantic Notes/0183-markdown-obsidian-plugins-omi-vault-agents-md-coding-conventions-appears-in-obsi.md")
+    (extension ".md")
+    (family document)
+    (bytes 612)
+    (sha256 "b9a01fff0fb9cceece089881f66808a03beed0277d094176229c1142a6478aef"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 21)
+    (title "markdown:.obsidian/plugins/omi-vault/AGENTS.md#coding-conventions appears-in .obsidian/plugins/omi-vault/AGENTS.md")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

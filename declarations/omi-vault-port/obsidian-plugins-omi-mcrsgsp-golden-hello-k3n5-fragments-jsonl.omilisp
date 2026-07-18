@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-vault-port.obsidian-plugins-omi-mcrsgsp-golden-hello-k3n5-fragments-jsonl)
+    (title "omi-vault port: .obsidian/plugins/omi-mcrsgsp/golden/hello.k3n5.fragments.jsonl")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/golden/hello.k3n5.fragments.jsonl")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.obsidian-plugins-omi-mcrsgsp-golden-hello-k3n5-fragments-jsonl)
+    (locator omi---imo.omi-vault-port)
+    (binding jsonl.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs artifact)
+    (us jsonl))
+  (source-artifact
+    (relative-path ".obsidian/plugins/omi-mcrsgsp/golden/hello.k3n5.fragments.jsonl")
+    (extension ".jsonl")
+    (family artifact)
+    (bytes 1590)
+    (sha256 "d084d71fe03d814ebe33b1715ae1329fad800e9a6c9b6c37dcca631b1b40071f"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

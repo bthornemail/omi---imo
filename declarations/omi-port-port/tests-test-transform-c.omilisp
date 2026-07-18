@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-port-port.tests-test-transform-c)
+    (title "omi-port port: tests/test_transform.c")
+    (kind omi-port.source-candidate)
+    (source "/home/main/omi/omi-port/tests/test_transform.c")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-port-port.tests-test-transform-c)
+    (locator omi---imo.omi-port-port)
+    (binding c.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-port)
+    (rs code)
+    (us c))
+  (source-artifact
+    (relative-path "tests/test_transform.c")
+    (extension ".c")
+    (family code)
+    (bytes 3444)
+    (sha256 "383f5c309716cd956607d66d73a9fe064bd5d86e787d8d0e8418fca64e1bc58a"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 99)
+    (function-count 1)
+    (define-count 0)
+    (include-count 4)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

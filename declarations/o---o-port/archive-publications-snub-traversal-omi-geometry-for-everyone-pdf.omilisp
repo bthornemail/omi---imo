@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid o---o-port.archive-publications-snub-traversal-omi-geometry-for-everyone-pdf)
+    (title "o---o port: _archive/publications/Snub Traversal- OMI Geometry for Everyone.pdf")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/_archive/publications/Snub Traversal- OMI Geometry for Everyone.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.archive-publications-snub-traversal-omi-geometry-for-everyone-pdf)
+    (locator omi---imo.o---o-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "_archive/publications/Snub Traversal- OMI Geometry for Everyone.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 77159)
+    (sha256 "b248a61d7dd32d668db6d1f1cd947b083cd3ecbf336e34589e4f2953e404223e"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

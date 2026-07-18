@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-untitled-1-md)
+    (title "omi-tetragrammatron port: dev-docs/archive/omicron-project-files/Untitled 1.md")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/dev-docs/archive/omicron-project-files/Untitled 1.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-untitled-1-md)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/archive/omicron-project-files/Untitled 1.md")
+    (extension ".md")
+    (family document)
+    (bytes 33224)
+    (sha256 "aec009cf2534fdf04a3efa4b7055a3b072dab30b7832d3d1a868a81abe84f69c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1072)
+    (title "ifndef OMI_ARENA_H")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

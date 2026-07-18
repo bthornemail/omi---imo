@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.png-atomic-kernel-architecture-overview-png)
+    (title "omi-media port: png/Atomic_Kernel_Architecture_Overview.png")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/png/Atomic_Kernel_Architecture_Overview.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.png-atomic-kernel-architecture-overview-png)
+    (locator omi---imo.omi-media-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "png/Atomic_Kernel_Architecture_Overview.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 4385136)
+    (sha256 "a5b5cd8beb9564d98e4d601445f114a85d367f8175105dad5cb769efe4953bd9"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-chat-conversation-of-bulid-md)
+    (title "omi-tetragrammatron port: dev-docs/archive/omi user-space cons of cidr addressing /Chat Conversation Of Bulid.md")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/dev-docs/archive/omi user-space cons of cidr addressing /Chat Conversation Of Bulid.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.dev-docs-archive-omi-user-space-cons-of-cidr-addressing-chat-conversation-of-bulid-md)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/archive/omi user-space cons of cidr addressing /Chat Conversation Of Bulid.md")
+    (extension ".md")
+    (family document)
+    (bytes 6945)
+    (sha256 "6cf438958afc970b9448335cf34f124d878314978d032c30f11ed6a3dd19157b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 169)
+    (title "this is an excerpt from chat history")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

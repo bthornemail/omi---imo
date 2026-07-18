@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid o---o-port.6-implementation-6-2-c99-core-md)
+    (title "o---o port: 6_IMPLEMENTATION/6.2_C99_CORE.md")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/6_IMPLEMENTATION/6.2_C99_CORE.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.6-implementation-6-2-c99-core-md)
+    (locator omi---imo.o---o-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "6_IMPLEMENTATION/6.2_C99_CORE.md")
+    (extension ".md")
+    (family document)
+    (bytes 3469)
+    (sha256 "759b2b9a52e872cb39e37efc552b30c4b00706d435991596258ec49db12a6b85"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 86)
+    (title "The C99 Core: Minimal WASM Substrate")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

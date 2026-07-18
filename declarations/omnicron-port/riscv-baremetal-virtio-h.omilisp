@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omnicron-port.riscv-baremetal-virtio-h)
+    (title "omnicron port: riscv-baremetal/virtio.h")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/riscv-baremetal/virtio.h")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.riscv-baremetal-virtio-h)
+    (locator omi---imo.omnicron-port)
+    (binding h.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us h))
+  (source-artifact
+    (relative-path "riscv-baremetal/virtio.h")
+    (extension ".h")
+    (family code)
+    (bytes 7405)
+    (sha256 "e2543cd4f640dd2e0864358ce1704bafbdcca29282722a7d67515bbb425557b7"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 191)
+    (function-count 6)
+    (define-count 15)
+    (include-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

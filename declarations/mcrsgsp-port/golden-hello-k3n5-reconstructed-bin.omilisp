@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid mcrsgsp-port.golden-hello-k3n5-reconstructed-bin)
+    (title "MCRSGSP port: golden/hello.k3n5.reconstructed.bin")
+    (kind mcrsgsp.source-candidate)
+    (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/golden/hello.k3n5.reconstructed.bin")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr mcrsgsp-port.golden-hello-k3n5-reconstructed-bin)
+    (locator omi---imo.mcrsgsp-port)
+    (binding bin.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs mcrsgsp)
+    (rs carrier)
+    (us bin))
+  (source-artifact
+    (relative-path "golden/hello.k3n5.reconstructed.bin")
+    (extension ".bin")
+    (family carrier)
+    (bytes 6)
+    (sha256 "5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid o---o-port.archive-publications-carrier-hierarchy-abi-v0-docx)
+    (title "o---o port: _archive/publications/Carrier Hierarchy ABI v0.docx")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/_archive/publications/Carrier Hierarchy ABI v0.docx")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.archive-publications-carrier-hierarchy-abi-v0-docx)
+    (locator omi---imo.o---o-port)
+    (binding docx.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs artifact)
+    (us docx))
+  (source-artifact
+    (relative-path "_archive/publications/Carrier Hierarchy ABI v0.docx")
+    (extension ".docx")
+    (family artifact)
+    (bytes 16771)
+    (sha256 "8f85c3993a2f694561a8f9da7ef16689d4747b7f32e07a773d8f1a4c92c78a0a"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.le-algebra-geometric-consensus-foundation-md)
+    (title "omi-docs port: Le Algebra/GEOMETRIC-CONSENSUS-FOUNDATION.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/Le Algebra/GEOMETRIC-CONSENSUS-FOUNDATION.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.le-algebra-geometric-consensus-foundation-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "Le Algebra/GEOMETRIC-CONSENSUS-FOUNDATION.md")
+    (extension ".md")
+    (family document)
+    (bytes 14789)
+    (sha256 "d4ebd572913e35d322c1f545d6a990b5db027bf4c617e5417fa995b7c3465104"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 474)
+    (title "Geometric Consensus Foundation: From 7-Point Fano Planes to 11-Dimensional M-Theory")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

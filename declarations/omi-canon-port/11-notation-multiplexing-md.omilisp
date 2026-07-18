@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.11-notation-multiplexing-md)
+    (title "omi-canon port: 11-NOTATION-MULTIPLEXING.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/11-NOTATION-MULTIPLEXING.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.11-notation-multiplexing-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "11-NOTATION-MULTIPLEXING.md")
+    (extension ".md")
+    (family document)
+    (bytes 4929)
+    (sha256 "c4d3e81bf5bf6cb030aa178d928751b17738c5ddcc10ea95f47532a8e40bc76d"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 128)
+    (title "State 11 \u2014 Notation Multiplexing: Earned Gauge Bands")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

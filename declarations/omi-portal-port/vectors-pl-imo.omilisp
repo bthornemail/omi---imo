@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.vectors-pl-imo)
+    (title "omi-portal port: vectors/pl.imo")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/vectors/pl.imo")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.vectors-pl-imo)
+    (locator omi---imo.omi-portal-port)
+    (binding imo.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us imo))
+  (source-artifact
+    (relative-path "vectors/pl.imo")
+    (extension ".imo")
+    (family artifact)
+    (bytes 261)
+    (sha256 "1f2b835d0d78d218a9025a39fb67deb0713182ce9b0d81a744c1b1d29f44f74e"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

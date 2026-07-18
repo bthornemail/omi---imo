@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.readme-md)
+    (title "omi-canon port: README.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/README.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.readme-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "README.md")
+    (extension ".md")
+    (family document)
+    (bytes 12276)
+    (sha256 "ef9ec171f41d587d33f92121f5b1f3c7b8d35d4646214764bafd1f1d7f41554d"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 274)
+    (title "OMI Canon \u2014 Constitutional Documentation Spine")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

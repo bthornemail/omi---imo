@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid mcrsgsp-port.tools-omi-trace-wordnet-event-types-mjs)
+    (title "MCRSGSP port: tools/omi-trace/wordnet-event-types.mjs")
+    (kind mcrsgsp.source-candidate)
+    (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/tools/omi-trace/wordnet-event-types.mjs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr mcrsgsp-port.tools-omi-trace-wordnet-event-types-mjs)
+    (locator omi---imo.mcrsgsp-port)
+    (binding mjs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs mcrsgsp)
+    (rs code)
+    (us mjs))
+  (source-artifact
+    (relative-path "tools/omi-trace/wordnet-event-types.mjs")
+    (extension ".mjs")
+    (family code)
+    (bytes 620)
+    (sha256 "eaebc8bdbfb06271e0fdcf3b96e8fc2885018b638ce137cacbd1adfa6d647039"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 17)
+    (function-count 0)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.third-party-omi-lisp-agent-guardrails-md)
+    (title "omnicron port: third_party/omi-lisp/AGENT_GUARDRAILS.md")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/third_party/omi-lisp/AGENT_GUARDRAILS.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.third-party-omi-lisp-agent-guardrails-md)
+    (locator omi---imo.omnicron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "third_party/omi-lisp/AGENT_GUARDRAILS.md")
+    (extension ".md")
+    (family document)
+    (bytes 2393)
+    (sha256 "ed3df1053f4f81c4c72646652cbe6d507736df5aaeefe59e9d039a081bc9e372"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 123)
+    (title "AGENT_GUARDRAILS.md")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

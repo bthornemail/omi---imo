@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omnicron-port.github-workflows-rebuild-all-yml)
+    (title "omnicron port: .github/workflows/rebuild-all.yml")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/.github/workflows/rebuild-all.yml")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.github-workflows-rebuild-all-yml)
+    (locator omi---imo.omnicron-port)
+    (binding yml.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs artifact)
+    (us yml))
+  (source-artifact
+    (relative-path ".github/workflows/rebuild-all.yml")
+    (extension ".yml")
+    (family artifact)
+    (bytes 1580)
+    (sha256 "8c5c9abf04f931d995f181786d5956a1efd8a87d0d92e13edccb7b6291dd58c9"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 71)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

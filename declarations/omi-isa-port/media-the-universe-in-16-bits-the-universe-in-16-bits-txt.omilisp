@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-isa-port.media-the-universe-in-16-bits-the-universe-in-16-bits-txt)
+    (title "omi-isa port: media/The universe in 16 bits/The universe in 16 bits.txt")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/media/The universe in 16 bits/The universe in 16 bits.txt")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.media-the-universe-in-16-bits-the-universe-in-16-bits-txt)
+    (locator omi---imo.omi-isa-port)
+    (binding txt.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs document)
+    (us txt))
+  (source-artifact
+    (relative-path "media/The universe in 16 bits/The universe in 16 bits.txt")
+    (extension ".txt")
+    (family document)
+    (bytes 22990)
+    (sha256 "e92d002110ba94db8783adfccec115880ee2457847aff3deb9dd2365e96d87b1"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 237)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

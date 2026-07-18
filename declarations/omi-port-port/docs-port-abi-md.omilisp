@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-port-port.docs-port-abi-md)
+    (title "omi-port port: docs/PORT_ABI.md")
+    (kind omi-port.source-candidate)
+    (source "/home/main/omi/omi-port/docs/PORT_ABI.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-port-port.docs-port-abi-md)
+    (locator omi---imo.omi-port-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-port)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/PORT_ABI.md")
+    (extension ".md")
+    (family document)
+    (bytes 1093)
+    (sha256 "010afc6f7fc9ee248cf17656c19abc391906bff685e605c95c48770071c20463"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 34)
+    (title "OMI-Port ABI")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

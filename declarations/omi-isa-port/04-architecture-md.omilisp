@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-isa-port.04-architecture-md)
+    (title "omi-isa port: 04_ARCHITECTURE.md")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/04_ARCHITECTURE.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.04-architecture-md)
+    (locator omi---imo.omi-isa-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "04_ARCHITECTURE.md")
+    (extension ".md")
+    (family document)
+    (bytes 7753)
+    (sha256 "e2c4f06fa397661f7dc974b595b5d3f26182ae49ce0a2658384407866d51528a"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 352)
+    (title "04. Architecture")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

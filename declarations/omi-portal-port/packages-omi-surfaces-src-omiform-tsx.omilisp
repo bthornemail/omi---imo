@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.packages-omi-surfaces-src-omiform-tsx)
+    (title "omi-portal port: packages/omi-surfaces/src/OmiForm.tsx")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/packages/omi-surfaces/src/OmiForm.tsx")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.packages-omi-surfaces-src-omiform-tsx)
+    (locator omi---imo.omi-portal-port)
+    (binding tsx.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us tsx))
+  (source-artifact
+    (relative-path "packages/omi-surfaces/src/OmiForm.tsx")
+    (extension ".tsx")
+    (family artifact)
+    (bytes 230)
+    (sha256 "9628b3c3e2337bc3e8c9ff7cc70a3bbb21ff990a9d36f29584c5bcb2db515c8c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

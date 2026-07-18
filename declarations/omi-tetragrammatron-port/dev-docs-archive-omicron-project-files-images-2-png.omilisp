@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-images-2-png)
+    (title "omi-tetragrammatron port: dev-docs/archive/omicron-project-files/images (2).png")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/dev-docs/archive/omicron-project-files/images (2).png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.dev-docs-archive-omicron-project-files-images-2-png)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "dev-docs/archive/omicron-project-files/images (2).png")
+    (extension ".png")
+    (family carrier)
+    (bytes 14238)
+    (sha256 "a4f9c8e5029737a3385373d8f512c9b8e88ffb9ee70a3d54080b4caa2a73d86a"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

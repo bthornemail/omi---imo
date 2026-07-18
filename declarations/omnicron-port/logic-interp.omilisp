@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-interp)
+    (title "omnicron port: logic-interp")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic-interp")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-interp)
+    (locator omi---imo.omnicron-port)
+    (binding no-ext.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs untyped)
+    (us no-ext))
+  (source-artifact
+    (relative-path "logic-interp")
+    (extension "[no-ext]")
+    (family untyped)
+    (bytes 38504)
+    (sha256 "5aadd0fdfb484180d3b5a069ad699a789c81444d9d0906e92006a57a513f42f6"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 582)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

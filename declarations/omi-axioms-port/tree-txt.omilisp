@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-axioms-port.tree-txt)
+    (title "omi-axioms port: tree.txt")
+    (kind omi-axioms.source-candidate)
+    (source "/home/main/omi/omi-axioms/tree.txt")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-axioms-port.tree-txt)
+    (locator omi---imo.omi-axioms-port)
+    (binding txt.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-axioms)
+    (rs document)
+    (us txt))
+  (source-artifact
+    (relative-path "tree.txt")
+    (extension ".txt")
+    (family document)
+    (bytes 2166)
+    (sha256 "4eed9c30e4ad74fa99381c967e3d887a28a72c5dd71b5de16367cb174ba9e5de"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 33)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

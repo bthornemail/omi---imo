@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-runtime-geometry-3d-mjs)
+    (title "omnicron port: logic/runtime/geometry_3d.mjs")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/runtime/geometry_3d.mjs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-runtime-geometry-3d-mjs)
+    (locator omi---imo.omnicron-port)
+    (binding mjs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us mjs))
+  (source-artifact
+    (relative-path "logic/runtime/geometry_3d.mjs")
+    (extension ".mjs")
+    (family code)
+    (bytes 4366)
+    (sha256 "01f9dfaf012b7a8e27cd14859941d36371876a612d9731c83d73f4fbae58016f"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 125)
+    (function-count 5)
+    (export-count 5)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

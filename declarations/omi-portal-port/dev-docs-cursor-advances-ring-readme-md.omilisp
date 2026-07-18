@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.dev-docs-cursor-advances-ring-readme-md)
+    (title "omi-portal port: dev-docs/cursor-advances-ring/README.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/dev-docs/cursor-advances-ring/README.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.dev-docs-cursor-advances-ring-readme-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/cursor-advances-ring/README.md")
+    (extension ".md")
+    (family document)
+    (bytes 4968)
+    (sha256 "e07d0d6ec9fce0bd1a9d709a1f15052278d8382a4d81531334025f2f0a2336fb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 108)
+    (title "Face 6 \u2014 cursor advances ring")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

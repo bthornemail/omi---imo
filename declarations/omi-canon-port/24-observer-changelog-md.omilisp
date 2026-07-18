@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.24-observer-changelog-md)
+    (title "omi-canon port: 24-OBSERVER-CHANGELOG.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/24-OBSERVER-CHANGELOG.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.24-observer-changelog-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "24-OBSERVER-CHANGELOG.md")
+    (extension ".md")
+    (family document)
+    (bytes 2608)
+    (sha256 "22d1e559dfd90c60c872933677c0bfb3c75a5cddcc2f43c22045ef5bee09459f"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 55)
+    (title "State 24 \u2014 Observer Changelog: Migration History")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

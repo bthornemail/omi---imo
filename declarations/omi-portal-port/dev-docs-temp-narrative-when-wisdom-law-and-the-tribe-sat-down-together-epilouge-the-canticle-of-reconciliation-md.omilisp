@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.dev-docs-temp-narrative-when-wisdom-law-and-the-tribe-sat-down-together-epilouge-the-canticle-of-reconciliation-md)
+    (title "omi-portal port: dev-docs/_temp/narrative/When Wisdom, Law, and the Tribe Sat Down Together/EPILOUGE/The Canticle of Reconciliation.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/dev-docs/_temp/narrative/When Wisdom, Law, and the Tribe Sat Down Together/EPILOUGE/The Canticle of Reconciliation.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.dev-docs-temp-narrative-when-wisdom-law-and-the-tribe-sat-down-together-epilouge-the-canticle-of-reconciliation-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/_temp/narrative/When Wisdom, Law, and the Tribe Sat Down Together/EPILOUGE/The Canticle of Reconciliation.md")
+    (extension ".md")
+    (family document)
+    (bytes 5283)
+    (sha256 "0f48e3115c28744df8601b7468ee30148da4f66a522571eb2a886db0c32923bb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 330)
+    (title "**The Canticle of Reconciliation**")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

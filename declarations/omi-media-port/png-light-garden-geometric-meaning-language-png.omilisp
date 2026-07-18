@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.png-light-garden-geometric-meaning-language-png)
+    (title "omi-media port: png/Light_Garden_Geometric_Meaning_Language.png")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/png/Light_Garden_Geometric_Meaning_Language.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.png-light-garden-geometric-meaning-language-png)
+    (locator omi---imo.omi-media-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "png/Light_Garden_Geometric_Meaning_Language.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 5540589)
+    (sha256 "df42ee75ed350c5c33881e6695818a99b2e036d75ac5d04a9e911fc7797e687d"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-lisp-port.archive-omi-lisp-v1-dev-docs-session-ses-0c34-md)
+    (title "omi-lisp port: _archive/omi-lisp-v1/dev-docs/session-ses_0c34.md")
+    (kind omi-lisp.source-candidate)
+    (source "/home/main/omi/omi-lisp/_archive/omi-lisp-v1/dev-docs/session-ses_0c34.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-lisp-port.archive-omi-lisp-v1-dev-docs-session-ses-0c34-md)
+    (locator omi---imo.omi-lisp-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-lisp)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "_archive/omi-lisp-v1/dev-docs/session-ses_0c34.md")
+    (extension ".md")
+    (family document)
+    (bytes 355746)
+    (sha256 "82957e2f89fe2af285a8055eb066beedad025ff3c5af21107b64a1ff4fcf476e"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 8509)
+    (title "Last work: omi-canvas_chat_hstory")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

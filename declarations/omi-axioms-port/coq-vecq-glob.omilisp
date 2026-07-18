@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-axioms-port.coq-vecq-glob)
+    (title "omi-axioms port: coq/VecQ.glob")
+    (kind omi-axioms.source-candidate)
+    (source "/home/main/omi/omi-axioms/coq/VecQ.glob")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-axioms-port.coq-vecq-glob)
+    (locator omi---imo.omi-axioms-port)
+    (binding glob.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-axioms)
+    (rs artifact)
+    (us glob))
+  (source-artifact
+    (relative-path "coq/VecQ.glob")
+    (extension ".glob")
+    (family artifact)
+    (bytes 18955)
+    (sha256 "95f153b4d356f22c8c0e7035e4b1ef1273da9023867ed701b8ae7aae3e897296"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

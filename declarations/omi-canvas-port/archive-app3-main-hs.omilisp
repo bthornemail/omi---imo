@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-canvas-port.archive-app3-main-hs)
+    (title "omi-canvas port: archive/app3/Main.hs")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/archive/app3/Main.hs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.archive-app3-main-hs)
+    (locator omi---imo.omi-canvas-port)
+    (binding hs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs artifact)
+    (us hs))
+  (source-artifact
+    (relative-path "archive/app3/Main.hs")
+    (extension ".hs")
+    (family artifact)
+    (bytes 69091)
+    (sha256 "b8e97d25cb815ddb9ee030cc106b0caa373504cba71176a858429d1ded4f6347"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

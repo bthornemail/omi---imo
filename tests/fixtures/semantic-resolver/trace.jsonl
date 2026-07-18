@@ -1,0 +1,7 @@
+{"v":"omi.trace.v0","tick":1,"type":"tick","summary":"checkpoint tick","payload":{}}
+{"v":"omi.trace.v0","tick":2,"type":"fragment","summary":"fragment candidate proof","payload":{"code_path":"tools/semantic_resolver.mjs"}}
+{"v":"omi.trace.v0","tick":3,"type":"candidate","summary":"candidate ready","payload":{}}
+{"v":"omi.trace.v0","tick":4,"type":"proof","summary":"proof accepted","payload":{}}
+{"v":"omi.trace.v0","tick":5,"type":"gossip","summary":"gossip communication","payload":{}}
+{"v":"omi.trace.v0","tick":6,"type":"reject","summary":"reject rejection","payload":{}}
+{"v":"omi.trace.v0","tick":7,"type":"manual","summary":"manual note","payload":{}}

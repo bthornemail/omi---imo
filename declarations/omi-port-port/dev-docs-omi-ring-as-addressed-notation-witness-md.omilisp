@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-port-port.dev-docs-omi-ring-as-addressed-notation-witness-md)
+    (title "omi-port port: dev-docs/Omi-Ring as Addressed Notation Witness.md")
+    (kind omi-port.source-candidate)
+    (source "/home/main/omi/omi-port/dev-docs/Omi-Ring as Addressed Notation Witness.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-port-port.dev-docs-omi-ring-as-addressed-notation-witness-md)
+    (locator omi---imo.omi-port-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-port)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/Omi-Ring as Addressed Notation Witness.md")
+    (extension ".md")
+    (family document)
+    (bytes 3883)
+    (sha256 "e6ec5ee69ae30c26fe6dd83ac922d9d0d2b218b4d56d57192520683a51e37f14"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 209)
+    (title "Omi-Ring as Addressed Notation Witness")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

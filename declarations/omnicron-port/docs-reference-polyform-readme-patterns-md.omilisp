@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.docs-reference-polyform-readme-patterns-md)
+    (title "omnicron port: docs/reference/polyform/README.patterns.md")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/docs/reference/polyform/README.patterns.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.docs-reference-polyform-readme-patterns-md)
+    (locator omi---imo.omnicron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/reference/polyform/README.patterns.md")
+    (extension ".md")
+    (family document)
+    (bytes 475)
+    (sha256 "8129d1d9ed1e3e7f30f0b4bfce44d0949232b4bad38ebf587b68e99dc3593ec4"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 18)
+    (title "Polyform Patterns (Derived)")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omnicron-port.dev-docs-front-end-archive-slope-of-log-log-plot-png)
+    (title "omnicron port: dev-docs/front-end/archive/Slope_of_log-log_plot.PNG")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/dev-docs/front-end/archive/Slope_of_log-log_plot.PNG")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.dev-docs-front-end-archive-slope-of-log-log-plot-png)
+    (locator omi---imo.omnicron-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "dev-docs/front-end/archive/Slope_of_log-log_plot.PNG")
+    (extension ".PNG")
+    (family carrier)
+    (bytes 17317)
+    (sha256 "762ebb32aa7680fb20594ca6250d624cc6d7278979aa2418d98bba8a1acba302"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

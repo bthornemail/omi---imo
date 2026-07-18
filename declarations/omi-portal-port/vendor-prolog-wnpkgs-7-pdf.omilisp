@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.vendor-prolog-wnpkgs-7-pdf)
+    (title "omi-portal port: vendor/prolog/wnpkgs.7.pdf")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/vendor/prolog/wnpkgs.7.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.vendor-prolog-wnpkgs-7-pdf)
+    (locator omi---imo.omi-portal-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "vendor/prolog/wnpkgs.7.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 4297)
+    (sha256 "1faa9c23bd79fa19484e4cbec0766ec3380aa1bd086d0ad28a77aba9c18c0723"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

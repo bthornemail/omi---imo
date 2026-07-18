@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-verify-verify-multi-emulator-smoke-sh)
+    (title "omnicron port: logic/verify/verify_multi_emulator_smoke.sh")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/verify/verify_multi_emulator_smoke.sh")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-verify-verify-multi-emulator-smoke-sh)
+    (locator omi---imo.omnicron-port)
+    (binding sh.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us sh))
+  (source-artifact
+    (relative-path "logic/verify/verify_multi_emulator_smoke.sh")
+    (extension ".sh")
+    (family code)
+    (bytes 6386)
+    (sha256 "1f0dd5ad9d6009b8f5830de52653c2e52c935e440e35621d515ab7ddf92e1511"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 233)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

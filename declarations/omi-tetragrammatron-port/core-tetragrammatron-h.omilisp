@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.core-tetragrammatron-h)
+    (title "omi-tetragrammatron port: core/tetragrammatron.h")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/core/tetragrammatron.h")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.core-tetragrammatron-h)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding h.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs code)
+    (us h))
+  (source-artifact
+    (relative-path "core/tetragrammatron.h")
+    (extension ".h")
+    (family code)
+    (bytes 2016)
+    (sha256 "95d44d8740ef6a2e6446a10754ff3f94b7dfb0ef0ce207e67339607e3e838572"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 69)
+    (function-count 0)
+    (define-count 4)
+    (include-count 3)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

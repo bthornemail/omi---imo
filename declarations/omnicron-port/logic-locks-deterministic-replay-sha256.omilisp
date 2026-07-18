@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-locks-deterministic-replay-sha256)
+    (title "omnicron port: logic/locks/deterministic_replay.sha256")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/locks/deterministic_replay.sha256")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-locks-deterministic-replay-sha256)
+    (locator omi---imo.omnicron-port)
+    (binding sha256.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs artifact)
+    (us sha256))
+  (source-artifact
+    (relative-path "logic/locks/deterministic_replay.sha256")
+    (extension ".sha256")
+    (family artifact)
+    (bytes 1369)
+    (sha256 "36dd738381e9f03a11619bba0150778be75b415bf58c4e915927651b57565eb9"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 12)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,1095 @@
+{
+  "count": 118,
+  "extension_counts": {
+    ".c": 10,
+    ".cpio": 1,
+    ".gif": 1,
+    ".h": 3,
+    ".html": 1,
+    ".lisp": 10,
+    ".md": 66,
+    ".o": 2,
+    ".omi": 3,
+    ".org": 3,
+    ".pdf": 1,
+    ".qcow2": 1,
+    ".scm": 3,
+    ".sh": 4,
+    ".txt": 2,
+    "[no-ext]": 7
+  },
+  "family_counts": {
+    "artifact": 5,
+    "carrier": 2,
+    "code": 17,
+    "declaration": 19,
+    "document": 68,
+    "untyped": 7
+  },
+  "items": [
+    {
+      "bytes": 122,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "gitignore.omilisp",
+      "relative_path": ".gitignore",
+      "sha256": "686befb7d53ea5041540edf4b57a262bf5d0d1fda70be60c39d218e76025fdd3",
+      "sid": "omi-lisp-port.gitignore"
+    },
+    {
+      "bytes": 7379,
+      "extension": ".md",
+      "family": "document",
+      "output": "agents-md.omilisp",
+      "relative_path": "AGENTS.md",
+      "sha256": "b7dd9f6ac3bd559b6e76ed49cf1c774eecb9d01dfb607ff269c49777a994e95a",
+      "sid": "omi-lisp-port.agents-md"
+    },
+    {
+      "bytes": 2353,
+      "extension": ".md",
+      "family": "document",
+      "output": "lowering-md.omilisp",
+      "relative_path": "LOWERING.md",
+      "sha256": "cc7c1cd0439419065181dad4353257bdbefb7c767427bc9e98db2b1a928fce2a",
+      "sid": "omi-lisp-port.lowering-md"
+    },
+    {
+      "bytes": 6211,
+      "extension": ".md",
+      "family": "document",
+      "output": "manifest-md.omilisp",
+      "relative_path": "MANIFEST.md",
+      "sha256": "9e3ca63f2e43d5b4b87a8f51ee51321337f443994af3e47d7c91d0e1710ea5ce",
+      "sid": "omi-lisp-port.manifest-md"
+    },
+    {
+      "bytes": 1646,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "makefile.omilisp",
+      "relative_path": "Makefile",
+      "sha256": "3c8ec88d770ebcbbc1b131d765b2226b600274e22c3cddd979168b36eba02564",
+      "sid": "omi-lisp-port.makefile"
+    },
+    {
+      "bytes": 7476,
+      "extension": ".md",
+      "family": "document",
+      "output": "rebuild-md.omilisp",
+      "relative_path": "REBUILD.md",
+      "sha256": "9b39f64465a0b2c14e5c84a93a34af2c74598b3810d5c2216fec921d8ea41657",
+      "sid": "omi-lisp-port.rebuild-md"
+    },
+    {
+      "bytes": 3174,
+      "extension": ".md",
+      "family": "document",
+      "output": "spec-md.omilisp",
+      "relative_path": "SPEC.md",
+      "sha256": "88aefaf06135d8c077f396e547e684d9c7d59dd8a3c0b1beb5d70cdcf3db8f75",
+      "sid": "omi-lisp-port.spec-md"
+    },
+    {
+      "bytes": 2044,
+      "extension": ".md",
+      "family": "document",
+      "output": "test-plan-md.omilisp",
+      "relative_path": "TEST_PLAN.md",
+      "sha256": "31f2b2d408f24aa18d997c2233d884c20005f752e5969ee42f51cb2e39a60da5",
+      "sid": "omi-lisp-port.test-plan-md"
+    },
+    {
+      "bytes": 15173,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-rebuild-v1-superseded-md.omilisp",
+      "relative_path": "_archive/REBUILD-v1-superseded.md",
+      "sha256": "6b2d7c5cad7e4a6caac8bba3124145fe58945048a66f7d2b6fc9913cbee42a63",
+      "sid": "omi-lisp-port.archive-rebuild-v1-superseded-md"
+    },
+    {
+      "bytes": 34,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "archive-omi-lisp-v1-gitignore.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/.gitignore",
+      "sha256": "f656e7816b094c1b8f7bdeff99d010936ab11fcd9876e2af4930acca0f06fa7d",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-gitignore"
+    },
+    {
+      "bytes": 2143,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-agents-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/AGENTS.md",
+      "sha256": "a9946fa121e93259c9df941a06bc582aa9bb8ef370921b418760e87d0559f122",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-agents-md"
+    },
+    {
+      "bytes": 2393,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-agent-guardrails-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/AGENT_GUARDRAILS.md",
+      "sha256": "ed3df1053f4f81c4c72646652cbe6d507736df5aaeefe59e9d039a081bc9e372",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-agent-guardrails-md"
+    },
+    {
+      "bytes": 6575,
+      "extension": ".org",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-complete-ladder-org.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/COMPLETE_LADDER.org",
+      "sha256": "072fb9ce6d9910eb106036322e7920f7b9e39b021e8537c9f1d1271ed405d2d7",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-complete-ladder-org"
+    },
+    {
+      "bytes": 16525,
+      "extension": ".org",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-control-plane-org.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/CONTROL_PLANE.org",
+      "sha256": "f5dbf35db0b7c9b1e2ce8702da28b3562b0be5226735a4628880ea6d24a2faab",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-control-plane-org"
+    },
+    {
+      "bytes": 5782,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-important-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/IMPORTANT.md",
+      "sha256": "f54f21d1130ba6bd1b89b5dde7e7649e9903c64d0b69b79bf9a93ae98351c62e",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-important-md"
+    },
+    {
+      "bytes": 5110,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-omi-canonical-diagram-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/OMI_CANONICAL_DIAGRAM.md",
+      "sha256": "fb28cddaba073973d4247af7ddc434d93ca12294b1b777e2373222166aed0da2",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-canonical-diagram-md"
+    },
+    {
+      "bytes": 4927,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-omi-notation-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/OMI_NOTATION.md",
+      "sha256": "9d084fbb6bcde0f5e7501604a4ece8387aad1db1301755cc519a6605df2c2702",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-notation-md"
+    },
+    {
+      "bytes": 1827,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-readme-omi-vm-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/README-OMI-VM.md",
+      "sha256": "ba112f7a3c04374d6a8581e15763cb14644a313deee74882892e68cc7baf3703",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-readme-omi-vm-md"
+    },
+    {
+      "bytes": 3627,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-readme-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/README.md",
+      "sha256": "a124be17e15f2a8392447025a3837a9b8b97c938b7dd5ca6237ae49676373f56",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-readme-md"
+    },
+    {
+      "bytes": 15173,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-rebuild-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/REBUILD.md",
+      "sha256": "6b2d7c5cad7e4a6caac8bba3124145fe58945048a66f7d2b6fc9913cbee42a63",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-rebuild-md"
+    },
+    {
+      "bytes": 6055,
+      "extension": ".org",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-the-complete-ladder-org.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/THE_COMPLETE_LADDER.org",
+      "sha256": "4f13d089b452e43f6a642b6ddcac146c2170d20e04c2b1abfe53bcf9a52cfd92",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-the-complete-ladder-org"
+    },
+    {
+      "bytes": 6616837,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "archive-omi-lisp-v1-build-riscv-boot-vmlinuz-lts.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/build-riscv/boot/vmlinuz-lts",
+      "sha256": "1be5d46343a2e6572ca79a3975d2978860b8522edcd7dc56ea24ef308581177e",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-build-riscv-boot-vmlinuz-lts"
+    },
+    {
+      "bytes": 564960,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "archive-omi-lisp-v1-build-riscv-initramfs-init.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/build-riscv/initramfs/init",
+      "sha256": "05ecca7dacd502fa485dd7c1c56d0c7f7c2c2d7fd9ad646f20f776917664a3a3",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-build-riscv-initramfs-init"
+    },
+    {
+      "bytes": 565248,
+      "extension": ".cpio",
+      "family": "artifact",
+      "output": "archive-omi-lisp-v1-build-riscv-omi-riscv-initramfs-cpio.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/build-riscv/omi-riscv-initramfs.cpio",
+      "sha256": "8a7c5abc5b5e409ea309d9fe2df2f4c4f663cd5fde27e4f7684af9ce08897d6b",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-build-riscv-omi-riscv-initramfs-cpio"
+    },
+    {
+      "bytes": 196616,
+      "extension": ".qcow2",
+      "family": "artifact",
+      "output": "archive-omi-lisp-v1-build-riscv-omi-riscv-vm-qcow2.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/build-riscv/omi-riscv-vm.qcow2",
+      "sha256": "81ba2e5503d83a7b5c46308818470ea0226aa6527f22f9e4910c973c69dca1bf",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-build-riscv-omi-riscv-vm-qcow2"
+    },
+    {
+      "bytes": 364,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-omi-lisp-v1-build-riscv-run-omi-riscv-vm-sh.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/build-riscv/run-omi-riscv-vm.sh",
+      "sha256": "a9215190467b5c733c4bb9ed3dc8a5adda4483a851274139ed440c830a993e12",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-build-riscv-run-omi-riscv-vm-sh"
+    },
+    {
+      "bytes": 1149,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-omi-lisp-v1-build-omi-qcow-sh.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/build_omi_qcow.sh",
+      "sha256": "5c1b096fe851fcf5dd743aaf7e0029db8dc658ee32d7421d79ed5e3b5c82a490",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-build-omi-qcow-sh"
+    },
+    {
+      "bytes": 1714,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-omi-lisp-v1-build-omi-riscv-sh.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/build_omi_riscv.sh",
+      "sha256": "638ec0b2293ca122020a715df84b01d3220c9431438607986b482ee0df8530df",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-build-omi-riscv-sh"
+    },
+    {
+      "bytes": 1500,
+      "extension": ".sh",
+      "family": "code",
+      "output": "archive-omi-lisp-v1-build-omi-riscv-qcow-sh.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/build_omi_riscv_qcow.sh",
+      "sha256": "76fdea47ce7a999c43da677b036253032e776249226bdb9349855cbf5fce3c55",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-build-omi-riscv-qcow-sh"
+    },
+    {
+      "bytes": 154,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-00-shared-readme-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/00-shared/README.md",
+      "sha256": "561f0782dd486eaca09b4ff8de15cf70fb747a8ffd0f5150c5aa589a6d61329c",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-readme-md"
+    },
+    {
+      "bytes": 98775,
+      "extension": ".txt",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-00-shared-tmp-hypercubeorder-binary-svg-txt.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/00-shared/tmp/Hypercubeorder_binary.svg.txt",
+      "sha256": "8815ad8ff30afe4faad3c47ee442d4f17f8ede287dd02b85a84de3cca22d9722",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-hypercubeorder-binary-svg-txt"
+    },
+    {
+      "bytes": 964753,
+      "extension": ".gif",
+      "family": "carrier",
+      "output": "archive-omi-lisp-v1-dev-docs-00-shared-tmp-orthogonal-tesseract-gif-gif.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/00-shared/tmp/Orthogonal_Tesseract_Gif.gif",
+      "sha256": "15ccc7a22c7a38e64abc64bfbdf4fc1f7b83909b070338f070e4f3b58142b057",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-orthogonal-tesseract-gif-gif"
+    },
+    {
+      "bytes": 1437426,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "archive-omi-lisp-v1-dev-docs-00-shared-tmp-tesseract-wikipedia-pdf.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/00-shared/tmp/Tesseract - Wikipedia.pdf",
+      "sha256": "5f7ea51cc60a2d03e5d889df6f2a9fe51952e40a805f49b0237c10ef67187c71",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-tesseract-wikipedia-pdf"
+    },
+    {
+      "bytes": 110712,
+      "extension": ".txt",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-00-shared-tmp-tesseract-tetrahedron-shadow-matrices-svg-txt.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/00-shared/tmp/Tesseract_tetrahedron_shadow_matrices.svg.txt",
+      "sha256": "2b9cae9817af1d4370111d987f46abe46111ff208715c5a47fef7df8fab39c2d",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-tesseract-tetrahedron-shadow-matrices-svg-txt"
+    },
+    {
+      "bytes": 176760,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-00-shared-tmp-page-2026-04-23-15-13-19-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/00-shared/tmp/page-2026-04-23-15-13-19.md",
+      "sha256": "b2d8e146d85f7d2d3c55eb47fdbf81165d77123d459ef38841120982f7bbf45d",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-page-2026-04-23-15-13-19-md"
+    },
+    {
+      "bytes": 120681,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-00-shared-tmp-page-2026-04-23-15-14-29-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/00-shared/tmp/page-2026-04-23-15-14-29.md",
+      "sha256": "71d24db89f2843dc859137da62097a9e8d0bcf9813f2dcc33ff5624ef9dcdb6f",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-page-2026-04-23-15-14-29-md"
+    },
+    {
+      "bytes": 164344,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-00-shared-tmp-page-2026-04-23-15-14-54-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/00-shared/tmp/page-2026-04-23-15-14-54.md",
+      "sha256": "6085b51abc96055136276793bac5cba0b999cb1047a3f0c9a108583c76f45a31",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-page-2026-04-23-15-14-54-md"
+    },
+    {
+      "bytes": 185225,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-00-shared-tmp-page-2026-04-23-15-15-09-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/00-shared/tmp/page-2026-04-23-15-15-09.md",
+      "sha256": "47e3fe82f65b0a2192bc778d1a3d3701bef134e402d67c26c21836ccd54b0a12",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-page-2026-04-23-15-15-09-md"
+    },
+    {
+      "bytes": 41617,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-00-shared-tmp-page-2026-04-23-15-16-03-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/00-shared/tmp/page-2026-04-23-15-16-03.md",
+      "sha256": "3c4dee5952d387ba66606a619a6527f10c9f2574f8ec5ba120999afdd55929b5",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-page-2026-04-23-15-16-03-md"
+    },
+    {
+      "bytes": 61511,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-00-shared-tmp-page-2026-04-23-15-16-30-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/00-shared/tmp/page-2026-04-23-15-16-30.md",
+      "sha256": "82867a5a617508e88fc18a75cbb1fe48f9f03e0830e8803fd2f93606e66855e5",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-page-2026-04-23-15-16-30-md"
+    },
+    {
+      "bytes": 1200,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-01-physical-readme-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/01-physical/README.md",
+      "sha256": "19a34a2dbad3e1716fa0c3892c0266521adae23b9fd4923081c3d8971be6574e",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-01-physical-readme-md"
+    },
+    {
+      "bytes": 13527,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-01-physical-graphics-opengl-devices-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/01-physical/graphics-opengl-devices.md",
+      "sha256": "bb61c1d53d95b79621e283c9ff90553571b138babe0b675f5926e6fd6a05a2bc",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-01-physical-graphics-opengl-devices-md"
+    },
+    {
+      "bytes": 25505,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-01-physical-hw-features-security-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/01-physical/hw-features-security.md",
+      "sha256": "b995fa767c0eaa0148e6e34ab4bff52513e86061893fa0cffd2bcbb9c427dfd8",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-01-physical-hw-features-security-md"
+    },
+    {
+      "bytes": 2698,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-01-physical-qemu-execution-guide-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/01-physical/qemu-execution-guide.md",
+      "sha256": "f5bdb20c2a4c6e8ca3defc55f075e6d781e7248a67931e6be353b7945a42923a",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-01-physical-qemu-execution-guide-md"
+    },
+    {
+      "bytes": 18605,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-01-physical-risc-v-isa-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/01-physical/risc-v-isa.md",
+      "sha256": "ff401cd225ad9d74129f133b270c034d964987255ba773bdfc4dbdd690611307",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-01-physical-risc-v-isa-md"
+    },
+    {
+      "bytes": 19523,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-01-physical-rv128-scaling-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/01-physical/rv128-scaling.md",
+      "sha256": "2a22cb69f18f55aecd85b60619febcce888f4d21b5cb99470656e153fd544809",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-01-physical-rv128-scaling-md"
+    },
+    {
+      "bytes": 18681,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-01-physical-storage-block-devices-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/01-physical/storage-block-devices.md",
+      "sha256": "1a024d9537b9e31637181de5055f242e49fa174b1ae490c96b171fa76a9e927a",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-01-physical-storage-block-devices-md"
+    },
+    {
+      "bytes": 15057,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-01-physical-vnc-display-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/01-physical/vnc-display.md",
+      "sha256": "414b52f6a6dba374fad3fec90fc98e6853a0fabb0a1e41cf4752524fc2bf2914",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-01-physical-vnc-display-md"
+    },
+    {
+      "bytes": 4865,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-01-physical-xorshift-lfsr-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/01-physical/xorshift-lfsr.md",
+      "sha256": "6fd1c770907e50cacbe39f2ad38e0578988f7b73067db28b6c2c156e042dfece",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-01-physical-xorshift-lfsr-md"
+    },
+    {
+      "bytes": 359,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-02-datalink-readme-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/02-datalink/README.md",
+      "sha256": "a34f172fa883da5fbf27a80bc9bf646ee0dcf1abf2546248dff8b7adfeda07ef",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-02-datalink-readme-md"
+    },
+    {
+      "bytes": 256,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-03-network-readme-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/03-network/README.md",
+      "sha256": "af3488e88f5aca22a76f443c0082ffe0404b72190093ba3b454fcbd090e19ecb",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-03-network-readme-md"
+    },
+    {
+      "bytes": 235,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-04-transport-readme-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/04-transport/README.md",
+      "sha256": "68999bbcd8860fc2c29143b98319358860d30c0e02ea40a0104ff09027a17a28",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-04-transport-readme-md"
+    },
+    {
+      "bytes": 246,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-05-session-readme-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/05-session/README.md",
+      "sha256": "9815c598a75e8ae64779ae49130ea3508cede476aef1d5465ffb3b0c8d8ad5dc",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-05-session-readme-md"
+    },
+    {
+      "bytes": 1092,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-readme-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/README.md",
+      "sha256": "138c46f3fa0c91ecdd93fb48a9b36c687db78993823f24836c5b6c98dda87f9b",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-readme-md"
+    },
+    {
+      "bytes": 8216,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-geometry-first-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/geometry-first.md",
+      "sha256": "306fd1816849628443fb65f3884895dfed7f994f37380348523db6cf5cb8d306",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-geometry-first-md"
+    },
+    {
+      "bytes": 18846,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-how-it-connects-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/how-it-connects.md",
+      "sha256": "a55bf3fde731ed89b59dd02bfdd84220a0427b75ae4e53266239f7a0075071b8",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-how-it-connects-md"
+    },
+    {
+      "bytes": 5569,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-jit-tracing-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/jit-tracing.md",
+      "sha256": "b3d9b2a577d96e42ee37e7d447dc0f20956f8566eca378abec81bc4b61ef1891",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-jit-tracing-md"
+    },
+    {
+      "bytes": 1029,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-my-understanding-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/my-understanding.md",
+      "sha256": "2d0213b0a6cfab7c6beb6506fe3a53bffad48be9d3c1fa999c4d664d8b463159",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-my-understanding-md"
+    },
+    {
+      "bytes": 5829,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-octuple-precision-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/octuple-precision.md",
+      "sha256": "41f372f9dbaa9baa96e8f02f32a57882c23ea5613eee20ac48c43c99c8b7990c",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-octuple-precision-md"
+    },
+    {
+      "bytes": 1655,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-omi-lisp-definition-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/omi-lisp-definition.md",
+      "sha256": "1f8584863353c66b730f8288e6b52f34c5b9d020d03f9e1415bae097ef6cd28e",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-omi-lisp-definition-md"
+    },
+    {
+      "bytes": 863,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-osi-address-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/osi-address.md",
+      "sha256": "ebd20809419a3d548443e031772280ad14cf86c10e875367c6ebd8936b667d0f",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-osi-address-md"
+    },
+    {
+      "bytes": 8215,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-osi-model-why-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/osi-model-why.md",
+      "sha256": "2303eaea0d599887b2c81888fb7dab2884af58882b6a28f4071c5dcf35c67f38",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-osi-model-why-md"
+    },
+    {
+      "bytes": 1016,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-pre-header-ladder-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/pre-header-ladder.md",
+      "sha256": "798450f1d1642edd23e1d3ee01b8b663313db97b6d75cc6ed890a5d0a8a928de",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-pre-header-ladder-md"
+    },
+    {
+      "bytes": 13329,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-qemu-internals-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/qemu-internals.md",
+      "sha256": "8aa2ee945d7687a754b7cfb05b32a786ca5dd355ec3b0bdf4d0c6cc39f60b5a6",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-qemu-internals-md"
+    },
+    {
+      "bytes": 1688,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-rolling-pascal-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/rolling-pascal.md",
+      "sha256": "eb6eb8182fe8d807db6bc19bf1fe3ef367916e4ccc59d6d68907bd24b7cdee3d",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-rolling-pascal-md"
+    },
+    {
+      "bytes": 718,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-what-we-do-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/what-we-do.md",
+      "sha256": "93889a3ae4478b27d5a3a6e6883c124bac684758b36e60843a67d7452f1aebb9",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-what-we-do-md"
+    },
+    {
+      "bytes": 1118,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-whole-code-base-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/whole-code-base.md",
+      "sha256": "e7ba87ba4fffb14bd506643b0100cc3b6b1e053bdf9c95c73d23f6d754e70452",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-whole-code-base-md"
+    },
+    {
+      "bytes": 1340,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-06-presentation-whole-concept-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/06-presentation/whole-concept.md",
+      "sha256": "fe8fcb9e8db9cb03beea471e402d1d2175b5790ca9d4fba6b767376c1f2a709f",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-06-presentation-whole-concept-md"
+    },
+    {
+      "bytes": 193,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-07-application-readme-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/07-application/README.md",
+      "sha256": "53e92dc2de5da7eb06677fd350adfb7aff41c1e9673934fa2328f2718ffda3a7",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-07-application-readme-md"
+    },
+    {
+      "bytes": 1536,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-99-build-readme-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/99-build/README.md",
+      "sha256": "6d60b7c955790f13b2a32e0279321c346f5562b66d4e2ee61f85778cecf4fc6c",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-99-build-readme-md"
+    },
+    {
+      "bytes": 2878,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-99-build-atom-electron-qemu-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/99-build/atom-electron-qemu.md",
+      "sha256": "9ad01853171c6b82e081cd0f0c20c4db5f221f90c4a7be574466cba0d5ea5b24",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-99-build-atom-electron-qemu-md"
+    },
+    {
+      "bytes": 6969,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-99-build-bootable-runtime-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/99-build/bootable-runtime.md",
+      "sha256": "f64da137e2e43aa2bd24bb15856fe3f16e15e718abf9aeff127e9b2cd59a3572",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-99-build-bootable-runtime-md"
+    },
+    {
+      "bytes": 2350,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-99-build-declarative-build-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/99-build/declarative-build.md",
+      "sha256": "e6a07c12d260edbb0ef92057e4ba5257d851aaeab8940fdc22716385d88a00e5",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-99-build-declarative-build-md"
+    },
+    {
+      "bytes": 11775,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-99-build-gdb-usage-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/99-build/gdb-usage.md",
+      "sha256": "ee3eea9b913bb024dfd1ef803b60e28ede6d47d5ab955717e9a9ac3e4d612b4f",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-99-build-gdb-usage-md"
+    },
+    {
+      "bytes": 4899,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-99-build-qemu-remote-build-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/99-build/qemu-remote-build.md",
+      "sha256": "7b68b5dec119c5e75577f2f1ae64b72dfe2ee8448cf9cd2920855521707d46ef",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-99-build-qemu-remote-build-md"
+    },
+    {
+      "bytes": 19412,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-99-build-qmp-storage-daemon-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/99-build/qmp-storage-daemon.md",
+      "sha256": "ff1a86aa88050f2b99f292ad68a7b83059e1f2d12d990b6d3ffd61f1c45310b1",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-99-build-qmp-storage-daemon-md"
+    },
+    {
+      "bytes": 1269,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-readme-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/README.md",
+      "sha256": "c0d39f526a24179ff9b901477a55763df2cd0a6e9f9e178f44cfc66d43d83f4f",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-readme-md"
+    },
+    {
+      "bytes": 355746,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-dev-docs-session-ses-0c34-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/dev-docs/session-ses_0c34.md",
+      "sha256": "82957e2f89fe2af285a8055eb066beedad025ff3c5af21107b64a1ff4fcf476e",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-dev-docs-session-ses-0c34-md"
+    },
+    {
+      "bytes": 1264,
+      "extension": ".scm",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-guix-home-scm.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/guix-home.scm",
+      "sha256": "27115818946e0d4ee43879190f7ea9b2d5b38a474db294ef4177c2151d931501",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-guix-home-scm"
+    },
+    {
+      "bytes": 2576,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-omi-aegean-table-lisp.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/omi-aegean-table.lisp",
+      "sha256": "b28e8d465bcf0dcbe1c37095a2df1f55e9f71fa6adbc3e5544290b6ae6fafc13",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-aegean-table-lisp"
+    },
+    {
+      "bytes": 4327,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-omi-bom-table-lisp.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/omi-bom-table.lisp",
+      "sha256": "485aa36341e84237d34afa67b8569584210bcd281d9184035ae791f06dfed5dc",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-bom-table-lisp"
+    },
+    {
+      "bytes": 2391,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-omi-braille-table-lisp.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/omi-braille-table.lisp",
+      "sha256": "64bdc743e903970dc469a052940826a952b19f1e81eb81a74866e8bd4d8668cf",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-braille-table-lisp"
+    },
+    {
+      "bytes": 518,
+      "extension": ".scm",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-omi-dev-manifest-scm.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/omi-dev-manifest.scm",
+      "sha256": "eeb61c51b1a65b83f6fc2fd1851c90420ff6216ef339505c6196bf75dc3cedec",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-dev-manifest-scm"
+    },
+    {
+      "bytes": 1613,
+      "extension": ".scm",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-omi-os-model-scm.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/omi-os-model.scm",
+      "sha256": "37cfdbf3332228e13a1b57fb72f8a6d002078acae1c2a01b8f461b8baf86818e",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-os-model-scm"
+    },
+    {
+      "bytes": 1547,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-omi-canonical-diagram-lisp.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/omi_canonical_diagram.lisp",
+      "sha256": "91c86bddd1724cf9da63694619c57303f169e4be069b4eb38ec6c0335ee1fa6b",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-canonical-diagram-lisp"
+    },
+    {
+      "bytes": 9713,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-omi-header8-reader-lisp.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/omi_header8_reader.lisp",
+      "sha256": "d9d889ab2f88a8ddde88f48cb88140f509cb5aec7a4cdefb6e20d564b396678b",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-header8-reader-lisp"
+    },
+    {
+      "bytes": 14880,
+      "extension": ".c",
+      "family": "code",
+      "output": "archive-omi-lisp-v1-omi-header8-runtime-c.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/omi_header8_runtime.c",
+      "sha256": "db2f5cb9b1a46a28719e78811bd4252fb2fb3bd13c2aa18433546e611dd8344d",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-header8-runtime-c"
+    },
+    {
+      "bytes": 6804,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-omi-loader-lisp.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/omi_loader.lisp",
+      "sha256": "d09b6c0fc44c7239384ae6a35628010ae2eb827a96d6aadd95c578529ca5fde2",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-loader-lisp"
+    },
+    {
+      "bytes": 10590,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-omi-reader-dispatch-lisp.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/omi_reader_dispatch.lisp",
+      "sha256": "f339a7a016a6a88177d55b1ed4244223236786a7025a590794106d06656705e6",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-reader-dispatch-lisp"
+    },
+    {
+      "bytes": 12841,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-omi-rewrite-core-lisp.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/omi_rewrite_core.lisp",
+      "sha256": "d72f61b59cf14ecc9a23ce91f096aec62321dfd7894c0aebd033b9bb151b50bb",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-rewrite-core-lisp"
+    },
+    {
+      "bytes": 20247,
+      "extension": ".c",
+      "family": "code",
+      "output": "archive-omi-lisp-v1-omi-riscv-vm-c.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/omi_riscv_vm.c",
+      "sha256": "2ccc6afd2894c0d66c2dda0b3bddc6e87b61b8b1ad5f02e61b591534538d4261",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-riscv-vm-c"
+    },
+    {
+      "bytes": 1468,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-omi-vm-loader-lisp.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/omi_vm_loader.lisp",
+      "sha256": "184a9a29084b07c85838b980ca77b849476851d1a6af1a06710b90d6e7e7a44f",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-omi-vm-loader-lisp"
+    },
+    {
+      "bytes": 180582,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-session-ses-2479-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/session-ses_2479.md",
+      "sha256": "f4ea273863a3d81f050b7838bc3cf34eee039d901697a7edbeb261f053eeb0c0",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-session-ses-2479-md"
+    },
+    {
+      "bytes": 16262,
+      "extension": ".html",
+      "family": "artifact",
+      "output": "archive-omi-lisp-v1-simulator-html.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/simulator.html",
+      "sha256": "af96a56d6c57b005ec1a39d88361955ea1e19a2621241f96c3ac8be469616a7c",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-simulator-html"
+    },
+    {
+      "bytes": 2682,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-tutorial-01-dot-notation-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/tutorial/01-dot-notation.md",
+      "sha256": "d861b60a31386d517cc7fdf9f877669ea07dc7359aa94a68a0d16bb50cdd81a7",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-tutorial-01-dot-notation-md"
+    },
+    {
+      "bytes": 3975,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-tutorial-02-lisp15-core-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/tutorial/02-lisp15-core.md",
+      "sha256": "497502381c7c7fb7fcdd9b832b4225098ac667d002bbccae2193bf8b56a42bd0",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-tutorial-02-lisp15-core-md"
+    },
+    {
+      "bytes": 3627,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-tutorial-03-common-lisp-bridge-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/tutorial/03-common-lisp-bridge.md",
+      "sha256": "d6dde295ec59513baf4bae609d5be34ae1f4134a4d8bfa0a7a000c80df18500a",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-tutorial-03-common-lisp-bridge-md"
+    },
+    {
+      "bytes": 3985,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-tutorial-04-omi-dot-variant-lab-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/tutorial/04-omi-dot-variant-lab.md",
+      "sha256": "80ea3db362f9de49ccbc31e1c9ed72e56bb183afee28676ada44398196c6c525",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-tutorial-04-omi-dot-variant-lab-md"
+    },
+    {
+      "bytes": 1626,
+      "extension": ".md",
+      "family": "document",
+      "output": "archive-omi-lisp-v1-tutorial-readme-md.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/tutorial/README.md",
+      "sha256": "25b1fea6f1bd061a916725a9b73f6f86b1378853185921a6bbb75f26650fa008",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-tutorial-readme-md"
+    },
+    {
+      "bytes": 2028,
+      "extension": ".lisp",
+      "family": "declaration",
+      "output": "archive-omi-lisp-v1-tutorial-exercises-lisp.omilisp",
+      "relative_path": "_archive/omi-lisp-v1/tutorial/exercises.lisp",
+      "sha256": "1bf16badb25a53d89dfc7347c76e054aafa0cdae93f7ae51f9af35965f9bf0f2",
+      "sid": "omi-lisp-port.archive-omi-lisp-v1-tutorial-exercises-lisp"
+    },
+    {
+      "bytes": 0,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "src-gitkeep.omilisp",
+      "relative_path": "src/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-lisp-port.src-gitkeep"
+    },
+    {
+      "bytes": 2814,
+      "extension": ".c",
+      "family": "code",
+      "output": "src-omi-candidate-c.omilisp",
+      "relative_path": "src/omi_candidate.c",
+      "sha256": "e5636904bcf3e25695669c0828b02577596a5b4f49b59138da32ae2ab192844b",
+      "sid": "omi-lisp-port.src-omi-candidate-c"
+    },
+    {
+      "bytes": 2565,
+      "extension": ".h",
+      "family": "code",
+      "output": "src-omi-candidate-h.omilisp",
+      "relative_path": "src/omi_candidate.h",
+      "sha256": "bd42c501f39ac950546f0db14d784abba54f45b749220f898f9ec939ab6e4999",
+      "sid": "omi-lisp-port.src-omi-candidate-h"
+    },
+    {
+      "bytes": 2248,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "src-omi-candidate-o.omilisp",
+      "relative_path": "src/omi_candidate.o",
+      "sha256": "d7bcfb287a5f443f1e3b1fe4652be87a8dc4676eb2b5b974ea6d661aa67e755b",
+      "sid": "omi-lisp-port.src-omi-candidate-o"
+    },
+    {
+      "bytes": 3391,
+      "extension": ".c",
+      "family": "code",
+      "output": "src-omi-lisp-c.omilisp",
+      "relative_path": "src/omi_lisp.c",
+      "sha256": "964d0e4fede63cf06624020e8a26871e614703f9e50fe3d8e47cb1cbef9d7b71",
+      "sid": "omi-lisp-port.src-omi-lisp-c"
+    },
+    {
+      "bytes": 2874,
+      "extension": ".h",
+      "family": "code",
+      "output": "src-omi-lisp-h.omilisp",
+      "relative_path": "src/omi_lisp.h",
+      "sha256": "07313a5c85013d7b36d86e11e39b39db3eaabbc76302456d3d809cd1e69e0b7e",
+      "sid": "omi-lisp-port.src-omi-lisp-h"
+    },
+    {
+      "bytes": 3072,
+      "extension": ".o",
+      "family": "artifact",
+      "output": "src-omi-lisp-o.omilisp",
+      "relative_path": "src/omi_lisp.o",
+      "sha256": "c941e934a12279481c5f85c99a1b240e7c3fcbd70591ff944bcd60e6af44a898",
+      "sid": "omi-lisp-port.src-omi-lisp-o"
+    },
+    {
+      "bytes": 3984,
+      "extension": ".c",
+      "family": "code",
+      "output": "src-omi-parse-c.omilisp",
+      "relative_path": "src/omi_parse.c",
+      "sha256": "8e06dbe424bd6b86e9f71f61ec5a4f62fafc5fc94c228314bb6ff755b8b38f1b",
+      "sid": "omi-lisp-port.src-omi-parse-c"
+    },
+    {
+      "bytes": 1188,
+      "extension": ".h",
+      "family": "code",
+      "output": "src-omi-parse-h.omilisp",
+      "relative_path": "src/omi_parse.h",
+      "sha256": "606ea3f67636deb020709380f0bbd4a7a939e3606366d02f64a4f0b13783765d",
+      "sid": "omi-lisp-port.src-omi-parse-h"
+    },
+    {
+      "bytes": 0,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "tests-gitkeep.omilisp",
+      "relative_path": "tests/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-lisp-port.tests-gitkeep"
+    },
+    {
+      "bytes": 8,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "tests-fixtures-pair-omi.omilisp",
+      "relative_path": "tests/fixtures/pair.omi",
+      "sha256": "f6b6aa49d1f55eeb416bbee4b29fd2e9bd3f48387fc8d345e71ad41bc1795db4",
+      "sid": "omi-lisp-port.tests-fixtures-pair-omi"
+    },
+    {
+      "bytes": 14,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "tests-fixtures-seed-omi.omilisp",
+      "relative_path": "tests/fixtures/seed.omi",
+      "sha256": "25d10c2807ecdb6978659b60170d940fae351b0270680455c8148f28a5fc476e",
+      "sid": "omi-lisp-port.tests-fixtures-seed-omi"
+    },
+    {
+      "bytes": 2,
+      "extension": ".omi",
+      "family": "declaration",
+      "output": "tests-fixtures-symbol-omi.omilisp",
+      "relative_path": "tests/fixtures/symbol.omi",
+      "sha256": "87428fc522803d31065e7bce3cf03fe475096631e5e07bbd7a0fde60c4cf25c7",
+      "sid": "omi-lisp-port.tests-fixtures-symbol-omi"
+    },
+    {
+      "bytes": 4445,
+      "extension": ".c",
+      "family": "code",
+      "output": "tests-test-candidate-c.omilisp",
+      "relative_path": "tests/test_candidate.c",
+      "sha256": "f40049234815e33b246e8ee1ad8ac5b23f263114c188746067ba127e83c8a716",
+      "sid": "omi-lisp-port.tests-test-candidate-c"
+    },
+    {
+      "bytes": 2147,
+      "extension": ".c",
+      "family": "code",
+      "output": "tests-test-pair-c.omilisp",
+      "relative_path": "tests/test_pair.c",
+      "sha256": "a3822e5ca77e1744dcf1cd871e3ef9b8a0b57c20e2b11eba9e0090a5844cd523",
+      "sid": "omi-lisp-port.tests-test-pair-c"
+    },
+    {
+      "bytes": 5810,
+      "extension": ".c",
+      "family": "code",
+      "output": "tests-test-parse-c.omilisp",
+      "relative_path": "tests/test_parse.c",
+      "sha256": "86e872e1e06edcc3edb6aadf9ff1287ed5edf1cab98f6a229bb4fdfe0339ada5",
+      "sid": "omi-lisp-port.tests-test-parse-c"
+    },
+    {
+      "bytes": 2056,
+      "extension": ".c",
+      "family": "code",
+      "output": "tests-test-seed-c.omilisp",
+      "relative_path": "tests/test_seed.c",
+      "sha256": "eecae6a80afb108864fa105feb7b08df5b6dc4bcbf4d1292c7c25843b713d96f",
+      "sid": "omi-lisp-port.tests-test-seed-c"
+    },
+    {
+      "bytes": 2844,
+      "extension": ".c",
+      "family": "code",
+      "output": "tests-test-symbol-c.omilisp",
+      "relative_path": "tests/test_symbol.c",
+      "sha256": "f11f3181cb4a23a44aa1c7bad45a1d9340088c2e7e31c061324772bf09cf2cc4",
+      "sid": "omi-lisp-port.tests-test-symbol-c"
+    }
+  ],
+  "output_root": "/home/main/omi/omi---imo/declarations/omi-lisp-port",
+  "source_root": "/home/main/omi/omi-lisp"
+}

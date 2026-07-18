@@ -1,0 +1,2098 @@
+{
+  "count": 231,
+  "extension_counts": {
+    ".m4a": 65,
+    ".md": 1,
+    ".mp4": 66,
+    ".pdf": 39,
+    ".png": 60
+  },
+  "family_counts": {
+    "artifact": 131,
+    "carrier": 99,
+    "document": 1
+  },
+  "items": [
+    {
+      "bytes": 12,
+      "extension": ".md",
+      "family": "document",
+      "output": "readme-md.omilisp",
+      "relative_path": "README.md",
+      "sha256": "c878bb47574fefdf5a4bd6d4cde1acc6e4c9589fabd941ff7889bb77b523ea12",
+      "sid": "omi-media-port.readme-md"
+    },
+    {
+      "bytes": 39677672,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-16-bit-geometric-internet-mirroring-human-dna-m4a.omilisp",
+      "relative_path": "m4a/16-bit_geometric_internet_mirroring_human_DNA.m4a",
+      "sha256": "d6dec98c24198d7a1c007e8d1270f1889e119bee09e211f9895e2c1b1e57fa3a",
+      "sid": "omi-media-port.m4a-16-bit-geometric-internet-mirroring-human-dna-m4a"
+    },
+    {
+      "bytes": 42448735,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-16-bits-of-code-and-dna-geometry-m4a.omilisp",
+      "relative_path": "m4a/16_Bits_of_Code_and_DNA_Geometry.m4a",
+      "sha256": "efe900554adacff4ebdf8d5ca18a334ba3129e880bf3ddd98ca271d4c673246d",
+      "sid": "omi-media-port.m4a-16-bits-of-code-and-dna-geometry-m4a"
+    },
+    {
+      "bytes": 41669226,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-16-bits-that-calculate-the-universe-m4a.omilisp",
+      "relative_path": "m4a/16_bits_that_calculate_the_universe.m4a",
+      "sha256": "d725a23617cb8c6c4b203508a4601433f3ffe34a2e10c720fc2cf4853f5e8c83",
+      "sid": "omi-media-port.m4a-16-bits-that-calculate-the-universe-m4a"
+    },
+    {
+      "bytes": 77587132,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-a-rewrite-of-the-geometry-of-computation-m4a.omilisp",
+      "relative_path": "m4a/A_rewrite_of_the_geometry_of_computation.m4a",
+      "sha256": "3f170f1a6ad96a71b2fe4710751697fc27d2aa3916009ed2b43503ba0f88bc83",
+      "sid": "omi-media-port.m4a-a-rewrite-of-the-geometry-of-computation-m4a"
+    },
+    {
+      "bytes": 42586937,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-a-serverless-universe-in-a-barcode-1-m4a.omilisp",
+      "relative_path": "m4a/A_serverless_universe_in_a_barcode (1).m4a",
+      "sha256": "de12f29a058f1c4ec7127b039246f3adb5ce6a2a94c3c48358dca9812edfe620",
+      "sid": "omi-media-port.m4a-a-serverless-universe-in-a-barcode-1-m4a"
+    },
+    {
+      "bytes": 12039222,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-achieving-omi-determinism-with-incidence-geometry-m4a.omilisp",
+      "relative_path": "m4a/Achieving_OMI_determinism_with_incidence_geometry.m4a",
+      "sha256": "979e8b0bdab00cd6482088d179ebf3195c375a775b605be2b395cfef926e236a",
+      "sid": "omi-media-port.m4a-achieving-omi-determinism-with-incidence-geometry-m4a"
+    },
+    {
+      "bytes": 40490798,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-building-digital-reality-on-mathematical-crystals-1-m4a.omilisp",
+      "relative_path": "m4a/Building_digital_reality_on_mathematical_crystals (1).m4a",
+      "sha256": "802a72c5ea2d7837aff4c8ce5f97bb0c4c3a87c8315527f07ceee2bf290d95c2",
+      "sid": "omi-media-port.m4a-building-digital-reality-on-mathematical-crystals-1-m4a"
+    },
+    {
+      "bytes": 43210946,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-building-geometry-without-mathematical-constants-m4a.omilisp",
+      "relative_path": "m4a/Building_geometry_without_mathematical_constants.m4a",
+      "sha256": "36c779601f35214e91ac3a5eff1b399055d602e2e4e232640adbfc91591cf4a4",
+      "sid": "omi-media-port.m4a-building-geometry-without-mathematical-constants-m4a"
+    },
+    {
+      "bytes": 39100726,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-compiling-collective-consciousness-into-software-architecture-1-m4a.omilisp",
+      "relative_path": "m4a/Compiling_Collective_Consciousness_into_Software_Architecture (1).m4a",
+      "sha256": "6e150391e0415b742c79006adc83a01de6a1482604ba684d113264378d9db908",
+      "sid": "omi-media-port.m4a-compiling-collective-consciousness-into-software-architecture-1-m4a"
+    },
+    {
+      "bytes": 35932123,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-compiling-human-disagreement-into-machine-architecture-m4a.omilisp",
+      "relative_path": "m4a/Compiling_human_disagreement_into_machine_architecture.m4a",
+      "sha256": "c5ce58f6107885b67e795a23e9e17949ab5d5f57ed5b841267d3293d93f80357",
+      "sid": "omi-media-port.m4a-compiling-human-disagreement-into-machine-architecture-m4a"
+    },
+    {
+      "bytes": 35509183,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-deterministic-truth-in-metaverse-build-runtime-1-m4a.omilisp",
+      "relative_path": "m4a/Deterministic_Truth_in_Metaverse_Build_Runtime (1).m4a",
+      "sha256": "ecf5d2ac2b932976c8777f560fa7c6fb6138bc1b669b62b3d8e4be6fabd137a3",
+      "sid": "omi-media-port.m4a-deterministic-truth-in-metaverse-build-runtime-1-m4a"
+    },
+    {
+      "bytes": 43651068,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-digital-geometry-without-mathematical-constants-m4a.omilisp",
+      "relative_path": "m4a/Digital_Geometry_Without_Mathematical_Constants.m4a",
+      "sha256": "daf86df6a6b742808cd9107f04520e6f870762d91ef0dece99da3d67171be8b5",
+      "sid": "omi-media-port.m4a-digital-geometry-without-mathematical-constants-m4a"
+    },
+    {
+      "bytes": 37625608,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-digital-physics-in-the-omi-object-model-m4a.omilisp",
+      "relative_path": "m4a/Digital_physics_in_the_Omi_Object_Model.m4a",
+      "sha256": "570cb42ac2d4465842bbeb24951e62fb64e3aec5bc6691b6a8ceea52592a8c6a",
+      "sid": "omi-media-port.m4a-digital-physics-in-the-omi-object-model-m4a"
+    },
+    {
+      "bytes": 46851794,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-discrete-versus-continuous-omi-protocol-proofs-m4a.omilisp",
+      "relative_path": "m4a/Discrete_versus_continuous_OMI_protocol_proofs.m4a",
+      "sha256": "fe9da1a6529c08a49b097a06dc972754ce8c806220c47bfa8c8443c007fe566b",
+      "sid": "omi-media-port.m4a-discrete-versus-continuous-omi-protocol-proofs-m4a"
+    },
+    {
+      "bytes": 32853280,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-eliminating-clock-drift-with-atomic-kernel-1-m4a.omilisp",
+      "relative_path": "m4a/Eliminating_clock_drift_with_Atomic_Kernel (1).m4a",
+      "sha256": "c4be86852b72ceed4c1ef8e1807ac772fbbae794226cd7e37422c601cf2cea16",
+      "sid": "omi-media-port.m4a-eliminating-clock-drift-with-atomic-kernel-1-m4a"
+    },
+    {
+      "bytes": 38955054,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-ending-rented-reality-with-omi-architecture-m4a.omilisp",
+      "relative_path": "m4a/Ending_Rented_Reality_with_OMI_Architecture.m4a",
+      "sha256": "9192d5a97d2c42843cd7edaf37e351eb09e54a359013c9dcf25c0f5c8f5d0a37",
+      "sid": "omi-media-port.m4a-ending-rented-reality-with-omi-architecture-m4a"
+    },
+    {
+      "bytes": 39325701,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-ending-digital-lag-with-the-atomic-kernel-m4a.omilisp",
+      "relative_path": "m4a/Ending_digital_lag_with_the_Atomic_Kernel.m4a",
+      "sha256": "58648fe05426ab6c5205989b1874c06eba34eeec99ab9073b74434b22d4809f7",
+      "sid": "omi-media-port.m4a-ending-digital-lag-with-the-atomic-kernel-m4a"
+    },
+    {
+      "bytes": 43848402,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-ending-platform-lock-in-with-omi-math-m4a.omilisp",
+      "relative_path": "m4a/Ending_platform_lock-in_with_OMI_math.m4a",
+      "sha256": "f344467973a99938c23a8daf8b05eab8ada8b331cd8b18f97917c29f7b96bed7",
+      "sid": "omi-media-port.m4a-ending-platform-lock-in-with-omi-math-m4a"
+    },
+    {
+      "bytes": 36766913,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-ending-the-corporate-monopoly-on-spatial-truth-m4a.omilisp",
+      "relative_path": "m4a/Ending_the_corporate_monopoly_on_spatial_truth.m4a",
+      "sha256": "c2a7eb8125ce701edddab3127a704ddc879f1b11f3c092426b3db873789325e6",
+      "sid": "omi-media-port.m4a-ending-the-corporate-monopoly-on-spatial-truth-m4a"
+    },
+    {
+      "bytes": 36474705,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-geometric-laws-for-accountable-ai-m4a.omilisp",
+      "relative_path": "m4a/Geometric_Laws_for_Accountable_AI.m4a",
+      "sha256": "ded621c5e54f83297904981717b23668b26b5d1f85d8692e09f0bbeac11b07ec",
+      "sid": "omi-media-port.m4a-geometric-laws-for-accountable-ai-m4a"
+    },
+    {
+      "bytes": 35842478,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-geometric-consensus-via-seven-dimensional-hilbert-space-m4a.omilisp",
+      "relative_path": "m4a/Geometric_consensus_via_seven_dimensional_Hilbert_space.m4a",
+      "sha256": "6063ce4d38528e4091b45983291717cf399e214ca0dca7944f2a4ac644017622",
+      "sid": "omi-media-port.m4a-geometric-consensus-via-seven-dimensional-hilbert-space-m4a"
+    },
+    {
+      "bytes": 35571934,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-how-omi-turns-agreement-into-architecture-m4a.omilisp",
+      "relative_path": "m4a/How_OMI_Turns_Agreement_into_Architecture.m4a",
+      "sha256": "7e642e7a895fbdd22564fea82dd45138a3489e5e24d66c8ee740a933b92bfc8a",
+      "sid": "omi-media-port.m4a-how-omi-turns-agreement-into-architecture-m4a"
+    },
+    {
+      "bytes": 41231345,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-how-omi-protocol-receipts-stop-hallucinated-authority-m4a.omilisp",
+      "relative_path": "m4a/How_OMI_protocol_receipts_stop_hallucinated_authority.m4a",
+      "sha256": "6e8bfa9c519cfa88efd52eadf2b58ad852503fae1cd99e46727b5fcd2836deda",
+      "sid": "omi-media-port.m4a-how-omi-protocol-receipts-stop-hallucinated-authority-m4a"
+    },
+    {
+      "bytes": 30982747,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-how-omi-replaces-memory-with-geometry-m4a.omilisp",
+      "relative_path": "m4a/How_Omi_Replaces_Memory_with_Geometry.m4a",
+      "sha256": "00d2a327fa633261575e047678325b4d09ae77b590b186c77c5ab80faa9c5e9b",
+      "sid": "omi-media-port.m4a-how-omi-replaces-memory-with-geometry-m4a"
+    },
+    {
+      "bytes": 40727609,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-mind-git-and-the-geometry-of-consciousness-1-m4a.omilisp",
+      "relative_path": "m4a/MIND-GIT_and_the_Geometry_of_Consciousness (1).m4a",
+      "sha256": "385f32874c8e62ddfe6449b9f1380afa3427d684f61ff9551a3d5c61f5696dc8",
+      "sid": "omi-media-port.m4a-mind-git-and-the-geometry-of-consciousness-1-m4a"
+    },
+    {
+      "bytes": 37766799,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-making-data-breaches-mathematically-impossible-m4a.omilisp",
+      "relative_path": "m4a/Making_data_breaches_mathematically_impossible.m4a",
+      "sha256": "f05a49a56239899c88e6de7b273b261e83566992b93f3cab11203d330272ee94",
+      "sid": "omi-media-port.m4a-making-data-breaches-mathematically-impossible-m4a"
+    },
+    {
+      "bytes": 41012347,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-making-software-chaos-mathematically-impossible-1-m4a.omilisp",
+      "relative_path": "m4a/Making_software_chaos_mathematically_impossible (1).m4a",
+      "sha256": "8a41323ad6652a0fe104b4def76b811bc89b6798845e69513c21a8919221ca83",
+      "sid": "omi-media-port.m4a-making-software-chaos-mathematically-impossible-1-m4a"
+    },
+    {
+      "bytes": 35471831,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-mapping-assembly-language-to-biological-genetics-1-m4a.omilisp",
+      "relative_path": "m4a/Mapping_Assembly_Language_to_Biological_Genetics (1).m4a",
+      "sha256": "93a8df8f58075d2695cbdbe88fc77f173f654e7825f316f678759b307576f794",
+      "sid": "omi-media-port.m4a-mapping-assembly-language-to-biological-genetics-1-m4a"
+    },
+    {
+      "bytes": 41386729,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-mathematically-proving-truth-with-omicron-m4a.omilisp",
+      "relative_path": "m4a/Mathematically_Proving_Truth_with_Omicron.m4a",
+      "sha256": "5d5618f04f18864883d52d84f97b0f471d3df13f8951a14695efc89896101970",
+      "sid": "omi-media-port.m4a-mathematically-proving-truth-with-omicron-m4a"
+    },
+    {
+      "bytes": 44124923,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-omi-architecture-and-absolute-geometric-truth-m4a.omilisp",
+      "relative_path": "m4a/OMI_Architecture_and_Absolute_Geometric_Truth.m4a",
+      "sha256": "698f8dd51ea246ca2577f120220e9af2c02e89cb69e7503dde4e63fc41170ef2",
+      "sid": "omi-media-port.m4a-omi-architecture-and-absolute-geometric-truth-m4a"
+    },
+    {
+      "bytes": 40342768,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-omi-protocol-structural-identity-without-hashes-m4a.omilisp",
+      "relative_path": "m4a/OMI_protocol_structural_identity_without_hashes.m4a",
+      "sha256": "25a1658210b5fa1e866d67f83a7c10a588fe0dd9d06ddee872b640c1a57773b9",
+      "sid": "omi-media-port.m4a-omi-protocol-structural-identity-without-hashes-m4a"
+    },
+    {
+      "bytes": 42590672,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-omi-math-and-the-sovereign-agreement-mesh-m4a.omilisp",
+      "relative_path": "m4a/Omi_Math_and_the_Sovereign_Agreement_Mesh.m4a",
+      "sha256": "d3f07d51bad95ff7975a8020f5fe5e66d1634421372babc230330a0d5f217225",
+      "sid": "omi-media-port.m4a-omi-math-and-the-sovereign-agreement-mesh-m4a"
+    },
+    {
+      "bytes": 39047687,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-omicron-object-model-and-base-60-math-m4a.omilisp",
+      "relative_path": "m4a/Omicron_Object_Model_and_Base-60_Math.m4a",
+      "sha256": "18766860170b271c25fe1bca93a15f37d3752559373023db3078d38af97e487a",
+      "sid": "omi-media-port.m4a-omicron-object-model-and-base-60-math-m4a"
+    },
+    {
+      "bytes": 55596128,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-place-value-versus-sign-value-in-omi-m4a.omilisp",
+      "relative_path": "m4a/Place-Value_Versus_Sign-Value_in_OMI.m4a",
+      "sha256": "41c62afcb8a6aeb65f84ca0341b484d3d882c8f7d0a57e2c2730891b880c6c34",
+      "sid": "omi-media-port.m4a-place-value-versus-sign-value-in-omi-m4a"
+    },
+    {
+      "bytes": 41318749,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-proving-digital-truth-with-atomic-kernel-2-m4a.omilisp",
+      "relative_path": "m4a/Proving_Digital_Truth_with_Atomic_Kernel (2).m4a",
+      "sha256": "0319941c24fa91ac94f4d5967d3eb26a54df15c60b802e7cc2fc24c9aff1a7ac",
+      "sid": "omi-media-port.m4a-proving-digital-truth-with-atomic-kernel-2-m4a"
+    },
+    {
+      "bytes": 41747665,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-proving-digital-truth-with-omi-geometry-m4a.omilisp",
+      "relative_path": "m4a/Proving_Digital_Truth_with_OMI_Geometry.m4a",
+      "sha256": "b3b78f0916ee23bddc00ef7623212a2f609c12eb154111c4202e2d66433fe595",
+      "sid": "omi-media-port.m4a-proving-digital-truth-with-omi-geometry-m4a"
+    },
+    {
+      "bytes": 40392073,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-replacing-digital-gossip-with-mathematical-truth-m4a.omilisp",
+      "relative_path": "m4a/Replacing_Digital_Gossip_with_Mathematical_Truth.m4a",
+      "sha256": "88425dd0df61040cb91eb5a215db084744dfc740005497db7bac622f1b6b50e6",
+      "sid": "omi-media-port.m4a-replacing-digital-gossip-with-mathematical-truth-m4a"
+    },
+    {
+      "bytes": 36117505,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-replacing-coordinate-grids-with-relational-geometry-m4a.omilisp",
+      "relative_path": "m4a/Replacing_coordinate_grids_with_relational_geometry.m4a",
+      "sha256": "904608705764034a9e70d48804c15fb00bc0a042c2467a2ac4a67c9b4fadb804",
+      "sid": "omi-media-port.m4a-replacing-coordinate-grids-with-relational-geometry-m4a"
+    },
+    {
+      "bytes": 38028378,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-replacing-coordinate-math-with-omi-incidence-m4a.omilisp",
+      "relative_path": "m4a/Replacing_coordinate_math_with_OMI_incidence.m4a",
+      "sha256": "f1f229802ad13c16b79d176831001a468f634ce0b17b64376db01edf65187468",
+      "sid": "omi-media-port.m4a-replacing-coordinate-math-with-omi-incidence-m4a"
+    },
+    {
+      "bytes": 36840123,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-replacing-flat-files-with-living-wavelengths-m4a.omilisp",
+      "relative_path": "m4a/Replacing_flat_files_with_living_wavelengths.m4a",
+      "sha256": "ddc4ddb21bcabb43a10fc0f6507ca6bb971fe6b25534797e6a6e330f188322b2",
+      "sid": "omi-media-port.m4a-replacing-flat-files-with-living-wavelengths-m4a"
+    },
+    {
+      "bytes": 39182901,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-replacing-floating-point-math-with-absolute-truth-m4a.omilisp",
+      "relative_path": "m4a/Replacing_floating-point_math_with_absolute_truth.m4a",
+      "sha256": "100d6abd97f4a707ad3719985e161ef98c27a5a6576bf815ef976f86b4e226dc",
+      "sid": "omi-media-port.m4a-replacing-floating-point-math-with-absolute-truth-m4a"
+    },
+    {
+      "bytes": 38869028,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-replacing-numeric-coordinates-with-relational-geometry-m4a.omilisp",
+      "relative_path": "m4a/Replacing_numeric_coordinates_with_relational_geometry.m4a",
+      "sha256": "defe086026e03da47d16b9a3d12cb085e12297d03a9ad1ef79d737e87fe95e4c",
+      "sid": "omi-media-port.m4a-replacing-numeric-coordinates-with-relational-geometry-m4a"
+    },
+    {
+      "bytes": 69183667,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-replayable-trust-through-the-omi-protocol-m4a.omilisp",
+      "relative_path": "m4a/Replayable_trust_through_the_OMI_protocol.m4a",
+      "sha256": "3ed3056c7f13d86e817f1b780f7bc3f869a3f614562dc17652eddc1d699bb08f",
+      "sid": "omi-media-port.m4a-replayable-trust-through-the-omi-protocol-m4a"
+    },
+    {
+      "bytes": 43003901,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-structural-identity-versus-digital-hashes-m4a.omilisp",
+      "relative_path": "m4a/Structural_Identity_Versus_Digital_Hashes.m4a",
+      "sha256": "ed78503e0990f7f971d06b8f21d1f2e71892d01d543603ca5d6bdfaa2db8b305",
+      "sid": "omi-media-port.m4a-structural-identity-versus-digital-hashes-m4a"
+    },
+    {
+      "bytes": 40443619,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-tetragrammatron-and-the-decentralized-semantic-internet-1-m4a.omilisp",
+      "relative_path": "m4a/Tetragrammatron_and_the_decentralized_semantic_internet (1).m4a",
+      "sha256": "0c6ea36097a7a7d832def579c3a516cf0b4a6771611cadebcfde0754052a712f",
+      "sid": "omi-media-port.m4a-tetragrammatron-and-the-decentralized-semantic-internet-1-m4a"
+    },
+    {
+      "bytes": 37160718,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-the-16-bit-machine-that-breathes-pi-m4a.omilisp",
+      "relative_path": "m4a/The_16-bit_machine_that_breathes_Pi.m4a",
+      "sha256": "c3c14cfaf297c836de820f45390a39b3abec6fcd59149ee124eb4c6cb0cdd6b4",
+      "sid": "omi-media-port.m4a-the-16-bit-machine-that-breathes-pi-m4a"
+    },
+    {
+      "bytes": 38999129,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-the-91-word-self-hosting-omi-isa-compiler-m4a.omilisp",
+      "relative_path": "m4a/The_91-word_self-hosting_OMI-ISA_compiler.m4a",
+      "sha256": "6f4d06ca0b6e931f0a162ef184d853ceb02219c83479c4b4b96ee38eff5346c7",
+      "sid": "omi-media-port.m4a-the-91-word-self-hosting-omi-isa-compiler-m4a"
+    },
+    {
+      "bytes": 35995717,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-the-atomic-kernel-blueprint-for-verifiable-truth-1-m4a.omilisp",
+      "relative_path": "m4a/The_Atomic_Kernel_Blueprint_for_Verifiable_Truth (1).m4a",
+      "sha256": "6a279685396a6f079294713d4c452c3e56b126085e74ad2631d83f378d9a2952",
+      "sid": "omi-media-port.m4a-the-atomic-kernel-blueprint-for-verifiable-truth-1-m4a"
+    },
+    {
+      "bytes": 42106475,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-the-atomic-kernel-digital-physics-engine-1-m4a.omilisp",
+      "relative_path": "m4a/The_Atomic_Kernel_Digital_Physics_Engine (1).m4a",
+      "sha256": "801df3174299124fcd5ba3360b40b0071d0b0a76296025376ce22b65341224b6",
+      "sid": "omi-media-port.m4a-the-atomic-kernel-digital-physics-engine-1-m4a"
+    },
+    {
+      "bytes": 38443100,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-the-bitwise-physics-of-the-ttc-1-m4a.omilisp",
+      "relative_path": "m4a/The_Bitwise_Physics_of_the_TTC (1).m4a",
+      "sha256": "405e1cf41ba2a67d28b71624fb10bd903872a41399e245066d246a231fd50769",
+      "sid": "omi-media-port.m4a-the-bitwise-physics-of-the-ttc-1-m4a"
+    },
+    {
+      "bytes": 35003953,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-the-hyperverse-ttc-post-file-paradigm-1-m4a.omilisp",
+      "relative_path": "m4a/The_Hyperverse_TTC_Post_File_Paradigm (1).m4a",
+      "sha256": "dc748d0c8040eca379b03a5121c138c028b312e0ea18ea35813142f2e1980a55",
+      "sid": "omi-media-port.m4a-the-hyperverse-ttc-post-file-paradigm-1-m4a"
+    },
+    {
+      "bytes": 37312483,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-the-light-garden-and-fano-plane-2-m4a.omilisp",
+      "relative_path": "m4a/The_Light_Garden_and_Fano_plane (2).m4a",
+      "sha256": "1e36363a641de4b9b8cfe1799574300cf25e97838a3df42e2775394824cc53e3",
+      "sid": "omi-media-port.m4a-the-light-garden-and-fano-plane-2-m4a"
+    },
+    {
+      "bytes": 36630089,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-the-omi-protocol-ends-digital-deception-m4a.omilisp",
+      "relative_path": "m4a/The_OMI_protocol_ends_digital_deception.m4a",
+      "sha256": "bc6362bcda93a232a1d309e2e4fca038167ccc440300b3a4e9ed8c4ca1d341f4",
+      "sid": "omi-media-port.m4a-the-omi-protocol-ends-digital-deception-m4a"
+    },
+    {
+      "bytes": 38234561,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-the-triple-tetrahedral-complex-bitwise-law-1-m4a.omilisp",
+      "relative_path": "m4a/The_Triple_Tetrahedral_Complex_bitwise_law (1).m4a",
+      "sha256": "5893c8f51dfd58ad17ba51d3785962265e4b13f02be15960b26a05f2b3a4fc5f",
+      "sid": "omi-media-port.m4a-the-triple-tetrahedral-complex-bitwise-law-1-m4a"
+    },
+    {
+      "bytes": 42480111,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-the-geometric-code-that-generates-time-1-m4a.omilisp",
+      "relative_path": "m4a/The_geometric_code_that_generates_time (1).m4a",
+      "sha256": "eed565adf43765e4979704af78285f74646334d4a37ce86f41ae94631d2cda07",
+      "sid": "omi-media-port.m4a-the-geometric-code-that-generates-time-1-m4a"
+    },
+    {
+      "bytes": 36015160,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-the-math-behind-the-omi-object-model-m4a.omilisp",
+      "relative_path": "m4a/The_math_behind_the_OMI_Object_Model.m4a",
+      "sha256": "f94369dcd557f3b27fc57de4c189af00ca4bc34972119d77573f3b979ed66b7c",
+      "sid": "omi-media-port.m4a-the-math-behind-the-omi-object-model-m4a"
+    },
+    {
+      "bytes": 41464485,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-the-universe-in-16-bits-m4a.omilisp",
+      "relative_path": "m4a/The_universe_in_16_bits.m4a",
+      "sha256": "1021391bb5a06827e6d4a3eb296655b5267f1959f56de2b697473111182a9c20",
+      "sid": "omi-media-port.m4a-the-universe-in-16-bits-m4a"
+    },
+    {
+      "bytes": 40235195,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-turning-barcodes-into-decentralized-mathematical-objects-m4a.omilisp",
+      "relative_path": "m4a/Turning_Barcodes_Into_Decentralized_Mathematical_Objects.m4a",
+      "sha256": "1ca8d86a61736d440fdd20ebd74d2fc9ca9464dadf4fdd4073882ee669443102",
+      "sid": "omi-media-port.m4a-turning-barcodes-into-decentralized-mathematical-objects-m4a"
+    },
+    {
+      "bytes": 36344720,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-universal-binary-transformer-and-tetrahedral-geometry-4-m4a.omilisp",
+      "relative_path": "m4a/Universal_Binary_Transformer_and_tetrahedral_geometry (4).m4a",
+      "sha256": "8e81d4c10295c0c1c2f97fb04fa14f050bdfa582d0b1b4b3d4c4dd29a75e786e",
+      "sid": "omi-media-port.m4a-universal-binary-transformer-and-tetrahedral-geometry-4-m4a"
+    },
+    {
+      "bytes": 43458332,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-universal-geometry-inside-a-walkie-talkie-m4a.omilisp",
+      "relative_path": "m4a/Universal_geometry_inside_a_walkie_talkie.m4a",
+      "sha256": "63f0d918e4ac219bca60baa814f955479139ac5e506e588529c6e943e4eee170",
+      "sid": "omi-media-port.m4a-universal-geometry-inside-a-walkie-talkie-m4a"
+    },
+    {
+      "bytes": 35888795,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-when-the-memory-address-is-the-shape-m4a.omilisp",
+      "relative_path": "m4a/When_the_memory_address_is_the_shape.m4a",
+      "sha256": "dfb7819424ffd9a8c46d5c595b37f87e88fb8ed445b4059d850a1790b76671e1",
+      "sid": "omi-media-port.m4a-when-the-memory-address-is-the-shape-m4a"
+    },
+    {
+      "bytes": 38660605,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-why-omi-protocol-deletes-digital-coordinates-m4a.omilisp",
+      "relative_path": "m4a/Why_OMI_Protocol_deletes_digital_coordinates.m4a",
+      "sha256": "9970506cfd3e5c41784d176921e30e838887ea501e3f9bcc0a96259594114cf7",
+      "sid": "omi-media-port.m4a-why-omi-protocol-deletes-digital-coordinates-m4a"
+    },
+    {
+      "bytes": 38940860,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-why-omi-treats-constants-as-shadows-m4a.omilisp",
+      "relative_path": "m4a/Why_OMI_treats_constants_as_shadows.m4a",
+      "sha256": "dfeee237842aab3af75f610e9dd766273ac4e5401afd58da9fe0d4f56f52b996",
+      "sid": "omi-media-port.m4a-why-omi-treats-constants-as-shadows-m4a"
+    },
+    {
+      "bytes": 36145892,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-why-rendering-does-not-equal-believing-m4a.omilisp",
+      "relative_path": "m4a/Why_Rendering_Does_Not_Equal_Believing.m4a",
+      "sha256": "ac69d7967894caefbd1265430256c14422225c75164ad22a1dd8b757135d64ce",
+      "sid": "omi-media-port.m4a-why-rendering-does-not-equal-believing-m4a"
+    },
+    {
+      "bytes": 35076532,
+      "extension": ".m4a",
+      "family": "artifact",
+      "output": "m4a-why-computers-should-never-trust-pi-m4a.omilisp",
+      "relative_path": "m4a/Why_computers_should_never_trust_Pi.m4a",
+      "sha256": "f53fe91433f5a52ad6123cc0f8a08444ce43ee18c23b137115e90f700b99cb27",
+      "sid": "omi-media-port.m4a-why-computers-should-never-trust-pi-m4a"
+    },
+    {
+      "bytes": 30734836,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-a-world-without-sync-1-mp4.omilisp",
+      "relative_path": "mp4/A_World_Without_Sync (1).mp4",
+      "sha256": "c498788c4b6fd13f0a4100e6862d4e8cb35653b841a792eb5e1de0fabb0b77c0",
+      "sid": "omi-media-port.mp4-a-world-without-sync-1-mp4"
+    },
+    {
+      "bytes": 39514376,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-agreement-is-all-you-need-mp4.omilisp",
+      "relative_path": "mp4/Agreement_Is_All_You_Need.mp4",
+      "sha256": "61e76b64946147e8ff0ec12e3259c50c50dba0aeeb679de90f60034e33018a4b",
+      "sid": "omi-media-port.mp4-agreement-is-all-you-need-mp4"
+    },
+    {
+      "bytes": 33567614,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-atomic-kernel-digital-trust-1-mp4.omilisp",
+      "relative_path": "mp4/Atomic_Kernel__Digital_Trust (1).mp4",
+      "sha256": "6220727abc50fb14a990f431eacf661c3441b3527d12d01350e91bbbaee33cdf",
+      "sid": "omi-media-port.mp4-atomic-kernel-digital-trust-1-mp4"
+    },
+    {
+      "bytes": 30627773,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-atomic-kernel-provable-truth-1-mp4.omilisp",
+      "relative_path": "mp4/Atomic_Kernel__Provable_Truth (1).mp4",
+      "sha256": "aa10b768da37970be47b647ee6b9e1f646012cd56c67fa001b1dc1b5dc13e6be",
+      "sid": "omi-media-port.mp4-atomic-kernel-provable-truth-1-mp4"
+    },
+    {
+      "bytes": 42232172,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-atomic-kernel-verifiable-truth-mp4.omilisp",
+      "relative_path": "mp4/Atomic_Kernel__Verifiable_Truth.mp4",
+      "sha256": "a24a61361a5956ceb3b6d720d04937abb5d37448c7ec4824f6c78f27d166d332",
+      "sid": "omi-media-port.mp4-atomic-kernel-verifiable-truth-mp4"
+    },
+    {
+      "bytes": 39257847,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-atomic-kernel-verifiable-worlds-1-mp4.omilisp",
+      "relative_path": "mp4/Atomic_Kernel__Verifiable_Worlds (1).mp4",
+      "sha256": "c996df5e07b2576283c6d4ddb804ae7a86f41df5117b06164239775dd6f25d97",
+      "sid": "omi-media-port.mp4-atomic-kernel-verifiable-worlds-1-mp4"
+    },
+    {
+      "bytes": 31541169,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-constants-without-constants-1-mp4.omilisp",
+      "relative_path": "mp4/Constants_Without_Constants (1).mp4",
+      "sha256": "bcebea43b2d31a9c73ee82d938b50686a2883606346bbdb6615bdec915c0ef6f",
+      "sid": "omi-media-port.mp4-constants-without-constants-1-mp4"
+    },
+    {
+      "bytes": 41047328,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-constants-without-constants-2-mp4.omilisp",
+      "relative_path": "mp4/Constants_Without_Constants (2).mp4",
+      "sha256": "815e4db49544caf911d350aa2a069bcd978a28f40ee99ef9d19645979ab97a45",
+      "sid": "omi-media-port.mp4-constants-without-constants-2-mp4"
+    },
+    {
+      "bytes": 42553618,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-constants-without-constants-3-mp4.omilisp",
+      "relative_path": "mp4/Constants_Without_Constants (3).mp4",
+      "sha256": "ade6070462d20a717c4e82f45a4e0e01157bb2099ed3852e47664abd34e6dd4d",
+      "sid": "omi-media-port.mp4-constants-without-constants-3-mp4"
+    },
+    {
+      "bytes": 37538748,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-constants-without-constants-4-mp4.omilisp",
+      "relative_path": "mp4/Constants_Without_Constants (4).mp4",
+      "sha256": "a8b01a16e4fe785dc528e84acd1120468a5866ccbb07ac35e29455de815a34ef",
+      "sid": "omi-media-port.mp4-constants-without-constants-4-mp4"
+    },
+    {
+      "bytes": 44065669,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-constants-without-constants-5-mp4.omilisp",
+      "relative_path": "mp4/Constants_Without_Constants (5).mp4",
+      "sha256": "745e48b2a42a131601eef6e9c81eee8acf128762a859f0acbf5b77fa2007046c",
+      "sid": "omi-media-port.mp4-constants-without-constants-5-mp4"
+    },
+    {
+      "bytes": 38507020,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-constants-without-constants-6-mp4.omilisp",
+      "relative_path": "mp4/Constants_Without_Constants (6).mp4",
+      "sha256": "6f7dff6d6988ec3fe8b3e1a9911ad76a7045883f76d56202a1c5ab3bc9e8a6ac",
+      "sid": "omi-media-port.mp4-constants-without-constants-6-mp4"
+    },
+    {
+      "bytes": 37249166,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-constants-without-constants-mp4.omilisp",
+      "relative_path": "mp4/Constants_Without_Constants.mp4",
+      "sha256": "139d01372916e8cfa9b06acf99614b7890d9e7af441433f1619d577dbd0a5a93",
+      "sid": "omi-media-port.mp4-constants-without-constants-mp4"
+    },
+    {
+      "bytes": 39754230,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-decoding-omi-object-model-mp4.omilisp",
+      "relative_path": "mp4/Decoding_OMI_Object_Model.mp4",
+      "sha256": "af300c36c070a7a7e6bc4b678b1a7f19c5b64afba8a0de2a35b054638cadca49",
+      "sid": "omi-media-port.mp4-decoding-omi-object-model-mp4"
+    },
+    {
+      "bytes": 39037272,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-gl-16-2-orbit-model-mp4.omilisp",
+      "relative_path": "mp4/GL(16,2)_Orbit_Model.mp4",
+      "sha256": "17a3668e90d343725fb3ee2e5bb74c6e25d6907e71daed7cd6c2763c65274896",
+      "sid": "omi-media-port.mp4-gl-16-2-orbit-model-mp4"
+    },
+    {
+      "bytes": 44799459,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-giving-ai-the-keys-mp4.omilisp",
+      "relative_path": "mp4/Giving_AI_the_Keys.mp4",
+      "sha256": "a0757e65ed4c981fc6af0c312c2b7a90de954b2ea18f16324e23bd102a88efe0",
+      "sid": "omi-media-port.mp4-giving-ai-the-keys-mp4"
+    },
+    {
+      "bytes": 44662313,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-gnomic-omicron-model-1-mp4.omilisp",
+      "relative_path": "mp4/Gnomic_Omicron_Model (1).mp4",
+      "sha256": "d2fdf51088e5898aa41264e5051f4e52d43d76a8da8e0c000af1da18de79d4cc",
+      "sid": "omi-media-port.mp4-gnomic-omicron-model-1-mp4"
+    },
+    {
+      "bytes": 48729540,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-gnomic-omicron-model-2-mp4.omilisp",
+      "relative_path": "mp4/Gnomic_Omicron_Model (2).mp4",
+      "sha256": "9c15558394d462057f2a527ca07d670ca03d458a3fae01898def258f6ba89573",
+      "sid": "omi-media-port.mp4-gnomic-omicron-model-2-mp4"
+    },
+    {
+      "bytes": 53391285,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-gnomic-omicron-model-mp4.omilisp",
+      "relative_path": "mp4/Gnomic_Omicron_Model.mp4",
+      "sha256": "42138a46c8a565e94fc3e020af3574423026f1cea170c254045be3235fa8b3dd",
+      "sid": "omi-media-port.mp4-gnomic-omicron-model-mp4"
+    },
+    {
+      "bytes": 28360269,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-ll-ket-of-omi-truth-row-mp4.omilisp",
+      "relative_path": "mp4/LL__Ket_of_OMI_Truth_Row.mp4",
+      "sha256": "1990909836b488b7040959001ff268a8f6a5a8c6cd0ae6052464dd62f75d4fb1",
+      "sid": "omi-media-port.mp4-ll-ket-of-omi-truth-row-mp4"
+    },
+    {
+      "bytes": 46109203,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-light-garden-1-mp4.omilisp",
+      "relative_path": "mp4/Light_Garden (1).mp4",
+      "sha256": "cc3fb03c8dcdeb2546b4a25af080f256db2baaa4d69509e91ce5c2d7d50a9d01",
+      "sid": "omi-media-port.mp4-light-garden-1-mp4"
+    },
+    {
+      "bytes": 53342320,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-mind-git-programming-in-3d-space-1-mp4.omilisp",
+      "relative_path": "mp4/Mind-Git__Programming_in_3D_Space (1).mp4",
+      "sha256": "e07da05afe90dc09202a27be1f56458d3acfda747f81f5e00b1b5e0a1830bea3",
+      "sid": "omi-media-port.mp4-mind-git-programming-in-3d-space-1-mp4"
+    },
+    {
+      "bytes": 44160630,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-omi-agreement-doctrine-mp4.omilisp",
+      "relative_path": "mp4/OMI_Agreement_Doctrine.mp4",
+      "sha256": "b692cbf4734518668f288db386a155202aee2c85dfaf3eb948b11104b77030d7",
+      "sid": "omi-media-port.mp4-omi-agreement-doctrine-mp4"
+    },
+    {
+      "bytes": 48683424,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-omi-portal-protocol-mp4.omilisp",
+      "relative_path": "mp4/OMI_Portal_Protocol.mp4",
+      "sha256": "3f975c58766ba74beb060625649dca9236aa2fbcca42346d4fa82ad833a96a3d",
+      "sid": "omi-media-port.mp4-omi-portal-protocol-mp4"
+    },
+    {
+      "bytes": 41840209,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-omi-portal-digital-boundary-mp4.omilisp",
+      "relative_path": "mp4/OMI_Portal__Digital_Boundary.mp4",
+      "sha256": "f8872e5c7a3d4916804b216fdb41cf40477b2e2d6eed780875603bd639b9f423",
+      "sid": "omi-media-port.mp4-omi-portal-digital-boundary-mp4"
+    },
+    {
+      "bytes": 47031510,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-omi-notation-as-cipher-mp4.omilisp",
+      "relative_path": "mp4/OMI__Notation_as_Cipher.mp4",
+      "sha256": "0285e80f656f21891a9618ea85082f168adeadb8d825103a35ad75d032698488",
+      "sid": "omi-media-port.mp4-omi-notation-as-cipher-mp4"
+    },
+    {
+      "bytes": 40173842,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-omi-theology-as-code-mp4.omilisp",
+      "relative_path": "mp4/OMI__Theology_as_Code.mp4",
+      "sha256": "7ada0ff9b94e34797f9e81abb8a2c5e4447a8e3eef05b64da154a92e3deffcd3",
+      "sid": "omi-media-port.mp4-omi-theology-as-code-mp4"
+    },
+    {
+      "bytes": 38744430,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-omi-s-exact-constants-mp4.omilisp",
+      "relative_path": "mp4/OMI_s_Exact_Constants.mp4",
+      "sha256": "fa1bc18dc63adf91d28aadf385e8830a484cafc0acd3576e1b4f49e96836a462",
+      "sid": "omi-media-port.mp4-omi-s-exact-constants-mp4"
+    },
+    {
+      "bytes": 38168625,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-os-for-virtual-worlds-1-mp4.omilisp",
+      "relative_path": "mp4/OS_for_Virtual_Worlds (1).mp4",
+      "sha256": "33a3961e3acebb48440d777a1e92314a4c5030bfe1d84b05329fa20eac3daed7",
+      "sid": "omi-media-port.mp4-os-for-virtual-worlds-1-mp4"
+    },
+    {
+      "bytes": 39045400,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-omi-compass-architecture-mp4.omilisp",
+      "relative_path": "mp4/Omi-Compass_Architecture.mp4",
+      "sha256": "4fcab6f374923d1d9aeb644db6b19fc3a7d7d8deadcfc2ce1fab291db6e6b363",
+      "sid": "omi-media-port.mp4-omi-compass-architecture-mp4"
+    },
+    {
+      "bytes": 37306313,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-omicron-binary-quadratic-form-mp4.omilisp",
+      "relative_path": "mp4/Omicron_Binary_Quadratic_Form.mp4",
+      "sha256": "54654406126e9ca7358809a2d3218065f30bbced50525db7e2a30edb747306e4",
+      "sid": "omi-media-port.mp4-omicron-binary-quadratic-form-mp4"
+    },
+    {
+      "bytes": 41410374,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-place-value-identity-mp4.omilisp",
+      "relative_path": "mp4/Place-Value_Identity.mp4",
+      "sha256": "c28d4347f1bbe30937fb0f9e2dd45712ce4123d384d104e24bc2419faeaff721",
+      "sid": "omi-media-port.mp4-place-value-identity-mp4"
+    },
+    {
+      "bytes": 42063517,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-place-value-vs-mp4.omilisp",
+      "relative_path": "mp4/Place-Value_vs.mp4",
+      "sha256": "ce8c4959510b126d349562a0cccd626ecf5d7c76e41ee43f54bce9ff99b72ba1",
+      "sid": "omi-media-port.mp4-place-value-vs-mp4"
+    },
+    {
+      "bytes": 34050536,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-tetragrammatron-1-mp4.omilisp",
+      "relative_path": "mp4/Tetragrammatron (1).mp4",
+      "sha256": "34854dd6c3cf5d1ac46bf7a9d6f5ee0e205cf69cd3f87760554f63205aa49b7d",
+      "sid": "omi-media-port.mp4-tetragrammatron-1-mp4"
+    },
+    {
+      "bytes": 32062161,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-address-is-the-model-mp4.omilisp",
+      "relative_path": "mp4/The_Address_is_the_Model.mp4",
+      "sha256": "c756d8df16be508e22a0d9b3c449d68d7fffdc94c5b802511a4fbe9976193108",
+      "sid": "omi-media-port.mp4-the-address-is-the-model-mp4"
+    },
+    {
+      "bytes": 38820704,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-atomic-kernel-5-mp4.omilisp",
+      "relative_path": "mp4/The_Atomic_Kernel (5).mp4",
+      "sha256": "8f886b847efbbed6a4ccc6cd8a36b8ce9cec7a477a4727191ca8041b8456b739",
+      "sid": "omi-media-port.mp4-the-atomic-kernel-5-mp4"
+    },
+    {
+      "bytes": 42048593,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-atomic-kernel-6-mp4.omilisp",
+      "relative_path": "mp4/The_Atomic_Kernel (6).mp4",
+      "sha256": "aa283c57d5b9e0aca2a98561b6fc5b75253a6513b1330a5483fad4dd68c0dc3e",
+      "sid": "omi-media-port.mp4-the-atomic-kernel-6-mp4"
+    },
+    {
+      "bytes": 35886514,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-bicf-production-system-1-mp4.omilisp",
+      "relative_path": "mp4/The_BICF_Production_System (1).mp4",
+      "sha256": "1bc4f8ccb1872e755207b0aa9da811b53a7a3962cc2cac51f701fc7edfa3090c",
+      "sid": "omi-media-port.mp4-the-bicf-production-system-1-mp4"
+    },
+    {
+      "bytes": 42934116,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-bridge-and-the-mirror-mp4.omilisp",
+      "relative_path": "mp4/The_Bridge_and_The_Mirror.mp4",
+      "sha256": "b469af72ef0596e45d61dc3b1043ce7e9b9123f573cb319bc7a914797f595fc3",
+      "sid": "omi-media-port.mp4-the-bridge-and-the-mirror-mp4"
+    },
+    {
+      "bytes": 38187619,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-code-with-a-constitution-1-mp4.omilisp",
+      "relative_path": "mp4/The_Code_with_a_Constitution (1).mp4",
+      "sha256": "c02b384dc1080521f1ad16a994c76d4fd762aa1304ccd8971c20c3fe74ad9929",
+      "sid": "omi-media-port.mp4-the-code-with-a-constitution-1-mp4"
+    },
+    {
+      "bytes": 48281976,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-explainer-omi-mp4.omilisp",
+      "relative_path": "mp4/The_Explainer__OMI.mp4",
+      "sha256": "57e1e1cc4c3a0c7ec3cf0cb2b438ff6b5e2f771acfaae438afa0349484c51213",
+      "sid": "omi-media-port.mp4-the-explainer-omi-mp4"
+    },
+    {
+      "bytes": 35289825,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-hyperverse-ttc-1-mp4.omilisp",
+      "relative_path": "mp4/The_Hyperverse_TTC (1).mp4",
+      "sha256": "4029f1bf3253022b0f081df91a79fb3d1e42644c8179c60439008df5ed68909f",
+      "sid": "omi-media-port.mp4-the-hyperverse-ttc-1-mp4"
+    },
+    {
+      "bytes": 36698433,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-metaverse-build-runtime-1-mp4.omilisp",
+      "relative_path": "mp4/The_Metaverse_Build_Runtime (1).mp4",
+      "sha256": "42b5495bcac369af1f4fbd99f98354c691a808a5b69195bbc205608c2fa13425",
+      "sid": "omi-media-port.mp4-the-metaverse-build-runtime-1-mp4"
+    },
+    {
+      "bytes": 43660093,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-isa-project-mp4.omilisp",
+      "relative_path": "mp4/The_OMI-ISA_Project.mp4",
+      "sha256": "2d70c12081d2e039565716d5bc4930098faae9744d0d9a784aec48ff2e61c494",
+      "sid": "omi-media-port.mp4-the-omi-isa-project-mp4"
+    },
+    {
+      "bytes": 40804924,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-isa-protocol-mp4.omilisp",
+      "relative_path": "mp4/The_OMI-ISA_Protocol.mp4",
+      "sha256": "855d1092c63036f85fa69895597614b8d8eadc003e9147fe15df044c18e53a1a",
+      "sid": "omi-media-port.mp4-the-omi-isa-protocol-mp4"
+    },
+    {
+      "bytes": 34417694,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-architecture-1-mp4.omilisp",
+      "relative_path": "mp4/The_OMI_Architecture (1).mp4",
+      "sha256": "7264a06afd2da02f158a5fd036b479289f155c7d94c0f05f6cb4e3d4e8d1562c",
+      "sid": "omi-media-port.mp4-the-omi-architecture-1-mp4"
+    },
+    {
+      "bytes": 45502785,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-architecture-mp4.omilisp",
+      "relative_path": "mp4/The_OMI_Architecture.mp4",
+      "sha256": "5233f654c0f00bc0d30136bfc8b6cf54d2d46eca1fca73d53c93940a6f6c0bdd",
+      "sid": "omi-media-port.mp4-the-omi-architecture-mp4"
+    },
+    {
+      "bytes": 37105925,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-collapse-mp4.omilisp",
+      "relative_path": "mp4/The_OMI_Collapse.mp4",
+      "sha256": "b2a75413e50cd31f549d20311a76ab2b03b07533f981d76e88720c8639642004",
+      "sid": "omi-media-port.mp4-the-omi-collapse-mp4"
+    },
+    {
+      "bytes": 42157880,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-object-model-mp4.omilisp",
+      "relative_path": "mp4/The_OMI_Object_Model.mp4",
+      "sha256": "6a4e6d2aba41b95a9754f5682e114f83c2bb26012edf4d734a5df1388476475d",
+      "sid": "omi-media-port.mp4-the-omi-object-model-mp4"
+    },
+    {
+      "bytes": 36170211,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-paradigm-mp4.omilisp",
+      "relative_path": "mp4/The_OMI_Paradigm.mp4",
+      "sha256": "2b1a96d099603e54c864f002026f385702269c5cf41d38f7ca66358bc724829e",
+      "sid": "omi-media-port.mp4-the-omi-paradigm-mp4"
+    },
+    {
+      "bytes": 44886522,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-protocol-1-mp4.omilisp",
+      "relative_path": "mp4/The_OMI_Protocol (1).mp4",
+      "sha256": "4ce8617961314859750646c334442bfd709e7421a4405a0ca320746c052d3031",
+      "sid": "omi-media-port.mp4-the-omi-protocol-1-mp4"
+    },
+    {
+      "bytes": 40892860,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-protocol-2-mp4.omilisp",
+      "relative_path": "mp4/The_OMI_Protocol (2).mp4",
+      "sha256": "ef2d2e0cc982e6d33c29d734f1a6bf965eec9b1199e96ff5fd88f0cc828497a1",
+      "sid": "omi-media-port.mp4-the-omi-protocol-2-mp4"
+    },
+    {
+      "bytes": 43136191,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-protocol-3-mp4.omilisp",
+      "relative_path": "mp4/The_OMI_Protocol (3).mp4",
+      "sha256": "355a67c3fb006e3cb22cb030f9f08d3d1ac6282333ab2ef19f9e1fb51ccce131",
+      "sid": "omi-media-port.mp4-the-omi-protocol-3-mp4"
+    },
+    {
+      "bytes": 51868486,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-protocol-mp4.omilisp",
+      "relative_path": "mp4/The_OMI_Protocol.mp4",
+      "sha256": "585cd92639cf260338f5d4566c55655a40255641d731b4245e6d58008a470fc2",
+      "sid": "omi-media-port.mp4-the-omi-protocol-mp4"
+    },
+    {
+      "bytes": 42837043,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-system-mp4.omilisp",
+      "relative_path": "mp4/The_OMI_System.mp4",
+      "sha256": "3063a6ad259f0e7eca043d08f41b0cac7e9a66ea34dad9547a8572d5cf1b3143",
+      "sid": "omi-media-port.mp4-the-omi-system-mp4"
+    },
+    {
+      "bytes": 38397547,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-matrix-mp4.omilisp",
+      "relative_path": "mp4/The_Omi-Matrix.mp4",
+      "sha256": "463a548b52a5d5826a16a48abfd7346fea369dcdf0ef80bacce89ecd5669e7ce",
+      "sid": "omi-media-port.mp4-the-omi-matrix-mp4"
+    },
+    {
+      "bytes": 46260585,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omi-object-model-mp4.omilisp",
+      "relative_path": "mp4/The_Omi_Object_Model.mp4",
+      "sha256": "88e4664465675ed345defc19235341de2f94d0181080919b215e6762a132a591",
+      "sid": "omi-media-port.mp4-the-omi-object-model-mp4"
+    },
+    {
+      "bytes": 41245833,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-omicron-object-model-mp4.omilisp",
+      "relative_path": "mp4/The_Omicron_Object_Model.mp4",
+      "sha256": "d167e30e0d1e53ce4b67a4ef5c2c7f3f86c23292859c06de97bfcf6a4d6eb4ec",
+      "sid": "omi-media-port.mp4-the-omicron-object-model-mp4"
+    },
+    {
+      "bytes": 36146615,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-open-world-portal-1-mp4.omilisp",
+      "relative_path": "mp4/The_Open-World_Portal (1).mp4",
+      "sha256": "6dbdbd8488b2fe719e3b4aef4186da8ba5036a50be2bdc1cb527ddd6f05dd683",
+      "sid": "omi-media-port.mp4-the-open-world-portal-1-mp4"
+    },
+    {
+      "bytes": 41473361,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-open-world-portal-mp4.omilisp",
+      "relative_path": "mp4/The_Open-World_Portal.mp4",
+      "sha256": "9fab1083b8cae96dbf9630ecbf9984f6b9e865344b9887cdb8dd8ab0857cbeac",
+      "sid": "omi-media-port.mp4-the-open-world-portal-mp4"
+    },
+    {
+      "bytes": 35364757,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-software-crystal-4-mp4.omilisp",
+      "relative_path": "mp4/The_Software_Crystal (4).mp4",
+      "sha256": "a4cd30d3c0a80fcfdb50b397e3b83be9cb03118832ee61fb23fd01edd96cd605",
+      "sid": "omi-media-port.mp4-the-software-crystal-4-mp4"
+    },
+    {
+      "bytes": 46682068,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-software-crystal-5-mp4.omilisp",
+      "relative_path": "mp4/The_Software_Crystal (5).mp4",
+      "sha256": "bfc1a925d96fbc98acd94f79dcee5d2da1cc0f2924591f62ec027712d1134c7e",
+      "sid": "omi-media-port.mp4-the-software-crystal-5-mp4"
+    },
+    {
+      "bytes": 43653658,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-software-crystal-6-mp4.omilisp",
+      "relative_path": "mp4/The_Software_Crystal (6).mp4",
+      "sha256": "7387a50e89f98204321c9616c241904e0c2ebf9c281c236291abb99effc0c6a6",
+      "sid": "omi-media-port.mp4-the-software-crystal-6-mp4"
+    },
+    {
+      "bytes": 47294810,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-the-tower-of-powers-mp4.omilisp",
+      "relative_path": "mp4/The_Tower_of_Powers.mp4",
+      "sha256": "26031abb1f06b3038e7bd279fc7077364dec073e511882bb7cc1ff5545fec419",
+      "sid": "omi-media-port.mp4-the-tower-of-powers-mp4"
+    },
+    {
+      "bytes": 40731026,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-time-logos-the-invariant-1-mp4.omilisp",
+      "relative_path": "mp4/Time,_Logos,_&_The_Invariant (1).mp4",
+      "sha256": "cacf76a710f36567ea73f10ed63844c0a368b3a02ba718f5db60d5f443b53dc8",
+      "sid": "omi-media-port.mp4-time-logos-the-invariant-1-mp4"
+    },
+    {
+      "bytes": 35921906,
+      "extension": ".mp4",
+      "family": "artifact",
+      "output": "mp4-universal-life-protocol-1-mp4.omilisp",
+      "relative_path": "mp4/Universal_Life_Protocol (1).mp4",
+      "sha256": "dc59b014633cec61aa8f5ff301c3cea3d94a9798aed4511928781a3dd39c9d80",
+      "sid": "omi-media-port.mp4-universal-life-protocol-1-mp4"
+    },
+    {
+      "bytes": 22198920,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-agreement-as-computation-pdf.omilisp",
+      "relative_path": "pdf/Agreement_as_Computation.pdf",
+      "sha256": "1b17031757831dd67672c18c83089d413006e706d5def214fab468f0edbd4630",
+      "sid": "omi-media-port.pdf-agreement-as-computation-pdf"
+    },
+    {
+      "bytes": 17634250,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-architecting-agreement-pdf.omilisp",
+      "relative_path": "pdf/Architecting_Agreement.pdf",
+      "sha256": "65a70093c631cf9ed61a65d6f2ad291d818e16805e055c70771d45d3d1a78675",
+      "sid": "omi-media-port.pdf-architecting-agreement-pdf"
+    },
+    {
+      "bytes": 20274738,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-architecting-spatial-agreement-pdf.omilisp",
+      "relative_path": "pdf/Architecting_Spatial_Agreement.pdf",
+      "sha256": "3a4fcf7f373eab7a4ea1ef66f8302402f983bff00f0cefbb0e83e6bdba077f1c",
+      "sid": "omi-media-port.pdf-architecting-spatial-agreement-pdf"
+    },
+    {
+      "bytes": 16788376,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-delta-categorical-closure-pdf.omilisp",
+      "relative_path": "pdf/Delta_Categorical_Closure.pdf",
+      "sha256": "8d920d71cd454bb5c027d0d9a19f9c72cf42c4ba770322e18ed29e24de5aa6bf",
+      "sid": "omi-media-port.pdf-delta-categorical-closure-pdf"
+    },
+    {
+      "bytes": 16930738,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-deterministic-incidence-geometry-pdf.omilisp",
+      "relative_path": "pdf/Deterministic_Incidence_Geometry.pdf",
+      "sha256": "9381a0027f0098b3e66b501e24337be013f7b7abcbb77179823b86b02492c1d1",
+      "sid": "omi-media-port.pdf-deterministic-incidence-geometry-pdf"
+    },
+    {
+      "bytes": 17281706,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-geometric-ledger-pdf.omilisp",
+      "relative_path": "pdf/Geometric_Ledger.pdf",
+      "sha256": "0cfa43b3bb000b76db5dda29a4159d6b8fcd0df8e68cedc81bd616430de7a07e",
+      "sid": "omi-media-port.pdf-geometric-ledger-pdf"
+    },
+    {
+      "bytes": 14455629,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-light-garden-protocol-2-pdf.omilisp",
+      "relative_path": "pdf/Light_Garden_Protocol (2).pdf",
+      "sha256": "e9ba13b9509b1a47e53ba8fc7bad3907e10a0eac2d3f31255c8e1ba72a5df7f9",
+      "sid": "omi-media-port.pdf-light-garden-protocol-2-pdf"
+    },
+    {
+      "bytes": 17068287,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-notation-as-citation-pdf.omilisp",
+      "relative_path": "pdf/Notation_as_Citation.pdf",
+      "sha256": "461cc3197377d11c038c6f691924784ad73708308f880a6990a7bc1f383ffd4c",
+      "sid": "omi-media-port.pdf-notation-as-citation-pdf"
+    },
+    {
+      "bytes": 13305911,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omi-bounded-agreement-pdf.omilisp",
+      "relative_path": "pdf/OMI_Bounded_Agreement.pdf",
+      "sha256": "649d9f1bae62e46347a855517f3df257252dd24afa9e26bd9539195b4d56a669",
+      "sid": "omi-media-port.pdf-omi-bounded-agreement-pdf"
+    },
+    {
+      "bytes": 22683535,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omi-bounded-trust-pdf.omilisp",
+      "relative_path": "pdf/OMI_Bounded_Trust.pdf",
+      "sha256": "ff8430bb851140248b03e4dbfbf2a6c8e99941be93f47f809e47bad3ccae1382",
+      "sid": "omi-media-port.pdf-omi-bounded-trust-pdf"
+    },
+    {
+      "bytes": 19008027,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omi-deterministic-architecture-pdf.omilisp",
+      "relative_path": "pdf/OMI_Deterministic_Architecture.pdf",
+      "sha256": "6900c344ca8a1c0f9637a062a0facdf4810cb6bd854e0a62050ed2d7963e13c7",
+      "sid": "omi-media-port.pdf-omi-deterministic-architecture-pdf"
+    },
+    {
+      "bytes": 15068599,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omi-deterministic-geometry-pdf.omilisp",
+      "relative_path": "pdf/OMI_Deterministic_Geometry.pdf",
+      "sha256": "fa137bc288b11808ffaf653591715ae7cc407301e66bfb9eaaa7f09872473ec8",
+      "sid": "omi-media-port.pdf-omi-deterministic-geometry-pdf"
+    },
+    {
+      "bytes": 18975719,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omi-execution-manifold-pdf.omilisp",
+      "relative_path": "pdf/OMI_Execution_Manifold.pdf",
+      "sha256": "c0183b437b09c4c143e12e12eddf4813ff988e85fd8dcc7e39c108375acfa65a",
+      "sid": "omi-media-port.pdf-omi-execution-manifold-pdf"
+    },
+    {
+      "bytes": 15081562,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omi-execution-model-pdf.omilisp",
+      "relative_path": "pdf/OMI_Execution_Model.pdf",
+      "sha256": "6ec156247f74bd32102177b324ff1c21aa05a6b5ca7382e7b96d7a90983aa3f7",
+      "sid": "omi-media-port.pdf-omi-execution-model-pdf"
+    },
+    {
+      "bytes": 22859211,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omi-gated-runtime-pdf.omilisp",
+      "relative_path": "pdf/OMI_Gated_Runtime.pdf",
+      "sha256": "777337f313ea9e33ab11a2ba9bca7123ab7c200fb1c9573ccf5c81ec34206bf8",
+      "sid": "omi-media-port.pdf-omi-gated-runtime-pdf"
+    },
+    {
+      "bytes": 17308039,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omi-geometric-codex-pdf.omilisp",
+      "relative_path": "pdf/OMI_Geometric_Codex.pdf",
+      "sha256": "4591d9b54705a9bb62baaef9031727fca9558d08893bc6bec8631e9529123314",
+      "sid": "omi-media-port.pdf-omi-geometric-codex-pdf"
+    },
+    {
+      "bytes": 20340782,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omi-isa-bootstrap-pdf.omilisp",
+      "relative_path": "pdf/OMI_ISA_Bootstrap.pdf",
+      "sha256": "abddb70f9970f48a59d1639a92f076d8d2e487c831579772e8c7342799cc3106",
+      "sid": "omi-media-port.pdf-omi-isa-bootstrap-pdf"
+    },
+    {
+      "bytes": 18768478,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omi-protocol-pdf.omilisp",
+      "relative_path": "pdf/OMI_Protocol.pdf",
+      "sha256": "852a07d2714d95a9f0a8547ce843ede816c2f5c0bf1aad205ec00404eef37153",
+      "sid": "omi-media-port.pdf-omi-protocol-pdf"
+    },
+    {
+      "bytes": 14421339,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omi-structural-identity-pdf.omilisp",
+      "relative_path": "pdf/OMI_Structural_Identity.pdf",
+      "sha256": "975ac78bf7ccfa07dbc721ddca8e9cb3971f3684b7249f40c5409d54bf9fbd6b",
+      "sid": "omi-media-port.pdf-omi-structural-identity-pdf"
+    },
+    {
+      "bytes": 17211038,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omi-matrix-anatomy-pdf.omilisp",
+      "relative_path": "pdf/Omi-Matrix_Anatomy.pdf",
+      "sha256": "f91040e579dfcb2acb7276dd294a37c5bb049cd8e7ff3e76cbebb3a32bcf8041",
+      "sid": "omi-media-port.pdf-omi-matrix-anatomy-pdf"
+    },
+    {
+      "bytes": 17496461,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omi-geometric-codex-pdf.omilisp",
+      "relative_path": "pdf/Omi_Geometric_Codex.pdf",
+      "sha256": "64f417c81dadea0d5583cbe63f2fbcb86e83b3b89db0e09298c4bfb30cb8ea15",
+      "sid": "omi-media-port.pdf-omi-geometric-codex-pdf"
+    },
+    {
+      "bytes": 16056150,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omicron-build-manifest-pdf.omilisp",
+      "relative_path": "pdf/Omicron_Build_Manifest.pdf",
+      "sha256": "da2b4af727211e9fae3527e41d8ae4e56beac7c145e9f0b88074ba41dbd845a8",
+      "sid": "omi-media-port.pdf-omicron-build-manifest-pdf"
+    },
+    {
+      "bytes": 16610087,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-omicron-unified-architecture-pdf.omilisp",
+      "relative_path": "pdf/Omicron_Unified_Architecture.pdf",
+      "sha256": "74bc04b4464581992b7de1326d21c34924e3e27d26a5a73f3bf05752ebb38474",
+      "sid": "omi-media-port.pdf-omicron-unified-architecture-pdf"
+    },
+    {
+      "bytes": 20626050,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-projective-blueprint-pdf.omilisp",
+      "relative_path": "pdf/Projective_Blueprint.pdf",
+      "sha256": "8a8640d39546efa26aba499269e17bbcfbebfef786bfcf5dcfe84cad7a0eb293",
+      "sid": "omi-media-port.pdf-projective-blueprint-pdf"
+    },
+    {
+      "bytes": 13567771,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-shadows-of-incidence-pdf.omilisp",
+      "relative_path": "pdf/Shadows_of_Incidence.pdf",
+      "sha256": "ba9a428a1aca33a6c3b2c5044532616c65e51c96453bccc6ca530d2d17431f35",
+      "sid": "omi-media-port.pdf-shadows-of-incidence-pdf"
+    },
+    {
+      "bytes": 17082212,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-tetrahedral-computational-cosmology-pdf.omilisp",
+      "relative_path": "pdf/Tetrahedral_Computational_Cosmology.pdf",
+      "sha256": "415ab59d8f475556a36a1490b0b28321812c86281759f9efc465542f64ed8f29",
+      "sid": "omi-media-port.pdf-tetrahedral-computational-cosmology-pdf"
+    },
+    {
+      "bytes": 24136182,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-the-architectural-substrate-pdf.omilisp",
+      "relative_path": "pdf/The_Architectural_Substrate.pdf",
+      "sha256": "10bd3f85ec812b7527567985fe1c24f7bd0cc8c960a3bea557a15c827725f598",
+      "sid": "omi-media-port.pdf-the-architectural-substrate-pdf"
+    },
+    {
+      "bytes": 14558216,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-the-bitwise-codex-1-pdf.omilisp",
+      "relative_path": "pdf/The_Bitwise_Codex (1).pdf",
+      "sha256": "43275e81e20d303575ab93124a4760f6d13f4431a3d25da109ec0ede899f2072",
+      "sid": "omi-media-port.pdf-the-bitwise-codex-1-pdf"
+    },
+    {
+      "bytes": 22797127,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-the-omi-blueprint-pdf.omilisp",
+      "relative_path": "pdf/The_OMI_Blueprint.pdf",
+      "sha256": "483eb791b9a1f27c002909a28dba2a9418cc0a74aeaed58fcbf8cc66c52612c3",
+      "sid": "omi-media-port.pdf-the-omi-blueprint-pdf"
+    },
+    {
+      "bytes": 15821634,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-the-omi-helical-stack-pdf.omilisp",
+      "relative_path": "pdf/The_OMI_Helical_Stack.pdf",
+      "sha256": "e938caed1e5841ea05f230476a2e01fd57fa79c9bea0ce2e461d2d4b5d1cf0a1",
+      "sid": "omi-media-port.pdf-the-omi-helical-stack-pdf"
+    },
+    {
+      "bytes": 14351212,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-the-omi-object-model-pdf.omilisp",
+      "relative_path": "pdf/The_OMI_Object_Model.pdf",
+      "sha256": "a3616acdc673f9d64d8310e7d32c5da4a4ab705a1e02b48c796fdde17bb3f7c9",
+      "sid": "omi-media-port.pdf-the-omi-object-model-pdf"
+    },
+    {
+      "bytes": 12888920,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-the-omi-protocol-synthesis-pdf.omilisp",
+      "relative_path": "pdf/The_OMI_Protocol_Synthesis.pdf",
+      "sha256": "e66406cbcead08c694522157c510287eb2380863f1199f958542aeb6a5113f71",
+      "sid": "omi-media-port.pdf-the-omi-protocol-synthesis-pdf"
+    },
+    {
+      "bytes": 14791888,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-the-omicron-blueprint-pdf.omilisp",
+      "relative_path": "pdf/The_Omicron_Blueprint.pdf",
+      "sha256": "728bba3deff2fd9b6153b44d4361266918285292c74612e2e3621a5303dbc5cd",
+      "sid": "omi-media-port.pdf-the-omicron-blueprint-pdf"
+    },
+    {
+      "bytes": 25182583,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-the-omicron-codex-pdf.omilisp",
+      "relative_path": "pdf/The_Omicron_Codex.pdf",
+      "sha256": "cb72ae76e1e026ec8828f6e5755b66609bfb763f1fb08557039042018ce91d9f",
+      "sid": "omi-media-port.pdf-the-omicron-codex-pdf"
+    },
+    {
+      "bytes": 20474674,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-the-omicron-schematic-pdf.omilisp",
+      "relative_path": "pdf/The_Omicron_Schematic.pdf",
+      "sha256": "8d5c316a03065b192186a88106a75a0bf681a058a857d26808d8699f78437300",
+      "sid": "omi-media-port.pdf-the-omicron-schematic-pdf"
+    },
+    {
+      "bytes": 15361112,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-the-place-value-blueprint-pdf.omilisp",
+      "relative_path": "pdf/The_Place-Value_Blueprint.pdf",
+      "sha256": "6102408eec49bbde67444c2747066c57edc081d0854dec794392f0cfb79fd1bb",
+      "sid": "omi-media-port.pdf-the-place-value-blueprint-pdf"
+    },
+    {
+      "bytes": 18215433,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-the-third-collapse-pdf.omilisp",
+      "relative_path": "pdf/The_Third_Collapse.pdf",
+      "sha256": "61958aa0454cae52f79ef115bd51bbe58f0a71e9393ecafe8168b4e8fae38661",
+      "sid": "omi-media-port.pdf-the-third-collapse-pdf"
+    },
+    {
+      "bytes": 16550233,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-triple-tetrahedral-complex-pdf.omilisp",
+      "relative_path": "pdf/Triple_Tetrahedral_Complex.pdf",
+      "sha256": "dcc9434db3251b80a90b3f891ed81c4299bfbbe9b6c4c1f1d83b6faafa72f8ea",
+      "sid": "omi-media-port.pdf-triple-tetrahedral-complex-pdf"
+    },
+    {
+      "bytes": 14247585,
+      "extension": ".pdf",
+      "family": "carrier",
+      "output": "pdf-verified-spatial-computing-pdf.omilisp",
+      "relative_path": "pdf/Verified_Spatial_Computing.pdf",
+      "sha256": "2ee434625c4505536621df7891185eccdc48c687f071b2d1f5706e963bdb57c5",
+      "sid": "omi-media-port.pdf-verified-spatial-computing-pdf"
+    },
+    {
+      "bytes": 4127209,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-0xe-execution-manifold-technical-overview-png.omilisp",
+      "relative_path": "png/0xE_Execution_Manifold_Technical_Overview.png",
+      "sha256": "dcfa4e5e6ce26b007b1db506922c10025692cf0531410ffb2514b6a4a8bd7071",
+      "sid": "omi-media-port.png-0xe-execution-manifold-technical-overview-png"
+    },
+    {
+      "bytes": 4475991,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-agreement-is-all-we-need-png.omilisp",
+      "relative_path": "png/Agreement_Is_All_We_Need.png",
+      "sha256": "046f7b8bffdd156b089c52cf3192004859cb1f35be81566a7cf25a311f793c71",
+      "sid": "omi-media-port.png-agreement-is-all-we-need-png"
+    },
+    {
+      "bytes": 5179315,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-architecture-of-decentralized-agreement-png.omilisp",
+      "relative_path": "png/Architecture_of_Decentralized_Agreement.png",
+      "sha256": "eff88f4404d8901ce169341438c7d530f53b11e8c31a3f442159d50ae2f09ed4",
+      "sid": "omi-media-port.png-architecture-of-decentralized-agreement-png"
+    },
+    {
+      "bytes": 5244113,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-architecture-of-deterministic-identity-png.omilisp",
+      "relative_path": "png/Architecture_of_Deterministic_Identity.png",
+      "sha256": "494522d1646ccb945871300f0a219129df31714de4a5dc7c6c1af1924ccb11a6",
+      "sid": "omi-media-port.png-architecture-of-deterministic-identity-png"
+    },
+    {
+      "bytes": 4532562,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-architecture-of-digital-agreement-diagram-png.omilisp",
+      "relative_path": "png/Architecture_of_Digital_Agreement_Diagram.png",
+      "sha256": "e123596e213efd4c2b9565305a32fc22405dfb3557e7f48e1ec8ae89d26b8d30",
+      "sid": "omi-media-port.png-architecture-of-digital-agreement-diagram-png"
+    },
+    {
+      "bytes": 4433418,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-architecture-of-structural-trust-infographic-png.omilisp",
+      "relative_path": "png/Architecture_of_Structural_Trust_Infographic.png",
+      "sha256": "695adf908c9c2f1b0c5d799cefa3c425ffe0fc3c70f0a3d51d5cc15522424a0b",
+      "sid": "omi-media-port.png-architecture-of-structural-trust-infographic-png"
+    },
+    {
+      "bytes": 4901007,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-architecture-of-verifiable-address-states-png.omilisp",
+      "relative_path": "png/Architecture_of_Verifiable_Address_States.png",
+      "sha256": "c5944357f1d9c5e2ca435bed605c980063a7702abc0140b490c87f910cbf7b02",
+      "sid": "omi-media-port.png-architecture-of-verifiable-address-states-png"
+    },
+    {
+      "bytes": 3931401,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-atomic-kernel-architecture-overview-1-png.omilisp",
+      "relative_path": "png/Atomic_Kernel_Architecture_Overview (1).png",
+      "sha256": "a4b797383de44982341423938e0b6622e4f62ed7c7ffe62132e4b7c06b649318",
+      "sid": "omi-media-port.png-atomic-kernel-architecture-overview-1-png"
+    },
+    {
+      "bytes": 4385136,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-atomic-kernel-architecture-overview-png.omilisp",
+      "relative_path": "png/Atomic_Kernel_Architecture_Overview.png",
+      "sha256": "a5b5cd8beb9564d98e4d601445f114a85d367f8175105dad5cb769efe4953bd9",
+      "sid": "omi-media-port.png-atomic-kernel-architecture-overview-png"
+    },
+    {
+      "bytes": 5444441,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-atomic-kernel-binary-determinism-overview-png.omilisp",
+      "relative_path": "png/Atomic_Kernel_Binary_Determinism_Overview.png",
+      "sha256": "8c9f246024ce912f37e6fa821994cf1daccee5b1d8df7c4a89f9e7baa6218d7e",
+      "sid": "omi-media-port.png-atomic-kernel-binary-determinism-overview-png"
+    },
+    {
+      "bytes": 4129694,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-atomic-kernel-data-control-plane-png.omilisp",
+      "relative_path": "png/Atomic_Kernel_Data_Control_Plane.png",
+      "sha256": "e9711aa4f4cb726e73a3bc23490e61ad62301d562d2bd60cc30db096fbd59454",
+      "sid": "omi-media-port.png-atomic-kernel-data-control-plane-png"
+    },
+    {
+      "bytes": 5756333,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-atomic-kernel-deterministic-computing-overview-png.omilisp",
+      "relative_path": "png/Atomic_Kernel_Deterministic_Computing_Overview.png",
+      "sha256": "76d117d1c73085a8ff3ab964610d1f508e788d3f77da9761747934b557822b91",
+      "sid": "omi-media-port.png-atomic-kernel-deterministic-computing-overview-png"
+    },
+    {
+      "bytes": 5052279,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-atomic-kernel-metaverse-data-orchestration-png.omilisp",
+      "relative_path": "png/Atomic_Kernel_Metaverse_Data_Orchestration.png",
+      "sha256": "9ee7388d8276275da3781fd638a2e963909f06e6bbd6c4cd1813bdb95fe8095e",
+      "sid": "omi-media-port.png-atomic-kernel-metaverse-data-orchestration-png"
+    },
+    {
+      "bytes": 4694388,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-atomic-kernel-replay-substrate-architecture-png.omilisp",
+      "relative_path": "png/Atomic_Kernel_Replay_Substrate_Architecture.png",
+      "sha256": "98a3a688ac5c10a1b0c522c7abd2aafe6e5ba1f822a4aaf0ec8d2d96b15bc580",
+      "sid": "omi-media-port.png-atomic-kernel-replay-substrate-architecture-png"
+    },
+    {
+      "bytes": 4439993,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-atomic-kernel-software-crystal-infographic-png.omilisp",
+      "relative_path": "png/Atomic_Kernel_Software_Crystal_Infographic.png",
+      "sha256": "93c3f27cbe42468ba2786afe24be1f0bcd900639c756734bfa32d52c80eea0ec",
+      "sid": "omi-media-port.png-atomic-kernel-software-crystal-infographic-png"
+    },
+    {
+      "bytes": 4705535,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-bounded-agreement-protocol-infographic-png.omilisp",
+      "relative_path": "png/Bounded_Agreement_Protocol_Infographic.png",
+      "sha256": "8240080199104de9300456092874825200e715cdcc3a06ced4d660dfa4a9cbc7",
+      "sid": "omi-media-port.png-bounded-agreement-protocol-infographic-png"
+    },
+    {
+      "bytes": 4699385,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-cobs-predictable-packet-framing-png.omilisp",
+      "relative_path": "png/COBS__Predictable_Packet_Framing.png",
+      "sha256": "5145d65150cc7e076a34dafc33ac4b67087dd7c23ab7197b263c3b4fad608f20",
+      "sid": "omi-media-port.png-cobs-predictable-packet-framing-png"
+    },
+    {
+      "bytes": 3674196,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-decentralized-web-protocol-mathematical-architecture-1-png.omilisp",
+      "relative_path": "png/Decentralized_Web_Protocol_Mathematical_Architecture (1).png",
+      "sha256": "657c5a8094b66177743bf9026aab1ebe2c988a6861b7cf90636a5de07bbef382",
+      "sid": "omi-media-port.png-decentralized-web-protocol-mathematical-architecture-1-png"
+    },
+    {
+      "bytes": 3674197,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-decentralized-web-protocol-mathematical-architecture-png.omilisp",
+      "relative_path": "png/Decentralized_Web_Protocol_Mathematical_Architecture.png",
+      "sha256": "f736e5f10fff7b5ede558abd70f879fe53164cc822d5d1fb26352a2244fb9303",
+      "sid": "omi-media-port.png-decentralized-web-protocol-mathematical-architecture-png"
+    },
+    {
+      "bytes": 4450926,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-gl-16-2-orbit-execution-model-png.omilisp",
+      "relative_path": "png/GL(16,2)_Orbit_Execution_Model.png",
+      "sha256": "5771de4f58272cf075b0a83738b44a63c19913c4bd81a365e6290224510b5a88",
+      "sid": "omi-media-port.png-gl-16-2-orbit-execution-model-png"
+    },
+    {
+      "bytes": 5245478,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-geometric-consensus-protocol-technical-overview-png.omilisp",
+      "relative_path": "png/Geometric_Consensus_Protocol_Technical_Overview.png",
+      "sha256": "db743ff550b6bb386386b8d84c28bb8358c67437018a1064eda61a46ca091cee",
+      "sid": "omi-media-port.png-geometric-consensus-protocol-technical-overview-png"
+    },
+    {
+      "bytes": 5999887,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-geometry-of-logos-unified-architecture-png.omilisp",
+      "relative_path": "png/Geometry_of_Logos_Unified_Architecture.png",
+      "sha256": "148169c349fc8d4903aff442b07095236e90adedd7a0a53f47fd816207208894",
+      "sid": "omi-media-port.png-geometry-of-logos-unified-architecture-png"
+    },
+    {
+      "bytes": 4937721,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-identity-reimagined-data-model-comparison-png.omilisp",
+      "relative_path": "png/Identity_Reimagined__Data_Model_Comparison.png",
+      "sha256": "5b9c5ecbbc6afb396fb7427970dcfa70bd8a2297956a874c8c062013d98fad64",
+      "sid": "omi-media-port.png-identity-reimagined-data-model-comparison-png"
+    },
+    {
+      "bytes": 5540589,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-light-garden-geometric-meaning-language-png.omilisp",
+      "relative_path": "png/Light_Garden_Geometric_Meaning_Language.png",
+      "sha256": "df42ee75ed350c5c33881e6695818a99b2e036d75ac5d04a9e911fc7797e687d",
+      "sid": "omi-media-port.png-light-garden-geometric-meaning-language-png"
+    },
+    {
+      "bytes": 4127010,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-isa-self-hosting-system-architecture-png.omilisp",
+      "relative_path": "png/OMI-ISA_Self-Hosting_System_Architecture.png",
+      "sha256": "331431b7a447b911f38ad9ceb5669bc50efad73f804c9c0e81b608235091064a",
+      "sid": "omi-media-port.png-omi-isa-self-hosting-system-architecture-png"
+    },
+    {
+      "bytes": 4891573,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-arithmetic-projection-engine-overview-png.omilisp",
+      "relative_path": "png/OMI_Arithmetic_Projection_Engine_Overview.png",
+      "sha256": "a49203dd5a4bd33fb8e26f33b898b6c09133df773fc185c713c90c5f40c72942",
+      "sid": "omi-media-port.png-omi-arithmetic-projection-engine-overview-png"
+    },
+    {
+      "bytes": 4429540,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-decentralized-data-architecture-png.omilisp",
+      "relative_path": "png/OMI_Decentralized_Data_Architecture.png",
+      "sha256": "9706da3ae1621bf05de35f84e7ad54e23e8afbf3ccaa48448cbf540522290bb8",
+      "sid": "omi-media-port.png-omi-decentralized-data-architecture-png"
+    },
+    {
+      "bytes": 4243470,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-deterministic-geometry-protocol-overview-png.omilisp",
+      "relative_path": "png/OMI_Deterministic_Geometry_Protocol_Overview.png",
+      "sha256": "4c2883a28f4e2093f97bb35e6c5eb91b08f81c48c8fdbda5482fb841795f3750",
+      "sid": "omi-media-port.png-omi-deterministic-geometry-protocol-overview-png"
+    },
+    {
+      "bytes": 5562672,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-deterministic-place-value-protocol-png.omilisp",
+      "relative_path": "png/OMI_Deterministic_Place-Value_Protocol.png",
+      "sha256": "66b14f712400ea36e8cdcbd805e4b0e67b2a233f7a936286ed534f922d8e48d7",
+      "sid": "omi-media-port.png-omi-deterministic-place-value-protocol-png"
+    },
+    {
+      "bytes": 4847209,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-development-roadmap-overview-png.omilisp",
+      "relative_path": "png/OMI_Development_Roadmap_Overview.png",
+      "sha256": "0a265d010a742c7cd40ddd95a014a8fd9ea8b602d83cc8f45cfa6f586b921f55",
+      "sid": "omi-media-port.png-omi-development-roadmap-overview-png"
+    },
+    {
+      "bytes": 4712657,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-monoid-identity-overview-png.omilisp",
+      "relative_path": "png/OMI_Monoid_Identity_Overview.png",
+      "sha256": "39d3dd8c21a0ff6ca5bc4ee22457e2b7f4ff982b83809d66584e9cfa8ae48d6d",
+      "sid": "omi-media-port.png-omi-monoid-identity-overview-png"
+    },
+    {
+      "bytes": 4659574,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-notation-to-receipt-infographic-png.omilisp",
+      "relative_path": "png/OMI_Notation_to_Receipt_Infographic.png",
+      "sha256": "32e7614f431215ce268fd50af0b4ab48ca31473dfaa68c462fc38bc14c4327de",
+      "sid": "omi-media-port.png-omi-notation-to-receipt-infographic-png"
+    },
+    {
+      "bytes": 4394966,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-open-world-portal-model-png.omilisp",
+      "relative_path": "png/OMI_Open-World_Portal_Model.png",
+      "sha256": "de2b933c116208896ee89c18173c5d0a463efef92ddfacea59502210517edd7a",
+      "sid": "omi-media-port.png-omi-open-world-portal-model-png"
+    },
+    {
+      "bytes": 4920340,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-open-world-architecture-overview-png.omilisp",
+      "relative_path": "png/OMI_Open_World_Architecture_Overview.png",
+      "sha256": "b9af7421ef4b8017c1ebe5e85f94b689bc22983f9028374995d547a45470d4f8",
+      "sid": "omi-media-port.png-omi-open-world-architecture-overview-png"
+    },
+    {
+      "bytes": 3620780,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-protocol-agreement-infographic-png.omilisp",
+      "relative_path": "png/OMI_Protocol_Agreement_Infographic.png",
+      "sha256": "4a979bd4be5c988aec2fe5c6759abdf31b878dae817dc08f36878eeaa5398a3e",
+      "sid": "omi-media-port.png-omi-protocol-agreement-infographic-png"
+    },
+    {
+      "bytes": 3967476,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-protocol-architecture-overview-png.omilisp",
+      "relative_path": "png/OMI_Protocol_Architecture_Overview.png",
+      "sha256": "df7e1413bd60283e2264cdf75b498f57f2652270d39b03ec0e2b4257780e36d9",
+      "sid": "omi-media-port.png-omi-protocol-architecture-overview-png"
+    },
+    {
+      "bytes": 4320281,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-truth-row-routing-process-png.omilisp",
+      "relative_path": "png/OMI_Truth_Row_Routing_Process.png",
+      "sha256": "9dbe42243e98da47536979c7994e6679c4dd2de0ad9dd52f9704f6edc6723c50",
+      "sid": "omi-media-port.png-omi-truth-row-routing-process-png"
+    },
+    {
+      "bytes": 4924062,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-geometry-as-relation-png.omilisp",
+      "relative_path": "png/OMI__Geometry_as_Relation.png",
+      "sha256": "74728594810f3cb70027a353fd1112945784159a47b90606edd3cf7dde3b7b30",
+      "sid": "omi-media-port.png-omi-geometry-as-relation-png"
+    },
+    {
+      "bytes": 4295514,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-reversing-geometric-authority-png.omilisp",
+      "relative_path": "png/OMI__Reversing_Geometric_Authority.png",
+      "sha256": "7251e2b2cc860b413388436839029d6d61e8a7e97f1f1338f34e92927a022b8b",
+      "sid": "omi-media-port.png-omi-reversing-geometric-authority-png"
+    },
+    {
+      "bytes": 4777829,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-the-architecture-of-agreement-png.omilisp",
+      "relative_path": "png/OMI__The_Architecture_of_Agreement.png",
+      "sha256": "280c892790d5880f2b904acc03d4a357cf3d8d83446edc4216ffe07071bae631",
+      "sid": "omi-media-port.png-omi-the-architecture-of-agreement-png"
+    },
+    {
+      "bytes": 4853745,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-third-collapse-of-computing-png.omilisp",
+      "relative_path": "png/OMI__Third_Collapse_of_Computing.png",
+      "sha256": "2b0941da7df456a81783a326457aa1fe58dcb5091e33ea54a499a927cc096c6f",
+      "sid": "omi-media-port.png-omi-third-collapse-of-computing-png"
+    },
+    {
+      "bytes": 4654393,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-omi-matrix-scannable-object-carrier-png.omilisp",
+      "relative_path": "png/Omi-Matrix_Scannable_Object_Carrier.png",
+      "sha256": "2f72f7d1a4849fa2b38a7eacc6d4bff83a80501e7530ae022b4d2750642fadd3",
+      "sid": "omi-media-port.png-omi-matrix-scannable-object-carrier-png"
+    },
+    {
+      "bytes": 4405986,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-principles-of-the-omi-protocol-png.omilisp",
+      "relative_path": "png/Principles_of_the_OMI_Protocol.png",
+      "sha256": "f339661ca0bd6cda3a7c090341d373d050b1532f9eaa64aa0e45b0fa9615fdb8",
+      "sid": "omi-media-port.png-principles-of-the-omi-protocol-png"
+    },
+    {
+      "bytes": 6309191,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-ttc-post-server-computing-paradigm-png.omilisp",
+      "relative_path": "png/TTC__Post-Server_Computing_Paradigm.png",
+      "sha256": "7d20ad8668bb66186e8f744ef6d095ebeeb551a70c066a9a80e7443647735710",
+      "sid": "omi-media-port.png-ttc-post-server-computing-paradigm-png"
+    },
+    {
+      "bytes": 5276339,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-tetragrammatron-meaning-first-architecture-png.omilisp",
+      "relative_path": "png/Tetragrammatron_Meaning-First_Architecture.png",
+      "sha256": "b708f7a1f3022c1662e7e8d8c1a42c3339ed98b87e4eef2d7a86f4a7ba00046e",
+      "sid": "omi-media-port.png-tetragrammatron-meaning-first-architecture-png"
+    },
+    {
+      "bytes": 5715242,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-the-bicf-architecture-overview-png.omilisp",
+      "relative_path": "png/The_BICF_Architecture_Overview.png",
+      "sha256": "bc14ff5904725ea58f53514c3aca7bbb44541ee04129d0985f2eb04e84641c95",
+      "sid": "omi-media-port.png-the-bicf-architecture-overview-png"
+    },
+    {
+      "bytes": 4996760,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-the-omi-alignment-protocol-png.omilisp",
+      "relative_path": "png/The_OMI_Alignment_Protocol.png",
+      "sha256": "a87c97e5c7c88dbe6e177ba075ddb6fa4e3b60d6fa85c60fa73df8cdda8a8414",
+      "sid": "omi-media-port.png-the-omi-alignment-protocol-png"
+    },
+    {
+      "bytes": 4167549,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-the-omi-authority-model-png.omilisp",
+      "relative_path": "png/The_OMI_Authority_Model.png",
+      "sha256": "b4102837c167ff8acb905b45ee0ce79d0e68f4d53c2c78b8ce97027be0512341",
+      "sid": "omi-media-port.png-the-omi-authority-model-png"
+    },
+    {
+      "bytes": 4729008,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-the-omi-object-model-diagram-png.omilisp",
+      "relative_path": "png/The_OMI_Object_Model_Diagram.png",
+      "sha256": "32b22c0f0d6065c65fc0afb95151c81a3d2f9a36d4df1b8481137c7e758fdcfb",
+      "sid": "omi-media-port.png-the-omi-object-model-diagram-png"
+    },
+    {
+      "bytes": 4456557,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-the-omi-protocol-geometry-comparison-png.omilisp",
+      "relative_path": "png/The_OMI_Protocol_Geometry_Comparison.png",
+      "sha256": "ac5bb6ba94833d7be4c6d9de9786ced7038083c48f09c3f051035da0a9b2f7a9",
+      "sid": "omi-media-port.png-the-omi-protocol-geometry-comparison-png"
+    },
+    {
+      "bytes": 4749560,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-the-omi-system-mathematical-blueprint-png.omilisp",
+      "relative_path": "png/The_OMI_System_Mathematical_Blueprint.png",
+      "sha256": "51988ca8a396a54f9fff9c3766362f5bc96d4c567b417f7d90135de7ac1b6466",
+      "sid": "omi-media-port.png-the-omi-system-mathematical-blueprint-png"
+    },
+    {
+      "bytes": 5305823,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-the-omi-unified-waveform-png.omilisp",
+      "relative_path": "png/The_Omi_Unified_Waveform.png",
+      "sha256": "6b8a624b083c727b29c8a67748518a99426e4e7cb3c5c66e38d69a9687adcd70",
+      "sid": "omi-media-port.png-the-omi-unified-waveform-png"
+    },
+    {
+      "bytes": 5991982,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-the-ttc-framework-architecture-png.omilisp",
+      "relative_path": "png/The_TTC_Framework_Architecture.png",
+      "sha256": "4f6226fa28fda7922ee34dafdf4167b3fa155dd42a2a8629474c5aa43d82bfe7",
+      "sid": "omi-media-port.png-the-ttc-framework-architecture-png"
+    },
+    {
+      "bytes": 5136186,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-the-tetrahedral-cosmology-of-omi-png.omilisp",
+      "relative_path": "png/The_Tetrahedral_Cosmology_of_OMI.png",
+      "sha256": "8e6bfb89d90f0247ccff709d08f4a1dbc8da918e93676012abfd910ca7f99d69",
+      "sid": "omi-media-port.png-the-tetrahedral-cosmology-of-omi-png"
+    },
+    {
+      "bytes": 5616834,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-ulp-deterministic-metaverse-architecture-png.omilisp",
+      "relative_path": "png/ULP_Deterministic_Metaverse_Architecture.png",
+      "sha256": "a7298e0d243327bb1ef1c22a73cf2fe54ce64e7bfcd49f756e4e1310b9958881",
+      "sid": "omi-media-port.png-ulp-deterministic-metaverse-architecture-png"
+    },
+    {
+      "bytes": 5568740,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-universal-binary-transformer-system-infographic-png.omilisp",
+      "relative_path": "png/Universal_Binary_Transformer_System_Infographic.png",
+      "sha256": "ed2097d438c10b674fbd2aefbddc5065dbc4e380eb5b8a7ac26fe90d305fa13d",
+      "sid": "omi-media-port.png-universal-binary-transformer-system-infographic-png"
+    },
+    {
+      "bytes": 5201145,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-verifiable-decentralized-execution-stack-infographic-png.omilisp",
+      "relative_path": "png/Verifiable_Decentralized_Execution_Stack_Infographic.png",
+      "sha256": "cecd0ec883e8bf8d9e6559101731b470b1188dcd6850b7f41f9a88e506481517",
+      "sid": "omi-media-port.png-verifiable-decentralized-execution-stack-infographic-png"
+    },
+    {
+      "bytes": 5855285,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-web-dashboard-developer-walkthrough-png.omilisp",
+      "relative_path": "png/Web_Dashboard_Developer_Walkthrough.png",
+      "sha256": "295dca9e615bf2dca8a6da476c406e55095a1de66037ebf35e4f4740c59e2005",
+      "sid": "omi-media-port.png-web-dashboard-developer-walkthrough-png"
+    },
+    {
+      "bytes": 6404422,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-web-and-hardware-data-bridge-png.omilisp",
+      "relative_path": "png/Web_and_Hardware_Data_Bridge.png",
+      "sha256": "a52c79002ae43cbcb6d6405387a4aa99371b51ac617d38b558e458b5a7df0b79",
+      "sid": "omi-media-port.png-web-and-hardware-data-bridge-png"
+    },
+    {
+      "bytes": 3453776,
+      "extension": ".png",
+      "family": "carrier",
+      "output": "png-zero-frame-object-model-overview-png.omilisp",
+      "relative_path": "png/Zero-Frame_Object_Model_Overview.png",
+      "sha256": "c5a5fc98f1ee180951b51408171ce8d1b203599df15e0ca99f9d9f605edb034a",
+      "sid": "omi-media-port.png-zero-frame-object-model-overview-png"
+    }
+  ],
+  "output_root": "/home/main/omi/omi---imo/declarations/omi-media-port",
+  "source_root": "/home/main/omi/omi-media"
+}

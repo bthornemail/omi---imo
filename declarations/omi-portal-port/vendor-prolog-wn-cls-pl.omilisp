@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.vendor-prolog-wn-cls-pl)
+    (title "omi-portal port: vendor/prolog/wn_cls.pl")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/vendor/prolog/wn_cls.pl")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.vendor-prolog-wn-cls-pl)
+    (locator omi---imo.omi-portal-port)
+    (binding pl.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs declaration)
+    (us pl))
+  (source-artifact
+    (relative-path "vendor/prolog/wn_cls.pl")
+    (extension ".pl")
+    (family declaration)
+    (bytes 304001)
+    (sha256 "543eb6ed2b62751e300d7cc4ede4b6d1e13bc612cd94addb1dc569dcc9504009"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 9500)
+    (balanced-parens true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

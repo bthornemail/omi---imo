@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-portal-port.src-wordnet-relation-space-js)
+    (title "omi-portal port: src/wordnet/relation-space.js")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/src/wordnet/relation-space.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.src-wordnet-relation-space-js)
+    (locator omi---imo.omi-portal-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "src/wordnet/relation-space.js")
+    (extension ".js")
+    (family code)
+    (bytes 5696)
+    (sha256 "bdaf58359de6973b12b5c0ba72701a01a7798f252bee57e3b3cf86b795b1b125"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 149)
+    (function-count 10)
+    (export-count 8)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

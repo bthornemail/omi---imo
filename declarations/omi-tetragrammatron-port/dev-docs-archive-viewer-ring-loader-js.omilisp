@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.dev-docs-archive-viewer-ring-loader-js)
+    (title "omi-tetragrammatron port: dev-docs/archive/viewer/ring-loader.js")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/dev-docs/archive/viewer/ring-loader.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.dev-docs-archive-viewer-ring-loader-js)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "dev-docs/archive/viewer/ring-loader.js")
+    (extension ".js")
+    (family code)
+    (bytes 2731)
+    (sha256 "22278c598363733ccb2a2ef3bbf955f0ea6c3c43d81ea0bdd05a76b29546fe85"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 98)
+    (function-count 0)
+    (export-count 0)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

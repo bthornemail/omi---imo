@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omnicron-port.dev-docs-front-end-archive-point-inversion-or-central-inversion-pdf)
+    (title "omnicron port: dev-docs/front-end/archive/Point inversion or Central inversion.pdf")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/dev-docs/front-end/archive/Point inversion or Central inversion.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.dev-docs-front-end-archive-point-inversion-or-central-inversion-pdf)
+    (locator omi---imo.omnicron-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "dev-docs/front-end/archive/Point inversion or Central inversion.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 420291)
+    (sha256 "5bf5ed607f592fbb7dc6c3ec99bb082259de67e97626c9f6235a658fda2cf503"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

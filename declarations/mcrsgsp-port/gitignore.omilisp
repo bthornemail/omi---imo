@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid mcrsgsp-port.gitignore)
+    (title "MCRSGSP port: .gitignore")
+    (kind mcrsgsp.source-candidate)
+    (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/.gitignore")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr mcrsgsp-port.gitignore)
+    (locator omi---imo.mcrsgsp-port)
+    (binding no-ext.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs mcrsgsp)
+    (rs untyped)
+    (us no-ext))
+  (source-artifact
+    (relative-path ".gitignore")
+    (extension "[no-ext]")
+    (family untyped)
+    (bytes 316)
+    (sha256 "c59322ab1457f9f2f571dd006e59fc58a1956228ba385a29f4601d7ec26a9d6a"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 22)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

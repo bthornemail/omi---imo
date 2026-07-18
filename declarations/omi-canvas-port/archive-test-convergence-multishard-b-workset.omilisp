@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-canvas-port.archive-test-convergence-multishard-b-workset)
+    (title "omi-canvas port: archive/test/convergence/multishard-b.workset")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/archive/test/convergence/multishard-b.workset")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.archive-test-convergence-multishard-b-workset)
+    (locator omi---imo.omi-canvas-port)
+    (binding workset.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs artifact)
+    (us workset))
+  (source-artifact
+    (relative-path "archive/test/convergence/multishard-b.workset")
+    (extension ".workset")
+    (family artifact)
+    (bytes 117)
+    (sha256 "86059fb6a26c2031063f45c115d0a3604a57f0157759e953eb050dd3e69e8add"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-axioms-port.docs-proof-spine-md)
+    (title "omi-axioms port: docs/PROOF-SPINE.md")
+    (kind omi-axioms.source-candidate)
+    (source "/home/main/omi/omi-axioms/docs/PROOF-SPINE.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-axioms-port.docs-proof-spine-md)
+    (locator omi---imo.omi-axioms-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-axioms)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "docs/PROOF-SPINE.md")
+    (extension ".md")
+    (family document)
+    (bytes 6956)
+    (sha256 "f139abc1e2cf67111e322ab67f2c44a4b9f5606c81241a3efb5484365ef2b119"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 197)
+    (title "Proof Spine")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

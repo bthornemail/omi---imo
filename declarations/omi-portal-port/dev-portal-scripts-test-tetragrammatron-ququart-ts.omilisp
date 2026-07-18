@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-portal-port.dev-portal-scripts-test-tetragrammatron-ququart-ts)
+    (title "omi-portal port: dev-portal/scripts/test-tetragrammatron-ququart.ts")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/dev-portal/scripts/test-tetragrammatron-ququart.ts")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.dev-portal-scripts-test-tetragrammatron-ququart-ts)
+    (locator omi---imo.omi-portal-port)
+    (binding ts.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs artifact)
+    (us ts))
+  (source-artifact
+    (relative-path "dev-portal/scripts/test-tetragrammatron-ququart.ts")
+    (extension ".ts")
+    (family artifact)
+    (bytes 9190)
+    (sha256 "5e6fc86db0960bb6bf5a0ee51b7bcfc694300a9f7ca5a544f459a40541fbef65"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

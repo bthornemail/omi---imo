@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.12-version-control-md)
+    (title "omi-canon port: 12-VERSION-CONTROL.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/12-VERSION-CONTROL.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.12-version-control-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "12-VERSION-CONTROL.md")
+    (extension ".md")
+    (family document)
+    (bytes 9317)
+    (sha256 "6a5a2bf95cdd5ff67bbad481a13c8dbf95d353216310f033b2c555687c8ca5ef"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 273)
+    (title "State 12 \u2014 Version Control: The Seed")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

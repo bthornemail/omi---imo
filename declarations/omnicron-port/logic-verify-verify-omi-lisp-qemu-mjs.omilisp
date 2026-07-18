@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-verify-verify-omi-lisp-qemu-mjs)
+    (title "omnicron port: logic/verify/verify_omi_lisp_qemu.mjs")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/verify/verify_omi_lisp_qemu.mjs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-verify-verify-omi-lisp-qemu-mjs)
+    (locator omi---imo.omnicron-port)
+    (binding mjs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs code)
+    (us mjs))
+  (source-artifact
+    (relative-path "logic/verify/verify_omi_lisp_qemu.mjs")
+    (extension ".mjs")
+    (family code)
+    (bytes 2256)
+    (sha256 "c2b535a8a3ae683b2994e2aa6ab2f023a60de47e84ee8473f13220f631a1b0aa"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 85)
+    (function-count 4)
+    (export-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

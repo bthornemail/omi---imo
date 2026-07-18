@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omnicron-port.dev-docs-back-end-00-shared-doc-template-md)
+    (title "omnicron port: dev-docs/back-end/00-shared/DOC_TEMPLATE.md")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/dev-docs/back-end/00-shared/DOC_TEMPLATE.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.dev-docs-back-end-00-shared-doc-template-md)
+    (locator omi---imo.omnicron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/back-end/00-shared/DOC_TEMPLATE.md")
+    (extension ".md")
+    (family document)
+    (bytes 438)
+    (sha256 "e4f51aa9b883ebeaed9d52cb2267ca91cf2c14d3a5aa29c2a6402159200f891b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 46)
+    (title "<Title>")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

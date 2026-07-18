@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid o---o-port.1-foundations-1-5-the-slash-path-md)
+    (title "o---o port: 1_FOUNDATIONS/1.5_THE_SLASH_PATH.md")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/1_FOUNDATIONS/1.5_THE_SLASH_PATH.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.1-foundations-1-5-the-slash-path-md)
+    (locator omi---imo.o---o-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "1_FOUNDATIONS/1.5_THE_SLASH_PATH.md")
+    (extension ".md")
+    (family document)
+    (bytes 2983)
+    (sha256 "62b05b97d5dbd607f89dc1d6027ed36f764b666505987e9761e15f1fda89184b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 113)
+    (title "The Slash Path: Declared Interpretation Route")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

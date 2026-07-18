@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-canvas-port.archive-src-runtime-net-framing-hs)
+    (title "omi-canvas port: archive/src/Runtime/Net/Framing.hs")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/archive/src/Runtime/Net/Framing.hs")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.archive-src-runtime-net-framing-hs)
+    (locator omi---imo.omi-canvas-port)
+    (binding hs.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs artifact)
+    (us hs))
+  (source-artifact
+    (relative-path "archive/src/Runtime/Net/Framing.hs")
+    (extension ".hs")
+    (family artifact)
+    (bytes 1352)
+    (sha256 "8ea3b5ed2757622b08e6ef299fe9ca566ac5fef6a5d2c5a4e1142a132f7ec1e9"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

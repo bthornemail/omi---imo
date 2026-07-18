@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.ttc-history-architecture-md)
+    (title "omi-docs port: ttc-history/ARCHITECTURE.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/ttc-history/ARCHITECTURE.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.ttc-history-architecture-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "ttc-history/ARCHITECTURE.md")
+    (extension ".md")
+    (family document)
+    (bytes 3687)
+    (sha256 "5ec50038893f0338f7fd5a1d3881b3675392c9d6d8913ee1f2c8895769d8f27c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 113)
+    (title "Kernel-adjacent TTC C layout")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

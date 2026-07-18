@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.vendor-narrative-series-article-iv-md)
+    (title "omi-portal port: vendor/narrative-series/ARTICLE IV.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/vendor/narrative-series/ARTICLE IV.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.vendor-narrative-series-article-iv-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "vendor/narrative-series/ARTICLE IV.md")
+    (extension ".md")
+    (family document)
+    (bytes 3960)
+    (sha256 "154d462e2e892d870501013e9f1b2b3f4201cab6184dc01bf872f68393d6dfe0"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 277)
+    (title "**ARTICLE IV**")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

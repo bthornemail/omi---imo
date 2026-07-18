@@ -1,0 +1,280 @@
+(omi-module canon.semantic-lattice
+  (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/tools/omi-resolve")
+  (source "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp/tools/omi-trace")
+  (authority
+    (declaration executable-candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending))
+  (define-const EDGE-VERSION (literal "omi.semantic.edge.v0"))
+  (define-const TRACE-VERSION (literal "omi.trace.v0"))
+  (define-const DEFAULT-WEIGHT 1)
+  (define-const SUMMARY-WEIGHT 50)
+  (define-const PROJECTION-WEIGHT 25)
+  (define-function semantic-edge (subject predicate object basis weight)
+    (vector EDGE-VERSION subject predicate object basis weight))
+  (define-function edge-version (edge)
+    (at edge 0))
+  (define-function edge-subject (edge)
+    (at edge 1))
+  (define-function edge-predicate (edge)
+    (at edge 2))
+  (define-function edge-object (edge)
+    (at edge 3))
+  (define-function edge-basis (edge)
+    (at edge 4))
+  (define-function edge-weight (edge)
+    (at edge 5))
+  (define-function has-type-edge (trace-id event-type)
+    (semantic-edge trace-id (literal "has-type") event-type (literal "trace.type") DEFAULT-WEIGHT))
+  (define-function renders-edge (trace-id canvas-id)
+    (semantic-edge trace-id (literal "renders") canvas-id (literal "generated-canvas") DEFAULT-WEIGHT))
+  (define-function indexes-edge (base-id trace-id)
+    (semantic-edge base-id (literal "indexes") trace-id (literal "generated-base") DEFAULT-WEIGHT))
+  (define-function documents-edge (note-id trace-id)
+    (semantic-edge note-id (literal "documents") trace-id (literal "generated-note") DEFAULT-WEIGHT))
+  (define-function mentions-edge (subject lemma basis weight)
+    (semantic-edge subject (literal "mentions") lemma basis weight))
+  (define-function references-code-edge (trace-id code-path)
+    (semantic-edge trace-id (literal "references-code") code-path (literal "payload.code_path") DEFAULT-WEIGHT))
+  (define-function wordnet-sense-edge (lemma sense)
+    (semantic-edge lemma (literal "sense") sense (literal "wordnet") DEFAULT-WEIGHT))
+  (define-function wordnet-hypernym-edge (sense hypernym)
+    (semantic-edge sense (literal "hypernym") hypernym (literal "wordnet") 75))
+  (define-function markdown-heading-edge (heading-id path)
+    (semantic-edge heading-id (literal "appears-in") path (literal "markdown-heading") DEFAULT-WEIGHT))
+  (define-function markdown-code-edge (markdown-id code-path)
+    (semantic-edge markdown-id (literal "mentions-code") code-path (literal "markdown-term") 25))
+  (define-function code-token-edge (code-path lemma)
+    (semantic-edge code-path (literal "mentions") lemma (literal "code-path-token") PROJECTION-WEIGHT))
+  (define-function event-type-lemma (event-type)
+    (if (eq event-type (literal "tick"))
+      (literal "lemma:checkpoint")
+      (if (eq event-type (literal "fragment"))
+        (literal "lemma:fragment")
+        (if (eq event-type (literal "candidate"))
+          (literal "lemma:candidate")
+          (if (eq event-type (literal "proof"))
+            (literal "lemma:proof")
+            (if (eq event-type (literal "gossip"))
+              (literal "lemma:communication")
+              (if (eq event-type (literal "reject"))
+                (literal "lemma:rejection")
+                (if (eq event-type (literal "manual"))
+                  (literal "lemma:note")
+                  (literal "")))))))))
+  (define-function known-event-type (event-type)
+    (ne (event-type-lemma event-type) (literal "")))
+  (define-function event-taxonomy-edge (trace-id event-type)
+    (mentions-edge trace-id (event-type-lemma event-type) (literal "event-type-taxonomy") DEFAULT-WEIGHT))
+  (define-function summary-token-allowed (token)
+    (or
+      (eq token (literal "fragment"))
+      (eq token (literal "candidate"))
+      (eq token (literal "proof"))
+      (eq token (literal "gossip"))
+      (eq token (literal "reject"))
+      (eq token (literal "manual"))
+      (eq token (literal "checkpoint"))
+      (eq token (literal "communication"))
+      (eq token (literal "rejection"))
+      (eq token (literal "note"))))
+  (define-function summary-token-edge (trace-id token)
+    (mentions-edge trace-id token (literal "summary-token") SUMMARY-WEIGHT))
+  (define-function trace-surface-edges4 (trace-id event-type canvas-id base-id note-id)
+    (vector
+      (has-type-edge trace-id event-type)
+      (renders-edge trace-id canvas-id)
+      (indexes-edge base-id trace-id)
+      (documents-edge note-id trace-id)))
+  (define-function trace-surface-edge-count (surface)
+    (len surface))
+  (define-function trace-surface-has-type (surface)
+    (at surface 0))
+  (define-function trace-surface-renders (surface)
+    (at surface 1))
+  (define-function trace-surface-indexes (surface)
+    (at surface 2))
+  (define-function trace-surface-documents (surface)
+    (at surface 3))
+  (define-function canvas-node (id text color)
+    (vector id (literal "text") text color))
+  (define-function canvas-node-id (node)
+    (at node 0))
+  (define-function canvas-node-type (node)
+    (at node 1))
+  (define-function canvas-node-text (node)
+    (at node 2))
+  (define-function canvas-edge (from-node to-node label)
+    (vector from-node (literal "right") to-node (literal "left") (literal "arrow") label))
+  (define-function canvas-edge-from-node (edge)
+    (at edge 0))
+  (define-function canvas-edge-to-node (edge)
+    (at edge 2))
+  (define-function canvas-edge-label (edge)
+    (at edge 5))
+  (define-function stable-trace-event (tick ts event-type node summary parent hash payload-ref wordnet-ref)
+    (vector TRACE-VERSION tick ts event-type node summary parent hash payload-ref wordnet-ref))
+  (define-function trace-event-version (event)
+    (at event 0))
+  (define-function trace-event-type (event)
+    (at event 3))
+  (define-function trace-event-node (event)
+    (at event 4))
+  (define-function trace-event-payload-ref (event)
+    (at event 8))
+  (test edge-shape
+    (expect
+      (edge-version
+        (semantic-edge (literal "trace:1") (literal "has-type") (literal "type:proof") (literal "trace.type") 1))
+      (literal "omi.semantic.edge.v0"))
+    (expect
+      (edge-subject
+        (semantic-edge (literal "trace:1") (literal "has-type") (literal "type:proof") (literal "trace.type") 1))
+      (literal "trace:1"))
+    (expect
+      (edge-weight
+        (semantic-edge (literal "trace:1") (literal "has-type") (literal "type:proof") (literal "trace.type") 1))
+      1))
+  (test generated-trace-edges
+    (expect
+      (edge-predicate (has-type-edge (literal "trace:1") (literal "type:proof")))
+      (literal "has-type"))
+    (expect
+      (edge-basis (renders-edge (literal "trace:1") (literal "canvas:trace-1")))
+      (literal "generated-canvas"))
+    (expect
+      (edge-object (indexes-edge (literal "base:trace-1") (literal "trace:1")))
+      (literal "trace:1"))
+    (expect
+      (edge-predicate (documents-edge (literal "note:trace-1") (literal "trace:1")))
+      (literal "documents")))
+  (test semantic-mention-code-wordnet
+    (expect
+      (edge-weight
+        (mentions-edge (literal "trace:1") (literal "lemma:proof") (literal "summary-token") 50))
+      50)
+    (expect
+      (edge-object
+        (references-code-edge (literal "trace:1") (literal "tools/omilisp_law_runner.py")))
+      (literal "tools/omilisp_law_runner.py"))
+    (expect
+      (edge-basis
+        (wordnet-sense-edge (literal "lemma:proof") (literal "wn:proof.n.01")))
+      (literal "wordnet"))
+    (expect
+      (edge-weight
+        (wordnet-hypernym-edge (literal "wn:proof.n.01") (literal "wn:entity.n.01")))
+      75))
+  (test resolver-surface-edges
+    (expect
+      (edge-predicate
+        (markdown-heading-edge (literal "markdown:README.md#resolver-heading") (literal "README.md")))
+      (literal "appears-in"))
+    (expect
+      (edge-weight
+        (markdown-code-edge (literal "markdown:README.md") (literal "tools/semantic_resolver.mjs")))
+      25)
+    (expect
+      (edge-basis
+        (code-token-edge (literal "code:tools/semantic_resolver.mjs") (literal "lemma:semantic")))
+      (literal "code-path-token")))
+  (test resolver-taxonomy
+    (expect (event-type-lemma (literal "tick")) (literal "lemma:checkpoint"))
+    (expect (event-type-lemma (literal "fragment")) (literal "lemma:fragment"))
+    (expect (event-type-lemma (literal "candidate")) (literal "lemma:candidate"))
+    (expect (event-type-lemma (literal "proof")) (literal "lemma:proof"))
+    (expect (event-type-lemma (literal "gossip")) (literal "lemma:communication"))
+    (expect (event-type-lemma (literal "reject")) (literal "lemma:rejection"))
+    (expect (event-type-lemma (literal "manual")) (literal "lemma:note"))
+    (expect (known-event-type (literal "unknown")) false)
+    (expect
+      (edge-object (event-taxonomy-edge (literal "trace:4") (literal "proof")))
+      (literal "lemma:proof")))
+  (test resolver-summary-tokens
+    (expect (summary-token-allowed (literal "fragment")) true)
+    (expect (summary-token-allowed (literal "communication")) true)
+    (expect (summary-token-allowed (literal "semantic-resolver")) false)
+    (expect
+      (edge-weight (summary-token-edge (literal "trace:2") (literal "lemma:fragment")))
+      50))
+  (test resolver-trace-surface-vector
+    (expect
+      (trace-surface-edge-count
+        (trace-surface-edges4
+          (literal "trace:2")
+          (literal "type:fragment")
+          (literal "canvas:trace-2")
+          (literal "base:trace-2")
+          (literal "note:trace-2")))
+      4)
+    (expect
+      (edge-predicate
+        (trace-surface-has-type
+          (trace-surface-edges4
+            (literal "trace:2")
+            (literal "type:fragment")
+            (literal "canvas:trace-2")
+            (literal "base:trace-2")
+            (literal "note:trace-2"))))
+      (literal "has-type"))
+    (expect
+      (edge-basis
+        (trace-surface-renders
+          (trace-surface-edges4
+            (literal "trace:2")
+            (literal "type:fragment")
+            (literal "canvas:trace-2")
+            (literal "base:trace-2")
+            (literal "note:trace-2"))))
+      (literal "generated-canvas"))
+    (expect
+      (edge-subject
+        (trace-surface-indexes
+          (trace-surface-edges4
+            (literal "trace:2")
+            (literal "type:fragment")
+            (literal "canvas:trace-2")
+            (literal "base:trace-2")
+            (literal "note:trace-2"))))
+      (literal "base:trace-2"))
+    (expect
+      (edge-predicate
+        (trace-surface-documents
+          (trace-surface-edges4
+            (literal "trace:2")
+            (literal "type:fragment")
+            (literal "canvas:trace-2")
+            (literal "base:trace-2")
+            (literal "note:trace-2"))))
+      (literal "documents")))
+  (test resolver-canvas-shape
+    (expect
+      (canvas-node-type
+        (canvas-node (literal "n0") (literal "trace:2") (literal "1")))
+      (literal "text"))
+    (expect
+      (canvas-node-text
+        (canvas-node (literal "n0") (literal "trace:2") (literal "1")))
+      (literal "trace:2"))
+    (expect
+      (canvas-edge-to-node
+        (canvas-edge (literal "n0") (literal "n1") (literal "mentions")))
+      (literal "n1"))
+    (expect
+      (canvas-edge-label
+        (canvas-edge (literal "n0") (literal "n1") (literal "mentions")))
+      (literal "mentions")))
+  (test stable-trace-event-shape
+    (expect
+      (trace-event-version
+        (stable-trace-event 1 (literal "2026-07-08T00:00:00Z") (literal "proof") (literal "local") (literal "accepted candidate") 0 0 (literal "payload:1") (literal "wn:proof.n.01")))
+      (literal "omi.trace.v0"))
+    (expect
+      (trace-event-type
+        (stable-trace-event 1 (literal "2026-07-08T00:00:00Z") (literal "proof") (literal "local") (literal "accepted candidate") 0 0 (literal "payload:1") (literal "wn:proof.n.01")))
+      (literal "proof"))
+    (expect
+      (trace-event-payload-ref
+        (stable-trace-event 1 (literal "2026-07-08T00:00:00Z") (literal "proof") (literal "local") (literal "accepted candidate") 0 0 (literal "payload:1") (literal "wn:proof.n.01")))
+      (literal "payload:1"))))

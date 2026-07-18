@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.2026-06-14-branch-branch-branch-branch-omi-agreement-overview-md)
+    (title "omi-docs port: 2026-06-14-Branch_\u00b7_Branch_\u00b7_Branch_\u00b7_Branch_\u00b7_OMI_Agreement_Overview.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/2026-06-14-Branch_\u00b7_Branch_\u00b7_Branch_\u00b7_Branch_\u00b7_OMI_Agreement_Overview.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.2026-06-14-branch-branch-branch-branch-omi-agreement-overview-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "2026-06-14-Branch_\u00b7_Branch_\u00b7_Branch_\u00b7_Branch_\u00b7_OMI_Agreement_Overview.md")
+    (extension ".md")
+    (family document)
+    (bytes 3265621)
+    (sha256 "6c1158565f57c66ac93d62135e6afa2cd8eac5166d7d3b0e4f4cae321bbc4ab4"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 144675)
+    (title "ChatGPT")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

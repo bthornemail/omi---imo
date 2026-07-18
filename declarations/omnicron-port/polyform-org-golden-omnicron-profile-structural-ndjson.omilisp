@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omnicron-port.polyform-org-golden-omnicron-profile-structural-ndjson)
+    (title "omnicron port: polyform/org/golden/omnicron_profile.structural.ndjson")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/polyform/org/golden/omnicron_profile.structural.ndjson")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.polyform-org-golden-omnicron-profile-structural-ndjson)
+    (locator omi---imo.omnicron-port)
+    (binding ndjson.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs declaration)
+    (us ndjson))
+  (source-artifact
+    (relative-path "polyform/org/golden/omnicron_profile.structural.ndjson")
+    (extension ".ndjson")
+    (family declaration)
+    (bytes 931)
+    (sha256 "9338f2be0699c2c77a961560f50b7fb17dc0b2a3461313009430d1cdf4352bf8"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1)
+    (ndjson-valid true)
+    (record-count 1)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.png-the-omi-object-model-diagram-png)
+    (title "omi-media port: png/The_OMI_Object_Model_Diagram.png")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/png/The_OMI_Object_Model_Diagram.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.png-the-omi-object-model-diagram-png)
+    (locator omi---imo.omi-media-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "png/The_OMI_Object_Model_Diagram.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 4729008)
+    (sha256 "32b22c0f0d6065c65fc0afb95151c81a3d2f9a36d4df1b8481137c7e758fdcfb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

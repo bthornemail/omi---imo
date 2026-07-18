@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-protocol-port.omi-complete-system-unified-synthesis-md)
+    (title "omi-protocol port: OMI_Complete_System_Unified_Synthesis.md")
+    (kind omi-protocol.source-candidate)
+    (source "/home/main/omi/omi-protocol/OMI_Complete_System_Unified_Synthesis.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-protocol-port.omi-complete-system-unified-synthesis-md)
+    (locator omi---imo.omi-protocol-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-protocol)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "OMI_Complete_System_Unified_Synthesis.md")
+    (extension ".md")
+    (family document)
+    (bytes 17214)
+    (sha256 "9811a8284555068907c0fa56db80583e45ac21a978864858e4a599c72540748c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 752)
+    (title "The OMI Complete System: Theory, Protocol, Governance, and Implementation")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

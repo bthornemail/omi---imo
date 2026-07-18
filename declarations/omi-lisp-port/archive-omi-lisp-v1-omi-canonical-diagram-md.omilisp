@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-lisp-port.archive-omi-lisp-v1-omi-canonical-diagram-md)
+    (title "omi-lisp port: _archive/omi-lisp-v1/OMI_CANONICAL_DIAGRAM.md")
+    (kind omi-lisp.source-candidate)
+    (source "/home/main/omi/omi-lisp/_archive/omi-lisp-v1/OMI_CANONICAL_DIAGRAM.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-lisp-port.archive-omi-lisp-v1-omi-canonical-diagram-md)
+    (locator omi---imo.omi-lisp-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-lisp)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "_archive/omi-lisp-v1/OMI_CANONICAL_DIAGRAM.md")
+    (extension ".md")
+    (family document)
+    (bytes 5110)
+    (sha256 "fb28cddaba073973d4247af7ddc434d93ca12294b1b777e2373222166aed0da2"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 233)
+    (title "OMI Canonical Dot-Diagram Model")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

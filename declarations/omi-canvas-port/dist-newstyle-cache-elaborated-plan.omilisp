@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-canvas-port.dist-newstyle-cache-elaborated-plan)
+    (title "omi-canvas port: dist-newstyle/cache/elaborated-plan")
+    (kind omi-canvas.source-candidate)
+    (source "/home/main/omi/omi-canvas/dist-newstyle/cache/elaborated-plan")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canvas-port.dist-newstyle-cache-elaborated-plan)
+    (locator omi---imo.omi-canvas-port)
+    (binding no-ext.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canvas)
+    (rs untyped)
+    (us no-ext))
+  (source-artifact
+    (relative-path "dist-newstyle/cache/elaborated-plan")
+    (extension "[no-ext]")
+    (family untyped)
+    (bytes 50311)
+    (sha256 "d16b90bca95b921ec343be420b3bdf83607083256b9cd7da81a9342c0d19e0fb"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 306)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

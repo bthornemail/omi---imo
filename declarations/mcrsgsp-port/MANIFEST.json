@@ -1,0 +1,533 @@
+{
+  "count": 56,
+  "extension_counts": {
+    ".ba": 1,
+    ".bin": 1,
+    ".css": 1,
+    ".janet": 3,
+    ".js": 22,
+    ".json": 7,
+    ".jsonl": 1,
+    ".md": 3,
+    ".mjs": 10,
+    ".mts": 1,
+    ".pl": 2,
+    "[no-ext]": 4
+  },
+  "family_counts": {
+    "artifact": 7,
+    "carrier": 1,
+    "code": 32,
+    "declaration": 9,
+    "document": 3,
+    "untyped": 4
+  },
+  "items": [
+    {
+      "bytes": 166,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "editorconfig.omilisp",
+      "relative_path": ".editorconfig",
+      "sha256": "d5ff47f51fb78124dcc2f99c7b22e6144350936035b290176c7965dd39e82173",
+      "sid": "mcrsgsp-port.editorconfig"
+    },
+    {
+      "bytes": 316,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "gitignore.omilisp",
+      "relative_path": ".gitignore",
+      "sha256": "c59322ab1457f9f2f571dd006e59fc58a1956228ba385a29f4601d7ec26a9d6a",
+      "sid": "mcrsgsp-port.gitignore"
+    },
+    {
+      "bytes": 21,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "npmrc.omilisp",
+      "relative_path": ".npmrc",
+      "sha256": "1e8648fe5564177375a935f6b444a6f9661fa61da625477745929f146162b4dd",
+      "sid": "mcrsgsp-port.npmrc"
+    },
+    {
+      "bytes": 3845,
+      "extension": ".md",
+      "family": "document",
+      "output": "agents-md.omilisp",
+      "relative_path": "AGENTS.md",
+      "sha256": "d5e0e833dbbef60f1ea39ece0553671a480d2a50242247e71a3053c5b4906716",
+      "sid": "mcrsgsp-port.agents-md"
+    },
+    {
+      "bytes": 648,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "license.omilisp",
+      "relative_path": "LICENSE",
+      "sha256": "464dd4d1a7bb5533901d3ad0f670fcd25932b9b85840994f81b34b2679cd95ce",
+      "sid": "mcrsgsp-port.license"
+    },
+    {
+      "bytes": 14570,
+      "extension": ".md",
+      "family": "document",
+      "output": "readme-md.omilisp",
+      "relative_path": "README.md",
+      "sha256": "5e997599a858ed6157153a13ee758e114af48018447b5f53e79479c6e6233049",
+      "sid": "mcrsgsp-port.readme-md"
+    },
+    {
+      "bytes": 353,
+      "extension": ".js",
+      "family": "code",
+      "output": "bin-mcrsgsp-js.omilisp",
+      "relative_path": "bin/mcrsgsp.js",
+      "sha256": "6b80bcf42c914ed96655095dac6a2700e7b37bfeab11e55142e5180942fa47b7",
+      "sid": "mcrsgsp-port.bin-mcrsgsp-js"
+    },
+    {
+      "bytes": 16928,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-monotone-causal-reed-solomon-gossip-storage-protocol-mcrsgsp-md.omilisp",
+      "relative_path": "docs/Monotone Causal Reed\u2013Solomon Gossip Storage Protocol (MCRSGSP).md",
+      "sha256": "43a00ad2d5acee6f06c9065fbdeaacba01a57b230b78882638ef3e52f18cb827",
+      "sid": "mcrsgsp-port.docs-monotone-causal-reed-solomon-gossip-storage-protocol-mcrsgsp-md"
+    },
+    {
+      "bytes": 985,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "esbuild-config-mjs.omilisp",
+      "relative_path": "esbuild.config.mjs",
+      "sha256": "d131dd842d68e9b8dbe3e5bd3aba93ded970e87173420f5b6be861d82103d8dc",
+      "sid": "mcrsgsp-port.esbuild-config-mjs"
+    },
+    {
+      "bytes": 685,
+      "extension": ".mts",
+      "family": "artifact",
+      "output": "eslint-config-mts.omilisp",
+      "relative_path": "eslint.config.mts",
+      "sha256": "4d97a8b580829e91762e2ab37110423d1781bce26b32f54b5711cd40e78e05f6",
+      "sid": "mcrsgsp-port.eslint-config-mts"
+    },
+    {
+      "bytes": 793,
+      "extension": ".janet",
+      "family": "artifact",
+      "output": "examples-omi-trace-events-janet.omilisp",
+      "relative_path": "examples/omi-trace/events.janet",
+      "sha256": "e458c17cd70f001962cd539f364e71d3561199f1a7589637497fae47a55b1e41",
+      "sid": "mcrsgsp-port.examples-omi-trace-events-janet"
+    },
+    {
+      "bytes": 393,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "golden-gossip-two-node-trace-json.omilisp",
+      "relative_path": "golden/gossip.two-node.trace.json",
+      "sha256": "6dfa3361e7131513ba8e5553d196868fdd97c12a7fda871ee0f43460b58c3f43",
+      "sid": "mcrsgsp-port.golden-gossip-two-node-trace-json"
+    },
+    {
+      "bytes": 455,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "golden-hello-k3n5-candidates-json.omilisp",
+      "relative_path": "golden/hello.k3n5.candidates.json",
+      "sha256": "aac01af52e05167f115480af3fa2340d21b466ef592fbfe06cd902d5ec389508",
+      "sid": "mcrsgsp-port.golden-hello-k3n5-candidates-json"
+    },
+    {
+      "bytes": 1590,
+      "extension": ".jsonl",
+      "family": "artifact",
+      "output": "golden-hello-k3n5-fragments-jsonl.omilisp",
+      "relative_path": "golden/hello.k3n5.fragments.jsonl",
+      "sha256": "d084d71fe03d814ebe33b1715ae1329fad800e9a6c9b6c37dcca631b1b40071f",
+      "sid": "mcrsgsp-port.golden-hello-k3n5-fragments-jsonl"
+    },
+    {
+      "bytes": 6,
+      "extension": ".bin",
+      "family": "carrier",
+      "output": "golden-hello-k3n5-reconstructed-bin.omilisp",
+      "relative_path": "golden/hello.k3n5.reconstructed.bin",
+      "sha256": "5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03",
+      "sid": "mcrsgsp-port.golden-hello-k3n5-reconstructed-bin"
+    },
+    {
+      "bytes": 300,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "manifest-json.omilisp",
+      "relative_path": "manifest.json",
+      "sha256": "75e5ffa7242d1ca57d59c70255cf4311525b1199d39b6868408c5bea325de830",
+      "sid": "mcrsgsp-port.manifest-json"
+    },
+    {
+      "bytes": 1109,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "package-lock-json.omilisp",
+      "relative_path": "package-lock.json",
+      "sha256": "62b2661e4e9c27c5759cd80e6b43ebc56b2f4712cecba63f8822a6a5c6702aec",
+      "sid": "mcrsgsp-port.package-lock-json"
+    },
+    {
+      "bytes": 911,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "package-json.omilisp",
+      "relative_path": "package.json",
+      "sha256": "94a7a01815cd58c9761d543879ae52fe77d8a77740bdd08a5f66291d2b5b0974",
+      "sid": "mcrsgsp-port.package-json"
+    },
+    {
+      "bytes": 718,
+      "extension": ".ba",
+      "family": "artifact",
+      "output": "package-json-ba.omilisp",
+      "relative_path": "package.json.ba",
+      "sha256": "1281c8dc99c461c3801cfe9d80dddb2ee7f76b2681ca06bbabc98501300c9f39",
+      "sid": "mcrsgsp-port.package-json-ba"
+    },
+    {
+      "bytes": 3975,
+      "extension": ".js",
+      "family": "code",
+      "output": "src-fragment-js.omilisp",
+      "relative_path": "src/fragment.js",
+      "sha256": "667c33a828013c87168062bfde5b541d721d5693fdd735aef45d5212c9d1aa16",
+      "sid": "mcrsgsp-port.src-fragment-js"
+    },
+    {
+      "bytes": 226,
+      "extension": ".js",
+      "family": "code",
+      "output": "src-hash-js.omilisp",
+      "relative_path": "src/hash.js",
+      "sha256": "f634147dde23c5bb6079fbfaa34b8fcf25f41241f8fd315f07baad0cd8a419b8",
+      "sid": "mcrsgsp-port.src-hash-js"
+    },
+    {
+      "bytes": 3948,
+      "extension": ".js",
+      "family": "code",
+      "output": "src-http-api-js.omilisp",
+      "relative_path": "src/http-api.js",
+      "sha256": "0bef7dbb6bb426b35d8d8af9a81d29ccb1c3f359e5b364641722e534de1076ba",
+      "sid": "mcrsgsp-port.src-http-api-js"
+    },
+    {
+      "bytes": 2795,
+      "extension": ".js",
+      "family": "code",
+      "output": "src-index-js.omilisp",
+      "relative_path": "src/index.js",
+      "sha256": "8c6ab2d45c4afa87f65379c2c5f7605bdf14dc9dbf68d5672cf15ff192cf6c95",
+      "sid": "mcrsgsp-port.src-index-js"
+    },
+    {
+      "bytes": 3204,
+      "extension": ".js",
+      "family": "code",
+      "output": "src-node-js.omilisp",
+      "relative_path": "src/node.js",
+      "sha256": "2c632b9f7ae3295a7631ba625b44c3668a7226e9896414a663d06c17cfbb9024",
+      "sid": "mcrsgsp-port.src-node-js"
+    },
+    {
+      "bytes": 2492,
+      "extension": ".js",
+      "family": "code",
+      "output": "src-reconstruction-js.omilisp",
+      "relative_path": "src/reconstruction.js",
+      "sha256": "f2e826cb8a31b8a72e9ce9b72f21bc063e3301154390d0ef9291ec031ff4bc2f",
+      "sid": "mcrsgsp-port.src-reconstruction-js"
+    },
+    {
+      "bytes": 4839,
+      "extension": ".js",
+      "family": "code",
+      "output": "src-rs-codec-js.omilisp",
+      "relative_path": "src/rs-codec.js",
+      "sha256": "82968702a60f9ee5399c6cb3f4e7e8f39ce6b2e7bbaedc15e8fe4a0c6fcc388a",
+      "sid": "mcrsgsp-port.src-rs-codec-js"
+    },
+    {
+      "bytes": 4562,
+      "extension": ".js",
+      "family": "code",
+      "output": "src-store-js.omilisp",
+      "relative_path": "src/store.js",
+      "sha256": "22566cbeadd13347dc951cb0d56f76d69c205d7b6e781efe0b6877b8833f61d5",
+      "sid": "mcrsgsp-port.src-store-js"
+    },
+    {
+      "bytes": 5505,
+      "extension": ".js",
+      "family": "code",
+      "output": "src-udp-transport-js.omilisp",
+      "relative_path": "src/udp-transport.js",
+      "sha256": "1cb0c6009ee8da642401aaed9a6917e2c34b82a26cc7849e341ee3a428c9af35",
+      "sid": "mcrsgsp-port.src-udp-transport-js"
+    },
+    {
+      "bytes": 2000,
+      "extension": ".js",
+      "family": "code",
+      "output": "src-version-vector-js.omilisp",
+      "relative_path": "src/version-vector.js",
+      "sha256": "da249d0de2b63339d251dde4cc92485ef0b7fab51516eebd6c0160387c062b16",
+      "sid": "mcrsgsp-port.src-version-vector-js"
+    },
+    {
+      "bytes": 2176,
+      "extension": ".css",
+      "family": "artifact",
+      "output": "styles-css.omilisp",
+      "relative_path": "styles.css",
+      "sha256": "9976514354777babac67b7b468b1a9e038c580b199210bf8dad0e2e12b710166",
+      "sid": "mcrsgsp-port.styles-css"
+    },
+    {
+      "bytes": 668,
+      "extension": ".js",
+      "family": "code",
+      "output": "test-compliance-fragment-integrity-test-js.omilisp",
+      "relative_path": "test/compliance/fragment-integrity.test.js",
+      "sha256": "da0cb895be89dcdb8ac51f9fe980b856677d2de873ea18a5bc498cb725bb3b82",
+      "sid": "mcrsgsp-port.test-compliance-fragment-integrity-test-js"
+    },
+    {
+      "bytes": 1404,
+      "extension": ".js",
+      "family": "code",
+      "output": "test-compliance-gossip-convergence-test-js.omilisp",
+      "relative_path": "test/compliance/gossip-convergence.test.js",
+      "sha256": "ab232ab20c736f56a30ebe93b2d229518ceee1823d08068fa76acfd9a2f39314",
+      "sid": "mcrsgsp-port.test-compliance-gossip-convergence-test-js"
+    },
+    {
+      "bytes": 640,
+      "extension": ".js",
+      "family": "code",
+      "output": "test-compliance-helpers-js.omilisp",
+      "relative_path": "test/compliance/helpers.js",
+      "sha256": "98ed89c05880df3262518e18f1bf7426a40d7354a1d922447b11fc54f26bdb8e",
+      "sid": "mcrsgsp-port.test-compliance-helpers-js"
+    },
+    {
+      "bytes": 1226,
+      "extension": ".js",
+      "family": "code",
+      "output": "test-compliance-minimal-compliance-test-js.omilisp",
+      "relative_path": "test/compliance/minimal-compliance.test.js",
+      "sha256": "cebde43a6b4c6ae7a57d2dec019eaa93060f3839eb782164cbd9f3f6e6f087eb",
+      "sid": "mcrsgsp-port.test-compliance-minimal-compliance-test-js"
+    },
+    {
+      "bytes": 1986,
+      "extension": ".js",
+      "family": "code",
+      "output": "test-compliance-must-reject-test-js.omilisp",
+      "relative_path": "test/compliance/must-reject.test.js",
+      "sha256": "3b281a70d74916452a19f63a61035a02e7fec5bc7398dcacd1158b160ec0ba85",
+      "sid": "mcrsgsp-port.test-compliance-must-reject-test-js"
+    },
+    {
+      "bytes": 1222,
+      "extension": ".js",
+      "family": "code",
+      "output": "test-compliance-reconstruction-causality-test-js.omilisp",
+      "relative_path": "test/compliance/reconstruction-causality.test.js",
+      "sha256": "b3b374835d3bf71cfe3e3c58c82b51c03c3e6dbfd3a7d5d73072091ca158d3a2",
+      "sid": "mcrsgsp-port.test-compliance-reconstruction-causality-test-js"
+    },
+    {
+      "bytes": 1372,
+      "extension": ".js",
+      "family": "code",
+      "output": "test-integration-test-js.omilisp",
+      "relative_path": "test/integration.test.js",
+      "sha256": "8ec6f42e6ea0cd11f8df6e6da803faac7ce5754474556eda2bf15c94ddd07246",
+      "sid": "mcrsgsp-port.test-integration-test-js"
+    },
+    {
+      "bytes": 925,
+      "extension": ".js",
+      "family": "code",
+      "output": "test-rs-codec-test-js.omilisp",
+      "relative_path": "test/rs-codec.test.js",
+      "sha256": "30e91e0f393827ba3028ff5c40a3c863a8b13df04497e1fbe386104e19c3973e",
+      "sid": "mcrsgsp-port.test-rs-codec-test-js"
+    },
+    {
+      "bytes": 2044,
+      "extension": ".js",
+      "family": "code",
+      "output": "test-semantic-resolver-test-js.omilisp",
+      "relative_path": "test/semantic-resolver.test.js",
+      "sha256": "1a0bb569531db6e7587f064ee4d0f4ac5988fc270bbf443f5c7eab7ae103605f",
+      "sid": "mcrsgsp-port.test-semantic-resolver-test-js"
+    },
+    {
+      "bytes": 1342,
+      "extension": ".js",
+      "family": "code",
+      "output": "test-store-test-js.omilisp",
+      "relative_path": "test/store.test.js",
+      "sha256": "ca521e236fb2495ef11f6bbfc0a587f953c32fe97dcf03e42985f22cecb98bb4",
+      "sid": "mcrsgsp-port.test-store-test-js"
+    },
+    {
+      "bytes": 881,
+      "extension": ".js",
+      "family": "code",
+      "output": "test-version-vector-test-js.omilisp",
+      "relative_path": "test/version-vector.test.js",
+      "sha256": "e58ece13d9852e88da009cb309516b8c4f5efc09047bd9b3b51843c2b4f797d3",
+      "sid": "mcrsgsp-port.test-version-vector-test-js"
+    },
+    {
+      "bytes": 11783,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "tools-omi-resolve-resolve-mjs.omilisp",
+      "relative_path": "tools/omi-resolve/resolve.mjs",
+      "sha256": "4aeae4ab90ac7df53c2816139e212f52e7e7a5dd04ea48fef15a96f4d4128925",
+      "sid": "mcrsgsp-port.tools-omi-resolve-resolve-mjs"
+    },
+    {
+      "bytes": 425,
+      "extension": ".janet",
+      "family": "artifact",
+      "output": "tools-omi-resolve-resolver-janet.omilisp",
+      "relative_path": "tools/omi-resolve/resolver.janet",
+      "sha256": "b9800335e5fcb1476c54eb6c59a00c169424ac02d0170be71b0d660c8407f491",
+      "sid": "mcrsgsp-port.tools-omi-resolve-resolver-janet"
+    },
+    {
+      "bytes": 2054,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "tools-omi-resolve-util-mjs.omilisp",
+      "relative_path": "tools/omi-resolve/util.mjs",
+      "sha256": "b30b4bf62db0c02ee79977ada8dfbeb9a14881536ab683d9b54aeb353a85ba30",
+      "sid": "mcrsgsp-port.tools-omi-resolve-util-mjs"
+    },
+    {
+      "bytes": 565,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "tools-omi-resolve-wordnet-check-mjs.omilisp",
+      "relative_path": "tools/omi-resolve/wordnet-check.mjs",
+      "sha256": "a9db5c15c4e9adc4aa6d1f3c30ec148b911ca596b48331818b9994dd9d042660",
+      "sid": "mcrsgsp-port.tools-omi-resolve-wordnet-check-mjs"
+    },
+    {
+      "bytes": 1984,
+      "extension": ".pl",
+      "family": "declaration",
+      "output": "tools-omi-resolve-wordnet-query-pl.omilisp",
+      "relative_path": "tools/omi-resolve/wordnet-query.pl",
+      "sha256": "4392d6665d12f176fcfe171ea6a262547e208511fb71952163c460cda40fe342",
+      "sid": "mcrsgsp-port.tools-omi-resolve-wordnet-query-pl"
+    },
+    {
+      "bytes": 4464,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "tools-omi-resolve-wordnet-mjs.omilisp",
+      "relative_path": "tools/omi-resolve/wordnet.mjs",
+      "sha256": "588b19c17b3bd6d3abb06282f4636cbc3b80655df1e9ab9cb0bb8a3fd3112237",
+      "sid": "mcrsgsp-port.tools-omi-resolve-wordnet-mjs"
+    },
+    {
+      "bytes": 1980,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "tools-omi-trace-compile-trace-mjs.omilisp",
+      "relative_path": "tools/omi-trace/compile-trace.mjs",
+      "sha256": "3b6f17842fe7652d7e173ac3192a3a55636afcbf7b0759e8b2fb8c4988aab6c3",
+      "sid": "mcrsgsp-port.tools-omi-trace-compile-trace-mjs"
+    },
+    {
+      "bytes": 3173,
+      "extension": ".janet",
+      "family": "artifact",
+      "output": "tools-omi-trace-trace-dsl-janet.omilisp",
+      "relative_path": "tools/omi-trace/trace-dsl.janet",
+      "sha256": "b61669950d20532d87c75a3ea1317824489c7e212d32e6f529b086f1a14d4290",
+      "sid": "mcrsgsp-port.tools-omi-trace-trace-dsl-janet"
+    },
+    {
+      "bytes": 1441,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "tools-omi-trace-util-mjs.omilisp",
+      "relative_path": "tools/omi-trace/util.mjs",
+      "sha256": "e97e0314f514237a3c18c79f6c1fc6735503aff96f7e4f1395d583bfd3be33fc",
+      "sid": "mcrsgsp-port.tools-omi-trace-util-mjs"
+    },
+    {
+      "bytes": 620,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "tools-omi-trace-wordnet-event-types-mjs.omilisp",
+      "relative_path": "tools/omi-trace/wordnet-event-types.mjs",
+      "sha256": "eaebc8bdbfb06271e0fdcf3b96e8fc2885018b638ce137cacbd1adfa6d647039",
+      "sid": "mcrsgsp-port.tools-omi-trace-wordnet-event-types-mjs"
+    },
+    {
+      "bytes": 1984,
+      "extension": ".pl",
+      "family": "declaration",
+      "output": "tools-omi-trace-wordnet-query-pl.omilisp",
+      "relative_path": "tools/omi-trace/wordnet-query.pl",
+      "sha256": "4392d6665d12f176fcfe171ea6a262547e208511fb71952163c460cda40fe342",
+      "sid": "mcrsgsp-port.tools-omi-trace-wordnet-query-pl"
+    },
+    {
+      "bytes": 2464,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "tools-omi-trace-wordnet-mjs.omilisp",
+      "relative_path": "tools/omi-trace/wordnet.mjs",
+      "sha256": "e9e698dcd18ef6380acc6dc64cee8474beb993852a28bf06f66fd6dd7958a298",
+      "sid": "mcrsgsp-port.tools-omi-trace-wordnet-mjs"
+    },
+    {
+      "bytes": 584,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "tsconfig-json.omilisp",
+      "relative_path": "tsconfig.json",
+      "sha256": "6e7db612a866a14194a9751c880a517f5285e5c3ce94ab34cdfd6d51a134b63a",
+      "sid": "mcrsgsp-port.tsconfig-json"
+    },
+    {
+      "bytes": 784,
+      "extension": ".mjs",
+      "family": "code",
+      "output": "version-bump-mjs.omilisp",
+      "relative_path": "version-bump.mjs",
+      "sha256": "f2ebf87d1cbbda8e2e9824f5803d9cb99baadac3be509cc32a5bf67dc3f326d9",
+      "sid": "mcrsgsp-port.version-bump-mjs"
+    },
+    {
+      "bytes": 23,
+      "extension": ".json",
+      "family": "declaration",
+      "output": "versions-json.omilisp",
+      "relative_path": "versions.json",
+      "sha256": "054131a088e6916447d323250004f0c7192069ac534d9e864214f82410c6a1f2",
+      "sid": "mcrsgsp-port.versions-json"
+    }
+  ],
+  "output_root": "/home/main/omi/omi---imo/declarations/mcrsgsp-port",
+  "source_root": "/home/main/omi/omi-vault/.obsidian/plugins/omi-mcrsgsp"
+}

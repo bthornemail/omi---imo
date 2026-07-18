@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-canon-port.archive-00-origin-temp-extracted-html)
+    (title "omi-canon port: _archive/00-origin/temp/Extracted.html")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/_archive/00-origin/temp/Extracted.html")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.archive-00-origin-temp-extracted-html)
+    (locator omi---imo.omi-canon-port)
+    (binding html.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs artifact)
+    (us html))
+  (source-artifact
+    (relative-path "_archive/00-origin/temp/Extracted.html")
+    (extension ".html")
+    (family artifact)
+    (bytes 4194305)
+    (sha256 "359d225e243d3fa3d2fd84efe835790877d858bd44d52728a39ab49325eb999c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1378)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

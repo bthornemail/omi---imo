@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.test-pipe-omi-acceptance-frames-reject-candidate-bad-subset-omi)
+    (title "omi-portal port: test/pipe-omi-acceptance/frames/reject-candidate-bad-subset.omi")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/test/pipe-omi-acceptance/frames/reject-candidate-bad-subset.omi")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.test-pipe-omi-acceptance-frames-reject-candidate-bad-subset-omi)
+    (locator omi---imo.omi-portal-port)
+    (binding omi.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs declaration)
+    (us omi))
+  (source-artifact
+    (relative-path "test/pipe-omi-acceptance/frames/reject-candidate-bad-subset.omi")
+    (extension ".omi")
+    (family declaration)
+    (bytes 209)
+    (sha256 "ee60bb46393449b2159e0fcde859199d1e82471b9713564e732f659a3dbea23d"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 1)
+    (balanced-parens true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

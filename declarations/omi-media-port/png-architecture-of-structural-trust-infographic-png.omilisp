@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.png-architecture-of-structural-trust-infographic-png)
+    (title "omi-media port: png/Architecture_of_Structural_Trust_Infographic.png")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/png/Architecture_of_Structural_Trust_Infographic.png")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.png-architecture-of-structural-trust-infographic-png)
+    (locator omi---imo.omi-media-port)
+    (binding png.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs carrier)
+    (us png))
+  (source-artifact
+    (relative-path "png/Architecture_of_Structural_Trust_Infographic.png")
+    (extension ".png")
+    (family carrier)
+    (bytes 4433418)
+    (sha256 "695adf908c9c2f1b0c5d799cefa3c425ffe0fc3c70f0a3d51d5cc15522424a0b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

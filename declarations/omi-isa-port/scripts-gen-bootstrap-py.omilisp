@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-isa-port.scripts-gen-bootstrap-py)
+    (title "omi-isa port: scripts/gen_bootstrap.py")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/scripts/gen_bootstrap.py")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.scripts-gen-bootstrap-py)
+    (locator omi---imo.omi-isa-port)
+    (binding py.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs code)
+    (us py))
+  (source-artifact
+    (relative-path "scripts/gen_bootstrap.py")
+    (extension ".py")
+    (family code)
+    (bytes 8786)
+    (sha256 "402ef84c2abece458fb27ddb0cb29bc0062a0042c7d9034d7b15f5ad2751e44a"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 283)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

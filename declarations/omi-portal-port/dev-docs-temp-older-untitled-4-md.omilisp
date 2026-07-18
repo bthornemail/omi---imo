@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-portal-port.dev-docs-temp-older-untitled-4-md)
+    (title "omi-portal port: dev-docs/_temp/older/Untitled 4.md")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/dev-docs/_temp/older/Untitled 4.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.dev-docs-temp-older-untitled-4-md)
+    (locator omi---imo.omi-portal-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/_temp/older/Untitled 4.md")
+    (extension ".md")
+    (family document)
+    (bytes 12211)
+    (sha256 "577144f8b4a1b0c6edae52df2b8cd34c37dada492f0c55587a52016d52ab33d7"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 119)
+    (title "\ud83e\udde9 The 5-Term State Transition Matrix")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

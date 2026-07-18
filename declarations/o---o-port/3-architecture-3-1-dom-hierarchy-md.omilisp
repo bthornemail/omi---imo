@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid o---o-port.3-architecture-3-1-dom-hierarchy-md)
+    (title "o---o port: 3_ARCHITECTURE/3.1_DOM_HIERARCHY.md")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/3_ARCHITECTURE/3.1_DOM_HIERARCHY.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.3-architecture-3-1-dom-hierarchy-md)
+    (locator omi---imo.o---o-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "3_ARCHITECTURE/3.1_DOM_HIERARCHY.md")
+    (extension ".md")
+    (family document)
+    (bytes 5335)
+    (sha256 "43957e9880e85d20cc115ef693f2868b891b51d97fef797929a59ba559206a7a"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 105)
+    (title "The DOM Hierarchy: Elements as Register Gates")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

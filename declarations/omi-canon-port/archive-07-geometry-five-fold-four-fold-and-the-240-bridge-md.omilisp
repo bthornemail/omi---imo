@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.archive-07-geometry-five-fold-four-fold-and-the-240-bridge-md)
+    (title "omi-canon port: _archive/07-geometry/FIVE_FOLD_FOUR_FOLD_AND_THE_240_BRIDGE.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/_archive/07-geometry/FIVE_FOLD_FOUR_FOLD_AND_THE_240_BRIDGE.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.archive-07-geometry-five-fold-four-fold-and-the-240-bridge-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "_archive/07-geometry/FIVE_FOLD_FOUR_FOLD_AND_THE_240_BRIDGE.md")
+    (extension ".md")
+    (family document)
+    (bytes 7876)
+    (sha256 "8010db471d1e338332a0a784c076c08e52af1da7f49b1a7378ed141526f90e4b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 326)
+    (title "Five-Fold, Four-Fold, and the 240-State Bridge")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

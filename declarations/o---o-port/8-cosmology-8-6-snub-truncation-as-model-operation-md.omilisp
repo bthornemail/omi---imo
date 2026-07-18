@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid o---o-port.8-cosmology-8-6-snub-truncation-as-model-operation-md)
+    (title "o---o port: 8_COSMOLOGY/8.6_SNUB_TRUNCATION_AS_MODEL_OPERATION.md")
+    (kind o---o.source-candidate)
+    (source "/home/main/omi/o---o/8_COSMOLOGY/8.6_SNUB_TRUNCATION_AS_MODEL_OPERATION.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr o---o-port.8-cosmology-8-6-snub-truncation-as-model-operation-md)
+    (locator omi---imo.o---o-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs o---o)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "8_COSMOLOGY/8.6_SNUB_TRUNCATION_AS_MODEL_OPERATION.md")
+    (extension ".md")
+    (family document)
+    (bytes 2830)
+    (sha256 "259fde01c3ca8d7b01aff381825ec795d519f05ede31530da8f2b88c14e7c392"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 115)
+    (title "Snub Truncation as Model Operation")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

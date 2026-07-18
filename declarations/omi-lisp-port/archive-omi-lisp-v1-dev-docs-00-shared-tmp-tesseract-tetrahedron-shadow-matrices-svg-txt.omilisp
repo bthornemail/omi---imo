@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-tesseract-tetrahedron-shadow-matrices-svg-txt)
+    (title "omi-lisp port: _archive/omi-lisp-v1/dev-docs/00-shared/tmp/Tesseract_tetrahedron_shadow_matrices.svg.txt")
+    (kind omi-lisp.source-candidate)
+    (source "/home/main/omi/omi-lisp/_archive/omi-lisp-v1/dev-docs/00-shared/tmp/Tesseract_tetrahedron_shadow_matrices.svg.txt")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-lisp-port.archive-omi-lisp-v1-dev-docs-00-shared-tmp-tesseract-tetrahedron-shadow-matrices-svg-txt)
+    (locator omi---imo.omi-lisp-port)
+    (binding txt.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-lisp)
+    (rs document)
+    (us txt))
+  (source-artifact
+    (relative-path "_archive/omi-lisp-v1/dev-docs/00-shared/tmp/Tesseract_tetrahedron_shadow_matrices.svg.txt")
+    (extension ".txt")
+    (family document)
+    (bytes 110712)
+    (sha256 "2b9cae9817af1d4370111d987f46abe46111ff208715c5a47fef7df8fab39c2d"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 2100)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-canon-port.archive-projections-md)
+    (title "omi-canon port: _archive/PROJECTIONS.md")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/_archive/PROJECTIONS.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.archive-projections-md)
+    (locator omi---imo.omi-canon-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "_archive/PROJECTIONS.md")
+    (extension ".md")
+    (family document)
+    (bytes 3343)
+    (sha256 "5d0a5205219a3d59b2798325e987c878004fcd97786c9a8ffce484eac39bc93e"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 180)
+    (title "OMI Canon Projections")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

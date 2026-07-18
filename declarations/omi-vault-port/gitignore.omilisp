@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-vault-port.gitignore)
+    (title "omi-vault port: .gitignore")
+    (kind omi-vault.source-candidate)
+    (source "/home/main/omi/omi-vault/.gitignore")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-vault-port.gitignore)
+    (locator omi---imo.omi-vault-port)
+    (binding no-ext.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-vault)
+    (rs untyped)
+    (us no-ext))
+  (source-artifact
+    (relative-path ".gitignore")
+    (extension "[no-ext]")
+    (family untyped)
+    (bytes 222)
+    (sha256 "d92fbb06080c71e42fdb0bf46d51e395a1d357485007dedee0a45151a6eb1ed0"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 16)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

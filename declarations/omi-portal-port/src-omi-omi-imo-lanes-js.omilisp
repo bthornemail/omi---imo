@@ -1,0 +1,53 @@
+(omi
+  (identity
+    (sid omi-portal-port.src-omi-omi-imo-lanes-js)
+    (title "omi-portal port: src/omi/omi-imo-lanes.js")
+    (kind omi-portal.source-candidate)
+    (source "/home/main/omi/omi-portal/src/omi/omi-imo-lanes.js")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-portal-port.src-omi-omi-imo-lanes-js)
+    (locator omi---imo.omi-portal-port)
+    (binding js.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-portal)
+    (rs code)
+    (us js))
+  (source-artifact
+    (relative-path "src/omi/omi-imo-lanes.js")
+    (extension ".js")
+    (family code)
+    (bytes 2293)
+    (sha256 "e49195b5598969805f02a4be3ca3025bd6c6437579bc304094f9b4295589dacd"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 86)
+    (function-count 12)
+    (export-count 14)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

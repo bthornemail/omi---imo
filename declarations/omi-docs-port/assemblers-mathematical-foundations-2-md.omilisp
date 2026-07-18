@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.assemblers-mathematical-foundations-2-md)
+    (title "omi-docs port: assemblers/Mathematical_Foundations (2).md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/assemblers/Mathematical_Foundations (2).md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.assemblers-mathematical-foundations-2-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "assemblers/Mathematical_Foundations (2).md")
+    (extension ".md")
+    (family document)
+    (bytes 29954)
+    (sha256 "f20e867436a3cb70f8dc219d156701e12c49e371dbaa5f62cb151293d41d7ef2"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 929)
+    (title "Mathematical Foundations of Dimensional Descent Computation")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

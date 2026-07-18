@@ -5040,7 +5040,7 @@ That same separation is reinforced in the projection law and witness law.
 
 ### 2. Projection is more clearly non-authoritative
 
-`ATOMIC_PROJECTION_LAW.md` makes a strong reduction move: views, narratives, and surfaces are all downstream projections of invariant state, not alternate truths. The doc frames projection as stateless and derived from the kernel rather than as its own authority surface.  filecite turn3file15 
+`ATOMIC_PROJECTION_LAW.md` makes a strong reduction move: views, narratives, and surfaces are all downstream projections of invariant state, not alternate truths. The doc frames projection as meta-memory and derived from the kernel rather than as its own authority surface.  filecite turn3file15 
 
 That is important because many of the newer docs add richer surfaces, but this document keeps them from becoming competing canonical sources.
 

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.dev-docs-depreciated-reference-final-implementation-complete-files-md)
+    (title "omi-tetragrammatron port: dev-docs/depreciated/Reference-Final Implementation - Complete Files.md")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/dev-docs/depreciated/Reference-Final Implementation - Complete Files.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.dev-docs-depreciated-reference-final-implementation-complete-files-md)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "dev-docs/depreciated/Reference-Final Implementation - Complete Files.md")
+    (extension ".md")
+    (family document)
+    (bytes 80574)
+    (sha256 "5bc79d575b9cf7c670034d5841e2f7dc95ca1a0563a43df835a05226aa76c3d7"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 2622)
+    (title "DEPRECATED / HISTORICAL IMPLEMENTATION SCAFFOLD")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-axioms-port.coq-finiteincidence-glob)
+    (title "omi-axioms port: coq/FiniteIncidence.glob")
+    (kind omi-axioms.source-candidate)
+    (source "/home/main/omi/omi-axioms/coq/FiniteIncidence.glob")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-axioms-port.coq-finiteincidence-glob)
+    (locator omi---imo.omi-axioms-port)
+    (binding glob.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-axioms)
+    (rs artifact)
+    (us glob))
+  (source-artifact
+    (relative-path "coq/FiniteIncidence.glob")
+    (extension ".glob")
+    (family artifact)
+    (bytes 16924)
+    (sha256 "73b46cccbfa6d94774b940d5747311e35cfda7dce0618648590bd479de44073f"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

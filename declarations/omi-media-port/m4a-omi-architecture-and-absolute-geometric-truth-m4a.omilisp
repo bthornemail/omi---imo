@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-media-port.m4a-omi-architecture-and-absolute-geometric-truth-m4a)
+    (title "omi-media port: m4a/OMI_Architecture_and_Absolute_Geometric_Truth.m4a")
+    (kind omi-media.source-candidate)
+    (source "/home/main/omi/omi-media/m4a/OMI_Architecture_and_Absolute_Geometric_Truth.m4a")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-media-port.m4a-omi-architecture-and-absolute-geometric-truth-m4a)
+    (locator omi---imo.omi-media-port)
+    (binding m4a.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-media)
+    (rs artifact)
+    (us m4a))
+  (source-artifact
+    (relative-path "m4a/OMI_Architecture_and_Absolute_Geometric_Truth.m4a")
+    (extension ".m4a")
+    (family artifact)
+    (bytes 44124923)
+    (sha256 "698f8dd51ea246ca2577f120220e9af2c02e89cb69e7503dde4e63fc41170ef2"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

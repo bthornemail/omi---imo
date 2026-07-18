@@ -1,0 +1,1574 @@
+{
+  "count": 172,
+  "extension_counts": {
+    ".aux": 19,
+    ".cache": 3,
+    ".glob": 19,
+    ".md": 19,
+    ".ml": 3,
+    ".mli": 3,
+    ".txt": 1,
+    ".v": 51,
+    ".vo": 17,
+    ".vok": 17,
+    ".vos": 17,
+    "[no-ext]": 3
+  },
+  "family_counts": {
+    "artifact": 149,
+    "document": 20,
+    "untyped": 3
+  },
+  "items": [
+    {
+      "bytes": 219,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "gitignore.omilisp",
+      "relative_path": ".gitignore",
+      "sha256": "f0807e7f6913ff03de67761f5bcb46f86d057a42dc4d1790ca14e8da4f20f8eb",
+      "sid": "omi-axioms-port.gitignore"
+    },
+    {
+      "bytes": 8348,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "makefile.omilisp",
+      "relative_path": "Makefile",
+      "sha256": "c10c01d760dc7f278cc1ccab3416a9434603121bb1652dd44b4ac36317b71f45",
+      "sid": "omi-axioms-port.makefile"
+    },
+    {
+      "bytes": 9917,
+      "extension": ".md",
+      "family": "document",
+      "output": "proof-canonization-md.omilisp",
+      "relative_path": "PROOF_CANONIZATION.md",
+      "sha256": "ea32a6eaeb921e93999748a95b542f3466efa83d35b1c1dc86021c2319b75db7",
+      "sid": "omi-axioms-port.proof-canonization-md"
+    },
+    {
+      "bytes": 2015,
+      "extension": ".md",
+      "family": "document",
+      "output": "readme-md.omilisp",
+      "relative_path": "README.md",
+      "sha256": "fc48ca90f7e3617759caab992d4164c180af0c6a56e63bb11394e1ffb15a6a73",
+      "sid": "omi-axioms-port.readme-md"
+    },
+    {
+      "bytes": 887,
+      "extension": "[no-ext]",
+      "family": "untyped",
+      "output": "coqproject.omilisp",
+      "relative_path": "_CoqProject",
+      "sha256": "7335e9be73539ba26f8e704bc517baf434299f368417776634887d957b5bce66",
+      "sid": "omi-axioms-port.coqproject"
+    },
+    {
+      "bytes": 593,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-atomickernel-aux.omilisp",
+      "relative_path": "coq/.AtomicKernel.aux",
+      "sha256": "a9c86b257f586f41789c6e82a3fe8ee0986a88df29bdbbbb1f7ab8dbc326fd49",
+      "sid": "omi-axioms-port.coq-atomickernel-aux"
+    },
+    {
+      "bytes": 779,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-atomickernelvnext-aux.omilisp",
+      "relative_path": "coq/.AtomicKernelVNext.aux",
+      "sha256": "8bb9c6c456872cd5a6caf488284c6ac60897cf22c3f4acf6aef3844a09cff7bb",
+      "sid": "omi-axioms-port.coq-atomickernelvnext-aux"
+    },
+    {
+      "bytes": 1786,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-bqfbridge-aux.omilisp",
+      "relative_path": "coq/.BQFBridge.aux",
+      "sha256": "dd8d9eb523432e104420d1e6bf87121348018a5579945798741bf30086d32975",
+      "sid": "omi-axioms-port.coq-bqfbridge-aux"
+    },
+    {
+      "bytes": 3229,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-diagonalclosure-aux.omilisp",
+      "relative_path": "coq/.DiagonalClosure.aux",
+      "sha256": "2011f0729c05099a800ebd224576836255ac7c9e1947fb2911631e5757725d08",
+      "sid": "omi-axioms-port.coq-diagonalclosure-aux"
+    },
+    {
+      "bytes": 1898,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-finiteincidence-aux.omilisp",
+      "relative_path": "coq/.FiniteIncidence.aux",
+      "sha256": "1bfeb6ef171c43163711d8d27cfec9ea045b71e59bfd915c9c60b24664a67006",
+      "sid": "omi-axioms-port.coq-finiteincidence-aux"
+    },
+    {
+      "bytes": 3528,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-goldenfield-aux.omilisp",
+      "relative_path": "coq/.GoldenField.aux",
+      "sha256": "649c76e61823d97cfdbc7b1ae9f40427f689aba17f2f40ac30c0bfcea508f686",
+      "sid": "omi-axioms-port.coq-goldenfield-aux"
+    },
+    {
+      "bytes": 121,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-goldenfield06-aux.omilisp",
+      "relative_path": "coq/.GoldenField06.aux",
+      "sha256": "7d282681ca8f136c496885db14b2c3b41fc50feb47c929ccdf65994e2be5007b",
+      "sid": "omi-axioms-port.coq-goldenfield06-aux"
+    },
+    {
+      "bytes": 0,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-goldenquaternion-aux.omilisp",
+      "relative_path": "coq/.GoldenQuaternion.aux",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-goldenquaternion-aux"
+    },
+    {
+      "bytes": 4233,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-metricprojection-aux.omilisp",
+      "relative_path": "coq/.MetricProjection.aux",
+      "sha256": "23aa93cc495362bf16dc8dcbe0c9919c6a39ecfff598b61dc5f430d19701695c",
+      "sid": "omi-axioms-port.coq-metricprojection-aux"
+    },
+    {
+      "bytes": 113,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-omi-exports-aux.omilisp",
+      "relative_path": "coq/.OMI_Exports.aux",
+      "sha256": "a17db5ad2c9d836f875716608bdadc4b17ada0d4084d976383d2b8e9bfb00522",
+      "sid": "omi-axioms-port.coq-omi-exports-aux"
+    },
+    {
+      "bytes": 931,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-omi-bialgebra-aux.omilisp",
+      "relative_path": "coq/.OMI_bialgebra.aux",
+      "sha256": "7adb35e1761d3257b0a5293438f6d1b932c7a1cb0c67e9cec19e85995e17534a",
+      "sid": "omi-axioms-port.coq-omi-bialgebra-aux"
+    },
+    {
+      "bytes": 5581,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-piprojection-aux.omilisp",
+      "relative_path": "coq/.PiProjection.aux",
+      "sha256": "49ac001d01a7af3645ed391132f441d37251bada1f57d398212f0b0b5d92c223",
+      "sid": "omi-axioms-port.coq-piprojection-aux"
+    },
+    {
+      "bytes": 3031,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-vecq-aux.omilisp",
+      "relative_path": "coq/.VecQ.aux",
+      "sha256": "2d2eba2d6ed229d31ba4b59c70d12e545b7157558ee21c53ccb27a15d6e95802",
+      "sid": "omi-axioms-port.coq-vecq-aux"
+    },
+    {
+      "bytes": 1326,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-coalgebraic-bisimulation-aux.omilisp",
+      "relative_path": "coq/.coalgebraic_bisimulation.aux",
+      "sha256": "c1390b7e46987c7c6866292907414e8c0593454aef4bdaed60f1dadcc9348fec",
+      "sid": "omi-axioms-port.coq-coalgebraic-bisimulation-aux"
+    },
+    {
+      "bytes": 2260,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-delta-orbit-theory-aux.omilisp",
+      "relative_path": "coq/.delta_orbit_theory.aux",
+      "sha256": "ed581c33eb30017a5642401e5e2ddbc1a2217c66546b4a20fb86150f5ddf20bf",
+      "sid": "omi-axioms-port.coq-delta-orbit-theory-aux"
+    },
+    {
+      "bytes": 2468,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-functorial-semantics-aux.omilisp",
+      "relative_path": "coq/.functorial_semantics.aux",
+      "sha256": "8cc9140c4f2d4c2fb6575b156aed332df1f974e86a8d97d9c3d8be89fd12a26c",
+      "sid": "omi-axioms-port.coq-functorial-semantics-aux"
+    },
+    {
+      "bytes": 522,
+      "extension": ".cache",
+      "family": "artifact",
+      "output": "coq-lia-cache.omilisp",
+      "relative_path": "coq/.lia.cache",
+      "sha256": "16232995833084259e0f1fca7942cd5cbf6a0df7abc4162e31a380e48037cd4b",
+      "sid": "omi-axioms-port.coq-lia-cache"
+    },
+    {
+      "bytes": 258,
+      "extension": ".cache",
+      "family": "artifact",
+      "output": "coq-nia-cache.omilisp",
+      "relative_path": "coq/.nia.cache",
+      "sha256": "1282f9d7f9ea9d4818d55dbfd983a66a7f3b865b2e48abb6ab610cc20f25bc68",
+      "sid": "omi-axioms-port.coq-nia-cache"
+    },
+    {
+      "bytes": 323,
+      "extension": ".cache",
+      "family": "artifact",
+      "output": "coq-nra-cache.omilisp",
+      "relative_path": "coq/.nra.cache",
+      "sha256": "1d9595a876784beb11ac48aa2afc2d9fbf71b130dbac2a3cb80c03d464eed762",
+      "sid": "omi-axioms-port.coq-nra-cache"
+    },
+    {
+      "bytes": 835,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-omi-pi-bridge-aux.omilisp",
+      "relative_path": "coq/.omi_pi_bridge.aux",
+      "sha256": "97613ce189f0bbb7e5f48f9508930b6b329214f08e29c884f19fa47ff65a4657",
+      "sid": "omi-axioms-port.coq-omi-pi-bridge-aux"
+    },
+    {
+      "bytes": 114,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-omi-pi-proof-aux.omilisp",
+      "relative_path": "coq/.omi_pi_proof.aux",
+      "sha256": "2683e8abaea29a8b11f9ce3b4bc9274e69a45dc8f28ea6713826e36b222c231e",
+      "sid": "omi-axioms-port.coq-omi-pi-proof-aux"
+    },
+    {
+      "bytes": 3446,
+      "extension": ".aux",
+      "family": "artifact",
+      "output": "coq-verified-execution-aux.omilisp",
+      "relative_path": "coq/.verified_execution.aux",
+      "sha256": "d48ae4a78fd520efa27e6ac963ef23806ebe48f4f6700c88c551d1f669b475e5",
+      "sid": "omi-axioms-port.coq-verified-execution-aux"
+    },
+    {
+      "bytes": 5634,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-atomickernel-glob.omilisp",
+      "relative_path": "coq/AtomicKernel.glob",
+      "sha256": "22cb86c667638afb5a4920282d3cf3d2fcadb544db27f057678e86284bd4c85d",
+      "sid": "omi-axioms-port.coq-atomickernel-glob"
+    },
+    {
+      "bytes": 1328,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-atomickernel-v.omilisp",
+      "relative_path": "coq/AtomicKernel.v",
+      "sha256": "115a851d9ba92b61db5436bff14783212f1f2917d7da5197f85f1212348c7469",
+      "sid": "omi-axioms-port.coq-atomickernel-v"
+    },
+    {
+      "bytes": 20218,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-atomickernel-vo.omilisp",
+      "relative_path": "coq/AtomicKernel.vo",
+      "sha256": "6a667336caffe6cee0db6b5930bef0453756cfa88ca474ff820aa63dd309382e",
+      "sid": "omi-axioms-port.coq-atomickernel-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-atomickernel-vok.omilisp",
+      "relative_path": "coq/AtomicKernel.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-atomickernel-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-atomickernel-vos.omilisp",
+      "relative_path": "coq/AtomicKernel.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-atomickernel-vos"
+    },
+    {
+      "bytes": 7256,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-atomickernelvnext-glob.omilisp",
+      "relative_path": "coq/AtomicKernelVNext.glob",
+      "sha256": "82a6c01b30cc100611cea71aaa19c661030dbb60986a6ee87bd636b81f39bd00",
+      "sid": "omi-axioms-port.coq-atomickernelvnext-glob"
+    },
+    {
+      "bytes": 1965,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-atomickernelvnext-v.omilisp",
+      "relative_path": "coq/AtomicKernelVNext.v",
+      "sha256": "ed87ce513b4f69ce0ecd40762007d3e7fb736c4bfa405a5c95dc8972214c8616",
+      "sid": "omi-axioms-port.coq-atomickernelvnext-v"
+    },
+    {
+      "bytes": 20996,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-atomickernelvnext-vo.omilisp",
+      "relative_path": "coq/AtomicKernelVNext.vo",
+      "sha256": "ece5cebfca05e0506d1371f194f54d2cf7f157c157ee786ad79733f36990e928",
+      "sid": "omi-axioms-port.coq-atomickernelvnext-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-atomickernelvnext-vok.omilisp",
+      "relative_path": "coq/AtomicKernelVNext.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-atomickernelvnext-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-atomickernelvnext-vos.omilisp",
+      "relative_path": "coq/AtomicKernelVNext.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-atomickernelvnext-vos"
+    },
+    {
+      "bytes": 11498,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-bqfbridge-glob.omilisp",
+      "relative_path": "coq/BQFBridge.glob",
+      "sha256": "e4d866dd603480a05dc59728653bfb1c6226a92927a1cc598ab1118a16bcf455",
+      "sid": "omi-axioms-port.coq-bqfbridge-glob"
+    },
+    {
+      "bytes": 3456,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-bqfbridge-v.omilisp",
+      "relative_path": "coq/BQFBridge.v",
+      "sha256": "73242374721c69dad3c9e597b6922490148a5701e836d9038c848e8c195aa599",
+      "sid": "omi-axioms-port.coq-bqfbridge-v"
+    },
+    {
+      "bytes": 42920,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-bqfbridge-vo.omilisp",
+      "relative_path": "coq/BQFBridge.vo",
+      "sha256": "8d81ffeb427a9df70945a85fec5ed52986436e645c05b242be4ef94d03f2b8ea",
+      "sid": "omi-axioms-port.coq-bqfbridge-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-bqfbridge-vok.omilisp",
+      "relative_path": "coq/BQFBridge.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-bqfbridge-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-bqfbridge-vos.omilisp",
+      "relative_path": "coq/BQFBridge.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-bqfbridge-vos"
+    },
+    {
+      "bytes": 3222,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-bitmaskclosure03-v.omilisp",
+      "relative_path": "coq/BitmaskClosure03.v",
+      "sha256": "7e5418076b81ad5d1176eabbc84e88803ae857457594901955c3adc143443f71",
+      "sid": "omi-axioms-port.coq-bitmaskclosure03-v"
+    },
+    {
+      "bytes": 29582,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-diagonalclosure-glob.omilisp",
+      "relative_path": "coq/DiagonalClosure.glob",
+      "sha256": "745fff1c9faf5c513fa9c8b81336ad506554ad440bd3cb77f7174037774d4dcc",
+      "sid": "omi-axioms-port.coq-diagonalclosure-glob"
+    },
+    {
+      "bytes": 8499,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-diagonalclosure-v.omilisp",
+      "relative_path": "coq/DiagonalClosure.v",
+      "sha256": "713e75bac84293d5f9c12c0014ea985d072a3fb1c98b5065b3a0c5fa51a09918",
+      "sid": "omi-axioms-port.coq-diagonalclosure-v"
+    },
+    {
+      "bytes": 53554,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-diagonalclosure-vo.omilisp",
+      "relative_path": "coq/DiagonalClosure.vo",
+      "sha256": "526d4e50aa68353912965cea27f192b4bc1228d4e5492f8e6097b78b0856d777",
+      "sid": "omi-axioms-port.coq-diagonalclosure-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-diagonalclosure-vok.omilisp",
+      "relative_path": "coq/DiagonalClosure.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-diagonalclosure-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-diagonalclosure-vos.omilisp",
+      "relative_path": "coq/DiagonalClosure.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-diagonalclosure-vos"
+    },
+    {
+      "bytes": 4683,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-e8roots-v.omilisp",
+      "relative_path": "coq/E8Roots.v",
+      "sha256": "9c1da29a08240612ff3c481eb7d7438ab6e0a53e699a54b03c87434c1757caca",
+      "sid": "omi-axioms-port.coq-e8roots-v"
+    },
+    {
+      "bytes": 3933,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-e8roots11-v.omilisp",
+      "relative_path": "coq/E8Roots11.v",
+      "sha256": "9337531e3b9af113022d13e95bcfcec6a70b68be96cdc92f7b44c16a7e1e8d18",
+      "sid": "omi-axioms-port.coq-e8roots11-v"
+    },
+    {
+      "bytes": 4253,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-fanoincidence-v.omilisp",
+      "relative_path": "coq/FanoIncidence.v",
+      "sha256": "7bc296293ccaa4580d60eb76ae24641c635cf96b35a1f378856c8800df401b5c",
+      "sid": "omi-axioms-port.coq-fanoincidence-v"
+    },
+    {
+      "bytes": 2785,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-fanoincidence02-v.omilisp",
+      "relative_path": "coq/FanoIncidence02.v",
+      "sha256": "35dad498a324a53ce3610bbecc9de895f17e0ddb40ee8e26d9f2ad70b4e92f29",
+      "sid": "omi-axioms-port.coq-fanoincidence02-v"
+    },
+    {
+      "bytes": 1883,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-finitebasics01-v.omilisp",
+      "relative_path": "coq/FiniteBasics01.v",
+      "sha256": "f8020eeec16579335864e4f282f19f8d1942d954ece0e53bae7739ac7ce98a57",
+      "sid": "omi-axioms-port.coq-finitebasics01-v"
+    },
+    {
+      "bytes": 16924,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-finiteincidence-glob.omilisp",
+      "relative_path": "coq/FiniteIncidence.glob",
+      "sha256": "73b46cccbfa6d94774b940d5747311e35cfda7dce0618648590bd479de44073f",
+      "sid": "omi-axioms-port.coq-finiteincidence-glob"
+    },
+    {
+      "bytes": 5024,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-finiteincidence-v.omilisp",
+      "relative_path": "coq/FiniteIncidence.v",
+      "sha256": "c1417fba8be34d753e44d6489c89c89c8d0cbebe0daccf559d45e2d514e6467e",
+      "sid": "omi-axioms-port.coq-finiteincidence-v"
+    },
+    {
+      "bytes": 59934,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-finiteincidence-vo.omilisp",
+      "relative_path": "coq/FiniteIncidence.vo",
+      "sha256": "3b941aafd637b6b2ec5b23353126ca87847d781dfc1813bf41ce83d9939cea0b",
+      "sid": "omi-axioms-port.coq-finiteincidence-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-finiteincidence-vok.omilisp",
+      "relative_path": "coq/FiniteIncidence.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-finiteincidence-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-finiteincidence-vos.omilisp",
+      "relative_path": "coq/FiniteIncidence.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-finiteincidence-vos"
+    },
+    {
+      "bytes": 4159,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-gaugetable05-v.omilisp",
+      "relative_path": "coq/GaugeTable05.v",
+      "sha256": "3276b65e6554f9aae78540e02ed4bbdbb31d259c0a7faa39ef9c155e14243204",
+      "sid": "omi-axioms-port.coq-gaugetable05-v"
+    },
+    {
+      "bytes": 20908,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-goldenfield-glob.omilisp",
+      "relative_path": "coq/GoldenField.glob",
+      "sha256": "58abcada1f9d1deb532327b7cba6c1f8e3282cc1cffc1285c703256cd4d028ec",
+      "sid": "omi-axioms-port.coq-goldenfield-glob"
+    },
+    {
+      "bytes": 5677,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-goldenfield-v.omilisp",
+      "relative_path": "coq/GoldenField.v",
+      "sha256": "00864ac32d90e068543b5117e4e5f368ddeefc7f76ca79a83ff499c45bb5c265",
+      "sid": "omi-axioms-port.coq-goldenfield-v"
+    },
+    {
+      "bytes": 67689,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-goldenfield-vo.omilisp",
+      "relative_path": "coq/GoldenField.vo",
+      "sha256": "7d6c134b8c60a0afaebad0a1fdff597681d8319242ad28fda0d2adfa4350eed6",
+      "sid": "omi-axioms-port.coq-goldenfield-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-goldenfield-vok.omilisp",
+      "relative_path": "coq/GoldenField.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-goldenfield-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-goldenfield-vos.omilisp",
+      "relative_path": "coq/GoldenField.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-goldenfield-vos"
+    },
+    {
+      "bytes": 4965,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-goldenfield06-glob.omilisp",
+      "relative_path": "coq/GoldenField06.glob",
+      "sha256": "9f5bb508df09b090ed5931513e60c4611cce1bfa2f6c2e651d2fc49c78bee45e",
+      "sid": "omi-axioms-port.coq-goldenfield06-glob"
+    },
+    {
+      "bytes": 3926,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-goldenfield06-v.omilisp",
+      "relative_path": "coq/GoldenField06.v",
+      "sha256": "e6bec60a4a9e87e1b7313ddb8f65e3ed64a498b46d02d891ad1e85dcc2abe34e",
+      "sid": "omi-axioms-port.coq-goldenfield06-v"
+    },
+    {
+      "bytes": 0,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-goldenquaternion-glob.omilisp",
+      "relative_path": "coq/GoldenQuaternion.glob",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-goldenquaternion-glob"
+    },
+    {
+      "bytes": 7700,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-goldenquaternion-v.omilisp",
+      "relative_path": "coq/GoldenQuaternion.v",
+      "sha256": "5e65dc836869f7adbef269a4bdd7c2473e0389b8935bc1b412e897eb3bd52174",
+      "sid": "omi-axioms-port.coq-goldenquaternion-v"
+    },
+    {
+      "bytes": 5612,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-goldenquaternion07-v.omilisp",
+      "relative_path": "coq/GoldenQuaternion07.v",
+      "sha256": "6c780893ad4fdefb3bc31d2431a84b40a5e3e910133cdb3161eb4dd2ed6a917a",
+      "sid": "omi-axioms-port.coq-goldenquaternion07-v"
+    },
+    {
+      "bytes": 2606,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-hopfprojection13-v.omilisp",
+      "relative_path": "coq/HopfProjection13.v",
+      "sha256": "7a8fc84b2d11ddf1b11bbb2b0e6d5d26b5056317254f61e4aa18d27b6161cca9",
+      "sid": "omi-axioms-port.coq-hopfprojection13-v"
+    },
+    {
+      "bytes": 4803,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-icosianspan-v.omilisp",
+      "relative_path": "coq/IcosianSpan.v",
+      "sha256": "4c84e0a1f8fff82f06c1a4fa68f385365b045eaf160e31e3aa1b9cf75963061b",
+      "sid": "omi-axioms-port.coq-icosianspan-v"
+    },
+    {
+      "bytes": 6997,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-icosianunits-v.omilisp",
+      "relative_path": "coq/IcosianUnits.v",
+      "sha256": "c74dd0a4ea6cc00102a2d406cb21c3b93a4f06db0008c6986a548e13801523d0",
+      "sid": "omi-axioms-port.coq-icosianunits-v"
+    },
+    {
+      "bytes": 4793,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-icosianunits08-v.omilisp",
+      "relative_path": "coq/IcosianUnits08.v",
+      "sha256": "01f3836263c6974a40167e78e76dd93e4ccf325a87dc4a854786fc867c25c43b",
+      "sid": "omi-axioms-port.coq-icosianunits08-v"
+    },
+    {
+      "bytes": 4227,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-karnaughreduction04-v.omilisp",
+      "relative_path": "coq/KarnaughReduction04.v",
+      "sha256": "19f8676fc76d97968a45cba71fb7cb24573701a9f4c3b43885a6994763bf53a0",
+      "sid": "omi-axioms-port.coq-karnaughreduction04-v"
+    },
+    {
+      "bytes": 38563,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-metricprojection-glob.omilisp",
+      "relative_path": "coq/MetricProjection.glob",
+      "sha256": "6dfb884ece86c247576709d50450f8b18194c1b0b448e493cbbefc947a23e94c",
+      "sid": "omi-axioms-port.coq-metricprojection-glob"
+    },
+    {
+      "bytes": 8945,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-metricprojection-v.omilisp",
+      "relative_path": "coq/MetricProjection.v",
+      "sha256": "00c71aa2c476b78db163f7034160aa4ecb0b106f0a159faf12265c7ba4722e90",
+      "sid": "omi-axioms-port.coq-metricprojection-v"
+    },
+    {
+      "bytes": 62635,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-metricprojection-vo.omilisp",
+      "relative_path": "coq/MetricProjection.vo",
+      "sha256": "c4b9003b09a258cd8a89029e297b014552ca3d78d88769fd4c2ff3e48c75a2ae",
+      "sid": "omi-axioms-port.coq-metricprojection-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-metricprojection-vok.omilisp",
+      "relative_path": "coq/MetricProjection.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-metricprojection-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-metricprojection-vos.omilisp",
+      "relative_path": "coq/MetricProjection.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-metricprojection-vos"
+    },
+    {
+      "bytes": 220,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-omi-exports-glob.omilisp",
+      "relative_path": "coq/OMI_Exports.glob",
+      "sha256": "1d80fb23112528169ac75b8b3c2321a83df525f9f47eb7aa37b286829f3570b2",
+      "sid": "omi-axioms-port.coq-omi-exports-glob"
+    },
+    {
+      "bytes": 460,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-omi-exports-v.omilisp",
+      "relative_path": "coq/OMI_Exports.v",
+      "sha256": "8517a9008e8e62372f58aa0a6d9e1004c6e5f50745c05069dccc62995acecb62",
+      "sid": "omi-axioms-port.coq-omi-exports-v"
+    },
+    {
+      "bytes": 28926,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-omi-exports-vo.omilisp",
+      "relative_path": "coq/OMI_Exports.vo",
+      "sha256": "54042f3292789706e2da162cf68e274d1bf895e560116daab50fe817f5cbff44",
+      "sid": "omi-axioms-port.coq-omi-exports-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-omi-exports-vok.omilisp",
+      "relative_path": "coq/OMI_Exports.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-omi-exports-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-omi-exports-vos.omilisp",
+      "relative_path": "coq/OMI_Exports.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-omi-exports-vos"
+    },
+    {
+      "bytes": 13610,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-omi-bialgebra-glob.omilisp",
+      "relative_path": "coq/OMI_bialgebra.glob",
+      "sha256": "431d95acd273abdbf9b65bcc09bbb873af26fa1e389123e74b864c7b0284ce6b",
+      "sid": "omi-axioms-port.coq-omi-bialgebra-glob"
+    },
+    {
+      "bytes": 8558,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-omi-bialgebra-v.omilisp",
+      "relative_path": "coq/OMI_bialgebra.v",
+      "sha256": "eecff41fee3146547c3d215c13194d7efc9289f7bfb9ee6b23534057f9bb52e1",
+      "sid": "omi-axioms-port.coq-omi-bialgebra-v"
+    },
+    {
+      "bytes": 33628,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-omi-bialgebra-vo.omilisp",
+      "relative_path": "coq/OMI_bialgebra.vo",
+      "sha256": "aa8f12a50069b083a91f9c3cda97805f920c32cc94212ebd6198a142a99dda78",
+      "sid": "omi-axioms-port.coq-omi-bialgebra-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-omi-bialgebra-vok.omilisp",
+      "relative_path": "coq/OMI_bialgebra.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-omi-bialgebra-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-omi-bialgebra-vos.omilisp",
+      "relative_path": "coq/OMI_bialgebra.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-omi-bialgebra-vos"
+    },
+    {
+      "bytes": 5521,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-omiringicosian-v.omilisp",
+      "relative_path": "coq/OmiRingIcosian.v",
+      "sha256": "566e1cc5d600a838623c9ccff1df5fc1ece552c33985174fd27c6a41d46f776e",
+      "sid": "omi-axioms-port.coq-omiringicosian-v"
+    },
+    {
+      "bytes": 4689,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-omiringquotation-v.omilisp",
+      "relative_path": "coq/OmiRingQuotation.v",
+      "sha256": "65886e98dc6c39e491336de49a51e88717b2e3abd0775d0e00c1d1c4c034b456",
+      "sid": "omi-axioms-port.coq-omiringquotation-v"
+    },
+    {
+      "bytes": 4182,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-omiringstep09-v.omilisp",
+      "relative_path": "coq/OmiRingStep09.v",
+      "sha256": "6706595f98992145ab611ea2fb3a675c53a6793e8eeb256e86c0073848690a6f",
+      "sid": "omi-axioms-port.coq-omiringstep09-v"
+    },
+    {
+      "bytes": 38952,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-piprojection-glob.omilisp",
+      "relative_path": "coq/PiProjection.glob",
+      "sha256": "b38251e58995ae440eb2d3382ad4610fb3301e0fce48885d3ee2633dc162d12e",
+      "sid": "omi-axioms-port.coq-piprojection-glob"
+    },
+    {
+      "bytes": 12313,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-piprojection-v.omilisp",
+      "relative_path": "coq/PiProjection.v",
+      "sha256": "9b5ae4f521271f9dc715dcaaa3b10c5b6e0a3ef4b8653117d1dc1e32983cc5b5",
+      "sid": "omi-axioms-port.coq-piprojection-v"
+    },
+    {
+      "bytes": 62421,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-piprojection-vo.omilisp",
+      "relative_path": "coq/PiProjection.vo",
+      "sha256": "b930dbfc219068dec1e0821dac01e09451865e7f4044e7ae4dde731ecf74fb3d",
+      "sid": "omi-axioms-port.coq-piprojection-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-piprojection-vok.omilisp",
+      "relative_path": "coq/PiProjection.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-piprojection-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-piprojection-vos.omilisp",
+      "relative_path": "coq/PiProjection.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-piprojection-vos"
+    },
+    {
+      "bytes": 1884,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-pinchbranchlocalforms14-v.omilisp",
+      "relative_path": "coq/PinchBranchLocalForms14.v",
+      "sha256": "ffc89937616a30c4f0e6fd48fc3cbfe8500a690b95af17e6bf379d8560b1fa87",
+      "sid": "omi-axioms-port.coq-pinchbranchlocalforms14-v"
+    },
+    {
+      "bytes": 6447,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-proofregistry15-v.omilisp",
+      "relative_path": "coq/ProofRegistry15.v",
+      "sha256": "d185c5efc31615379b833587081a6cada0ecb9e0bf130091948885496010440c",
+      "sid": "omi-axioms-port.coq-proofregistry15-v"
+    },
+    {
+      "bytes": 1879,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-proofstatus00-v.omilisp",
+      "relative_path": "coq/ProofStatus00.v",
+      "sha256": "f04cc660cf42722a6392cf419660bc5b71fa33c9bab48c011e734333c2d159e0",
+      "sid": "omi-axioms-port.coq-proofstatus00-v"
+    },
+    {
+      "bytes": 3467,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-relationalquotation10-v.omilisp",
+      "relative_path": "coq/RelationalQuotation10.v",
+      "sha256": "d5afed4780d1d9d4f9d3da453a27e441adde9fdd1a0b53f7b3eb1d62b1143834",
+      "sid": "omi-axioms-port.coq-relationalquotation10-v"
+    },
+    {
+      "bytes": 18955,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-vecq-glob.omilisp",
+      "relative_path": "coq/VecQ.glob",
+      "sha256": "95f153b4d356f22c8c0e7035e4b1ef1273da9023867ed701b8ae7aae3e897296",
+      "sid": "omi-axioms-port.coq-vecq-glob"
+    },
+    {
+      "bytes": 5883,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-vecq-v.omilisp",
+      "relative_path": "coq/VecQ.v",
+      "sha256": "4cef57233b7d6696f28c8d3d7aef988e0afc20ee36a2d8e17a0dd14a5edcd3c0",
+      "sid": "omi-axioms-port.coq-vecq-v"
+    },
+    {
+      "bytes": 50330,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-vecq-vo.omilisp",
+      "relative_path": "coq/VecQ.vo",
+      "sha256": "f007705af697b818ebf7f8a08b43338ff0093df4bd7574738700978c9ffb11d0",
+      "sid": "omi-axioms-port.coq-vecq-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-vecq-vok.omilisp",
+      "relative_path": "coq/VecQ.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-vecq-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-vecq-vos.omilisp",
+      "relative_path": "coq/VecQ.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-vecq-vos"
+    },
+    {
+      "bytes": 2644,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-weylreflection-v.omilisp",
+      "relative_path": "coq/WeylReflection.v",
+      "sha256": "92dc57df12c139d0a50d3efe1cbc843236372225bf5ba63107c673f8262b7547",
+      "sid": "omi-axioms-port.coq-weylreflection-v"
+    },
+    {
+      "bytes": 2650,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-weylreflection12-v.omilisp",
+      "relative_path": "coq/WeylReflection12.v",
+      "sha256": "1e78e0aa3c078ab7066bed4ee80c10a1c22b474b653d07585fbb58ee0a6eb429",
+      "sid": "omi-axioms-port.coq-weylreflection12-v"
+    },
+    {
+      "bytes": 22859,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-coalgebraic-bisimulation-glob.omilisp",
+      "relative_path": "coq/coalgebraic_bisimulation.glob",
+      "sha256": "858be526e27fccfc60277412014ba06414f5c97eda5f231229e9bbddc395d082",
+      "sid": "omi-axioms-port.coq-coalgebraic-bisimulation-glob"
+    },
+    {
+      "bytes": 5856,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-coalgebraic-bisimulation-v.omilisp",
+      "relative_path": "coq/coalgebraic_bisimulation.v",
+      "sha256": "0146d7287055c63979b892c50e2448e363d0cf5947d59fe63bd4496b59c39351",
+      "sid": "omi-axioms-port.coq-coalgebraic-bisimulation-v"
+    },
+    {
+      "bytes": 67189,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-coalgebraic-bisimulation-vo.omilisp",
+      "relative_path": "coq/coalgebraic_bisimulation.vo",
+      "sha256": "50624d507f5c9a67790e9e2ae5488da8c5687fc41cda04accab48ac1d8090f43",
+      "sid": "omi-axioms-port.coq-coalgebraic-bisimulation-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-coalgebraic-bisimulation-vok.omilisp",
+      "relative_path": "coq/coalgebraic_bisimulation.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-coalgebraic-bisimulation-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-coalgebraic-bisimulation-vos.omilisp",
+      "relative_path": "coq/coalgebraic_bisimulation.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-coalgebraic-bisimulation-vos"
+    },
+    {
+      "bytes": 31381,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-delta-orbit-theory-glob.omilisp",
+      "relative_path": "coq/delta_orbit_theory.glob",
+      "sha256": "fdfe49c11239f04d1a6f0c716a47d20b06b8d0015071c2d8d6592ec304d0f194",
+      "sid": "omi-axioms-port.coq-delta-orbit-theory-glob"
+    },
+    {
+      "bytes": 9806,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-delta-orbit-theory-v.omilisp",
+      "relative_path": "coq/delta_orbit_theory.v",
+      "sha256": "57cbd2e2ef886b021a1fa6e126cda4f6c35e15aee5640325209667c5ac585da0",
+      "sid": "omi-axioms-port.coq-delta-orbit-theory-v"
+    },
+    {
+      "bytes": 47209,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-delta-orbit-theory-vo.omilisp",
+      "relative_path": "coq/delta_orbit_theory.vo",
+      "sha256": "50a1931543ffaa069c35b6667e821863f87f5b21211cda08368c1f2d3b8b50ad",
+      "sid": "omi-axioms-port.coq-delta-orbit-theory-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-delta-orbit-theory-vok.omilisp",
+      "relative_path": "coq/delta_orbit_theory.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-delta-orbit-theory-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-delta-orbit-theory-vos.omilisp",
+      "relative_path": "coq/delta_orbit_theory.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-delta-orbit-theory-vos"
+    },
+    {
+      "bytes": 28162,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-functorial-semantics-glob.omilisp",
+      "relative_path": "coq/functorial_semantics.glob",
+      "sha256": "1163c07af19eb328eff7dc100ffa6c89b18c961c9caed408d34f447b38ed2c18",
+      "sid": "omi-axioms-port.coq-functorial-semantics-glob"
+    },
+    {
+      "bytes": 12036,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-functorial-semantics-v.omilisp",
+      "relative_path": "coq/functorial_semantics.v",
+      "sha256": "0c6e2be23b2a59d3b4050d66b2044b07d0a646595f0f64c43c0bfe786f29010f",
+      "sid": "omi-axioms-port.coq-functorial-semantics-v"
+    },
+    {
+      "bytes": 42490,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-functorial-semantics-vo.omilisp",
+      "relative_path": "coq/functorial_semantics.vo",
+      "sha256": "2ae6a46d04186c83929c7f143c06bb69b34492d272e345786e6d2127d363422f",
+      "sid": "omi-axioms-port.coq-functorial-semantics-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-functorial-semantics-vok.omilisp",
+      "relative_path": "coq/functorial_semantics.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-functorial-semantics-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-functorial-semantics-vos.omilisp",
+      "relative_path": "coq/functorial_semantics.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-functorial-semantics-vos"
+    },
+    {
+      "bytes": 3251,
+      "extension": ".ml",
+      "family": "artifact",
+      "output": "coq-omi-bialgebra-extracted-ml.omilisp",
+      "relative_path": "coq/omi_bialgebra_extracted.ml",
+      "sha256": "0b24bc05ae5a6aad6b917be43808245e03eaec2439360283a898352bd6d5c7f9",
+      "sid": "omi-axioms-port.coq-omi-bialgebra-extracted-ml"
+    },
+    {
+      "bytes": 1525,
+      "extension": ".mli",
+      "family": "artifact",
+      "output": "coq-omi-bialgebra-extracted-mli.omilisp",
+      "relative_path": "coq/omi_bialgebra_extracted.mli",
+      "sha256": "15ee7a8ec1a11440214ad08c9b42bcc7512135a32b34ff7b770245d0bf48ab94",
+      "sid": "omi-axioms-port.coq-omi-bialgebra-extracted-mli"
+    },
+    {
+      "bytes": 11496,
+      "extension": ".ml",
+      "family": "artifact",
+      "output": "coq-omi-extracted-ml.omilisp",
+      "relative_path": "coq/omi_extracted.ml",
+      "sha256": "6f80a8eacc3cf6e00bec2aae337ab3dd8446b184ed89f5836b39cbba0ea041b9",
+      "sid": "omi-axioms-port.coq-omi-extracted-ml"
+    },
+    {
+      "bytes": 2645,
+      "extension": ".mli",
+      "family": "artifact",
+      "output": "coq-omi-extracted-mli.omilisp",
+      "relative_path": "coq/omi_extracted.mli",
+      "sha256": "089640bcc32e9000b6f235dfd19cb559435443ce91b3aba0450d403454e45399",
+      "sid": "omi-axioms-port.coq-omi-extracted-mli"
+    },
+    {
+      "bytes": 6803,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-omi-pi-bridge-glob.omilisp",
+      "relative_path": "coq/omi_pi_bridge.glob",
+      "sha256": "798cbff1711b8ffa40239e6976440bec2d125e75672ea8a8a4319c1781fa8019",
+      "sid": "omi-axioms-port.coq-omi-pi-bridge-glob"
+    },
+    {
+      "bytes": 3466,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-omi-pi-bridge-v.omilisp",
+      "relative_path": "coq/omi_pi_bridge.v",
+      "sha256": "159593094537d190bf86b013e46f7e0f7eb83b5d79f642e6937df338a20c8d33",
+      "sid": "omi-axioms-port.coq-omi-pi-bridge-v"
+    },
+    {
+      "bytes": 37975,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-omi-pi-bridge-vo.omilisp",
+      "relative_path": "coq/omi_pi_bridge.vo",
+      "sha256": "d514373cc6baf6f1639e50ca93632caa1276457abce81e6cb2ef07fa5500e1d8",
+      "sid": "omi-axioms-port.coq-omi-pi-bridge-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-omi-pi-bridge-vok.omilisp",
+      "relative_path": "coq/omi_pi_bridge.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-omi-pi-bridge-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-omi-pi-bridge-vos.omilisp",
+      "relative_path": "coq/omi_pi_bridge.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-omi-pi-bridge-vos"
+    },
+    {
+      "bytes": 85,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-omi-pi-proof-glob.omilisp",
+      "relative_path": "coq/omi_pi_proof.glob",
+      "sha256": "a2aca9a397b964fe35e12f78de1ee7b1df37a8338a121eb17940794c3c6a0067",
+      "sid": "omi-axioms-port.coq-omi-pi-proof-glob"
+    },
+    {
+      "bytes": 298,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-omi-pi-proof-v.omilisp",
+      "relative_path": "coq/omi_pi_proof.v",
+      "sha256": "53d65fd4bdbe77e5ed9f1ad77755b3e7bf5f8a0e36a658c6646a9781fddf8801",
+      "sid": "omi-axioms-port.coq-omi-pi-proof-v"
+    },
+    {
+      "bytes": 28830,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-omi-pi-proof-vo.omilisp",
+      "relative_path": "coq/omi_pi_proof.vo",
+      "sha256": "4d7021157370d04c32921e8d39178ae1442d40dcc526f67370e6bcfd3ec0af86",
+      "sid": "omi-axioms-port.coq-omi-pi-proof-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-omi-pi-proof-vok.omilisp",
+      "relative_path": "coq/omi_pi_proof.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-omi-pi-proof-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-omi-pi-proof-vos.omilisp",
+      "relative_path": "coq/omi_pi_proof.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-omi-pi-proof-vos"
+    },
+    {
+      "bytes": 4385,
+      "extension": ".ml",
+      "family": "artifact",
+      "output": "coq-omi-verified-extracted-ml.omilisp",
+      "relative_path": "coq/omi_verified_extracted.ml",
+      "sha256": "8240d7b9d2b502ca8962b2221db8e4c0ef24dfb2c6a2eda6a3dff4c82a715953",
+      "sid": "omi-axioms-port.coq-omi-verified-extracted-ml"
+    },
+    {
+      "bytes": 1165,
+      "extension": ".mli",
+      "family": "artifact",
+      "output": "coq-omi-verified-extracted-mli.omilisp",
+      "relative_path": "coq/omi_verified_extracted.mli",
+      "sha256": "dd23304cfececcb2bfd1ee34f6fc58b741ebf7ca0c7c266f315240a5a11da319",
+      "sid": "omi-axioms-port.coq-omi-verified-extracted-mli"
+    },
+    {
+      "bytes": 28889,
+      "extension": ".glob",
+      "family": "artifact",
+      "output": "coq-verified-execution-glob.omilisp",
+      "relative_path": "coq/verified_execution.glob",
+      "sha256": "b3db624fca004819db1a13a29881e7200dd0546d09b50f30a60cce53ab246520",
+      "sid": "omi-axioms-port.coq-verified-execution-glob"
+    },
+    {
+      "bytes": 9744,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "coq-verified-execution-v.omilisp",
+      "relative_path": "coq/verified_execution.v",
+      "sha256": "3e6cad3b0096fed928179a104fe5ac91997ad97cacad918a9168f77332adf7f1",
+      "sid": "omi-axioms-port.coq-verified-execution-v"
+    },
+    {
+      "bytes": 38595,
+      "extension": ".vo",
+      "family": "artifact",
+      "output": "coq-verified-execution-vo.omilisp",
+      "relative_path": "coq/verified_execution.vo",
+      "sha256": "f44571d03462c402b64c637808757ede941ea97d30a49c4cc5517a298155b335",
+      "sid": "omi-axioms-port.coq-verified-execution-vo"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vok",
+      "family": "artifact",
+      "output": "coq-verified-execution-vok.omilisp",
+      "relative_path": "coq/verified_execution.vok",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-verified-execution-vok"
+    },
+    {
+      "bytes": 0,
+      "extension": ".vos",
+      "family": "artifact",
+      "output": "coq-verified-execution-vos.omilisp",
+      "relative_path": "coq/verified_execution.vos",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sid": "omi-axioms-port.coq-verified-execution-vos"
+    },
+    {
+      "bytes": 11745,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "dev-docs-aal-v.omilisp",
+      "relative_path": "dev-docs/AAL.v",
+      "sha256": "1b012486f229243b10880902feff326e32c32dc87dd06e8cacd00332cd077607",
+      "sid": "omi-axioms-port.dev-docs-aal-v"
+    },
+    {
+      "bytes": 2064,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "dev-docs-atomickernelcoq-v.omilisp",
+      "relative_path": "dev-docs/AtomicKernelCoq.v",
+      "sha256": "fbfc35c64a208a9b4463542f3adbf7ce17587055e3aa76df86d44a5761fb9f05",
+      "sid": "omi-axioms-port.dev-docs-atomickernelcoq-v"
+    },
+    {
+      "bytes": 4286,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "dev-docs-complexity-v.omilisp",
+      "relative_path": "dev-docs/Complexity.v",
+      "sha256": "94864f5cfb65f8d26a9a1fd59836bb2f035aaff2f08568fe827b2cfa0c7de33f",
+      "sid": "omi-axioms-port.dev-docs-complexity-v"
+    },
+    {
+      "bytes": 15320,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "dev-docs-cyclicclock-v.omilisp",
+      "relative_path": "dev-docs/CyclicClock.v",
+      "sha256": "32def27c7a5a2889a820abb0413b5a4e1c2cd9deafafd9ad15c231e965cf32e5",
+      "sid": "omi-axioms-port.dev-docs-cyclicclock-v"
+    },
+    {
+      "bytes": 16557,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "dev-docs-fano-pcg-v.omilisp",
+      "relative_path": "dev-docs/Fano_PCG.v",
+      "sha256": "39ad3f72d469989dfeac9db4e7c5bdb7559eb6659a006d8da23873b7425c26fb",
+      "sid": "omi-axioms-port.dev-docs-fano-pcg-v"
+    },
+    {
+      "bytes": 14237,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "dev-docs-identitychain-v.omilisp",
+      "relative_path": "dev-docs/IdentityChain.v",
+      "sha256": "a1c6d78a51d83e66f51743566304053a8c998294e88b875501ad2a50a243aadb",
+      "sid": "omi-axioms-port.dev-docs-identitychain-v"
+    },
+    {
+      "bytes": 3002,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "dev-docs-kernel-v.omilisp",
+      "relative_path": "dev-docs/KERNEL.v",
+      "sha256": "7307629b1ee0bbeb01bc179443df35bfa170fd6654e63d1f9a5b1343f295d52d",
+      "sid": "omi-axioms-port.dev-docs-kernel-v"
+    },
+    {
+      "bytes": 17173,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-proof-suite-proposal-md.omilisp",
+      "relative_path": "dev-docs/OMI Proof Suite Proposal.md",
+      "sha256": "e996fe106ae45cdb799942154571a8c117febd40c521ce6986785b217f81e173",
+      "sid": "omi-axioms-port.dev-docs-omi-proof-suite-proposal-md"
+    },
+    {
+      "bytes": 8312,
+      "extension": ".md",
+      "family": "document",
+      "output": "dev-docs-omi-ring-icosian-coq-inquiry-md.omilisp",
+      "relative_path": "dev-docs/OMI-RING-ICOSIAN-COQ-INQUIRY.md",
+      "sha256": "69e7242c0245fc9297a9b62f2cf0d93fac1955543a58bbdc73a2754bf539ab2b",
+      "sid": "omi-axioms-port.dev-docs-omi-ring-icosian-coq-inquiry-md"
+    },
+    {
+      "bytes": 11911,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "dev-docs-polynomials-v.omilisp",
+      "relative_path": "dev-docs/Polynomials.v",
+      "sha256": "8ec3e88d43d319d09633601c205122c8057c6396caec5937bbc67aa9d6310870",
+      "sid": "omi-axioms-port.dev-docs-polynomials-v"
+    },
+    {
+      "bytes": 27888,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "dev-docs-sabbathprotocol-v.omilisp",
+      "relative_path": "dev-docs/SabbathProtocol.v",
+      "sha256": "512c8218532bcdcec9ffad5a739113ad44c89ed317640c3d655554f30154e481",
+      "sid": "omi-axioms-port.dev-docs-sabbathprotocol-v"
+    },
+    {
+      "bytes": 510,
+      "extension": ".v",
+      "family": "artifact",
+      "output": "dev-docs-extract-v.omilisp",
+      "relative_path": "dev-docs/extract.v",
+      "sha256": "8ec5407eca145b90deb25ca8d03170a81185cf9d907ef374b38b2af8f2412a94",
+      "sid": "omi-axioms-port.dev-docs-extract-v"
+    },
+    {
+      "bytes": 3306,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-boundary-interior-framework-md.omilisp",
+      "relative_path": "docs/BOUNDARY-INTERIOR-FRAMEWORK.md",
+      "sha256": "c790e01053232daada2258f073043d758756331cf35ab15daddcd220364c9fd4",
+      "sid": "omi-axioms-port.docs-boundary-interior-framework-md"
+    },
+    {
+      "bytes": 4037,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-canonization-adjudication-md.omilisp",
+      "relative_path": "docs/CANONIZATION-ADJUDICATION.md",
+      "sha256": "21e673e97c33ac602c4340bd96f78b586bf24854c62cc359abad85024254211b",
+      "sid": "omi-axioms-port.docs-canonization-adjudication-md"
+    },
+    {
+      "bytes": 864,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-layering-md.omilisp",
+      "relative_path": "docs/LAYERING.md",
+      "sha256": "fb9ef3932e004c966a91f2ad6557dbf955de58cfad5c1bf8e689320e3877dfa4",
+      "sid": "omi-axioms-port.docs-layering-md"
+    },
+    {
+      "bytes": 2532,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-miquel-kernel-md.omilisp",
+      "relative_path": "docs/MIQUEL-KERNEL.md",
+      "sha256": "9146bef81405ac39e243f08234a78308e2c32c278195d3e97c0507520ba08147",
+      "sid": "omi-axioms-port.docs-miquel-kernel-md"
+    },
+    {
+      "bytes": 3754,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-mobius-kantor-kernel-md.omilisp",
+      "relative_path": "docs/MOBIUS-KANTOR-KERNEL.md",
+      "sha256": "8790baa0f3b321b462910099ee101fc40dfc51859ac5086e2b5e36f68abaf3d0",
+      "sid": "omi-axioms-port.docs-mobius-kantor-kernel-md"
+    },
+    {
+      "bytes": 3073,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-operational-reality-boundary-md.omilisp",
+      "relative_path": "docs/OPERATIONAL-REALITY-BOUNDARY.md",
+      "sha256": "2bd4c098991161ae619beb324d106cbe2c92daa0ec170de03c373fa4060a8fab",
+      "sid": "omi-axioms-port.docs-operational-reality-boundary-md"
+    },
+    {
+      "bytes": 3011,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-pappus-hesse-pipeline-md.omilisp",
+      "relative_path": "docs/PAPPUS-HESSE-PIPELINE.md",
+      "sha256": "7e0ca2f019db07ea60bbf92469dc64719f85c8fe41541c31ce1a66586e309483",
+      "sid": "omi-axioms-port.docs-pappus-hesse-pipeline-md"
+    },
+    {
+      "bytes": 3536,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-proof-adjudication-md.omilisp",
+      "relative_path": "docs/PROOF-ADJUDICATION.md",
+      "sha256": "65afdd1e25bb3f09151dda186534a9b3d0744fb98d4569c4dd9d94b0dc6eeea7",
+      "sid": "omi-axioms-port.docs-proof-adjudication-md"
+    },
+    {
+      "bytes": 3981,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-proof-complex-md.omilisp",
+      "relative_path": "docs/PROOF-COMPLEX.md",
+      "sha256": "a423398125d0905d5b45a5a774e14e70175a3beb88f0370cf32454c5cba95a0e",
+      "sid": "omi-axioms-port.docs-proof-complex-md"
+    },
+    {
+      "bytes": 783,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-proof-history-md.omilisp",
+      "relative_path": "docs/PROOF-HISTORY.md",
+      "sha256": "068f7dfbf582b866248ca40f129bd350455b48d3e3a78d567f4c50ffadf9d252",
+      "sid": "omi-axioms-port.docs-proof-history-md"
+    },
+    {
+      "bytes": 6956,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-proof-spine-md.omilisp",
+      "relative_path": "docs/PROOF-SPINE.md",
+      "sha256": "f139abc1e2cf67111e322ab67f2c44a4b9f5606c81241a3efb5484365ef2b119",
+      "sid": "omi-axioms-port.docs-proof-spine-md"
+    },
+    {
+      "bytes": 3659,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-proof-suite-blueprint-md.omilisp",
+      "relative_path": "docs/PROOF-SUITE-BLUEPRINT.md",
+      "sha256": "343a6f305a9ff79f63e4a3b37fbb86a6510a4b11cf56063d01fca1ab39211d3d",
+      "sid": "omi-axioms-port.docs-proof-suite-blueprint-md"
+    },
+    {
+      "bytes": 2391,
+      "extension": ".md",
+      "family": "document",
+      "output": "docs-systole-invariants-md.omilisp",
+      "relative_path": "docs/SYSTOLE-INVARIANTS.md",
+      "sha256": "1551f740d8fc41a3b3b6d49ffff94f20af89746d28d2fd05bed0d069f0b5b1e8",
+      "sid": "omi-axioms-port.docs-systole-invariants-md"
+    },
+    {
+      "bytes": 93642,
+      "extension": ".md",
+      "family": "document",
+      "output": "research-history-06-omi-reduction-logos-and-computation-comparison-md.omilisp",
+      "relative_path": "research-history/06-omi-reduction/logos-and-computation-comparison.md",
+      "sha256": "b55c8d170610996e7dd3915efb898966fd05fc0e5245e7ab917da1a350988a71",
+      "sid": "omi-axioms-port.research-history-06-omi-reduction-logos-and-computation-comparison-md"
+    },
+    {
+      "bytes": 358767,
+      "extension": ".md",
+      "family": "document",
+      "output": "research-history-06-omi-reduction-n-sphere-vs-n-ball-md.omilisp",
+      "relative_path": "research-history/06-omi-reduction/n-sphere-vs-n-ball.md",
+      "sha256": "d9aa9a637974d3c2a0fd2b0fe3791fab1391cc1195a3a565215fabe0d4db7c9c",
+      "sid": "omi-axioms-port.research-history-06-omi-reduction-n-sphere-vs-n-ball-md"
+    },
+    {
+      "bytes": 2166,
+      "extension": ".txt",
+      "family": "document",
+      "output": "tree-txt.omilisp",
+      "relative_path": "tree.txt",
+      "sha256": "4eed9c30e4ad74fa99381c967e3d887a28a72c5dd71b5de16367cb174ba9e5de",
+      "sid": "omi-axioms-port.tree-txt"
+    }
+  ],
+  "output_root": "/home/main/omi/omi---imo/declarations/omi-axioms-port",
+  "source_root": "/home/main/omi/omi-axioms"
+}

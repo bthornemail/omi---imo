@@ -1,0 +1,54 @@
+(omi
+  (identity
+    (sid omnicron-port.logic-contracts-canonicality-attestation-schema-json)
+    (title "omnicron port: logic/contracts/canonicality_attestation.schema.json")
+    (kind omnicron.source-candidate)
+    (source "/home/main/omi/omnicron/logic/contracts/canonicality_attestation.schema.json")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omnicron-port.logic-contracts-canonicality-attestation-schema-json)
+    (locator omi---imo.omnicron-port)
+    (binding json.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omnicron)
+    (rs declaration)
+    (us json))
+  (source-artifact
+    (relative-path "logic/contracts/canonicality_attestation.schema.json")
+    (extension ".json")
+    (family declaration)
+    (bytes 1481)
+    (sha256 "c4602e6a12c211e3ede1b86e6dc54a9a7a58be0f0db266ba43f0ab18139632fa"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 48)
+    (json-valid true)
+    (json-kind "object")
+    (json-key-count 7)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-lisp-port.archive-omi-lisp-v1-omi-canonical-diagram-lisp)
+    (title "omi-lisp port: _archive/omi-lisp-v1/omi_canonical_diagram.lisp")
+    (kind omi-lisp.source-candidate)
+    (source "/home/main/omi/omi-lisp/_archive/omi-lisp-v1/omi_canonical_diagram.lisp")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-lisp-port.archive-omi-lisp-v1-omi-canonical-diagram-lisp)
+    (locator omi---imo.omi-lisp-port)
+    (binding lisp.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-lisp)
+    (rs declaration)
+    (us lisp))
+  (source-artifact
+    (relative-path "_archive/omi-lisp-v1/omi_canonical_diagram.lisp")
+    (extension ".lisp")
+    (family declaration)
+    (bytes 1547)
+    (sha256 "91c86bddd1724cf9da63694619c57303f169e4be069b4eb38ec6c0335ee1fa6b"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 58)
+    (balanced-parens true)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

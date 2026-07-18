@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.core-omi-o)
+    (title "omi-tetragrammatron port: core/omi.o")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/core/omi.o")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.core-omi-o)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding o.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs artifact)
+    (us o))
+  (source-artifact
+    (relative-path "core/omi.o")
+    (extension ".o")
+    (family artifact)
+    (bytes 13744)
+    (sha256 "4091c10e181f5b8909ea6006769193f19cff0a55fd2650ed3707040049a6b6ee"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

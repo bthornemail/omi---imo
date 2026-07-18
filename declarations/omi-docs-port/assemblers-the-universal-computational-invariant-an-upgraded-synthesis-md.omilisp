@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.assemblers-the-universal-computational-invariant-an-upgraded-synthesis-md)
+    (title "omi-docs port: assemblers/The Universal Computational Invariant - An Upgraded Synthesis.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/assemblers/The Universal Computational Invariant - An Upgraded Synthesis.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.assemblers-the-universal-computational-invariant-an-upgraded-synthesis-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "assemblers/The Universal Computational Invariant - An Upgraded Synthesis.md")
+    (extension ".md")
+    (family document)
+    (bytes 20135)
+    (sha256 "91095e4edcd55d636e4ee8a930131a4ce335565b253a602d090e4a1c8013c140"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 509)
+    (title "The Universal Computational Invariant: An Upgraded Synthesis")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,51 @@
+(omi
+  (identity
+    (sid omi-isa-port.media-gl-16-2-orbit-model-gl-16-2-orbit-model-txt)
+    (title "omi-isa port: media/GL(16,2) Orbit Model/GL(16,2) Orbit Model.txt")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/media/GL(16,2) Orbit Model/GL(16,2) Orbit Model.txt")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.media-gl-16-2-orbit-model-gl-16-2-orbit-model-txt)
+    (locator omi---imo.omi-isa-port)
+    (binding txt.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs document)
+    (us txt))
+  (source-artifact
+    (relative-path "media/GL(16,2) Orbit Model/GL(16,2) Orbit Model.txt")
+    (extension ".txt")
+    (family document)
+    (bytes 7589)
+    (sha256 "0798c130fa0dd462d716e06a52a23256fbcd6904736c4b0204648b01aaa84c2c"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 63)
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-canon-port.mirrors-combinators-imo)
+    (title "omi-canon port: mirrors/COMBINATORS.imo")
+    (kind omi-canon.source-candidate)
+    (source "/home/main/omi/omi-canon/mirrors/COMBINATORS.imo")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-canon-port.mirrors-combinators-imo)
+    (locator omi---imo.omi-canon-port)
+    (binding imo.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-canon)
+    (rs artifact)
+    (us imo))
+  (source-artifact
+    (relative-path "mirrors/COMBINATORS.imo")
+    (extension ".imo")
+    (family artifact)
+    (bytes 507)
+    (sha256 "272e5cdec65521b0c7eac3457f25e5df556b858e6321e10a2848cc64bdbdff6f"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

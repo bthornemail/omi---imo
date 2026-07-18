@@ -1,0 +1,52 @@
+(omi
+  (identity
+    (sid omi-docs-port.omi-canvas-chat-hstory-md)
+    (title "omi-docs port: omi-canvas_chat_hstory.md")
+    (kind omi-docs.source-candidate)
+    (source "/home/main/omi/omi-docs/omi-canvas_chat_hstory.md")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-docs-port.omi-canvas-chat-hstory-md)
+    (locator omi---imo.omi-docs-port)
+    (binding md.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-docs)
+    (rs document)
+    (us md))
+  (source-artifact
+    (relative-path "omi-canvas_chat_hstory.md")
+    (extension ".md")
+    (family document)
+    (bytes 256415)
+    (sha256 "b87ed9c3a3754c2d3266d85eef9e94eb3a02f330caadb0a183d85e5be53b5992"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (line-count 7742)
+    (title "Update Blackboard Evaluation")
+    (text-readable true)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

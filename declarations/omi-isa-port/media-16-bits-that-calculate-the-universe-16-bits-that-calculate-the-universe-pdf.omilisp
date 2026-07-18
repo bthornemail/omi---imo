@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-isa-port.media-16-bits-that-calculate-the-universe-16-bits-that-calculate-the-universe-pdf)
+    (title "omi-isa port: media/16 bits that calculate the universe/16 bits that calculate the universe.pdf")
+    (kind omi-isa.source-candidate)
+    (source "/home/main/omi/omi-isa/media/16 bits that calculate the universe/16 bits that calculate the universe.pdf")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-isa-port.media-16-bits-that-calculate-the-universe-16-bits-that-calculate-the-universe-pdf)
+    (locator omi---imo.omi-isa-port)
+    (binding pdf.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-isa)
+    (rs carrier)
+    (us pdf))
+  (source-artifact
+    (relative-path "media/16 bits that calculate the universe/16 bits that calculate the universe.pdf")
+    (extension ".pdf")
+    (family carrier)
+    (bytes 55138)
+    (sha256 "d43f4506b782f90eebee7fe32ccc089b7f8fd52d956bc07e644fc3f37596f6fe"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))

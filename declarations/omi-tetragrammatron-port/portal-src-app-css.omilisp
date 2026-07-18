@@ -1,0 +1,50 @@
+(omi
+  (identity
+    (sid omi-tetragrammatron-port.portal-src-app-css)
+    (title "omi-tetragrammatron port: portal/src/App.css")
+    (kind omi-tetragrammatron.source-candidate)
+    (source "/home/main/omi/omi-tetragrammatron/portal/src/App.css")
+    (reference "/home/main/omi/omi-lisp/SPEC.md")
+    (reference "/home/main/omi/omi-lisp/LOWERING.md")
+    (reference "/home/main/omi/omi-isa/README.md"))
+  (address
+    (addr omi-tetragrammatron-port.portal-src-app-css)
+    (locator omi---imo.omi-tetragrammatron-port)
+    (binding css.source-carrier.v0))
+  (scope
+    (fs omi)
+    (gs omi-tetragrammatron)
+    (rs artifact)
+    (us css))
+  (source-artifact
+    (relative-path "portal/src/App.css")
+    (extension ".css")
+    (family artifact)
+    (bytes 3047)
+    (sha256 "df98b935b219f76990a961a09e1d12a499e09ebf671dfbf4f202d912a8ea9888"))
+  (authority
+    (declaration candidate)
+    (accepted-state false)
+    (validation downstream)
+    (receipt pending)
+    (carrier-authority false))
+  (omi-lisp-boundary
+    (pre-header unary-control)
+    (sp-boundary required-before-dot)
+    (lowering-target typed-construction-candidate))
+  (conversion
+    (method metadata-and-typed-source-summary)
+    (source-content-copied false)
+    (runtime-state-copied false)
+    (receipt-created false))
+  (metrics
+    (text-readable false)
+    (metric-version 1))
+  (projections
+    (lazy source-reference)
+    (greedy typed-summary)
+    (static manifest)
+    (animated none))
+  (receipts
+    (identity pending)
+    (projection pending)))
